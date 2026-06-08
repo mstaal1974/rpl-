@@ -23,6 +23,8 @@ from .mapping_engine import (run_mapping, run_gap_analysis, analyse_knowledge_re
     generate_knowledge_questions_for_unit, evaluate_knowledge_answer_detailed)
 from .orchestrator import (orchestrate_rpl_assessment, orchestrate_multi_unit_assessment)
 from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
+from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
+    adaptive_scenario_turn)
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
     submit_assessment, complete_assessment,
@@ -341,6 +343,12 @@ class IndustryContextRequest(BaseModel):
     assessment_id: str
     industry_context: str
     industry_sector: str = ""
+
+class ProfileExperienceRequest(BaseModel):
+    assessment_id: str
+    resume_text: str = ""             # falls back to progress.candidate_notes.resume
+    unit_codes: list[str] = []        # defaults to the assessment's units
+    industry_context: str = ""
 
 
 # ── Health ─────────────────────────────────────────────────────────────────────
@@ -2341,6 +2349,156 @@ Return JSON:
         return result
     except Exception as e:
         raise HTTPException(500, str(e))
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RÉSUMÉ-DRIVEN ADAPTIVE / BRANCHING ENGINE
+# Stage 1 profiling (trainer) → Stage 2 plan + Stage 3 branching turns (student)
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _resume_text_from(progress: dict, candidate: dict, override: str = "") -> str:
+    """Resolve résumé text from the request override, saved notes, or candidate."""
+    if override:
+        return override
+    notes = (progress or {}).get("candidate_notes", {}) or {}
+    return (notes.get("resume") or notes.get("resume_text") or
+            (candidate or {}).get("resume", "") or "")
+
+
+@app.post("/api/assessment/profile-experience")
+async def profile_experience(req: ProfileExperienceRequest,
+                             user: dict = Depends(current_user)):
+    """
+    Stage 1 — profile the candidate's experience from their résumé and map it
+    onto every PC (CONFIRM / PROBE / EXPLORE / GAP). Trainer-initiated; the
+    result is saved to progress so the adaptive conversation can reuse it.
+    """
+    assessment = await get_assessment(req.assessment_id)
+    _check_record_tenant(assessment, user)
+    candidate = assessment.get("candidate", {})
+    progress  = assessment.get("progress", {})
+    codes     = req.unit_codes or assessment.get("unit_codes", [])
+    units     = [registry.get(c) for c in codes if registry.get(c)]
+    if not units:
+        raise HTTPException(404, "No valid units found for this assessment.")
+    resume_text = _resume_text_from(progress, candidate, req.resume_text)
+    industry    = req.industry_context or progress.get("industry_context", "")
+    try:
+        profile = await profile_candidate_experience(
+            get_client(), MODEL, units, candidate, resume_text, industry)
+    except Exception as e:
+        raise HTTPException(500, str(e))
+    progress["adaptive_profile"] = profile
+    await save_progress(req.assessment_id, progress)
+    await save_assessment(req.assessment_id, "adaptive_profile", profile)
+    return profile
+
+
+@app.post("/api/conversation/adaptive/start")
+async def adaptive_start(data: dict):
+    """
+    Stage 2 — start an adaptive conversation for one unit. Authenticated by the
+    candidate's invite token. Lazily profiles experience and builds the scenario
+    plan if not already present, then returns the first scenario.
+    """
+    token         = data.get("token", "")
+    assessment_id = data.get("assessment_id", "")
+    unit_code     = data.get("unit_code", "")
+    assessment    = await _verify_student_token(token, assessment_id)
+
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    candidate = assessment.get("candidate", {})
+    progress  = assessment.get("progress", {})
+    industry  = progress.get("industry_context", "")
+
+    # Reuse a saved profile, or build one now from the résumé.
+    profile = progress.get("adaptive_profile")
+    if not profile:
+        resume_text = _resume_text_from(progress, candidate)
+        try:
+            profile = await profile_candidate_experience(
+                get_client(), MODEL, [unit], candidate, resume_text, industry)
+        except Exception as e:
+            raise HTTPException(500, f"Experience profiling failed: {e}")
+        progress["adaptive_profile"] = profile
+
+    # Reuse a saved plan for this unit, or build one now.
+    plans = progress.get("adaptive_plans", {})
+    plan  = plans.get(unit_code)
+    if not plan:
+        try:
+            plan = await build_adaptive_plan(
+                get_client(), MODEL, unit, profile, candidate, industry)
+        except Exception as e:
+            raise HTTPException(500, f"Adaptive plan failed: {e}")
+        plans[unit_code] = plan
+        progress["adaptive_plans"] = plans
+
+    await save_progress(assessment_id, progress)
+
+    steps = plan.get("plan", [])
+    return {
+        "assessment_id": assessment_id,
+        "unit_code":     unit_code,
+        "unit_title":    unit.title,
+        "profile_summary": profile.get("experience_profile", {}).get("summary", ""),
+        "recommended_pathway": profile.get("recommended_pathway", ""),
+        "plan_summary":  plan.get("plan_summary", ""),
+        "total_steps":   len(steps),
+        "first_step":    steps[0] if steps else None,
+        "plan":          steps,
+    }
+
+
+@app.post("/api/conversation/adaptive/turn")
+async def adaptive_turn(data: dict):
+    """
+    Stage 3 — one branching turn. Authenticated by the candidate's invite token.
+    Analyses the answer (content + résumé-consistency + AI-usage) and returns the
+    branch decision and the next scenario.
+    """
+    token         = data.get("token", "")
+    assessment_id = data.get("assessment_id", "")
+    unit_code     = data.get("unit_code", "")
+    pc_id         = data.get("pc_id", "")
+    scenario      = data.get("scenario", {}) or {}
+    dialogue      = data.get("dialogue_history", []) or []
+    latest_answer = data.get("latest_answer", "")
+    turn_number   = int(data.get("turn_number", 1))
+    max_turns     = int(data.get("max_turns", 4))
+
+    assessment = await _verify_student_token(token, assessment_id)
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+    if len((latest_answer or "").split()) < 3:
+        raise HTTPException(400, "Response too short")
+
+    progress = assessment.get("progress", {})
+    candidate = assessment.get("candidate", {})
+    profile = progress.get("adaptive_profile", {}) or {}
+
+    # Prior candidate answers in this dialogue — used for style/AI comparison.
+    prior_answers = [t.get("content", "") for t in dialogue
+                     if t.get("role") == "candidate" and t.get("content")]
+
+    try:
+        result = await adaptive_scenario_turn(
+            get_client(), MODEL, unit, pc_id, scenario, dialogue,
+            latest_answer, profile, candidate, turn_number, max_turns,
+            prior_answers)
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+    await save_assessment(assessment_id,
+        f"adaptive_turn_{unit_code}_{pc_id}_{turn_number}", {
+            "unit_code": unit_code, "pc_id": pc_id, "turn": turn_number,
+            "answer": latest_answer, "analysis": result,
+            "timestamp": datetime.now(timezone.utc).isoformat()})
+    return result
 
 
 # ══════════════════════════════════════════════════════════════════════════════
