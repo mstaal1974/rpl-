@@ -1270,9 +1270,120 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
     html += '</div>';
   }
 
+  html += renderAdaptiveInterviews(progress, pcAnalysis);
+
   html += '</div></div>';
   return html;
 }
+
+// ── Adaptive interview results (résumé-driven, branching) ──────────────────────
+// This is where the AI-usage / authenticity signals stored per turn are surfaced
+// to the assessor (they are deliberately NOT shown to the candidate).
+function _aiRiskStyle(prob){
+  const col ={LOW:'var(--mt)',MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'}[prob]||'var(--mt)';
+  const bg  ={LOW:'var(--mb)',MEDIUM:'var(--pb)',HIGH:'#F5F3FF',VERY_HIGH:'var(--rb)'}[prob]||'var(--mb)';
+  const icon={LOW:'✓',MEDIUM:'⚑',HIGH:'⚠',VERY_HIGH:'🚨'}[prob]||'✓';
+  return {col,bg,icon};
+}
+const _ADAPT_BRANCH  ={DEEPEN:'Deepen',CHALLENGE:'Challenge (authenticity)',PIVOT:'Pivot',ADVANCE:'Advance',GAP:'Gap'};
+const _ADAPT_PRIORITY={CONFIRM:'Confirm',PROBE:'Probe',EXPLORE:'Explore',GAP:'No résumé evidence'};
+
+function renderAdaptiveInterviews(progress, pcAnalysis){
+  const records=(progress?.adaptive_records||[]).filter(r=>(r.dialogue||[]).length);
+  const state  = progress?.adaptive_state||{};
+  if(!records.length) return '';
+
+  let html=`<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+    <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
+      🧭 Adaptive interview — résumé-driven · AI-usage &amp; authenticity
+    </div>`;
+
+  // Résumé profile / plan summary (per unit), if captured
+  Object.entries(state).forEach(([uc,st])=>{
+    if(st && (st.profileSummary||st.planSummary)){
+      html+=`<div style="font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:8px;padding:7px 9px;background:var(--ib);border:1px solid #BFD9FE;border-radius:6px">
+        <strong style="font-family:'DM Mono',monospace">${uc}</strong>${st.profileSummary?' · '+st.profileSummary:''}${st.planSummary?'<br><span style="color:var(--faint)">'+st.planSummary+'</span>':''}</div>`;
+    }
+  });
+
+  records.forEach(rec=>{
+    const isSat=rec.final_judgement==='Satisfactory';
+    const pct=rec.final_confidence?Math.round(rec.final_confidence*100):null;
+    const candTurns=(rec.dialogue||[]).filter(t=>t.role==='candidate');
+    // Aggregate integrity signals across the topic (max AI score, worst verdict)
+    const maxAI=candTurns.reduce((m,t)=>Math.max(m,(t.authenticity?.ai_usage?.score)||0),0);
+    const aiProb=maxAI>=65?'VERY_HIGH':maxAI>=45?'HIGH':maxAI>=25?'MEDIUM':'LOW';
+    const verdicts=candTurns.map(t=>t.authenticity?.verdict).filter(Boolean);
+    const authVerdict=verdicts.includes('SUSPECT')?'SUSPECT':verdicts.includes('UNCERTAIN')?'UNCERTAIN':verdicts.length?'AUTHENTIC':'';
+    const ai=_aiRiskStyle(aiProb);
+    const trail=(rec.branch_trail||[]).map(b=>_ADAPT_BRANCH[b.decision]||b.decision).filter((v,i,a)=>a.indexOf(v)===i);
+    if(rec.close_decision) trail.push(_ADAPT_BRANCH[rec.close_decision]||rec.close_decision);
+
+    html+=`<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px">
+      <div style="padding:8px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${rec.unit||''} · ${rec.pc||''}</span>
+        ${rec.priority?`<span class="chip" style="background:var(--off);color:var(--muted)">${_ADAPT_PRIORITY[rec.priority]||rec.priority}</span>`:''}
+        <div style="margin-left:auto;display:flex;align-items:center;gap:6px">
+          ${rec.final_judgement?`<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--ma)':'var(--pa)'};color:#fff">${rec.final_judgement}</span>`:''}
+          ${pct!==null?`<span style="font-size:10px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">${pct}%</span>`:''}
+        </div>
+      </div>
+
+      <!-- Integrity summary -->
+      <div style="padding:8px 12px;border-bottom:1px solid var(--border);display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+        <span style="display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:10px;background:${ai.bg}">
+          <span style="font-size:10px">${ai.icon}</span>
+          <span style="font-size:9px;font-weight:600;color:${ai.col}">AI risk: ${aiProb} (${maxAI}%)</span>
+        </span>
+        ${authVerdict?`<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${authVerdict==='SUSPECT'?'var(--rb)':authVerdict==='UNCERTAIN'?'var(--pb)':'var(--mb)'};color:${authVerdict==='SUSPECT'?'var(--rt)':authVerdict==='UNCERTAIN'?'var(--pt)':'var(--mt)'}">Authenticity: ${authVerdict}</span>`:''}
+        ${trail.length?`<span style="font-size:9px;color:var(--muted)">Path: ${trail.join(' → ')}</span>`:''}
+      </div>
+
+      ${rec.pc_text?`<div style="padding:7px 12px;font-size:10px;color:var(--muted);border-bottom:1px solid var(--border)"><strong>PC:</strong> ${rec.pc_text}</div>`:''}
+
+      <!-- Dialogue transcript with per-turn integrity detail -->
+      <div style="padding:10px 12px">
+        ${(rec.dialogue||[]).map(turn=>{
+          const isCand=turn.role==='candidate';
+          const a=turn.analysis||{};
+          const au=turn.authenticity||{};
+          const aiu=au.ai_usage||{};
+          const branchLbl=turn.branch?(_ADAPT_BRANCH[turn.branch]||turn.branch):'';
+          let block=`<div style="display:flex;gap:8px;margin-bottom:9px;align-items:flex-start">
+            <div style="width:60px;flex-shrink:0;text-align:right;padding-top:6px"><span style="font-size:9px;font-weight:700;color:${isCand?'var(--green)':'var(--navy)'}">${isCand?'Candidate':'AI guide'}</span></div>
+            <div style="flex:1">
+              ${!isCand&&branchLbl?`<div style="font-size:8px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">⤳ ${branchLbl}</div>`:''}
+              <div style="padding:8px 10px;border-radius:${isCand?'10px 10px 2px 10px':'2px 10px 10px 10px'};border:1px solid var(--border);background:${isCand?'#fff':'var(--off)'};font-size:11px;line-height:1.65">${turn.content||''}</div>`;
+          if(isCand){
+            const tpct=a.confidence!=null?Math.round(a.confidence*100):null;
+            const tProb=aiu.probability||'';
+            const tStyle=_aiRiskStyle(tProb||'LOW');
+            block+=`<div style="margin-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+              ${tpct!==null?`<span style="font-size:9px;font-weight:600;color:${tpct>=70?'var(--mt)':tpct>=50?'var(--pt)':'var(--rt)'}">${a.judgement||''} ${tpct}%</span>`:''}
+              ${tProb&&tProb!=='LOW'?`<span style="font-size:9px;font-weight:600;color:${tStyle.col}">${tStyle.icon} AI ${tProb} (${aiu.score||0}%)</span>`:''}
+              ${au.verdict&&au.verdict!=='AUTHENTIC'?`<span style="font-size:9px;color:${au.verdict==='SUSPECT'?'var(--rt)':'var(--pt)'}">⚑ ${au.verdict}</span>`:''}
+              ${au.consistent_with_resume===false?`<span style="font-size:9px;color:var(--rt)">⚠ résumé mismatch</span>`:''}
+            </div>`;
+            if((a.demonstrated||[]).length) block+=`<div style="margin-top:3px;font-size:9px;color:var(--mt)">✓ ${(a.demonstrated||[]).join('; ').substring(0,130)}</div>`;
+            if((a.missing||[]).length)      block+=`<div style="margin-top:2px;font-size:9px;color:var(--pt)">Still needed: ${(a.missing||[]).join('; ').substring(0,130)}</div>`;
+            const sigs=(aiu.signals_triggered||[]).map(s=>s.signal||s.signal_type).filter(Boolean);
+            if(sigs.length)            block+=`<div style="margin-top:3px;font-size:9px;color:var(--muted);padding:4px 7px;background:var(--off);border-radius:4px"><strong>AI signals:</strong> ${sigs.join(', ')}</div>`;
+            if(aiu.assessor_guidance)  block+=`<div style="margin-top:2px;font-size:9px;color:var(--it);padding:4px 7px;background:var(--ib);border-radius:4px">👁 ${aiu.assessor_guidance}</div>`;
+            if((au.concerns||[]).length) block+=`<div style="margin-top:2px;font-size:9px;color:var(--rt)">Concerns: ${(au.concerns||[]).join('; ').substring(0,130)}</div>`;
+          }
+          block+=`</div></div>`;
+          return block;
+        }).join('')}
+      </div>
+
+      ${rec.assessor_note?`<div style="padding:7px 12px;background:var(--ib);border-top:1px solid var(--border);font-size:10px;color:var(--it)">👁 <strong>Assessor:</strong> ${rec.assessor_note}</div>`:''}
+    </div>`;
+  });
+
+  html+='</div>';
+  return html;
+}
+
 function toggleSection(id){
   const el=document.getElementById(id);
   const tog=document.getElementById(id.replace('resp-body','resp-toggle'));
