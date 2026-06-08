@@ -1700,15 +1700,35 @@ async function sendAdaptiveTurn(idx, turnNum){
   if(btn){btn.disabled=false;lbl.style.display='inline';spin.style.display='none';}
 }
 
+// Candidate-safe visual of the path taken — NO AI-usage / authenticity signals.
+function renderAdaptivePathMini(rec){
+  const cand=(rec.dialogue||[]).filter(t=>t.role==='candidate');
+  if(!cand.length) return '';
+  const trail=rec.branch_trail||[];
+  let parts=[`<div style="flex-shrink:0;padding:3px 8px;border-radius:7px;background:var(--navy);color:#fff;font-size:9px;font-weight:600;white-space:nowrap">Start</div>`];
+  cand.forEach((t,i)=>{
+    const dec=i===0?null:(trail[i-1]||{}).decision;
+    const lbl=dec?((_BRANCH_BADGE[dec]||{}).t||'').replace(/^[^A-Za-z]+/,''):'';
+    const conf=t.analysis?.confidence!=null?Math.round(t.analysis.confidence*100):null;
+    const col=conf==null?'var(--muted)':conf>=70?'var(--green)':conf>=50?'var(--pa)':'var(--ra)';
+    parts.push(`<div style="flex-shrink:0;display:flex;flex-direction:column;align-items:center;min-width:50px"><div style="font-size:8px;color:var(--muted);height:11px">${lbl}</div><div style="display:flex;align-items:center;width:100%"><div style="flex:1;height:2px;background:var(--border)"></div><div style="color:var(--faint);font-size:10px">▶</div></div></div>`);
+    parts.push(`<div style="flex-shrink:0;text-align:center"><div style="width:40px;height:40px;border-radius:50%;border:2.5px solid ${col};display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff"><span style="font-size:7px;color:var(--muted)">T${i+1}</span><span style="font-size:10px;font-weight:700;color:${col}">${conf!=null?conf+'%':'—'}</span></div></div>`);
+  });
+  const isSat=rec.final_judgement==='Satisfactory', isGap=rec.close_decision==='GAP';
+  const c=isGap?'var(--rt)':isSat?'var(--green)':'var(--pa)', bg=isGap?'var(--rb)':isSat?'var(--mb)':'var(--pb)';
+  parts.push(`<div style="flex-shrink:0;display:flex;align-items:center;min-width:34px"><div style="flex:1;height:2px;background:var(--border)"></div><div style="color:var(--faint);font-size:10px">▶</div></div>`);
+  parts.push(`<div style="flex-shrink:0;padding:4px 9px;border-radius:7px;background:${bg};border:1.5px solid ${c};color:${c};font-size:9px;font-weight:700;white-space:nowrap">${isGap?'!':isSat?'✓':'~'} ${isSat?'Complete':isGap?'Pathway':'Recorded'}</div>`);
+  return `<div style="overflow-x:auto;margin-top:8px;padding:8px;background:#fff;border:1px solid var(--border);border-radius:8px"><div style="font-size:8px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:6px">Your interview path</div><div style="display:flex;align-items:center;min-width:max-content">${parts.join('')}</div></div>`;
+}
+
 function renderAdaptiveComplete(step, rec){
   const el=document.getElementById('adapt-input'); if(!el)return;
   const isSat=rec.final_judgement==='Satisfactory', isGap=rec.close_decision==='GAP';
   const pct=rec.final_confidence>0?Math.round(rec.final_confidence*100):null;
   const turns=(rec.dialogue||[]).filter(t=>t.role==='candidate').length;
-  const trail=(rec.branch_trail||[]).map(b=>(_BRANCH_BADGE[b.decision]||{}).t||b.decision).filter((v,i,a)=>a.indexOf(v)===i);
   el.innerHTML=`<div style="padding:12px 14px;border-radius:10px;background:${isSat?'var(--mb)':'var(--pb)'};border:1px solid ${isSat?'var(--ma)':'var(--pa)'}">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><span style="font-size:18px">${isSat?'✓':isGap?'!':'~'}</span><div><div style="font-size:12px;font-weight:500;color:${isSat?'var(--mt)':'var(--pt)'}">${isSat?'Great — this topic is complete':isGap?'Recorded — your trainer will discuss an evidence pathway':'Response recorded — your trainer will review'}</div><div style="font-size:10px;color:${isSat?'var(--mt)':'var(--pt)'}">${pct!==null?'Confidence: '+pct+'% · ':''}${turns} turn${turns!==1?'s':''}</div></div></div>
-    ${trail.length?`<div style="font-size:9px;color:var(--muted);margin-top:4px">Interview path: ${trail.join(' → ')}</div>`:''}
+    ${renderAdaptivePathMini(rec)}
     <button class="btn btn-sm" style="margin-top:8px" onclick="openAdaptiveTopic(${_adaptive.idx})">Review dialogue</button>
   </div>`;
 }

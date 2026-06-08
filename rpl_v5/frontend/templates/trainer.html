@@ -1288,14 +1288,125 @@ function _aiRiskStyle(prob){
 const _ADAPT_BRANCH  ={DEEPEN:'Deepen',CHALLENGE:'Challenge (authenticity)',PIVOT:'Pivot',ADVANCE:'Advance',GAP:'Gap'};
 const _ADAPT_PRIORITY={CONFIRM:'Confirm',PROBE:'Probe',EXPLORE:'Explore',GAP:'No résumé evidence'};
 
+// Edge styling for the branch-path diagram
+const _EDGE={
+  OPEN:     {c:'var(--muted)', t:'Opening'},
+  DEEPEN:   {c:'var(--navy)',  t:'Deepen'},
+  CHALLENGE:{c:'#7C3AED',      t:'Challenge'},
+  PIVOT:    {c:'var(--it)',    t:'Pivot'},
+  ADVANCE:  {c:'var(--green)', t:'Advance'},
+  GAP:      {c:'var(--rt)',    t:'Gap'},
+};
+
+// Visual flow of one topic: Scenario → answers (confidence + integrity flags)
+// connected by branch edges → outcome. Lets the assessor see the path taken.
+function renderBranchMap(rec){
+  const cand=(rec.dialogue||[]).filter(t=>t.role==='candidate');
+  if(!cand.length) return '';
+  const trail=rec.branch_trail||[];
+  const nodes=[{type:'origin', label:(_ADAPT_PRIORITY[rec.priority]||rec.priority||'Start')}];
+  cand.forEach((t,i)=>{
+    // Edge leading into this answer: the branch decision that produced it
+    nodes.push(i===0 ? {type:'edge', decision:'OPEN'}
+                     : {type:'edge', decision:(trail[i-1]||{}).decision, reason:(trail[i-1]||{}).reason});
+    const aiu=t.authenticity?.ai_usage||{};
+    nodes.push({type:'turn', idx:i+1,
+      conf: t.analysis?.confidence!=null?Math.round(t.analysis.confidence*100):null,
+      judgement: t.analysis?.judgement,
+      aiProb: aiu.probability, aiScore: aiu.score,
+      authVerdict: t.authenticity?.verdict,
+      mismatch: t.authenticity?.consistent_with_resume===false});
+  });
+  const term=rec.close_decision || (trail[trail.length-1]||{}).decision;
+  nodes.push({type:'edge', decision:term, reason:(trail[trail.length-1]||{}).reason});
+  nodes.push({type:'outcome', sat:rec.final_judgement==='Satisfactory', gap:term==='GAP',
+    judgement:rec.final_judgement, conf:rec.final_confidence?Math.round(rec.final_confidence*100):null});
+
+  return `<div style="overflow-x:auto;padding:12px;background:linear-gradient(180deg,#fbfcff,#f3f6fc);border-bottom:1px solid var(--border)">
+    <div style="display:flex;align-items:center;min-width:max-content">
+      ${nodes.map(renderBranchNode).join('')}
+    </div>
+  </div>`;
+}
+
+function renderBranchNode(n){
+  if(n.type==='origin'){
+    return `<div style="flex-shrink:0;text-align:center">
+      <div style="padding:6px 11px;border-radius:8px;background:var(--navy);color:#fff;font-size:10px;font-weight:600;white-space:nowrap">${n.label}</div>
+      <div style="font-size:8px;color:var(--faint);margin-top:3px">scenario</div>
+    </div>`;
+  }
+  if(n.type==='edge'){
+    const e=_EDGE[n.decision]||_EDGE.OPEN;
+    const tip=n.reason?` title="${(''+n.reason).replace(/"/g,'&quot;')}"`:'';
+    return `<div style="flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;padding:0 3px"${tip}>
+      <div style="font-size:8px;font-weight:700;color:${e.c};text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px;white-space:nowrap">${e.t}</div>
+      <div style="display:flex;align-items:center;width:100%"><div style="flex:1;height:2px;background:${e.c}"></div><div style="color:${e.c};font-size:11px;line-height:1;margin-left:-1px">▶</div></div>
+    </div>`;
+  }
+  if(n.type==='turn'){
+    const col=n.conf==null?'var(--muted)':n.conf>=70?'var(--green)':n.conf>=50?'var(--pa)':'var(--ra)';
+    const aiBad=n.aiProb&&n.aiProb!=='LOW'&&n.aiProb!=='UNKNOWN';
+    const aiStyle=_aiRiskStyle(n.aiProb||'LOW');
+    return `<div style="flex-shrink:0;text-align:center">
+      <div style="width:54px;height:54px;border-radius:50%;border:3px solid ${col};display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;margin:0 auto">
+        <span style="font-size:8px;color:var(--muted);font-weight:600">T${n.idx}</span>
+        <span style="font-size:13px;font-weight:700;color:${col}">${n.conf!=null?n.conf+'%':'—'}</span>
+      </div>
+      <div style="display:flex;gap:3px;justify-content:center;margin-top:3px;min-height:12px">
+        ${aiBad?`<span title="AI usage ${n.aiProb} (${n.aiScore||0}%)" style="font-size:10px;color:${aiStyle.col}">${aiStyle.icon}</span>`:''}
+        ${n.authVerdict&&n.authVerdict!=='AUTHENTIC'?`<span title="Authenticity: ${n.authVerdict}" style="font-size:10px;color:${n.authVerdict==='SUSPECT'?'var(--rt)':'var(--pt)'}">⚑</span>`:''}
+        ${n.mismatch?`<span title="Résumé mismatch" style="font-size:10px;color:var(--rt)">⚠</span>`:''}
+      </div>
+    </div>`;
+  }
+  if(n.type==='outcome'){
+    const c=n.gap?'var(--rt)':n.sat?'var(--green)':'var(--pa)';
+    const bg=n.gap?'var(--rb)':n.sat?'var(--mb)':'var(--pb)';
+    const ic=n.gap?'!':n.sat?'✓':'~';
+    return `<div style="flex-shrink:0;text-align:center">
+      <div style="padding:7px 12px;border-radius:8px;background:${bg};border:1.5px solid ${c};color:${c};font-size:11px;font-weight:700;white-space:nowrap">${ic} ${n.judgement||(n.gap?'Gap':'Review')}</div>
+      ${n.conf!=null?`<div style="font-size:8px;color:var(--faint);margin-top:3px">${n.conf}% confidence</div>`:''}
+    </div>`;
+  }
+  return '';
+}
+
 function renderAdaptiveInterviews(progress, pcAnalysis){
   const records=(progress?.adaptive_records||[]).filter(r=>(r.dialogue||[]).length);
   const state  = progress?.adaptive_state||{};
   if(!records.length) return '';
 
+  // Unit-level overview of how the interview adapted
+  const totalT=records.length;
+  const satT=records.filter(r=>r.final_judgement==='Satisfactory').length;
+  const gapT=records.filter(r=>r.close_decision==='GAP').length;
+  const challengedT=records.filter(r=>(r.branch_trail||[]).some(b=>b.decision==='CHALLENGE')).length;
+  const pivotT=records.filter(r=>(r.branch_trail||[]).some(b=>b.decision==='PIVOT')).length;
+
+  const legendItem=(c,t,d)=>`<span style="display:inline-flex;align-items:center;gap:4px;margin-right:10px"><span style="width:18px;height:2px;background:${c};display:inline-block"></span><span style="font-size:9px;font-weight:600;color:${c}">${t}</span><span style="font-size:9px;color:var(--faint)">${d}</span></span>`;
+
   let html=`<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
     <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
       🧭 Adaptive interview — résumé-driven · AI-usage &amp; authenticity
+    </div>
+
+    <!-- Outcome overview -->
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px">
+      <span class="chip chip-g">${satT}/${totalT} satisfactory</span>
+      ${gapT?`<span class="chip chip-r">${gapT} gap${gapT!==1?'s':''}</span>`:''}
+      ${challengedT?`<span class="chip" style="background:#F5F3FF;color:#7C3AED">${challengedT} authenticity-challenged</span>`:''}
+      ${pivotT?`<span class="chip chip-a">${pivotT} re-anchored to candidate context</span>`:''}
+    </div>
+
+    <!-- Legend — explains why the interview branches -->
+    <div style="padding:7px 9px;background:var(--off);border:1px solid var(--border);border-radius:6px;margin-bottom:10px;line-height:1.9">
+      ${legendItem('var(--navy)','Deepen','pressed for specificity')}
+      ${legendItem('#7C3AED','Challenge','AI-likeness / authenticity check')}
+      ${legendItem('var(--it)','Pivot','re-anchored to their real experience')}
+      ${legendItem('var(--green)','Advance','benchmark met')}
+      ${legendItem('var(--rt)','Gap','evidence not yet sufficient')}
+      <div style="font-size:9px;color:var(--faint);margin-top:3px">Circles are the candidate's answers (number = confidence). Flags show where AI-usage or authenticity concerns triggered a branch. Hover an arrow for the reason.</div>
     </div>`;
 
   // Résumé profile / plan summary (per unit), if captured
@@ -1328,6 +1439,9 @@ function renderAdaptiveInterviews(progress, pcAnalysis){
           ${pct!==null?`<span style="font-size:10px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">${pct}%</span>`:''}
         </div>
       </div>
+
+      <!-- Branch-path diagram -->
+      ${renderBranchMap(rec)}
 
       <!-- Integrity summary -->
       <div style="padding:8px 12px;border-bottom:1px solid var(--border);display:flex;gap:6px;flex-wrap:wrap;align-items:center">
