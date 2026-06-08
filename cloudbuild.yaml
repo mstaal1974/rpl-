@@ -1,0 +1,62 @@
+# Cloud Build config for the RPL portal.
+#
+# Why this file exists:
+#   The GitHub repo is named "rpl-" (trailing hyphen). The auto-generated
+#   "deploy to Cloud Run" trigger builds an image named
+#     <host>/<project>/cloud-run-source-deploy/$REPO_NAME/<service>:<sha>
+#   i.e. ".../rpl-/rpl-portal:<sha>" — and a Docker reference path component
+#   cannot end in a hyphen, so `docker build -t` fails with
+#   "invalid reference format". This config uses a fixed, valid image name and
+#   the correct build context (the app lives in rpl_v5/, not the repo root).
+#
+# Point your trigger at this file:
+#   Console → Cloud Build → Triggers → (your trigger) → Edit →
+#     Configuration = "Cloud Build configuration file (yaml or json)"
+#     Location = /cloudbuild.yaml
+#   or:
+#   gcloud builds triggers update github TRIGGER_NAME \
+#     --build-config=cloudbuild.yaml --region=REGION
+
+substitutions:
+  _SERVICE: rpl-portal
+  _REGION: australia-southeast1
+  _AR_REPO: cloud-run-source-deploy
+  _AR_HOST: australia-southeast1-docker.pkg.dev
+
+images:
+  - '${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:$COMMIT_SHA'
+  - '${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  # 1) Build from the app directory (rpl_v5/), with a VALID image name.
+  - id: Build
+    name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - '-t'
+      - '${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:$COMMIT_SHA'
+      - '-t'
+      - '${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:latest'
+      - rpl_v5
+
+  # 2) Push both tags.
+  - id: Push
+    name: gcr.io/cloud-builders/docker
+    args: ['push', '--all-tags', '${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}']
+
+  # 3) Deploy. Using --image (not --source) preserves the service's existing
+  #    env vars (AUTH_SECRET, BASE_URL, etc.) and settings.
+  - id: Deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - '${_SERVICE}'
+      - '--image=${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:$COMMIT_SHA'
+      - '--region=${_REGION}'
+      - '--platform=managed'
+      - '--quiet'
