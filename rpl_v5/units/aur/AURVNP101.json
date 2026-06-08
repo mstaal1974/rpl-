@@ -1,0 +1,335 @@
+{
+  "code": "AURVNP101",
+  "title": "Evaluate vehicle paintwork for damage and identify refinish requirements",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Evaluate vehicle paintwork for damage and identify refinish requirements demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Assess vehicle paintwork for damage",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Assess vehicle paintwork for damage"
+    },
+    {
+      "id": "E3",
+      "title": "Gather vehicle data and specifications",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Gather vehicle data and specifications"
+    },
+    {
+      "id": "E4",
+      "title": "Evaluate and select materials, equipment and processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Evaluate and select materials, equipment and processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to use work instructions to determine job requirements1.2 read and comply with workplace safety requirements and workplace environmental practices and policies1.3 read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 select and check safety equipment, tools, materials and other equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use work instructions to determine job ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use work instructions to determine job requirements1.2 read and comply with workplace safety requirements and workplace environmental practices and policies1.3 read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 select and check safety equipment, tools, materials and other equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to use work instructions to determine job requirements1.2 read and comply with workplace safety requirements and workplace environmental practices and policies1.3 read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 select and check safety equipment, tools, materials and other equipment",
+      "knowledge_focus": [
+        "Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use work instructions to determine job requirements1.2 read and comply with workplace safety requirements and workplace environmental practices and policies1.3 read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 select and check safety equipment, tools, materials and other equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use work instructions to determine job requirements1.2 read and comply with workplace safety requirements and workplace environmental practices and policies1.3 read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 select and check safety equipment, tools, materials and other equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use work instructions to determine job requirements1.2 Read and comply with workplace safety requirements and workplace environmental practices and policies1.3 Read, interpret and comply with workplace policies, safety requirements, procedures, legal requirements, and component supplier specifications1.4 Select and check safety equipment, tools, materials and other equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Assess vehicle paintwork for damage",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to locate vehicle to be inspected2.2 inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate vehicle to be inspected2.2 Inspe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate vehicle to be inspected2.2 inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices?",
+      "practical_task_interpretation": "In practice this requires the worker to locate vehicle to be inspected2.2 inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices",
+      "knowledge_focus": [
+        "Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices"
+      ],
+      "workplace_context_examples": [
+        "Assess vehicle paintwork for damage"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate vehicle to be inspected2.2 inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate vehicle to be inspected2.2 inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate vehicle to be inspected2.2 Inspect paintwork to identify vehicle paintwork damage and potential paint problems2.3 Inspect vehicle in line with workplace policies and procedures, legal requirements, specification of vehicle manufacturer or component suppliers, safety requirements and workplace environmental practices."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Gather vehicle data and specifications",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify and document painting specifications3.2 consult staff and management to identify additional or altered specifications3.3 evaluate existing paint refinish materials and equipment3.4 compile and document vehicle data and specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and document painting specific",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and document painting specifications3.2 consult staff and management to identify additional or altered specifications3.3 evaluate existing paint refinish materials and equipment3.4 compile and document vehicle data and specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and document painting specifications3.2 consult staff and management to identify additional or altered specifications3.3 evaluate existing paint refinish materials and equipment3.4 compile and document vehicle data and specifications",
+      "knowledge_focus": [
+        "Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications"
+      ],
+      "workplace_context_examples": [
+        "Gather vehicle data and specifications"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and document painting specifications3.2 consult staff and management to identify additional or altered specifications3.3 evaluate existing paint refinish materials and equipment3.4 compile and document vehicle data and specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and document painting specifications3.2 consult staff and management to identify additional or altered specifications3.3 evaluate existing paint refinish materials and equipment3.4 compile and document vehicle data and specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and document painting specifications3.2 Consult staff and management to identify additional or altered specifications3.3 Evaluate existing paint refinish materials and equipment3.4 Compile and document vehicle data and specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Evaluate and select materials, equipment and processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to determine materials and equipment options4.2 assess materials and equipment for quality finish and conformity to standards4.3 compare specifications of materials and equipment for performance and cost4.4 determine commercial, environmental and safety impact of materials and equipment selected4.5 select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine materials and equipment optio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine materials and equipment options4.2 assess materials and equipment for quality finish and conformity to standards4.3 compare specifications of materials and equipment for performance and cost4.4 determine commercial, environmental and safety impact of materials and equipment selected4.5 select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to determine materials and equipment options4.2 assess materials and equipment for quality finish and conformity to standards4.3 compare specifications of materials and equipment for performance and cost4.4 determine commercial, environmental and safety impact of materials and equipment selected4.5 select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements",
+      "knowledge_focus": [
+        "Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements"
+      ],
+      "workplace_context_examples": [
+        "Evaluate and select materials, equipment and processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine materials and equipment options4.2 assess materials and equipment for quality finish and conformity to standards4.3 compare specifications of materials and equipment for performance and cost4.4 determine commercial, environmental and safety impact of materials and equipment selected4.5 select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine materials and equipment options4.2 assess materials and equipment for quality finish and conformity to standards4.3 compare specifications of materials and equipment for performance and cost4.4 determine commercial, environmental and safety impact of materials and equipment selected4.5 select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine materials and equipment options4.2 Assess materials and equipment for quality finish and conformity to standards4.3 Compare specifications of materials and equipment for performance and cost4.4 Determine commercial, environmental and safety impact of materials and equipment selected4.5 Select materials, equipment and processes based on performance, cost, specifications and impact comparison4.6 Complete evaluation report detailing required specifications and repair process according to workplace policies and procedures, and legal requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.164560+00:00"
+}

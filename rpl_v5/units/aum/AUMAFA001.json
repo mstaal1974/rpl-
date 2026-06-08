@@ -1,0 +1,407 @@
+{
+  "code": "AUMAFA001",
+  "title": "Apply for jobs and undertake job interviews",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply for jobs and undertake job interviews demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Gather and evaluate information on employment opportunities",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen?",
+          "benchmark_statement": "The candidate demonstrates that they can Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Gather and evaluate information on employment opportunities"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare and apply for a job",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors?",
+          "benchmark_statement": "The candidate demonstrates that they can Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare and apply for a job"
+    },
+    {
+      "id": "E3",
+      "title": "Prepare a r\u00e9sum\u00e9",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors?",
+          "benchmark_statement": "The candidate demonstrates that they can R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Prepare a r\u00e9sum\u00e9"
+    },
+    {
+      "id": "E4",
+      "title": "Prepare for and undertake a job interview",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken?",
+          "benchmark_statement": "The candidate demonstrates that they can Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Prepare for and undertake a job interview"
+    },
+    {
+      "id": "E5",
+      "title": "Review and evaluate interview performance",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified?",
+          "benchmark_statement": "The candidate demonstrates that they can Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Review and evaluate interview performance"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Gather and evaluate information on employment opportunities",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to employment sources are identified and searched, and employment opportunities identified1.2 opportunities are reviewed and additional information obtained1.3 opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Employment sources are identified and s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to employment sources are identified and searched, and employment opportunities identified1.2 opportunities are reviewed and additional information obtained1.3 opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen?",
+      "practical_task_interpretation": "In practice this requires the worker to employment sources are identified and searched, and employment opportunities identified1.2 opportunities are reviewed and additional information obtained1.3 opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen",
+      "knowledge_focus": [
+        "Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen"
+      ],
+      "workplace_context_examples": [
+        "Gather and evaluate information on employment opportunities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of employment sources are identified and searched, and employment opportunities identified1.2 opportunities are reviewed and additional information obtained1.3 opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of employment sources are identified and searched, and employment opportunities identified1.2 opportunities are reviewed and additional information obtained1.3 opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Employment sources are identified and searched, and employment opportunities identified1.2 Opportunities are reviewed and additional information obtained1.3 Opportunities are clarified and graded according to own preferences, and a preferred opportunity is chosen."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare and apply for a job",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to selection criteria in job opportunity are reviewed2.2 own skills profile is analysed against selection criteria2.3 application for preferred job opportunity is prepared against criteria and checked for errors?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Selection criteria in job opportunity a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to selection criteria in job opportunity are reviewed2.2 own skills profile is analysed against selection criteria2.3 application for preferred job opportunity is prepared against criteria and checked for errors",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors?",
+      "practical_task_interpretation": "In practice this requires the worker to selection criteria in job opportunity are reviewed2.2 own skills profile is analysed against selection criteria2.3 application for preferred job opportunity is prepared against criteria and checked for errors",
+      "knowledge_focus": [
+        "Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors"
+      ],
+      "workplace_context_examples": [
+        "Prepare and apply for a job"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of selection criteria in job opportunity are reviewed2.2 own skills profile is analysed against selection criteria2.3 application for preferred job opportunity is prepared against criteria and checked for errors"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of selection criteria in job opportunity are reviewed2.2 own skills profile is analysed against selection criteria2.3 application for preferred job opportunity is prepared against criteria and checked for errors"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Selection criteria in job opportunity are reviewed2.2 Own skills profile is analysed against selection criteria2.3 Application for preferred job opportunity is prepared against criteria and checked for errors."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Prepare a r\u00e9sum\u00e9",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to r\u00e9sum\u00e9 content is identified and prepared3.2 r\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can R\u00e9sum\u00e9 content is identified and prepar",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to r\u00e9sum\u00e9 content is identified and prepared3.2 r\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors?",
+      "practical_task_interpretation": "In practice this requires the worker to r\u00e9sum\u00e9 content is identified and prepared3.2 r\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors",
+      "knowledge_focus": [
+        "R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors"
+      ],
+      "workplace_context_examples": [
+        "Prepare a r\u00e9sum\u00e9"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of r\u00e9sum\u00e9 content is identified and prepared3.2 r\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of r\u00e9sum\u00e9 content is identified and prepared3.2 r\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can R\u00e9sum\u00e9 content is identified and prepared3.2 R\u00e9sum\u00e9 is completed using an appropriate structure and format, and checked for errors."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Prepare for and undertake a job interview",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to preparation for job interview is undertaken4.2 potential interviews are rehearsed4.3 interview is undertaken? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Preparation for job interview is undert",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to preparation for job interview is undertaken4.2 potential interviews are rehearsed4.3 interview is undertaken",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken?",
+      "practical_task_interpretation": "In practice this requires the worker to preparation for job interview is undertaken4.2 potential interviews are rehearsed4.3 interview is undertaken",
+      "knowledge_focus": [
+        "Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken"
+      ],
+      "workplace_context_examples": [
+        "Prepare for and undertake a job interview"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of preparation for job interview is undertaken4.2 potential interviews are rehearsed4.3 interview is undertaken"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of preparation for job interview is undertaken4.2 potential interviews are rehearsed4.3 interview is undertaken"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Preparation for job interview is undertaken4.2 Potential interviews are rehearsed4.3 Interview is undertaken."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E5: Review and evaluate interview performance",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What technical knowledge is required to feedback on performance in the interview is sought5.2 strengths and areas for improvement in the application and interview process are identified5.3 strategies for improving application and interview skills are identified? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Feedback on performance in the intervie",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to feedback on performance in the interview is sought5.2 strengths and areas for improvement in the application and interview process are identified5.3 strategies for improving application and interview skills are identified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified?",
+      "practical_task_interpretation": "In practice this requires the worker to feedback on performance in the interview is sought5.2 strengths and areas for improvement in the application and interview process are identified5.3 strategies for improving application and interview skills are identified",
+      "knowledge_focus": [
+        "Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified"
+      ],
+      "workplace_context_examples": [
+        "Review and evaluate interview performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of feedback on performance in the interview is sought5.2 strengths and areas for improvement in the application and interview process are identified5.3 strategies for improving application and interview skills are identified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of feedback on performance in the interview is sought5.2 strengths and areas for improvement in the application and interview process are identified5.3 strategies for improving application and interview skills are identified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Feedback on performance in the interview is sought5.2 Strengths and areas for improvement in the application and interview process are identified5.3 Strategies for improving application and interview skills are identified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.427010+00:00"
+}

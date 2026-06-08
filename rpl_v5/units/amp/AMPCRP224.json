@@ -1,0 +1,464 @@
+{
+  "code": "AMPCRP224",
+  "title": "Remove tenderloins from small stock",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove tenderloins from small stock demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work task",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instruction for removing tenderloins and clarify where required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for removing tenderloins and clarify where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for removing tenderloins and clarify where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify sources of potential contamination to tenderloins",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of potential contamination to tenderloins?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify sources of potential contamination to tenderloins.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify hygiene and sanitation requirements for removing tenderloins",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for removing tenderloins?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for removing tenderloins.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work task"
+    },
+    {
+      "id": "E2",
+      "title": "Cut out tenderloins",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Inspect tenderloins for defects or contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect tenderloins for defects or contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect tenderloins for defects or contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Store tenderloins following work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store tenderloins following work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Store tenderloins following work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Cut out tenderloins"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instruction for removing tenderloins and clarify where required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instruction for removing ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instruction for removing tenderloins and clarify where required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for removing tenderloins and clarify where required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for removing tenderloins and clarify where required?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instruction for removing tenderloins and clarify where required",
+      "knowledge_focus": [
+        "Identify work instruction for removing tenderloins and clarify where required"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instruction for removing tenderloins and clarify where required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instruction for removing tenderloins and clarify where required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instruction for removing tenderloins and clarify where required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify sources of potential contamination to tenderloins?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify sources of potential contamina",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify sources of potential contamination to tenderloins",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify sources of potential contamination to tenderloins.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of potential contamination to tenderloins?",
+      "practical_task_interpretation": "In practice this requires the worker to identify sources of potential contamination to tenderloins",
+      "knowledge_focus": [
+        "Identify sources of potential contamination to tenderloins"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify sources of potential contamination to tenderloins"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify sources of potential contamination to tenderloins"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify sources of potential contamination to tenderloins."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Cut out tenderloins",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove tenderloins following workplace ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Cut out tenderloins"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove tenderloins following workplace requirements, hygiene and sanitation requirements and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Cut out tenderloins",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to inspect tenderloins for defects or contamination?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect tenderloins for defects or cont",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect tenderloins for defects or contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect tenderloins for defects or contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect tenderloins for defects or contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect tenderloins for defects or contamination",
+      "knowledge_focus": [
+        "Inspect tenderloins for defects or contamination"
+      ],
+      "workplace_context_examples": [
+        "Cut out tenderloins"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect tenderloins for defects or contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect tenderloins for defects or contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect tenderloins for defects or contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Cut out tenderloins",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to store tenderloins following work instructions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store tenderloins following work instru",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store tenderloins following work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Store tenderloins following work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store tenderloins following work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to store tenderloins following work instructions",
+      "knowledge_focus": [
+        "Store tenderloins following work instructions"
+      ],
+      "workplace_context_examples": [
+        "Cut out tenderloins"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store tenderloins following work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store tenderloins following work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store tenderloins following work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.959386+00:00"
+}

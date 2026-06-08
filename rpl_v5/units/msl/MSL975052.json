@@ -1,0 +1,911 @@
+{
+  "code": "MSL975052",
+  "title": "Locate, record and collect forensic samples",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Locate, record and collect forensic samples demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for evidence/sample collection",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Locate evidence/sample using observation and appropriate detection methods",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate evidence/sample using observation and appropriate detection methods?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate evidence/sample using observation and appropriate detection methods.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify appropriate sample collection methods",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate sample collection methods?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify appropriate sample collection methods.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity?",
+          "benchmark_statement": "The candidate demonstrates that they can Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for evidence/sample collection"
+    },
+    {
+      "id": "E2",
+      "title": "Record locations and details of evidence/samples",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Record position of located evidence using a variety of appropriate techniques",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record position of located evidence using a variety of appropriate techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Record position of located evidence using a variety of appropriate techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Produce documented records of evidential material according to judicial and/or workplace guidelines",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Produce documented records of evidential material according to judicial and/or workplace guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Produce documented records of evidential material according to judicial and/or workplace guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Record locations and details of evidence/samples"
+    },
+    {
+      "id": "E3",
+      "title": "Collect evidence/samples",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Collect controls and reference samples where possible and appropriate",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect controls and reference samples where possible and appropriate?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect controls and reference samples where possible and appropriate.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Collect latent evidence using physical or chemical methods",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect latent evidence using physical or chemical methods?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect latent evidence using physical or chemical methods.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Collect evidence/samples"
+    },
+    {
+      "id": "E4",
+      "title": "Package evidence/samples",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Package evidence/samples"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Use personal protective equipment (PPE) and safety procedures specified",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use personal protective equipment (PPE) and safety procedures specified?",
+          "benchmark_statement": "The candidate demonstrates that they can Use personal protective equipment (PPE) and safety procedures specified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Minimise the generation of waste and environmental impacts",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Ensure the safe disposal of waste",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure the safe disposal of waste?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure the safe disposal of waste.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Clean, care for and store equipment and consumables in accordance with workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean, care for and store equipment and consumables in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean, care for and store equipment and consumables in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for evidence/sample collection",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to locate evidence/sample using observation and appropriate detection methods? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate evidence/sample using observatio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate evidence/sample using observation and appropriate detection methods",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate evidence/sample using observation and appropriate detection methods.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate evidence/sample using observation and appropriate detection methods?",
+      "practical_task_interpretation": "In practice this requires the worker to locate evidence/sample using observation and appropriate detection methods",
+      "knowledge_focus": [
+        "Locate evidence/sample using observation and appropriate detection methods"
+      ],
+      "workplace_context_examples": [
+        "Prepare for evidence/sample collection"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate evidence/sample using observation and appropriate detection methods"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate evidence/sample using observation and appropriate detection methods"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate evidence/sample using observation and appropriate detection methods."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for evidence/sample collection",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify appropriate sample collection methods?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify appropriate sample collection ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify appropriate sample collection methods",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify appropriate sample collection methods.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate sample collection methods?",
+      "practical_task_interpretation": "In practice this requires the worker to identify appropriate sample collection methods",
+      "knowledge_focus": [
+        "Identify appropriate sample collection methods"
+      ],
+      "workplace_context_examples": [
+        "Prepare for evidence/sample collection"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify appropriate sample collection methods"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify appropriate sample collection methods"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify appropriate sample collection methods."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for evidence/sample collection",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What would indicate that prioritise the evaluation of items of evidence to ensure maintenance of sample integrity is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prioritise the evaluation of items of e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prioritise the evaluation of items of evidence to ensure maintenance of sample integrity",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity?",
+      "practical_task_interpretation": "In practice this requires the worker to prioritise the evaluation of items of evidence to ensure maintenance of sample integrity",
+      "knowledge_focus": [
+        "Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity"
+      ],
+      "workplace_context_examples": [
+        "Prepare for evidence/sample collection"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prioritise the evaluation of items of evidence to ensure maintenance of sample integrity"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prioritise the evaluation of items of evidence to ensure maintenance of sample integrity"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prioritise the evaluation of items of evidence to ensure maintenance of sample integrity."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Record locations and details of evidence/samples",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify appropriate methods to record ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints?",
+      "practical_task_interpretation": "In practice this requires the worker to identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints",
+      "knowledge_focus": [
+        "Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints"
+      ],
+      "workplace_context_examples": [
+        "Record locations and details of evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify appropriate methods to record the evidence/samples in accordance with quality systems and within resource constraints."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Record locations and details of evidence/samples",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be recorded when you record position of located evidence using a variety of appropriate techniques, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record position of located evidence usi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record position of located evidence using a variety of appropriate techniques",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record position of located evidence using a variety of appropriate techniques.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record position of located evidence using a variety of appropriate techniques?",
+      "practical_task_interpretation": "In practice this requires the worker to record position of located evidence using a variety of appropriate techniques",
+      "knowledge_focus": [
+        "Record position of located evidence using a variety of appropriate techniques"
+      ],
+      "workplace_context_examples": [
+        "Record locations and details of evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record position of located evidence using a variety of appropriate techniques"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record position of located evidence using a variety of appropriate techniques"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record position of located evidence using a variety of appropriate techniques."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Record locations and details of evidence/samples",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you produce documented records of evidential material according to judicial and/or workplace guidelines, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Produce documented records of evidentia",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to produce documented records of evidential material according to judicial and/or workplace guidelines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Produce documented records of evidential material according to judicial and/or workplace guidelines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Produce documented records of evidential material according to judicial and/or workplace guidelines?",
+      "practical_task_interpretation": "In practice this requires the worker to produce documented records of evidential material according to judicial and/or workplace guidelines",
+      "knowledge_focus": [
+        "Produce documented records of evidential material according to judicial and/or workplace guidelines"
+      ],
+      "workplace_context_examples": [
+        "Record locations and details of evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of produce documented records of evidential material according to judicial and/or workplace guidelines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of produce documented records of evidential material according to judicial and/or workplace guidelines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Produce documented records of evidential material according to judicial and/or workplace guidelines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Collect evidence/samples",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collect sufficient number and quantity ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence?",
+      "practical_task_interpretation": "In practice this requires the worker to collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence",
+      "knowledge_focus": [
+        "Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence"
+      ],
+      "workplace_context_examples": [
+        "Collect evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collect sufficient number and quantity of evidence/samples to allow complete examination or analysis and to represent the mass of the physical evidence."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Collect evidence/samples",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What are the key hazards and required controls associated with collect controls and reference samples where possible and appropriate?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collect controls and reference samples ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collect controls and reference samples where possible and appropriate",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Collect controls and reference samples where possible and appropriate.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect controls and reference samples where possible and appropriate?",
+      "practical_task_interpretation": "In practice this requires the worker to collect controls and reference samples where possible and appropriate",
+      "knowledge_focus": [
+        "Collect controls and reference samples where possible and appropriate"
+      ],
+      "workplace_context_examples": [
+        "Collect evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collect controls and reference samples where possible and appropriate"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collect controls and reference samples where possible and appropriate"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collect controls and reference samples where possible and appropriate."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Collect evidence/samples",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to collect latent evidence using physical or chemical methods? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collect latent evidence using physical ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collect latent evidence using physical or chemical methods",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Collect latent evidence using physical or chemical methods.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect latent evidence using physical or chemical methods?",
+      "practical_task_interpretation": "In practice this requires the worker to collect latent evidence using physical or chemical methods",
+      "knowledge_focus": [
+        "Collect latent evidence using physical or chemical methods"
+      ],
+      "workplace_context_examples": [
+        "Collect evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collect latent evidence using physical or chemical methods"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collect latent evidence using physical or chemical methods"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collect latent evidence using physical or chemical methods."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Package evidence/samples",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What would indicate that package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Package, transport and store evidence/s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples?",
+      "practical_task_interpretation": "In practice this requires the worker to package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples",
+      "knowledge_focus": [
+        "Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples"
+      ],
+      "workplace_context_examples": [
+        "Package evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Package, transport and store evidence/samples to ensure continuity and maintain integrity of forensic samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Package evidence/samples",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collect and document details of evident",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody?",
+      "practical_task_interpretation": "In practice this requires the worker to collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody",
+      "knowledge_focus": [
+        "Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody"
+      ],
+      "workplace_context_examples": [
+        "Package evidence/samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collect and document details of evidential material in case notes and/or in the evidence register to maintain chain of custody."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Maintain a safe work environment",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What factors would you consider when you need to identify risks, hazards, safety equipment and procedures associated with evidence/sample collection?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify risks, hazards, safety equipme",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify risks, hazards, safety equipment and procedures associated with evidence/sample collection",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection?",
+      "practical_task_interpretation": "In practice this requires the worker to identify risks, hazards, safety equipment and procedures associated with evidence/sample collection",
+      "knowledge_focus": [
+        "Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify risks, hazards, safety equipment and procedures associated with evidence/sample collection"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify risks, hazards, safety equipment and procedures associated with evidence/sample collection"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify risks, hazards, safety equipment and procedures associated with evidence/sample collection."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.839895+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AMPS308",
+  "title": "Batch meat",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Batch meat demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Select sorted meat",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Select sorted meat"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare batched meat",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare batched meat"
+    },
+    {
+      "id": "E3",
+      "title": "Record usage of meat",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Record usage of meat"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Select sorted meat",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What are the key hazards and required controls associated with select sorted meat by type according to product and customer specifications1.2 select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 select correct meat, by-product and stock according to the formulation specification and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select sorted meat by type according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select sorted meat by type according to product and customer specifications1.2 select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 select correct meat, by-product and stock according to the formulation specification and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to select sorted meat by type according to product and customer specifications1.2 select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 select correct meat, by-product and stock according to the formulation specification and workplace requirements",
+      "knowledge_focus": [
+        "Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Select sorted meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select sorted meat by type according to product and customer specifications1.2 select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 select correct meat, by-product and stock according to the formulation specification and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select sorted meat by type according to product and customer specifications1.2 select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 select correct meat, by-product and stock according to the formulation specification and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select sorted meat by type according to product and customer specifications1.2 Select sorted meat according to workplace health and safety and hygiene and sanitation requirements1.3 Select correct meat, by-product and stock according to the formulation specification and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare batched meat",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to calibrate scales in accordance with product specifications and workplace requirements2.2 place meat in appropriate containers and weigh according to production specifications2.3 batch meat according to workplace hygiene requirements, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calibrate scales in accordance with pro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calibrate scales in accordance with product specifications and workplace requirements2.2 place meat in appropriate containers and weigh according to production specifications2.3 batch meat according to workplace hygiene requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to calibrate scales in accordance with product specifications and workplace requirements2.2 place meat in appropriate containers and weigh according to production specifications2.3 batch meat according to workplace hygiene requirements",
+      "knowledge_focus": [
+        "Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare batched meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calibrate scales in accordance with product specifications and workplace requirements2.2 place meat in appropriate containers and weigh according to production specifications2.3 batch meat according to workplace hygiene requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calibrate scales in accordance with product specifications and workplace requirements2.2 place meat in appropriate containers and weigh according to production specifications2.3 batch meat according to workplace hygiene requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calibrate scales in accordance with product specifications and workplace requirements2.2 Place meat in appropriate containers and weigh according to production specifications2.3 Batch meat according to workplace hygiene requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Record usage of meat",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 record usage of meat in accordance with workplace and regulatory requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store meat in accordance with workplace",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 record usage of meat in accordance with workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 record usage of meat in accordance with workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Record usage of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 record usage of meat in accordance with workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 record usage of meat in accordance with workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store meat in accordance with workplace, health and safety, and hygiene and sanitation requirements3.2 Record usage of meat in accordance with workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.359340+00:00"
+}

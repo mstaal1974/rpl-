@@ -1,0 +1,950 @@
+{
+  "code": "MSL925006",
+  "title": "Analyse data and report results",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Analyse data and report results demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Perform scientific calculations",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Ensure raw data are consistent with expectations and reasonable ranges",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure raw data are consistent with expectations and reasonable ranges?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure raw data are consistent with expectations and reasonable ranges.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Ensure calculated quantities are consistent with estimations",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure calculated quantities are consistent with estimations?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Present results using the appropriate units, uncertainties and number of significant figures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Present results using the appropriate units, uncertainties and number of significant figures?",
+          "benchmark_statement": "The candidate demonstrates that they can Present results using the appropriate units, uncertainties and number of significant figures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Perform scientific calculations"
+    },
+    {
+      "id": "E2",
+      "title": "Analyse trends and relationships in data",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Determine linear and non-linear relationships between sets of data",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine linear and non-linear relationships between sets of data?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine linear and non-linear relationships between sets of data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Prepare and analyse control charts to determine if a process is in control",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and analyse control charts to determine if a process is in control?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare and analyse control charts to determine if a process is in control.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify possible causes for out-of-control condition",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify possible causes for out-of-control condition?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify possible causes for out-of-control condition.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Follow workplace procedures to return process to in-control operation",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace procedures to return process to in-control operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace procedures to return process to in-control operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Analyse trends and relationships in data"
+    },
+    {
+      "id": "E3",
+      "title": "Determine variation and/or uncertainty in data distributions",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Organise raw data into appropriate frequency distributions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise raw data into appropriate frequency distributions?",
+          "benchmark_statement": "The candidate demonstrates that they can Organise raw data into appropriate frequency distributions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Calculate statistical parameters of grouped and/or ungrouped data",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate statistical parameters of grouped and/or ungrouped data?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate statistical parameters of grouped and/or ungrouped data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Interpret frequency distributions to determine the characteristics of the sample or population",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret frequency distributions to determine the characteristics of the sample or population?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret frequency distributions to determine the characteristics of the sample or population.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Calculate standard deviations and confidence limits for means and replicates",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate standard deviations and confidence limits for means and replicates?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate standard deviations and confidence limits for means and replicates.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Determine data acceptability using statistical tests and workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine data acceptability using statistical tests and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine data acceptability using statistical tests and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Determine variation and/or uncertainty in data distributions"
+    },
+    {
+      "id": "E4",
+      "title": "Check for aberrant results",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Determine appropriate actions in consultation with supervisor",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine appropriate actions in consultation with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine appropriate actions in consultation with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Check for aberrant results"
+    },
+    {
+      "id": "E5",
+      "title": "Report results",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Use charts, tables and graphs to present results in the required format",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use charts, tables and graphs to present results in the required format?",
+          "benchmark_statement": "The candidate demonstrates that they can Use charts, tables and graphs to present results in the required format.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Verify that entry of data and results are correct",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify that entry of data and results are correct?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify that entry of data and results are correct.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Prepare reports and records in a format and style consistent with their intended use and workplace guidelines",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare reports and records in a format and style consistent with their intended use and workplace guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare reports and records in a format and style consistent with their intended use and workplace guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Communicate results within the specified time and in accordance with workplace confidentiality and security guidelines",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate results within the specified time and in accordance with workplace confidentiality and security guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Communicate results within the specified time and in accordance with workplace confidentiality and security guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Report results"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Perform scientific calculations",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What would indicate that ensure raw data are consistent with expectations and reasonable ranges is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure raw data are consistent with exp",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure raw data are consistent with expectations and reasonable ranges",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure raw data are consistent with expectations and reasonable ranges.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure raw data are consistent with expectations and reasonable ranges?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure raw data are consistent with expectations and reasonable ranges",
+      "knowledge_focus": [
+        "Ensure raw data are consistent with expectations and reasonable ranges"
+      ],
+      "workplace_context_examples": [
+        "Perform scientific calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure raw data are consistent with expectations and reasonable ranges"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure raw data are consistent with expectations and reasonable ranges"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure raw data are consistent with expectations and reasonable ranges."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Perform scientific calculations",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What information must be recorded when you calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate scientific quantities involvi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions",
+      "knowledge_focus": [
+        "Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions"
+      ],
+      "workplace_context_examples": [
+        "Perform scientific calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate scientific quantities involving algebraic, power, exponential and/or logarithmic functions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Perform scientific calculations",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What would indicate that ensure calculated quantities are consistent with estimations is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure calculated quantities are consis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure calculated quantities are consistent with estimations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure calculated quantities are consistent with estimations?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure calculated quantities are consistent with estimations",
+      "knowledge_focus": [
+        "Ensure calculated quantities are consistent with estimations"
+      ],
+      "workplace_context_examples": [
+        "Perform scientific calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure calculated quantities are consistent with estimations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure calculated quantities are consistent with estimations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Analyse trends and relationships in data",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to determine linear and non-linear relationships between sets of data?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine linear and non-linear relatio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine linear and non-linear relationships between sets of data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine linear and non-linear relationships between sets of data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine linear and non-linear relationships between sets of data?",
+      "practical_task_interpretation": "In practice this requires the worker to determine linear and non-linear relationships between sets of data",
+      "knowledge_focus": [
+        "Determine linear and non-linear relationships between sets of data"
+      ],
+      "workplace_context_examples": [
+        "Analyse trends and relationships in data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine linear and non-linear relationships between sets of data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine linear and non-linear relationships between sets of data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine linear and non-linear relationships between sets of data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Analyse trends and relationships in data",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to prepare and analyse control charts to determine if a process is in control?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare and analyse control charts to d",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare and analyse control charts to determine if a process is in control",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare and analyse control charts to determine if a process is in control.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and analyse control charts to determine if a process is in control?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare and analyse control charts to determine if a process is in control",
+      "knowledge_focus": [
+        "Prepare and analyse control charts to determine if a process is in control"
+      ],
+      "workplace_context_examples": [
+        "Analyse trends and relationships in data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare and analyse control charts to determine if a process is in control"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare and analyse control charts to determine if a process is in control"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare and analyse control charts to determine if a process is in control."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Analyse trends and relationships in data",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify possible causes for out-of-control condition?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify possible causes for out-of-con",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify possible causes for out-of-control condition",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify possible causes for out-of-control condition.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify possible causes for out-of-control condition?",
+      "practical_task_interpretation": "In practice this requires the worker to identify possible causes for out-of-control condition",
+      "knowledge_focus": [
+        "Identify possible causes for out-of-control condition"
+      ],
+      "workplace_context_examples": [
+        "Analyse trends and relationships in data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify possible causes for out-of-control condition"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify possible causes for out-of-control condition"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify possible causes for out-of-control condition."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Determine variation and/or uncertainty in data distributions",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to organise raw data into appropriate frequency distributions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Organise raw data into appropriate freq",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to organise raw data into appropriate frequency distributions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Organise raw data into appropriate frequency distributions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise raw data into appropriate frequency distributions?",
+      "practical_task_interpretation": "In practice this requires the worker to organise raw data into appropriate frequency distributions",
+      "knowledge_focus": [
+        "Organise raw data into appropriate frequency distributions"
+      ],
+      "workplace_context_examples": [
+        "Determine variation and/or uncertainty in data distributions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of organise raw data into appropriate frequency distributions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of organise raw data into appropriate frequency distributions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Organise raw data into appropriate frequency distributions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Determine variation and/or uncertainty in data distributions",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to calculate statistical parameters of grouped and/or ungrouped data? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate statistical parameters of gro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate statistical parameters of grouped and/or ungrouped data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate statistical parameters of grouped and/or ungrouped data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate statistical parameters of grouped and/or ungrouped data?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate statistical parameters of grouped and/or ungrouped data",
+      "knowledge_focus": [
+        "Calculate statistical parameters of grouped and/or ungrouped data"
+      ],
+      "workplace_context_examples": [
+        "Determine variation and/or uncertainty in data distributions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate statistical parameters of grouped and/or ungrouped data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate statistical parameters of grouped and/or ungrouped data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate statistical parameters of grouped and/or ungrouped data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Determine variation and/or uncertainty in data distributions",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to interpret frequency distributions to determine the characteristics of the sample or population?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret frequency distributions to de",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret frequency distributions to determine the characteristics of the sample or population",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret frequency distributions to determine the characteristics of the sample or population.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret frequency distributions to determine the characteristics of the sample or population?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret frequency distributions to determine the characteristics of the sample or population",
+      "knowledge_focus": [
+        "Interpret frequency distributions to determine the characteristics of the sample or population"
+      ],
+      "workplace_context_examples": [
+        "Determine variation and/or uncertainty in data distributions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret frequency distributions to determine the characteristics of the sample or population"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret frequency distributions to determine the characteristics of the sample or population"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret frequency distributions to determine the characteristics of the sample or population."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Check for aberrant results",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify results that cannot be reconci",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes?",
+      "practical_task_interpretation": "In practice this requires the worker to identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes",
+      "knowledge_focus": [
+        "Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes"
+      ],
+      "workplace_context_examples": [
+        "Check for aberrant results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify results that cannot be reconciled with sample, sample documentation, testing procedures and/or expected outcomes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Check for aberrant results",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to determine appropriate actions in consultation with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine appropriate actions in consul",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine appropriate actions in consultation with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine appropriate actions in consultation with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine appropriate actions in consultation with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to determine appropriate actions in consultation with supervisor",
+      "knowledge_focus": [
+        "Determine appropriate actions in consultation with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Check for aberrant results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine appropriate actions in consultation with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine appropriate actions in consultation with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine appropriate actions in consultation with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Report results",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What technical knowledge is required to use charts, tables and graphs to present results in the required format? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use charts, tables and graphs to presen",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use charts, tables and graphs to present results in the required format",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use charts, tables and graphs to present results in the required format.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use charts, tables and graphs to present results in the required format?",
+      "practical_task_interpretation": "In practice this requires the worker to use charts, tables and graphs to present results in the required format",
+      "knowledge_focus": [
+        "Use charts, tables and graphs to present results in the required format"
+      ],
+      "workplace_context_examples": [
+        "Report results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use charts, tables and graphs to present results in the required format"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use charts, tables and graphs to present results in the required format"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use charts, tables and graphs to present results in the required format."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.798541+00:00"
+}

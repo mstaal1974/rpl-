@@ -1,0 +1,335 @@
+{
+  "code": "AURVTN043",
+  "title": "Install external vehicle equipment",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Install external vehicle equipment demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to install external vehicle equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to install external vehicle equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Assess external vehicle safety features",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Assess external vehicle safety features"
+    },
+    {
+      "id": "E3",
+      "title": "Complete installation and test external vehicle equipment",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete installation and test external vehicle equipment"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to install external vehicle equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements and interpret vehicle specifications from original equipment manufacturer (oem) guides or authorised agency and workplace inspection procedures 1.2 confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (sds) 1.3 select installation option according to the identified job requirements1.4 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 prepare tools and equipment according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements and interpre",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements and interpret vehicle specifications from original equipment manufacturer (oem) guides or authorised agency and workplace inspection procedures 1.2 confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (sds) 1.3 select installation option according to the identified job requirements1.4 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 prepare tools and equipment according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements and interpret vehicle specifications from original equipment manufacturer (oem) guides or authorised agency and workplace inspection procedures 1.2 confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (sds) 1.3 select installation option according to the identified job requirements1.4 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 prepare tools and equipment according to workplace procedures",
+      "knowledge_focus": [
+        "Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare to install external vehicle equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements and interpret vehicle specifications from original equipment manufacturer (oem) guides or authorised agency and workplace inspection procedures 1.2 confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (sds) 1.3 select installation option according to the identified job requirements1.4 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 prepare tools and equipment according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements and interpret vehicle specifications from original equipment manufacturer (oem) guides or authorised agency and workplace inspection procedures 1.2 confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (sds) 1.3 select installation option according to the identified job requirements1.4 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 prepare tools and equipment according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements and interpret vehicle specifications from original equipment manufacturer (OEM) guides or authorised agency and workplace inspection procedures 1.2 Confirm external vehicle equipment according to regulatory requirements, standards and safety data sheets (SDS) 1.3 Select installation option according to the identified job requirements1.4 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.5 Prepare tools and equipment according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Assess external vehicle safety features",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to conduct safety inspection of vehicle body according to workplace policies and procedures2.2 report on vehicle safety features according to sds2.3 select and source external vehicle equipment according to job requirements2.4 check external vehicle equipment for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct safety inspection of vehicle bo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct safety inspection of vehicle body according to workplace policies and procedures2.2 report on vehicle safety features according to sds2.3 select and source external vehicle equipment according to job requirements2.4 check external vehicle equipment for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct safety inspection of vehicle body according to workplace policies and procedures2.2 report on vehicle safety features according to sds2.3 select and source external vehicle equipment according to job requirements2.4 check external vehicle equipment for serviceability",
+      "knowledge_focus": [
+        "Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Assess external vehicle safety features"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct safety inspection of vehicle body according to workplace policies and procedures2.2 report on vehicle safety features according to sds2.3 select and source external vehicle equipment according to job requirements2.4 check external vehicle equipment for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct safety inspection of vehicle body according to workplace policies and procedures2.2 report on vehicle safety features according to sds2.3 select and source external vehicle equipment according to job requirements2.4 check external vehicle equipment for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct safety inspection of vehicle body according to workplace policies and procedures2.2 Report on vehicle safety features according to SDS2.3 Select and source external vehicle equipment according to job requirements2.4 Check external vehicle equipment for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete installation and test external vehicle equipment",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 conduct final inspection and confirm vehicle is ready for use according to road safety standards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Install external vehicle equipment acco",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 conduct final inspection and confirm vehicle is ready for use according to road safety standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards?",
+      "practical_task_interpretation": "In practice this requires the worker to install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 conduct final inspection and confirm vehicle is ready for use according to road safety standards",
+      "knowledge_focus": [
+        "Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards"
+      ],
+      "workplace_context_examples": [
+        "Complete installation and test external vehicle equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 conduct final inspection and confirm vehicle is ready for use according to road safety standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 conduct final inspection and confirm vehicle is ready for use according to road safety standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Install external vehicle equipment according to manufacturer specifications, workplace procedures and safety requirements, without interfering with existing systems 3.2 Conduct post-installation testing of external vehicle equipment and rectify faults where required according to workplace policies and procedures3.3 Conduct final inspection and confirm vehicle is ready for use according to road safety standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and installation process according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean work area, collect recyclable mat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and installation process according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and installation process according to workplace procedures",
+      "knowledge_focus": [
+        "Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and installation process according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and installation process according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and installation process according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.224457+00:00"
+}

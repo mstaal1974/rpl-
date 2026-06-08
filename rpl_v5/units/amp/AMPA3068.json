@@ -1,0 +1,335 @@
+{
+  "code": "AMPA3068",
+  "title": "Prepare and despatch meat products",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare and despatch meat products demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify product required for meat product orders",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify product required for meat product orders"
+    },
+    {
+      "id": "E2",
+      "title": "Check customer requirements for delivery of order",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Check customer requirements for delivery of order"
+    },
+    {
+      "id": "E3",
+      "title": "Arrange orders",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Arrange orders"
+    },
+    {
+      "id": "E4",
+      "title": "Complete documentation",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete documentation"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify product required for meat product orders",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify and label products in accordance with trade descriptions1.2 identify products in accordance with company requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and label products in accordan",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and label products in accordance with trade descriptions1.2 identify products in accordance with company requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and label products in accordance with trade descriptions1.2 identify products in accordance with company requirements",
+      "knowledge_focus": [
+        "Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify product required for meat product orders"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and label products in accordance with trade descriptions1.2 identify products in accordance with company requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and label products in accordance with trade descriptions1.2 identify products in accordance with company requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and label products in accordance with trade descriptions1.2 Identify products in accordance with company requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Check customer requirements for delivery of order",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to confirm customer requirements to determine product order delivery arrangements2.2 check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm customer requirements to determ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm customer requirements to determine product order delivery arrangements2.2 check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm customer requirements to determine product order delivery arrangements2.2 check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Check customer requirements for delivery of order"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm customer requirements to determine product order delivery arrangements2.2 check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm customer requirements to determine product order delivery arrangements2.2 check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm customer requirements to determine product order delivery arrangements2.2 Check customer requirements to confirm whether the order is domestic or export so as to comply with appropriate regulatory and importing country requirements2.3 Confirm temperature and storage requirements for product order and arrange in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Arrange orders",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to identify products for an order and confirm chiller location3.2 assemble product and check against documentation to ensure correct order is sent out3.3 prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, quality assurance (qa) and regulatory requirements3.4 identify cartons and/or carcases unsuitable for loadout and take appropriate action?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify products for an order and conf",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify products for an order and confirm chiller location3.2 assemble product and check against documentation to ensure correct order is sent out3.3 prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, quality assurance (qa) and regulatory requirements3.4 identify cartons and/or carcases unsuitable for loadout and take appropriate action",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action?",
+      "practical_task_interpretation": "In practice this requires the worker to identify products for an order and confirm chiller location3.2 assemble product and check against documentation to ensure correct order is sent out3.3 prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, quality assurance (qa) and regulatory requirements3.4 identify cartons and/or carcases unsuitable for loadout and take appropriate action",
+      "knowledge_focus": [
+        "Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action"
+      ],
+      "workplace_context_examples": [
+        "Arrange orders"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify products for an order and confirm chiller location3.2 assemble product and check against documentation to ensure correct order is sent out3.3 prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, quality assurance (qa) and regulatory requirements3.4 identify cartons and/or carcases unsuitable for loadout and take appropriate action"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify products for an order and confirm chiller location3.2 assemble product and check against documentation to ensure correct order is sent out3.3 prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, quality assurance (qa) and regulatory requirements3.4 identify cartons and/or carcases unsuitable for loadout and take appropriate action"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify products for an order and confirm chiller location3.2 Assemble product and check against documentation to ensure correct order is sent out3.3 Prepare meat orders in accordance with workplace health and safety, hygiene and sanitation, Quality Assurance (QA) and regulatory requirements3.4 Identify cartons and/or carcases unsuitable for loadout and take appropriate action."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete documentation",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly complete despatch documentati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Complete documentation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly complete despatch documentation either manually or electronically to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.912702+00:00"
+}

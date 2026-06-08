@@ -1,0 +1,263 @@
+{
+  "code": "AURETK002",
+  "title": "Use and maintain electrical test equipment in an automotive workplace",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Use and maintain electrical test equipment in an automotive workplace demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Select and use electrical test equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Select and use electrical test equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Service, maintain and store electrical test equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Service, maintain and store electrical test equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Select and use electrical test equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined according to workplace instructions1.2 electrical test equipment is identified and selected to meet job requirements1.3 electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 personal protective equipment (ppe) required for the work is selected and checked before use1.5 hazards associated with the work are identified and risks are managed1.6 electrical test equipment is used according to manufacturer specifications and safety requirements1.7 electrical circuits are tested according to workplace procedures and without causing damage to systems and components?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined according to workplace instructions1.2 electrical test equipment is identified and selected to meet job requirements1.3 electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 personal protective equipment (ppe) required for the work is selected and checked before use1.5 hazards associated with the work are identified and risks are managed1.6 electrical test equipment is used according to manufacturer specifications and safety requirements1.7 electrical circuits are tested according to workplace procedures and without causing damage to systems and components",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined according to workplace instructions1.2 electrical test equipment is identified and selected to meet job requirements1.3 electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 personal protective equipment (ppe) required for the work is selected and checked before use1.5 hazards associated with the work are identified and risks are managed1.6 electrical test equipment is used according to manufacturer specifications and safety requirements1.7 electrical circuits are tested according to workplace procedures and without causing damage to systems and components",
+      "knowledge_focus": [
+        "Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components"
+      ],
+      "workplace_context_examples": [
+        "Select and use electrical test equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined according to workplace instructions1.2 electrical test equipment is identified and selected to meet job requirements1.3 electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 personal protective equipment (ppe) required for the work is selected and checked before use1.5 hazards associated with the work are identified and risks are managed1.6 electrical test equipment is used according to manufacturer specifications and safety requirements1.7 electrical circuits are tested according to workplace procedures and without causing damage to systems and components"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined according to workplace instructions1.2 electrical test equipment is identified and selected to meet job requirements1.3 electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 personal protective equipment (ppe) required for the work is selected and checked before use1.5 hazards associated with the work are identified and risks are managed1.6 electrical test equipment is used according to manufacturer specifications and safety requirements1.7 electrical circuits are tested according to workplace procedures and without causing damage to systems and components"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Electrical test equipment is identified and selected to meet job requirements1.3 Electrical test equipment is checked and calibrated according to manufacturer specifications and workplace procedures1.4 Personal protective equipment (PPE) required for the work is selected and checked before use1.5 Hazards associated with the work are identified and risks are managed1.6 Electrical test equipment is used according to manufacturer specifications and safety requirements1.7 Electrical circuits are tested according to workplace procedures and without causing damage to systems and components."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Service, maintain and store electrical test equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Electrical test equipment is serviced, ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures",
+      "knowledge_focus": [
+        "Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Service, maintain and store electrical test equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Electrical test equipment is serviced, calibrated and maintained within scope of responsibility according to manufacturer specifications and workplace procedures2.2 Calibration inspection schedules and procedures are determined to ensure reliable and accurate operation2.3 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement, and reported according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Electrical test equipment is cleaned, c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.737489+00:00"
+}

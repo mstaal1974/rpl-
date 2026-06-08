@@ -1,0 +1,968 @@
+{
+  "code": "AHCPHT218",
+  "title": "Carry out post-harvest operations",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Carry out post-harvest operations demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for post-harvest operations",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify post-harvest treatments, operations to be performed and client specifications with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify post-harvest treatments, operations to be performed and client specifications with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify post-harvest treatments, operations to be performed and client specifications with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Select materials, tools, equipment and machinery according to post-harvest operations requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select materials, tools, equipment and machinery according to post-harvest operations requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Select materials, tools, equipment and machinery according to post-harvest operations requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Carry out pre-operational and safety checks on tools, equipment and machinery",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out pre-operational and safety checks on tools, equipment and machinery?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out pre-operational and safety checks on tools, equipment and machinery.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify the Hazard Analysis and Critical Control Points (HACCP) and food safety requirements applicable to crop under cultivation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the Hazard Analysis and Critical Control Points (HACCP) and food safety requirements applicable to crop under cultivation?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the Hazard Analysis and Critical Control Points (HACCP) and food safety requirements applicable to crop under cultivation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Identify site quarantine protocols and farm and personal hygiene requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify site quarantine protocols and farm and personal hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify site quarantine protocols and farm and personal hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for post-harvest operations"
+    },
+    {
+      "id": "E2",
+      "title": "Transport harvested produce",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Transport produce to post-harvest processing or storage area",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transport produce to post-harvest processing or storage area?",
+          "benchmark_statement": "The candidate demonstrates that they can Transport produce to post-harvest processing or storage area.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Maintain required temperature of harvested produce",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain required temperature of harvested produce?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain required temperature of harvested produce.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Maintain containers, materials and equipment in good working order according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain containers, materials and equipment in good working order according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain containers, materials and equipment in good working order according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Transport harvested produce"
+    },
+    {
+      "id": "E3",
+      "title": "Grade, label, treat, weigh and pack produce",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Grade and label produce according to client specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Grade and label produce according to client specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Grade and label produce according to client specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Apply post-harvest treatments according to produce requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply post-harvest treatments according to produce requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply post-harvest treatments according to produce requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Select packaging materials and containers for specific produce",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select packaging materials and containers for specific produce?",
+          "benchmark_statement": "The candidate demonstrates that they can Select packaging materials and containers for specific produce.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Weigh filled containers, record weight and repack to correct weight",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh filled containers, record weight and repack to correct weight?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh filled containers, record weight and repack to correct weight.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Use required filling techniques for specific containers and produce",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use required filling techniques for specific containers and produce?",
+          "benchmark_statement": "The candidate demonstrates that they can Use required filling techniques for specific containers and produce.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Apply wraps and lids, and label containers according to client specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply wraps and lids, and label containers according to client specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply wraps and lids, and label containers according to client specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Grade, label, treat, weigh and pack produce"
+    },
+    {
+      "id": "E4",
+      "title": "Store produce in a facility",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Place containers onto pallets or racks to ensure stability and optimum airflow",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Place containers onto pallets or racks to ensure stability and optimum airflow?",
+          "benchmark_statement": "The candidate demonstrates that they can Place containers onto pallets or racks to ensure stability and optimum airflow.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Transport and arrange pallets or racks in storage facility",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transport and arrange pallets or racks in storage facility?",
+          "benchmark_statement": "The candidate demonstrates that they can Transport and arrange pallets or racks in storage facility.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Read storage facility monitoring gauges, and report abnormal readings to supervisor",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Read storage facility monitoring gauges, and report abnormal readings to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Read storage facility monitoring gauges, and report abnormal readings to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Check condition of stored produce, and remove damaged produce and containers from storage facility",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check condition of stored produce, and remove damaged produce and containers from storage facility?",
+          "benchmark_statement": "The candidate demonstrates that they can Check condition of stored produce, and remove damaged produce and containers from storage facility.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Clean storage facility and packing containers",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean storage facility and packing containers?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean storage facility and packing containers.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Record and report post-harvest operations according to workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and report post-harvest operations according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and report post-harvest operations according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Store produce in a facility"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for post-harvest operations",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify post-harvest treatments, operations to be performed and client specifications with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify post-harvest treatments, opera",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify post-harvest treatments, operations to be performed and client specifications with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify post-harvest treatments, operations to be performed and client specifications with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify post-harvest treatments, operations to be performed and client specifications with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify post-harvest treatments, operations to be performed and client specifications with supervisor",
+      "knowledge_focus": [
+        "Identify post-harvest treatments, operations to be performed and client specifications with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare for post-harvest operations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify post-harvest treatments, operations to be performed and client specifications with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify post-harvest treatments, operations to be performed and client specifications with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify post-harvest treatments, operations to be performed and client specifications with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for post-harvest operations",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What criteria determine how to select materials, tools, equipment and machinery according to post-harvest operations requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select materials, tools, equipment and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select materials, tools, equipment and machinery according to post-harvest operations requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select materials, tools, equipment and machinery according to post-harvest operations requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select materials, tools, equipment and machinery according to post-harvest operations requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to select materials, tools, equipment and machinery according to post-harvest operations requirements",
+      "knowledge_focus": [
+        "Select materials, tools, equipment and machinery according to post-harvest operations requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for post-harvest operations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select materials, tools, equipment and machinery according to post-harvest operations requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select materials, tools, equipment and machinery according to post-harvest operations requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select materials, tools, equipment and machinery according to post-harvest operations requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for post-harvest operations",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to carry out pre-operational and safety checks on tools, equipment and machinery?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out pre-operational and safety ch",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out pre-operational and safety checks on tools, equipment and machinery",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out pre-operational and safety checks on tools, equipment and machinery.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out pre-operational and safety checks on tools, equipment and machinery?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out pre-operational and safety checks on tools, equipment and machinery",
+      "knowledge_focus": [
+        "Carry out pre-operational and safety checks on tools, equipment and machinery"
+      ],
+      "workplace_context_examples": [
+        "Prepare for post-harvest operations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out pre-operational and safety checks on tools, equipment and machinery"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out pre-operational and safety checks on tools, equipment and machinery"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out pre-operational and safety checks on tools, equipment and machinery."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Transport harvested produce",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to transport produce to post-harvest processing or storage area? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Transport produce to post-harvest proce",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to transport produce to post-harvest processing or storage area",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Transport produce to post-harvest processing or storage area.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transport produce to post-harvest processing or storage area?",
+      "practical_task_interpretation": "In practice this requires the worker to transport produce to post-harvest processing or storage area",
+      "knowledge_focus": [
+        "Transport produce to post-harvest processing or storage area"
+      ],
+      "workplace_context_examples": [
+        "Transport harvested produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of transport produce to post-harvest processing or storage area"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of transport produce to post-harvest processing or storage area"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Transport produce to post-harvest processing or storage area."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Transport harvested produce",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What would indicate that maintain required temperature of harvested produce is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain required temperature of harves",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain required temperature of harvested produce",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain required temperature of harvested produce.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain required temperature of harvested produce?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain required temperature of harvested produce",
+      "knowledge_focus": [
+        "Maintain required temperature of harvested produce"
+      ],
+      "workplace_context_examples": [
+        "Transport harvested produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain required temperature of harvested produce"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain required temperature of harvested produce"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain required temperature of harvested produce."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Transport harvested produce",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that maintain containers, materials and equipment in good working order according to workplace requirements is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain containers, materials and equi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain containers, materials and equipment in good working order according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain containers, materials and equipment in good working order according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain containers, materials and equipment in good working order according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain containers, materials and equipment in good working order according to workplace requirements",
+      "knowledge_focus": [
+        "Maintain containers, materials and equipment in good working order according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Transport harvested produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain containers, materials and equipment in good working order according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain containers, materials and equipment in good working order according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain containers, materials and equipment in good working order according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Grade, label, treat, weigh and pack produce",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to grade and label produce according to client specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Grade and label produce according to cl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to grade and label produce according to client specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Grade and label produce according to client specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Grade and label produce according to client specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to grade and label produce according to client specifications",
+      "knowledge_focus": [
+        "Grade and label produce according to client specifications"
+      ],
+      "workplace_context_examples": [
+        "Grade, label, treat, weigh and pack produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of grade and label produce according to client specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of grade and label produce according to client specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Grade and label produce according to client specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Grade, label, treat, weigh and pack produce",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to apply post-harvest treatments according to produce requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Apply post-harvest treatments according",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to apply post-harvest treatments according to produce requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Apply post-harvest treatments according to produce requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply post-harvest treatments according to produce requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to apply post-harvest treatments according to produce requirements",
+      "knowledge_focus": [
+        "Apply post-harvest treatments according to produce requirements"
+      ],
+      "workplace_context_examples": [
+        "Grade, label, treat, weigh and pack produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of apply post-harvest treatments according to produce requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of apply post-harvest treatments according to produce requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Apply post-harvest treatments according to produce requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Grade, label, treat, weigh and pack produce",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify quality parameters of produce ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling?",
+      "practical_task_interpretation": "In practice this requires the worker to identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling",
+      "knowledge_focus": [
+        "Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling"
+      ],
+      "workplace_context_examples": [
+        "Grade, label, treat, weigh and pack produce"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify quality parameters of produce and specifications for packaging materials, containers, filling techniques and labelling."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Store produce in a facility",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What would indicate that place containers onto pallets or racks to ensure stability and optimum airflow is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Place containers onto pallets or racks ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to place containers onto pallets or racks to ensure stability and optimum airflow",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Place containers onto pallets or racks to ensure stability and optimum airflow.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Place containers onto pallets or racks to ensure stability and optimum airflow?",
+      "practical_task_interpretation": "In practice this requires the worker to place containers onto pallets or racks to ensure stability and optimum airflow",
+      "knowledge_focus": [
+        "Place containers onto pallets or racks to ensure stability and optimum airflow"
+      ],
+      "workplace_context_examples": [
+        "Store produce in a facility"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of place containers onto pallets or racks to ensure stability and optimum airflow"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of place containers onto pallets or racks to ensure stability and optimum airflow"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Place containers onto pallets or racks to ensure stability and optimum airflow."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Store produce in a facility",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to transport and arrange pallets or racks in storage facility? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Transport and arrange pallets or racks ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to transport and arrange pallets or racks in storage facility",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Transport and arrange pallets or racks in storage facility.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transport and arrange pallets or racks in storage facility?",
+      "practical_task_interpretation": "In practice this requires the worker to transport and arrange pallets or racks in storage facility",
+      "knowledge_focus": [
+        "Transport and arrange pallets or racks in storage facility"
+      ],
+      "workplace_context_examples": [
+        "Store produce in a facility"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of transport and arrange pallets or racks in storage facility"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of transport and arrange pallets or racks in storage facility"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Transport and arrange pallets or racks in storage facility."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Store produce in a facility",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you read storage facility monitoring gauges, and report abnormal readings to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Read storage facility monitoring gauges",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to read storage facility monitoring gauges, and report abnormal readings to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Read storage facility monitoring gauges, and report abnormal readings to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Read storage facility monitoring gauges, and report abnormal readings to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to read storage facility monitoring gauges, and report abnormal readings to supervisor",
+      "knowledge_focus": [
+        "Read storage facility monitoring gauges, and report abnormal readings to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Store produce in a facility"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of read storage facility monitoring gauges, and report abnormal readings to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of read storage facility monitoring gauges, and report abnormal readings to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Read storage facility monitoring gauges, and report abnormal readings to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.256005+00:00"
+}

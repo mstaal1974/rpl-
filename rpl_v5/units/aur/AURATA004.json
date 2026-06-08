@@ -1,0 +1,263 @@
+{
+  "code": "AURATA004",
+  "title": "Provide technical guidance",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide technical guidance demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assist co-workers with their work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them?",
+          "benchmark_statement": "The candidate demonstrates that they can Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assist co-workers with their work"
+    },
+    {
+      "id": "E2",
+      "title": "Provide technical information and instruction to co-workers",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information?",
+          "benchmark_statement": "The candidate demonstrates that they can Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Provide technical information and instruction to co-workers"
+    },
+    {
+      "id": "E3",
+      "title": "Facilitate continuous learning of self and co-workers",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Facilitate continuous learning of self and co-workers"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assist co-workers with their work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 technical information is sought and interpreted to aid own understanding, as required1.3 supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Problems arising from previous service ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 technical information is sought and interpreted to aid own understanding, as required1.3 supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them?",
+      "practical_task_interpretation": "In practice this requires the worker to problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 technical information is sought and interpreted to aid own understanding, as required1.3 supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them",
+      "knowledge_focus": [
+        "Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them"
+      ],
+      "workplace_context_examples": [
+        "Assist co-workers with their work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 technical information is sought and interpreted to aid own understanding, as required1.3 supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 technical information is sought and interpreted to aid own understanding, as required1.3 supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Problems arising from previous service and repair work procedures are identified and opportunities for technical guidance are identified1.2 Technical information is sought and interpreted to aid own understanding, as required1.3 Supervisor, team leader or colleague with advanced technical knowledge is identified, and assistance is sought, as required1.4 Technical guidance is provided to co-workers, appropriate to their skill level and need, to assist in determining suitable repair method1.5 Assistance is provided to co-worker during work, to ensure work is completed to manufacturer specifications1.6 Potential faults in co-workers\u2019 work are identified and precautionary steps are taken to prevent them."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Provide technical information and instruction to co-workers",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be communicated when current technical information is communicated to co-workers as it becomes available2.2 co-workers are instructed how to access, interpret and apply technical information, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Current technical information is commun",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to current technical information is communicated to co-workers as it becomes available2.2 co-workers are instructed how to access, interpret and apply technical information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information?",
+      "practical_task_interpretation": "In practice this requires the worker to current technical information is communicated to co-workers as it becomes available2.2 co-workers are instructed how to access, interpret and apply technical information",
+      "knowledge_focus": [
+        "Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information"
+      ],
+      "workplace_context_examples": [
+        "Provide technical information and instruction to co-workers"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of current technical information is communicated to co-workers as it becomes available2.2 co-workers are instructed how to access, interpret and apply technical information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of current technical information is communicated to co-workers as it becomes available2.2 co-workers are instructed how to access, interpret and apply technical information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Current technical information is communicated to co-workers as it becomes available2.2 Co-workers are instructed how to access, interpret and apply technical information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Facilitate continuous learning of self and co-workers",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be communicated when information is shared to build own and co-workers\u2019 skills3.2 training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 approval to take advantage of training opportunities is sought from supervisor, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Information is shared to build own and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to information is shared to build own and co-workers\u2019 skills3.2 training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 approval to take advantage of training opportunities is sought from supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to information is shared to build own and co-workers\u2019 skills3.2 training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 approval to take advantage of training opportunities is sought from supervisor",
+      "knowledge_focus": [
+        "Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor"
+      ],
+      "workplace_context_examples": [
+        "Facilitate continuous learning of self and co-workers"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of information is shared to build own and co-workers\u2019 skills3.2 training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 approval to take advantage of training opportunities is sought from supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of information is shared to build own and co-workers\u2019 skills3.2 training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 approval to take advantage of training opportunities is sought from supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Information is shared to build own and co-workers\u2019 skills3.2 Training opportunities are identified that meet technical and business needs and enhance technical skills of self and co-workers3.3 Approval to take advantage of training opportunities is sought from supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.664782+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AURAFA002",
+  "title": "Read and respond to automotive workplace information",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Read and respond to automotive workplace information demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to read automotive workplace text",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified?",
+          "benchmark_statement": "The candidate demonstrates that they can Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to read automotive workplace text"
+    },
+    {
+      "id": "E2",
+      "title": "Identify key information in text",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified?",
+          "benchmark_statement": "The candidate demonstrates that they can Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify key information in text"
+    },
+    {
+      "id": "E3",
+      "title": "Confirm understanding and respond to automotive text",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Understanding of information is checked3.2 Information is used to respond appropriately",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Understanding of information is checked3.2 Information is used to respond appropriately?",
+          "benchmark_statement": "The candidate demonstrates that they can Understanding of information is checked3.2 Information is used to respond appropriately.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Confirm understanding and respond to automotive text"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to read automotive workplace text",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to type of automotive text is identified1.2 purpose and audience of text are identified1.3 features of text are identified? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Type of automotive text is identified1.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to type of automotive text is identified1.2 purpose and audience of text are identified1.3 features of text are identified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified?",
+      "practical_task_interpretation": "In practice this requires the worker to type of automotive text is identified1.2 purpose and audience of text are identified1.3 features of text are identified",
+      "knowledge_focus": [
+        "Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified"
+      ],
+      "workplace_context_examples": [
+        "Prepare to read automotive workplace text"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of type of automotive text is identified1.2 purpose and audience of text are identified1.3 features of text are identified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of type of automotive text is identified1.2 purpose and audience of text are identified1.3 features of text are identified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Type of automotive text is identified1.2 Purpose and audience of text are identified1.3 Features of text are identified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Identify key information in text",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be communicated when relevant information is located using text navigation skills and reading strategies2.2 high frequency automotive vocabulary and terms are identified, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Relevant information is located using t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to relevant information is located using text navigation skills and reading strategies2.2 high frequency automotive vocabulary and terms are identified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified?",
+      "practical_task_interpretation": "In practice this requires the worker to relevant information is located using text navigation skills and reading strategies2.2 high frequency automotive vocabulary and terms are identified",
+      "knowledge_focus": [
+        "Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified"
+      ],
+      "workplace_context_examples": [
+        "Identify key information in text"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of relevant information is located using text navigation skills and reading strategies2.2 high frequency automotive vocabulary and terms are identified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of relevant information is located using text navigation skills and reading strategies2.2 high frequency automotive vocabulary and terms are identified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Relevant information is located using text navigation skills and reading strategies2.2 High frequency automotive vocabulary and terms are identified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Confirm understanding and respond to automotive text",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to understanding of information is checked3.2 information is used to respond appropriately?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Understanding of information is checked",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to understanding of information is checked3.2 information is used to respond appropriately",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Understanding of information is checked3.2 Information is used to respond appropriately.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Understanding of information is checked3.2 Information is used to respond appropriately?",
+      "practical_task_interpretation": "In practice this requires the worker to understanding of information is checked3.2 information is used to respond appropriately",
+      "knowledge_focus": [
+        "Understanding of information is checked3.2 Information is used to respond appropriately"
+      ],
+      "workplace_context_examples": [
+        "Confirm understanding and respond to automotive text"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of understanding of information is checked3.2 information is used to respond appropriately"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of understanding of information is checked3.2 information is used to respond appropriately"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Understanding of information is checked3.2 Information is used to respond appropriately."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.641296+00:00"
+}

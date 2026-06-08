@@ -1,0 +1,335 @@
+{
+  "code": "AMPR304",
+  "title": "Manage stock",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Manage stock demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Receive stock",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Receive stock"
+    },
+    {
+      "id": "E2",
+      "title": "Check stock",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Check stock"
+    },
+    {
+      "id": "E3",
+      "title": "Participate in stocktake",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate?",
+          "benchmark_statement": "The candidate demonstrates that they can Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Participate in stocktake"
+    },
+    {
+      "id": "E4",
+      "title": "Re-order stock",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Re-order stock"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Receive stock",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 check ticketing and labels to ensure they comply with meat ordered1.3 check meat quality in accordance with workplace requirements1.4 receive and check dry goods to ensure they are in accordance with order placed1.5 record and report problems with receivals in accordance with workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh and check carcases or cartons on ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 check ticketing and labels to ensure they comply with meat ordered1.3 check meat quality in accordance with workplace requirements1.4 receive and check dry goods to ensure they are in accordance with order placed1.5 record and report problems with receivals in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 check ticketing and labels to ensure they comply with meat ordered1.3 check meat quality in accordance with workplace requirements1.4 receive and check dry goods to ensure they are in accordance with order placed1.5 record and report problems with receivals in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Receive stock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 check ticketing and labels to ensure they comply with meat ordered1.3 check meat quality in accordance with workplace requirements1.4 receive and check dry goods to ensure they are in accordance with order placed1.5 record and report problems with receivals in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 check ticketing and labels to ensure they comply with meat ordered1.3 check meat quality in accordance with workplace requirements1.4 receive and check dry goods to ensure they are in accordance with order placed1.5 record and report problems with receivals in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh and check carcases or cartons on receipt in accordance with the number and quality ordered1.2 Check ticketing and labels to ensure they comply with meat ordered1.3 Check meat quality in accordance with workplace requirements1.4 Receive and check dry goods to ensure they are in accordance with order placed1.5 Record and report problems with receivals in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Check stock",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to determine quantity of existing stock in accordance with workplace requirements2.2 inspect meat to determine quality in accordance with health, hygiene and quality assurance (qa) requirements2.3 communicate state of stock promptly to supervisor or manager2.4 discard outdated or deteriorated stock in accordance with workplace requirements2.5 determine future stock needs in accordance with workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine quantity of existing stock in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine quantity of existing stock in accordance with workplace requirements2.2 inspect meat to determine quality in accordance with health, hygiene and quality assurance (qa) requirements2.3 communicate state of stock promptly to supervisor or manager2.4 discard outdated or deteriorated stock in accordance with workplace requirements2.5 determine future stock needs in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to determine quantity of existing stock in accordance with workplace requirements2.2 inspect meat to determine quality in accordance with health, hygiene and quality assurance (qa) requirements2.3 communicate state of stock promptly to supervisor or manager2.4 discard outdated or deteriorated stock in accordance with workplace requirements2.5 determine future stock needs in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Check stock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine quantity of existing stock in accordance with workplace requirements2.2 inspect meat to determine quality in accordance with health, hygiene and quality assurance (qa) requirements2.3 communicate state of stock promptly to supervisor or manager2.4 discard outdated or deteriorated stock in accordance with workplace requirements2.5 determine future stock needs in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine quantity of existing stock in accordance with workplace requirements2.2 inspect meat to determine quality in accordance with health, hygiene and quality assurance (qa) requirements2.3 communicate state of stock promptly to supervisor or manager2.4 discard outdated or deteriorated stock in accordance with workplace requirements2.5 determine future stock needs in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine quantity of existing stock in accordance with workplace requirements2.2 Inspect meat to determine quality in accordance with health, hygiene and Quality Assurance (QA) requirements2.3 Communicate state of stock promptly to supervisor or manager2.4 Discard outdated or deteriorated stock in accordance with workplace requirements2.5 Determine future stock needs in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Participate in stocktake",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 complete stock records documentation in accordance with workplace stock control system3.3 report and record discrepancies in stock 3.4 operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assist with stocktaking and cyclical co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 complete stock records documentation in accordance with workplace stock control system3.3 report and record discrepancies in stock 3.4 operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate?",
+      "practical_task_interpretation": "In practice this requires the worker to assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 complete stock records documentation in accordance with workplace stock control system3.3 report and record discrepancies in stock 3.4 operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate",
+      "knowledge_focus": [
+        "Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate"
+      ],
+      "workplace_context_examples": [
+        "Participate in stocktake"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 complete stock records documentation in accordance with workplace stock control system3.3 report and record discrepancies in stock 3.4 operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 complete stock records documentation in accordance with workplace stock control system3.3 report and record discrepancies in stock 3.4 operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assist with stocktaking and cyclical counts, in accordance with workplace requirements3.2 Complete stock records documentation in accordance with workplace stock control system3.3 Report and record discrepancies in stock 3.4 Operate and maintain electronic recording equipment according to manufacturer's specifications, as appropriate."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Re-order stock",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify minimum stock levels in accordance with workplace requirements4.2 complete stock requisition forms or electronic orders 4.3 identify undelivered stock orders on stock system and followed up without undue delay?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify minimum stock levels in accord",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify minimum stock levels in accordance with workplace requirements4.2 complete stock requisition forms or electronic orders 4.3 identify undelivered stock orders on stock system and followed up without undue delay",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay?",
+      "practical_task_interpretation": "In practice this requires the worker to identify minimum stock levels in accordance with workplace requirements4.2 complete stock requisition forms or electronic orders 4.3 identify undelivered stock orders on stock system and followed up without undue delay",
+      "knowledge_focus": [
+        "Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay"
+      ],
+      "workplace_context_examples": [
+        "Re-order stock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify minimum stock levels in accordance with workplace requirements4.2 complete stock requisition forms or electronic orders 4.3 identify undelivered stock orders on stock system and followed up without undue delay"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify minimum stock levels in accordance with workplace requirements4.2 complete stock requisition forms or electronic orders 4.3 identify undelivered stock orders on stock system and followed up without undue delay"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify minimum stock levels in accordance with workplace requirements4.2 Complete stock requisition forms or electronic orders 4.3 Identify undelivered stock orders on stock system and followed up without undue delay."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.303757+00:00"
+}

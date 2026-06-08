@@ -1,0 +1,981 @@
+{
+  "code": "MSL975032",
+  "title": "Provide input to production trials",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide input to production trials demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for the trial",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Clarify trial objectives, specifications, documentation and reporting requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify trial objectives, specifications, documentation and reporting requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clarify trial objectives, specifications, documentation and reporting requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Determine the availability of resources and the need for any clearances, special safety and storage requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine the availability of resources and the need for any clearances, special safety and storage requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine the availability of resources and the need for any clearances, special safety and storage requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Review the recommended trial schedule to identify potential barriers/constraints and develop alternatives, as necessary",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review the recommended trial schedule to identify potential barriers/constraints and develop alternatives, as necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Review the recommended trial schedule to identify potential barriers/constraints and develop alternatives, as necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Communicate and confirm all laboratory requirements with plant operators and personnel in related work areas and functions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate and confirm all laboratory requirements with plant operators and personnel in related work areas and functions?",
+          "benchmark_statement": "The candidate demonstrates that they can Communicate and confirm all laboratory requirements with plant operators and personnel in related work areas and functions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for the trial"
+    },
+    {
+      "id": "E2",
+      "title": "Participate in the trial",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Reconfirm trial details with all relevant personnel",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Reconfirm trial details with all relevant personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Reconfirm trial details with all relevant personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify any last minute changes and delays and make appropriate adjustments",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify any last minute changes and delays and make appropriate adjustments?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify any last minute changes and delays and make appropriate adjustments.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Liaise closely with production personnel to conduct the trial safely and efficiently",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise closely with production personnel to conduct the trial safely and efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise closely with production personnel to conduct the trial safely and efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Collect required product samples for laboratory analysis and/or reference",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect required product samples for laboratory analysis and/or reference?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect required product samples for laboratory analysis and/or reference.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Monitor critical process parameters and record required data",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor critical process parameters and record required data?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor critical process parameters and record required data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Monitor data to identify problems, significant process variations and/or unacceptable product",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor data to identify problems, significant process variations and/or unacceptable product?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor data to identify problems, significant process variations and/or unacceptable product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Recommend changes to production processes as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recommend changes to production processes as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Recommend changes to production processes as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.8",
+          "text": "Leave plant in condition suitable for routine production to recommence",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Leave plant in condition suitable for routine production to recommence?",
+          "benchmark_statement": "The candidate demonstrates that they can Leave plant in condition suitable for routine production to recommence.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Participate in the trial"
+    },
+    {
+      "id": "E3",
+      "title": "Assess and report trial outcomes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Arrange for, or conduct, testing of product samples to check specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange for, or conduct, testing of product samples to check specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Arrange for, or conduct, testing of product samples to check specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Analyse test results and relate properties of product samples to formulation details and processing methods",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse test results and relate properties of product samples to formulation details and processing methods?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse test results and relate properties of product samples to formulation details and processing methods.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Identify and investigate out-of-specification or unacceptable outcomes, as required",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and investigate out-of-specification or unacceptable outcomes, as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and investigate out-of-specification or unacceptable outcomes, as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Recommend possible modifications and/or opportunities for improvements within limits of role and responsibility",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recommend possible modifications and/or opportunities for improvements within limits of role and responsibility?",
+          "benchmark_statement": "The candidate demonstrates that they can Recommend possible modifications and/or opportunities for improvements within limits of role and responsibility.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Document and report trial outcomes in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document and report trial outcomes in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Document and report trial outcomes in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Assess and report trial outcomes"
+    },
+    {
+      "id": "E4",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Minimise the generation of waste and environmental impacts",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Ensure the safe collection of laboratory and hazardous waste for subsequent disposal",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Care for and store equipment and reagents, as required",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Care for and store equipment and reagents, as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Care for and store equipment and reagents, as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for the trial",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you clarify trial objectives, specifications, documentation and reporting requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clarify trial objectives, specification",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clarify trial objectives, specifications, documentation and reporting requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clarify trial objectives, specifications, documentation and reporting requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify trial objectives, specifications, documentation and reporting requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clarify trial objectives, specifications, documentation and reporting requirements",
+      "knowledge_focus": [
+        "Clarify trial objectives, specifications, documentation and reporting requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clarify trial objectives, specifications, documentation and reporting requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clarify trial objectives, specifications, documentation and reporting requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clarify trial objectives, specifications, documentation and reporting requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for the trial",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the environmental, health, saf",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures",
+      "knowledge_focus": [
+        "Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare for the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the environmental, health, safety, and/or food safety hazards associated with the trial and the recommended control procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for the trial",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to determine the availability of resources and the need for any clearances, special safety and storage requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine the availability of resources",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine the availability of resources and the need for any clearances, special safety and storage requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine the availability of resources and the need for any clearances, special safety and storage requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine the availability of resources and the need for any clearances, special safety and storage requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to determine the availability of resources and the need for any clearances, special safety and storage requirements",
+      "knowledge_focus": [
+        "Determine the availability of resources and the need for any clearances, special safety and storage requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine the availability of resources and the need for any clearances, special safety and storage requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine the availability of resources and the need for any clearances, special safety and storage requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine the availability of resources and the need for any clearances, special safety and storage requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Participate in the trial",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to reconfirm trial details with all relevant personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Reconfirm trial details with all releva",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to reconfirm trial details with all relevant personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Reconfirm trial details with all relevant personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Reconfirm trial details with all relevant personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to reconfirm trial details with all relevant personnel",
+      "knowledge_focus": [
+        "Reconfirm trial details with all relevant personnel"
+      ],
+      "workplace_context_examples": [
+        "Participate in the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of reconfirm trial details with all relevant personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of reconfirm trial details with all relevant personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Reconfirm trial details with all relevant personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Participate in the trial",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify any last minute changes and delays and make appropriate adjustments?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify any last minute changes and de",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify any last minute changes and delays and make appropriate adjustments",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify any last minute changes and delays and make appropriate adjustments.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify any last minute changes and delays and make appropriate adjustments?",
+      "practical_task_interpretation": "In practice this requires the worker to identify any last minute changes and delays and make appropriate adjustments",
+      "knowledge_focus": [
+        "Identify any last minute changes and delays and make appropriate adjustments"
+      ],
+      "workplace_context_examples": [
+        "Participate in the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify any last minute changes and delays and make appropriate adjustments"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify any last minute changes and delays and make appropriate adjustments"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify any last minute changes and delays and make appropriate adjustments."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Participate in the trial",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to liaise closely with production personnel to conduct the trial safely and efficiently? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Liaise closely with production personne",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to liaise closely with production personnel to conduct the trial safely and efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Liaise closely with production personnel to conduct the trial safely and efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise closely with production personnel to conduct the trial safely and efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to liaise closely with production personnel to conduct the trial safely and efficiently",
+      "knowledge_focus": [
+        "Liaise closely with production personnel to conduct the trial safely and efficiently"
+      ],
+      "workplace_context_examples": [
+        "Participate in the trial"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of liaise closely with production personnel to conduct the trial safely and efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of liaise closely with production personnel to conduct the trial safely and efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Liaise closely with production personnel to conduct the trial safely and efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Assess and report trial outcomes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to arrange for, or conduct, testing of product samples to check specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Arrange for, or conduct, testing of pro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to arrange for, or conduct, testing of product samples to check specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Arrange for, or conduct, testing of product samples to check specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange for, or conduct, testing of product samples to check specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to arrange for, or conduct, testing of product samples to check specifications",
+      "knowledge_focus": [
+        "Arrange for, or conduct, testing of product samples to check specifications"
+      ],
+      "workplace_context_examples": [
+        "Assess and report trial outcomes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of arrange for, or conduct, testing of product samples to check specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of arrange for, or conduct, testing of product samples to check specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Arrange for, or conduct, testing of product samples to check specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Assess and report trial outcomes",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to analyse test results and relate properties of product samples to formulation details and processing methods?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Analyse test results and relate propert",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to analyse test results and relate properties of product samples to formulation details and processing methods",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Analyse test results and relate properties of product samples to formulation details and processing methods.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse test results and relate properties of product samples to formulation details and processing methods?",
+      "practical_task_interpretation": "In practice this requires the worker to analyse test results and relate properties of product samples to formulation details and processing methods",
+      "knowledge_focus": [
+        "Analyse test results and relate properties of product samples to formulation details and processing methods"
+      ],
+      "workplace_context_examples": [
+        "Assess and report trial outcomes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of analyse test results and relate properties of product samples to formulation details and processing methods"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of analyse test results and relate properties of product samples to formulation details and processing methods"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Analyse test results and relate properties of product samples to formulation details and processing methods."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Assess and report trial outcomes",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to identify and investigate out-of-specification or unacceptable outcomes, as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and investigate out-of-specifi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and investigate out-of-specification or unacceptable outcomes, as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and investigate out-of-specification or unacceptable outcomes, as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and investigate out-of-specification or unacceptable outcomes, as required?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and investigate out-of-specification or unacceptable outcomes, as required",
+      "knowledge_focus": [
+        "Identify and investigate out-of-specification or unacceptable outcomes, as required"
+      ],
+      "workplace_context_examples": [
+        "Assess and report trial outcomes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and investigate out-of-specification or unacceptable outcomes, as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and investigate out-of-specification or unacceptable outcomes, as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and investigate out-of-specification or unacceptable outcomes, as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use established safe work practices and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other personnel",
+      "knowledge_focus": [
+        "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to minimise the generation of waste and environmental impacts? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Minimise the generation of waste and en",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to minimise the generation of waste and environmental impacts",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+      "practical_task_interpretation": "In practice this requires the worker to minimise the generation of waste and environmental impacts",
+      "knowledge_focus": [
+        "Minimise the generation of waste and environmental impacts"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of minimise the generation of waste and environmental impacts"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of minimise the generation of waste and environmental impacts"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What are the key hazards and required controls associated with ensure the safe collection of laboratory and hazardous waste for subsequent disposal?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure the safe collection of laborator",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure the safe collection of laboratory and hazardous waste for subsequent disposal",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure the safe collection of laboratory and hazardous waste for subsequent disposal",
+      "knowledge_focus": [
+        "Ensure the safe collection of laboratory and hazardous waste for subsequent disposal"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure the safe collection of laboratory and hazardous waste for subsequent disposal"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure the safe collection of laboratory and hazardous waste for subsequent disposal"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.835088+00:00"
+}

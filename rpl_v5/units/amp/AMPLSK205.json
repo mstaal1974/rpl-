@@ -1,0 +1,664 @@
+{
+  "code": "AMPLSK205",
+  "title": "Perform emergency kill",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform emergency kill demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify animal requiring emergency slaughter",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify emergency circumstances requiring animals to be killed in lairage",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify emergency circumstances requiring animals to be killed in lairage?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify emergency circumstances requiring animals to be killed in lairage.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify and communicate with the person with the authority to order an emergency kill",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and communicate with the person with the authority to order an emergency kill?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and communicate with the person with the authority to order an emergency kill.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify animal requiring emergency slaughter"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare for emergency kill",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Obtain permission for emergency kill as soon as possible",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain permission for emergency kill as soon as possible?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain permission for emergency kill as soon as possible.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare for emergency kill"
+    },
+    {
+      "id": "E3",
+      "title": "Carry out emergency kill",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Confirm animal death",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm animal death?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm animal death.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Complete necessary documentation to meet workplace standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete necessary documentation to meet workplace standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete necessary documentation to meet workplace standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Carry out emergency kill"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify animal requiring emergency slaughter",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify emergency circumstances requiring animals to be killed in lairage?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify emergency circumstances requir",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify emergency circumstances requiring animals to be killed in lairage",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify emergency circumstances requiring animals to be killed in lairage.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify emergency circumstances requiring animals to be killed in lairage?",
+      "practical_task_interpretation": "In practice this requires the worker to identify emergency circumstances requiring animals to be killed in lairage",
+      "knowledge_focus": [
+        "Identify emergency circumstances requiring animals to be killed in lairage"
+      ],
+      "workplace_context_examples": [
+        "Identify animal requiring emergency slaughter"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify emergency circumstances requiring animals to be killed in lairage"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify emergency circumstances requiring animals to be killed in lairage"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify emergency circumstances requiring animals to be killed in lairage."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify animal requiring emergency slaughter",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify and communicate with the person with the authority to order an emergency kill?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and communicate with the perso",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and communicate with the person with the authority to order an emergency kill",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and communicate with the person with the authority to order an emergency kill.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and communicate with the person with the authority to order an emergency kill?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and communicate with the person with the authority to order an emergency kill",
+      "knowledge_focus": [
+        "Identify and communicate with the person with the authority to order an emergency kill"
+      ],
+      "workplace_context_examples": [
+        "Identify animal requiring emergency slaughter"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and communicate with the person with the authority to order an emergency kill"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and communicate with the person with the authority to order an emergency kill"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and communicate with the person with the authority to order an emergency kill."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify animal requiring emergency slaughter",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify regulatory requirements and wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Identify animal requiring emergency slaughter"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify regulatory requirements and workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare for emergency kill",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify animal requiring emergency kil",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements",
+      "knowledge_focus": [
+        "Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify animal requiring emergency kill arrangements, following workplace, animal welfare and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare for emergency kill",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What criteria determine how to obtain permission for emergency kill as soon as possible?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Obtain permission for emergency kill as",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to obtain permission for emergency kill as soon as possible",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Obtain permission for emergency kill as soon as possible.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain permission for emergency kill as soon as possible?",
+      "practical_task_interpretation": "In practice this requires the worker to obtain permission for emergency kill as soon as possible",
+      "knowledge_focus": [
+        "Obtain permission for emergency kill as soon as possible"
+      ],
+      "workplace_context_examples": [
+        "Prepare for emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of obtain permission for emergency kill as soon as possible"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of obtain permission for emergency kill as soon as possible"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Obtain permission for emergency kill as soon as possible."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare for emergency kill",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Isolate animals requiring emergency kil",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Isolate animals requiring emergency kill arrangements according to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Carry out emergency kill",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform emergency kill according to dis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Carry out emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform emergency kill according to disposition of meat inspector or government veterinarian and following animal welfare and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Carry out emergency kill",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to confirm animal death?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm animal death.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm animal death",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm animal death.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm animal death?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm animal death",
+      "knowledge_focus": [
+        "Confirm animal death"
+      ],
+      "workplace_context_examples": [
+        "Carry out emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm animal death"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm animal death"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm animal death."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Carry out emergency kill",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you complete arrangements for carcase to be bled and/or disposed of, following workplace requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete arrangements for carcase to be",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete arrangements for carcase to be bled and/or disposed of, following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to complete arrangements for carcase to be bled and/or disposed of, following workplace requirements",
+      "knowledge_focus": [
+        "Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Carry out emergency kill"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete arrangements for carcase to be bled and/or disposed of, following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete arrangements for carcase to be bled and/or disposed of, following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete arrangements for carcase to be bled and/or disposed of, following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.030511+00:00"
+}

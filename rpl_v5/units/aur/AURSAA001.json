@@ -1,0 +1,335 @@
+{
+  "code": "AURSAA001",
+  "title": "Process customer complaints in an automotive workplace",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Process customer complaints in an automotive workplace demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Clarify nature of complaint",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer?",
+          "benchmark_statement": "The candidate demonstrates that they can Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Clarify nature of complaint"
+    },
+    {
+      "id": "E2",
+      "title": "Identify options to resolve complaint",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify options to resolve complaint"
+    },
+    {
+      "id": "E3",
+      "title": "Act to resolve complaint",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required?",
+          "benchmark_statement": "The candidate demonstrates that they can Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Act to resolve complaint"
+    },
+    {
+      "id": "E4",
+      "title": "Provide feedback on complaint resolution process",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Provide feedback on complaint resolution process"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Clarify nature of complaint",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you details of complaint are established1.2 summary of complaint is documented accurately1.3 initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Details of complaint are established1.2",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to details of complaint are established1.2 summary of complaint is documented accurately1.3 initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer?",
+      "practical_task_interpretation": "In practice this requires the worker to details of complaint are established1.2 summary of complaint is documented accurately1.3 initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer",
+      "knowledge_focus": [
+        "Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer"
+      ],
+      "workplace_context_examples": [
+        "Clarify nature of complaint"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of details of complaint are established1.2 summary of complaint is documented accurately1.3 initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of details of complaint are established1.2 summary of complaint is documented accurately1.3 initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Details of complaint are established1.2 Summary of complaint is documented accurately1.3 Initial explanations about process and apologies appropriate to individual customer\u2019s situation are conveyed to customer."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Identify options to resolve complaint",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to possible options for resolving complaint are identified according to workplace procedures2.2 solutions outside individual level of responsibility are referred to supervisor? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Possible options for resolving complain",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to possible options for resolving complaint are identified according to workplace procedures2.2 solutions outside individual level of responsibility are referred to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to possible options for resolving complaint are identified according to workplace procedures2.2 solutions outside individual level of responsibility are referred to supervisor",
+      "knowledge_focus": [
+        "Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Identify options to resolve complaint"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of possible options for resolving complaint are identified according to workplace procedures2.2 solutions outside individual level of responsibility are referred to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of possible options for resolving complaint are identified according to workplace procedures2.2 solutions outside individual level of responsibility are referred to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Possible options for resolving complaint are identified according to workplace procedures2.2 Solutions outside individual level of responsibility are referred to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Act to resolve complaint",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to chosen solution is outlined to customer according to workplace procedures3.2 chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Chosen solution is outlined to customer",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to chosen solution is outlined to customer according to workplace procedures3.2 chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required?",
+      "practical_task_interpretation": "In practice this requires the worker to chosen solution is outlined to customer according to workplace procedures3.2 chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required",
+      "knowledge_focus": [
+        "Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required"
+      ],
+      "workplace_context_examples": [
+        "Act to resolve complaint"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of chosen solution is outlined to customer according to workplace procedures3.2 chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of chosen solution is outlined to customer according to workplace procedures3.2 chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Chosen solution is outlined to customer according to workplace procedures3.2 Chosen solution is implemented within required timeframe and conditions are negotiated with customer3.3 Complaint is referred to supervisor if resolution is not possible or where additional levels of authorisation are required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Provide feedback on complaint resolution process",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to effectiveness of complaint resolution solution is assessed against customer feedback4.2 changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Effectiveness of complaint resolution s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to effectiveness of complaint resolution solution is assessed against customer feedback4.2 changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to effectiveness of complaint resolution solution is assessed against customer feedback4.2 changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Provide feedback on complaint resolution process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of effectiveness of complaint resolution solution is assessed against customer feedback4.2 changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of effectiveness of complaint resolution solution is assessed against customer feedback4.2 changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Effectiveness of complaint resolution solution is assessed against customer feedback4.2 Changes required to improve complaint resolution procedures are identified and passed on to supervisor for consideration according to workplace procedures4.3 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.043999+00:00"
+}

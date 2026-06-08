@@ -1,0 +1,716 @@
+{
+  "code": "AMPQUA309",
+  "title": "Perform manual chemical lean testing",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform manual chemical lean testing demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Take samples for testing",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select carton or container meat for testing according to sampling plan",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select carton or container meat for testing according to sampling plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Select carton or container meat for testing according to sampling plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Select and use specified personal protective equipment (PPE)",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and use specified personal protective equipment (PPE)?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and use specified personal protective equipment (PPE).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Handle cartons or containers according to workplace hygiene and health and safety requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle cartons or containers according to workplace hygiene and health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle cartons or containers according to workplace hygiene and health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify products to be sampled",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify products to be sampled?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify products to be sampled.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Take samples according to workplace requirements and regulatory requirements for CL testing",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take samples according to workplace requirements and regulatory requirements for CL testing?",
+          "benchmark_statement": "The candidate demonstrates that they can Take samples according to workplace requirements and regulatory requirements for CL testing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Take samples for testing"
+    },
+    {
+      "id": "E2",
+      "title": "Test samples",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Perform pre-operational checks on scales according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-operational checks on scales according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-operational checks on scales according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Blend meat samples according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Blend meat samples according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Blend meat samples according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Tare scales or weigh beaker according to work instruction",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tare scales or weigh beaker according to work instruction?",
+          "benchmark_statement": "The candidate demonstrates that they can Tare scales or weigh beaker according to work instruction.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Cook and weigh samples according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cook and weigh samples according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Cook and weigh samples according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Dispose of samples according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispose of samples according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Dispose of samples according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Test samples"
+    },
+    {
+      "id": "E3",
+      "title": "Calculate CL",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Calculate CL percentage using prescribed formula",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate CL percentage using prescribed formula?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate CL percentage using prescribed formula.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Withhold or release containers depending on CL results and workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Withhold or release containers depending on CL results and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Withhold or release containers depending on CL results and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Record and report CL results according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and report CL results according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and report CL results according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Identify corrective action and retesting requirements for out-of-specification product",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify corrective action and retesting requirements for out-of-specification product?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify corrective action and retesting requirements for out-of-specification product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Calculate CL"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Take samples for testing",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select carton or container meat for testing according to sampling plan?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select carton or container meat for tes",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select carton or container meat for testing according to sampling plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select carton or container meat for testing according to sampling plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select carton or container meat for testing according to sampling plan?",
+      "practical_task_interpretation": "In practice this requires the worker to select carton or container meat for testing according to sampling plan",
+      "knowledge_focus": [
+        "Select carton or container meat for testing according to sampling plan"
+      ],
+      "workplace_context_examples": [
+        "Take samples for testing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select carton or container meat for testing according to sampling plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select carton or container meat for testing according to sampling plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select carton or container meat for testing according to sampling plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Take samples for testing",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What are the key hazards and required controls associated with select and use specified personal protective equipment (ppe)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and use specified personal prote",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and use specified personal protective equipment (ppe)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select and use specified personal protective equipment (PPE).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and use specified personal protective equipment (PPE)?",
+      "practical_task_interpretation": "In practice this requires the worker to select and use specified personal protective equipment (ppe)",
+      "knowledge_focus": [
+        "Select and use specified personal protective equipment (PPE)"
+      ],
+      "workplace_context_examples": [
+        "Take samples for testing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and use specified personal protective equipment (ppe)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and use specified personal protective equipment (ppe)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and use specified personal protective equipment (PPE)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Take samples for testing",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What are the key hazards and required controls associated with handle cartons or containers according to workplace hygiene and health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle cartons or containers according ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle cartons or containers according to workplace hygiene and health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Handle cartons or containers according to workplace hygiene and health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle cartons or containers according to workplace hygiene and health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to handle cartons or containers according to workplace hygiene and health and safety requirements",
+      "knowledge_focus": [
+        "Handle cartons or containers according to workplace hygiene and health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Take samples for testing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle cartons or containers according to workplace hygiene and health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle cartons or containers according to workplace hygiene and health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle cartons or containers according to workplace hygiene and health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Test samples",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to perform pre-operational checks on scales according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-operational checks on scale",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-operational checks on scales according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-operational checks on scales according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-operational checks on scales according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-operational checks on scales according to workplace requirements",
+      "knowledge_focus": [
+        "Perform pre-operational checks on scales according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Test samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-operational checks on scales according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-operational checks on scales according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-operational checks on scales according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Test samples",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to blend meat samples according to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Blend meat samples according to workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to blend meat samples according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Blend meat samples according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Blend meat samples according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to blend meat samples according to workplace requirements",
+      "knowledge_focus": [
+        "Blend meat samples according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Test samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of blend meat samples according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of blend meat samples according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Blend meat samples according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Test samples",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to tare scales or weigh beaker according to work instruction? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Tare scales or weigh beaker according t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to tare scales or weigh beaker according to work instruction",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Tare scales or weigh beaker according to work instruction.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tare scales or weigh beaker according to work instruction?",
+      "practical_task_interpretation": "In practice this requires the worker to tare scales or weigh beaker according to work instruction",
+      "knowledge_focus": [
+        "Tare scales or weigh beaker according to work instruction"
+      ],
+      "workplace_context_examples": [
+        "Test samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of tare scales or weigh beaker according to work instruction"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of tare scales or weigh beaker according to work instruction"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Tare scales or weigh beaker according to work instruction."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Calculate CL",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to calculate cl percentage using prescribed formula? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate CL percentage using prescribe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate cl percentage using prescribed formula",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate CL percentage using prescribed formula.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate CL percentage using prescribed formula?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate cl percentage using prescribed formula",
+      "knowledge_focus": [
+        "Calculate CL percentage using prescribed formula"
+      ],
+      "workplace_context_examples": [
+        "Calculate CL"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate cl percentage using prescribed formula"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate cl percentage using prescribed formula"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate CL percentage using prescribed formula."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Calculate CL",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to withhold or release containers depending on cl results and workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Withhold or release containers dependin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to withhold or release containers depending on cl results and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Withhold or release containers depending on CL results and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Withhold or release containers depending on CL results and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to withhold or release containers depending on cl results and workplace requirements",
+      "knowledge_focus": [
+        "Withhold or release containers depending on CL results and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Calculate CL"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of withhold or release containers depending on cl results and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of withhold or release containers depending on cl results and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Withhold or release containers depending on CL results and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Calculate CL",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you record and report cl results according to workplace requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record and report CL results according ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record and report cl results according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record and report CL results according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and report CL results according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to record and report cl results according to workplace requirements",
+      "knowledge_focus": [
+        "Record and report CL results according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Calculate CL"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record and report cl results according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record and report cl results according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record and report CL results according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.240338+00:00"
+}

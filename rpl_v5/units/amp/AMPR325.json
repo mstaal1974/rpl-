@@ -1,0 +1,263 @@
+{
+  "code": "AMPR325",
+  "title": "Prepare cooked meat product for retail sale",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare cooked meat product for retail sale demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare meat for cooking",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare meat for cooking"
+    },
+    {
+      "id": "E2",
+      "title": "Cook meat product",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product?",
+          "benchmark_statement": "The candidate demonstrates that they can Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Cook meat product"
+    },
+    {
+      "id": "E3",
+      "title": "Store meat product",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage?",
+          "benchmark_statement": "The candidate demonstrates that they can Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Store meat product"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare meat for cooking",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 prepare meat following workplace procedures, recipes and requirements1.3 identify sub-standard product prior to cooking and take corrective action1.4 calculate quantities and assemble required ingredients?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare meat to workplace health and sa",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 prepare meat following workplace procedures, recipes and requirements1.3 identify sub-standard product prior to cooking and take corrective action1.4 calculate quantities and assemble required ingredients",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 prepare meat following workplace procedures, recipes and requirements1.3 identify sub-standard product prior to cooking and take corrective action1.4 calculate quantities and assemble required ingredients",
+      "knowledge_focus": [
+        "Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients"
+      ],
+      "workplace_context_examples": [
+        "Prepare meat for cooking"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 prepare meat following workplace procedures, recipes and requirements1.3 identify sub-standard product prior to cooking and take corrective action1.4 calculate quantities and assemble required ingredients"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 prepare meat following workplace procedures, recipes and requirements1.3 identify sub-standard product prior to cooking and take corrective action1.4 calculate quantities and assemble required ingredients"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare meat to workplace health and safety, hygiene and sanitation and regulatory requirements1.2 Prepare meat following workplace procedures, recipes and requirements1.3 Identify sub-standard product prior to cooking and take corrective action1.4 Calculate quantities and assemble required ingredients."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Cook meat product",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 cook meat product following workplace health and safety and regulatory requirements2.3 cook meat following recipes, workplace procedures and quality assurance requirements2.4 monitor temperatures of meat products during cooking2.5 cool meat product (if required)2.6 monitor and record cooling temperatures of meat product?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check equipment and utensils prior to c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 cook meat product following workplace health and safety and regulatory requirements2.3 cook meat following recipes, workplace procedures and quality assurance requirements2.4 monitor temperatures of meat products during cooking2.5 cool meat product (if required)2.6 monitor and record cooling temperatures of meat product",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product?",
+      "practical_task_interpretation": "In practice this requires the worker to check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 cook meat product following workplace health and safety and regulatory requirements2.3 cook meat following recipes, workplace procedures and quality assurance requirements2.4 monitor temperatures of meat products during cooking2.5 cool meat product (if required)2.6 monitor and record cooling temperatures of meat product",
+      "knowledge_focus": [
+        "Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product"
+      ],
+      "workplace_context_examples": [
+        "Cook meat product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 cook meat product following workplace health and safety and regulatory requirements2.3 cook meat following recipes, workplace procedures and quality assurance requirements2.4 monitor temperatures of meat products during cooking2.5 cool meat product (if required)2.6 monitor and record cooling temperatures of meat product"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 cook meat product following workplace health and safety and regulatory requirements2.3 cook meat following recipes, workplace procedures and quality assurance requirements2.4 monitor temperatures of meat products during cooking2.5 cool meat product (if required)2.6 monitor and record cooling temperatures of meat product"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check equipment and utensils prior to cooking meat products to ensure they meet workplace health and safety, manufacturers, hygiene and sanitation and regulatory requirements2.2 Cook meat product following workplace health and safety and regulatory requirements2.3 Cook meat following recipes, workplace procedures and quality assurance requirements2.4 Monitor temperatures of meat products during cooking2.5 Cool meat product (if required)2.6 Monitor and record cooling temperatures of meat product."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Store meat product",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with store cooked meat product appropriately to avoid cross contamination with raw products3.2 store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 monitor temperature of cooked meat product during storage?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store cooked meat product appropriately",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store cooked meat product appropriately to avoid cross contamination with raw products3.2 store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 monitor temperature of cooked meat product during storage",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage?",
+      "practical_task_interpretation": "In practice this requires the worker to store cooked meat product appropriately to avoid cross contamination with raw products3.2 store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 monitor temperature of cooked meat product during storage",
+      "knowledge_focus": [
+        "Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage"
+      ],
+      "workplace_context_examples": [
+        "Store meat product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store cooked meat product appropriately to avoid cross contamination with raw products3.2 store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 monitor temperature of cooked meat product during storage"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store cooked meat product appropriately to avoid cross contamination with raw products3.2 store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 monitor temperature of cooked meat product during storage"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store cooked meat product appropriately to avoid cross contamination with raw products3.2 Store cooked meat product following workplace health and safety, regulatory and quality assurance requirements3.3 Monitor temperature of cooked meat product during storage."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.322814+00:00"
+}

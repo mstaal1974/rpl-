@@ -1,0 +1,335 @@
+{
+  "code": "AURTTX104",
+  "title": "Inspect and service hydrostatic transmissions",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Inspect and service hydrostatic transmissions demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to inspect and service hydrostatic transmission",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to inspect and service hydrostatic transmission"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect hydrostatic transmission",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect hydrostatic transmission"
+    },
+    {
+      "id": "E3",
+      "title": "Service hydrostatic transmission",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Service hydrostatic transmission"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to inspect and service hydrostatic transmission",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions1.2 source and interpret servicing information 1.3 identify hazards associated with the work and manage risks 1.4 select and check tools, equipment and materials for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions1.2 source and interpret servicing information 1.3 identify hazards associated with the work and manage risks 1.4 select and check tools, equipment and materials for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions1.2 source and interpret servicing information 1.3 identify hazards associated with the work and manage risks 1.4 select and check tools, equipment and materials for serviceability",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect and service hydrostatic transmission"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions1.2 source and interpret servicing information 1.3 identify hazards associated with the work and manage risks 1.4 select and check tools, equipment and materials for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions1.2 source and interpret servicing information 1.3 identify hazards associated with the work and manage risks 1.4 select and check tools, equipment and materials for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source and interpret servicing information 1.3 Identify hazards associated with the work and manage risks 1.4 Select and check tools, equipment and materials for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect hydrostatic transmission",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 compare inspection results with manufacturer specifications2.3 report recommendations for required repairs or adjustments according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out inspection according to manuf",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 compare inspection results with manufacturer specifications2.3 report recommendations for required repairs or adjustments according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 compare inspection results with manufacturer specifications2.3 report recommendations for required repairs or adjustments according to workplace procedures",
+      "knowledge_focus": [
+        "Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Inspect hydrostatic transmission"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 compare inspection results with manufacturer specifications2.3 report recommendations for required repairs or adjustments according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 compare inspection results with manufacturer specifications2.3 report recommendations for required repairs or adjustments according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out inspection according to manufacturer specifications, workplace procedures, and safety and environmental requirements2.2 Compare inspection results with manufacturer specifications2.3 Report recommendations for required repairs or adjustments according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Service hydrostatic transmission",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 carry out post-service testing according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out service and adjustments accor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 carry out post-service testing according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 carry out post-service testing according to workplace procedures",
+      "knowledge_focus": [
+        "Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Service hydrostatic transmission"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 carry out post-service testing according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 carry out post-service testing according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out service and adjustments according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 Carry out post-service testing according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.152828+00:00"
+}

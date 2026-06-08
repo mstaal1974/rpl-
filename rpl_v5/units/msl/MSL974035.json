@@ -1,0 +1,976 @@
+{
+  "code": "MSL974035",
+  "title": "Prepare tissue or cell cultures",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare tissue or cell cultures demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Work safely according to the legal and regulatory framework",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Select, fit and use personal protective equipment (PPE)",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit and use personal protective equipment (PPE)?",
+          "benchmark_statement": "The candidate demonstrates that they can Select, fit and use personal protective equipment (PPE).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Address hazards and incidents as they arise in accordance with workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Address hazards and incidents as they arise in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Address hazards and incidents as they arise in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Maintain a chain of custody, traceable to the worker, for all cells and tissues",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain a chain of custody, traceable to the worker, for all cells and tissues?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain a chain of custody, traceable to the worker, for all cells and tissues.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Work safely according to the legal and regulatory framework"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare and test cell or tissue culture media",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select and confirm media specifications and processes and methods",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and confirm media specifications and processes and methods?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and confirm media specifications and processes and methods.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Prepare culture media to suit the application",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare culture media to suit the application?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare culture media to suit the application.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Sterilise culture media and check for sterility",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sterilise culture media and check for sterility?",
+          "benchmark_statement": "The candidate demonstrates that they can Sterilise culture media and check for sterility.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Perform quality control checks to ensure that culture media is fit for purpose",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform quality control checks to ensure that culture media is fit for purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform quality control checks to ensure that culture media is fit for purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Store culture media in accordance with specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store culture media in accordance with specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Store culture media in accordance with specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare and test cell or tissue culture media"
+    },
+    {
+      "id": "E3",
+      "title": "Use tissue or cell culture preparation techniques",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Select tissue or cell sample to optimise growth and prepare it for culture",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select tissue or cell sample to optimise growth and prepare it for culture?",
+          "benchmark_statement": "The candidate demonstrates that they can Select tissue or cell sample to optimise growth and prepare it for culture.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Add specified growth agents and/or nutrients",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Add specified growth agents and/or nutrients?",
+          "benchmark_statement": "The candidate demonstrates that they can Add specified growth agents and/or nutrients.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Inoculate culture medium using aseptic techniques",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inoculate culture medium using aseptic techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Inoculate culture medium using aseptic techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Use tissue or cell culture preparation techniques"
+    },
+    {
+      "id": "E4",
+      "title": "Monitor tissue or cell culture",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Incubate culture in specified conditions",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Incubate culture in specified conditions?",
+          "benchmark_statement": "The candidate demonstrates that they can Incubate culture in specified conditions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Monitor growth of culture and record appearance and characteristics",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor growth of culture and record appearance and characteristics?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor growth of culture and record appearance and characteristics.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Identify expected cell types and recognise normal and abnormal cells",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify expected cell types and recognise normal and abnormal cells?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify expected cell types and recognise normal and abnormal cells.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Report presence or absence of contamination",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report presence or absence of contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Report presence or absence of contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Subculture the culture to continue the cell line",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Subculture the culture to continue the cell line?",
+          "benchmark_statement": "The candidate demonstrates that they can Subculture the culture to continue the cell line.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Dispose of biohazardous and other laboratory waste safely",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispose of biohazardous and other laboratory waste safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Dispose of biohazardous and other laboratory waste safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Monitor tissue or cell culture"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain records",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Maintain accurate records of batches of media",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain accurate records of batches of media?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain accurate records of batches of media.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Complete records of tissue cultures so that they are retrievable, legible and accurate",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete records of tissue cultures so that they are retrievable, legible and accurate?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete records of tissue cultures so that they are retrievable, legible and accurate.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Complete records in accordance with workplace and legal requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete records in accordance with workplace and legal requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete records in accordance with workplace and legal requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain records"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Work safely according to the legal and regulatory framework",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify hazards and workplace controls",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment",
+      "knowledge_focus": [
+        "Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment"
+      ],
+      "workplace_context_examples": [
+        "Work safely according to the legal and regulatory framework"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Work safely according to the legal and regulatory framework",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What are the key hazards and required controls associated with select, fit and use personal protective equipment (ppe)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select, fit and use personal protective",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select, fit and use personal protective equipment (ppe)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select, fit and use personal protective equipment (PPE).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit and use personal protective equipment (PPE)?",
+      "practical_task_interpretation": "In practice this requires the worker to select, fit and use personal protective equipment (ppe)",
+      "knowledge_focus": [
+        "Select, fit and use personal protective equipment (PPE)"
+      ],
+      "workplace_context_examples": [
+        "Work safely according to the legal and regulatory framework"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select, fit and use personal protective equipment (ppe)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select, fit and use personal protective equipment (ppe)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select, fit and use personal protective equipment (PPE)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Work safely according to the legal and regulatory framework",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What are the key hazards and required controls associated with address hazards and incidents as they arise in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Address hazards and incidents as they a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to address hazards and incidents as they arise in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Address hazards and incidents as they arise in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Address hazards and incidents as they arise in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to address hazards and incidents as they arise in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Address hazards and incidents as they arise in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Work safely according to the legal and regulatory framework"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of address hazards and incidents as they arise in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of address hazards and incidents as they arise in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Address hazards and incidents as they arise in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare and test cell or tissue culture media",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to select and confirm media specifications and processes and methods?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and confirm media specifications",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and confirm media specifications and processes and methods",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select and confirm media specifications and processes and methods.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and confirm media specifications and processes and methods?",
+      "practical_task_interpretation": "In practice this requires the worker to select and confirm media specifications and processes and methods",
+      "knowledge_focus": [
+        "Select and confirm media specifications and processes and methods"
+      ],
+      "workplace_context_examples": [
+        "Prepare and test cell or tissue culture media"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and confirm media specifications and processes and methods"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and confirm media specifications and processes and methods"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and confirm media specifications and processes and methods."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare and test cell or tissue culture media",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What steps are required to prepare culture media to suit the application, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare culture media to suit the appli",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare culture media to suit the application",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare culture media to suit the application.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare culture media to suit the application?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare culture media to suit the application",
+      "knowledge_focus": [
+        "Prepare culture media to suit the application"
+      ],
+      "workplace_context_examples": [
+        "Prepare and test cell or tissue culture media"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare culture media to suit the application"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare culture media to suit the application"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare culture media to suit the application."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare and test cell or tissue culture media",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to sterilise culture media and check for sterility?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sterilise culture media and check for s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sterilise culture media and check for sterility",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Sterilise culture media and check for sterility.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sterilise culture media and check for sterility?",
+      "practical_task_interpretation": "In practice this requires the worker to sterilise culture media and check for sterility",
+      "knowledge_focus": [
+        "Sterilise culture media and check for sterility"
+      ],
+      "workplace_context_examples": [
+        "Prepare and test cell or tissue culture media"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sterilise culture media and check for sterility"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sterilise culture media and check for sterility"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sterilise culture media and check for sterility."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Use tissue or cell culture preparation techniques",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What criteria determine how to select tissue or cell sample to optimise growth and prepare it for culture?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select tissue or cell sample to optimis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select tissue or cell sample to optimise growth and prepare it for culture",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select tissue or cell sample to optimise growth and prepare it for culture.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select tissue or cell sample to optimise growth and prepare it for culture?",
+      "practical_task_interpretation": "In practice this requires the worker to select tissue or cell sample to optimise growth and prepare it for culture",
+      "knowledge_focus": [
+        "Select tissue or cell sample to optimise growth and prepare it for culture"
+      ],
+      "workplace_context_examples": [
+        "Use tissue or cell culture preparation techniques"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select tissue or cell sample to optimise growth and prepare it for culture"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select tissue or cell sample to optimise growth and prepare it for culture"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select tissue or cell sample to optimise growth and prepare it for culture."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Use tissue or cell culture preparation techniques",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to add specified growth agents and/or nutrients? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Add specified growth agents and/or nutr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to add specified growth agents and/or nutrients",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Add specified growth agents and/or nutrients.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Add specified growth agents and/or nutrients?",
+      "practical_task_interpretation": "In practice this requires the worker to add specified growth agents and/or nutrients",
+      "knowledge_focus": [
+        "Add specified growth agents and/or nutrients"
+      ],
+      "workplace_context_examples": [
+        "Use tissue or cell culture preparation techniques"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of add specified growth agents and/or nutrients"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of add specified growth agents and/or nutrients"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Add specified growth agents and/or nutrients."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Use tissue or cell culture preparation techniques",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to inoculate culture medium using aseptic techniques? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inoculate culture medium using aseptic ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inoculate culture medium using aseptic techniques",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Inoculate culture medium using aseptic techniques.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inoculate culture medium using aseptic techniques?",
+      "practical_task_interpretation": "In practice this requires the worker to inoculate culture medium using aseptic techniques",
+      "knowledge_focus": [
+        "Inoculate culture medium using aseptic techniques"
+      ],
+      "workplace_context_examples": [
+        "Use tissue or cell culture preparation techniques"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inoculate culture medium using aseptic techniques"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inoculate culture medium using aseptic techniques"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inoculate culture medium using aseptic techniques."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Monitor tissue or cell culture",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to incubate culture in specified conditions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Incubate culture in specified condition",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to incubate culture in specified conditions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Incubate culture in specified conditions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Incubate culture in specified conditions?",
+      "practical_task_interpretation": "In practice this requires the worker to incubate culture in specified conditions",
+      "knowledge_focus": [
+        "Incubate culture in specified conditions"
+      ],
+      "workplace_context_examples": [
+        "Monitor tissue or cell culture"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of incubate culture in specified conditions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of incubate culture in specified conditions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Incubate culture in specified conditions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Monitor tissue or cell culture",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you monitor growth of culture and record appearance and characteristics, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor growth of culture and record ap",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor growth of culture and record appearance and characteristics",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor growth of culture and record appearance and characteristics.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor growth of culture and record appearance and characteristics?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor growth of culture and record appearance and characteristics",
+      "knowledge_focus": [
+        "Monitor growth of culture and record appearance and characteristics"
+      ],
+      "workplace_context_examples": [
+        "Monitor tissue or cell culture"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor growth of culture and record appearance and characteristics"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor growth of culture and record appearance and characteristics"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor growth of culture and record appearance and characteristics."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Monitor tissue or cell culture",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What factors would you consider when you need to identify expected cell types and recognise normal and abnormal cells?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify expected cell types and recogn",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify expected cell types and recognise normal and abnormal cells",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify expected cell types and recognise normal and abnormal cells.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify expected cell types and recognise normal and abnormal cells?",
+      "practical_task_interpretation": "In practice this requires the worker to identify expected cell types and recognise normal and abnormal cells",
+      "knowledge_focus": [
+        "Identify expected cell types and recognise normal and abnormal cells"
+      ],
+      "workplace_context_examples": [
+        "Monitor tissue or cell culture"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify expected cell types and recognise normal and abnormal cells"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify expected cell types and recognise normal and abnormal cells"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify expected cell types and recognise normal and abnormal cells."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.833068+00:00"
+}

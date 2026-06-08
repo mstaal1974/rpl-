@@ -1,0 +1,929 @@
+{
+  "code": "AHCCOM403",
+  "title": "Develop a composting recipe",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Develop a composting recipe demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify and characterise raw materials",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify raw materials against established workplace criteria",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify raw materials against established workplace criteria?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify raw materials against established workplace criteria.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe?",
+          "benchmark_statement": "The candidate demonstrates that they can Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Take samples of material for analysis where raw material identity or characteristics are uncertain",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take samples of material for analysis where raw material identity or characteristics are uncertain?",
+          "benchmark_statement": "The candidate demonstrates that they can Take samples of material for analysis where raw material identity or characteristics are uncertain.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Determine receivable and handling requirements of raw materials",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine receivable and handling requirements of raw materials?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine receivable and handling requirements of raw materials.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify and characterise raw materials"
+    },
+    {
+      "id": "E2",
+      "title": "Establish production objectives",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Develop product specifications for identified markets using product performance data and enterprise records",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop product specifications for identified markets using product performance data and enterprise records?",
+          "benchmark_statement": "The candidate demonstrates that they can Develop product specifications for identified markets using product performance data and enterprise records.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify raw material combinations that meet market requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify raw material combinations that meet market requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify raw material combinations that meet market requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Establish production objectives"
+    },
+    {
+      "id": "E3",
+      "title": "Calculate compost recipe",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Record raw material characteristics in compost recipe",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record raw material characteristics in compost recipe?",
+          "benchmark_statement": "The candidate demonstrates that they can Record raw material characteristics in compost recipe.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Specify raw material ratios by weight in resulting compost recipe",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Specify raw material ratios by weight in resulting compost recipe?",
+          "benchmark_statement": "The candidate demonstrates that they can Specify raw material ratios by weight in resulting compost recipe.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Review and document composting batch management procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review and document composting batch management procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Review and document composting batch management procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Estimate and document compost production schedule",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and document compost production schedule?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate and document compost production schedule.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Verify compost recipe and production schedule against compost production plan",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify compost recipe and production schedule against compost production plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify compost recipe and production schedule against compost production plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Quantify density of pre-processed raw materials and translate weight-based recipe into volume-based recipe for production",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Quantify density of pre-processed raw materials and translate weight-based recipe into volume-based recipe for production?",
+          "benchmark_statement": "The candidate demonstrates that they can Quantify density of pre-processed raw materials and translate weight-based recipe into volume-based recipe for production.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.8",
+          "text": "Record volumetric compost recipe and production procedures as operational batch or bucket recipe and procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record volumetric compost recipe and production procedures as operational batch or bucket recipe and procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record volumetric compost recipe and production procedures as operational batch or bucket recipe and procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Calculate compost recipe"
+    },
+    {
+      "id": "E4",
+      "title": "Validate compost recipe",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Prepare and mix raw materials to form feedstock for composting",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and mix raw materials to form feedstock for composting?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare and mix raw materials to form feedstock for composting.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Supervise composting batch according to workplace procedure",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supervise composting batch according to workplace procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Supervise composting batch according to workplace procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Monitor environmental and health and safety aspects and impacts",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor environmental and health and safety aspects and impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor environmental and health and safety aspects and impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Identify faults, variations or problems, and implement remedial action",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify faults, variations or problems, and implement remedial action?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify faults, variations or problems, and implement remedial action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Sample and test material to determine completion of process",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sample and test material to determine completion of process?",
+          "benchmark_statement": "The candidate demonstrates that they can Sample and test material to determine completion of process.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.7",
+          "text": "Evaluate end product quality against product specifications",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate end product quality against product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate end product quality against product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.8",
+          "text": "Revise compost recipe, production schedule and procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Revise compost recipe, production schedule and procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Revise compost recipe, production schedule and procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Validate compost recipe"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify and characterise raw materials",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify raw materials against established workplace criteria?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify raw materials against establis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify raw materials against established workplace criteria",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify raw materials against established workplace criteria.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify raw materials against established workplace criteria?",
+      "practical_task_interpretation": "In practice this requires the worker to identify raw materials against established workplace criteria",
+      "knowledge_focus": [
+        "Identify raw materials against established workplace criteria"
+      ],
+      "workplace_context_examples": [
+        "Identify and characterise raw materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify raw materials against established workplace criteria"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify raw materials against established workplace criteria"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify raw materials against established workplace criteria."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify and characterise raw materials",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to enter raw material characteristics into compost recipe calculator to achieve a balanced recipe? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Enter raw material characteristics into",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to enter raw material characteristics into compost recipe calculator to achieve a balanced recipe",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe?",
+      "practical_task_interpretation": "In practice this requires the worker to enter raw material characteristics into compost recipe calculator to achieve a balanced recipe",
+      "knowledge_focus": [
+        "Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe"
+      ],
+      "workplace_context_examples": [
+        "Identify and characterise raw materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of enter raw material characteristics into compost recipe calculator to achieve a balanced recipe"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of enter raw material characteristics into compost recipe calculator to achieve a balanced recipe"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Enter raw material characteristics into compost recipe calculator to achieve a balanced recipe."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify and characterise raw materials",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to take samples of material for analysis where raw material identity or characteristics are uncertain? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Take samples of material for analysis w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to take samples of material for analysis where raw material identity or characteristics are uncertain",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Take samples of material for analysis where raw material identity or characteristics are uncertain.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take samples of material for analysis where raw material identity or characteristics are uncertain?",
+      "practical_task_interpretation": "In practice this requires the worker to take samples of material for analysis where raw material identity or characteristics are uncertain",
+      "knowledge_focus": [
+        "Take samples of material for analysis where raw material identity or characteristics are uncertain"
+      ],
+      "workplace_context_examples": [
+        "Identify and characterise raw materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of take samples of material for analysis where raw material identity or characteristics are uncertain"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of take samples of material for analysis where raw material identity or characteristics are uncertain"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Take samples of material for analysis where raw material identity or characteristics are uncertain."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Establish production objectives",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you develop product specifications for identified markets using product performance data and enterprise records, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Develop product specifications for iden",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to develop product specifications for identified markets using product performance data and enterprise records",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Develop product specifications for identified markets using product performance data and enterprise records.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop product specifications for identified markets using product performance data and enterprise records?",
+      "practical_task_interpretation": "In practice this requires the worker to develop product specifications for identified markets using product performance data and enterprise records",
+      "knowledge_focus": [
+        "Develop product specifications for identified markets using product performance data and enterprise records"
+      ],
+      "workplace_context_examples": [
+        "Establish production objectives"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of develop product specifications for identified markets using product performance data and enterprise records"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of develop product specifications for identified markets using product performance data and enterprise records"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Develop product specifications for identified markets using product performance data and enterprise records."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Establish production objectives",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify raw material combinations that meet market requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify raw material combinations that",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify raw material combinations that meet market requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify raw material combinations that meet market requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify raw material combinations that meet market requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify raw material combinations that meet market requirements",
+      "knowledge_focus": [
+        "Identify raw material combinations that meet market requirements"
+      ],
+      "workplace_context_examples": [
+        "Establish production objectives"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify raw material combinations that meet market requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify raw material combinations that meet market requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify raw material combinations that meet market requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Calculate compost recipe",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you record raw material characteristics in compost recipe, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record raw material characteristics in ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record raw material characteristics in compost recipe",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Record raw material characteristics in compost recipe.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record raw material characteristics in compost recipe?",
+      "practical_task_interpretation": "In practice this requires the worker to record raw material characteristics in compost recipe",
+      "knowledge_focus": [
+        "Record raw material characteristics in compost recipe"
+      ],
+      "workplace_context_examples": [
+        "Calculate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record raw material characteristics in compost recipe"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record raw material characteristics in compost recipe"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record raw material characteristics in compost recipe."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Calculate compost recipe",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to specify raw material ratios by weight in resulting compost recipe? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Specify raw material ratios by weight i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to specify raw material ratios by weight in resulting compost recipe",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Specify raw material ratios by weight in resulting compost recipe.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Specify raw material ratios by weight in resulting compost recipe?",
+      "practical_task_interpretation": "In practice this requires the worker to specify raw material ratios by weight in resulting compost recipe",
+      "knowledge_focus": [
+        "Specify raw material ratios by weight in resulting compost recipe"
+      ],
+      "workplace_context_examples": [
+        "Calculate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of specify raw material ratios by weight in resulting compost recipe"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of specify raw material ratios by weight in resulting compost recipe"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Specify raw material ratios by weight in resulting compost recipe."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Calculate compost recipe",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine raw material pre-processing r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan?",
+      "practical_task_interpretation": "In practice this requires the worker to determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan",
+      "knowledge_focus": [
+        "Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan"
+      ],
+      "workplace_context_examples": [
+        "Calculate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine raw material pre-processing requirements, volumes of compost upon formation, and compost production plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Validate compost recipe",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What steps are required to prepare and mix raw materials to form feedstock for composting, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare and mix raw materials to form f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare and mix raw materials to form feedstock for composting",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare and mix raw materials to form feedstock for composting.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and mix raw materials to form feedstock for composting?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare and mix raw materials to form feedstock for composting",
+      "knowledge_focus": [
+        "Prepare and mix raw materials to form feedstock for composting"
+      ],
+      "workplace_context_examples": [
+        "Validate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare and mix raw materials to form feedstock for composting"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare and mix raw materials to form feedstock for composting"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare and mix raw materials to form feedstock for composting."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Validate compost recipe",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to supervise composting batch according to workplace procedure? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Supervise composting batch according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to supervise composting batch according to workplace procedure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Supervise composting batch according to workplace procedure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supervise composting batch according to workplace procedure?",
+      "practical_task_interpretation": "In practice this requires the worker to supervise composting batch according to workplace procedure",
+      "knowledge_focus": [
+        "Supervise composting batch according to workplace procedure"
+      ],
+      "workplace_context_examples": [
+        "Validate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of supervise composting batch according to workplace procedure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of supervise composting batch according to workplace procedure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Supervise composting batch according to workplace procedure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Validate compost recipe",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that monitor composting process for efficiency in relation to estimated production schedule and workplace requirements is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor composting process for efficien",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor composting process for efficiency in relation to estimated production schedule and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor composting process for efficiency in relation to estimated production schedule and workplace requirements",
+      "knowledge_focus": [
+        "Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Validate compost recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor composting process for efficiency in relation to estimated production schedule and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor composting process for efficiency in relation to estimated production schedule and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor composting process for efficiency in relation to estimated production schedule and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.595093+00:00"
+}

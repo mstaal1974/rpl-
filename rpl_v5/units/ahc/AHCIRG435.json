@@ -1,0 +1,735 @@
+{
+  "code": "AHCIRG435",
+  "title": "Determine hydraulic parameters for an irrigation system",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Determine hydraulic parameters for an irrigation system demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Confirm water delivery specifications for irrigation system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Confirm soil characteristics and determine hydraulic properties",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm soil characteristics and determine hydraulic properties?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm soil characteristics and determine hydraulic properties.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Determine plant and crop water requirements for various stages of growth",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine plant and crop water requirements for various stages of growth?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine plant and crop water requirements for various stages of growth.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Calculate peak water requirements for each area to be irrigated",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate peak water requirements for each area to be irrigated?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate peak water requirements for each area to be irrigated.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Confirm water delivery specifications for irrigation system"
+    },
+    {
+      "id": "E2",
+      "title": "Determine pressures required to deliver required amount of water over specified area",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Determine static pressures between water source and delivery points",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine static pressures between water source and delivery points?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine static pressures between water source and delivery points.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Calculate dynamic pressure necessary to achieve required water volume",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate dynamic pressure necessary to achieve required water volume?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate dynamic pressure necessary to achieve required water volume.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Determine pressures required to deliver required amount of water over specified area"
+    },
+    {
+      "id": "E3",
+      "title": "Analyse technical drawings to determine pressure losses through system",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Calculate losses resulting from fittings, laterals and elevation differences",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate losses resulting from fittings, laterals and elevation differences?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate losses resulting from fittings, laterals and elevation differences.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Calculate total friction loss",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate total friction loss?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate total friction loss.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Determine hydraulic parameters for system",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine hydraulic parameters for system?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine hydraulic parameters for system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Analyse technical drawings to determine pressure losses through system"
+    },
+    {
+      "id": "E4",
+      "title": "Select system components to deliver water efficiently",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Select water delivery components to achieve efficient delivery rate and pressure",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select water delivery components to achieve efficient delivery rate and pressure?",
+          "benchmark_statement": "The candidate demonstrates that they can Select water delivery components to achieve efficient delivery rate and pressure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Select compatible flow direction and control components with pipes to achieve minimal friction losses",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select compatible flow direction and control components with pipes to achieve minimal friction losses?",
+          "benchmark_statement": "The candidate demonstrates that they can Select compatible flow direction and control components with pipes to achieve minimal friction losses.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Select system components to deliver water efficiently"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Confirm water delivery specifications for irrigation system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to confirm soil characteristics and determine hydraulic properties?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm soil characteristics and determ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm soil characteristics and determine hydraulic properties",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm soil characteristics and determine hydraulic properties.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm soil characteristics and determine hydraulic properties?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm soil characteristics and determine hydraulic properties",
+      "knowledge_focus": [
+        "Confirm soil characteristics and determine hydraulic properties"
+      ],
+      "workplace_context_examples": [
+        "Confirm water delivery specifications for irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm soil characteristics and determine hydraulic properties"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm soil characteristics and determine hydraulic properties"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm soil characteristics and determine hydraulic properties."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Confirm water delivery specifications for irrigation system",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to determine plant and crop water requirements for various stages of growth?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine plant and crop water requirem",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine plant and crop water requirements for various stages of growth",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine plant and crop water requirements for various stages of growth.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine plant and crop water requirements for various stages of growth?",
+      "practical_task_interpretation": "In practice this requires the worker to determine plant and crop water requirements for various stages of growth",
+      "knowledge_focus": [
+        "Determine plant and crop water requirements for various stages of growth"
+      ],
+      "workplace_context_examples": [
+        "Confirm water delivery specifications for irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine plant and crop water requirements for various stages of growth"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine plant and crop water requirements for various stages of growth"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine plant and crop water requirements for various stages of growth."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Confirm water delivery specifications for irrigation system",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to calculate peak water requirements for each area to be irrigated? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate peak water requirements for e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate peak water requirements for each area to be irrigated",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate peak water requirements for each area to be irrigated.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate peak water requirements for each area to be irrigated?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate peak water requirements for each area to be irrigated",
+      "knowledge_focus": [
+        "Calculate peak water requirements for each area to be irrigated"
+      ],
+      "workplace_context_examples": [
+        "Confirm water delivery specifications for irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate peak water requirements for each area to be irrigated"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate peak water requirements for each area to be irrigated"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate peak water requirements for each area to be irrigated."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Determine pressures required to deliver required amount of water over specified area",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to determine static pressures between water source and delivery points?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine static pressures between wate",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine static pressures between water source and delivery points",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine static pressures between water source and delivery points.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine static pressures between water source and delivery points?",
+      "practical_task_interpretation": "In practice this requires the worker to determine static pressures between water source and delivery points",
+      "knowledge_focus": [
+        "Determine static pressures between water source and delivery points"
+      ],
+      "workplace_context_examples": [
+        "Determine pressures required to deliver required amount of water over specified area"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine static pressures between water source and delivery points"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine static pressures between water source and delivery points"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine static pressures between water source and delivery points."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Determine pressures required to deliver required amount of water over specified area",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to calculate dynamic pressure necessary to achieve required water volume? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate dynamic pressure necessary to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate dynamic pressure necessary to achieve required water volume",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate dynamic pressure necessary to achieve required water volume.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate dynamic pressure necessary to achieve required water volume?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate dynamic pressure necessary to achieve required water volume",
+      "knowledge_focus": [
+        "Calculate dynamic pressure necessary to achieve required water volume"
+      ],
+      "workplace_context_examples": [
+        "Determine pressures required to deliver required amount of water over specified area"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate dynamic pressure necessary to achieve required water volume"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate dynamic pressure necessary to achieve required water volume"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate dynamic pressure necessary to achieve required water volume."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Analyse technical drawings to determine pressure losses through system",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to calculate losses resulting from fittings, laterals and elevation differences? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate losses resulting from fitting",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate losses resulting from fittings, laterals and elevation differences",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate losses resulting from fittings, laterals and elevation differences.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate losses resulting from fittings, laterals and elevation differences?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate losses resulting from fittings, laterals and elevation differences",
+      "knowledge_focus": [
+        "Calculate losses resulting from fittings, laterals and elevation differences"
+      ],
+      "workplace_context_examples": [
+        "Analyse technical drawings to determine pressure losses through system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate losses resulting from fittings, laterals and elevation differences"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate losses resulting from fittings, laterals and elevation differences"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate losses resulting from fittings, laterals and elevation differences."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Analyse technical drawings to determine pressure losses through system",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine losses resulting from flow th",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system?",
+      "practical_task_interpretation": "In practice this requires the worker to determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system",
+      "knowledge_focus": [
+        "Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system"
+      ],
+      "workplace_context_examples": [
+        "Analyse technical drawings to determine pressure losses through system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine losses resulting from flow through canals, culverts and pipes of varying sizes and diameters within a system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Analyse technical drawings to determine pressure losses through system",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to calculate total friction loss? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate total friction loss.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate total friction loss",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate total friction loss.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate total friction loss?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate total friction loss",
+      "knowledge_focus": [
+        "Calculate total friction loss"
+      ],
+      "workplace_context_examples": [
+        "Analyse technical drawings to determine pressure losses through system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate total friction loss"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate total friction loss"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate total friction loss."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Select system components to deliver water efficiently",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What criteria determine how to select water delivery components to achieve efficient delivery rate and pressure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select water delivery components to ach",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select water delivery components to achieve efficient delivery rate and pressure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select water delivery components to achieve efficient delivery rate and pressure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select water delivery components to achieve efficient delivery rate and pressure?",
+      "practical_task_interpretation": "In practice this requires the worker to select water delivery components to achieve efficient delivery rate and pressure",
+      "knowledge_focus": [
+        "Select water delivery components to achieve efficient delivery rate and pressure"
+      ],
+      "workplace_context_examples": [
+        "Select system components to deliver water efficiently"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select water delivery components to achieve efficient delivery rate and pressure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select water delivery components to achieve efficient delivery rate and pressure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select water delivery components to achieve efficient delivery rate and pressure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Select system components to deliver water efficiently",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What are the key hazards and required controls associated with select compatible flow direction and control components with pipes to achieve minimal friction losses?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select compatible flow direction and co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select compatible flow direction and control components with pipes to achieve minimal friction losses",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select compatible flow direction and control components with pipes to achieve minimal friction losses.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select compatible flow direction and control components with pipes to achieve minimal friction losses?",
+      "practical_task_interpretation": "In practice this requires the worker to select compatible flow direction and control components with pipes to achieve minimal friction losses",
+      "knowledge_focus": [
+        "Select compatible flow direction and control components with pipes to achieve minimal friction losses"
+      ],
+      "workplace_context_examples": [
+        "Select system components to deliver water efficiently"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select compatible flow direction and control components with pipes to achieve minimal friction losses"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select compatible flow direction and control components with pipes to achieve minimal friction losses"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select compatible flow direction and control components with pipes to achieve minimal friction losses."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.739470+00:00"
+}

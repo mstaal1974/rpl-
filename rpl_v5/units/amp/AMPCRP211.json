@@ -1,0 +1,477 @@
+{
+  "code": "AMPCRP211",
+  "title": "Flush carcase",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Flush carcase demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify and follow work instruction for flushing carcase",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for flushing carcase?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for flushing carcase.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify contamination and cross-contamination, and methods to control food safety risks",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contamination and cross-contamination, and methods to control food safety risks?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify contamination and cross-contamination, and methods to control food safety risks.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Perform start-up procedures to ensure equipment is in working order",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform start-up procedures to ensure equipment is in working order?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform start-up procedures to ensure equipment is in working order.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Flush carcase",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Locate and open correct vein for flushing",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and open correct vein for flushing?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate and open correct vein for flushing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Flush carcase following workplace requirements and workplace health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Flush carcase following workplace requirements and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Flush carcase following workplace requirements and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Monitor reservoir of solution to ensure it is at adequate level",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor reservoir of solution to ensure it is at adequate level?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor reservoir of solution to ensure it is at adequate level.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Inspect carcase to ensure flushing has been effective",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect carcase to ensure flushing has been effective?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect carcase to ensure flushing has been effective.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Flush carcase"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify and follow work instruction for flushing carcase?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and follow work instruction fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and follow work instruction for flushing carcase",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for flushing carcase.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for flushing carcase?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and follow work instruction for flushing carcase",
+      "knowledge_focus": [
+        "Identify and follow work instruction for flushing carcase"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and follow work instruction for flushing carcase"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and follow work instruction for flushing carcase"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and follow work instruction for flushing carcase."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify contamination and cross-contamination, and methods to control food safety risks?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify contamination and cross-contam",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify contamination and cross-contamination, and methods to control food safety risks",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify contamination and cross-contamination, and methods to control food safety risks.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contamination and cross-contamination, and methods to control food safety risks?",
+      "practical_task_interpretation": "In practice this requires the worker to identify contamination and cross-contamination, and methods to control food safety risks",
+      "knowledge_focus": [
+        "Identify contamination and cross-contamination, and methods to control food safety risks"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify contamination and cross-contamination, and methods to control food safety risks"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify contamination and cross-contamination, and methods to control food safety risks"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify contamination and cross-contamination, and methods to control food safety risks."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Flush carcase",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to locate and open correct vein for flushing? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate and open correct vein for flushi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate and open correct vein for flushing",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate and open correct vein for flushing.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and open correct vein for flushing?",
+      "practical_task_interpretation": "In practice this requires the worker to locate and open correct vein for flushing",
+      "knowledge_focus": [
+        "Locate and open correct vein for flushing"
+      ],
+      "workplace_context_examples": [
+        "Flush carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate and open correct vein for flushing"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate and open correct vein for flushing"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate and open correct vein for flushing."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Flush carcase",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with flush carcase following workplace requirements and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Flush carcase following workplace requi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to flush carcase following workplace requirements and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Flush carcase following workplace requirements and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Flush carcase following workplace requirements and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to flush carcase following workplace requirements and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Flush carcase following workplace requirements and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Flush carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of flush carcase following workplace requirements and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of flush carcase following workplace requirements and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Flush carcase following workplace requirements and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Flush carcase",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that monitor reservoir of solution to ensure it is at adequate level is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor reservoir of solution to ensure",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor reservoir of solution to ensure it is at adequate level",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor reservoir of solution to ensure it is at adequate level.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor reservoir of solution to ensure it is at adequate level?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor reservoir of solution to ensure it is at adequate level",
+      "knowledge_focus": [
+        "Monitor reservoir of solution to ensure it is at adequate level"
+      ],
+      "workplace_context_examples": [
+        "Flush carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor reservoir of solution to ensure it is at adequate level"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor reservoir of solution to ensure it is at adequate level"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor reservoir of solution to ensure it is at adequate level."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.946762+00:00"
+}

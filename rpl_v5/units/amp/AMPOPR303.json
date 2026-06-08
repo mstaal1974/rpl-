@@ -1,0 +1,677 @@
+{
+  "code": "AMPOPR303",
+  "title": "Manage animal identification data",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Manage animal identification data demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Receive livestock",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify workplace health and safety hazards, assess risks and implement control measures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety hazards, assess risks and implement control measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety hazards, assess risks and implement control measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Receive animal and accompanying movement documentation and check for completeness",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Receive animal and accompanying movement documentation and check for completeness?",
+          "benchmark_statement": "The candidate demonstrates that they can Receive animal and accompanying movement documentation and check for completeness.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Carry out physical check of received stock (head count) against the movement documents",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out physical check of received stock (head count) against the movement documents?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out physical check of received stock (head count) against the movement documents.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Check documentation for any status alerts, and implement workplace procedures where required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check documentation for any status alerts, and implement workplace procedures where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Check documentation for any status alerts, and implement workplace procedures where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Receive livestock"
+    },
+    {
+      "id": "E2",
+      "title": "Check animal identification and origin",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Check animal for presence of identification tags or devices",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check animal for presence of identification tags or devices?",
+          "benchmark_statement": "The candidate demonstrates that they can Check animal for presence of identification tags or devices.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Implement workplace procedure for non-identified stock",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement workplace procedure for non-identified stock?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement workplace procedure for non-identified stock.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Record or scan animal identification for compliance with state regulations",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record or scan animal identification for compliance with state regulations?",
+          "benchmark_statement": "The candidate demonstrates that they can Record or scan animal identification for compliance with state regulations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Implement corrective action for any status alerts for Property Identification Code (PIC) or animal device",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement corrective action for any status alerts for Property Identification Code (PIC) or animal device?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement corrective action for any status alerts for Property Identification Code (PIC) or animal device.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Check animal identification and origin"
+    },
+    {
+      "id": "E3",
+      "title": "Report on animal identification data",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Upload or provide data to complete animal identification records and reports according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Upload or provide data to complete animal identification records and reports according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Upload or provide data to complete animal identification records and reports according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Complete records of issues arising and actions taken",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete records of issues arising and actions taken?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete records of issues arising and actions taken.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Report issues with animal identification for livestock received at site to supervisor or manager",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report issues with animal identification for livestock received at site to supervisor or manager?",
+          "benchmark_statement": "The candidate demonstrates that they can Report issues with animal identification for livestock received at site to supervisor or manager.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Report on animal identification data"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Receive livestock",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify workplace health and safety hazards, assess risks and implement control measures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety ha",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety hazards, assess risks and implement control measures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety hazards, assess risks and implement control measures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety hazards, assess risks and implement control measures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety hazards, assess risks and implement control measures",
+      "knowledge_focus": [
+        "Identify workplace health and safety hazards, assess risks and implement control measures"
+      ],
+      "workplace_context_examples": [
+        "Receive livestock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety hazards, assess risks and implement control measures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety hazards, assess risks and implement control measures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety hazards, assess risks and implement control measures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Receive livestock",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to receive animal and accompanying movement documentation and check for completeness?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Receive animal and accompanying movemen",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to receive animal and accompanying movement documentation and check for completeness",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Receive animal and accompanying movement documentation and check for completeness.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Receive animal and accompanying movement documentation and check for completeness?",
+      "practical_task_interpretation": "In practice this requires the worker to receive animal and accompanying movement documentation and check for completeness",
+      "knowledge_focus": [
+        "Receive animal and accompanying movement documentation and check for completeness"
+      ],
+      "workplace_context_examples": [
+        "Receive livestock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of receive animal and accompanying movement documentation and check for completeness"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of receive animal and accompanying movement documentation and check for completeness"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Receive animal and accompanying movement documentation and check for completeness."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Receive livestock",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to carry out physical check of received stock (head count) against the movement documents?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out physical check of received st",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out physical check of received stock (head count) against the movement documents",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out physical check of received stock (head count) against the movement documents.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out physical check of received stock (head count) against the movement documents?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out physical check of received stock (head count) against the movement documents",
+      "knowledge_focus": [
+        "Carry out physical check of received stock (head count) against the movement documents"
+      ],
+      "workplace_context_examples": [
+        "Receive livestock"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out physical check of received stock (head count) against the movement documents"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out physical check of received stock (head count) against the movement documents"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out physical check of received stock (head count) against the movement documents."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Check animal identification and origin",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to check animal for presence of identification tags or devices?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check animal for presence of identifica",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check animal for presence of identification tags or devices",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check animal for presence of identification tags or devices.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check animal for presence of identification tags or devices?",
+      "practical_task_interpretation": "In practice this requires the worker to check animal for presence of identification tags or devices",
+      "knowledge_focus": [
+        "Check animal for presence of identification tags or devices"
+      ],
+      "workplace_context_examples": [
+        "Check animal identification and origin"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check animal for presence of identification tags or devices"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check animal for presence of identification tags or devices"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check animal for presence of identification tags or devices."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Check animal identification and origin",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to implement workplace procedure for non-identified stock? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Implement workplace procedure for non-i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to implement workplace procedure for non-identified stock",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Implement workplace procedure for non-identified stock.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement workplace procedure for non-identified stock?",
+      "practical_task_interpretation": "In practice this requires the worker to implement workplace procedure for non-identified stock",
+      "knowledge_focus": [
+        "Implement workplace procedure for non-identified stock"
+      ],
+      "workplace_context_examples": [
+        "Check animal identification and origin"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of implement workplace procedure for non-identified stock"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of implement workplace procedure for non-identified stock"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Implement workplace procedure for non-identified stock."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Check animal identification and origin",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you record or scan animal identification for compliance with state regulations, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record or scan animal identification fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record or scan animal identification for compliance with state regulations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record or scan animal identification for compliance with state regulations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record or scan animal identification for compliance with state regulations?",
+      "practical_task_interpretation": "In practice this requires the worker to record or scan animal identification for compliance with state regulations",
+      "knowledge_focus": [
+        "Record or scan animal identification for compliance with state regulations"
+      ],
+      "workplace_context_examples": [
+        "Check animal identification and origin"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record or scan animal identification for compliance with state regulations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record or scan animal identification for compliance with state regulations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record or scan animal identification for compliance with state regulations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Report on animal identification data",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you upload or provide data to complete animal identification records and reports according to workplace requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Upload or provide data to complete anim",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to upload or provide data to complete animal identification records and reports according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Upload or provide data to complete animal identification records and reports according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Upload or provide data to complete animal identification records and reports according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to upload or provide data to complete animal identification records and reports according to workplace requirements",
+      "knowledge_focus": [
+        "Upload or provide data to complete animal identification records and reports according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Report on animal identification data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of upload or provide data to complete animal identification records and reports according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of upload or provide data to complete animal identification records and reports according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Upload or provide data to complete animal identification records and reports according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Report on animal identification data",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be recorded when you complete records of issues arising and actions taken, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete records of issues arising and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete records of issues arising and actions taken",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Complete records of issues arising and actions taken.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete records of issues arising and actions taken?",
+      "practical_task_interpretation": "In practice this requires the worker to complete records of issues arising and actions taken",
+      "knowledge_focus": [
+        "Complete records of issues arising and actions taken"
+      ],
+      "workplace_context_examples": [
+        "Report on animal identification data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete records of issues arising and actions taken"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete records of issues arising and actions taken"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete records of issues arising and actions taken."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Report on animal identification data",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you report issues with animal identification for livestock received at site to supervisor or manager, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report issues with animal identificatio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report issues with animal identification for livestock received at site to supervisor or manager",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Report issues with animal identification for livestock received at site to supervisor or manager.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report issues with animal identification for livestock received at site to supervisor or manager?",
+      "practical_task_interpretation": "In practice this requires the worker to report issues with animal identification for livestock received at site to supervisor or manager",
+      "knowledge_focus": [
+        "Report issues with animal identification for livestock received at site to supervisor or manager"
+      ],
+      "workplace_context_examples": [
+        "Report on animal identification data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report issues with animal identification for livestock received at site to supervisor or manager"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report issues with animal identification for livestock received at site to supervisor or manager"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report issues with animal identification for livestock received at site to supervisor or manager."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.150198+00:00"
+}

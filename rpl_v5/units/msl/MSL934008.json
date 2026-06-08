@@ -1,0 +1,742 @@
+{
+  "code": "MSL934008",
+  "title": "Maintain instruments and equipment",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Maintain instruments and equipment demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Perform serviceability checks",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify faulty or unsafe components and equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify faulty or unsafe components and equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify faulty or unsafe components and equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Complete instrument and equipment logbooks to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete instrument and equipment logbooks to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete instrument and equipment logbooks to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Perform serviceability checks"
+    },
+    {
+      "id": "E2",
+      "title": "Conduct routine maintenance safely",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify maintenance procedures, schedules, records and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify maintenance procedures, schedules, records and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify maintenance procedures, schedules, records and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Store instruments and equipment in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store instruments and equipment in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Store instruments and equipment in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Record maintenance performed and any issues identified in accordance with appropriate workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record maintenance performed and any issues identified in accordance with appropriate workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record maintenance performed and any issues identified in accordance with appropriate workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Arrange any reordering of consumable stocks and equipment components",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange any reordering of consumable stocks and equipment components?",
+          "benchmark_statement": "The candidate demonstrates that they can Arrange any reordering of consumable stocks and equipment components.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Conduct routine maintenance safely"
+    },
+    {
+      "id": "E3",
+      "title": "Perform calibration checks",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Check calibration using specified standards and/or procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check calibration using specified standards and/or procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Check calibration using specified standards and/or procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Record all calibration data accurately and legibly",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all calibration data accurately and legibly?",
+          "benchmark_statement": "The candidate demonstrates that they can Record all calibration data accurately and legibly.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Record calibration status and identify out-of-calibration equipment/instruments",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record calibration status and identify out-of-calibration equipment/instruments?",
+          "benchmark_statement": "The candidate demonstrates that they can Record calibration status and identify out-of-calibration equipment/instruments.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Quarantine out-of-calibration items in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Quarantine out-of-calibration items in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Quarantine out-of-calibration items in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Report items unable to be calibrated in accordance with appropriate workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report items unable to be calibrated in accordance with appropriate workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Report items unable to be calibrated in accordance with appropriate workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Perform calibration checks"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Perform serviceability checks",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-use and after-use checks in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform serviceability checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-use and after-use checks in accordance with appropriate workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Perform serviceability checks",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify faulty or unsafe components and equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify faulty or unsafe components an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify faulty or unsafe components and equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify faulty or unsafe components and equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify faulty or unsafe components and equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify faulty or unsafe components and equipment",
+      "knowledge_focus": [
+        "Identify faulty or unsafe components and equipment"
+      ],
+      "workplace_context_examples": [
+        "Perform serviceability checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify faulty or unsafe components and equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify faulty or unsafe components and equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify faulty or unsafe components and equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Perform serviceability checks",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What information must be recorded when you perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform basic troubleshooting and repai",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform serviceability checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform basic troubleshooting and repairs and report major service faults for repair in accordance with appropriate workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Conduct routine maintenance safely",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify maintenance procedures, schedules, records and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify maintenance procedures, schedu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify maintenance procedures, schedules, records and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify maintenance procedures, schedules, records and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify maintenance procedures, schedules, records and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify maintenance procedures, schedules, records and safety requirements",
+      "knowledge_focus": [
+        "Identify maintenance procedures, schedules, records and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Conduct routine maintenance safely"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify maintenance procedures, schedules, records and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify maintenance procedures, schedules, records and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify maintenance procedures, schedules, records and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Conduct routine maintenance safely",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and replace or repair damaged,",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Conduct routine maintenance safely"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and replace or repair damaged, worn and/or spent components or items in accordance with appropriate workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Conduct routine maintenance safely",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean instruments and equipment using r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Conduct routine maintenance safely"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean instruments and equipment using recommended cleaning agents and techniques in accordance with appropriate workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Perform calibration checks",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate instruments and equipment in ac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate instruments and equipment in accordance with appropriate workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Perform calibration checks",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to check calibration using specified standards and/or procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check calibration using specified stand",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check calibration using specified standards and/or procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check calibration using specified standards and/or procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check calibration using specified standards and/or procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to check calibration using specified standards and/or procedures",
+      "knowledge_focus": [
+        "Check calibration using specified standards and/or procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check calibration using specified standards and/or procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check calibration using specified standards and/or procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check calibration using specified standards and/or procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Perform calibration checks",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you record all calibration data accurately and legibly, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record all calibration data accurately ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record all calibration data accurately and legibly",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record all calibration data accurately and legibly.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all calibration data accurately and legibly?",
+      "practical_task_interpretation": "In practice this requires the worker to record all calibration data accurately and legibly",
+      "knowledge_focus": [
+        "Record all calibration data accurately and legibly"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration checks"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record all calibration data accurately and legibly"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record all calibration data accurately and legibly"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record all calibration data accurately and legibly."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.802068+00:00"
+}

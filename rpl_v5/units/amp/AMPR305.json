@@ -1,0 +1,263 @@
+{
+  "code": "AMPR305",
+  "title": "Meet customer needs",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Meet customer needs demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Provide information on products and services",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available?",
+          "benchmark_statement": "The candidate demonstrates that they can Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Provide information on products and services"
+    },
+    {
+      "id": "E2",
+      "title": "Satisfy customer needs",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability?",
+          "benchmark_statement": "The candidate demonstrates that they can Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Satisfy customer needs"
+    },
+    {
+      "id": "E3",
+      "title": "Deal with customer complaints",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Deal with customer complaints"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Provide information on products and services",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 offer customer alternative products or services, or advice on how to obtain same when requested item is not available?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Advise customer accurately and courteou",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 offer customer alternative products or services, or advice on how to obtain same when requested item is not available",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available?",
+      "practical_task_interpretation": "In practice this requires the worker to advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 offer customer alternative products or services, or advice on how to obtain same when requested item is not available",
+      "knowledge_focus": [
+        "Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available"
+      ],
+      "workplace_context_examples": [
+        "Provide information on products and services"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 offer customer alternative products or services, or advice on how to obtain same when requested item is not available"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 offer customer alternative products or services, or advice on how to obtain same when requested item is not available"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Advise customer accurately and courteously on products and services which are relevant to customer requirements1.2 Provide information on handling products, cooking requirements, presentation to the consumer, and a range of catering needs as appropriate1.3 Offer customer alternative products or services, or advice on how to obtain same when requested item is not available."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Satisfy customer needs",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be communicated when discuss range of products and services with customer, which allows for informed decision making by the customer2.2 recommend products or services to meet customer needs2.3 sell products or services in accordance with customer's budget, preferred products and their availability, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Discuss range of products and services ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to discuss range of products and services with customer, which allows for informed decision making by the customer2.2 recommend products or services to meet customer needs2.3 sell products or services in accordance with customer's budget, preferred products and their availability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability?",
+      "practical_task_interpretation": "In practice this requires the worker to discuss range of products and services with customer, which allows for informed decision making by the customer2.2 recommend products or services to meet customer needs2.3 sell products or services in accordance with customer's budget, preferred products and their availability",
+      "knowledge_focus": [
+        "Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability"
+      ],
+      "workplace_context_examples": [
+        "Satisfy customer needs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of discuss range of products and services with customer, which allows for informed decision making by the customer2.2 recommend products or services to meet customer needs2.3 sell products or services in accordance with customer's budget, preferred products and their availability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of discuss range of products and services with customer, which allows for informed decision making by the customer2.2 recommend products or services to meet customer needs2.3 sell products or services in accordance with customer's budget, preferred products and their availability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Discuss range of products and services with customer, which allows for informed decision making by the customer2.2 Recommend products or services to meet customer needs2.3 Sell products or services in accordance with customer's budget, preferred products and their availability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Deal with customer complaints",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 deal with customer complaints referred from other staff according to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Deal with complaints and grievances cou",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 deal with customer complaints referred from other staff according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 deal with customer complaints referred from other staff according to workplace requirements",
+      "knowledge_focus": [
+        "Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Deal with customer complaints"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 deal with customer complaints referred from other staff according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 deal with customer complaints referred from other staff according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Deal with complaints and grievances courteously and efficiently to the satisfaction of the customer3.2 Deal with customer complaints referred from other staff according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.304639+00:00"
+}

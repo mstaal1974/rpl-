@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTS002",
+  "title": "Prepare materials for fabrication using manual processes",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare materials for fabrication using manual processes demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported?",
+          "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Select fabrication materials",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework?",
+          "benchmark_statement": "The candidate demonstrates that they can Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Select fabrication materials"
+    },
+    {
+      "id": "E3",
+      "title": "Bend, shape and fabricate material",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings?",
+          "benchmark_statement": "The candidate demonstrates that they can Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Bend, shape and fabricate material"
+    },
+    {
+      "id": "E4",
+      "title": "Complete the job",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete the job"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to workplace procedures are identified and followed1.2 job specifications, working drawings and calculations are identified and interpreted1.3 tools, equipment and resources are selected and inspected, and faults reported?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Workplace procedures are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to workplace procedures are identified and followed1.2 job specifications, working drawings and calculations are identified and interpreted1.3 tools, equipment and resources are selected and inspected, and faults reported",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported?",
+      "practical_task_interpretation": "In practice this requires the worker to workplace procedures are identified and followed1.2 job specifications, working drawings and calculations are identified and interpreted1.3 tools, equipment and resources are selected and inspected, and faults reported",
+      "knowledge_focus": [
+        "Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of workplace procedures are identified and followed1.2 job specifications, working drawings and calculations are identified and interpreted1.3 tools, equipment and resources are selected and inspected, and faults reported"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of workplace procedures are identified and followed1.2 job specifications, working drawings and calculations are identified and interpreted1.3 tools, equipment and resources are selected and inspected, and faults reported"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Workplace procedures are identified and followed1.2 Job specifications, working drawings and calculations are identified and interpreted1.3 Tools, equipment and resources are selected and inspected, and faults reported."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Select fabrication materials",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to fabrication materials are identified and prepared according to job specifications and working drawings2.2 defective materials are set aside for scrap or rework, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Fabrication materials are identified an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to fabrication materials are identified and prepared according to job specifications and working drawings2.2 defective materials are set aside for scrap or rework",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework?",
+      "practical_task_interpretation": "In practice this requires the worker to fabrication materials are identified and prepared according to job specifications and working drawings2.2 defective materials are set aside for scrap or rework",
+      "knowledge_focus": [
+        "Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework"
+      ],
+      "workplace_context_examples": [
+        "Select fabrication materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of fabrication materials are identified and prepared according to job specifications and working drawings2.2 defective materials are set aside for scrap or rework"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of fabrication materials are identified and prepared according to job specifications and working drawings2.2 defective materials are set aside for scrap or rework"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Fabrication materials are identified and prepared according to job specifications and working drawings2.2 Defective materials are set aside for scrap or rework."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Bend, shape and fabricate material",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 material distortion prevention measures are identified and applied according to job requirements3.3 bent, shaped and fabricated materials are checked against job specifications or working drawings?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Bending, shaping and fabricating proces",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 material distortion prevention measures are identified and applied according to job requirements3.3 bent, shaped and fabricated materials are checked against job specifications or working drawings",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings?",
+      "practical_task_interpretation": "In practice this requires the worker to bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 material distortion prevention measures are identified and applied according to job requirements3.3 bent, shaped and fabricated materials are checked against job specifications or working drawings",
+      "knowledge_focus": [
+        "Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings"
+      ],
+      "workplace_context_examples": [
+        "Bend, shape and fabricate material"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 material distortion prevention measures are identified and applied according to job requirements3.3 bent, shaped and fabricated materials are checked against job specifications or working drawings"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 material distortion prevention measures are identified and applied according to job requirements3.3 bent, shaped and fabricated materials are checked against job specifications or working drawings"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Bending, shaping and fabricating processes are applied according to job specifications and working drawings3.2 Material distortion prevention measures are identified and applied according to job requirements3.3 Bent, shaped and fabricated materials are checked against job specifications or working drawings."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete the job",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work area is cleaned, and materials dis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "knowledge_focus": [
+        "Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete the job"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.458508+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AURAQA003",
+  "title": "Maintain quality processes in an automotive workplace",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Maintain quality processes in an automotive workplace demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Conduct quality check of completed work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Conduct quality check of completed work"
+    },
+    {
+      "id": "E2",
+      "title": "Report on the quality of work outcomes and processes",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis?",
+          "benchmark_statement": "The candidate demonstrates that they can Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Report on the quality of work outcomes and processes"
+    },
+    {
+      "id": "E3",
+      "title": "Generate improvements to work outcomes and processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Generate improvements to work outcomes and processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Conduct quality check of completed work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 quality inspection documentation is completed according to workplace procedures1.3 documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Completed work is checked for complianc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 quality inspection documentation is completed according to workplace procedures1.3 documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 quality inspection documentation is completed according to workplace procedures1.3 documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements",
+      "knowledge_focus": [
+        "Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements"
+      ],
+      "workplace_context_examples": [
+        "Conduct quality check of completed work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 quality inspection documentation is completed according to workplace procedures1.3 documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 quality inspection documentation is completed according to workplace procedures1.3 documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Completed work is checked for compliance with workplace procedures and manufacturer, supplier or customer specifications according to size and importance of job1.2 Quality inspection documentation is completed according to workplace procedures1.3 Documents relating to outcomes of quality checks are kept according to workplace procedures or quality system requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Report on the quality of work outcomes and processes",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to outcomes of quality checks are assessed against workplace performance indicators2.2 problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Outcomes of quality checks are assessed",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to outcomes of quality checks are assessed against workplace performance indicators2.2 problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis?",
+      "practical_task_interpretation": "In practice this requires the worker to outcomes of quality checks are assessed against workplace performance indicators2.2 problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis",
+      "knowledge_focus": [
+        "Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis"
+      ],
+      "workplace_context_examples": [
+        "Report on the quality of work outcomes and processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of outcomes of quality checks are assessed against workplace performance indicators2.2 problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of outcomes of quality checks are assessed against workplace performance indicators2.2 problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Outcomes of quality checks are assessed against workplace performance indicators2.2 Problems relating to quality of outcomes and processes are identified and documented according to workplace procedures2.3 Information relating to quality of work outcomes and processes is provided to appropriate persons on a regular basis."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Generate improvements to work outcomes and processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 options for solving quality issues are generated and benefits of each option evaluated3.3 recommended solutions to quality issues are discussed with and reported to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Staff are encouraged to contribute idea",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 options for solving quality issues are generated and benefits of each option evaluated3.3 recommended solutions to quality issues are discussed with and reported to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 options for solving quality issues are generated and benefits of each option evaluated3.3 recommended solutions to quality issues are discussed with and reported to supervisor",
+      "knowledge_focus": [
+        "Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Generate improvements to work outcomes and processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 options for solving quality issues are generated and benefits of each option evaluated3.3 recommended solutions to quality issues are discussed with and reported to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 options for solving quality issues are generated and benefits of each option evaluated3.3 recommended solutions to quality issues are discussed with and reported to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Staff are encouraged to contribute ideas and possible solutions to address identified quality issues3.2 Options for solving quality issues are generated and benefits of each option evaluated3.3 Recommended solutions to quality issues are discussed with and reported to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.660058+00:00"
+}

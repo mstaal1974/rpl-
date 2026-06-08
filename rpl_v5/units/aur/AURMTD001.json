@@ -1,0 +1,263 @@
+{
+  "code": "AURMTD001",
+  "title": "Test suspension dampers using a dynamometer",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Test suspension dampers using a dynamometer demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for dynamometer operation",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for dynamometer operation"
+    },
+    {
+      "id": "E2",
+      "title": "Conduct dynamometer testing",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Conduct dynamometer testing"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history?",
+          "benchmark_statement": "The candidate demonstrates that they can Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for dynamometer operation",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 hazards associated with the work are identified and risks are managed according to safety requirements1.4 tools and equipment for securing dampers are selected and checked for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from te",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 hazards associated with the work are identified and risks are managed according to safety requirements1.4 tools and equipment for securing dampers are selected and checked for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 hazards associated with the work are identified and risks are managed according to safety requirements1.4 tools and equipment for securing dampers are selected and checked for serviceability",
+      "knowledge_focus": [
+        "Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare for dynamometer operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 hazards associated with the work are identified and risks are managed according to safety requirements1.4 tools and equipment for securing dampers are selected and checked for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 hazards associated with the work are identified and risks are managed according to safety requirements1.4 tools and equipment for securing dampers are selected and checked for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from team instructions, category regulations and manufacturer procedures1.2 Dynamometer is checked for calibration and serviceability, and is prepared for operation according to manufacturer specifications and team procedures1.3 Hazards associated with the work are identified and risks are managed according to safety requirements1.4 Tools and equipment for securing dampers are selected and checked for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Conduct dynamometer testing",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to appropriate load and run sequence and test parameters are determined2.2 dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 data is presented to team members according to team procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Appropriate load and run sequence and t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to appropriate load and run sequence and test parameters are determined2.2 dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 data is presented to team members according to team procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to appropriate load and run sequence and test parameters are determined2.2 dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 data is presented to team members according to team procedures",
+      "knowledge_focus": [
+        "Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures"
+      ],
+      "workplace_context_examples": [
+        "Conduct dynamometer testing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of appropriate load and run sequence and test parameters are determined2.2 dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 data is presented to team members according to team procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of appropriate load and run sequence and test parameters are determined2.2 dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 data is presented to team members according to team procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Appropriate load and run sequence and test parameters are determined2.2 Dampers are connected and secured to dynamometer according to manufacturer specifications and team procedures2.3 Selected dynamometer testing sequence is carried out according to manufacturer and team procedures and safety requirements, and results are documented2.4 Dynamometer test data is analysed and conclusions are drawn about damper condition and performance according to manufacturer specifications and team procedures2.5 Findings are reported to appropriate personnel, including recommendations based on dynamometer data for damper configuration or modifications to improve performance, according to team procedures2.6 Damper modifications are carried out and tested on dynamometer according to manufacturer specifications, team procedures and safety requirements as required2.7 Data is presented to team members according to team procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 dynamometer test results are documented and stored according to team procedures to create or add to damper history?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Dynamometer shutdown procedure is carri",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 dynamometer test results are documented and stored according to team procedures to create or add to damper history",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history?",
+      "practical_task_interpretation": "In practice this requires the worker to dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 dynamometer test results are documented and stored according to team procedures to create or add to damper history",
+      "knowledge_focus": [
+        "Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 dynamometer test results are documented and stored according to team procedures to create or add to damper history"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 dynamometer test results are documented and stored according to team procedures to create or add to damper history"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Dynamometer shutdown procedure is carried out according to manufacturer specifications, team procedures and safety requirements3.2 Dampers are disconnected from dynamometer according to manufacturer specifications and team procedures3.3 Dynamometer, tools and associated equipment are checked, maintained and stored according to workplace procedures3.4 Dynamometer test results are documented and stored according to team procedures to create or add to damper history."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.969881+00:00"
+}

@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTB011",
+  "title": "Assemble, install and test braking system kits",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Assemble, install and test braking system kits demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan the job",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan the job"
+    },
+    {
+      "id": "E2",
+      "title": "Assemble and install braking system kit",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Assemble and install braking system kit"
+    },
+    {
+      "id": "E3",
+      "title": "Test braking system",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results?",
+          "benchmark_statement": "The candidate demonstrates that they can Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Test braking system"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan the job",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine installation process using work order and job specifications 1.2 identify, select and inspect braking system components to be installed1.3 select tools and equipment required for the job and check for safe operation1.4 access assembly and installation information from manufacturer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine installation process using wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine installation process using work order and job specifications 1.2 identify, select and inspect braking system components to be installed1.3 select tools and equipment required for the job and check for safe operation1.4 access assembly and installation information from manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to determine installation process using work order and job specifications 1.2 identify, select and inspect braking system components to be installed1.3 select tools and equipment required for the job and check for safe operation1.4 access assembly and installation information from manufacturer specifications",
+      "knowledge_focus": [
+        "Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Plan the job"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine installation process using work order and job specifications 1.2 identify, select and inspect braking system components to be installed1.3 select tools and equipment required for the job and check for safe operation1.4 access assembly and installation information from manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine installation process using work order and job specifications 1.2 identify, select and inspect braking system components to be installed1.3 select tools and equipment required for the job and check for safe operation1.4 access assembly and installation information from manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine installation process using work order and job specifications 1.2 Identify, select and inspect braking system components to be installed1.3 Select tools and equipment required for the job and check for safe operation1.4 Access assembly and installation information from manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Assemble and install braking system kit",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to carry out assembly and installation activities according to workplace procedures2.2 assemble braking system kit, referring to appropriate sources of information2.3 install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out assembly and installation act",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out assembly and installation activities according to workplace procedures2.2 assemble braking system kit, referring to appropriate sources of information2.3 install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out assembly and installation activities according to workplace procedures2.2 assemble braking system kit, referring to appropriate sources of information2.3 install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements",
+      "knowledge_focus": [
+        "Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements"
+      ],
+      "workplace_context_examples": [
+        "Assemble and install braking system kit"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out assembly and installation activities according to workplace procedures2.2 assemble braking system kit, referring to appropriate sources of information2.3 install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out assembly and installation activities according to workplace procedures2.2 assemble braking system kit, referring to appropriate sources of information2.3 install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out assembly and installation activities according to workplace procedures2.2 Assemble braking system kit, referring to appropriate sources of information2.3 Install braking system kit using installation procedures that comply with manufacturer specifications, tolerances and adjustment requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Test braking system",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to access and interpret test information from manufacturer specifications 3.2 carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 record braking system assembly and test results?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access and interpret test information f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access and interpret test information from manufacturer specifications 3.2 carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 record braking system assembly and test results",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results?",
+      "practical_task_interpretation": "In practice this requires the worker to access and interpret test information from manufacturer specifications 3.2 carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 record braking system assembly and test results",
+      "knowledge_focus": [
+        "Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results"
+      ],
+      "workplace_context_examples": [
+        "Test braking system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access and interpret test information from manufacturer specifications 3.2 carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 record braking system assembly and test results"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access and interpret test information from manufacturer specifications 3.2 carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 record braking system assembly and test results"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access and interpret test information from manufacturer specifications 3.2 Carry out system tests and inspection according to manufacturer specifications or workplace procedures3.3 Record braking system assembly and test results."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to clean tools and equipment, inspect for defects and store according to workplace procedures4.2 identify, tag and report faulty tools and equipment according to workplace procedures4.3 complete workplace documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean tools and equipment, inspect for ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean tools and equipment, inspect for defects and store according to workplace procedures4.2 identify, tag and report faulty tools and equipment according to workplace procedures4.3 complete workplace documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean tools and equipment, inspect for defects and store according to workplace procedures4.2 identify, tag and report faulty tools and equipment according to workplace procedures4.3 complete workplace documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean tools and equipment, inspect for defects and store according to workplace procedures4.2 identify, tag and report faulty tools and equipment according to workplace procedures4.3 complete workplace documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean tools and equipment, inspect for defects and store according to workplace procedures4.2 identify, tag and report faulty tools and equipment according to workplace procedures4.3 complete workplace documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean tools and equipment, inspect for defects and store according to workplace procedures4.2 Identify, tag and report faulty tools and equipment according to workplace procedures4.3 Complete workplace documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.441452+00:00"
+}

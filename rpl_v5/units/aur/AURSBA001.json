@@ -1,0 +1,263 @@
+{
+  "code": "AURSBA001",
+  "title": "Carry out warehousing procedures in an automotive workplace",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Carry out warehousing procedures in an automotive workplace demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Receive incoming goods",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Receive incoming goods"
+    },
+    {
+      "id": "E2",
+      "title": "Store goods",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Store goods"
+    },
+    {
+      "id": "E3",
+      "title": "Dispatch goods",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Dispatch goods"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Receive incoming goods",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to general receiving bay housekeeping is undertaken according to workplace procedures1.2 received goods are checked and validated against delivery information according to workplace procedures1.3 received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 stock levels are accurately documented on stock systems according to workplace procedures1.6 packing materials are disposed of according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can General receiving bay housekeeping is u",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to general receiving bay housekeeping is undertaken according to workplace procedures1.2 received goods are checked and validated against delivery information according to workplace procedures1.3 received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 stock levels are accurately documented on stock systems according to workplace procedures1.6 packing materials are disposed of according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to general receiving bay housekeeping is undertaken according to workplace procedures1.2 received goods are checked and validated against delivery information according to workplace procedures1.3 received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 stock levels are accurately documented on stock systems according to workplace procedures1.6 packing materials are disposed of according to workplace procedures",
+      "knowledge_focus": [
+        "General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Receive incoming goods"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of general receiving bay housekeeping is undertaken according to workplace procedures1.2 received goods are checked and validated against delivery information according to workplace procedures1.3 received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 stock levels are accurately documented on stock systems according to workplace procedures1.6 packing materials are disposed of according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of general receiving bay housekeeping is undertaken according to workplace procedures1.2 received goods are checked and validated against delivery information according to workplace procedures1.3 received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 stock levels are accurately documented on stock systems according to workplace procedures1.6 packing materials are disposed of according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can General receiving bay housekeeping is undertaken according to workplace procedures1.2 Received goods are checked and validated against delivery information according to workplace procedures1.3 Received goods are unpacked and inspected according to workplace procedures and safety and environmental requirements1.4 Discrepancies in quality of unpacked goods or breakages are documented according to workplace procedures1.5 Stock levels are accurately documented on stock systems according to workplace procedures1.6 Packing materials are disposed of according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Store goods",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 goods and parts containers are labelled according to workplace procedures2.3 parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Received goods are transported to appro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 goods and parts containers are labelled according to workplace procedures2.3 parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality?",
+      "practical_task_interpretation": "In practice this requires the worker to received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 goods and parts containers are labelled according to workplace procedures2.3 parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality",
+      "knowledge_focus": [
+        "Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality"
+      ],
+      "workplace_context_examples": [
+        "Store goods"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 goods and parts containers are labelled according to workplace procedures2.3 parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 goods and parts containers are labelled according to workplace procedures2.3 parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Received goods are transported to appropriate storage area without causing damage to product or packaging according to workplace procedures and safety requirements2.2 Goods and parts containers are labelled according to workplace procedures2.3 Parts are transferred to labelled containers in storage area following established stock rotation procedures2.4 Goods are stored according to workplace procedures and safety requirements and, where applicable, at correct temperatures to maintain product quality."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Dispatch goods",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to dispatch information is identified and confirmed3.2 goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 goods are dispatched to customer or end user according to workplace procedures3.5 warehousing documentation is completed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Dispatch information is identified and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to dispatch information is identified and confirmed3.2 goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 goods are dispatched to customer or end user according to workplace procedures3.5 warehousing documentation is completed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to dispatch information is identified and confirmed3.2 goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 goods are dispatched to customer or end user according to workplace procedures3.5 warehousing documentation is completed according to workplace procedures",
+      "knowledge_focus": [
+        "Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Dispatch goods"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of dispatch information is identified and confirmed3.2 goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 goods are dispatched to customer or end user according to workplace procedures3.5 warehousing documentation is completed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of dispatch information is identified and confirmed3.2 goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 goods are dispatched to customer or end user according to workplace procedures3.5 warehousing documentation is completed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Dispatch information is identified and confirmed3.2 Goods for dispatch are selected and any identified non-conforming goods are labelled with supplier details and date and reason for return, or referred to supervisor3.3 Goods for dispatch are packed securely, labelled and stored awaiting dispatch according to workplace procedures and safety requirements 3.4 Goods are dispatched to customer or end user according to workplace procedures3.5 Warehousing documentation is completed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.044782+00:00"
+}

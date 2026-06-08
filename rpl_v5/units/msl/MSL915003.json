@@ -1,0 +1,838 @@
+{
+  "code": "MSL915003",
+  "title": "Provide information to customers",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide information to customers demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assess the request for information and/or advice",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Clarify and confirm the source, nature and priority of the request",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify and confirm the source, nature and priority of the request?",
+          "benchmark_statement": "The candidate demonstrates that they can Clarify and confirm the source, nature and priority of the request.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Record the receipt of the request in accordance with workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record the receipt of the request in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record the receipt of the request in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assess the request for information and/or advice"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare response",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Locate and obtain required information",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and obtain required information?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate and obtain required information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Decide whether to obtain or generate additional information given the priority and costs involved",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Decide whether to obtain or generate additional information given the priority and costs involved?",
+          "benchmark_statement": "The candidate demonstrates that they can Decide whether to obtain or generate additional information given the priority and costs involved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Seek required approval/authority to release information before proceeding",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek required approval/authority to release information before proceeding?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek required approval/authority to release information before proceeding.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare response"
+    },
+    {
+      "id": "E3",
+      "title": "Provide information and/or advice",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Ensure that information is accurate, relevant and complies with workplace/statutory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure that information is accurate, relevant and complies with workplace/statutory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure that information is accurate, relevant and complies with workplace/statutory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Keep the customer informed of progress when it is not possible to answer immediately",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Keep the customer informed of progress when it is not possible to answer immediately?",
+          "benchmark_statement": "The candidate demonstrates that they can Keep the customer informed of progress when it is not possible to answer immediately.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Notify other relevant personnel of request and response in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Notify other relevant personnel of request and response in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Notify other relevant personnel of request and response in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Use most appropriate communication method given priority, cost and customer facilities",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use most appropriate communication method given priority, cost and customer facilities?",
+          "benchmark_statement": "The candidate demonstrates that they can Use most appropriate communication method given priority, cost and customer facilities.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Provide information in a format suitable to customer",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information in a format suitable to customer?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information in a format suitable to customer.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Check that the response met the customer's needs and take appropriate actions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that the response met the customer's needs and take appropriate actions?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that the response met the customer's needs and take appropriate actions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Deal with customers politely, efficiently and appropriately, and in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deal with customers politely, efficiently and appropriately, and in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Deal with customers politely, efficiently and appropriately, and in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Provide information and/or advice"
+    },
+    {
+      "id": "E4",
+      "title": "Record details of the request and response",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Record all information details accurately in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all information details accurately in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record all information details accurately in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Ensure that all written information is accurate and/or legible",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure that all written information is accurate and/or legible?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure that all written information is accurate and/or legible.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "File all records in the designated place and in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can File all records in the designated place and in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can File all records in the designated place and in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Record details of the request and response"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assess the request for information and/or advice",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to clarify and confirm the source, nature and priority of the request?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clarify and confirm the source, nature ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clarify and confirm the source, nature and priority of the request",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clarify and confirm the source, nature and priority of the request.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify and confirm the source, nature and priority of the request?",
+      "practical_task_interpretation": "In practice this requires the worker to clarify and confirm the source, nature and priority of the request",
+      "knowledge_focus": [
+        "Clarify and confirm the source, nature and priority of the request"
+      ],
+      "workplace_context_examples": [
+        "Assess the request for information and/or advice"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clarify and confirm the source, nature and priority of the request"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clarify and confirm the source, nature and priority of the request"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clarify and confirm the source, nature and priority of the request."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Assess the request for information and/or advice",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What information must be recorded when you record the receipt of the request in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record the receipt of the request in ac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record the receipt of the request in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record the receipt of the request in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record the receipt of the request in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record the receipt of the request in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record the receipt of the request in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Assess the request for information and/or advice"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record the receipt of the request in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record the receipt of the request in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record the receipt of the request in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Prepare response",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to locate and obtain required information?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate and obtain required information.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate and obtain required information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate and obtain required information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and obtain required information?",
+      "practical_task_interpretation": "In practice this requires the worker to locate and obtain required information",
+      "knowledge_focus": [
+        "Locate and obtain required information"
+      ],
+      "workplace_context_examples": [
+        "Prepare response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate and obtain required information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate and obtain required information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate and obtain required information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare response",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What criteria determine how to decide whether to obtain or generate additional information given the priority and costs involved?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Decide whether to obtain or generate ad",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to decide whether to obtain or generate additional information given the priority and costs involved",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Decide whether to obtain or generate additional information given the priority and costs involved.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Decide whether to obtain or generate additional information given the priority and costs involved?",
+      "practical_task_interpretation": "In practice this requires the worker to decide whether to obtain or generate additional information given the priority and costs involved",
+      "knowledge_focus": [
+        "Decide whether to obtain or generate additional information given the priority and costs involved"
+      ],
+      "workplace_context_examples": [
+        "Prepare response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of decide whether to obtain or generate additional information given the priority and costs involved"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of decide whether to obtain or generate additional information given the priority and costs involved"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Decide whether to obtain or generate additional information given the priority and costs involved."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare response",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be communicated when seek required approval/authority to release information before proceeding, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seek required approval/authority to rel",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seek required approval/authority to release information before proceeding",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Seek required approval/authority to release information before proceeding.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek required approval/authority to release information before proceeding?",
+      "practical_task_interpretation": "In practice this requires the worker to seek required approval/authority to release information before proceeding",
+      "knowledge_focus": [
+        "Seek required approval/authority to release information before proceeding"
+      ],
+      "workplace_context_examples": [
+        "Prepare response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seek required approval/authority to release information before proceeding"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seek required approval/authority to release information before proceeding"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seek required approval/authority to release information before proceeding."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Provide information and/or advice",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What would indicate that ensure that information is accurate, relevant and complies with workplace/statutory requirements is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure that information is accurate, re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure that information is accurate, relevant and complies with workplace/statutory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure that information is accurate, relevant and complies with workplace/statutory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure that information is accurate, relevant and complies with workplace/statutory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure that information is accurate, relevant and complies with workplace/statutory requirements",
+      "knowledge_focus": [
+        "Ensure that information is accurate, relevant and complies with workplace/statutory requirements"
+      ],
+      "workplace_context_examples": [
+        "Provide information and/or advice"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure that information is accurate, relevant and complies with workplace/statutory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure that information is accurate, relevant and complies with workplace/statutory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure that information is accurate, relevant and complies with workplace/statutory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Provide information and/or advice",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be communicated when keep the customer informed of progress when it is not possible to answer immediately, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Keep the customer informed of progress ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to keep the customer informed of progress when it is not possible to answer immediately",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Keep the customer informed of progress when it is not possible to answer immediately.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Keep the customer informed of progress when it is not possible to answer immediately?",
+      "practical_task_interpretation": "In practice this requires the worker to keep the customer informed of progress when it is not possible to answer immediately",
+      "knowledge_focus": [
+        "Keep the customer informed of progress when it is not possible to answer immediately"
+      ],
+      "workplace_context_examples": [
+        "Provide information and/or advice"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of keep the customer informed of progress when it is not possible to answer immediately"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of keep the customer informed of progress when it is not possible to answer immediately"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Keep the customer informed of progress when it is not possible to answer immediately."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Provide information and/or advice",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be communicated when notify other relevant personnel of request and response in accordance with workplace procedures, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Notify other relevant personnel of requ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to notify other relevant personnel of request and response in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Notify other relevant personnel of request and response in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Notify other relevant personnel of request and response in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to notify other relevant personnel of request and response in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Notify other relevant personnel of request and response in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Provide information and/or advice"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of notify other relevant personnel of request and response in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of notify other relevant personnel of request and response in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Notify other relevant personnel of request and response in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Record details of the request and response",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you record all information details accurately in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record all information details accurate",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record all information details accurately in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Record all information details accurately in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all information details accurately in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record all information details accurately in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record all information details accurately in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Record details of the request and response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record all information details accurately in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record all information details accurately in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record all information details accurately in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Record details of the request and response",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What would indicate that ensure that all written information is accurate and/or legible is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure that all written information is ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure that all written information is accurate and/or legible",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure that all written information is accurate and/or legible.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure that all written information is accurate and/or legible?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure that all written information is accurate and/or legible",
+      "knowledge_focus": [
+        "Ensure that all written information is accurate and/or legible"
+      ],
+      "workplace_context_examples": [
+        "Record details of the request and response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure that all written information is accurate and/or legible"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure that all written information is accurate and/or legible"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure that all written information is accurate and/or legible."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Record details of the request and response",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you file all records in the designated place and in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can File all records in the designated plac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to file all records in the designated place and in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can File all records in the designated place and in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can File all records in the designated place and in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to file all records in the designated place and in accordance with workplace procedures",
+      "knowledge_focus": [
+        "File all records in the designated place and in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Record details of the request and response"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of file all records in the designated place and in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of file all records in the designated place and in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can File all records in the designated place and in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.791701+00:00"
+}

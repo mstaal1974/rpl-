@@ -1,0 +1,490 @@
+{
+  "code": "AMPOFF208",
+  "title": "Process skirts",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Process skirts demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instruction for trimming skirts",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for trimming skirts?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for trimming skirts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify defects in skirts, including incorrect cutting lines",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects in skirts, including incorrect cutting lines?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify defects in skirts, including incorrect cutting lines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify types of contamination on skirts",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify types of contamination on skirts?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify types of contamination on skirts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Identify hygiene and sanitation requirements for trimming",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for trimming?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for trimming.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Process skirts",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trim skirts to achieve maximum yield, following workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim skirts to achieve maximum yield, following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim skirts to achieve maximum yield, following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Avoid contamination and cross-contamination of skirts",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Avoid contamination and cross-contamination of skirts?",
+          "benchmark_statement": "The candidate demonstrates that they can Avoid contamination and cross-contamination of skirts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Forward trimmed skirt for further processing",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Forward trimmed skirt for further processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Forward trimmed skirt for further processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Process skirts"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instruction for trimming skirts?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instruction for trimming ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instruction for trimming skirts",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for trimming skirts.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for trimming skirts?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instruction for trimming skirts",
+      "knowledge_focus": [
+        "Identify work instruction for trimming skirts"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instruction for trimming skirts"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instruction for trimming skirts"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instruction for trimming skirts."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify defects in skirts, including incorrect cutting lines?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify defects in skirts, including i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify defects in skirts, including incorrect cutting lines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify defects in skirts, including incorrect cutting lines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects in skirts, including incorrect cutting lines?",
+      "practical_task_interpretation": "In practice this requires the worker to identify defects in skirts, including incorrect cutting lines",
+      "knowledge_focus": [
+        "Identify defects in skirts, including incorrect cutting lines"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify defects in skirts, including incorrect cutting lines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify defects in skirts, including incorrect cutting lines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify defects in skirts, including incorrect cutting lines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Process skirts",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to trim skirts to achieve maximum yield, following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim skirts to achieve maximum yield, f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim skirts to achieve maximum yield, following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim skirts to achieve maximum yield, following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim skirts to achieve maximum yield, following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to trim skirts to achieve maximum yield, following workplace requirements",
+      "knowledge_focus": [
+        "Trim skirts to achieve maximum yield, following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Process skirts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim skirts to achieve maximum yield, following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim skirts to achieve maximum yield, following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim skirts to achieve maximum yield, following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Process skirts",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify defects and contamination, tri",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal?",
+      "practical_task_interpretation": "In practice this requires the worker to identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal",
+      "knowledge_focus": [
+        "Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal"
+      ],
+      "workplace_context_examples": [
+        "Process skirts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify defects and contamination, trim and place trimming in inedible bins or chutes for disposal."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Process skirts",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to avoid contamination and cross-contamination of skirts? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Avoid contamination and cross-contamina",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to avoid contamination and cross-contamination of skirts",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Avoid contamination and cross-contamination of skirts.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Avoid contamination and cross-contamination of skirts?",
+      "practical_task_interpretation": "In practice this requires the worker to avoid contamination and cross-contamination of skirts",
+      "knowledge_focus": [
+        "Avoid contamination and cross-contamination of skirts"
+      ],
+      "workplace_context_examples": [
+        "Process skirts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of avoid contamination and cross-contamination of skirts"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of avoid contamination and cross-contamination of skirts"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Avoid contamination and cross-contamination of skirts."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.122474+00:00"
+}

@@ -1,0 +1,568 @@
+{
+  "code": "AMPOFF201",
+  "title": "Separate offal",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Separate offal demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instructions for separating offal",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions for separating offal?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instructions for separating offal.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify different types of offal, including edible and inedible offal, according to workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify different types of offal, including edible and inedible offal, according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify different types of offal, including edible and inedible offal, according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify defects in offal, including abnormalities and contamination",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects in offal, including abnormalities and contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify defects in offal, including abnormalities and contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Identify hygiene and sanitation requirements for processing",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Identify inspection condemnation and pet food marks, and follow work instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify inspection condemnation and pet food marks, and follow work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify inspection condemnation and pet food marks, and follow work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Split offal into edible and inedible offal",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Separate offal and sort into edible and inedible offal following workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Separate offal and sort into edible and inedible offal following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Separate offal and sort into edible and inedible offal following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Remove aorta prior to removal of fat from around heart, where part of work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove aorta prior to removal of fat from around heart, where part of work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove aorta prior to removal of fat from around heart, where part of work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Trim connective tissue from thick and thin skirts, where part of work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim connective tissue from thick and thin skirts, where part of work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim connective tissue from thick and thin skirts, where part of work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Handle offal to avoid bile, ingesta, excreta or content contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle offal to avoid bile, ingesta, excreta or content contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle offal to avoid bile, ingesta, excreta or content contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Separate gallbladder from liver",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Separate gallbladder from liver?",
+          "benchmark_statement": "The candidate demonstrates that they can Separate gallbladder from liver.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Trim offal fat where required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim offal fat where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim offal fat where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.8",
+          "text": "Identify condemned offal following inspection brands or marking",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify condemned offal following inspection brands or marking?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify condemned offal following inspection brands or marking.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.9",
+          "text": "Place offal in chutes or bins for further processing or disposal",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Place offal in chutes or bins for further processing or disposal?",
+          "benchmark_statement": "The candidate demonstrates that they can Place offal in chutes or bins for further processing or disposal.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Split offal into edible and inedible offal"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instructions for separating offal?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instructions for separati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instructions for separating offal",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instructions for separating offal.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions for separating offal?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instructions for separating offal",
+      "knowledge_focus": [
+        "Identify work instructions for separating offal"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instructions for separating offal"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instructions for separating offal"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instructions for separating offal."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify different types of offal, including edible and inedible offal, according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify different types of offal, incl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify different types of offal, including edible and inedible offal, according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify different types of offal, including edible and inedible offal, according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify different types of offal, including edible and inedible offal, according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify different types of offal, including edible and inedible offal, according to workplace requirements",
+      "knowledge_focus": [
+        "Identify different types of offal, including edible and inedible offal, according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify different types of offal, including edible and inedible offal, according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify different types of offal, including edible and inedible offal, according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify different types of offal, including edible and inedible offal, according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify defects in offal, including abnormalities and contamination?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify defects in offal, including ab",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify defects in offal, including abnormalities and contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify defects in offal, including abnormalities and contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects in offal, including abnormalities and contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to identify defects in offal, including abnormalities and contamination",
+      "knowledge_focus": [
+        "Identify defects in offal, including abnormalities and contamination"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify defects in offal, including abnormalities and contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify defects in offal, including abnormalities and contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify defects in offal, including abnormalities and contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Split offal into edible and inedible offal",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to separate offal and sort into edible and inedible offal following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Separate offal and sort into edible and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to separate offal and sort into edible and inedible offal following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Separate offal and sort into edible and inedible offal following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Separate offal and sort into edible and inedible offal following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to separate offal and sort into edible and inedible offal following workplace requirements",
+      "knowledge_focus": [
+        "Separate offal and sort into edible and inedible offal following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Split offal into edible and inedible offal"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of separate offal and sort into edible and inedible offal following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of separate offal and sort into edible and inedible offal following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Separate offal and sort into edible and inedible offal following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Split offal into edible and inedible offal",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify offal that is fit for human co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing?",
+      "practical_task_interpretation": "In practice this requires the worker to identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing",
+      "knowledge_focus": [
+        "Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing"
+      ],
+      "workplace_context_examples": [
+        "Split offal into edible and inedible offal"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify offal that is fit for human consumption, where applicable, and pass to appropriate area for processing."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Split offal into edible and inedible offal",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to remove aorta prior to removal of fat from around heart, where part of work instructions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove aorta prior to removal of fat fr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove aorta prior to removal of fat from around heart, where part of work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Remove aorta prior to removal of fat from around heart, where part of work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove aorta prior to removal of fat from around heart, where part of work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to remove aorta prior to removal of fat from around heart, where part of work instructions",
+      "knowledge_focus": [
+        "Remove aorta prior to removal of fat from around heart, where part of work instructions"
+      ],
+      "workplace_context_examples": [
+        "Split offal into edible and inedible offal"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove aorta prior to removal of fat from around heart, where part of work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove aorta prior to removal of fat from around heart, where part of work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove aorta prior to removal of fat from around heart, where part of work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.117136+00:00"
+}

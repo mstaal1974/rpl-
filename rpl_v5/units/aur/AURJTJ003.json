@@ -1,0 +1,335 @@
+{
+  "code": "AURJTJ003",
+  "title": "Remove and refit motorcycle wheel and tyre assemblies",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove and refit motorcycle wheel and tyre assemblies demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to remove wheel and tyre assembly",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to remove wheel and tyre assembly"
+    },
+    {
+      "id": "E2",
+      "title": "Remove wheel and tyre assembly",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove wheel and tyre assembly"
+    },
+    {
+      "id": "E3",
+      "title": "Refit wheel and tyre assembly",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Refit wheel and tyre assembly"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to remove wheel and tyre assembly",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to environmental and safety requirements are sourced and interpreted1.2 task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Environmental and safety requirements a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to environmental and safety requirements are sourced and interpreted1.2 task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to environmental and safety requirements are sourced and interpreted1.2 task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability",
+      "knowledge_focus": [
+        "Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to remove wheel and tyre assembly"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of environmental and safety requirements are sourced and interpreted1.2 task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of environmental and safety requirements are sourced and interpreted1.2 task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Environmental and safety requirements are sourced and interpreted1.2 Task instruction is interpreted and wheel and tyre assembly to be worked on is identified1.3 Manufacturer specifications for removing and replacing wheel and tyre assembly are sourced and interpreted1.4 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.5 Tools and equipment required for removing and replacing wheel and tyre assembly are identified and checked for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Remove wheel and tyre assembly",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 wheel and tyre assembly is identified according to manufacturer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Motorcycle is prepared for wheel remova",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 wheel and tyre assembly is identified according to manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 wheel and tyre assembly is identified according to manufacturer specifications",
+      "knowledge_focus": [
+        "Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Remove wheel and tyre assembly"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 wheel and tyre assembly is identified according to manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 wheel and tyre assembly is identified according to manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Motorcycle is prepared for wheel removal according to workplace procedures and safety requirements2.2 Wheel and tyre assembly is removed according to workplace procedures and manufacturer specifications, and without causing damage to components, tools or equipment2.3 Wheel and tyre assembly is identified according to manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Refit wheel and tyre assembly",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to wheel and tyre assembly is prepared for replacement3.2 wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 wheel and tyre assembly on motorcycle is checked for correct operation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Wheel and tyre assembly is prepared for",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to wheel and tyre assembly is prepared for replacement3.2 wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 wheel and tyre assembly on motorcycle is checked for correct operation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation?",
+      "practical_task_interpretation": "In practice this requires the worker to wheel and tyre assembly is prepared for replacement3.2 wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 wheel and tyre assembly on motorcycle is checked for correct operation",
+      "knowledge_focus": [
+        "Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation"
+      ],
+      "workplace_context_examples": [
+        "Refit wheel and tyre assembly"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of wheel and tyre assembly is prepared for replacement3.2 wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 wheel and tyre assembly on motorcycle is checked for correct operation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of wheel and tyre assembly is prepared for replacement3.2 wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 wheel and tyre assembly on motorcycle is checked for correct operation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Wheel and tyre assembly is prepared for replacement3.2 Wheel and tyre assembly is replaced according to workplace procedures, manufacturer specifications and safety requirements, and without causing damage to components, tools or equipment3.3 Wheel and tyre assembly on motorcycle is checked for correct operation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and motorcycle is presented ready for use4.2 and recyclable material is collected4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.866519+00:00"
+}

@@ -1,0 +1,412 @@
+{
+  "code": "AMPR324",
+  "title": "Break large stock carcases for retail sale",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Break large stock carcases for retail sale demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Break large stock carcase into primal cuts",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Prepare equipment for breaking carcase safely",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment for breaking carcase safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare equipment for breaking carcase safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Position or fasten carcase securely for separation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Position or fasten carcase securely for separation?",
+          "benchmark_statement": "The candidate demonstrates that they can Position or fasten carcase securely for separation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Accurately separate carcase into primal cuts using acceptable cutting lines",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately separate carcase into primal cuts using acceptable cutting lines?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately separate carcase into primal cuts using acceptable cutting lines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Accurately separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA), customer specifications and hygiene requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA), customer specifications and hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA), customer specifications and hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Identify contaminated or out of specification product and take appropriate corrective action, according to workplace and regulatory requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contaminated or out of specification product and take appropriate corrective action, according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify contaminated or out of specification product and take appropriate corrective action, according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Break large stock carcase into primal cuts"
+    },
+    {
+      "id": "E2",
+      "title": "Handle knife effectively",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Sanitise knife and other equipment according to workplace and regulatory requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sanitise knife and other equipment according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Sanitise knife and other equipment according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Handle knife safely, hygienically and effectively",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Handle knife effectively"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Break large stock carcase into primal cuts",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What steps are required to prepare equipment for breaking carcase safely, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare equipment for breaking carcase ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare equipment for breaking carcase safely",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare equipment for breaking carcase safely.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment for breaking carcase safely?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare equipment for breaking carcase safely",
+      "knowledge_focus": [
+        "Prepare equipment for breaking carcase safely"
+      ],
+      "workplace_context_examples": [
+        "Break large stock carcase into primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare equipment for breaking carcase safely"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare equipment for breaking carcase safely"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare equipment for breaking carcase safely."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Break large stock carcase into primal cuts",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to position or fasten carcase securely for separation? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Position or fasten carcase securely for",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to position or fasten carcase securely for separation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Position or fasten carcase securely for separation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Position or fasten carcase securely for separation?",
+      "practical_task_interpretation": "In practice this requires the worker to position or fasten carcase securely for separation",
+      "knowledge_focus": [
+        "Position or fasten carcase securely for separation"
+      ],
+      "workplace_context_examples": [
+        "Break large stock carcase into primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of position or fasten carcase securely for separation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of position or fasten carcase securely for separation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Position or fasten carcase securely for separation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Break large stock carcase into primal cuts",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to accurately separate carcase into primal cuts using acceptable cutting lines? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Accurately separate carcase into primal",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to accurately separate carcase into primal cuts using acceptable cutting lines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Accurately separate carcase into primal cuts using acceptable cutting lines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately separate carcase into primal cuts using acceptable cutting lines?",
+      "practical_task_interpretation": "In practice this requires the worker to accurately separate carcase into primal cuts using acceptable cutting lines",
+      "knowledge_focus": [
+        "Accurately separate carcase into primal cuts using acceptable cutting lines"
+      ],
+      "workplace_context_examples": [
+        "Break large stock carcase into primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of accurately separate carcase into primal cuts using acceptable cutting lines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of accurately separate carcase into primal cuts using acceptable cutting lines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Accurately separate carcase into primal cuts using acceptable cutting lines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Handle knife effectively",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to sanitise knife and other equipment according to workplace and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sanitise knife and other equipment acco",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sanitise knife and other equipment according to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Sanitise knife and other equipment according to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sanitise knife and other equipment according to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to sanitise knife and other equipment according to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Sanitise knife and other equipment according to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Handle knife effectively"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sanitise knife and other equipment according to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sanitise knife and other equipment according to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sanitise knife and other equipment according to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Handle knife effectively",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to handle knife safely, hygienically and effectively? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle knife safely, hygienically and e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle knife safely, hygienically and effectively",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+      "practical_task_interpretation": "In practice this requires the worker to handle knife safely, hygienically and effectively",
+      "knowledge_focus": [
+        "Handle knife safely, hygienically and effectively"
+      ],
+      "workplace_context_examples": [
+        "Handle knife effectively"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle knife safely, hygienically and effectively"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle knife safely, hygienically and effectively"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle knife safely, hygienically and effectively."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.321916+00:00"
+}

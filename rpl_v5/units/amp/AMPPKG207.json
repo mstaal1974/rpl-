@@ -1,0 +1,503 @@
+{
+  "code": "AMPPKG207",
+  "title": "Operate carton forming machine",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate carton forming machine demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instruction for operating carton forming machine",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for operating carton forming machine?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for operating carton forming machine.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Prepare equipment and consumables for assembling and preparing cartons",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment and consumables for assembling and preparing cartons?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare equipment and consumables for assembling and preparing cartons.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Carry out start-up procedures following work instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out start-up procedures following work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out start-up procedures following work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Operate carton forming machine",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Operate carton forming machine following workplace requirements and workplace health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate carton forming machine following workplace requirements and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate carton forming machine following workplace requirements and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Monitor carton blanks to ensure compliance with quality assurance requirements and specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor carton blanks to ensure compliance with quality assurance requirements and specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor carton blanks to ensure compliance with quality assurance requirements and specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Report any defects with carton forming to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any defects with carton forming to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Report any defects with carton forming to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Monitor and maintain supply of consumables to forming machine",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor and maintain supply of consumables to forming machine?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor and maintain supply of consumables to forming machine.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Maintain flow of assembled cartons to meet daily production requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain flow of assembled cartons to meet daily production requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain flow of assembled cartons to meet daily production requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Complete daily maintenance routines as specified in work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete daily maintenance routines as specified in work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete daily maintenance routines as specified in work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate carton forming machine"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instruction for operating carton forming machine?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instruction for operating",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instruction for operating carton forming machine",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for operating carton forming machine.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for operating carton forming machine?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instruction for operating carton forming machine",
+      "knowledge_focus": [
+        "Identify work instruction for operating carton forming machine"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instruction for operating carton forming machine"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instruction for operating carton forming machine"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instruction for operating carton forming machine."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What steps are required to prepare equipment and consumables for assembling and preparing cartons, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare equipment and consumables for a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare equipment and consumables for assembling and preparing cartons",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare equipment and consumables for assembling and preparing cartons.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment and consumables for assembling and preparing cartons?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare equipment and consumables for assembling and preparing cartons",
+      "knowledge_focus": [
+        "Prepare equipment and consumables for assembling and preparing cartons"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare equipment and consumables for assembling and preparing cartons"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare equipment and consumables for assembling and preparing cartons"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare equipment and consumables for assembling and preparing cartons."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Operate carton forming machine",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with operate carton forming machine following workplace requirements and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate carton forming machine followin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate carton forming machine following workplace requirements and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate carton forming machine following workplace requirements and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate carton forming machine following workplace requirements and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to operate carton forming machine following workplace requirements and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Operate carton forming machine following workplace requirements and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Operate carton forming machine"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate carton forming machine following workplace requirements and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate carton forming machine following workplace requirements and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate carton forming machine following workplace requirements and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Operate carton forming machine",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What would indicate that monitor carton blanks to ensure compliance with quality assurance requirements and specifications is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor carton blanks to ensure complia",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor carton blanks to ensure compliance with quality assurance requirements and specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor carton blanks to ensure compliance with quality assurance requirements and specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor carton blanks to ensure compliance with quality assurance requirements and specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor carton blanks to ensure compliance with quality assurance requirements and specifications",
+      "knowledge_focus": [
+        "Monitor carton blanks to ensure compliance with quality assurance requirements and specifications"
+      ],
+      "workplace_context_examples": [
+        "Operate carton forming machine"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor carton blanks to ensure compliance with quality assurance requirements and specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor carton blanks to ensure compliance with quality assurance requirements and specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor carton blanks to ensure compliance with quality assurance requirements and specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Operate carton forming machine",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you report any defects with carton forming to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report any defects with carton forming ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report any defects with carton forming to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Report any defects with carton forming to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any defects with carton forming to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to report any defects with carton forming to supervisor",
+      "knowledge_focus": [
+        "Report any defects with carton forming to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Operate carton forming machine"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report any defects with carton forming to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report any defects with carton forming to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report any defects with carton forming to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.161200+00:00"
+}

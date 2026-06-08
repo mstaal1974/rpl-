@@ -1,0 +1,924 @@
+{
+  "code": "AHCBIO203",
+  "title": "Inspect and clean machinery, tools and equipment to preserve biosecurity",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Inspect and clean machinery, tools and equipment to preserve biosecurity demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to inspect and clean machinery, tools and equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Confirm the work activity to be undertaken with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm the work activity to be undertaken with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm the work activity to be undertaken with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify and select tools and equipment required according to supervisor instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and select tools and equipment required according to supervisor instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and select tools and equipment required according to supervisor instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Select, check and use personal protective equipment and infection controls",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, check and use personal protective equipment and infection controls?",
+          "benchmark_statement": "The candidate demonstrates that they can Select, check and use personal protective equipment and infection controls.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to inspect and clean machinery, tools and equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect machinery, tools, support vehicles and equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Check serviceability of tools and materials required for task",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check serviceability of tools and materials required for task?",
+          "benchmark_statement": "The candidate demonstrates that they can Check serviceability of tools and materials required for task.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Inspect machinery and equipment for contamination according to workplace biosecurity procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect machinery and equipment for contamination according to workplace biosecurity procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect machinery and equipment for contamination according to workplace biosecurity procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Remove covers and guards safely",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove covers and guards safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove covers and guards safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Identify contamination and cleaning requirements according to workplace biosecurity procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contamination and cleaning requirements according to workplace biosecurity procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify contamination and cleaning requirements according to workplace biosecurity procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Report observed equipment faults to supervisor according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report observed equipment faults to supervisor according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Report observed equipment faults to supervisor according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect machinery, tools, support vehicles and equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Clean machinery, tools, equipment and support vehicles",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Select correct equipment and location of site for cleaning",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select correct equipment and location of site for cleaning?",
+          "benchmark_statement": "The candidate demonstrates that they can Select correct equipment and location of site for cleaning.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Replace guards and covers safely",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Replace guards and covers safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Replace guards and covers safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean machinery, tools, equipment and support vehicles"
+    },
+    {
+      "id": "E4",
+      "title": "Complete cleaning work",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Dispose of waste materials according to workplace and environmental procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispose of waste materials according to workplace and environmental procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Dispose of waste materials according to workplace and environmental procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Record cleaning history on appropriate forms according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record cleaning history on appropriate forms according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record cleaning history on appropriate forms according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete cleaning work"
+    },
+    {
+      "id": "E5",
+      "title": "Report inspection results",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Document inspection results according to workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document inspection results according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Document inspection results according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Deliver inspection reports according to workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deliver inspection reports according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Deliver inspection reports according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Report inspection results"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to inspect and clean machinery, tools and equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to confirm the work activity to be undertaken with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm the work activity to be underta",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm the work activity to be undertaken with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm the work activity to be undertaken with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm the work activity to be undertaken with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm the work activity to be undertaken with supervisor",
+      "knowledge_focus": [
+        "Confirm the work activity to be undertaken with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect and clean machinery, tools and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm the work activity to be undertaken with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm the work activity to be undertaken with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm the work activity to be undertaken with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to inspect and clean machinery, tools and equipment",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify health and safety hazards and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures",
+      "knowledge_focus": [
+        "Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect and clean machinery, tools and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify health and safety hazards and risks and apply controls according to supervisor instructions and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to inspect and clean machinery, tools and equipment",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify and select tools and equipment required according to supervisor instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and select tools and equipment",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and select tools and equipment required according to supervisor instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and select tools and equipment required according to supervisor instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and select tools and equipment required according to supervisor instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and select tools and equipment required according to supervisor instructions",
+      "knowledge_focus": [
+        "Identify and select tools and equipment required according to supervisor instructions"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect and clean machinery, tools and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and select tools and equipment required according to supervisor instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and select tools and equipment required according to supervisor instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and select tools and equipment required according to supervisor instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Inspect machinery, tools, support vehicles and equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure machinery is safe before inspect",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures",
+      "knowledge_focus": [
+        "Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures"
+      ],
+      "workplace_context_examples": [
+        "Inspect machinery, tools, support vehicles and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure machinery is safe before inspection and ensure free moving parts are immobilised according to workplace and operating procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Inspect machinery, tools, support vehicles and equipment",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to check serviceability of tools and materials required for task?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check serviceability of tools and mater",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check serviceability of tools and materials required for task",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check serviceability of tools and materials required for task.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check serviceability of tools and materials required for task?",
+      "practical_task_interpretation": "In practice this requires the worker to check serviceability of tools and materials required for task",
+      "knowledge_focus": [
+        "Check serviceability of tools and materials required for task"
+      ],
+      "workplace_context_examples": [
+        "Inspect machinery, tools, support vehicles and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check serviceability of tools and materials required for task"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check serviceability of tools and materials required for task"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check serviceability of tools and materials required for task."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Inspect machinery, tools, support vehicles and equipment",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to inspect machinery and equipment for contamination according to workplace biosecurity procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect machinery and equipment for con",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect machinery and equipment for contamination according to workplace biosecurity procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect machinery and equipment for contamination according to workplace biosecurity procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect machinery and equipment for contamination according to workplace biosecurity procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect machinery and equipment for contamination according to workplace biosecurity procedures",
+      "knowledge_focus": [
+        "Inspect machinery and equipment for contamination according to workplace biosecurity procedures"
+      ],
+      "workplace_context_examples": [
+        "Inspect machinery, tools, support vehicles and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect machinery and equipment for contamination according to workplace biosecurity procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect machinery and equipment for contamination according to workplace biosecurity procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect machinery and equipment for contamination according to workplace biosecurity procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Clean machinery, tools, equipment and support vehicles",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What criteria determine how to select correct equipment and location of site for cleaning?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select correct equipment and location o",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select correct equipment and location of site for cleaning",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select correct equipment and location of site for cleaning.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select correct equipment and location of site for cleaning?",
+      "practical_task_interpretation": "In practice this requires the worker to select correct equipment and location of site for cleaning",
+      "knowledge_focus": [
+        "Select correct equipment and location of site for cleaning"
+      ],
+      "workplace_context_examples": [
+        "Clean machinery, tools, equipment and support vehicles"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select correct equipment and location of site for cleaning"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select correct equipment and location of site for cleaning"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select correct equipment and location of site for cleaning."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Clean machinery, tools, equipment and support vehicles",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean the machinery, support vehicles, ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures",
+      "knowledge_focus": [
+        "Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures"
+      ],
+      "workplace_context_examples": [
+        "Clean machinery, tools, equipment and support vehicles"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean the machinery, support vehicles, tools and equipment according to workplace biosecurity procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Clean machinery, tools, equipment and support vehicles",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to replace guards and covers safely? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Replace guards and covers safely.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to replace guards and covers safely",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Replace guards and covers safely.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Replace guards and covers safely?",
+      "practical_task_interpretation": "In practice this requires the worker to replace guards and covers safely",
+      "knowledge_focus": [
+        "Replace guards and covers safely"
+      ],
+      "workplace_context_examples": [
+        "Clean machinery, tools, equipment and support vehicles"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of replace guards and covers safely"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of replace guards and covers safely"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Replace guards and covers safely."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Complete cleaning work",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to dispose of waste materials according to workplace and environmental procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Dispose of waste materials according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to dispose of waste materials according to workplace and environmental procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Dispose of waste materials according to workplace and environmental procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispose of waste materials according to workplace and environmental procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to dispose of waste materials according to workplace and environmental procedures",
+      "knowledge_focus": [
+        "Dispose of waste materials according to workplace and environmental procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete cleaning work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of dispose of waste materials according to workplace and environmental procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of dispose of waste materials according to workplace and environmental procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Dispose of waste materials according to workplace and environmental procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Complete cleaning work",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you record cleaning history on appropriate forms according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record cleaning history on appropriate ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record cleaning history on appropriate forms according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record cleaning history on appropriate forms according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record cleaning history on appropriate forms according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record cleaning history on appropriate forms according to workplace procedures",
+      "knowledge_focus": [
+        "Record cleaning history on appropriate forms according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete cleaning work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record cleaning history on appropriate forms according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record cleaning history on appropriate forms according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record cleaning history on appropriate forms according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Report inspection results",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What checks would you perform to document inspection results according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Document inspection results according t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to document inspection results according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Document inspection results according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document inspection results according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to document inspection results according to workplace procedures",
+      "knowledge_focus": [
+        "Document inspection results according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Report inspection results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of document inspection results according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of document inspection results according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Document inspection results according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.503449+00:00"
+}

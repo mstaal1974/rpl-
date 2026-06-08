@@ -1,0 +1,118 @@
+{
+  "code": "AMPS313",
+  "title": "Prepare product formulations",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare product formulations demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare product formulations",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare product formulations"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare product formulations",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 check ingredients to ensure they meet product specifications and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow recipes and product specificatio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 check ingredients to ensure they meet product specifications and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 check ingredients to ensure they meet product specifications and regulatory requirements",
+      "knowledge_focus": [
+        "Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare product formulations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 check ingredients to ensure they meet product specifications and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 check ingredients to ensure they meet product specifications and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow recipes and product specifications to formulate products in accordance with workplace and regulatory requirements1.2 Formulate products in accordance with product specifications, hygiene and sanitation, regulatory and workplace requirements1.3 Check ingredients to ensure they meet product specifications and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.364071+00:00"
+}

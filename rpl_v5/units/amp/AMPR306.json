@@ -1,0 +1,321 @@
+{
+  "code": "AMPR306",
+  "title": "Provide advice on nutritional role of meat",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide advice on nutritional role of meat demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Advise on general nutritive composition of meat",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Advise on general nutritive composition of meat"
+    },
+    {
+      "id": "E2",
+      "title": "Advise on methods of reducing fats from a diet which includes meat",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Provide information regarding cooking methods which reduce fat",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information regarding cooking methods which reduce fat?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information regarding cooking methods which reduce fat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Provide information on meat cuts which are recommended for a low-fat diet",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information on meat cuts which are recommended for a low-fat diet?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information on meat cuts which are recommended for a low-fat diet.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Advise on methods of reducing fats from a diet which includes meat"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Advise on general nutritive composition of meat",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be communicated when provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide information regarding approxima",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables?",
+      "practical_task_interpretation": "In practice this requires the worker to provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables",
+      "knowledge_focus": [
+        "Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables"
+      ],
+      "workplace_context_examples": [
+        "Advise on general nutritive composition of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide information regarding approximate percentages of protein, fat, iron, thiamine, niacin, riboflavin and other vitamins and minerals found in meat according to a standard set of food tables."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Advise on general nutritive composition of meat",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What information must be communicated when provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and dietary guidelines, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide information on functions of six",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and dietary guidelines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines?",
+      "practical_task_interpretation": "In practice this requires the worker to provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and dietary guidelines",
+      "knowledge_focus": [
+        "Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines"
+      ],
+      "workplace_context_examples": [
+        "Advise on general nutritive composition of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and dietary guidelines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and dietary guidelines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide information on functions of six main nutrients required in the diet according to  a standard set of food tables and Dietary Guidelines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Advise on methods of reducing fats from a diet which includes meat",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be communicated when provide information regarding cooking methods which reduce fat, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide information regarding cooking m",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide information regarding cooking methods which reduce fat",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Provide information regarding cooking methods which reduce fat.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information regarding cooking methods which reduce fat?",
+      "practical_task_interpretation": "In practice this requires the worker to provide information regarding cooking methods which reduce fat",
+      "knowledge_focus": [
+        "Provide information regarding cooking methods which reduce fat"
+      ],
+      "workplace_context_examples": [
+        "Advise on methods of reducing fats from a diet which includes meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide information regarding cooking methods which reduce fat"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide information regarding cooking methods which reduce fat"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide information regarding cooking methods which reduce fat."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Advise on methods of reducing fats from a diet which includes meat",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be communicated when provide information on meat cuts which are recommended for a low-fat diet, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide information on meat cuts which ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide information on meat cuts which are recommended for a low-fat diet",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Provide information on meat cuts which are recommended for a low-fat diet.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information on meat cuts which are recommended for a low-fat diet?",
+      "practical_task_interpretation": "In practice this requires the worker to provide information on meat cuts which are recommended for a low-fat diet",
+      "knowledge_focus": [
+        "Provide information on meat cuts which are recommended for a low-fat diet"
+      ],
+      "workplace_context_examples": [
+        "Advise on methods of reducing fats from a diet which includes meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide information on meat cuts which are recommended for a low-fat diet"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide information on meat cuts which are recommended for a low-fat diet"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide information on meat cuts which are recommended for a low-fat diet."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.305492+00:00"
+}

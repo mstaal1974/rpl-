@@ -1,0 +1,995 @@
+{
+  "code": "AMPQUA406",
+  "title": "Apply meat science",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply meat science demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify biochemical events that occur in muscle early post-mortem and their significance in subsequent meat quality",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify biochemical events that occur in muscle early post-mortem and their significance in subsequent meat quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify biochemical events that occur in muscle early post-mortem and their significance in subsequent meat quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it"
+    },
+    {
+      "id": "E2",
+      "title": "Identify production and pre-slaughter factors that affect meat quality",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify impacts of production factors on meat quality",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify impacts of production factors on meat quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify impacts of production factors on meat quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Describe pre-slaughter factors that affect meat quality",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe pre-slaughter factors that affect meat quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe pre-slaughter factors that affect meat quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify production and pre-slaughter factors that affect meat quality"
+    },
+    {
+      "id": "E3",
+      "title": "Identify processing factors that impact eating quality",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Explain pH/temperature window and how it impacts palatability",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain pH/temperature window and how it impacts palatability?",
+          "benchmark_statement": "The candidate demonstrates that they can Explain pH/temperature window and how it impacts palatability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Identify and explain the impact of stretching muscles pre-rigor on palatability",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain the impact of stretching muscles pre-rigor on palatability?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and explain the impact of stretching muscles pre-rigor on palatability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Describe process of ageing, its impact on tenderness, and methods for extending the storage life of fresh meat, including the application of packaging technologies",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe process of ageing, its impact on tenderness, and methods for extending the storage life of fresh meat, including the application of packaging technologies?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe process of ageing, its impact on tenderness, and methods for extending the storage life of fresh meat, including the application of packaging technologies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Describe impact of cooking on palatability of meat",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe impact of cooking on palatability of meat?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe impact of cooking on palatability of meat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify processing factors that impact eating quality"
+    },
+    {
+      "id": "E4",
+      "title": "Describe quality attributes of meat",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify factors that control changes in colour of fresh meat",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify factors that control changes in colour of fresh meat?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify factors that control changes in colour of fresh meat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Describe development of marbling fat and its impact on palatability",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe development of marbling fat and its impact on palatability?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe development of marbling fat and its impact on palatability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Explain impact of drip on both the appearance and palatability of meat",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain impact of drip on both the appearance and palatability of meat?",
+          "benchmark_statement": "The candidate demonstrates that they can Explain impact of drip on both the appearance and palatability of meat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Describe quality attributes of meat"
+    },
+    {
+      "id": "E5",
+      "title": "Identify and evaluate the MSA cuts-based grading scheme",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading?",
+          "benchmark_statement": "The candidate demonstrates that they can Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Describe principles behind the development of the MSA carcase pathways system, including tasting protocols",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe principles behind the development of the MSA carcase pathways system, including tasting protocols?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe principles behind the development of the MSA carcase pathways system, including tasting protocols.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Establish impact of various production, processing and value-adding inputs on the palatability of beef using the MSA model",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish impact of various production, processing and value-adding inputs on the palatability of beef using the MSA model?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish impact of various production, processing and value-adding inputs on the palatability of beef using the MSA model.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Evaluate potential benefits of a cuts-based grading system to various industry sectors",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate potential benefits of a cuts-based grading system to various industry sectors?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate potential benefits of a cuts-based grading system to various industry sectors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Analyse alternative grading schemes and their various attributes",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse alternative grading schemes and their various attributes?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse alternative grading schemes and their various attributes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Identify and evaluate the MSA cuts-based grading scheme"
+    },
+    {
+      "id": "E6",
+      "title": "Interpret and analyse data to predict probable impacts on meat eating quality",
+      "pcs": [
+        {
+          "id": "6.1",
+          "text": "Access meat processing data",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access meat processing data?",
+          "benchmark_statement": "The candidate demonstrates that they can Access meat processing data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.2",
+          "text": "Analyse data and predict probable impacts of production and processing on meat quality",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse data and predict probable impacts of production and processing on meat quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse data and predict probable impacts of production and processing on meat quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.3",
+          "text": "Identify potential solutions for eating quality problems",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential solutions for eating quality problems?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify potential solutions for eating quality problems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E6: Interpret and analyse data to predict probable impacts on meat eating quality"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and explain biological mechani",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef",
+      "knowledge_focus": [
+        "Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef"
+      ],
+      "workplace_context_examples": [
+        "Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and explain biological mechanisms (both pre- and post-slaughter) that affect meat quality in beef."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the pattern of tissue developm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors",
+      "knowledge_focus": [
+        "Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors"
+      ],
+      "workplace_context_examples": [
+        "Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the pattern of tissue development in the body and the pattern of deposition within the muscle and fat deposits, including the extent to which the composition of fat deposits can be manipulated by production factors."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify structure of skeletal muscles ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality?",
+      "practical_task_interpretation": "In practice this requires the worker to identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality",
+      "knowledge_focus": [
+        "Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality"
+      ],
+      "workplace_context_examples": [
+        "Apply knowledge of muscle structure and biochemistry to meat quality and the factors that affect it"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify structure of skeletal muscles in terms of the myofibre and connective tissue components and the effect these structures have on eating quality."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify production and pre-slaughter factors that affect meat quality",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify impacts of production factors on meat quality?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify impacts of production factors ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify impacts of production factors on meat quality",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify impacts of production factors on meat quality.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify impacts of production factors on meat quality?",
+      "practical_task_interpretation": "In practice this requires the worker to identify impacts of production factors on meat quality",
+      "knowledge_focus": [
+        "Identify impacts of production factors on meat quality"
+      ],
+      "workplace_context_examples": [
+        "Identify production and pre-slaughter factors that affect meat quality"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify impacts of production factors on meat quality"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify impacts of production factors on meat quality"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify impacts of production factors on meat quality."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify production and pre-slaughter factors that affect meat quality",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to describe pre-slaughter factors that affect meat quality? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe pre-slaughter factors that aff",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe pre-slaughter factors that affect meat quality",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Describe pre-slaughter factors that affect meat quality.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe pre-slaughter factors that affect meat quality?",
+      "practical_task_interpretation": "In practice this requires the worker to describe pre-slaughter factors that affect meat quality",
+      "knowledge_focus": [
+        "Describe pre-slaughter factors that affect meat quality"
+      ],
+      "workplace_context_examples": [
+        "Identify production and pre-slaughter factors that affect meat quality"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe pre-slaughter factors that affect meat quality"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe pre-slaughter factors that affect meat quality"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe pre-slaughter factors that affect meat quality."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Identify processing factors that impact eating quality",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to explain ph/temperature window and how it impacts palatability? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Explain pH/temperature window and how i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to explain ph/temperature window and how it impacts palatability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Explain pH/temperature window and how it impacts palatability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain pH/temperature window and how it impacts palatability?",
+      "practical_task_interpretation": "In practice this requires the worker to explain ph/temperature window and how it impacts palatability",
+      "knowledge_focus": [
+        "Explain pH/temperature window and how it impacts palatability"
+      ],
+      "workplace_context_examples": [
+        "Identify processing factors that impact eating quality"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of explain ph/temperature window and how it impacts palatability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of explain ph/temperature window and how it impacts palatability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Explain pH/temperature window and how it impacts palatability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Identify processing factors that impact eating quality",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What are the key hazards and required controls associated with describe role of electrical stimulation in controlling the rate of glycolysis in the carcase?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe role of electrical stimulation",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe role of electrical stimulation in controlling the rate of glycolysis in the carcase",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase?",
+      "practical_task_interpretation": "In practice this requires the worker to describe role of electrical stimulation in controlling the rate of glycolysis in the carcase",
+      "knowledge_focus": [
+        "Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase"
+      ],
+      "workplace_context_examples": [
+        "Identify processing factors that impact eating quality"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe role of electrical stimulation in controlling the rate of glycolysis in the carcase"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe role of electrical stimulation in controlling the rate of glycolysis in the carcase"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe role of electrical stimulation in controlling the rate of glycolysis in the carcase."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Identify processing factors that impact eating quality",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to identify and explain the impact of stretching muscles pre-rigor on palatability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and explain the impact of stre",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and explain the impact of stretching muscles pre-rigor on palatability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and explain the impact of stretching muscles pre-rigor on palatability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain the impact of stretching muscles pre-rigor on palatability?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and explain the impact of stretching muscles pre-rigor on palatability",
+      "knowledge_focus": [
+        "Identify and explain the impact of stretching muscles pre-rigor on palatability"
+      ],
+      "workplace_context_examples": [
+        "Identify processing factors that impact eating quality"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and explain the impact of stretching muscles pre-rigor on palatability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and explain the impact of stretching muscles pre-rigor on palatability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and explain the impact of stretching muscles pre-rigor on palatability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Describe quality attributes of meat",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify factors that control changes in colour of fresh meat?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify factors that control changes i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify factors that control changes in colour of fresh meat",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify factors that control changes in colour of fresh meat.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify factors that control changes in colour of fresh meat?",
+      "practical_task_interpretation": "In practice this requires the worker to identify factors that control changes in colour of fresh meat",
+      "knowledge_focus": [
+        "Identify factors that control changes in colour of fresh meat"
+      ],
+      "workplace_context_examples": [
+        "Describe quality attributes of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify factors that control changes in colour of fresh meat"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify factors that control changes in colour of fresh meat"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify factors that control changes in colour of fresh meat."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Describe quality attributes of meat",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to describe development of marbling fat and its impact on palatability? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe development of marbling fat an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe development of marbling fat and its impact on palatability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Describe development of marbling fat and its impact on palatability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe development of marbling fat and its impact on palatability?",
+      "practical_task_interpretation": "In practice this requires the worker to describe development of marbling fat and its impact on palatability",
+      "knowledge_focus": [
+        "Describe development of marbling fat and its impact on palatability"
+      ],
+      "workplace_context_examples": [
+        "Describe quality attributes of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe development of marbling fat and its impact on palatability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe development of marbling fat and its impact on palatability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe development of marbling fat and its impact on palatability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Describe quality attributes of meat",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What are the key hazards and required controls associated with explain impact of drip on both the appearance and palatability of meat?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Explain impact of drip on both the appe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to explain impact of drip on both the appearance and palatability of meat",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Explain impact of drip on both the appearance and palatability of meat.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain impact of drip on both the appearance and palatability of meat?",
+      "practical_task_interpretation": "In practice this requires the worker to explain impact of drip on both the appearance and palatability of meat",
+      "knowledge_focus": [
+        "Explain impact of drip on both the appearance and palatability of meat"
+      ],
+      "workplace_context_examples": [
+        "Describe quality attributes of meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of explain impact of drip on both the appearance and palatability of meat"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of explain impact of drip on both the appearance and palatability of meat"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Explain impact of drip on both the appearance and palatability of meat."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Identify and evaluate the MSA cuts-based grading scheme",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What are the key hazards and required controls associated with explain palatability analysis critical control points (paccp) approach to meat grading?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Explain Palatability Analysis Critical ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to explain palatability analysis critical control points (paccp) approach to meat grading",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading?",
+      "practical_task_interpretation": "In practice this requires the worker to explain palatability analysis critical control points (paccp) approach to meat grading",
+      "knowledge_focus": [
+        "Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading"
+      ],
+      "workplace_context_examples": [
+        "Identify and evaluate the MSA cuts-based grading scheme"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of explain palatability analysis critical control points (paccp) approach to meat grading"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of explain palatability analysis critical control points (paccp) approach to meat grading"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Explain Palatability Analysis Critical Control Points (PACCP) approach to meat grading."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.252747+00:00"
+}

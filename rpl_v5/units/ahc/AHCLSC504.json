@@ -1,0 +1,477 @@
+{
+  "code": "AHCLSC504",
+  "title": "Survey and establish site levels",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Survey and establish site levels demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Undertake site survey",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Test survey equipment calibration and maintain survey equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Test survey equipment calibration and maintain survey equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Test survey equipment calibration and maintain survey equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Determine survey items from existing plan or client brief and prepare sketch plan",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine survey items from existing plan or client brief and prepare sketch plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine survey items from existing plan or client brief and prepare sketch plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Survey items and relevant landscape features and take heights",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Survey items and relevant landscape features and take heights?",
+          "benchmark_statement": "The candidate demonstrates that they can Survey items and relevant landscape features and take heights.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Record and check measurements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and check measurements?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and check measurements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Undertake site survey"
+    },
+    {
+      "id": "E2",
+      "title": "Record site details",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Draw plan to scale",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Draw plan to scale?",
+          "benchmark_statement": "The candidate demonstrates that they can Draw plan to scale.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Orientate north point",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Orientate north point?",
+          "benchmark_statement": "The candidate demonstrates that they can Orientate north point.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Reduce levels and record on plan",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Reduce levels and record on plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Reduce levels and record on plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Analyse and record issues of levels on site plan",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse and record issues of levels on site plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse and record issues of levels on site plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Record site details"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Undertake site survey",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What steps are required to test survey equipment calibration and maintain survey equipment, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Test survey equipment calibration and m",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to test survey equipment calibration and maintain survey equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Test survey equipment calibration and maintain survey equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Test survey equipment calibration and maintain survey equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to test survey equipment calibration and maintain survey equipment",
+      "knowledge_focus": [
+        "Test survey equipment calibration and maintain survey equipment"
+      ],
+      "workplace_context_examples": [
+        "Undertake site survey"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of test survey equipment calibration and maintain survey equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of test survey equipment calibration and maintain survey equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Test survey equipment calibration and maintain survey equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Undertake site survey",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to determine survey items from existing plan or client brief and prepare sketch plan?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine survey items from existing pl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine survey items from existing plan or client brief and prepare sketch plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine survey items from existing plan or client brief and prepare sketch plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine survey items from existing plan or client brief and prepare sketch plan?",
+      "practical_task_interpretation": "In practice this requires the worker to determine survey items from existing plan or client brief and prepare sketch plan",
+      "knowledge_focus": [
+        "Determine survey items from existing plan or client brief and prepare sketch plan"
+      ],
+      "workplace_context_examples": [
+        "Undertake site survey"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine survey items from existing plan or client brief and prepare sketch plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine survey items from existing plan or client brief and prepare sketch plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine survey items from existing plan or client brief and prepare sketch plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Undertake site survey",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to survey items and relevant landscape features and take heights? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Survey items and relevant landscape fea",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to survey items and relevant landscape features and take heights",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Survey items and relevant landscape features and take heights.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Survey items and relevant landscape features and take heights?",
+      "practical_task_interpretation": "In practice this requires the worker to survey items and relevant landscape features and take heights",
+      "knowledge_focus": [
+        "Survey items and relevant landscape features and take heights"
+      ],
+      "workplace_context_examples": [
+        "Undertake site survey"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of survey items and relevant landscape features and take heights"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of survey items and relevant landscape features and take heights"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Survey items and relevant landscape features and take heights."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Record site details",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to draw plan to scale? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Draw plan to scale.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to draw plan to scale",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Draw plan to scale.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Draw plan to scale?",
+      "practical_task_interpretation": "In practice this requires the worker to draw plan to scale",
+      "knowledge_focus": [
+        "Draw plan to scale"
+      ],
+      "workplace_context_examples": [
+        "Record site details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of draw plan to scale"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of draw plan to scale"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Draw plan to scale."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Record site details",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to orientate north point? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Orientate north point.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to orientate north point",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Orientate north point.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Orientate north point?",
+      "practical_task_interpretation": "In practice this requires the worker to orientate north point",
+      "knowledge_focus": [
+        "Orientate north point"
+      ],
+      "workplace_context_examples": [
+        "Record site details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of orientate north point"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of orientate north point"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Orientate north point."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Record site details",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you reduce levels and record on plan, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Reduce levels and record on plan.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to reduce levels and record on plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Reduce levels and record on plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Reduce levels and record on plan?",
+      "practical_task_interpretation": "In practice this requires the worker to reduce levels and record on plan",
+      "knowledge_focus": [
+        "Reduce levels and record on plan"
+      ],
+      "workplace_context_examples": [
+        "Record site details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of reduce levels and record on plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of reduce levels and record on plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Reduce levels and record on plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.823753+00:00"
+}

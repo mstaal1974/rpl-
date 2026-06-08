@@ -1,0 +1,335 @@
+{
+  "code": "AUMATK013",
+  "title": "Monitor and maintain automotive equipment",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Monitor and maintain automotive equipment demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Monitor operation",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Monitor operation"
+    },
+    {
+      "id": "E2",
+      "title": "Perform minor maintenance",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Perform minor maintenance"
+    },
+    {
+      "id": "E3",
+      "title": "Apply preventative maintenance",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Apply preventative maintenance"
+    },
+    {
+      "id": "E4",
+      "title": "Complete monitoring and maintenance procedures",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete monitoring and maintenance procedures"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Monitor operation",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and monitor processes relevant",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions",
+      "knowledge_focus": [
+        "Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions"
+      ],
+      "workplace_context_examples": [
+        "Monitor operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and monitor processes relevant to the task according to manufacturer specifications, workplace instructions and procedures1.2 Monitor operation of tools, equipment and machinery to ensure they are performing according to job requirements and operator instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Perform minor maintenance",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and whs requirements2.2 identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform minor maintenance on tools, equ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and whs requirements2.2 identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and whs requirements2.2 identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform minor maintenance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and whs requirements2.2 identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and whs requirements2.2 identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform minor maintenance on tools, equipment and machinery according to manufacturer specifications, workplace procedures and WHS requirements2.2 Identify maintenance requirements outside the range of operator expertise or responsibility and report to appropriate personnel, in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Apply preventative maintenance",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check tools, equipment and machinery us",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures",
+      "knowledge_focus": [
+        "Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Apply preventative maintenance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check tools, equipment and machinery used in the manufacturing process according to workplace and manufacturer preventative maintenance procedures3.2 Report identified requirements of tools, equipment and machinery to appropriate personnel according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete monitoring and maintenance procedures",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 complete workplace documentation and equipment maintenance reports according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain and clean equipment, tools, ma",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 complete workplace documentation and equipment maintenance reports according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 complete workplace documentation and equipment maintenance reports according to workplace procedures",
+      "knowledge_focus": [
+        "Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete monitoring and maintenance procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 complete workplace documentation and equipment maintenance reports according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 complete workplace documentation and equipment maintenance reports according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain and clean equipment, tools, machinery and work areas according to workplace procedures4.2 Identify, tag and report faulty or damaged tools, equipment and machinery according to workplace procedures4.3 Complete workplace documentation and equipment maintenance reports according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.432916+00:00"
+}

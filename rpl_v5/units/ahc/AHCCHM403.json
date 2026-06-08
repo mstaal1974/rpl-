@@ -1,0 +1,399 @@
+{
+  "code": "AHCCHM403",
+  "title": "Prepare safe operating procedures for calibration of equipment",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare safe operating procedures for calibration of equipment demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify equipment requiring calibration procedures",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Assess the skill of operators in calibration in consultation with operators and supervisors",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the skill of operators in calibration in consultation with operators and supervisors?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess the skill of operators in calibration in consultation with operators and supervisors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify, source and interpret information required for calibration from equipment manufacture and operating instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, source and interpret information required for calibration from equipment manufacture and operating instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify, source and interpret information required for calibration from equipment manufacture and operating instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify equipment requiring calibration procedures"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare calibration procedure",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Document the procedures in a form appropriate to the intended use and according to workplace protocols",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document the procedures in a form appropriate to the intended use and according to workplace protocols?",
+          "benchmark_statement": "The candidate demonstrates that they can Document the procedures in a form appropriate to the intended use and according to workplace protocols.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Document health and safety in the workplace issues relevant to the activities in the procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document health and safety in the workplace issues relevant to the activities in the procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Document health and safety in the workplace issues relevant to the activities in the procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare calibration procedure"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify equipment requiring calibration procedures",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to assess the skill of operators in calibration in consultation with operators and supervisors?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess the skill of operators in calibr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess the skill of operators in calibration in consultation with operators and supervisors",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess the skill of operators in calibration in consultation with operators and supervisors.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the skill of operators in calibration in consultation with operators and supervisors?",
+      "practical_task_interpretation": "In practice this requires the worker to assess the skill of operators in calibration in consultation with operators and supervisors",
+      "knowledge_focus": [
+        "Assess the skill of operators in calibration in consultation with operators and supervisors"
+      ],
+      "workplace_context_examples": [
+        "Identify equipment requiring calibration procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess the skill of operators in calibration in consultation with operators and supervisors"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess the skill of operators in calibration in consultation with operators and supervisors"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess the skill of operators in calibration in consultation with operators and supervisors."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify equipment requiring calibration procedures",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify, source and interpret information required for calibration from equipment manufacture and operating instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify, source and interpret informat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify, source and interpret information required for calibration from equipment manufacture and operating instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify, source and interpret information required for calibration from equipment manufacture and operating instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, source and interpret information required for calibration from equipment manufacture and operating instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to identify, source and interpret information required for calibration from equipment manufacture and operating instructions",
+      "knowledge_focus": [
+        "Identify, source and interpret information required for calibration from equipment manufacture and operating instructions"
+      ],
+      "workplace_context_examples": [
+        "Identify equipment requiring calibration procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify, source and interpret information required for calibration from equipment manufacture and operating instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify, source and interpret information required for calibration from equipment manufacture and operating instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify, source and interpret information required for calibration from equipment manufacture and operating instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Prepare calibration procedure",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm information in calibration proc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice",
+      "knowledge_focus": [
+        "Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice"
+      ],
+      "workplace_context_examples": [
+        "Prepare calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm information in calibration procedure complies with relevant regulatory requirements, manufacturers' instructions and industry practice."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare calibration procedure",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out a risk assessment of the cali",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure",
+      "knowledge_focus": [
+        "Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure"
+      ],
+      "workplace_context_examples": [
+        "Prepare calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out a risk assessment of the calibration procedure and incorporate risk controls in the calibration procedure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare calibration procedure",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you document the procedures in a form appropriate to the intended use and according to workplace protocols, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Document the procedures in a form appro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to document the procedures in a form appropriate to the intended use and according to workplace protocols",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Document the procedures in a form appropriate to the intended use and according to workplace protocols.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document the procedures in a form appropriate to the intended use and according to workplace protocols?",
+      "practical_task_interpretation": "In practice this requires the worker to document the procedures in a form appropriate to the intended use and according to workplace protocols",
+      "knowledge_focus": [
+        "Document the procedures in a form appropriate to the intended use and according to workplace protocols"
+      ],
+      "workplace_context_examples": [
+        "Prepare calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of document the procedures in a form appropriate to the intended use and according to workplace protocols"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of document the procedures in a form appropriate to the intended use and according to workplace protocols"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Document the procedures in a form appropriate to the intended use and according to workplace protocols."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.564520+00:00"
+}

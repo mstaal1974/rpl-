@@ -1,0 +1,464 @@
+{
+  "code": "AHCPRK307",
+  "title": "Mate pigs naturally",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Mate pigs naturally demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for mating",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Follow workplace health and safety and biosecurity procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace health and safety and biosecurity procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace health and safety and biosecurity procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task?",
+          "benchmark_statement": "The candidate demonstrates that they can Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Ensure mating areas are secure and provide for access during joining",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure mating areas are secure and provide for access during joining?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure mating areas are secure and provide for access during joining.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for mating"
+    },
+    {
+      "id": "E2",
+      "title": "Facilitate mating",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices?",
+          "benchmark_statement": "The candidate demonstrates that they can Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Supervise mating and intervene when required to maximise conception rates",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supervise mating and intervene when required to maximise conception rates?",
+          "benchmark_statement": "The candidate demonstrates that they can Supervise mating and intervene when required to maximise conception rates.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Complete mating records according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete mating records according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete mating records according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Facilitate mating"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for mating",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Apply knowledge of relevant animal anat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures",
+      "knowledge_focus": [
+        "Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare for mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Apply knowledge of relevant animal anatomy and physiology to carry out oestrus inducement and detection procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for mating",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What are the key hazards and required controls associated with follow workplace health and safety and biosecurity procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow workplace health and safety and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow workplace health and safety and biosecurity procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Follow workplace health and safety and biosecurity procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace health and safety and biosecurity procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to follow workplace health and safety and biosecurity procedures",
+      "knowledge_focus": [
+        "Follow workplace health and safety and biosecurity procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare for mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow workplace health and safety and biosecurity procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow workplace health and safety and biosecurity procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow workplace health and safety and biosecurity procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for mating",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What are the key hazards and required controls associated with select, fit, use and maintain personal protective equipment (ppe), and select tools and other equipment applicable to task?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select, fit, use and maintain personal ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select, fit, use and maintain personal protective equipment (ppe), and select tools and other equipment applicable to task",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task?",
+      "practical_task_interpretation": "In practice this requires the worker to select, fit, use and maintain personal protective equipment (ppe), and select tools and other equipment applicable to task",
+      "knowledge_focus": [
+        "Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task"
+      ],
+      "workplace_context_examples": [
+        "Prepare for mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select, fit, use and maintain personal protective equipment (ppe), and select tools and other equipment applicable to task"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select, fit, use and maintain personal protective equipment (ppe), and select tools and other equipment applicable to task"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select, fit, use and maintain personal protective equipment (PPE), and select tools and other equipment applicable to task."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Facilitate mating",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use mating procedures and handling tech",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices?",
+      "practical_task_interpretation": "In practice this requires the worker to use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices",
+      "knowledge_focus": [
+        "Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices"
+      ],
+      "workplace_context_examples": [
+        "Facilitate mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use mating procedures and handling techniques that maximise welfare of pigs according to animal welfare practices."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Facilitate mating",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to supervise mating and intervene when required to maximise conception rates? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Supervise mating and intervene when req",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to supervise mating and intervene when required to maximise conception rates",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Supervise mating and intervene when required to maximise conception rates.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supervise mating and intervene when required to maximise conception rates?",
+      "practical_task_interpretation": "In practice this requires the worker to supervise mating and intervene when required to maximise conception rates",
+      "knowledge_focus": [
+        "Supervise mating and intervene when required to maximise conception rates"
+      ],
+      "workplace_context_examples": [
+        "Facilitate mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of supervise mating and intervene when required to maximise conception rates"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of supervise mating and intervene when required to maximise conception rates"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Supervise mating and intervene when required to maximise conception rates."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Facilitate mating",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you complete mating records according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete mating records according to wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete mating records according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Complete mating records according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete mating records according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to complete mating records according to workplace procedures",
+      "knowledge_focus": [
+        "Complete mating records according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Facilitate mating"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete mating records according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete mating records according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete mating records according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.348017+00:00"
+}

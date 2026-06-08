@@ -1,0 +1,490 @@
+{
+  "code": "MSL975064",
+  "title": "Perform chemical pathology tests",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform chemical pathology tests demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Process samples and associated request forms",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify specimens and request forms that do not comply with workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specimens and request forms that do not comply with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify specimens and request forms that do not comply with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Record any discrepancies or sample quality issues and indicate action required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record any discrepancies or sample quality issues and indicate action required?",
+          "benchmark_statement": "The candidate demonstrates that they can Record any discrepancies or sample quality issues and indicate action required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee?",
+          "benchmark_statement": "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Process samples and associated request forms"
+    },
+    {
+      "id": "E2",
+      "title": "Perform tests",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select authorised tests indicated for the requested investigations",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select authorised tests indicated for the requested investigations?",
+          "benchmark_statement": "The candidate demonstrates that they can Select authorised tests indicated for the requested investigations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Conduct tests in accordance with documented methodologies, applying required quality control procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct tests in accordance with documented methodologies, applying required quality control procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct tests in accordance with documented methodologies, applying required quality control procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Flag test results that are outside accepted quality control limits",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Flag test results that are outside accepted quality control limits?",
+          "benchmark_statement": "The candidate demonstrates that they can Flag test results that are outside accepted quality control limits.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Apply quality control processes to discriminate between significant data and artefact",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply quality control processes to discriminate between significant data and artefact?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply quality control processes to discriminate between significant data and artefact.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Record all test data and perform required calculations noting any phenomena that may be relevant to the treatment of data or the interpretation of results",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all test data and perform required calculations noting any phenomena that may be relevant to the treatment of data or the interpretation of results?",
+          "benchmark_statement": "The candidate demonstrates that they can Record all test data and perform required calculations noting any phenomena that may be relevant to the treatment of data or the interpretation of results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Follow procedures to ensure traceability of sample from receipt to reporting of results",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow procedures to ensure traceability of sample from receipt to reporting of results?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow procedures to ensure traceability of sample from receipt to reporting of results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Perform tests"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Process samples and associated request forms",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify specimens and request forms that do not comply with workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify specimens and request forms th",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify specimens and request forms that do not comply with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify specimens and request forms that do not comply with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specimens and request forms that do not comply with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify specimens and request forms that do not comply with workplace requirements",
+      "knowledge_focus": [
+        "Identify specimens and request forms that do not comply with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Process samples and associated request forms"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify specimens and request forms that do not comply with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify specimens and request forms that do not comply with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify specimens and request forms that do not comply with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Process samples and associated request forms",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What information must be recorded when you record any discrepancies or sample quality issues and indicate action required, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record any discrepancies or sample qual",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record any discrepancies or sample quality issues and indicate action required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record any discrepancies or sample quality issues and indicate action required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record any discrepancies or sample quality issues and indicate action required?",
+      "practical_task_interpretation": "In practice this requires the worker to record any discrepancies or sample quality issues and indicate action required",
+      "knowledge_focus": [
+        "Record any discrepancies or sample quality issues and indicate action required"
+      ],
+      "workplace_context_examples": [
+        "Process samples and associated request forms"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record any discrepancies or sample quality issues and indicate action required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record any discrepancies or sample quality issues and indicate action required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record any discrepancies or sample quality issues and indicate action required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Process samples and associated request forms",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What information must be recorded when you register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Register samples in accordance with wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee?",
+      "practical_task_interpretation": "In practice this requires the worker to register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+      "knowledge_focus": [
+        "Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+      ],
+      "workplace_context_examples": [
+        "Process samples and associated request forms"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Perform tests",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to select authorised tests indicated for the requested investigations?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select authorised tests indicated for t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select authorised tests indicated for the requested investigations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select authorised tests indicated for the requested investigations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select authorised tests indicated for the requested investigations?",
+      "practical_task_interpretation": "In practice this requires the worker to select authorised tests indicated for the requested investigations",
+      "knowledge_focus": [
+        "Select authorised tests indicated for the requested investigations"
+      ],
+      "workplace_context_examples": [
+        "Perform tests"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select authorised tests indicated for the requested investigations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select authorised tests indicated for the requested investigations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select authorised tests indicated for the requested investigations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Perform tests",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be recorded when you conduct tests in accordance with documented methodologies, applying required quality control procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct tests in accordance with docume",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct tests in accordance with documented methodologies, applying required quality control procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct tests in accordance with documented methodologies, applying required quality control procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct tests in accordance with documented methodologies, applying required quality control procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct tests in accordance with documented methodologies, applying required quality control procedures",
+      "knowledge_focus": [
+        "Conduct tests in accordance with documented methodologies, applying required quality control procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform tests"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct tests in accordance with documented methodologies, applying required quality control procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct tests in accordance with documented methodologies, applying required quality control procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct tests in accordance with documented methodologies, applying required quality control procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Perform tests",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What are the key hazards and required controls associated with flag test results that are outside accepted quality control limits?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Flag test results that are outside acce",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to flag test results that are outside accepted quality control limits",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Flag test results that are outside accepted quality control limits.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Flag test results that are outside accepted quality control limits?",
+      "practical_task_interpretation": "In practice this requires the worker to flag test results that are outside accepted quality control limits",
+      "knowledge_focus": [
+        "Flag test results that are outside accepted quality control limits"
+      ],
+      "workplace_context_examples": [
+        "Perform tests"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of flag test results that are outside accepted quality control limits"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of flag test results that are outside accepted quality control limits"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Flag test results that are outside accepted quality control limits."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.846939+00:00"
+}

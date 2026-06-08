@@ -1,0 +1,263 @@
+{
+  "code": "AURMTS001",
+  "title": "Construct hose and pipe assemblies for competition vehicles",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Construct hose and pipe assemblies for competition vehicles demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Construct hose and pipe assemblies",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Construct hose and pipe assemblies"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from competition information1.2 materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 tools and equipment are selected and checked for serviceability 1.4 hazards associated with the work are identified and risks are managed1.5 work area is cleaned and prepared according to job requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from competition information1.2 materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 tools and equipment are selected and checked for serviceability 1.4 hazards associated with the work are identified and risks are managed1.5 work area is cleaned and prepared according to job requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from competition information1.2 materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 tools and equipment are selected and checked for serviceability 1.4 hazards associated with the work are identified and risks are managed1.5 work area is cleaned and prepared according to job requirements",
+      "knowledge_focus": [
+        "Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from competition information1.2 materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 tools and equipment are selected and checked for serviceability 1.4 hazards associated with the work are identified and risks are managed1.5 work area is cleaned and prepared according to job requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from competition information1.2 materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 tools and equipment are selected and checked for serviceability 1.4 hazards associated with the work are identified and risks are managed1.5 work area is cleaned and prepared according to job requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from competition information1.2 Materials and consumables are selected and checked according to application and procedures to minimise waste material1.3 Tools and equipment are selected and checked for serviceability 1.4 Hazards associated with the work are identified and risks are managed1.5 Work area is cleaned and prepared according to job requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Construct hose and pipe assemblies",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with hose and pipe length is measured and material requirements are calculated2.2 hose and pipe are cut to length according to according to team procedures and safety requirements2.3 hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Hose and pipe length is measured and ma",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to hose and pipe length is measured and material requirements are calculated2.2 hose and pipe are cut to length according to according to team procedures and safety requirements2.3 hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to hose and pipe length is measured and material requirements are calculated2.2 hose and pipe are cut to length according to according to team procedures and safety requirements2.3 hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements",
+      "knowledge_focus": [
+        "Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Construct hose and pipe assemblies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of hose and pipe length is measured and material requirements are calculated2.2 hose and pipe are cut to length according to according to team procedures and safety requirements2.3 hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of hose and pipe length is measured and material requirements are calculated2.2 hose and pipe are cut to length according to according to team procedures and safety requirements2.3 hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Hose and pipe length is measured and material requirements are calculated2.2 Hose and pipe are cut to length according to according to team procedures and safety requirements2.3 Hose and pipe are bent to conform to fitting requirements according to team procedures and safety requirements2.4 Hose and pipe fittings are connected according to component supplier specifications and procedures and team requirements2.5 Hose and pipe assembly is cleaned and pressure-tested according to component supplier specifications, team procedures and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 tools and equipment are checked and stored according to workplace procedures3.4 surplus components and consumables are tagged and stored3.5 workplace documentation is processed according to team procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 tools and equipment are checked and stored according to workplace procedures3.4 surplus components and consumables are tagged and stored3.5 workplace documentation is processed according to team procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 tools and equipment are checked and stored according to workplace procedures3.4 surplus components and consumables are tagged and stored3.5 workplace documentation is processed according to team procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 tools and equipment are checked and stored according to workplace procedures3.4 surplus components and consumables are tagged and stored3.5 workplace documentation is processed according to team procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 tools and equipment are checked and stored according to workplace procedures3.4 surplus components and consumables are tagged and stored3.5 workplace documentation is processed according to team procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable material is disposed of and recyclable material is collected3.3 Tools and equipment are checked and stored according to workplace procedures3.4 Surplus components and consumables are tagged and stored3.5 Workplace documentation is processed according to team procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.998881+00:00"
+}

@@ -1,0 +1,768 @@
+{
+  "code": "MSL977011",
+  "title": "Troubleshoot equipment and/or production processes",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Troubleshoot equipment and/or production processes demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify abnormal equipment and/or process performance",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine whether testing equipment is operating to manufacturer specifications from available workplace information",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine whether testing equipment is operating to manufacturer specifications from available workplace information?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine whether testing equipment is operating to manufacturer specifications from available workplace information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Recognise whether equipment outputs are consistent with normal operation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise whether equipment outputs are consistent with normal operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise whether equipment outputs are consistent with normal operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify signs of equipment degradation and possible failure",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify signs of equipment degradation and possible failure?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify signs of equipment degradation and possible failure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Inspect equipment outputs to determine nature of the problem",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect equipment outputs to determine nature of the problem?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect equipment outputs to determine nature of the problem.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Define nature of substandard performance",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define nature of substandard performance?",
+          "benchmark_statement": "The candidate demonstrates that they can Define nature of substandard performance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify abnormal equipment and/or process performance"
+    },
+    {
+      "id": "E2",
+      "title": "Identify causes of substandard performance",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select appropriate technical process for investigation",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate technical process for investigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Select appropriate technical process for investigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify causes using fact-finding processes",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify causes using fact-finding processes?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify causes using fact-finding processes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Review maintenance records to ensure that system does not need simple maintenance",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review maintenance records to ensure that system does not need simple maintenance?",
+          "benchmark_statement": "The candidate demonstrates that they can Review maintenance records to ensure that system does not need simple maintenance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Review calibration records to ensure system is within calibration",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review calibration records to ensure system is within calibration?",
+          "benchmark_statement": "The candidate demonstrates that they can Review calibration records to ensure system is within calibration.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Confirm that the appropriate test procedure, materials and equipment were used",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that the appropriate test procedure, materials and equipment were used?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that the appropriate test procedure, materials and equipment were used.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Conduct performance tests as appropriate to investigation",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct performance tests as appropriate to investigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct performance tests as appropriate to investigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Analyse equipment and/or testing variables to develop list of possible causes",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse equipment and/or testing variables to develop list of possible causes?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse equipment and/or testing variables to develop list of possible causes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.8",
+          "text": "Isolate causes using appropriate elimination techniques",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Isolate causes using appropriate elimination techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Isolate causes using appropriate elimination techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify causes of substandard performance"
+    },
+    {
+      "id": "E3",
+      "title": "Recommend corrective action",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Propose and trial corrective action based on investigation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Propose and trial corrective action based on investigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Propose and trial corrective action based on investigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Monitor trial data to ensure outputs are consistent with normal operation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor trial data to ensure outputs are consistent with normal operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor trial data to ensure outputs are consistent with normal operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Review trial results to confirm validity of corrective action",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review trial results to confirm validity of corrective action?",
+          "benchmark_statement": "The candidate demonstrates that they can Review trial results to confirm validity of corrective action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Maintain records in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain records in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain records in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Submit report that summarises investigation and provides recommendations",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Submit report that summarises investigation and provides recommendations?",
+          "benchmark_statement": "The candidate demonstrates that they can Submit report that summarises investigation and provides recommendations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Recommend corrective action"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify abnormal equipment and/or process performance",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to determine whether testing equipment is operating to manufacturer specifications from available workplace information?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine whether testing equipment is ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine whether testing equipment is operating to manufacturer specifications from available workplace information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine whether testing equipment is operating to manufacturer specifications from available workplace information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine whether testing equipment is operating to manufacturer specifications from available workplace information?",
+      "practical_task_interpretation": "In practice this requires the worker to determine whether testing equipment is operating to manufacturer specifications from available workplace information",
+      "knowledge_focus": [
+        "Determine whether testing equipment is operating to manufacturer specifications from available workplace information"
+      ],
+      "workplace_context_examples": [
+        "Identify abnormal equipment and/or process performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine whether testing equipment is operating to manufacturer specifications from available workplace information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine whether testing equipment is operating to manufacturer specifications from available workplace information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine whether testing equipment is operating to manufacturer specifications from available workplace information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify abnormal equipment and/or process performance",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to recognise whether equipment outputs are consistent with normal operation? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise whether equipment outputs are",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise whether equipment outputs are consistent with normal operation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise whether equipment outputs are consistent with normal operation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise whether equipment outputs are consistent with normal operation?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise whether equipment outputs are consistent with normal operation",
+      "knowledge_focus": [
+        "Recognise whether equipment outputs are consistent with normal operation"
+      ],
+      "workplace_context_examples": [
+        "Identify abnormal equipment and/or process performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise whether equipment outputs are consistent with normal operation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise whether equipment outputs are consistent with normal operation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise whether equipment outputs are consistent with normal operation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify abnormal equipment and/or process performance",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify signs of equipment degradation and possible failure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify signs of equipment degradation",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify signs of equipment degradation and possible failure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify signs of equipment degradation and possible failure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify signs of equipment degradation and possible failure?",
+      "practical_task_interpretation": "In practice this requires the worker to identify signs of equipment degradation and possible failure",
+      "knowledge_focus": [
+        "Identify signs of equipment degradation and possible failure"
+      ],
+      "workplace_context_examples": [
+        "Identify abnormal equipment and/or process performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify signs of equipment degradation and possible failure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify signs of equipment degradation and possible failure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify signs of equipment degradation and possible failure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify causes of substandard performance",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to select appropriate technical process for investigation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select appropriate technical process fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select appropriate technical process for investigation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select appropriate technical process for investigation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate technical process for investigation?",
+      "practical_task_interpretation": "In practice this requires the worker to select appropriate technical process for investigation",
+      "knowledge_focus": [
+        "Select appropriate technical process for investigation"
+      ],
+      "workplace_context_examples": [
+        "Identify causes of substandard performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select appropriate technical process for investigation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select appropriate technical process for investigation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select appropriate technical process for investigation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify causes of substandard performance",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify causes using fact-finding processes?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify causes using fact-finding proc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify causes using fact-finding processes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify causes using fact-finding processes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify causes using fact-finding processes?",
+      "practical_task_interpretation": "In practice this requires the worker to identify causes using fact-finding processes",
+      "knowledge_focus": [
+        "Identify causes using fact-finding processes"
+      ],
+      "workplace_context_examples": [
+        "Identify causes of substandard performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify causes using fact-finding processes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify causes using fact-finding processes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify causes using fact-finding processes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Identify causes of substandard performance",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you review maintenance records to ensure that system does not need simple maintenance, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review maintenance records to ensure th",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review maintenance records to ensure that system does not need simple maintenance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Review maintenance records to ensure that system does not need simple maintenance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review maintenance records to ensure that system does not need simple maintenance?",
+      "practical_task_interpretation": "In practice this requires the worker to review maintenance records to ensure that system does not need simple maintenance",
+      "knowledge_focus": [
+        "Review maintenance records to ensure that system does not need simple maintenance"
+      ],
+      "workplace_context_examples": [
+        "Identify causes of substandard performance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review maintenance records to ensure that system does not need simple maintenance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review maintenance records to ensure that system does not need simple maintenance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review maintenance records to ensure that system does not need simple maintenance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Recommend corrective action",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to propose and trial corrective action based on investigation? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Propose and trial corrective action bas",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to propose and trial corrective action based on investigation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Propose and trial corrective action based on investigation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Propose and trial corrective action based on investigation?",
+      "practical_task_interpretation": "In practice this requires the worker to propose and trial corrective action based on investigation",
+      "knowledge_focus": [
+        "Propose and trial corrective action based on investigation"
+      ],
+      "workplace_context_examples": [
+        "Recommend corrective action"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of propose and trial corrective action based on investigation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of propose and trial corrective action based on investigation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Propose and trial corrective action based on investigation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Recommend corrective action",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What would indicate that monitor trial data to ensure outputs are consistent with normal operation is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor trial data to ensure outputs ar",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor trial data to ensure outputs are consistent with normal operation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor trial data to ensure outputs are consistent with normal operation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor trial data to ensure outputs are consistent with normal operation?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor trial data to ensure outputs are consistent with normal operation",
+      "knowledge_focus": [
+        "Monitor trial data to ensure outputs are consistent with normal operation"
+      ],
+      "workplace_context_examples": [
+        "Recommend corrective action"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor trial data to ensure outputs are consistent with normal operation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor trial data to ensure outputs are consistent with normal operation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor trial data to ensure outputs are consistent with normal operation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Recommend corrective action",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to review trial results to confirm validity of corrective action?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review trial results to confirm validit",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review trial results to confirm validity of corrective action",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Review trial results to confirm validity of corrective action.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review trial results to confirm validity of corrective action?",
+      "practical_task_interpretation": "In practice this requires the worker to review trial results to confirm validity of corrective action",
+      "knowledge_focus": [
+        "Review trial results to confirm validity of corrective action"
+      ],
+      "workplace_context_examples": [
+        "Recommend corrective action"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review trial results to confirm validity of corrective action"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review trial results to confirm validity of corrective action"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review trial results to confirm validity of corrective action."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.854994+00:00"
+}

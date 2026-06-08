@@ -1,0 +1,885 @@
+{
+  "code": "MSL924005",
+  "title": "Process and interpret data",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Process and interpret data demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Retrieve and check data",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Retrieve data using appropriate files and/or application software",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retrieve data using appropriate files and/or application software?",
+          "benchmark_statement": "The candidate demonstrates that they can Retrieve data using appropriate files and/or application software.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Verify the quality of data using workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify the quality of data using workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify the quality of data using workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Rectify errors in data using workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Rectify errors in data using workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Rectify errors in data using workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Retrieve and check data"
+    },
+    {
+      "id": "E2",
+      "title": "Calculate scientific quantities",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Calculate statistical values for given data",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate statistical values for given data?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate statistical values for given data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Calculate scientific quantities using given formulae and data",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate scientific quantities using given formulae and data?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate scientific quantities using given formulae and data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Ensure calculated quantities are consistent with estimations and expectations",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure calculated quantities are consistent with estimations and expectations?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations and expectations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Report all calculated quantities using the appropriate units and correct number of significant figures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report all calculated quantities using the appropriate units and correct number of significant figures?",
+          "benchmark_statement": "The candidate demonstrates that they can Report all calculated quantities using the appropriate units and correct number of significant figures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Calculate scientific quantities"
+    },
+    {
+      "id": "E3",
+      "title": "Present data",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Present data in clearly labelled tables, charts and graphs",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Present data in clearly labelled tables, charts and graphs?",
+          "benchmark_statement": "The candidate demonstrates that they can Present data in clearly labelled tables, charts and graphs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Graph data using appropriate scales to span the range of data or display trends",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Graph data using appropriate scales to span the range of data or display trends?",
+          "benchmark_statement": "The candidate demonstrates that they can Graph data using appropriate scales to span the range of data or display trends.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Report all data using the appropriate units and number of significant figures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report all data using the appropriate units and number of significant figures?",
+          "benchmark_statement": "The candidate demonstrates that they can Report all data using the appropriate units and number of significant figures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Present data"
+    },
+    {
+      "id": "E4",
+      "title": "Interpret data",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Correctly interpret significant features of tables, charts and graphs",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly interpret significant features of tables, charts and graphs?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly interpret significant features of tables, charts and graphs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Recognise and report significant points, anomalies and trends in data",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and report significant points, anomalies and trends in data?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise and report significant points, anomalies and trends in data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Interpret data"
+    },
+    {
+      "id": "E5",
+      "title": "Keep accurate records",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Transcribe information accurately",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transcribe information accurately?",
+          "benchmark_statement": "The candidate demonstrates that they can Transcribe information accurately.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Verify the accuracy of records, following workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify the accuracy of records, following workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify the accuracy of records, following workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Keep accurate records"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Retrieve and check data",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to retrieve data using appropriate files and/or application software? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Retrieve data using appropriate files a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to retrieve data using appropriate files and/or application software",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Retrieve data using appropriate files and/or application software.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retrieve data using appropriate files and/or application software?",
+      "practical_task_interpretation": "In practice this requires the worker to retrieve data using appropriate files and/or application software",
+      "knowledge_focus": [
+        "Retrieve data using appropriate files and/or application software"
+      ],
+      "workplace_context_examples": [
+        "Retrieve and check data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of retrieve data using appropriate files and/or application software"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of retrieve data using appropriate files and/or application software"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Retrieve data using appropriate files and/or application software."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Retrieve and check data",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to verify the quality of data using workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Verify the quality of data using workpl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to verify the quality of data using workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Verify the quality of data using workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify the quality of data using workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to verify the quality of data using workplace procedures",
+      "knowledge_focus": [
+        "Verify the quality of data using workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Retrieve and check data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of verify the quality of data using workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of verify the quality of data using workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Verify the quality of data using workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Retrieve and check data",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to rectify errors in data using workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Rectify errors in data using workplace ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to rectify errors in data using workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Rectify errors in data using workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Rectify errors in data using workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to rectify errors in data using workplace procedures",
+      "knowledge_focus": [
+        "Rectify errors in data using workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Retrieve and check data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of rectify errors in data using workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of rectify errors in data using workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Rectify errors in data using workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Calculate scientific quantities",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to calculate statistical values for given data? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate statistical values for given ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate statistical values for given data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate statistical values for given data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate statistical values for given data?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate statistical values for given data",
+      "knowledge_focus": [
+        "Calculate statistical values for given data"
+      ],
+      "workplace_context_examples": [
+        "Calculate scientific quantities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate statistical values for given data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate statistical values for given data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate statistical values for given data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Calculate scientific quantities",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to calculate scientific quantities using given formulae and data? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate scientific quantities using g",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate scientific quantities using given formulae and data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate scientific quantities using given formulae and data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate scientific quantities using given formulae and data?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate scientific quantities using given formulae and data",
+      "knowledge_focus": [
+        "Calculate scientific quantities using given formulae and data"
+      ],
+      "workplace_context_examples": [
+        "Calculate scientific quantities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate scientific quantities using given formulae and data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate scientific quantities using given formulae and data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate scientific quantities using given formulae and data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Calculate scientific quantities",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that ensure calculated quantities are consistent with estimations and expectations is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure calculated quantities are consis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure calculated quantities are consistent with estimations and expectations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations and expectations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure calculated quantities are consistent with estimations and expectations?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure calculated quantities are consistent with estimations and expectations",
+      "knowledge_focus": [
+        "Ensure calculated quantities are consistent with estimations and expectations"
+      ],
+      "workplace_context_examples": [
+        "Calculate scientific quantities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure calculated quantities are consistent with estimations and expectations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure calculated quantities are consistent with estimations and expectations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure calculated quantities are consistent with estimations and expectations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Present data",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to present data in clearly labelled tables, charts and graphs? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Present data in clearly labelled tables",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to present data in clearly labelled tables, charts and graphs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Present data in clearly labelled tables, charts and graphs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Present data in clearly labelled tables, charts and graphs?",
+      "practical_task_interpretation": "In practice this requires the worker to present data in clearly labelled tables, charts and graphs",
+      "knowledge_focus": [
+        "Present data in clearly labelled tables, charts and graphs"
+      ],
+      "workplace_context_examples": [
+        "Present data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of present data in clearly labelled tables, charts and graphs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of present data in clearly labelled tables, charts and graphs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Present data in clearly labelled tables, charts and graphs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Present data",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to graph data using appropriate scales to span the range of data or display trends? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Graph data using appropriate scales to ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to graph data using appropriate scales to span the range of data or display trends",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Graph data using appropriate scales to span the range of data or display trends.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Graph data using appropriate scales to span the range of data or display trends?",
+      "practical_task_interpretation": "In practice this requires the worker to graph data using appropriate scales to span the range of data or display trends",
+      "knowledge_focus": [
+        "Graph data using appropriate scales to span the range of data or display trends"
+      ],
+      "workplace_context_examples": [
+        "Present data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of graph data using appropriate scales to span the range of data or display trends"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of graph data using appropriate scales to span the range of data or display trends"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Graph data using appropriate scales to span the range of data or display trends."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Present data",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you report all data using the appropriate units and number of significant figures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report all data using the appropriate u",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report all data using the appropriate units and number of significant figures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Report all data using the appropriate units and number of significant figures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report all data using the appropriate units and number of significant figures?",
+      "practical_task_interpretation": "In practice this requires the worker to report all data using the appropriate units and number of significant figures",
+      "knowledge_focus": [
+        "Report all data using the appropriate units and number of significant figures"
+      ],
+      "workplace_context_examples": [
+        "Present data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report all data using the appropriate units and number of significant figures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report all data using the appropriate units and number of significant figures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report all data using the appropriate units and number of significant figures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Interpret data",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to correctly interpret significant features of tables, charts and graphs? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly interpret significant feature",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly interpret significant features of tables, charts and graphs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly interpret significant features of tables, charts and graphs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly interpret significant features of tables, charts and graphs?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly interpret significant features of tables, charts and graphs",
+      "knowledge_focus": [
+        "Correctly interpret significant features of tables, charts and graphs"
+      ],
+      "workplace_context_examples": [
+        "Interpret data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly interpret significant features of tables, charts and graphs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly interpret significant features of tables, charts and graphs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly interpret significant features of tables, charts and graphs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Interpret data",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you recognise and report significant points, anomalies and trends in data, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise and report significant points",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise and report significant points, anomalies and trends in data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise and report significant points, anomalies and trends in data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and report significant points, anomalies and trends in data?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise and report significant points, anomalies and trends in data",
+      "knowledge_focus": [
+        "Recognise and report significant points, anomalies and trends in data"
+      ],
+      "workplace_context_examples": [
+        "Interpret data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise and report significant points, anomalies and trends in data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise and report significant points, anomalies and trends in data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise and report significant points, anomalies and trends in data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Keep accurate records",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What information must be communicated when transcribe information accurately, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Transcribe information accurately.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to transcribe information accurately",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Transcribe information accurately.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transcribe information accurately?",
+      "practical_task_interpretation": "In practice this requires the worker to transcribe information accurately",
+      "knowledge_focus": [
+        "Transcribe information accurately"
+      ],
+      "workplace_context_examples": [
+        "Keep accurate records"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of transcribe information accurately"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of transcribe information accurately"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Transcribe information accurately."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.796600+00:00"
+}

@@ -1,0 +1,191 @@
+{
+  "code": "AMPS300",
+  "title": "Operate mixer or blender unit",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate mixer or blender unit demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Set up specialist cutting equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Set up specialist cutting equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Operate specialist cutting equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate specialist cutting equipment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Set up specialist cutting equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 take corrective action as necessary1.3 wash down and sanitise equipment according to hygiene and workplace requirements1.4 load ingredients according to product specifications and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check blades for sharpness and correct ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 take corrective action as necessary1.3 wash down and sanitise equipment according to hygiene and workplace requirements1.4 load ingredients according to product specifications and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 take corrective action as necessary1.3 wash down and sanitise equipment according to hygiene and workplace requirements1.4 load ingredients according to product specifications and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Set up specialist cutting equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 take corrective action as necessary1.3 wash down and sanitise equipment according to hygiene and workplace requirements1.4 load ingredients according to product specifications and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 take corrective action as necessary1.3 wash down and sanitise equipment according to hygiene and workplace requirements1.4 load ingredients according to product specifications and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check blades for sharpness and correct sequence in accordance with workplace, and workplace health and safety requirements1.2 Take corrective action as necessary1.3 Wash down and sanitise equipment according to hygiene and workplace requirements1.4 Load ingredients according to product specifications and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Operate specialist cutting equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to check ingredients to ensure conformity to product and customer specifications2.2 program equipment to product specification and workplace health and safety requirements2.3 load ingredients in a specified regime for the style of the product2.4 process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 judge timing of the process for correct texture according to product specifications2.7 control temperature to product specifications, and hygiene and sanitation requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check ingredients to ensure conformity ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check ingredients to ensure conformity to product and customer specifications2.2 program equipment to product specification and workplace health and safety requirements2.3 load ingredients in a specified regime for the style of the product2.4 process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 judge timing of the process for correct texture according to product specifications2.7 control temperature to product specifications, and hygiene and sanitation requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to check ingredients to ensure conformity to product and customer specifications2.2 program equipment to product specification and workplace health and safety requirements2.3 load ingredients in a specified regime for the style of the product2.4 process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 judge timing of the process for correct texture according to product specifications2.7 control temperature to product specifications, and hygiene and sanitation requirements",
+      "knowledge_focus": [
+        "Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements"
+      ],
+      "workplace_context_examples": [
+        "Operate specialist cutting equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check ingredients to ensure conformity to product and customer specifications2.2 program equipment to product specification and workplace health and safety requirements2.3 load ingredients in a specified regime for the style of the product2.4 process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 judge timing of the process for correct texture according to product specifications2.7 control temperature to product specifications, and hygiene and sanitation requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check ingredients to ensure conformity to product and customer specifications2.2 program equipment to product specification and workplace health and safety requirements2.3 load ingredients in a specified regime for the style of the product2.4 process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 judge timing of the process for correct texture according to product specifications2.7 control temperature to product specifications, and hygiene and sanitation requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check ingredients to ensure conformity to product and customer specifications2.2 Program equipment to product specification and workplace health and safety requirements2.3 Load ingredients in a specified regime for the style of the product2.4 Process product according to product and manufacturer's specifications, and workplace health and safety requirements2.5 Operate silent or bowl cutter to produce a variety of specified products to meat production requirements2.6 Judge timing of the process for correct texture according to product specifications2.7 Control temperature to product specifications, and hygiene and sanitation requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.352809+00:00"
+}

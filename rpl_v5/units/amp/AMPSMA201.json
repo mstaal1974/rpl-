@@ -1,0 +1,942 @@
+{
+  "code": "AMPSMA201",
+  "title": "Slice product using simple machinery",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Slice product using simple machinery demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for slicing",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select and fit personal protective equipment including cut proof glove and meat grip",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and fit personal protective equipment including cut proof glove and meat grip?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and fit personal protective equipment including cut proof glove and meat grip.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Confirm product to be sliced and required slicing specifications, quantity or weight",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm product to be sliced and required slicing specifications, quantity or weight?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm product to be sliced and required slicing specifications, quantity or weight.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Set up equipment and accessories according to product specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up equipment and accessories according to product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up equipment and accessories according to product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Clean equipment and machinery according to hygiene requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean equipment and machinery according to hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean equipment and machinery according to hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Conduct pre-start checks of equipment and rectify or report faults according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct pre-start checks of equipment and rectify or report faults according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct pre-start checks of equipment and rectify or report faults according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Prepare product for slicing and identify and action out-of-specification product",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare product for slicing and identify and action out-of-specification product?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare product for slicing and identify and action out-of-specification product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for slicing"
+    },
+    {
+      "id": "E2",
+      "title": "Operate slicing equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Adjust equipment and accessory settings for product change over as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust equipment and accessory settings for product change over as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Adjust equipment and accessory settings for product change over as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Sharpen or replace slicing blades as required, according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sharpen or replace slicing blades as required, according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Sharpen or replace slicing blades as required, according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify, rectify or report equipment malfunctions or faults according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, rectify or report equipment malfunctions or faults according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify, rectify or report equipment malfunctions or faults according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Clear obstructions from the slicer according to health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clear obstructions from the slicer according to health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clear obstructions from the slicer according to health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Identify and rectify product related problems according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and rectify product related problems according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and rectify product related problems according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Remove sliced product from equipment according to workplace health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove sliced product from equipment according to workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove sliced product from equipment according to workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate slicing equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Weigh and package products",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Confirm sliced product dimensions and quality according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm sliced product dimensions and quality according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm sliced product dimensions and quality according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Weigh, package and label products according to product hygiene, quality assurance and customer requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh, package and label products according to product hygiene, quality assurance and customer requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh, package and label products according to product hygiene, quality assurance and customer requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Weigh and package products"
+    },
+    {
+      "id": "E4",
+      "title": "Shut down slicing equipment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Shut down slicing equipment according to workplace and regulatory hygiene requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shut down slicing equipment according to workplace and regulatory hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Shut down slicing equipment according to workplace and regulatory hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Identify and report faults and maintenance requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and report faults and maintenance requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and report faults and maintenance requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Maintain workplace records in appropriate format",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain workplace records in appropriate format?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain workplace records in appropriate format.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Shut down slicing equipment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for slicing",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select and fit personal protective equipment including cut proof glove and meat grip?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and fit personal protective equi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and fit personal protective equipment including cut proof glove and meat grip",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select and fit personal protective equipment including cut proof glove and meat grip.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and fit personal protective equipment including cut proof glove and meat grip?",
+      "practical_task_interpretation": "In practice this requires the worker to select and fit personal protective equipment including cut proof glove and meat grip",
+      "knowledge_focus": [
+        "Select and fit personal protective equipment including cut proof glove and meat grip"
+      ],
+      "workplace_context_examples": [
+        "Prepare for slicing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and fit personal protective equipment including cut proof glove and meat grip"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and fit personal protective equipment including cut proof glove and meat grip"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and fit personal protective equipment including cut proof glove and meat grip."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for slicing",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to confirm product to be sliced and required slicing specifications, quantity or weight?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm product to be sliced and requir",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm product to be sliced and required slicing specifications, quantity or weight",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm product to be sliced and required slicing specifications, quantity or weight.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm product to be sliced and required slicing specifications, quantity or weight?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm product to be sliced and required slicing specifications, quantity or weight",
+      "knowledge_focus": [
+        "Confirm product to be sliced and required slicing specifications, quantity or weight"
+      ],
+      "workplace_context_examples": [
+        "Prepare for slicing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm product to be sliced and required slicing specifications, quantity or weight"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm product to be sliced and required slicing specifications, quantity or weight"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm product to be sliced and required slicing specifications, quantity or weight."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for slicing",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What steps are required to set up equipment and accessories according to product specifications, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up equipment and accessories accord",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up equipment and accessories according to product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Set up equipment and accessories according to product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up equipment and accessories according to product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to set up equipment and accessories according to product specifications",
+      "knowledge_focus": [
+        "Set up equipment and accessories according to product specifications"
+      ],
+      "workplace_context_examples": [
+        "Prepare for slicing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up equipment and accessories according to product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up equipment and accessories according to product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up equipment and accessories according to product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Operate slicing equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate equipment to maximise productio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment",
+      "knowledge_focus": [
+        "Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment"
+      ],
+      "workplace_context_examples": [
+        "Operate slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate equipment to maximise production of sliced products while maintaining user safety according to manufacturer specifications, without modifying equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Operate slicing equipment",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to adjust equipment and accessory settings for product change over as required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Adjust equipment and accessory settings",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to adjust equipment and accessory settings for product change over as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Adjust equipment and accessory settings for product change over as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust equipment and accessory settings for product change over as required?",
+      "practical_task_interpretation": "In practice this requires the worker to adjust equipment and accessory settings for product change over as required",
+      "knowledge_focus": [
+        "Adjust equipment and accessory settings for product change over as required"
+      ],
+      "workplace_context_examples": [
+        "Operate slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of adjust equipment and accessory settings for product change over as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of adjust equipment and accessory settings for product change over as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Adjust equipment and accessory settings for product change over as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Operate slicing equipment",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to sharpen or replace slicing blades as required, according to workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sharpen or replace slicing blades as re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sharpen or replace slicing blades as required, according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Sharpen or replace slicing blades as required, according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sharpen or replace slicing blades as required, according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to sharpen or replace slicing blades as required, according to workplace procedures",
+      "knowledge_focus": [
+        "Sharpen or replace slicing blades as required, according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Operate slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sharpen or replace slicing blades as required, according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sharpen or replace slicing blades as required, according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sharpen or replace slicing blades as required, according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Weigh and package products",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check and/or recalibrate weight measuri",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements",
+      "knowledge_focus": [
+        "Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Weigh and package products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check and/or recalibrate weight measuring equipment according to manufacturer and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Weigh and package products",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to confirm sliced product dimensions and quality according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm sliced product dimensions and q",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm sliced product dimensions and quality according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm sliced product dimensions and quality according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm sliced product dimensions and quality according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm sliced product dimensions and quality according to workplace procedures",
+      "knowledge_focus": [
+        "Confirm sliced product dimensions and quality according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Weigh and package products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm sliced product dimensions and quality according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm sliced product dimensions and quality according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm sliced product dimensions and quality according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Weigh and package products",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to weigh, package and label products according to product hygiene, quality assurance and customer requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh, package and label products accor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh, package and label products according to product hygiene, quality assurance and customer requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh, package and label products according to product hygiene, quality assurance and customer requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh, package and label products according to product hygiene, quality assurance and customer requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh, package and label products according to product hygiene, quality assurance and customer requirements",
+      "knowledge_focus": [
+        "Weigh, package and label products according to product hygiene, quality assurance and customer requirements"
+      ],
+      "workplace_context_examples": [
+        "Weigh and package products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh, package and label products according to product hygiene, quality assurance and customer requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh, package and label products according to product hygiene, quality assurance and customer requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh, package and label products according to product hygiene, quality assurance and customer requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Shut down slicing equipment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to shut down slicing equipment according to workplace and regulatory hygiene requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Shut down slicing equipment according t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to shut down slicing equipment according to workplace and regulatory hygiene requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Shut down slicing equipment according to workplace and regulatory hygiene requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shut down slicing equipment according to workplace and regulatory hygiene requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to shut down slicing equipment according to workplace and regulatory hygiene requirements",
+      "knowledge_focus": [
+        "Shut down slicing equipment according to workplace and regulatory hygiene requirements"
+      ],
+      "workplace_context_examples": [
+        "Shut down slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of shut down slicing equipment according to workplace and regulatory hygiene requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of shut down slicing equipment according to workplace and regulatory hygiene requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Shut down slicing equipment according to workplace and regulatory hygiene requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Shut down slicing equipment",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to identify and report faults and maintenance requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and report faults and maintena",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and report faults and maintenance requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and report faults and maintenance requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and report faults and maintenance requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and report faults and maintenance requirements",
+      "knowledge_focus": [
+        "Identify and report faults and maintenance requirements"
+      ],
+      "workplace_context_examples": [
+        "Shut down slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and report faults and maintenance requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and report faults and maintenance requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and report faults and maintenance requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Shut down slicing equipment",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you maintain workplace records in appropriate format, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain workplace records in appropria",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain workplace records in appropriate format",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain workplace records in appropriate format.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain workplace records in appropriate format?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain workplace records in appropriate format",
+      "knowledge_focus": [
+        "Maintain workplace records in appropriate format"
+      ],
+      "workplace_context_examples": [
+        "Shut down slicing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain workplace records in appropriate format"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain workplace records in appropriate format"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain workplace records in appropriate format."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.366918+00:00"
+}

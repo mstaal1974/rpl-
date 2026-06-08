@@ -1,0 +1,263 @@
+{
+  "code": "AURATA005",
+  "title": "Estimate and quote automotive mechanical and electrical repairs",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Estimate and quote automotive mechanical and electrical repairs demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Estimate repair or service costs",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote?",
+          "benchmark_statement": "The candidate demonstrates that they can Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Estimate repair or service costs"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare quotation",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised?",
+          "benchmark_statement": "The candidate demonstrates that they can Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare quotation"
+    },
+    {
+      "id": "E3",
+      "title": "Present quotation to customer",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Present quotation to customer"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Estimate repair or service costs",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to clarify service and repair requirements1.2 time requirements for job are estimated from a comparison of previous similar repairs1.3 costs associated with replacement parts are estimated1.4 parts and work needing to be subcontracted are identified and costs estimated1.5 estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clarify service and repair requirements",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clarify service and repair requirements1.2 time requirements for job are estimated from a comparison of previous similar repairs1.3 costs associated with replacement parts are estimated1.4 parts and work needing to be subcontracted are identified and costs estimated1.5 estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote?",
+      "practical_task_interpretation": "In practice this requires the worker to clarify service and repair requirements1.2 time requirements for job are estimated from a comparison of previous similar repairs1.3 costs associated with replacement parts are estimated1.4 parts and work needing to be subcontracted are identified and costs estimated1.5 estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote",
+      "knowledge_focus": [
+        "Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote"
+      ],
+      "workplace_context_examples": [
+        "Estimate repair or service costs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clarify service and repair requirements1.2 time requirements for job are estimated from a comparison of previous similar repairs1.3 costs associated with replacement parts are estimated1.4 parts and work needing to be subcontracted are identified and costs estimated1.5 estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clarify service and repair requirements1.2 time requirements for job are estimated from a comparison of previous similar repairs1.3 costs associated with replacement parts are estimated1.4 parts and work needing to be subcontracted are identified and costs estimated1.5 estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clarify service and repair requirements1.2 Time requirements for job are estimated from a comparison of previous similar repairs1.3 Costs associated with replacement parts are estimated1.4 Parts and work needing to be subcontracted are identified and costs estimated1.5 Estimate is calculated, feasibility of job is discussed with customer, and agreement is reached to proceed with quote."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare quotation",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you job labour cost is documented and agreed with workplace supervisor2.2 parts and consumables are costed according to workplace pricing procedures2.3 quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 quotation is reviewed by workplace supervisor and finalised, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job labour cost is documented and agree",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job labour cost is documented and agreed with workplace supervisor2.2 parts and consumables are costed according to workplace pricing procedures2.3 quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 quotation is reviewed by workplace supervisor and finalised",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised?",
+      "practical_task_interpretation": "In practice this requires the worker to job labour cost is documented and agreed with workplace supervisor2.2 parts and consumables are costed according to workplace pricing procedures2.3 quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 quotation is reviewed by workplace supervisor and finalised",
+      "knowledge_focus": [
+        "Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised"
+      ],
+      "workplace_context_examples": [
+        "Prepare quotation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job labour cost is documented and agreed with workplace supervisor2.2 parts and consumables are costed according to workplace pricing procedures2.3 quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 quotation is reviewed by workplace supervisor and finalised"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job labour cost is documented and agreed with workplace supervisor2.2 parts and consumables are costed according to workplace pricing procedures2.3 quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 quotation is reviewed by workplace supervisor and finalised"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job labour cost is documented and agreed with workplace supervisor2.2 Parts and consumables are costed according to workplace pricing procedures2.3 Quotation variations relating to unsighted damage are noted and prepared for customer acceptance2.4 Quotation is reviewed by workplace supervisor and finalised."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Present quotation to customer",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you detailed quotation is provided to customer for approval3.2 approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 workplace documentation is processed according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Detailed quotation is provided to custo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to detailed quotation is provided to customer for approval3.2 approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to detailed quotation is provided to customer for approval3.2 approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Present quotation to customer"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of detailed quotation is provided to customer for approval3.2 approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of detailed quotation is provided to customer for approval3.2 approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Detailed quotation is provided to customer for approval3.2 Approval from customer to commence work and undertake any supplementary quotation work is obtained as required3.3 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.665733+00:00"
+}

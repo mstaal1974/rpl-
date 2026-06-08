@@ -1,0 +1,263 @@
+{
+  "code": "AURVTN132",
+  "title": "Inspect vehicle damage and determine repair procedures",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Inspect vehicle damage and determine repair procedures demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to inspect vehicle damage",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to inspect vehicle damage"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect vehicle damage",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect vehicle damage"
+    },
+    {
+      "id": "E3",
+      "title": "Complete repair report",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete repair report"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to inspect vehicle damage",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions1.2 access and interpret vehicle specifications and repair procedures from original equipment manufacturer (oem) or authorised agency1.3 identify hazards associated with the work and manage risks1.4 locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 analyse inspection methods, and select required option for vehicle and job requirement1.6 source and prepare materials and equipment required to conduct inspection?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions1.2 access and interpret vehicle specifications and repair procedures from original equipment manufacturer (oem) or authorised agency1.3 identify hazards associated with the work and manage risks1.4 locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 analyse inspection methods, and select required option for vehicle and job requirement1.6 source and prepare materials and equipment required to conduct inspection",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions1.2 access and interpret vehicle specifications and repair procedures from original equipment manufacturer (oem) or authorised agency1.3 identify hazards associated with the work and manage risks1.4 locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 analyse inspection methods, and select required option for vehicle and job requirement1.6 source and prepare materials and equipment required to conduct inspection",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect vehicle damage"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions1.2 access and interpret vehicle specifications and repair procedures from original equipment manufacturer (oem) or authorised agency1.3 identify hazards associated with the work and manage risks1.4 locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 analyse inspection methods, and select required option for vehicle and job requirement1.6 source and prepare materials and equipment required to conduct inspection"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions1.2 access and interpret vehicle specifications and repair procedures from original equipment manufacturer (oem) or authorised agency1.3 identify hazards associated with the work and manage risks1.4 locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 analyse inspection methods, and select required option for vehicle and job requirement1.6 source and prepare materials and equipment required to conduct inspection"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret vehicle specifications and repair procedures from original equipment manufacturer (OEM) or authorised agency1.3 Identify hazards associated with the work and manage risks1.4 Locate, check and confirm vehicle to be inspected against vehicle information in workplace instructions1.5 Analyse inspection methods, and select required option for vehicle and job requirement1.6 Source and prepare materials and equipment required to conduct inspection."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect vehicle damage",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to inspect vehicle to determine location and extent of direct and indirect damage according to oem or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 take measurements and record inspection findings according to workplace procedures2.3 complete vehicle inspection without causing damage to vehicle or components?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect vehicle to determine location a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect vehicle to determine location and extent of direct and indirect damage according to oem or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 take measurements and record inspection findings according to workplace procedures2.3 complete vehicle inspection without causing damage to vehicle or components",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect vehicle to determine location and extent of direct and indirect damage according to oem or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 take measurements and record inspection findings according to workplace procedures2.3 complete vehicle inspection without causing damage to vehicle or components",
+      "knowledge_focus": [
+        "Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components"
+      ],
+      "workplace_context_examples": [
+        "Inspect vehicle damage"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect vehicle to determine location and extent of direct and indirect damage according to oem or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 take measurements and record inspection findings according to workplace procedures2.3 complete vehicle inspection without causing damage to vehicle or components"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect vehicle to determine location and extent of direct and indirect damage according to oem or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 take measurements and record inspection findings according to workplace procedures2.3 complete vehicle inspection without causing damage to vehicle or components"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect vehicle to determine location and extent of direct and indirect damage according to OEM or authorised agency\u2019s recommended procedures, workplace procedures and safety requirements2.2 Take measurements and record inspection findings according to workplace procedures2.3 Complete vehicle inspection without causing damage to vehicle or components."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete repair report",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 identify direct and indirect damage to vehicle clearly in report, based on workplace and oem or authorised agency\u2019s recommended repair procedures3.3 check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 provide responses to queries about the damage inspection and repair report when requested?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare vehicle inspection report and r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 identify direct and indirect damage to vehicle clearly in report, based on workplace and oem or authorised agency\u2019s recommended repair procedures3.3 check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 provide responses to queries about the damage inspection and repair report when requested",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 identify direct and indirect damage to vehicle clearly in report, based on workplace and oem or authorised agency\u2019s recommended repair procedures3.3 check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 provide responses to queries about the damage inspection and repair report when requested",
+      "knowledge_focus": [
+        "Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested"
+      ],
+      "workplace_context_examples": [
+        "Complete repair report"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 identify direct and indirect damage to vehicle clearly in report, based on workplace and oem or authorised agency\u2019s recommended repair procedures3.3 check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 provide responses to queries about the damage inspection and repair report when requested"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 identify direct and indirect damage to vehicle clearly in report, based on workplace and oem or authorised agency\u2019s recommended repair procedures3.3 check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 provide responses to queries about the damage inspection and repair report when requested"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare vehicle inspection report and repair plan and give to required personnel according to workplace procedures3.2 Identify direct and indirect damage to vehicle clearly in report, based on workplace and OEM or authorised agency\u2019s recommended repair procedures3.3 Check report for accuracy and completeness and finalise for submission to insurance company and/or customer according to workplace procedures3.4 Provide responses to queries about the damage inspection and repair report when requested."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.236534+00:00"
+}

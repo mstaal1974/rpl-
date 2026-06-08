@@ -1,0 +1,335 @@
+{
+  "code": "AURVTT121",
+  "title": "Select and apply adhesives in automotive and marine service and repair work",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Select and apply adhesives in automotive and marine service and repair work demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Select adhesive",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive?",
+          "benchmark_statement": "The candidate demonstrates that they can Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Select adhesive"
+    },
+    {
+      "id": "E3",
+      "title": "Apply adhesive to prepared surfaces",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Apply adhesive to prepared surfaces"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions1.2 access and interpret adhesive information1.3 identify hazards associated with the work and manage risks 1.4 select tools and equipment and check for serviceability1.5 prepare work area and plan work to minimise waste and use time efficiently?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions1.2 access and interpret adhesive information1.3 identify hazards associated with the work and manage risks 1.4 select tools and equipment and check for serviceability1.5 prepare work area and plan work to minimise waste and use time efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions1.2 access and interpret adhesive information1.3 identify hazards associated with the work and manage risks 1.4 select tools and equipment and check for serviceability1.5 prepare work area and plan work to minimise waste and use time efficiently",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions1.2 access and interpret adhesive information1.3 identify hazards associated with the work and manage risks 1.4 select tools and equipment and check for serviceability1.5 prepare work area and plan work to minimise waste and use time efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions1.2 access and interpret adhesive information1.3 identify hazards associated with the work and manage risks 1.4 select tools and equipment and check for serviceability1.5 prepare work area and plan work to minimise waste and use time efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Access and interpret adhesive information1.3 Identify hazards associated with the work and manage risks 1.4 Select tools and equipment and check for serviceability1.5 Prepare work area and plan work to minimise waste and use time efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Select adhesive",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 identify and follow specific safety data sheet (sds) information for selected adhesive?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select required adhesive for specific a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 identify and follow specific safety data sheet (sds) information for selected adhesive",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive?",
+      "practical_task_interpretation": "In practice this requires the worker to select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 identify and follow specific safety data sheet (sds) information for selected adhesive",
+      "knowledge_focus": [
+        "Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive"
+      ],
+      "workplace_context_examples": [
+        "Select adhesive"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 identify and follow specific safety data sheet (sds) information for selected adhesive"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 identify and follow specific safety data sheet (sds) information for selected adhesive"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select required adhesive for specific automotive materials according to manufacturer specifications and workplace procedures2.2 Identify and follow specific safety data sheet (SDS) information for selected adhesive."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Apply adhesive to prepared surfaces",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with clean and prepare surfaces according to adhesive manufacturer specifications3.2 apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and prepare surfaces according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and prepare surfaces according to adhesive manufacturer specifications3.2 apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and prepare surfaces according to adhesive manufacturer specifications3.2 apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components",
+      "knowledge_focus": [
+        "Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components"
+      ],
+      "workplace_context_examples": [
+        "Apply adhesive to prepared surfaces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and prepare surfaces according to adhesive manufacturer specifications3.2 apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and prepare surfaces according to adhesive manufacturer specifications3.2 apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and prepare surfaces according to adhesive manufacturer specifications3.2 Apply adhesives according to workplace procedures and safety and environmental requirements, and without causing damage to system or components."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you make final adhesive selection and present for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Make final adhesive selection and prese",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to make final adhesive selection and present for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to make final adhesive selection and present for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of make final adhesive selection and present for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of make final adhesive selection and present for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Make final adhesive selection and present for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.305413+00:00"
+}

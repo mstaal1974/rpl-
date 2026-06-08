@@ -1,0 +1,917 @@
+{
+  "code": "MSL975055",
+  "title": "Classify building sites",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Classify building sites demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to classify site",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe?",
+          "benchmark_statement": "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Review relevant building codes or regulations, standards and workplace procedures for classifying site",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review relevant building codes or regulations, standards and workplace procedures for classifying site?",
+          "benchmark_statement": "The candidate demonstrates that they can Review relevant building codes or regulations, standards and workplace procedures for classifying site.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Locate any previous site classifications conducted in same area",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate any previous site classifications conducted in same area?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate any previous site classifications conducted in same area.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Review supplied site drawings, topography, borehole locations and logs, photographs and design plans for planned structure",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review supplied site drawings, topography, borehole locations and logs, photographs and design plans for planned structure?",
+          "benchmark_statement": "The candidate demonstrates that they can Review supplied site drawings, topography, borehole locations and logs, photographs and design plans for planned structure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Inspect supplied samples and investigation data for completeness and obvious errors",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect supplied samples and investigation data for completeness and obvious errors?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect supplied samples and investigation data for completeness and obvious errors.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Confirm that investigation data meets depth requirements for the type of site and location",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that investigation data meets depth requirements for the type of site and location?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that investigation data meets depth requirements for the type of site and location.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Liaise with client when supplied documentation, samples, investigation data and/or job request do not comply with workplace procedures and resolve any problems",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with client when supplied documentation, samples, investigation data and/or job request do not comply with workplace procedures and resolve any problems?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise with client when supplied documentation, samples, investigation data and/or job request do not comply with workplace procedures and resolve any problems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to classify site"
+    },
+    {
+      "id": "E2",
+      "title": "Analyse site information and test results",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Determine bearing capacity of soil",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine bearing capacity of soil?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine bearing capacity of soil.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Review shrink/swell or correlated clay index test results to determine soil reactivity",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review shrink/swell or correlated clay index test results to determine soil reactivity?",
+          "benchmark_statement": "The candidate demonstrates that they can Review shrink/swell or correlated clay index test results to determine soil reactivity.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Review bore log data in conjunction with soil reactivity and calculate potential soil movement",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review bore log data in conjunction with soil reactivity and calculate potential soil movement?",
+          "benchmark_statement": "The candidate demonstrates that they can Review bore log data in conjunction with soil reactivity and calculate potential soil movement.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Recognise obvious errors, insufficient or inconsistent data and limitations of test results",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise obvious errors, insufficient or inconsistent data and limitations of test results?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise obvious errors, insufficient or inconsistent data and limitations of test results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Arrange for, or conduct, additional sampling and/or testing to ensure reliable data for site classification, as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange for, or conduct, additional sampling and/or testing to ensure reliable data for site classification, as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Arrange for, or conduct, additional sampling and/or testing to ensure reliable data for site classification, as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Analyse site information and test results"
+    },
+    {
+      "id": "E3",
+      "title": "Report site classification",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features?",
+          "benchmark_statement": "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Summarise field observations, calculations and test results used to determine site classification",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Summarise field observations, calculations and test results used to determine site classification?",
+          "benchmark_statement": "The candidate demonstrates that they can Summarise field observations, calculations and test results used to determine site classification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Accurately describe site features that will affect the design of the proposed structure",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately describe site features that will affect the design of the proposed structure?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately describe site features that will affect the design of the proposed structure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Provide adequate data to inform footing system design",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide adequate data to inform footing system design?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide adequate data to inform footing system design.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Authorise release of site classification report to the client, or forward the report to a signatory for review and release",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Authorise release of site classification report to the client, or forward the report to a signatory for review and release?",
+          "benchmark_statement": "The candidate demonstrates that they can Authorise release of site classification report to the client, or forward the report to a signatory for review and release.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Report site classification"
+    },
+    {
+      "id": "E4",
+      "title": "Finalise site classification",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Maintain confidentiality of client information",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain confidentiality of client information?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain confidentiality of client information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Finalise site classification"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to classify site",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review job request and any accompanying",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe?",
+      "practical_task_interpretation": "In practice this requires the worker to review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe",
+      "knowledge_focus": [
+        "Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of site classification, proposed structure, client\u2019s information needs and timeframe."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to classify site",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to review relevant building codes or regulations, standards and workplace procedures for classifying site?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review relevant building codes or regul",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review relevant building codes or regulations, standards and workplace procedures for classifying site",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Review relevant building codes or regulations, standards and workplace procedures for classifying site.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review relevant building codes or regulations, standards and workplace procedures for classifying site?",
+      "practical_task_interpretation": "In practice this requires the worker to review relevant building codes or regulations, standards and workplace procedures for classifying site",
+      "knowledge_focus": [
+        "Review relevant building codes or regulations, standards and workplace procedures for classifying site"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review relevant building codes or regulations, standards and workplace procedures for classifying site"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review relevant building codes or regulations, standards and workplace procedures for classifying site"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review relevant building codes or regulations, standards and workplace procedures for classifying site."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to classify site",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to locate any previous site classifications conducted in same area? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate any previous site classification",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate any previous site classifications conducted in same area",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Locate any previous site classifications conducted in same area.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate any previous site classifications conducted in same area?",
+      "practical_task_interpretation": "In practice this requires the worker to locate any previous site classifications conducted in same area",
+      "knowledge_focus": [
+        "Locate any previous site classifications conducted in same area"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate any previous site classifications conducted in same area"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate any previous site classifications conducted in same area"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate any previous site classifications conducted in same area."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Analyse site information and test results",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate and assess site features, such a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification?",
+      "practical_task_interpretation": "In practice this requires the worker to locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification",
+      "knowledge_focus": [
+        "Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification"
+      ],
+      "workplace_context_examples": [
+        "Analyse site information and test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate and assess site features, such as slope, structures, drainage, trees and vegetation or abnormal soil conditions that may affect site classification."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Analyse site information and test results",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine if fill is present on-site, w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent?",
+      "practical_task_interpretation": "In practice this requires the worker to determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent",
+      "knowledge_focus": [
+        "Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent"
+      ],
+      "workplace_context_examples": [
+        "Analyse site information and test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine if fill is present on-site, whether controlled or uncontrolled, and its depth and extent."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Analyse site information and test results",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to determine bearing capacity of soil?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine bearing capacity of soil.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine bearing capacity of soil",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine bearing capacity of soil.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine bearing capacity of soil?",
+      "practical_task_interpretation": "In practice this requires the worker to determine bearing capacity of soil",
+      "knowledge_focus": [
+        "Determine bearing capacity of soil"
+      ],
+      "workplace_context_examples": [
+        "Analyse site information and test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine bearing capacity of soil"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine bearing capacity of soil"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine bearing capacity of soil."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Report site classification",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use standard symbols and descriptors to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features?",
+      "practical_task_interpretation": "In practice this requires the worker to use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features",
+      "knowledge_focus": [
+        "Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features"
+      ],
+      "workplace_context_examples": [
+        "Report site classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid site classification that accurately reflects soil reactivity, surface movement and any problematic features."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Report site classification",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to summarise field observations, calculations and test results used to determine site classification?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Summarise field observations, calculati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to summarise field observations, calculations and test results used to determine site classification",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Summarise field observations, calculations and test results used to determine site classification.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Summarise field observations, calculations and test results used to determine site classification?",
+      "practical_task_interpretation": "In practice this requires the worker to summarise field observations, calculations and test results used to determine site classification",
+      "knowledge_focus": [
+        "Summarise field observations, calculations and test results used to determine site classification"
+      ],
+      "workplace_context_examples": [
+        "Report site classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of summarise field observations, calculations and test results used to determine site classification"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of summarise field observations, calculations and test results used to determine site classification"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Summarise field observations, calculations and test results used to determine site classification."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Report site classification",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to accurately describe site features that will affect the design of the proposed structure? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Accurately describe site features that ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to accurately describe site features that will affect the design of the proposed structure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Accurately describe site features that will affect the design of the proposed structure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately describe site features that will affect the design of the proposed structure?",
+      "practical_task_interpretation": "In practice this requires the worker to accurately describe site features that will affect the design of the proposed structure",
+      "knowledge_focus": [
+        "Accurately describe site features that will affect the design of the proposed structure"
+      ],
+      "workplace_context_examples": [
+        "Report site classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of accurately describe site features that will affect the design of the proposed structure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of accurately describe site features that will affect the design of the proposed structure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Accurately describe site features that will affect the design of the proposed structure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Finalise site classification",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store client\u2019s documentation, samples a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Finalise site classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store client\u2019s documentation, samples and test data, and site classification in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Finalise site classification",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What would indicate that maintain confidentiality of client information is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain confidentiality of client info",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain confidentiality of client information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain confidentiality of client information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain confidentiality of client information?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain confidentiality of client information",
+      "knowledge_focus": [
+        "Maintain confidentiality of client information"
+      ],
+      "workplace_context_examples": [
+        "Finalise site classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain confidentiality of client information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain confidentiality of client information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain confidentiality of client information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.840601+00:00"
+}

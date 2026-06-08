@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTS004",
+  "title": "Fabricate parts for vehicle sub-assemblies",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Fabricate parts for vehicle sub-assemblies demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Weld components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Weld components"
+    },
+    {
+      "id": "E3",
+      "title": "Assemble and finish sub-assemblies",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free?",
+          "benchmark_statement": "The candidate demonstrates that they can Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Assemble and finish sub-assemblies"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to work orders, job specifications and drawings are identified and confirmed1.2 tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 materials are inspected for quality, and defects identified and reported1.4 welding equipment is selected, inspected, tested and adjusted according to job requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work orders, job specifications and dra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work orders, job specifications and drawings are identified and confirmed1.2 tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 materials are inspected for quality, and defects identified and reported1.4 welding equipment is selected, inspected, tested and adjusted according to job requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to work orders, job specifications and drawings are identified and confirmed1.2 tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 materials are inspected for quality, and defects identified and reported1.4 welding equipment is selected, inspected, tested and adjusted according to job requirements",
+      "knowledge_focus": [
+        "Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work orders, job specifications and drawings are identified and confirmed1.2 tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 materials are inspected for quality, and defects identified and reported1.4 welding equipment is selected, inspected, tested and adjusted according to job requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work orders, job specifications and drawings are identified and confirmed1.2 tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 materials are inspected for quality, and defects identified and reported1.4 welding equipment is selected, inspected, tested and adjusted according to job requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work orders, job specifications and drawings are identified and confirmed1.2 Tools, equipment and materials are identified, selected and prepared according to work order and job specification1.3 Materials are inspected for quality, and defects identified and reported1.4 Welding equipment is selected, inspected, tested and adjusted according to job requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Weld components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to components are welded as identified in working drawings according to workplace procedures2.2 welds are completed to workplace quality standards and weld specifications2.3 welded parts are checked against job specifications2.4 weld faults are identified and rectified according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Components are welded as identified in ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to components are welded as identified in working drawings according to workplace procedures2.2 welds are completed to workplace quality standards and weld specifications2.3 welded parts are checked against job specifications2.4 weld faults are identified and rectified according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to components are welded as identified in working drawings according to workplace procedures2.2 welds are completed to workplace quality standards and weld specifications2.3 welded parts are checked against job specifications2.4 weld faults are identified and rectified according to workplace procedures",
+      "knowledge_focus": [
+        "Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Weld components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of components are welded as identified in working drawings according to workplace procedures2.2 welds are completed to workplace quality standards and weld specifications2.3 welded parts are checked against job specifications2.4 weld faults are identified and rectified according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of components are welded as identified in working drawings according to workplace procedures2.2 welds are completed to workplace quality standards and weld specifications2.3 welded parts are checked against job specifications2.4 weld faults are identified and rectified according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Components are welded as identified in working drawings according to workplace procedures2.2 Welds are completed to workplace quality standards and weld specifications2.3 Welded parts are checked against job specifications2.4 Weld faults are identified and rectified according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Assemble and finish sub-assemblies",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to sub-assemblies are completed and checked against job specification3.2 sub-assembly fasteners are tensioned to specifications3.3 seals, adhesives and sealants are applied to ensure joints are leak free?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sub-assemblies are completed and checke",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sub-assemblies are completed and checked against job specification3.2 sub-assembly fasteners are tensioned to specifications3.3 seals, adhesives and sealants are applied to ensure joints are leak free",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free?",
+      "practical_task_interpretation": "In practice this requires the worker to sub-assemblies are completed and checked against job specification3.2 sub-assembly fasteners are tensioned to specifications3.3 seals, adhesives and sealants are applied to ensure joints are leak free",
+      "knowledge_focus": [
+        "Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free"
+      ],
+      "workplace_context_examples": [
+        "Assemble and finish sub-assemblies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sub-assemblies are completed and checked against job specification3.2 sub-assembly fasteners are tensioned to specifications3.3 seals, adhesives and sealants are applied to ensure joints are leak free"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sub-assemblies are completed and checked against job specification3.2 sub-assembly fasteners are tensioned to specifications3.3 seals, adhesives and sealants are applied to ensure joints are leak free"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sub-assemblies are completed and checked against job specification3.2 Sub-assembly fasteners are tensioned to specifications3.3 Seals, adhesives and sealants are applied to ensure joints are leak free."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 waste material is collected and recycled or disposed of according to workplace procedures4.4 faulty equipment is identified, tagged and reported according to workplace procedures4.5 work job sheets are completed and reported to supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspections are made and faulty s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 waste material is collected and recycled or disposed of according to workplace procedures4.4 faulty equipment is identified, tagged and reported according to workplace procedures4.5 work job sheets are completed and reported to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 waste material is collected and recycled or disposed of according to workplace procedures4.4 faulty equipment is identified, tagged and reported according to workplace procedures4.5 work job sheets are completed and reported to supervisor",
+      "knowledge_focus": [
+        "Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 waste material is collected and recycled or disposed of according to workplace procedures4.4 faulty equipment is identified, tagged and reported according to workplace procedures4.5 work job sheets are completed and reported to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 waste material is collected and recycled or disposed of according to workplace procedures4.4 faulty equipment is identified, tagged and reported according to workplace procedures4.5 work job sheets are completed and reported to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspections are made and faulty sub-assemblies are reworked in line with workplace procedures4.2 Tools, equipment and work areas are cleaned, maintained, and inspected according to workplace procedures4.3 Waste material is collected and recycled or disposed of according to workplace procedures4.4 Faulty equipment is identified, tagged and reported according to workplace procedures4.5 Work job sheets are completed and reported to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.460677+00:00"
+}

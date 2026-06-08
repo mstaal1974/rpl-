@@ -1,0 +1,968 @@
+{
+  "code": "MSL914002",
+  "title": "Prepare practical science classes and demonstrations",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare practical science classes and demonstrations demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Ensure safe work practices",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities?",
+          "benchmark_statement": "The candidate demonstrates that they can Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Select and implement appropriate controls for identified risks and monitor their effectiveness",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and implement appropriate controls for identified risks and monitor their effectiveness?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and implement appropriate controls for identified risks and monitor their effectiveness.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Select, fit and use personal protective equipment (PPE) and ensure that it is used by students and teachers",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit and use personal protective equipment (PPE) and ensure that it is used by students and teachers?",
+          "benchmark_statement": "The candidate demonstrates that they can Select, fit and use personal protective equipment (PPE) and ensure that it is used by students and teachers.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Ensure materials and equipment are handled, prepared, stored and disposed of safely",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure materials and equipment are handled, prepared, stored and disposed of safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure materials and equipment are handled, prepared, stored and disposed of safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Address incidents and emergencies as they arise",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Address incidents and emergencies as they arise?",
+          "benchmark_statement": "The candidate demonstrates that they can Address incidents and emergencies as they arise.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Ensure safe work practices"
+    },
+    {
+      "id": "E2",
+      "title": "Plan work schedule",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills?",
+          "benchmark_statement": "The candidate demonstrates that they can Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Prioritise work activities and manage time to meet deadlines",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prioritise work activities and manage time to meet deadlines?",
+          "benchmark_statement": "The candidate demonstrates that they can Prioritise work activities and manage time to meet deadlines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Modify work plan to deal with contingencies as they arise",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Modify work plan to deal with contingencies as they arise?",
+          "benchmark_statement": "The candidate demonstrates that they can Modify work plan to deal with contingencies as they arise.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Plan work schedule"
+    },
+    {
+      "id": "E3",
+      "title": "Organise experiments and demonstrations",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Collect materials and equipment from appropriate sources",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect materials and equipment from appropriate sources?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect materials and equipment from appropriate sources.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Perform pre-use checks, prepare material and equipment and organise ready for use",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use checks, prepare material and equipment and organise ready for use?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-use checks, prepare material and equipment and organise ready for use.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Demonstrate practical skills, techniques and use of materials and equipment",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Demonstrate practical skills, techniques and use of materials and equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Demonstrate practical skills, techniques and use of materials and equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Organise clean-up operations and recycling or disposal of waste",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise clean-up operations and recycling or disposal of waste?",
+          "benchmark_statement": "The candidate demonstrates that they can Organise clean-up operations and recycling or disposal of waste.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Trial experiments and demonstrations and recommend variations or alternatives",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trial experiments and demonstrations and recommend variations or alternatives?",
+          "benchmark_statement": "The candidate demonstrates that they can Trial experiments and demonstrations and recommend variations or alternatives.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Organise experiments and demonstrations"
+    },
+    {
+      "id": "E4",
+      "title": "Manage resources",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Operate practical activities within approved budgets",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate practical activities within approved budgets?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate practical activities within approved budgets.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Maintain and control stocks of materials and equipment",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and control stocks of materials and equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain and control stocks of materials and equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Maintain storerooms, preparation areas and laboratories fit for purpose",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain storerooms, preparation areas and laboratories fit for purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain storerooms, preparation areas and laboratories fit for purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Evaluate and select materials and equipment and make recommendations for purchase",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate and select materials and equipment and make recommendations for purchase?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate and select materials and equipment and make recommendations for purchase.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Order, receive and store materials and equipment using workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Order, receive and store materials and equipment using workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Order, receive and store materials and equipment using workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Organise quotes and bookings for services",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise quotes and bookings for services?",
+          "benchmark_statement": "The candidate demonstrates that they can Organise quotes and bookings for services.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Manage resources"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Ensure safe work practices",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Organise and perform risk assessments t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities?",
+      "practical_task_interpretation": "In practice this requires the worker to organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities",
+      "knowledge_focus": [
+        "Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities"
+      ],
+      "workplace_context_examples": [
+        "Ensure safe work practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Organise and perform risk assessments to identify hazards and analyse risks associated with planned practical activities."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Ensure safe work practices",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What are the key hazards and required controls associated with select and implement appropriate controls for identified risks and monitor their effectiveness?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and implement appropriate contro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and implement appropriate controls for identified risks and monitor their effectiveness",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select and implement appropriate controls for identified risks and monitor their effectiveness.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and implement appropriate controls for identified risks and monitor their effectiveness?",
+      "practical_task_interpretation": "In practice this requires the worker to select and implement appropriate controls for identified risks and monitor their effectiveness",
+      "knowledge_focus": [
+        "Select and implement appropriate controls for identified risks and monitor their effectiveness"
+      ],
+      "workplace_context_examples": [
+        "Ensure safe work practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and implement appropriate controls for identified risks and monitor their effectiveness"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and implement appropriate controls for identified risks and monitor their effectiveness"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and implement appropriate controls for identified risks and monitor their effectiveness."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Ensure safe work practices",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What would indicate that ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure preparation and conduct of pract",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures",
+      "knowledge_focus": [
+        "Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Ensure safe work practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure preparation and conduct of practical activities are performed in accordance with relevant regulations, codes, guidelines and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Plan work schedule",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What would indicate that plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan schedule of classes and demonstrat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery?",
+      "practical_task_interpretation": "In practice this requires the worker to plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery",
+      "knowledge_focus": [
+        "Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery"
+      ],
+      "workplace_context_examples": [
+        "Plan work schedule"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan schedule of classes and demonstrations in consultation with teaching staff to ensure timely delivery."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Plan work schedule",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be communicated when communicate effectively with staff and students using appropriate negotiation and conflict resolution skills, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Communicate effectively with staff and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to communicate effectively with staff and students using appropriate negotiation and conflict resolution skills",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills?",
+      "practical_task_interpretation": "In practice this requires the worker to communicate effectively with staff and students using appropriate negotiation and conflict resolution skills",
+      "knowledge_focus": [
+        "Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills"
+      ],
+      "workplace_context_examples": [
+        "Plan work schedule"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of communicate effectively with staff and students using appropriate negotiation and conflict resolution skills"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of communicate effectively with staff and students using appropriate negotiation and conflict resolution skills"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Communicate effectively with staff and students using appropriate negotiation and conflict resolution skills."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Plan work schedule",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to prioritise work activities and manage time to meet deadlines? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prioritise work activities and manage t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prioritise work activities and manage time to meet deadlines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prioritise work activities and manage time to meet deadlines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prioritise work activities and manage time to meet deadlines?",
+      "practical_task_interpretation": "In practice this requires the worker to prioritise work activities and manage time to meet deadlines",
+      "knowledge_focus": [
+        "Prioritise work activities and manage time to meet deadlines"
+      ],
+      "workplace_context_examples": [
+        "Plan work schedule"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prioritise work activities and manage time to meet deadlines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prioritise work activities and manage time to meet deadlines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prioritise work activities and manage time to meet deadlines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Organise experiments and demonstrations",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What criteria determine how to collect materials and equipment from appropriate sources?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collect materials and equipment from ap",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collect materials and equipment from appropriate sources",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Collect materials and equipment from appropriate sources.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect materials and equipment from appropriate sources?",
+      "practical_task_interpretation": "In practice this requires the worker to collect materials and equipment from appropriate sources",
+      "knowledge_focus": [
+        "Collect materials and equipment from appropriate sources"
+      ],
+      "workplace_context_examples": [
+        "Organise experiments and demonstrations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collect materials and equipment from appropriate sources"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collect materials and equipment from appropriate sources"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collect materials and equipment from appropriate sources."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Organise experiments and demonstrations",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to perform pre-use checks, prepare material and equipment and organise ready for use?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-use checks, prepare materia",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-use checks, prepare material and equipment and organise ready for use",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-use checks, prepare material and equipment and organise ready for use.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use checks, prepare material and equipment and organise ready for use?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-use checks, prepare material and equipment and organise ready for use",
+      "knowledge_focus": [
+        "Perform pre-use checks, prepare material and equipment and organise ready for use"
+      ],
+      "workplace_context_examples": [
+        "Organise experiments and demonstrations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-use checks, prepare material and equipment and organise ready for use"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-use checks, prepare material and equipment and organise ready for use"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-use checks, prepare material and equipment and organise ready for use."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Organise experiments and demonstrations",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to demonstrate practical skills, techniques and use of materials and equipment? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Demonstrate practical skills, technique",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to demonstrate practical skills, techniques and use of materials and equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Demonstrate practical skills, techniques and use of materials and equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Demonstrate practical skills, techniques and use of materials and equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to demonstrate practical skills, techniques and use of materials and equipment",
+      "knowledge_focus": [
+        "Demonstrate practical skills, techniques and use of materials and equipment"
+      ],
+      "workplace_context_examples": [
+        "Organise experiments and demonstrations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of demonstrate practical skills, techniques and use of materials and equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of demonstrate practical skills, techniques and use of materials and equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Demonstrate practical skills, techniques and use of materials and equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Manage resources",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to operate practical activities within approved budgets? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate practical activities within app",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate practical activities within approved budgets",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate practical activities within approved budgets.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate practical activities within approved budgets?",
+      "practical_task_interpretation": "In practice this requires the worker to operate practical activities within approved budgets",
+      "knowledge_focus": [
+        "Operate practical activities within approved budgets"
+      ],
+      "workplace_context_examples": [
+        "Manage resources"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate practical activities within approved budgets"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate practical activities within approved budgets"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate practical activities within approved budgets."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Manage resources",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What are the key hazards and required controls associated with maintain and control stocks of materials and equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain and control stocks of material",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain and control stocks of materials and equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain and control stocks of materials and equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and control stocks of materials and equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain and control stocks of materials and equipment",
+      "knowledge_focus": [
+        "Maintain and control stocks of materials and equipment"
+      ],
+      "workplace_context_examples": [
+        "Manage resources"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain and control stocks of materials and equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain and control stocks of materials and equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain and control stocks of materials and equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Manage resources",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that maintain storerooms, preparation areas and laboratories fit for purpose is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain storerooms, preparation areas ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain storerooms, preparation areas and laboratories fit for purpose",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain storerooms, preparation areas and laboratories fit for purpose.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain storerooms, preparation areas and laboratories fit for purpose?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain storerooms, preparation areas and laboratories fit for purpose",
+      "knowledge_focus": [
+        "Maintain storerooms, preparation areas and laboratories fit for purpose"
+      ],
+      "workplace_context_examples": [
+        "Manage resources"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain storerooms, preparation areas and laboratories fit for purpose"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain storerooms, preparation areas and laboratories fit for purpose"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain storerooms, preparation areas and laboratories fit for purpose."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.791063+00:00"
+}

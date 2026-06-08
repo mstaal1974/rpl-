@@ -1,0 +1,335 @@
+{
+  "code": "AURVTN120",
+  "title": "Remove and replace major welded panels on vehicles",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove and replace major welded panels on vehicles demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to replace major welded panels",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to replace major welded panels"
+    },
+    {
+      "id": "E2",
+      "title": "Remove welded panels",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove welded panels"
+    },
+    {
+      "id": "E3",
+      "title": "Replace and align welded panels",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition?",
+          "benchmark_statement": "The candidate demonstrates that they can Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Replace and align welded panels"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to replace major welded panels",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions1.2 source vehicle specifications and original equipment manufacturer (oem) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 identify hazards associated with the work and manage risks1.4 select and check tools and equipment for serviceability1.5 plan work to identify methods, minimise waste, and use time efficiently?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions1.2 source vehicle specifications and original equipment manufacturer (oem) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 identify hazards associated with the work and manage risks1.4 select and check tools and equipment for serviceability1.5 plan work to identify methods, minimise waste, and use time efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions1.2 source vehicle specifications and original equipment manufacturer (oem) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 identify hazards associated with the work and manage risks1.4 select and check tools and equipment for serviceability1.5 plan work to identify methods, minimise waste, and use time efficiently",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently"
+      ],
+      "workplace_context_examples": [
+        "Prepare to replace major welded panels"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions1.2 source vehicle specifications and original equipment manufacturer (oem) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 identify hazards associated with the work and manage risks1.4 select and check tools and equipment for serviceability1.5 plan work to identify methods, minimise waste, and use time efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions1.2 source vehicle specifications and original equipment manufacturer (oem) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 identify hazards associated with the work and manage risks1.4 select and check tools and equipment for serviceability1.5 plan work to identify methods, minimise waste, and use time efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Source vehicle specifications and original equipment manufacturer (OEM) or authorised agency\u2019s recommended repair procedures and check against workplace instructions1.3 Identify hazards associated with the work and manage risks1.4 Select and check tools and equipment for serviceability1.5 Plan work to identify methods, minimise waste, and use time efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Remove welded panels",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with remove major welded panels and sections according to oem or authorised agency\u2019s approved methods and safety and environmental requirements2.2 drill out spot welds using recommended drill bit and drill diameters2.3 seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove major welded panels and sections",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove major welded panels and sections according to oem or authorised agency\u2019s approved methods and safety and environmental requirements2.2 drill out spot welds using recommended drill bit and drill diameters2.3 seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems?",
+      "practical_task_interpretation": "In practice this requires the worker to remove major welded panels and sections according to oem or authorised agency\u2019s approved methods and safety and environmental requirements2.2 drill out spot welds using recommended drill bit and drill diameters2.3 seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems",
+      "knowledge_focus": [
+        "Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems"
+      ],
+      "workplace_context_examples": [
+        "Remove welded panels"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove major welded panels and sections according to oem or authorised agency\u2019s approved methods and safety and environmental requirements2.2 drill out spot welds using recommended drill bit and drill diameters2.3 seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove major welded panels and sections according to oem or authorised agency\u2019s approved methods and safety and environmental requirements2.2 drill out spot welds using recommended drill bit and drill diameters2.3 seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove major welded panels and sections according to OEM or authorised agency\u2019s approved methods and safety and environmental requirements2.2 Drill out spot welds using recommended drill bit and drill diameters2.3 Seek assistance from authorised personnel where removal of welded panels and sections disturbs vehicle trim or electrical, mechanical or air conditioning systems."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Replace and align welded panels",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to replace, align and weld panel sections using approved oem or authorised agency\u2019s methods and procedures3.2 carry out replacement, alignment and welding of panel section to pre-paint condition? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Replace, align and weld panel sections ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to replace, align and weld panel sections using approved oem or authorised agency\u2019s methods and procedures3.2 carry out replacement, alignment and welding of panel section to pre-paint condition",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition?",
+      "practical_task_interpretation": "In practice this requires the worker to replace, align and weld panel sections using approved oem or authorised agency\u2019s methods and procedures3.2 carry out replacement, alignment and welding of panel section to pre-paint condition",
+      "knowledge_focus": [
+        "Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition"
+      ],
+      "workplace_context_examples": [
+        "Replace and align welded panels"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of replace, align and weld panel sections using approved oem or authorised agency\u2019s methods and procedures3.2 carry out replacement, alignment and welding of panel section to pre-paint condition"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of replace, align and weld panel sections using approved oem or authorised agency\u2019s methods and procedures3.2 carry out replacement, alignment and welding of panel section to pre-paint condition"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Replace, align and weld panel sections using approved OEM or authorised agency\u2019s methods and procedures3.2 Carry out replacement, alignment and welding of panel section to pre-paint condition."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.232219+00:00"
+}

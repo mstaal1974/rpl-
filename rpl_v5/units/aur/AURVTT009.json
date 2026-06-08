@@ -1,0 +1,263 @@
+{
+  "code": "AURVTT009",
+  "title": "Remove and replace vehicle and vessel seats and fittings",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove and replace vehicle and vessel seats and fittings demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to remove and replace seats and fittings",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to remove and replace seats and fittings"
+    },
+    {
+      "id": "E2",
+      "title": "Remove and replace seats and fittings",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned?",
+          "benchmark_statement": "The candidate demonstrates that they can Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove and replace seats and fittings"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to remove and replace seats and fittings",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from workplace instructions1.2 removal and replacement information is sourced and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 hand tools and equipment and personal protective equipment (ppe) are selected and checked for serviceability1.5 work area and storage racks are prepared according to workplace procedures1.6 work is planned to minimise waste and use time efficiently?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from workplace instructions1.2 removal and replacement information is sourced and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 hand tools and equipment and personal protective equipment (ppe) are selected and checked for serviceability1.5 work area and storage racks are prepared according to workplace procedures1.6 work is planned to minimise waste and use time efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from workplace instructions1.2 removal and replacement information is sourced and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 hand tools and equipment and personal protective equipment (ppe) are selected and checked for serviceability1.5 work area and storage racks are prepared according to workplace procedures1.6 work is planned to minimise waste and use time efficiently",
+      "knowledge_focus": [
+        "Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently"
+      ],
+      "workplace_context_examples": [
+        "Prepare to remove and replace seats and fittings"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from workplace instructions1.2 removal and replacement information is sourced and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 hand tools and equipment and personal protective equipment (ppe) are selected and checked for serviceability1.5 work area and storage racks are prepared according to workplace procedures1.6 work is planned to minimise waste and use time efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from workplace instructions1.2 removal and replacement information is sourced and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 hand tools and equipment and personal protective equipment (ppe) are selected and checked for serviceability1.5 work area and storage racks are prepared according to workplace procedures1.6 work is planned to minimise waste and use time efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Removal and replacement information is sourced and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Hand tools and equipment and personal protective equipment (PPE) are selected and checked for serviceability1.5 Work area and storage racks are prepared according to workplace procedures1.6 Work is planned to minimise waste and use time efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Remove and replace seats and fittings",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 seats and fittings are stored safely until needed for replacement2.3 seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seats and fittings are removed using ma",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 seats and fittings are stored safely until needed for replacement2.3 seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned?",
+      "practical_task_interpretation": "In practice this requires the worker to seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 seats and fittings are stored safely until needed for replacement2.3 seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned",
+      "knowledge_focus": [
+        "Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned"
+      ],
+      "workplace_context_examples": [
+        "Remove and replace seats and fittings"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 seats and fittings are stored safely until needed for replacement2.3 seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 seats and fittings are stored safely until needed for replacement2.3 seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seats and fittings are removed using manufacturer-approved methods, tools and equipment, according to safety and environmental requirements, and without causing damage to vehicle or components2.2 Seats and fittings are stored safely until needed for replacement2.3 Seats and fittings are replaced according to manufacturer replacement instructions and without causing damage to vehicle, ensuring all bolts and fasteners are used and tensioned."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 authorised personnel are informed of work outcome according to workplace procedures3.3 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 authorised personnel are informed of work outcome according to workplace procedures3.3 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 authorised personnel are informed of work outcome according to workplace procedures3.3 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 authorised personnel are informed of work outcome according to workplace procedures3.3 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 authorised personnel are informed of work outcome according to workplace procedures3.3 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use3.2 Authorised personnel are informed of work outcome according to workplace procedures3.3 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.4 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.5 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.298732+00:00"
+}

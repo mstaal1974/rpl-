@@ -1,0 +1,703 @@
+{
+  "code": "AHCCHM101",
+  "title": "Follow basic chemical safety rules",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Follow basic chemical safety rules demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to work with chemicals",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Confirm the activity to be undertaken with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm the activity to be undertaken with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm the activity to be undertaken with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Confirm tools and equipment to be used with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm tools and equipment to be used with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm tools and equipment to be used with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify functions of chemicals in the workplace",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify functions of chemicals in the workplace?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify functions of chemicals in the workplace.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to work with chemicals"
+    },
+    {
+      "id": "E2",
+      "title": "Identify risks associated with chemicals",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify health and safety hazards and risks in the workplace and report to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and risks in the workplace and report to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and risks in the workplace and report to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Control risks as directed",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Control risks as directed?",
+          "benchmark_statement": "The candidate demonstrates that they can Control risks as directed.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify risks associated with chemicals"
+    },
+    {
+      "id": "E3",
+      "title": "Follow chemical handling and storage rules",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify and locate chemical store",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and locate chemical store?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and locate chemical store.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Observe instructions for maintenance and storage of PPE and application equipment",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Observe instructions for maintenance and storage of PPE and application equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Observe instructions for maintenance and storage of PPE and application equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Follow safety rules when working in areas where chemicals are stored",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow safety rules when working in areas where chemicals are stored?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow safety rules when working in areas where chemicals are stored.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Identify emergency procedures to follow in the event of an accident or spillage",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify emergency procedures to follow in the event of an accident or spillage?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify emergency procedures to follow in the event of an accident or spillage.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Record information as directed by supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record information as directed by supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Record information as directed by supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Follow chemical handling and storage rules"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to work with chemicals",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to confirm the activity to be undertaken with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm the activity to be undertaken w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm the activity to be undertaken with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm the activity to be undertaken with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm the activity to be undertaken with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm the activity to be undertaken with supervisor",
+      "knowledge_focus": [
+        "Confirm the activity to be undertaken with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare to work with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm the activity to be undertaken with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm the activity to be undertaken with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm the activity to be undertaken with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to work with chemicals",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to confirm tools and equipment to be used with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm tools and equipment to be used ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm tools and equipment to be used with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm tools and equipment to be used with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm tools and equipment to be used with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm tools and equipment to be used with supervisor",
+      "knowledge_focus": [
+        "Confirm tools and equipment to be used with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare to work with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm tools and equipment to be used with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm tools and equipment to be used with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm tools and equipment to be used with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to work with chemicals",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What are the key hazards and required controls associated with use appropriate personal protective equipment (ppe) and ensure correct fit as directed by supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use appropriate personal protective equ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use appropriate personal protective equipment (ppe) and ensure correct fit as directed by supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to use appropriate personal protective equipment (ppe) and ensure correct fit as directed by supervisor",
+      "knowledge_focus": [
+        "Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare to work with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use appropriate personal protective equipment (ppe) and ensure correct fit as directed by supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use appropriate personal protective equipment (ppe) and ensure correct fit as directed by supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use appropriate personal protective equipment (PPE) and ensure correct fit as directed by supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify risks associated with chemicals",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and interpret chemical labels,",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions",
+      "knowledge_focus": [
+        "Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions"
+      ],
+      "workplace_context_examples": [
+        "Identify risks associated with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and interpret chemical labels, safety signs, symbols and safety data sheets according to supervisors' instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify risks associated with chemicals",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify health and safety hazards and risks in the workplace and report to supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify health and safety hazards and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify health and safety hazards and risks in the workplace and report to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and risks in the workplace and report to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and risks in the workplace and report to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify health and safety hazards and risks in the workplace and report to supervisor",
+      "knowledge_focus": [
+        "Identify health and safety hazards and risks in the workplace and report to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Identify risks associated with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify health and safety hazards and risks in the workplace and report to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify health and safety hazards and risks in the workplace and report to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify health and safety hazards and risks in the workplace and report to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Identify risks associated with chemicals",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What are the key hazards and required controls associated with control risks as directed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Control risks as directed.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to control risks as directed",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Control risks as directed.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Control risks as directed?",
+      "practical_task_interpretation": "In practice this requires the worker to control risks as directed",
+      "knowledge_focus": [
+        "Control risks as directed"
+      ],
+      "workplace_context_examples": [
+        "Identify risks associated with chemicals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of control risks as directed"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of control risks as directed"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Control risks as directed."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Follow chemical handling and storage rules",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify and locate chemical store?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and locate chemical store.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and locate chemical store",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and locate chemical store.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and locate chemical store?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and locate chemical store",
+      "knowledge_focus": [
+        "Identify and locate chemical store"
+      ],
+      "workplace_context_examples": [
+        "Follow chemical handling and storage rules"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and locate chemical store"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and locate chemical store"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and locate chemical store."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Follow chemical handling and storage rules",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret and follow safe chemical hand",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions",
+      "knowledge_focus": [
+        "Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions"
+      ],
+      "workplace_context_examples": [
+        "Follow chemical handling and storage rules"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret and follow safe chemical handling, transport, and storage according to product label and supervisor instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Follow chemical handling and storage rules",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What are the key hazards and required controls associated with observe instructions for maintenance and storage of ppe and application equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Observe instructions for maintenance an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to observe instructions for maintenance and storage of ppe and application equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Observe instructions for maintenance and storage of PPE and application equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Observe instructions for maintenance and storage of PPE and application equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to observe instructions for maintenance and storage of ppe and application equipment",
+      "knowledge_focus": [
+        "Observe instructions for maintenance and storage of PPE and application equipment"
+      ],
+      "workplace_context_examples": [
+        "Follow chemical handling and storage rules"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of observe instructions for maintenance and storage of ppe and application equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of observe instructions for maintenance and storage of ppe and application equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Observe instructions for maintenance and storage of PPE and application equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.554028+00:00"
+}

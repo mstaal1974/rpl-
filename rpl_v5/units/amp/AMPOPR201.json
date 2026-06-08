@@ -1,0 +1,955 @@
+{
+  "code": "AMPOPR201",
+  "title": "Clean work area during operations",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Clean work area during operations demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for cleaning work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Receive instructions from supervisor and clarify where required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Receive instructions from supervisor and clarify where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Receive instructions from supervisor and clarify where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify health and safety hazards and food safety hazards and inform supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and food safety hazards and inform supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and food safety hazards and inform supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Locate and follow Standard Operating Procedures (SOPs) for cleaning work",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and follow Standard Operating Procedures (SOPs) for cleaning work?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate and follow Standard Operating Procedures (SOPs) for cleaning work.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Wear appropriate personal protective equipment and ensure correct fit",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Wear appropriate personal protective equipment and ensure correct fit?",
+          "benchmark_statement": "The candidate demonstrates that they can Wear appropriate personal protective equipment and ensure correct fit.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Confirm that cleaning and sanitising agents and services are available and ready for use",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that cleaning and sanitising agents and services are available and ready for use?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that cleaning and sanitising agents and services are available and ready for use.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Prepare chemicals and products in line with workplace and safety guidelines",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare chemicals and products in line with workplace and safety guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare chemicals and products in line with workplace and safety guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for cleaning work"
+    },
+    {
+      "id": "E2",
+      "title": "Remove waste from work areas",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers?",
+          "benchmark_statement": "The candidate demonstrates that they can Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Maintain segregation of edible and inedible product at all times",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain segregation of edible and inedible product at all times?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain segregation of edible and inedible product at all times.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Perform work without contaminating edible product",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform work without contaminating edible product?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform work without contaminating edible product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Shift waste in bins and tubs in accordance with safe manual handling procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shift waste in bins and tubs in accordance with safe manual handling procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Shift waste in bins and tubs in accordance with safe manual handling procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove waste from work areas"
+    },
+    {
+      "id": "E3",
+      "title": "Clean areas during production",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Clean work areas while avoiding contamination of product",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work areas while avoiding contamination of product?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean work areas while avoiding contamination of product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs)",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs)?",
+          "benchmark_statement": "The candidate demonstrates that they can Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Report cleaning activities and issues according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report cleaning activities and issues according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Report cleaning activities and issues according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean areas during production"
+    },
+    {
+      "id": "E4",
+      "title": "Wash and store cleaning equipment and containers",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Roll and store hoses safely in accordance with workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Roll and store hoses safely in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Roll and store hoses safely in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Clean and store brooms, shovels and scrubbing brushes appropriately when not in use",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and store brooms, shovels and scrubbing brushes appropriately when not in use?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and store brooms, shovels and scrubbing brushes appropriately when not in use.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Store chemicals in accordance with workplace requirements in designated locations",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store chemicals in accordance with workplace requirements in designated locations?",
+          "benchmark_statement": "The candidate demonstrates that they can Store chemicals in accordance with workplace requirements in designated locations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Sanitise all bins and containers in accordance with workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sanitise all bins and containers in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Sanitise all bins and containers in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Wash and store cleaning equipment and containers"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for cleaning work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to receive instructions from supervisor and clarify where required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Receive instructions from supervisor an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to receive instructions from supervisor and clarify where required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Receive instructions from supervisor and clarify where required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Receive instructions from supervisor and clarify where required?",
+      "practical_task_interpretation": "In practice this requires the worker to receive instructions from supervisor and clarify where required",
+      "knowledge_focus": [
+        "Receive instructions from supervisor and clarify where required"
+      ],
+      "workplace_context_examples": [
+        "Prepare for cleaning work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of receive instructions from supervisor and clarify where required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of receive instructions from supervisor and clarify where required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Receive instructions from supervisor and clarify where required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for cleaning work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify health and safety hazards and food safety hazards and inform supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify health and safety hazards and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify health and safety hazards and food safety hazards and inform supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards and food safety hazards and inform supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards and food safety hazards and inform supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify health and safety hazards and food safety hazards and inform supervisor",
+      "knowledge_focus": [
+        "Identify health and safety hazards and food safety hazards and inform supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare for cleaning work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify health and safety hazards and food safety hazards and inform supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify health and safety hazards and food safety hazards and inform supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify health and safety hazards and food safety hazards and inform supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for cleaning work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to locate and follow standard operating procedures (sops) for cleaning work? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate and follow Standard Operating Pr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate and follow standard operating procedures (sops) for cleaning work",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Locate and follow Standard Operating Procedures (SOPs) for cleaning work.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and follow Standard Operating Procedures (SOPs) for cleaning work?",
+      "practical_task_interpretation": "In practice this requires the worker to locate and follow standard operating procedures (sops) for cleaning work",
+      "knowledge_focus": [
+        "Locate and follow Standard Operating Procedures (SOPs) for cleaning work"
+      ],
+      "workplace_context_examples": [
+        "Prepare for cleaning work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate and follow standard operating procedures (sops) for cleaning work"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate and follow standard operating procedures (sops) for cleaning work"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate and follow Standard Operating Procedures (SOPs) for cleaning work."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Remove waste from work areas",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Deposit waste into correct bins, hopper",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Remove waste from work areas"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Deposit waste into correct bins, hoppers and chutes in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Remove waste from work areas",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use correct shovels, brooms and bins wh",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements",
+      "knowledge_focus": [
+        "Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Remove waste from work areas"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use correct shovels, brooms and bins when gathering waste material to avoid cross-contamination of product and work areas, in line with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Remove waste from work areas",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Keep work area free from waste or disca",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers?",
+      "practical_task_interpretation": "In practice this requires the worker to keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers",
+      "knowledge_focus": [
+        "Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers"
+      ],
+      "workplace_context_examples": [
+        "Remove waste from work areas"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Keep work area free from waste or discarded trimmings to ensure a safe working environment for fellow workers."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Clean areas during production",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean work areas in accordance with wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean areas during production"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean work areas in accordance with workplace requirements, including quality assurance and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Clean areas during production",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to clean work areas while avoiding contamination of product? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean work areas while avoiding contami",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean work areas while avoiding contamination of product",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clean work areas while avoiding contamination of product.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work areas while avoiding contamination of product?",
+      "practical_task_interpretation": "In practice this requires the worker to clean work areas while avoiding contamination of product",
+      "knowledge_focus": [
+        "Clean work areas while avoiding contamination of product"
+      ],
+      "workplace_context_examples": [
+        "Clean areas during production"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean work areas while avoiding contamination of product"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean work areas while avoiding contamination of product"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean work areas while avoiding contamination of product."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Clean areas during production",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What are the key hazards and required controls associated with use cleaning chemicals as directed and in accordance with standard workplace procedures and safety data sheets (sdss)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use cleaning chemicals as directed and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use cleaning chemicals as directed and in accordance with standard workplace procedures and safety data sheets (sdss)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs)?",
+      "practical_task_interpretation": "In practice this requires the worker to use cleaning chemicals as directed and in accordance with standard workplace procedures and safety data sheets (sdss)",
+      "knowledge_focus": [
+        "Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs)"
+      ],
+      "workplace_context_examples": [
+        "Clean areas during production"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use cleaning chemicals as directed and in accordance with standard workplace procedures and safety data sheets (sdss)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use cleaning chemicals as directed and in accordance with standard workplace procedures and safety data sheets (sdss)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use cleaning chemicals as directed and in accordance with standard workplace procedures and Safety Data Sheets (SDSs)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Wash and store cleaning equipment and containers",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to roll and store hoses safely in accordance with workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Roll and store hoses safely in accordan",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to roll and store hoses safely in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Roll and store hoses safely in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Roll and store hoses safely in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to roll and store hoses safely in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Roll and store hoses safely in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Wash and store cleaning equipment and containers"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of roll and store hoses safely in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of roll and store hoses safely in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Roll and store hoses safely in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Wash and store cleaning equipment and containers",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to clean and store brooms, shovels and scrubbing brushes appropriately when not in use? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and store brooms, shovels and scr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and store brooms, shovels and scrubbing brushes appropriately when not in use",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and store brooms, shovels and scrubbing brushes appropriately when not in use.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and store brooms, shovels and scrubbing brushes appropriately when not in use?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and store brooms, shovels and scrubbing brushes appropriately when not in use",
+      "knowledge_focus": [
+        "Clean and store brooms, shovels and scrubbing brushes appropriately when not in use"
+      ],
+      "workplace_context_examples": [
+        "Wash and store cleaning equipment and containers"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and store brooms, shovels and scrubbing brushes appropriately when not in use"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and store brooms, shovels and scrubbing brushes appropriately when not in use"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and store brooms, shovels and scrubbing brushes appropriately when not in use."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Wash and store cleaning equipment and containers",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to store chemicals in accordance with workplace requirements in designated locations? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store chemicals in accordance with work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store chemicals in accordance with workplace requirements in designated locations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Store chemicals in accordance with workplace requirements in designated locations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store chemicals in accordance with workplace requirements in designated locations?",
+      "practical_task_interpretation": "In practice this requires the worker to store chemicals in accordance with workplace requirements in designated locations",
+      "knowledge_focus": [
+        "Store chemicals in accordance with workplace requirements in designated locations"
+      ],
+      "workplace_context_examples": [
+        "Wash and store cleaning equipment and containers"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store chemicals in accordance with workplace requirements in designated locations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store chemicals in accordance with workplace requirements in designated locations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store chemicals in accordance with workplace requirements in designated locations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.129819+00:00"
+}

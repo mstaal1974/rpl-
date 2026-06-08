@@ -1,0 +1,911 @@
+{
+  "code": "AHCWAT503",
+  "title": "Manage water systems",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Manage water systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assess soil and water resources for crop and plant type",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify suitability of soil and water resources for irrigation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify suitability of soil and water resources for irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify suitability of soil and water resources for irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Determine range of crops and plant types that could be grown in soil utilising available water resources",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine range of crops and plant types that could be grown in soil utilising available water resources?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine range of crops and plant types that could be grown in soil utilising available water resources.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Select crop and/or plant type based on assessment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select crop and/or plant type based on assessment?",
+          "benchmark_statement": "The candidate demonstrates that they can Select crop and/or plant type based on assessment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assess soil and water resources for crop and plant type"
+    },
+    {
+      "id": "E2",
+      "title": "Determine the feasibility of using or up-grading irrigation system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Assess water resources and drainage implications to determine suitability for irrigation",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess water resources and drainage implications to determine suitability for irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess water resources and drainage implications to determine suitability for irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Determine water quality and treatment requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine water quality and treatment requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine water quality and treatment requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Determine other water requirements, such as climate control",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine other water requirements, such as climate control?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine other water requirements, such as climate control.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Determine drainage requirements in relation to each soil and crop and plant type and type of irrigation system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine drainage requirements in relation to each soil and crop and plant type and type of irrigation system?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine drainage requirements in relation to each soil and crop and plant type and type of irrigation system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Assess performance data, audit reports, environmental and workplace health and safety data for existing systems",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess performance data, audit reports, environmental and workplace health and safety data for existing systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess performance data, audit reports, environmental and workplace health and safety data for existing systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Obtain information from irrigation specialists on all relevant aspects of irrigation design",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain information from irrigation specialists on all relevant aspects of irrigation design?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain information from irrigation specialists on all relevant aspects of irrigation design.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.8",
+          "text": "Assess and cost available irrigation system types and components and make a decision on the particular system to be used or upgrades to existing system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess and cost available irrigation system types and components and make a decision on the particular system to be used or upgrades to existing system?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess and cost available irrigation system types and components and make a decision on the particular system to be used or upgrades to existing system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Determine the feasibility of using or up-grading irrigation system"
+    },
+    {
+      "id": "E3",
+      "title": "Install or maintain an irrigation or drainage system",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Determine and acquire materials and equipment making up the system",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and acquire materials and equipment making up the system?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine and acquire materials and equipment making up the system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Install irrigation system using advice, as necessary, from irrigation specialists",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Install irrigation system using advice, as necessary, from irrigation specialists?",
+          "benchmark_statement": "The candidate demonstrates that they can Install irrigation system using advice, as necessary, from irrigation specialists.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Confirm that the water is being evenly distributed and that the drainage is effective and the system is in good working order",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that the water is being evenly distributed and that the drainage is effective and the system is in good working order?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that the water is being evenly distributed and that the drainage is effective and the system is in good working order.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.1",
+          "text": "Assess the need for water inputs at critical growth stages",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the need for water inputs at critical growth stages?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess the need for water inputs at critical growth stages.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Consider crop value and induce appropriate water regimes including frost protection where appropriate",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Consider crop value and induce appropriate water regimes including frost protection where appropriate?",
+          "benchmark_statement": "The candidate demonstrates that they can Consider crop value and induce appropriate water regimes including frost protection where appropriate.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Utilise soil moisture monitoring data",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Utilise soil moisture monitoring data?",
+          "benchmark_statement": "The candidate demonstrates that they can Utilise soil moisture monitoring data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Consider weather forecast, seasonal weather outlook, water allocations and water quality",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Consider weather forecast, seasonal weather outlook, water allocations and water quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Consider weather forecast, seasonal weather outlook, water allocations and water quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Consider energy costs in water application timing",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Consider energy costs in water application timing?",
+          "benchmark_statement": "The candidate demonstrates that they can Consider energy costs in water application timing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.1",
+          "text": "Identify volume and quality of water flow",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify volume and quality of water flow?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify volume and quality of water flow.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Plan scheduled irrigation system maintenance work to ensure minimised disruption to watering activities",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan scheduled irrigation system maintenance work to ensure minimised disruption to watering activities?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan scheduled irrigation system maintenance work to ensure minimised disruption to watering activities.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Monitor plant response to irrigation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor plant response to irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor plant response to irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Modify irrigation scheduling to minimise water wastage and maximise outcomes",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Modify irrigation scheduling to minimise water wastage and maximise outcomes?",
+          "benchmark_statement": "The candidate demonstrates that they can Modify irrigation scheduling to minimise water wastage and maximise outcomes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Record irrigation system water usage according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record irrigation system water usage according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record irrigation system water usage according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.1",
+          "text": "Determine and value plant growth, crop quality and yield from irrigation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and value plant growth, crop quality and yield from irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine and value plant growth, crop quality and yield from irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.2",
+          "text": "Calculate the cost of irrigation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate the cost of irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate the cost of irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.3",
+          "text": "Identify and minimise poor water usage practices",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and minimise poor water usage practices?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and minimise poor water usage practices.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.4",
+          "text": "Determine the cost benefit of irrigation and compare with alternative systems and approaches",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine the cost benefit of irrigation and compare with alternative systems and approaches?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine the cost benefit of irrigation and compare with alternative systems and approaches.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Install or maintain an irrigation or drainage system"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assess soil and water resources for crop and plant type",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify suitability of soil and water resources for irrigation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify suitability of soil and water ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify suitability of soil and water resources for irrigation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify suitability of soil and water resources for irrigation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify suitability of soil and water resources for irrigation?",
+      "practical_task_interpretation": "In practice this requires the worker to identify suitability of soil and water resources for irrigation",
+      "knowledge_focus": [
+        "Identify suitability of soil and water resources for irrigation"
+      ],
+      "workplace_context_examples": [
+        "Assess soil and water resources for crop and plant type"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify suitability of soil and water resources for irrigation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify suitability of soil and water resources for irrigation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify suitability of soil and water resources for irrigation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Assess soil and water resources for crop and plant type",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to determine range of crops and plant types that could be grown in soil utilising available water resources?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine range of crops and plant type",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine range of crops and plant types that could be grown in soil utilising available water resources",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine range of crops and plant types that could be grown in soil utilising available water resources.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine range of crops and plant types that could be grown in soil utilising available water resources?",
+      "practical_task_interpretation": "In practice this requires the worker to determine range of crops and plant types that could be grown in soil utilising available water resources",
+      "knowledge_focus": [
+        "Determine range of crops and plant types that could be grown in soil utilising available water resources"
+      ],
+      "workplace_context_examples": [
+        "Assess soil and water resources for crop and plant type"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine range of crops and plant types that could be grown in soil utilising available water resources"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine range of crops and plant types that could be grown in soil utilising available water resources"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine range of crops and plant types that could be grown in soil utilising available water resources."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Assess soil and water resources for crop and plant type",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to select crop and/or plant type based on assessment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select crop and/or plant type based on ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select crop and/or plant type based on assessment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Select crop and/or plant type based on assessment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select crop and/or plant type based on assessment?",
+      "practical_task_interpretation": "In practice this requires the worker to select crop and/or plant type based on assessment",
+      "knowledge_focus": [
+        "Select crop and/or plant type based on assessment"
+      ],
+      "workplace_context_examples": [
+        "Assess soil and water resources for crop and plant type"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select crop and/or plant type based on assessment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select crop and/or plant type based on assessment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select crop and/or plant type based on assessment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Determine the feasibility of using or up-grading irrigation system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to assess water resources and drainage implications to determine suitability for irrigation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess water resources and drainage imp",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess water resources and drainage implications to determine suitability for irrigation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess water resources and drainage implications to determine suitability for irrigation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess water resources and drainage implications to determine suitability for irrigation?",
+      "practical_task_interpretation": "In practice this requires the worker to assess water resources and drainage implications to determine suitability for irrigation",
+      "knowledge_focus": [
+        "Assess water resources and drainage implications to determine suitability for irrigation"
+      ],
+      "workplace_context_examples": [
+        "Determine the feasibility of using or up-grading irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess water resources and drainage implications to determine suitability for irrigation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess water resources and drainage implications to determine suitability for irrigation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess water resources and drainage implications to determine suitability for irrigation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Determine the feasibility of using or up-grading irrigation system",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to determine water quality and treatment requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine water quality and treatment r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine water quality and treatment requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine water quality and treatment requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine water quality and treatment requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to determine water quality and treatment requirements",
+      "knowledge_focus": [
+        "Determine water quality and treatment requirements"
+      ],
+      "workplace_context_examples": [
+        "Determine the feasibility of using or up-grading irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine water quality and treatment requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine water quality and treatment requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine water quality and treatment requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Determine the feasibility of using or up-grading irrigation system",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine water requirements and most s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type?",
+      "practical_task_interpretation": "In practice this requires the worker to determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type",
+      "knowledge_focus": [
+        "Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type"
+      ],
+      "workplace_context_examples": [
+        "Determine the feasibility of using or up-grading irrigation system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine water requirements and most suitable application systems for each crop and plant type and area, and for each soil type."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Install or maintain an irrigation or drainage system",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to determine and acquire materials and equipment making up the system?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine and acquire materials and equ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine and acquire materials and equipment making up the system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine and acquire materials and equipment making up the system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and acquire materials and equipment making up the system?",
+      "practical_task_interpretation": "In practice this requires the worker to determine and acquire materials and equipment making up the system",
+      "knowledge_focus": [
+        "Determine and acquire materials and equipment making up the system"
+      ],
+      "workplace_context_examples": [
+        "Install or maintain an irrigation or drainage system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine and acquire materials and equipment making up the system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine and acquire materials and equipment making up the system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine and acquire materials and equipment making up the system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Install or maintain an irrigation or drainage system",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to install irrigation system using advice, as necessary, from irrigation specialists? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Install irrigation system using advice,",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to install irrigation system using advice, as necessary, from irrigation specialists",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Install irrigation system using advice, as necessary, from irrigation specialists.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Install irrigation system using advice, as necessary, from irrigation specialists?",
+      "practical_task_interpretation": "In practice this requires the worker to install irrigation system using advice, as necessary, from irrigation specialists",
+      "knowledge_focus": [
+        "Install irrigation system using advice, as necessary, from irrigation specialists"
+      ],
+      "workplace_context_examples": [
+        "Install or maintain an irrigation or drainage system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of install irrigation system using advice, as necessary, from irrigation specialists"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of install irrigation system using advice, as necessary, from irrigation specialists"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Install irrigation system using advice, as necessary, from irrigation specialists."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Install or maintain an irrigation or drainage system",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that irrigation and drainage syst",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages?",
+      "practical_task_interpretation": "In practice this requires the worker to check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages",
+      "knowledge_focus": [
+        "Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages"
+      ],
+      "workplace_context_examples": [
+        "Install or maintain an irrigation or drainage system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that irrigation and drainage systems are supervised to ensure there are no leaks or blockages."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.454640+00:00"
+}

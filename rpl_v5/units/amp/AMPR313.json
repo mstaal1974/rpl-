@@ -1,0 +1,191 @@
+{
+  "code": "AMPR313",
+  "title": "Order stock in a meat enterprise",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Order stock in a meat enterprise demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Process order",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Process order"
+    },
+    {
+      "id": "E2",
+      "title": "Follow up order",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Follow up order"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Process order",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you process or raise orders for stock as requested according to workplace requirements1.2 maintain ordering and recording system according to workplace requirements1.3 record and file orders and delivery requirements for retrieval according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Process or raise orders for stock as re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to process or raise orders for stock as requested according to workplace requirements1.2 maintain ordering and recording system according to workplace requirements1.3 record and file orders and delivery requirements for retrieval according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to process or raise orders for stock as requested according to workplace requirements1.2 maintain ordering and recording system according to workplace requirements1.3 record and file orders and delivery requirements for retrieval according to workplace procedures",
+      "knowledge_focus": [
+        "Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Process order"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of process or raise orders for stock as requested according to workplace requirements1.2 maintain ordering and recording system according to workplace requirements1.3 record and file orders and delivery requirements for retrieval according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of process or raise orders for stock as requested according to workplace requirements1.2 maintain ordering and recording system according to workplace requirements1.3 record and file orders and delivery requirements for retrieval according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Process or raise orders for stock as requested according to workplace requirements1.2 Maintain ordering and recording system according to workplace requirements1.3 Record and file orders and delivery requirements for retrieval according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Follow up order",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What would indicate that monitor delivery process to meet agreed deadlines2.2 handle routine supply problems or refer to management as required by workplace requirements2.3 maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 distribute stock according to workplace allocation is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor delivery process to meet agreed",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor delivery process to meet agreed deadlines2.2 handle routine supply problems or refer to management as required by workplace requirements2.3 maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 distribute stock according to workplace allocation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor delivery process to meet agreed deadlines2.2 handle routine supply problems or refer to management as required by workplace requirements2.3 maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 distribute stock according to workplace allocation",
+      "knowledge_focus": [
+        "Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation"
+      ],
+      "workplace_context_examples": [
+        "Follow up order"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor delivery process to meet agreed deadlines2.2 handle routine supply problems or refer to management as required by workplace requirements2.3 maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 distribute stock according to workplace allocation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor delivery process to meet agreed deadlines2.2 handle routine supply problems or refer to management as required by workplace requirements2.3 maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 distribute stock according to workplace allocation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor delivery process to meet agreed deadlines2.2 Handle routine supply problems or refer to management as required by workplace requirements2.3 Maintain continuous liaison with buyers and suppliers to ensure continuity of supply2.4 Distribute stock according to workplace allocation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.311966+00:00"
+}

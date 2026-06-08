@@ -1,0 +1,664 @@
+{
+  "code": "AMPLOA205",
+  "title": "Bag carcase",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Bag carcase demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instructions for bagging carcases, and clarify where required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions for bagging carcases, and clarify where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instructions for bagging carcases, and clarify where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify potential sources of contamination and cross-contamination",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential sources of contamination and cross-contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify potential sources of contamination and cross-contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare bagging materials",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Check bagging consumables prior to the start of the shift to ensure an adequate supply",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check bagging consumables prior to the start of the shift to ensure an adequate supply?",
+          "benchmark_statement": "The candidate demonstrates that they can Check bagging consumables prior to the start of the shift to ensure an adequate supply.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Check brands or stamps",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check brands or stamps?",
+          "benchmark_statement": "The candidate demonstrates that they can Check brands or stamps.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Check supply of labels",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check supply of labels?",
+          "benchmark_statement": "The candidate demonstrates that they can Check supply of labels.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare bagging materials"
+    },
+    {
+      "id": "E3",
+      "title": "Place bags on carcases",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Stamp and label carcases following workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Stamp and label carcases following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Stamp and label carcases following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Bag carcase following workplace requirements, including hygiene and health and safety requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bag carcase following workplace requirements, including hygiene and health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Bag carcase following workplace requirements, including hygiene and health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Place bags on carcases"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instructions for bagging carcases, and clarify where required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instructions for bagging ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instructions for bagging carcases, and clarify where required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instructions for bagging carcases, and clarify where required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions for bagging carcases, and clarify where required?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instructions for bagging carcases, and clarify where required",
+      "knowledge_focus": [
+        "Identify work instructions for bagging carcases, and clarify where required"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instructions for bagging carcases, and clarify where required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instructions for bagging carcases, and clarify where required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instructions for bagging carcases, and clarify where required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify safety hazards associated with bagging carcases and working in chillers, and control associated risks?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify safety hazards associated with",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify safety hazards associated with bagging carcases and working in chillers, and control associated risks",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks?",
+      "practical_task_interpretation": "In practice this requires the worker to identify safety hazards associated with bagging carcases and working in chillers, and control associated risks",
+      "knowledge_focus": [
+        "Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify safety hazards associated with bagging carcases and working in chillers, and control associated risks"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify safety hazards associated with bagging carcases and working in chillers, and control associated risks"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify safety hazards associated with bagging carcases and working in chillers, and control associated risks."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare bagging materials",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to check bagging consumables prior to the start of the shift to ensure an adequate supply?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check bagging consumables prior to the ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check bagging consumables prior to the start of the shift to ensure an adequate supply",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check bagging consumables prior to the start of the shift to ensure an adequate supply.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check bagging consumables prior to the start of the shift to ensure an adequate supply?",
+      "practical_task_interpretation": "In practice this requires the worker to check bagging consumables prior to the start of the shift to ensure an adequate supply",
+      "knowledge_focus": [
+        "Check bagging consumables prior to the start of the shift to ensure an adequate supply"
+      ],
+      "workplace_context_examples": [
+        "Prepare bagging materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check bagging consumables prior to the start of the shift to ensure an adequate supply"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check bagging consumables prior to the start of the shift to ensure an adequate supply"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check bagging consumables prior to the start of the shift to ensure an adequate supply."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare bagging materials",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to check brands or stamps?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check brands or stamps.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check brands or stamps",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check brands or stamps.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check brands or stamps?",
+      "practical_task_interpretation": "In practice this requires the worker to check brands or stamps",
+      "knowledge_focus": [
+        "Check brands or stamps"
+      ],
+      "workplace_context_examples": [
+        "Prepare bagging materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check brands or stamps"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check brands or stamps"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check brands or stamps."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare bagging materials",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to check supply of labels?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check supply of labels.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check supply of labels",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check supply of labels.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check supply of labels?",
+      "practical_task_interpretation": "In practice this requires the worker to check supply of labels",
+      "knowledge_focus": [
+        "Check supply of labels"
+      ],
+      "workplace_context_examples": [
+        "Prepare bagging materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check supply of labels"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check supply of labels"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check supply of labels."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Place bags on carcases",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to stamp and label carcases following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Stamp and label carcases following work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to stamp and label carcases following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Stamp and label carcases following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Stamp and label carcases following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to stamp and label carcases following workplace requirements",
+      "knowledge_focus": [
+        "Stamp and label carcases following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Place bags on carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of stamp and label carcases following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of stamp and label carcases following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Stamp and label carcases following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Place bags on carcases",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What are the key hazards and required controls associated with bag carcase following workplace requirements, including hygiene and health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Bag carcase following workplace require",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to bag carcase following workplace requirements, including hygiene and health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Bag carcase following workplace requirements, including hygiene and health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bag carcase following workplace requirements, including hygiene and health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to bag carcase following workplace requirements, including hygiene and health and safety requirements",
+      "knowledge_focus": [
+        "Bag carcase following workplace requirements, including hygiene and health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Place bags on carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of bag carcase following workplace requirements, including hygiene and health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of bag carcase following workplace requirements, including hygiene and health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Bag carcase following workplace requirements, including hygiene and health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Place bags on carcases",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What are the key hazards and required controls associated with move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Move carcases on rails in chillers, fre",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Place bags on carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Move carcases on rails in chillers, freezers and loadout areas following workplace, hygiene and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.025253+00:00"
+}

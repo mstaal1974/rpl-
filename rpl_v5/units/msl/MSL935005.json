@@ -1,0 +1,994 @@
+{
+  "code": "MSL935005",
+  "title": "Authorise the issue of test results",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Authorise the issue of test results demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Verify the accuracy of data and technical records",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Access relevant job instructions, data and technical records in laboratory information management system (LIMS)",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access relevant job instructions, data and technical records in laboratory information management system (LIMS)?",
+          "benchmark_statement": "The candidate demonstrates that they can Access relevant job instructions, data and technical records in laboratory information management system (LIMS).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Confirm that technical records provide sufficient information to ensure traceability for the tests involved",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that technical records provide sufficient information to ensure traceability for the tests involved?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that technical records provide sufficient information to ensure traceability for the tests involved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Compare data with expected values and identify any outliers",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare data with expected values and identify any outliers?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare data with expected values and identify any outliers.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Inspect data records to check the integrity of data entry, alterations, transfers and calculations",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect data records to check the integrity of data entry, alterations, transfers and calculations?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect data records to check the integrity of data entry, alterations, transfers and calculations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Correct and initial any incorrect data records",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correct and initial any incorrect data records?",
+          "benchmark_statement": "The candidate demonstrates that they can Correct and initial any incorrect data records.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Sign off data records as correct",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sign off data records as correct?",
+          "benchmark_statement": "The candidate demonstrates that they can Sign off data records as correct.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Verify the accuracy of data and technical records"
+    },
+    {
+      "id": "E2",
+      "title": "Determine if results are acceptable and within expectation",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Compare results with expected values and identify any significant differences",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare results with expected values and identify any significant differences?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare results with expected values and identify any significant differences.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Check that all calculations are free from error",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that all calculations are free from error?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that all calculations are free from error.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Check that estimates of uncertainty are reasonable and consistent with the test method, client and/or product specification requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that estimates of uncertainty are reasonable and consistent with the test method, client and/or product specification requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that estimates of uncertainty are reasonable and consistent with the test method, client and/or product specification requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Authorise the issue of results that meet the organisation's quality standards and are consistent with expectations",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Authorise the issue of results that meet the organisation's quality standards and are consistent with expectations?",
+          "benchmark_statement": "The candidate demonstrates that they can Authorise the issue of results that meet the organisation's quality standards and are consistent with expectations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Determine if results are acceptable and within expectation"
+    },
+    {
+      "id": "E3",
+      "title": "Investigate unexpected or unacceptable results",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Establish whether human and/or environmental factors could have affected the reliability of results",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish whether human and/or environmental factors could have affected the reliability of results?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish whether human and/or environmental factors could have affected the reliability of results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Check for obvious sources of interferences that may have occurred during measurements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check for obvious sources of interferences that may have occurred during measurements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check for obvious sources of interferences that may have occurred during measurements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Retrieve stored samples (if available) and assess whether they are atypical or contaminated",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retrieve stored samples (if available) and assess whether they are atypical or contaminated?",
+          "benchmark_statement": "The candidate demonstrates that they can Retrieve stored samples (if available) and assess whether they are atypical or contaminated.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Perform control tests using the same, or new, samples to check unexpected results",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform control tests using the same, or new, samples to check unexpected results?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform control tests using the same, or new, samples to check unexpected results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Authorise the issue of unexpected results that meet the organisation's quality standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Authorise the issue of unexpected results that meet the organisation's quality standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Authorise the issue of unexpected results that meet the organisation's quality standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Identify possible root causes of unacceptable results and appropriate preventative/corrective actions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify possible root causes of unacceptable results and appropriate preventative/corrective actions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify possible root causes of unacceptable results and appropriate preventative/corrective actions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.8",
+          "text": "Report investigation outcomes and recommendations for improvements in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report investigation outcomes and recommendations for improvements in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Report investigation outcomes and recommendations for improvements in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Investigate unexpected or unacceptable results"
+    },
+    {
+      "id": "E4",
+      "title": "Liaise with clients about results",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Arrange for new samples and/or re-testing as necessary",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange for new samples and/or re-testing as necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Arrange for new samples and/or re-testing as necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Explain investigation outcomes and confidence level for unexpected test results",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain investigation outcomes and confidence level for unexpected test results?",
+          "benchmark_statement": "The candidate demonstrates that they can Explain investigation outcomes and confidence level for unexpected test results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Liaise with clients about results"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Verify the accuracy of data and technical records",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you access relevant job instructions, data and technical records in laboratory information management system (lims), and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access relevant job instructions, data ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access relevant job instructions, data and technical records in laboratory information management system (lims)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access relevant job instructions, data and technical records in laboratory information management system (LIMS).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access relevant job instructions, data and technical records in laboratory information management system (LIMS)?",
+      "practical_task_interpretation": "In practice this requires the worker to access relevant job instructions, data and technical records in laboratory information management system (lims)",
+      "knowledge_focus": [
+        "Access relevant job instructions, data and technical records in laboratory information management system (LIMS)"
+      ],
+      "workplace_context_examples": [
+        "Verify the accuracy of data and technical records"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access relevant job instructions, data and technical records in laboratory information management system (lims)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access relevant job instructions, data and technical records in laboratory information management system (lims)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access relevant job instructions, data and technical records in laboratory information management system (LIMS)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Verify the accuracy of data and technical records",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to confirm that technical records provide sufficient information to ensure traceability for the tests involved?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm that technical records provide ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm that technical records provide sufficient information to ensure traceability for the tests involved",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm that technical records provide sufficient information to ensure traceability for the tests involved.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that technical records provide sufficient information to ensure traceability for the tests involved?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm that technical records provide sufficient information to ensure traceability for the tests involved",
+      "knowledge_focus": [
+        "Confirm that technical records provide sufficient information to ensure traceability for the tests involved"
+      ],
+      "workplace_context_examples": [
+        "Verify the accuracy of data and technical records"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm that technical records provide sufficient information to ensure traceability for the tests involved"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm that technical records provide sufficient information to ensure traceability for the tests involved"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm that technical records provide sufficient information to ensure traceability for the tests involved."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Verify the accuracy of data and technical records",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to compare data with expected values and identify any outliers?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare data with expected values and i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare data with expected values and identify any outliers",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Compare data with expected values and identify any outliers.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare data with expected values and identify any outliers?",
+      "practical_task_interpretation": "In practice this requires the worker to compare data with expected values and identify any outliers",
+      "knowledge_focus": [
+        "Compare data with expected values and identify any outliers"
+      ],
+      "workplace_context_examples": [
+        "Verify the accuracy of data and technical records"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare data with expected values and identify any outliers"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare data with expected values and identify any outliers"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare data with expected values and identify any outliers."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Determine if results are acceptable and within expectation",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to compare results with expected values and identify any significant differences?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare results with expected values an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare results with expected values and identify any significant differences",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Compare results with expected values and identify any significant differences.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare results with expected values and identify any significant differences?",
+      "practical_task_interpretation": "In practice this requires the worker to compare results with expected values and identify any significant differences",
+      "knowledge_focus": [
+        "Compare results with expected values and identify any significant differences"
+      ],
+      "workplace_context_examples": [
+        "Determine if results are acceptable and within expectation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare results with expected values and identify any significant differences"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare results with expected values and identify any significant differences"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare results with expected values and identify any significant differences."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Determine if results are acceptable and within expectation",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check the reliability of results by exa",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples?",
+      "practical_task_interpretation": "In practice this requires the worker to check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples",
+      "knowledge_focus": [
+        "Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples"
+      ],
+      "workplace_context_examples": [
+        "Determine if results are acceptable and within expectation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check the reliability of results by examining data, statistical analysis of data and results from repeat tests or duplicate samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Determine if results are acceptable and within expectation",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess the significance of any document",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance?",
+      "practical_task_interpretation": "In practice this requires the worker to assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance",
+      "knowledge_focus": [
+        "Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance"
+      ],
+      "workplace_context_examples": [
+        "Determine if results are acceptable and within expectation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess the significance of any documented observations of atypical test conditions or environment and/or sample appearance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Investigate unexpected or unacceptable results",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Examine records of pre-use checks and c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements",
+      "knowledge_focus": [
+        "Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Investigate unexpected or unacceptable results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Examine records of pre-use checks and calibration performance to ensure that the equipment and/or instruments used meet test specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Investigate unexpected or unacceptable results",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What steps are required to establish whether human and/or environmental factors could have affected the reliability of results, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish whether human and/or environm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish whether human and/or environmental factors could have affected the reliability of results",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Establish whether human and/or environmental factors could have affected the reliability of results.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish whether human and/or environmental factors could have affected the reliability of results?",
+      "practical_task_interpretation": "In practice this requires the worker to establish whether human and/or environmental factors could have affected the reliability of results",
+      "knowledge_focus": [
+        "Establish whether human and/or environmental factors could have affected the reliability of results"
+      ],
+      "workplace_context_examples": [
+        "Investigate unexpected or unacceptable results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish whether human and/or environmental factors could have affected the reliability of results"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish whether human and/or environmental factors could have affected the reliability of results"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish whether human and/or environmental factors could have affected the reliability of results."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Investigate unexpected or unacceptable results",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to check for obvious sources of interferences that may have occurred during measurements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check for obvious sources of interferen",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check for obvious sources of interferences that may have occurred during measurements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check for obvious sources of interferences that may have occurred during measurements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check for obvious sources of interferences that may have occurred during measurements?",
+      "practical_task_interpretation": "In practice this requires the worker to check for obvious sources of interferences that may have occurred during measurements",
+      "knowledge_focus": [
+        "Check for obvious sources of interferences that may have occurred during measurements"
+      ],
+      "workplace_context_examples": [
+        "Investigate unexpected or unacceptable results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check for obvious sources of interferences that may have occurred during measurements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check for obvious sources of interferences that may have occurred during measurements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check for obvious sources of interferences that may have occurred during measurements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Liaise with clients about results",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What steps are required to establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish whether sampling procedures u",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results?",
+      "practical_task_interpretation": "In practice this requires the worker to establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results",
+      "knowledge_focus": [
+        "Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results"
+      ],
+      "workplace_context_examples": [
+        "Liaise with clients about results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish whether sampling procedures used by the client could contribute to unexpected/unacceptable results."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Liaise with clients about results",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to arrange for new samples and/or re-testing as necessary? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Arrange for new samples and/or re-testi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to arrange for new samples and/or re-testing as necessary",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Arrange for new samples and/or re-testing as necessary.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Arrange for new samples and/or re-testing as necessary?",
+      "practical_task_interpretation": "In practice this requires the worker to arrange for new samples and/or re-testing as necessary",
+      "knowledge_focus": [
+        "Arrange for new samples and/or re-testing as necessary"
+      ],
+      "workplace_context_examples": [
+        "Liaise with clients about results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of arrange for new samples and/or re-testing as necessary"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of arrange for new samples and/or re-testing as necessary"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Arrange for new samples and/or re-testing as necessary."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Liaise with clients about results",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to explain investigation outcomes and confidence level for unexpected test results? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Explain investigation outcomes and conf",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to explain investigation outcomes and confidence level for unexpected test results",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Explain investigation outcomes and confidence level for unexpected test results.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain investigation outcomes and confidence level for unexpected test results?",
+      "practical_task_interpretation": "In practice this requires the worker to explain investigation outcomes and confidence level for unexpected test results",
+      "knowledge_focus": [
+        "Explain investigation outcomes and confidence level for unexpected test results"
+      ],
+      "workplace_context_examples": [
+        "Liaise with clients about results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of explain investigation outcomes and confidence level for unexpected test results"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of explain investigation outcomes and confidence level for unexpected test results"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Explain investigation outcomes and confidence level for unexpected test results."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.804300+00:00"
+}

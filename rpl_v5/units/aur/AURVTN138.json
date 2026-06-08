@@ -1,0 +1,263 @@
+{
+  "code": "AURVTN138",
+  "title": "Carry out basic repairs to vehicle body panels",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Carry out basic repairs to vehicle body panels demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to repair body panel",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to repair body panel"
+    },
+    {
+      "id": "E2",
+      "title": "Carry out basic panel repairs",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Carry out basic panel repairs"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to repair body panel",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to interpret task instructions and identify vehicle body panel to be worked on1.2 source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 source and interpret safety and environmental requirements1.4 identify and report potential hazards and risks associated with task to workplace supervisor1.5 identify and check tools and equipment required for repairing body panel for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret task instructions and identif",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret task instructions and identify vehicle body panel to be worked on1.2 source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 source and interpret safety and environmental requirements1.4 identify and report potential hazards and risks associated with task to workplace supervisor1.5 identify and check tools and equipment required for repairing body panel for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret task instructions and identify vehicle body panel to be worked on1.2 source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 source and interpret safety and environmental requirements1.4 identify and report potential hazards and risks associated with task to workplace supervisor1.5 identify and check tools and equipment required for repairing body panel for serviceability",
+      "knowledge_focus": [
+        "Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to repair body panel"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret task instructions and identify vehicle body panel to be worked on1.2 source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 source and interpret safety and environmental requirements1.4 identify and report potential hazards and risks associated with task to workplace supervisor1.5 identify and check tools and equipment required for repairing body panel for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret task instructions and identify vehicle body panel to be worked on1.2 source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 source and interpret safety and environmental requirements1.4 identify and report potential hazards and risks associated with task to workplace supervisor1.5 identify and check tools and equipment required for repairing body panel for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret task instructions and identify vehicle body panel to be worked on1.2 Source and interpret manufacturer specifications and workplace procedures for repairing body panel 1.3 Source and interpret safety and environmental requirements1.4 Identify and report potential hazards and risks associated with task to workplace supervisor1.5 Identify and check tools and equipment required for repairing body panel for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Carry out basic panel repairs",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Shape damaged panel using basic panel b",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements",
+      "knowledge_focus": [
+        "Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements"
+      ],
+      "workplace_context_examples": [
+        "Carry out basic panel repairs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Shape damaged panel using basic panel beating techniques according to workplace instructions and safety and environmental requirements, and without causing damage to components, tools or equipment2.2 Carry out body filling and metal finishing according to workplace procedures and safety and environmental requirements2.3 Complete panel repair to pre-paint condition according to workplace instructions and procedures, and safety and environmental requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.240401+00:00"
+}

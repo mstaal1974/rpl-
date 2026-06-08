@@ -1,0 +1,335 @@
+{
+  "code": "AMPS303",
+  "title": "Fill casings",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Fill casings demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare casings",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare casings"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare filling machinery",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare filling machinery"
+    },
+    {
+      "id": "E3",
+      "title": "Fill casings",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Fill casings"
+    },
+    {
+      "id": "E4",
+      "title": "Clean equipment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean equipment according to manufacturer's specifications and workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean equipment according to manufacturer's specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean equipment according to manufacturer's specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Clean equipment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare casings",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to calibrate casings according to product specifications and workplace requirements1.2 confirm specifications of casings for each product1.3 check casings for faults according to workplace requirements1.4 prepare casings as required according to workplace requirements1.5 flush casings thoroughly with clean water in accordance with workplace requirements1.6 spool or pull casings into filling tube or nozzle in preparation for further processing1.7 prepare correct quantity of casings in accordance with production specifications1.8 prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 store casings according to manufacturer's specifications and hygiene requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calibrate casings according to product ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calibrate casings according to product specifications and workplace requirements1.2 confirm specifications of casings for each product1.3 check casings for faults according to workplace requirements1.4 prepare casings as required according to workplace requirements1.5 flush casings thoroughly with clean water in accordance with workplace requirements1.6 spool or pull casings into filling tube or nozzle in preparation for further processing1.7 prepare correct quantity of casings in accordance with production specifications1.8 prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 store casings according to manufacturer's specifications and hygiene requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to calibrate casings according to product specifications and workplace requirements1.2 confirm specifications of casings for each product1.3 check casings for faults according to workplace requirements1.4 prepare casings as required according to workplace requirements1.5 flush casings thoroughly with clean water in accordance with workplace requirements1.6 spool or pull casings into filling tube or nozzle in preparation for further processing1.7 prepare correct quantity of casings in accordance with production specifications1.8 prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 store casings according to manufacturer's specifications and hygiene requirements",
+      "knowledge_focus": [
+        "Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare casings"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calibrate casings according to product specifications and workplace requirements1.2 confirm specifications of casings for each product1.3 check casings for faults according to workplace requirements1.4 prepare casings as required according to workplace requirements1.5 flush casings thoroughly with clean water in accordance with workplace requirements1.6 spool or pull casings into filling tube or nozzle in preparation for further processing1.7 prepare correct quantity of casings in accordance with production specifications1.8 prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 store casings according to manufacturer's specifications and hygiene requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calibrate casings according to product specifications and workplace requirements1.2 confirm specifications of casings for each product1.3 check casings for faults according to workplace requirements1.4 prepare casings as required according to workplace requirements1.5 flush casings thoroughly with clean water in accordance with workplace requirements1.6 spool or pull casings into filling tube or nozzle in preparation for further processing1.7 prepare correct quantity of casings in accordance with production specifications1.8 prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 store casings according to manufacturer's specifications and hygiene requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calibrate casings according to product specifications and workplace requirements1.2 Confirm specifications of casings for each product1.3 Check casings for faults according to workplace requirements1.4 Prepare casings as required according to workplace requirements1.5 Flush casings thoroughly with clean water in accordance with workplace requirements1.6 Spool or pull casings into filling tube or nozzle in preparation for further processing1.7 Prepare correct quantity of casings in accordance with production specifications1.8 Prepare casings are prepared according to workplace health and safety, and hygiene and sanitation requirements1.9 Store casings according to manufacturer's specifications and hygiene requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare filling machinery",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you complete requirements in preparation for start-up of filling machine to workplace requirements2.2 set machine requirements correctly2.3 follow start-up procedures to workplace requirements2.4 attach and change filling materials to workplace requirements and product specifications2.5 follow workplace health and safety, hygiene and sanitation requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete requirements in preparation fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete requirements in preparation for start-up of filling machine to workplace requirements2.2 set machine requirements correctly2.3 follow start-up procedures to workplace requirements2.4 attach and change filling materials to workplace requirements and product specifications2.5 follow workplace health and safety, hygiene and sanitation requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to complete requirements in preparation for start-up of filling machine to workplace requirements2.2 set machine requirements correctly2.3 follow start-up procedures to workplace requirements2.4 attach and change filling materials to workplace requirements and product specifications2.5 follow workplace health and safety, hygiene and sanitation requirements",
+      "knowledge_focus": [
+        "Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare filling machinery"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete requirements in preparation for start-up of filling machine to workplace requirements2.2 set machine requirements correctly2.3 follow start-up procedures to workplace requirements2.4 attach and change filling materials to workplace requirements and product specifications2.5 follow workplace health and safety, hygiene and sanitation requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete requirements in preparation for start-up of filling machine to workplace requirements2.2 set machine requirements correctly2.3 follow start-up procedures to workplace requirements2.4 attach and change filling materials to workplace requirements and product specifications2.5 follow workplace health and safety, hygiene and sanitation requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete requirements in preparation for start-up of filling machine to workplace requirements2.2 Set machine requirements correctly2.3 Follow start-up procedures to workplace requirements2.4 Attach and change filling materials to workplace requirements and product specifications2.5 Follow workplace health and safety, hygiene and sanitation requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Fill casings",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to select appropriate casings and filling nozzle according to requirements and product specifications3.2 load filler and fill casings to consistency required by product specifications3.3 identify, remove and report defective product according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select appropriate casings and filling ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select appropriate casings and filling nozzle according to requirements and product specifications3.2 load filler and fill casings to consistency required by product specifications3.3 identify, remove and report defective product according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to select appropriate casings and filling nozzle according to requirements and product specifications3.2 load filler and fill casings to consistency required by product specifications3.3 identify, remove and report defective product according to workplace requirements",
+      "knowledge_focus": [
+        "Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Fill casings"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select appropriate casings and filling nozzle according to requirements and product specifications3.2 load filler and fill casings to consistency required by product specifications3.3 identify, remove and report defective product according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select appropriate casings and filling nozzle according to requirements and product specifications3.2 load filler and fill casings to consistency required by product specifications3.3 identify, remove and report defective product according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select appropriate casings and filling nozzle according to requirements and product specifications3.2 Load filler and fill casings to consistency required by product specifications3.3 Identify, remove and report defective product according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Clean equipment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to clean equipment according to manufacturer's specifications and workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean equipment according to manufactur",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean equipment according to manufacturer's specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean equipment according to manufacturer's specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean equipment according to manufacturer's specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean equipment according to manufacturer's specifications and workplace requirements",
+      "knowledge_focus": [
+        "Clean equipment according to manufacturer's specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean equipment according to manufacturer's specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean equipment according to manufacturer's specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean equipment according to manufacturer's specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.355706+00:00"
+}

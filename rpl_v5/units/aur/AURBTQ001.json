@@ -1,0 +1,263 @@
+{
+  "code": "AURBTQ001",
+  "title": "Service bicycle drivetrain systems",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Service bicycle drivetrain systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to service bicycle drivetrain system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to service bicycle drivetrain system"
+    },
+    {
+      "id": "E2",
+      "title": "Carry out service of drivetrain system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Carry out service of drivetrain system"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to service bicycle drivetrain system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from workplace instructions1.2 manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 service options and techniques are identified and confirmed with customer1.5 replacement parts for drivetrain are identified and sourced as required1.6 hazards associated with the work are identified and risks are managed1.7 tools and equipment, including personal protective equipment (ppe), are selected and checked for serviceability1.8 work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from workplace instructions1.2 manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 service options and techniques are identified and confirmed with customer1.5 replacement parts for drivetrain are identified and sourced as required1.6 hazards associated with the work are identified and risks are managed1.7 tools and equipment, including personal protective equipment (ppe), are selected and checked for serviceability1.8 work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from workplace instructions1.2 manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 service options and techniques are identified and confirmed with customer1.5 replacement parts for drivetrain are identified and sourced as required1.6 hazards associated with the work are identified and risks are managed1.7 tools and equipment, including personal protective equipment (ppe), are selected and checked for serviceability1.8 work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently",
+      "knowledge_focus": [
+        "Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently"
+      ],
+      "workplace_context_examples": [
+        "Prepare to service bicycle drivetrain system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from workplace instructions1.2 manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 service options and techniques are identified and confirmed with customer1.5 replacement parts for drivetrain are identified and sourced as required1.6 hazards associated with the work are identified and risks are managed1.7 tools and equipment, including personal protective equipment (ppe), are selected and checked for serviceability1.8 work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from workplace instructions1.2 manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 service options and techniques are identified and confirmed with customer1.5 replacement parts for drivetrain are identified and sourced as required1.6 hazards associated with the work are identified and risks are managed1.7 tools and equipment, including personal protective equipment (ppe), are selected and checked for serviceability1.8 work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Manufacturer specifications, workplace procedures and other relevant technical information are accessed and interpreted 1.3 Condition of bicycle drivetrain system is inspected for faults and worn or damaged components using visual inspection methods and by comparing measurements against manufacturer specifications1.4 Service options and techniques are identified and confirmed with customer1.5 Replacement parts for drivetrain are identified and sourced as required1.6 Hazards associated with the work are identified and risks are managed1.7 Tools and equipment, including personal protective equipment (PPE), are selected and checked for serviceability1.8 Work area is prepared and service sequence planned to avoid damage to bicycle, minimise waste and use time efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Carry out service of drivetrain system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 replacement parts are checked and fitted according to manufacturer specifications2.3 operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 results and quality issues are reported to authorised personnel as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Bicycle drivetrain system is serviced a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 replacement parts are checked and fitted according to manufacturer specifications2.3 operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 results and quality issues are reported to authorised personnel as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required?",
+      "practical_task_interpretation": "In practice this requires the worker to bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 replacement parts are checked and fitted according to manufacturer specifications2.3 operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 results and quality issues are reported to authorised personnel as required",
+      "knowledge_focus": [
+        "Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required"
+      ],
+      "workplace_context_examples": [
+        "Carry out service of drivetrain system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 replacement parts are checked and fitted according to manufacturer specifications2.3 operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 results and quality issues are reported to authorised personnel as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 replacement parts are checked and fitted according to manufacturer specifications2.3 operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 results and quality issues are reported to authorised personnel as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Bicycle drivetrain system is serviced according to work plan, manufacturer specifications, and safety and environmental requirements2.2 Replacement parts are checked and fitted according to manufacturer specifications2.3 Operation of serviced drivetrain system is tested and adjusted as required according to job requirements and workplace procedures2.4 Results and quality issues are reported to authorised personnel as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedure",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and bicycle is presented ready for use3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.700518+00:00"
+}

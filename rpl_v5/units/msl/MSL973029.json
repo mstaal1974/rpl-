@@ -1,0 +1,1015 @@
+{
+  "code": "MSL973029",
+  "title": "Perform histological procedures",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform histological procedures demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Process tissue",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Perform pre-use checks to ensure processor is fit for purpose",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use checks to ensure processor is fit for purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-use checks to ensure processor is fit for purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Check reagents are in sequential order",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check reagents are in sequential order?",
+          "benchmark_statement": "The candidate demonstrates that they can Check reagents are in sequential order.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Select program for processing",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select program for processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Select program for processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Process tissue"
+    },
+    {
+      "id": "E2",
+      "title": "Embed tissue",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy?",
+          "benchmark_statement": "The candidate demonstrates that they can Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Apply procedures to prevent cross-contamination between tissues",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply procedures to prevent cross-contamination between tissues?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply procedures to prevent cross-contamination between tissues.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Inspect blocks, reject and re-embed items that do not meet quality control standards",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect blocks, reject and re-embed items that do not meet quality control standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect blocks, reject and re-embed items that do not meet quality control standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Embed tissue"
+    },
+    {
+      "id": "E3",
+      "title": "Cut sections of tissue",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Label required number of microscope slides in accordance with workplace traceability requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label required number of microscope slides in accordance with workplace traceability requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Label required number of microscope slides in accordance with workplace traceability requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Check the flotation bath is ready and satisfactory for use",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the flotation bath is ready and satisfactory for use?",
+          "benchmark_statement": "The candidate demonstrates that they can Check the flotation bath is ready and satisfactory for use.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Secure block in microtome following specified safety directions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Secure block in microtome following specified safety directions?",
+          "benchmark_statement": "The candidate demonstrates that they can Secure block in microtome following specified safety directions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Cut representative sections at the required thickness observing prescribed safety measures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut representative sections at the required thickness observing prescribed safety measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Cut representative sections at the required thickness observing prescribed safety measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Float sections onto water bath to flatten tissues and pick up sections onto microscope slides ensuring identification on slides matches that on the block",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Float sections onto water bath to flatten tissues and pick up sections onto microscope slides ensuring identification on slides matches that on the block?",
+          "benchmark_statement": "The candidate demonstrates that they can Float sections onto water bath to flatten tissues and pick up sections onto microscope slides ensuring identification on slides matches that on the block.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Compare the blocks and sections ensuring the tissue on slides matches that in the blocks",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare the blocks and sections ensuring the tissue on slides matches that in the blocks?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare the blocks and sections ensuring the tissue on slides matches that in the blocks.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Apply procedures to prevent cross-contamination between samples",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply procedures to prevent cross-contamination between samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply procedures to prevent cross-contamination between samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.8",
+          "text": "Inspect sections and reject any that do not meet quality control standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect sections and reject any that do not meet quality control standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect sections and reject any that do not meet quality control standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Cut sections of tissue"
+    },
+    {
+      "id": "E4",
+      "title": "Stain sections",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Label specimens in accordance with workplace traceability requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label specimens in accordance with workplace traceability requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Label specimens in accordance with workplace traceability requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Select reagents specified in workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select reagents specified in workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Select reagents specified in workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Stain sections according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Stain sections according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Stain sections according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Mount sections ensuring no bubbles",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Mount sections ensuring no bubbles?",
+          "benchmark_statement": "The candidate demonstrates that they can Mount sections ensuring no bubbles.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Examine sections microscopically to ensure expected staining outcomes have been achieved",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Examine sections microscopically to ensure expected staining outcomes have been achieved?",
+          "benchmark_statement": "The candidate demonstrates that they can Examine sections microscopically to ensure expected staining outcomes have been achieved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Inspect slides and reject any that do not meet quality control standards",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect slides and reject any that do not meet quality control standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect slides and reject any that do not meet quality control standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Stain sections"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Ensure personal safety and minimise cross-contamination using personal protective equipment (PPE)",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure personal safety and minimise cross-contamination using personal protective equipment (PPE)?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure personal safety and minimise cross-contamination using personal protective equipment (PPE).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Handle chemicals and sharps safely",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle chemicals and sharps safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle chemicals and sharps safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Process tissue",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to perform pre-use checks to ensure processor is fit for purpose?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-use checks to ensure proces",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-use checks to ensure processor is fit for purpose",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-use checks to ensure processor is fit for purpose.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use checks to ensure processor is fit for purpose?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-use checks to ensure processor is fit for purpose",
+      "knowledge_focus": [
+        "Perform pre-use checks to ensure processor is fit for purpose"
+      ],
+      "workplace_context_examples": [
+        "Process tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-use checks to ensure processor is fit for purpose"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-use checks to ensure processor is fit for purpose"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-use checks to ensure processor is fit for purpose."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Process tissue",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to check reagents are in sequential order?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check reagents are in sequential order.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check reagents are in sequential order",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check reagents are in sequential order.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check reagents are in sequential order?",
+      "practical_task_interpretation": "In practice this requires the worker to check reagents are in sequential order",
+      "knowledge_focus": [
+        "Check reagents are in sequential order"
+      ],
+      "workplace_context_examples": [
+        "Process tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check reagents are in sequential order"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check reagents are in sequential order"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check reagents are in sequential order."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Process tissue",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect processor reagents for deterior",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement",
+      "knowledge_focus": [
+        "Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement"
+      ],
+      "workplace_context_examples": [
+        "Process tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect processor reagents for deterioration and adequate volume, and report any items requiring replacement."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Embed tissue",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-use check to ensure embeddi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load",
+      "knowledge_focus": [
+        "Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load"
+      ],
+      "workplace_context_examples": [
+        "Embed tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-use check to ensure embedding centre is fit for purpose and uninterrupted embedding of processor load."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Embed tissue",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Embed tissue types in correct orientati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy?",
+      "practical_task_interpretation": "In practice this requires the worker to embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy",
+      "knowledge_focus": [
+        "Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy"
+      ],
+      "workplace_context_examples": [
+        "Embed tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Embed tissue types in correct orientation and characteristics that minimise tissue loss and artefacts during microtomy."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Embed tissue",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to apply procedures to prevent cross-contamination between tissues? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Apply procedures to prevent cross-conta",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to apply procedures to prevent cross-contamination between tissues",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Apply procedures to prevent cross-contamination between tissues.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply procedures to prevent cross-contamination between tissues?",
+      "practical_task_interpretation": "In practice this requires the worker to apply procedures to prevent cross-contamination between tissues",
+      "knowledge_focus": [
+        "Apply procedures to prevent cross-contamination between tissues"
+      ],
+      "workplace_context_examples": [
+        "Embed tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of apply procedures to prevent cross-contamination between tissues"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of apply procedures to prevent cross-contamination between tissues"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Apply procedures to prevent cross-contamination between tissues."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Cut sections of tissue",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to label required number of microscope slides in accordance with workplace traceability requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Label required number of microscope sli",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to label required number of microscope slides in accordance with workplace traceability requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Label required number of microscope slides in accordance with workplace traceability requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label required number of microscope slides in accordance with workplace traceability requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to label required number of microscope slides in accordance with workplace traceability requirements",
+      "knowledge_focus": [
+        "Label required number of microscope slides in accordance with workplace traceability requirements"
+      ],
+      "workplace_context_examples": [
+        "Cut sections of tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of label required number of microscope slides in accordance with workplace traceability requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of label required number of microscope slides in accordance with workplace traceability requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Label required number of microscope slides in accordance with workplace traceability requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Cut sections of tissue",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to check the flotation bath is ready and satisfactory for use?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check the flotation bath is ready and s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check the flotation bath is ready and satisfactory for use",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check the flotation bath is ready and satisfactory for use.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the flotation bath is ready and satisfactory for use?",
+      "practical_task_interpretation": "In practice this requires the worker to check the flotation bath is ready and satisfactory for use",
+      "knowledge_focus": [
+        "Check the flotation bath is ready and satisfactory for use"
+      ],
+      "workplace_context_examples": [
+        "Cut sections of tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check the flotation bath is ready and satisfactory for use"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check the flotation bath is ready and satisfactory for use"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check the flotation bath is ready and satisfactory for use."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Cut sections of tissue",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What are the key hazards and required controls associated with secure block in microtome following specified safety directions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Secure block in microtome following spe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to secure block in microtome following specified safety directions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Secure block in microtome following specified safety directions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Secure block in microtome following specified safety directions?",
+      "practical_task_interpretation": "In practice this requires the worker to secure block in microtome following specified safety directions",
+      "knowledge_focus": [
+        "Secure block in microtome following specified safety directions"
+      ],
+      "workplace_context_examples": [
+        "Cut sections of tissue"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of secure block in microtome following specified safety directions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of secure block in microtome following specified safety directions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Secure block in microtome following specified safety directions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Stain sections",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to label specimens in accordance with workplace traceability requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Label specimens in accordance with work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to label specimens in accordance with workplace traceability requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Label specimens in accordance with workplace traceability requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label specimens in accordance with workplace traceability requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to label specimens in accordance with workplace traceability requirements",
+      "knowledge_focus": [
+        "Label specimens in accordance with workplace traceability requirements"
+      ],
+      "workplace_context_examples": [
+        "Stain sections"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of label specimens in accordance with workplace traceability requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of label specimens in accordance with workplace traceability requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Label specimens in accordance with workplace traceability requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Stain sections",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What criteria determine how to select reagents specified in workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select reagents specified in workplace ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select reagents specified in workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select reagents specified in workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select reagents specified in workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to select reagents specified in workplace procedures",
+      "knowledge_focus": [
+        "Select reagents specified in workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Stain sections"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select reagents specified in workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select reagents specified in workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select reagents specified in workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Stain sections",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to stain sections according to workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Stain sections according to workplace p",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to stain sections according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Stain sections according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Stain sections according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to stain sections according to workplace procedures",
+      "knowledge_focus": [
+        "Stain sections according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Stain sections"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of stain sections according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of stain sections according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Stain sections according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.825132+00:00"
+}

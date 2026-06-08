@@ -1,0 +1,1133 @@
+{
+  "code": "MSL974026",
+  "title": "Perform tests to determine the properties of construction materials",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform tests to determine the properties of construction materials demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Interpret and schedule test requirements",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Access relevant job instructions from laboratory information management system (LIMS)",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access relevant job instructions from laboratory information management system (LIMS)?",
+          "benchmark_statement": "The candidate demonstrates that they can Access relevant job instructions from laboratory information management system (LIMS).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Interpret test request to confirm samples to be tested, the test method and equipment involved",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret test request to confirm samples to be tested, the test method and equipment involved?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret test request to confirm samples to be tested, the test method and equipment involved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Assemble all required equipment and materials",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble all required equipment and materials?",
+          "benchmark_statement": "The candidate demonstrates that they can Assemble all required equipment and materials.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Plan work sequences for optimum efficiency and/or throughput of multiple samples",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan work sequences for optimum efficiency and/or throughput of multiple samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan work sequences for optimum efficiency and/or throughput of multiple samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Interpret and schedule test requirements"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare samples or test pieces",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Retrieve samples and/or test pieces from storage and record their general appearance",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retrieve samples and/or test pieces from storage and record their general appearance?",
+          "benchmark_statement": "The candidate demonstrates that they can Retrieve samples and/or test pieces from storage and record their general appearance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Check the accuracy and completeness of accompanying labels and documentation to ensure traceability",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the accuracy and completeness of accompanying labels and documentation to ensure traceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Check the accuracy and completeness of accompanying labels and documentation to ensure traceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Check that the storage/curing conditions of samples and/or test pieces were appropriate",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that the storage/curing conditions of samples and/or test pieces were appropriate?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that the storage/curing conditions of samples and/or test pieces were appropriate.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Compare samples and/or test pieces with test specifications, record observations and report discrepancies",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare samples and/or test pieces with test specifications, record observations and report discrepancies?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare samples and/or test pieces with test specifications, record observations and report discrepancies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Prepare samples and/or test pieces in accordance with appropriate test method",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare samples and/or test pieces in accordance with appropriate test method?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare samples and/or test pieces in accordance with appropriate test method.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Conduct preliminary measurements to establish initial dimensions and test conditions as necessary",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct preliminary measurements to establish initial dimensions and test conditions as necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct preliminary measurements to establish initial dimensions and test conditions as necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare samples or test pieces"
+    },
+    {
+      "id": "E3",
+      "title": "Check test equipment before use",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Set up test equipment/instruments in accordance with test method",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up test equipment/instruments in accordance with test method?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up test equipment/instruments in accordance with test method.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Perform pre-use and safety checks in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use and safety checks in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform pre-use and safety checks in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Identify faulty or unsafe equipment/instruments and report to appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify faulty or unsafe equipment/instruments and report to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify faulty or unsafe equipment/instruments and report to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Check calibration status of instruments and report any out-of-calibration items to appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check calibration status of instruments and report any out-of-calibration items to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Check calibration status of instruments and report any out-of-calibration items to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Check test equipment before use"
+    },
+    {
+      "id": "E4",
+      "title": "Conduct test to determine sample properties",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Perform each treatment/measurement stage of the test method precisely and in the correct sequence",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform each treatment/measurement stage of the test method precisely and in the correct sequence?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform each treatment/measurement stage of the test method precisely and in the correct sequence.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Record all data, observations and any factors that may impact on the quality of results",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all data, observations and any factors that may impact on the quality of results?",
+          "benchmark_statement": "The candidate demonstrates that they can Record all data, observations and any factors that may impact on the quality of results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Recognise obvious errors or atypical data and take appropriate corrective actions",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise obvious errors or atypical data and take appropriate corrective actions?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise obvious errors or atypical data and take appropriate corrective actions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Seek advice to deal with any situation beyond own technical competence",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice to deal with any situation beyond own technical competence?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek advice to deal with any situation beyond own technical competence.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Shut down test equipment/instruments in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Shut down test equipment/instruments in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Shut down test equipment/instruments in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Conduct test to determine sample properties"
+    },
+    {
+      "id": "E5",
+      "title": "Process and interpret data",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Check data for accuracy and completeness",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check data for accuracy and completeness?",
+          "benchmark_statement": "The candidate demonstrates that they can Check data for accuracy and completeness.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Perform required calculations and ensure results are consistent with expected values for the sample type",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform required calculations and ensure results are consistent with expected values for the sample type?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform required calculations and ensure results are consistent with expected values for the sample type.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Record and report results with the appropriate accuracy, precision and units",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and report results with the appropriate accuracy, precision and units?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and report results with the appropriate accuracy, precision and units.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Interpret trends in data and/or results and report out of specification or unexpected results promptly to appropriate personnel",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret trends in data and/or results and report out of specification or unexpected results promptly to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret trends in data and/or results and report out of specification or unexpected results promptly to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Determine if obvious procedure or equipment problems have led to unexpected data or results",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine if obvious procedure or equipment problems have led to unexpected data or results?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine if obvious procedure or equipment problems have led to unexpected data or results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Process and interpret data"
+    },
+    {
+      "id": "E6",
+      "title": "Maintain laboratory records",
+      "pcs": [
+        {
+          "id": "6.1",
+          "text": "Enter approved data and test results into LIMS",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Enter approved data and test results into LIMS?",
+          "benchmark_statement": "The candidate demonstrates that they can Enter approved data and test results into LIMS.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.2",
+          "text": "Maintain confidentiality and security of workplace information and test results",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain confidentiality and security of workplace information and test results?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain confidentiality and security of workplace information and test results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "6.3",
+          "text": "Maintain technical/administrative records and test reports in accordance with workplace procedures",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain technical/administrative records and test reports in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain technical/administrative records and test reports in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E6: Maintain laboratory records"
+    },
+    {
+      "id": "E7",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "7.1",
+          "text": "Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of others",
+          "element_id": "E7",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of others?",
+          "benchmark_statement": "The candidate demonstrates that they can Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of others.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "7.2",
+          "text": "Minimise generation of wastes and environmental impacts of testing",
+          "element_id": "E7",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise generation of wastes and environmental impacts of testing?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise generation of wastes and environmental impacts of testing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "7.3",
+          "text": "Collect and/or dispose of all waste in accordance with environmental/quarantine requirements and workplace procedures",
+          "element_id": "E7",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collect and/or dispose of all waste in accordance with environmental/quarantine requirements and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Collect and/or dispose of all waste in accordance with environmental/quarantine requirements and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "7.4",
+          "text": "Care for and store equipment, used test pieces and back-up samples in accordance with workplace procedures",
+          "element_id": "E7",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Care for and store equipment, used test pieces and back-up samples in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Care for and store equipment, used test pieces and back-up samples in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E7: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Interpret and schedule test requirements",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be communicated when access relevant job instructions from laboratory information management system (lims), and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access relevant job instructions from l",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access relevant job instructions from laboratory information management system (lims)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access relevant job instructions from laboratory information management system (LIMS).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access relevant job instructions from laboratory information management system (LIMS)?",
+      "practical_task_interpretation": "In practice this requires the worker to access relevant job instructions from laboratory information management system (lims)",
+      "knowledge_focus": [
+        "Access relevant job instructions from laboratory information management system (LIMS)"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule test requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access relevant job instructions from laboratory information management system (lims)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access relevant job instructions from laboratory information management system (lims)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access relevant job instructions from laboratory information management system (LIMS)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Interpret and schedule test requirements",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to interpret test request to confirm samples to be tested, the test method and equipment involved?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret test request to confirm sampl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret test request to confirm samples to be tested, the test method and equipment involved",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret test request to confirm samples to be tested, the test method and equipment involved.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret test request to confirm samples to be tested, the test method and equipment involved?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret test request to confirm samples to be tested, the test method and equipment involved",
+      "knowledge_focus": [
+        "Interpret test request to confirm samples to be tested, the test method and equipment involved"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule test requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret test request to confirm samples to be tested, the test method and equipment involved"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret test request to confirm samples to be tested, the test method and equipment involved"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret test request to confirm samples to be tested, the test method and equipment involved."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Interpret and schedule test requirements",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify hazards and workplace controls",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment",
+      "knowledge_focus": [
+        "Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule test requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify hazards and workplace controls associated with the sample, preparation methods, reagents and/or equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare samples or test pieces",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you retrieve samples and/or test pieces from storage and record their general appearance, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Retrieve samples and/or test pieces fro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to retrieve samples and/or test pieces from storage and record their general appearance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Retrieve samples and/or test pieces from storage and record their general appearance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retrieve samples and/or test pieces from storage and record their general appearance?",
+      "practical_task_interpretation": "In practice this requires the worker to retrieve samples and/or test pieces from storage and record their general appearance",
+      "knowledge_focus": [
+        "Retrieve samples and/or test pieces from storage and record their general appearance"
+      ],
+      "workplace_context_examples": [
+        "Prepare samples or test pieces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of retrieve samples and/or test pieces from storage and record their general appearance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of retrieve samples and/or test pieces from storage and record their general appearance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Retrieve samples and/or test pieces from storage and record their general appearance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare samples or test pieces",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to check the accuracy and completeness of accompanying labels and documentation to ensure traceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check the accuracy and completeness of ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check the accuracy and completeness of accompanying labels and documentation to ensure traceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check the accuracy and completeness of accompanying labels and documentation to ensure traceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the accuracy and completeness of accompanying labels and documentation to ensure traceability?",
+      "practical_task_interpretation": "In practice this requires the worker to check the accuracy and completeness of accompanying labels and documentation to ensure traceability",
+      "knowledge_focus": [
+        "Check the accuracy and completeness of accompanying labels and documentation to ensure traceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare samples or test pieces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check the accuracy and completeness of accompanying labels and documentation to ensure traceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check the accuracy and completeness of accompanying labels and documentation to ensure traceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check the accuracy and completeness of accompanying labels and documentation to ensure traceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare samples or test pieces",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to check that the storage/curing conditions of samples and/or test pieces were appropriate?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that the storage/curing condition",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that the storage/curing conditions of samples and/or test pieces were appropriate",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check that the storage/curing conditions of samples and/or test pieces were appropriate.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that the storage/curing conditions of samples and/or test pieces were appropriate?",
+      "practical_task_interpretation": "In practice this requires the worker to check that the storage/curing conditions of samples and/or test pieces were appropriate",
+      "knowledge_focus": [
+        "Check that the storage/curing conditions of samples and/or test pieces were appropriate"
+      ],
+      "workplace_context_examples": [
+        "Prepare samples or test pieces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that the storage/curing conditions of samples and/or test pieces were appropriate"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that the storage/curing conditions of samples and/or test pieces were appropriate"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that the storage/curing conditions of samples and/or test pieces were appropriate."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Check test equipment before use",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What steps are required to set up test equipment/instruments in accordance with test method, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up test equipment/instruments in ac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up test equipment/instruments in accordance with test method",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Set up test equipment/instruments in accordance with test method.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up test equipment/instruments in accordance with test method?",
+      "practical_task_interpretation": "In practice this requires the worker to set up test equipment/instruments in accordance with test method",
+      "knowledge_focus": [
+        "Set up test equipment/instruments in accordance with test method"
+      ],
+      "workplace_context_examples": [
+        "Check test equipment before use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up test equipment/instruments in accordance with test method"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up test equipment/instruments in accordance with test method"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up test equipment/instruments in accordance with test method."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Check test equipment before use",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to perform pre-use and safety checks in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform pre-use and safety checks in ac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform pre-use and safety checks in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Perform pre-use and safety checks in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform pre-use and safety checks in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to perform pre-use and safety checks in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Perform pre-use and safety checks in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Check test equipment before use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform pre-use and safety checks in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform pre-use and safety checks in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform pre-use and safety checks in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Check test equipment before use",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to identify faulty or unsafe equipment/instruments and report to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify faulty or unsafe equipment/ins",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify faulty or unsafe equipment/instruments and report to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify faulty or unsafe equipment/instruments and report to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify faulty or unsafe equipment/instruments and report to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to identify faulty or unsafe equipment/instruments and report to appropriate personnel",
+      "knowledge_focus": [
+        "Identify faulty or unsafe equipment/instruments and report to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Check test equipment before use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify faulty or unsafe equipment/instruments and report to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify faulty or unsafe equipment/instruments and report to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify faulty or unsafe equipment/instruments and report to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Conduct test to determine sample properties",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to perform each treatment/measurement stage of the test method precisely and in the correct sequence? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform each treatment/measurement stag",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform each treatment/measurement stage of the test method precisely and in the correct sequence",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform each treatment/measurement stage of the test method precisely and in the correct sequence.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform each treatment/measurement stage of the test method precisely and in the correct sequence?",
+      "practical_task_interpretation": "In practice this requires the worker to perform each treatment/measurement stage of the test method precisely and in the correct sequence",
+      "knowledge_focus": [
+        "Perform each treatment/measurement stage of the test method precisely and in the correct sequence"
+      ],
+      "workplace_context_examples": [
+        "Conduct test to determine sample properties"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform each treatment/measurement stage of the test method precisely and in the correct sequence"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform each treatment/measurement stage of the test method precisely and in the correct sequence"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform each treatment/measurement stage of the test method precisely and in the correct sequence."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Conduct test to determine sample properties",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you record all data, observations and any factors that may impact on the quality of results, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record all data, observations and any f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record all data, observations and any factors that may impact on the quality of results",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record all data, observations and any factors that may impact on the quality of results.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all data, observations and any factors that may impact on the quality of results?",
+      "practical_task_interpretation": "In practice this requires the worker to record all data, observations and any factors that may impact on the quality of results",
+      "knowledge_focus": [
+        "Record all data, observations and any factors that may impact on the quality of results"
+      ],
+      "workplace_context_examples": [
+        "Conduct test to determine sample properties"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record all data, observations and any factors that may impact on the quality of results"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record all data, observations and any factors that may impact on the quality of results"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record all data, observations and any factors that may impact on the quality of results."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Conduct test to determine sample properties",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to recognise obvious errors or atypical data and take appropriate corrective actions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise obvious errors or atypical da",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise obvious errors or atypical data and take appropriate corrective actions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise obvious errors or atypical data and take appropriate corrective actions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise obvious errors or atypical data and take appropriate corrective actions?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise obvious errors or atypical data and take appropriate corrective actions",
+      "knowledge_focus": [
+        "Recognise obvious errors or atypical data and take appropriate corrective actions"
+      ],
+      "workplace_context_examples": [
+        "Conduct test to determine sample properties"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise obvious errors or atypical data and take appropriate corrective actions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise obvious errors or atypical data and take appropriate corrective actions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise obvious errors or atypical data and take appropriate corrective actions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.828558+00:00"
+}

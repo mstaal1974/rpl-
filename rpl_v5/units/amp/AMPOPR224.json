@@ -1,0 +1,761 @@
+{
+  "code": "AMPOPR224",
+  "title": "Use numeracy skills in meat processing",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Use numeracy skills in meat processing demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Use familiar basic metric measurements",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Operate meat scales",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate meat scales?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate meat scales.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Tare scales",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tare scales?",
+          "benchmark_statement": "The candidate demonstrates that they can Tare scales.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Weigh meat and/or ingredients using grams and kilograms, to two decimal places",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh meat and/or ingredients using grams and kilograms, to two decimal places?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh meat and/or ingredients using grams and kilograms, to two decimal places.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Read temperature scales and/or gauges, to one decimal place",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Read temperature scales and/or gauges, to one decimal place?",
+          "benchmark_statement": "The candidate demonstrates that they can Read temperature scales and/or gauges, to one decimal place.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Use familiar basic metric measurements"
+    },
+    {
+      "id": "E2",
+      "title": "Estimate weights and measures",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Estimate weights of meat products",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate weights of meat products?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate weights of meat products.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Check estimations are roughly correct",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check estimations are roughly correct?",
+          "benchmark_statement": "The candidate demonstrates that they can Check estimations are roughly correct.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Estimate weights and measures"
+    },
+    {
+      "id": "E3",
+      "title": "Use basic calculations",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Add weights and measures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Add weights and measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Add weights and measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Subtract weights and measures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Subtract weights and measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Subtract weights and measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Divide weights and measures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Divide weights and measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Divide weights and measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Multiply weights and measures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Multiply weights and measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Multiply weights and measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Carry out basic calculations in the head",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out basic calculations in the head?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out basic calculations in the head.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Use basic calculations"
+    },
+    {
+      "id": "E4",
+      "title": "Use simple everyday fractions and decimals",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Use simple fractions when dividing meat and/or ingredient quantities",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use simple fractions when dividing meat and/or ingredient quantities?",
+          "benchmark_statement": "The candidate demonstrates that they can Use simple fractions when dividing meat and/or ingredient quantities.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Use everyday decimals when dividing or multiplying meat and/or ingredients",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use everyday decimals when dividing or multiplying meat and/or ingredients?",
+          "benchmark_statement": "The candidate demonstrates that they can Use everyday decimals when dividing or multiplying meat and/or ingredients.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Use simple everyday fractions and decimals"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Use familiar basic metric measurements",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to operate meat scales? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate meat scales.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate meat scales",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate meat scales.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate meat scales?",
+      "practical_task_interpretation": "In practice this requires the worker to operate meat scales",
+      "knowledge_focus": [
+        "Operate meat scales"
+      ],
+      "workplace_context_examples": [
+        "Use familiar basic metric measurements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate meat scales"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate meat scales"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate meat scales."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Use familiar basic metric measurements",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to tare scales? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Tare scales.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to tare scales",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Tare scales.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tare scales?",
+      "practical_task_interpretation": "In practice this requires the worker to tare scales",
+      "knowledge_focus": [
+        "Tare scales"
+      ],
+      "workplace_context_examples": [
+        "Use familiar basic metric measurements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of tare scales"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of tare scales"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Tare scales."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Use familiar basic metric measurements",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What information must be recorded when you weigh meat and/or ingredients using grams and kilograms, to two decimal places, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh meat and/or ingredients using gra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh meat and/or ingredients using grams and kilograms, to two decimal places",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh meat and/or ingredients using grams and kilograms, to two decimal places.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh meat and/or ingredients using grams and kilograms, to two decimal places?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh meat and/or ingredients using grams and kilograms, to two decimal places",
+      "knowledge_focus": [
+        "Weigh meat and/or ingredients using grams and kilograms, to two decimal places"
+      ],
+      "workplace_context_examples": [
+        "Use familiar basic metric measurements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh meat and/or ingredients using grams and kilograms, to two decimal places"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh meat and/or ingredients using grams and kilograms, to two decimal places"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh meat and/or ingredients using grams and kilograms, to two decimal places."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Estimate weights and measures",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to estimate weights of meat products? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate weights of meat products.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate weights of meat products",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate weights of meat products.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate weights of meat products?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate weights of meat products",
+      "knowledge_focus": [
+        "Estimate weights of meat products"
+      ],
+      "workplace_context_examples": [
+        "Estimate weights and measures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate weights of meat products"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate weights of meat products"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate weights of meat products."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Estimate weights and measures",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to check estimations are roughly correct?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check estimations are roughly correct.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check estimations are roughly correct",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check estimations are roughly correct.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check estimations are roughly correct?",
+      "practical_task_interpretation": "In practice this requires the worker to check estimations are roughly correct",
+      "knowledge_focus": [
+        "Check estimations are roughly correct"
+      ],
+      "workplace_context_examples": [
+        "Estimate weights and measures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check estimations are roughly correct"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check estimations are roughly correct"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check estimations are roughly correct."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Use basic calculations",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to add weights and measures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Add weights and measures.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to add weights and measures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Add weights and measures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Add weights and measures?",
+      "practical_task_interpretation": "In practice this requires the worker to add weights and measures",
+      "knowledge_focus": [
+        "Add weights and measures"
+      ],
+      "workplace_context_examples": [
+        "Use basic calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of add weights and measures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of add weights and measures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Add weights and measures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Use basic calculations",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to subtract weights and measures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Subtract weights and measures.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to subtract weights and measures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Subtract weights and measures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Subtract weights and measures?",
+      "practical_task_interpretation": "In practice this requires the worker to subtract weights and measures",
+      "knowledge_focus": [
+        "Subtract weights and measures"
+      ],
+      "workplace_context_examples": [
+        "Use basic calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of subtract weights and measures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of subtract weights and measures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Subtract weights and measures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Use basic calculations",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to divide weights and measures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Divide weights and measures.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to divide weights and measures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Divide weights and measures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Divide weights and measures?",
+      "practical_task_interpretation": "In practice this requires the worker to divide weights and measures",
+      "knowledge_focus": [
+        "Divide weights and measures"
+      ],
+      "workplace_context_examples": [
+        "Use basic calculations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of divide weights and measures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of divide weights and measures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Divide weights and measures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Use simple everyday fractions and decimals",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to use simple fractions when dividing meat and/or ingredient quantities? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use simple fractions when dividing meat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use simple fractions when dividing meat and/or ingredient quantities",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use simple fractions when dividing meat and/or ingredient quantities.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use simple fractions when dividing meat and/or ingredient quantities?",
+      "practical_task_interpretation": "In practice this requires the worker to use simple fractions when dividing meat and/or ingredient quantities",
+      "knowledge_focus": [
+        "Use simple fractions when dividing meat and/or ingredient quantities"
+      ],
+      "workplace_context_examples": [
+        "Use simple everyday fractions and decimals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use simple fractions when dividing meat and/or ingredient quantities"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use simple fractions when dividing meat and/or ingredient quantities"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use simple fractions when dividing meat and/or ingredient quantities."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Use simple everyday fractions and decimals",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to use everyday decimals when dividing or multiplying meat and/or ingredients? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use everyday decimals when dividing or ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use everyday decimals when dividing or multiplying meat and/or ingredients",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use everyday decimals when dividing or multiplying meat and/or ingredients.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use everyday decimals when dividing or multiplying meat and/or ingredients?",
+      "practical_task_interpretation": "In practice this requires the worker to use everyday decimals when dividing or multiplying meat and/or ingredients",
+      "knowledge_focus": [
+        "Use everyday decimals when dividing or multiplying meat and/or ingredients"
+      ],
+      "workplace_context_examples": [
+        "Use simple everyday fractions and decimals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use everyday decimals when dividing or multiplying meat and/or ingredients"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use everyday decimals when dividing or multiplying meat and/or ingredients"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use everyday decimals when dividing or multiplying meat and/or ingredients."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.146845+00:00"
+}

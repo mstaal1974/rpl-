@@ -1,0 +1,950 @@
+{
+  "code": "AMPQUA411",
+  "title": "Calculate carcase yield in a boning room",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Calculate carcase yield in a boning room demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Establish the classes of animal that impact on carcase yields",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish the classes of animal that impact on carcase yields?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish the classes of animal that impact on carcase yields.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Determine the variables that impact on carcase yields",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine the variables that impact on carcase yields?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine the variables that impact on carcase yields.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify health, safety and food safety hazards for the work task, and implement control measures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health, safety and food safety hazards for the work task, and implement control measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health, safety and food safety hazards for the work task, and implement control measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Calculate yield of a single carcase",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Establish the carcase weight to be used for calculation according to workplace specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish the carcase weight to be used for calculation according to workplace specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish the carcase weight to be used for calculation according to workplace specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Confirm class of animal to be assessed according to workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm class of animal to be assessed according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm class of animal to be assessed according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify and weigh cuts that constitute a full set",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh cuts that constitute a full set?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and weigh cuts that constitute a full set.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify and weigh other meat products recovered, including trim and other meat recovered",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh other meat products recovered, including trim and other meat recovered?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and weigh other meat products recovered, including trim and other meat recovered.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Identify and weigh fat and bones, including rib frames and H bone waste",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh fat and bones, including rib frames and H bone waste?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and weigh fat and bones, including rib frames and H bone waste.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Calculate percentage yield of the full set, total meat, fat and bone",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate percentage yield of the full set, total meat, fat and bone?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate percentage yield of the full set, total meat, fat and bone.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Perform tasks according to health and safety, hygiene and workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform tasks according to health and safety, hygiene and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform tasks according to health and safety, hygiene and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Calculate yield of a single carcase"
+    },
+    {
+      "id": "E3",
+      "title": "Calculate yield of a single product",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify and weigh individual cuts to calculate yield",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh individual cuts to calculate yield?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and weigh individual cuts to calculate yield.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Calculate percentage yield for each muscle group",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate percentage yield for each muscle group?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate percentage yield for each muscle group.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Calculate yield of a single product"
+    },
+    {
+      "id": "E4",
+      "title": "Calculate carcase and product yield for a production period",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify and collect production run weights for cuts that constitute the full set",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and collect production run weights for cuts that constitute the full set?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and collect production run weights for cuts that constitute the full set.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Identify and collect production run weights for other meat recovered",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and collect production run weights for other meat recovered?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and collect production run weights for other meat recovered.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Calculate total meat yield",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate total meat yield?",
+          "benchmark_statement": "The candidate demonstrates that they can Calculate total meat yield.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Determine appropriate expected yields",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine appropriate expected yields?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine appropriate expected yields.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Compare results with company tolerances for differences between achieved and expected yields",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare results with company tolerances for differences between achieved and expected yields?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare results with company tolerances for differences between achieved and expected yields.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Calculate carcase and product yield for a production period"
+    },
+    {
+      "id": "E5",
+      "title": "Identify ways to correct differences between achieved and expected yields",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Determine potential causes of differences between actual and expected yields according to workplace specifications",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine potential causes of differences between actual and expected yields according to workplace specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine potential causes of differences between actual and expected yields according to workplace specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Report on potential methods to achieve expected yields according to workplace requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report on potential methods to achieve expected yields according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Report on potential methods to achieve expected yields according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Identify ways to correct differences between achieved and expected yields"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What steps are required to establish the classes of animal that impact on carcase yields, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish the classes of animal that im",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish the classes of animal that impact on carcase yields",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Establish the classes of animal that impact on carcase yields.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish the classes of animal that impact on carcase yields?",
+      "practical_task_interpretation": "In practice this requires the worker to establish the classes of animal that impact on carcase yields",
+      "knowledge_focus": [
+        "Establish the classes of animal that impact on carcase yields"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish the classes of animal that impact on carcase yields"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish the classes of animal that impact on carcase yields"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish the classes of animal that impact on carcase yields."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to determine the variables that impact on carcase yields?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine the variables that impact on ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine the variables that impact on carcase yields",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine the variables that impact on carcase yields.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine the variables that impact on carcase yields?",
+      "practical_task_interpretation": "In practice this requires the worker to determine the variables that impact on carcase yields",
+      "knowledge_focus": [
+        "Determine the variables that impact on carcase yields"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine the variables that impact on carcase yields"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine the variables that impact on carcase yields"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine the variables that impact on carcase yields."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify health, safety and food safety hazards for the work task, and implement control measures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify health, safety and food safety",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify health, safety and food safety hazards for the work task, and implement control measures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify health, safety and food safety hazards for the work task, and implement control measures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health, safety and food safety hazards for the work task, and implement control measures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify health, safety and food safety hazards for the work task, and implement control measures",
+      "knowledge_focus": [
+        "Identify health, safety and food safety hazards for the work task, and implement control measures"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify health, safety and food safety hazards for the work task, and implement control measures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify health, safety and food safety hazards for the work task, and implement control measures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify health, safety and food safety hazards for the work task, and implement control measures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Calculate yield of a single carcase",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to establish the carcase weight to be used for calculation according to workplace specifications, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish the carcase weight to be used",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish the carcase weight to be used for calculation according to workplace specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Establish the carcase weight to be used for calculation according to workplace specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish the carcase weight to be used for calculation according to workplace specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to establish the carcase weight to be used for calculation according to workplace specifications",
+      "knowledge_focus": [
+        "Establish the carcase weight to be used for calculation according to workplace specifications"
+      ],
+      "workplace_context_examples": [
+        "Calculate yield of a single carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish the carcase weight to be used for calculation according to workplace specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish the carcase weight to be used for calculation according to workplace specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish the carcase weight to be used for calculation according to workplace specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Calculate yield of a single carcase",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to confirm class of animal to be assessed according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm class of animal to be assessed ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm class of animal to be assessed according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm class of animal to be assessed according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm class of animal to be assessed according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm class of animal to be assessed according to workplace requirements",
+      "knowledge_focus": [
+        "Confirm class of animal to be assessed according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Calculate yield of a single carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm class of animal to be assessed according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm class of animal to be assessed according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm class of animal to be assessed according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Calculate yield of a single carcase",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify and weigh cuts that constitute a full set?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and weigh cuts that constitute",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and weigh cuts that constitute a full set",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and weigh cuts that constitute a full set.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh cuts that constitute a full set?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and weigh cuts that constitute a full set",
+      "knowledge_focus": [
+        "Identify and weigh cuts that constitute a full set"
+      ],
+      "workplace_context_examples": [
+        "Calculate yield of a single carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and weigh cuts that constitute a full set"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and weigh cuts that constitute a full set"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and weigh cuts that constitute a full set."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Calculate yield of a single product",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify and weigh individual cuts to calculate yield?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and weigh individual cuts to c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and weigh individual cuts to calculate yield",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and weigh individual cuts to calculate yield.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and weigh individual cuts to calculate yield?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and weigh individual cuts to calculate yield",
+      "knowledge_focus": [
+        "Identify and weigh individual cuts to calculate yield"
+      ],
+      "workplace_context_examples": [
+        "Calculate yield of a single product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and weigh individual cuts to calculate yield"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and weigh individual cuts to calculate yield"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and weigh individual cuts to calculate yield."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Calculate yield of a single product",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to calculate percentage yield for each muscle group? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate percentage yield for each mus",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate percentage yield for each muscle group",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate percentage yield for each muscle group.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate percentage yield for each muscle group?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate percentage yield for each muscle group",
+      "knowledge_focus": [
+        "Calculate percentage yield for each muscle group"
+      ],
+      "workplace_context_examples": [
+        "Calculate yield of a single product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate percentage yield for each muscle group"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate percentage yield for each muscle group"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate percentage yield for each muscle group."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Calculate carcase and product yield for a production period",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify and collect production run weights for cuts that constitute the full set?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and collect production run wei",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and collect production run weights for cuts that constitute the full set",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and collect production run weights for cuts that constitute the full set.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and collect production run weights for cuts that constitute the full set?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and collect production run weights for cuts that constitute the full set",
+      "knowledge_focus": [
+        "Identify and collect production run weights for cuts that constitute the full set"
+      ],
+      "workplace_context_examples": [
+        "Calculate carcase and product yield for a production period"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and collect production run weights for cuts that constitute the full set"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and collect production run weights for cuts that constitute the full set"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and collect production run weights for cuts that constitute the full set."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Calculate carcase and product yield for a production period",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to identify and collect production run weights for other meat recovered?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and collect production run wei",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and collect production run weights for other meat recovered",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and collect production run weights for other meat recovered.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and collect production run weights for other meat recovered?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and collect production run weights for other meat recovered",
+      "knowledge_focus": [
+        "Identify and collect production run weights for other meat recovered"
+      ],
+      "workplace_context_examples": [
+        "Calculate carcase and product yield for a production period"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and collect production run weights for other meat recovered"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and collect production run weights for other meat recovered"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and collect production run weights for other meat recovered."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Calculate carcase and product yield for a production period",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to calculate total meat yield? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Calculate total meat yield.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to calculate total meat yield",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Calculate total meat yield.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Calculate total meat yield?",
+      "practical_task_interpretation": "In practice this requires the worker to calculate total meat yield",
+      "knowledge_focus": [
+        "Calculate total meat yield"
+      ],
+      "workplace_context_examples": [
+        "Calculate carcase and product yield for a production period"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of calculate total meat yield"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of calculate total meat yield"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Calculate total meat yield."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Identify ways to correct differences between achieved and expected yields",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What factors would you consider when you need to determine potential causes of differences between actual and expected yields according to workplace specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine potential causes of differenc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine potential causes of differences between actual and expected yields according to workplace specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine potential causes of differences between actual and expected yields according to workplace specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine potential causes of differences between actual and expected yields according to workplace specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to determine potential causes of differences between actual and expected yields according to workplace specifications",
+      "knowledge_focus": [
+        "Determine potential causes of differences between actual and expected yields according to workplace specifications"
+      ],
+      "workplace_context_examples": [
+        "Identify ways to correct differences between achieved and expected yields"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine potential causes of differences between actual and expected yields according to workplace specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine potential causes of differences between actual and expected yields according to workplace specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine potential causes of differences between actual and expected yields according to workplace specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.258213+00:00"
+}

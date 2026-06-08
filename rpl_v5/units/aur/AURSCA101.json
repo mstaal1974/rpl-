@@ -1,0 +1,263 @@
+{
+  "code": "AURSCA101",
+  "title": "Select and supply automotive parts and products",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Select and supply automotive parts and products demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Determine required information relating to part or product",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information?",
+          "benchmark_statement": "The candidate demonstrates that they can Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Determine required information relating to part or product"
+    },
+    {
+      "id": "E2",
+      "title": "Identify part or product and record details",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify part or product and record details"
+    },
+    {
+      "id": "E3",
+      "title": "Supply or order part or product",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Supply or order part or product"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Determine required information relating to part or product",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to gather and document available information on required item and confirm with customer1.2 determine original host for the part or product from available information?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Gather and document available informati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to gather and document available information on required item and confirm with customer1.2 determine original host for the part or product from available information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information?",
+      "practical_task_interpretation": "In practice this requires the worker to gather and document available information on required item and confirm with customer1.2 determine original host for the part or product from available information",
+      "knowledge_focus": [
+        "Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information"
+      ],
+      "workplace_context_examples": [
+        "Determine required information relating to part or product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of gather and document available information on required item and confirm with customer1.2 determine original host for the part or product from available information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of gather and document available information on required item and confirm with customer1.2 determine original host for the part or product from available information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Gather and document available information on required item and confirm with customer1.2 Determine original host for the part or product from available information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Identify part or product and record details",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify and access index system for part or product host 2.2 match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 seek clarification regarding potential match from supplier as required2.4 document and process identifying details of part or product?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and access index system for pa",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and access index system for part or product host 2.2 match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 seek clarification regarding potential match from supplier as required2.4 document and process identifying details of part or product",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and access index system for part or product host 2.2 match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 seek clarification regarding potential match from supplier as required2.4 document and process identifying details of part or product",
+      "knowledge_focus": [
+        "Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product"
+      ],
+      "workplace_context_examples": [
+        "Identify part or product and record details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and access index system for part or product host 2.2 match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 seek clarification regarding potential match from supplier as required2.4 document and process identifying details of part or product"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and access index system for part or product host 2.2 match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 seek clarification regarding potential match from supplier as required2.4 document and process identifying details of part or product"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and access index system for part or product host 2.2 Match part or product with cataloguing information using the parts index system, its aids and user guides, and identify potential suppliers 2.3 Seek clarification regarding potential match from supplier as required2.4 Document and process identifying details of part or product."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Supply or order part or product",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you supply part to customer or order if not in stock according to workplace procedures3.2 process workplace documentation according to workplace procedures3.3 update customer records according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Supply part to customer or order if not",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to supply part to customer or order if not in stock according to workplace procedures3.2 process workplace documentation according to workplace procedures3.3 update customer records according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to supply part to customer or order if not in stock according to workplace procedures3.2 process workplace documentation according to workplace procedures3.3 update customer records according to workplace procedures",
+      "knowledge_focus": [
+        "Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Supply or order part or product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of supply part to customer or order if not in stock according to workplace procedures3.2 process workplace documentation according to workplace procedures3.3 update customer records according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of supply part to customer or order if not in stock according to workplace procedures3.2 process workplace documentation according to workplace procedures3.3 update customer records according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Supply part to customer or order if not in stock according to workplace procedures3.2 Process workplace documentation according to workplace procedures3.3 Update customer records according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.048390+00:00"
+}

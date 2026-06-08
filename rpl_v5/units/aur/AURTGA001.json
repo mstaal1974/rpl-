@@ -1,0 +1,335 @@
+{
+  "code": "AURTGA001",
+  "title": "Drive and manoeuvre trailers",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Drive and manoeuvre trailers demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Carry out trailer safety inspection",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Carry out trailer safety inspection"
+    },
+    {
+      "id": "E2",
+      "title": "Connect trailer to vehicle",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Connect trailer to vehicle"
+    },
+    {
+      "id": "E3",
+      "title": "Drive and manoeuvre trailer",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment?",
+          "benchmark_statement": "The candidate demonstrates that they can Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Drive and manoeuvre trailer"
+    },
+    {
+      "id": "E4",
+      "title": "Disconnect trailer from vehicle",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations?",
+          "benchmark_statement": "The candidate demonstrates that they can Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Disconnect trailer from vehicle"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Carry out trailer safety inspection",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Pre-operational inspections and checks ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures",
+      "knowledge_focus": [
+        "Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Carry out trailer safety inspection"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Pre-operational inspections and checks of trailer are carried out according to manufacturer specifications and workplace procedures1.2 Trailer load is inspected and secured according to manufacturer specifications and workplace procedures1.3 Safe condition of towing vehicle is determined according to manufacturer specifications and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Connect trailer to vehicle",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 faults are identified and action is taken to report them according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trailer and vehicle are aligned and tra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 faults are identified and action is taken to report them according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 faults are identified and action is taken to report them according to workplace procedures",
+      "knowledge_focus": [
+        "Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Connect trailer to vehicle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 faults are identified and action is taken to report them according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 faults are identified and action is taken to report them according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trailer and vehicle are aligned and trailer is coupled to vehicle according to manufacturer specifications, workplace procedures and safety requirements2.2 Ancillary devices are connected between vehicle and trailer according to manufacturer specifications and workplace procedures2.3 Trailer and vehicle connections are tested according to manufacturer specifications and workplace procedures2.4 Faults are identified and action is taken to report them according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Drive and manoeuvre trailer",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with brake lock-out devices are set according to manufacturer procedures3.2 trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Brake lock-out devices are set accordin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to brake lock-out devices are set according to manufacturer procedures3.2 trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment?",
+      "practical_task_interpretation": "In practice this requires the worker to brake lock-out devices are set according to manufacturer procedures3.2 trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment",
+      "knowledge_focus": [
+        "Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment"
+      ],
+      "workplace_context_examples": [
+        "Drive and manoeuvre trailer"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of brake lock-out devices are set according to manufacturer procedures3.2 trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of brake lock-out devices are set according to manufacturer procedures3.2 trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Brake lock-out devices are set according to manufacturer procedures3.2 Trailer is safely manoeuvred by vehicle in forward and reverse directions and parked according to road safety regulations, and without causing damage to trailer, towing vehicle, other vehicles or surrounding environment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Disconnect trailer from vehicle",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 trailer or vehicle is placed in appropriate parking area according to road safety regulations?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Parking devices of trailer and vehicle ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 trailer or vehicle is placed in appropriate parking area according to road safety regulations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations?",
+      "practical_task_interpretation": "In practice this requires the worker to parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 trailer or vehicle is placed in appropriate parking area according to road safety regulations",
+      "knowledge_focus": [
+        "Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations"
+      ],
+      "workplace_context_examples": [
+        "Disconnect trailer from vehicle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 trailer or vehicle is placed in appropriate parking area according to road safety regulations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 trailer or vehicle is placed in appropriate parking area according to road safety regulations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Parking devices of trailer and vehicle are applied as appropriate according to manufacturer procedures4.2 Ancillary devices are disconnected and trailer is decoupled from vehicle according to manufacturer specifications, workplace procedures and safety requirements4.3 Trailer or vehicle is placed in appropriate parking area according to road safety regulations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.056157+00:00"
+}

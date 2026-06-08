@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTM013",
+  "title": "Install or replace mechanical units and assemblies",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Install or replace mechanical units and assemblies demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Install and test mechanical units and assemblies",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies?",
+          "benchmark_statement": "The candidate demonstrates that they can Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Install and test mechanical units and assemblies"
+    },
+    {
+      "id": "E3",
+      "title": "Remove, replace and test mechanical units and assemblies",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Remove, replace and test mechanical units and assemblies"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to interpret drawings and work orders to establish work requirements1.2 select lifting gear and operate according to workplace procedures1.3 select and inspect tools and equipment and report any faults?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret drawings and work orders to e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret drawings and work orders to establish work requirements1.2 select lifting gear and operate according to workplace procedures1.3 select and inspect tools and equipment and report any faults",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret drawings and work orders to establish work requirements1.2 select lifting gear and operate according to workplace procedures1.3 select and inspect tools and equipment and report any faults",
+      "knowledge_focus": [
+        "Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret drawings and work orders to establish work requirements1.2 select lifting gear and operate according to workplace procedures1.3 select and inspect tools and equipment and report any faults"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret drawings and work orders to establish work requirements1.2 select lifting gear and operate according to workplace procedures1.3 select and inspect tools and equipment and report any faults"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret drawings and work orders to establish work requirements1.2 Select lifting gear and operate according to workplace procedures1.3 Select and inspect tools and equipment and report any faults."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Install and test mechanical units and assemblies",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with select fasteners, fittings and materials for installation2.2 install and test mechanical units and assemblies according to job specifications and work health and safety (whs) procedures2.3 use tools and equipment to install and replace assemblies?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select fasteners, fittings and material",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select fasteners, fittings and materials for installation2.2 install and test mechanical units and assemblies according to job specifications and work health and safety (whs) procedures2.3 use tools and equipment to install and replace assemblies",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies?",
+      "practical_task_interpretation": "In practice this requires the worker to select fasteners, fittings and materials for installation2.2 install and test mechanical units and assemblies according to job specifications and work health and safety (whs) procedures2.3 use tools and equipment to install and replace assemblies",
+      "knowledge_focus": [
+        "Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies"
+      ],
+      "workplace_context_examples": [
+        "Install and test mechanical units and assemblies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select fasteners, fittings and materials for installation2.2 install and test mechanical units and assemblies according to job specifications and work health and safety (whs) procedures2.3 use tools and equipment to install and replace assemblies"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select fasteners, fittings and materials for installation2.2 install and test mechanical units and assemblies according to job specifications and work health and safety (whs) procedures2.3 use tools and equipment to install and replace assemblies"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select fasteners, fittings and materials for installation2.2 Install and test mechanical units and assemblies according to job specifications and work health and safety (WHS) procedures2.3 Use tools and equipment to install and replace assemblies."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Remove, replace and test mechanical units and assemblies",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be communicated when access and interpret assembly information from manufacturer specifications3.2 remove and replace mechanical units and assemblies according to manufacturer specifications and whs procedures3.3 test mechanical units and assemblies according to manufacturer specifications, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access and interpret assembly informati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access and interpret assembly information from manufacturer specifications3.2 remove and replace mechanical units and assemblies according to manufacturer specifications and whs procedures3.3 test mechanical units and assemblies according to manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to access and interpret assembly information from manufacturer specifications3.2 remove and replace mechanical units and assemblies according to manufacturer specifications and whs procedures3.3 test mechanical units and assemblies according to manufacturer specifications",
+      "knowledge_focus": [
+        "Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Remove, replace and test mechanical units and assemblies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access and interpret assembly information from manufacturer specifications3.2 remove and replace mechanical units and assemblies according to manufacturer specifications and whs procedures3.3 test mechanical units and assemblies according to manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access and interpret assembly information from manufacturer specifications3.2 remove and replace mechanical units and assemblies according to manufacturer specifications and whs procedures3.3 test mechanical units and assemblies according to manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access and interpret assembly information from manufacturer specifications3.2 Remove and replace mechanical units and assemblies according to manufacturer specifications and WHS procedures3.3 Test mechanical units and assemblies according to manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to clean and check work area and store tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material and recycle or dispose of according to workplace procedures4.4 complete workplace documents according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and check work area and store too",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and check work area and store tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material and recycle or dispose of according to workplace procedures4.4 complete workplace documents according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and check work area and store tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material and recycle or dispose of according to workplace procedures4.4 complete workplace documents according to workplace procedures",
+      "knowledge_focus": [
+        "Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and check work area and store tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material and recycle or dispose of according to workplace procedures4.4 complete workplace documents according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and check work area and store tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material and recycle or dispose of according to workplace procedures4.4 complete workplace documents according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and check work area and store tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material and recycle or dispose of according to workplace procedures4.4 Complete workplace documents according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.451024+00:00"
+}

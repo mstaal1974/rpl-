@@ -1,0 +1,263 @@
+{
+  "code": "AMPS101",
+  "title": "Handle materials and products",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Handle materials and products demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Handle meat products",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Handle meat products"
+    },
+    {
+      "id": "E2",
+      "title": "Handle materials (as appropriate)",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Handle materials (as appropriate)"
+    },
+    {
+      "id": "E3",
+      "title": "Maintain clean holding room",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean holding room to workplace, safety, hygiene and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean holding room to workplace, safety, hygiene and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean holding room to workplace, safety, hygiene and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Maintain clean holding room"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Handle meat products",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify meat according to labels1.2 handle and transfer meat in accordance with workplace health and safety requirements1.3 handle meat using safe manual handling techniques1.4 handle meat product hygienically according to regulatory and workplace requirements1.5 store meat product according to workplace, regulatory, hygiene and sanitation and quality assurance (qa) requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify meat according to labels1.2 Ha",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify meat according to labels1.2 handle and transfer meat in accordance with workplace health and safety requirements1.3 handle meat using safe manual handling techniques1.4 handle meat product hygienically according to regulatory and workplace requirements1.5 store meat product according to workplace, regulatory, hygiene and sanitation and quality assurance (qa) requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify meat according to labels1.2 handle and transfer meat in accordance with workplace health and safety requirements1.3 handle meat using safe manual handling techniques1.4 handle meat product hygienically according to regulatory and workplace requirements1.5 store meat product according to workplace, regulatory, hygiene and sanitation and quality assurance (qa) requirements",
+      "knowledge_focus": [
+        "Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements"
+      ],
+      "workplace_context_examples": [
+        "Handle meat products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify meat according to labels1.2 handle and transfer meat in accordance with workplace health and safety requirements1.3 handle meat using safe manual handling techniques1.4 handle meat product hygienically according to regulatory and workplace requirements1.5 store meat product according to workplace, regulatory, hygiene and sanitation and quality assurance (qa) requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify meat according to labels1.2 handle and transfer meat in accordance with workplace health and safety requirements1.3 handle meat using safe manual handling techniques1.4 handle meat product hygienically according to regulatory and workplace requirements1.5 store meat product according to workplace, regulatory, hygiene and sanitation and quality assurance (qa) requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify meat according to labels1.2 Handle and transfer meat in accordance with workplace health and safety requirements1.3 Handle meat using safe manual handling techniques1.4 Handle meat product hygienically according to regulatory and workplace requirements1.5 Store meat product according to workplace, regulatory, hygiene and sanitation and Quality Assurance (QA) requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Handle materials (as appropriate)",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle raw materials in accordance with",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements",
+      "knowledge_focus": [
+        "Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements"
+      ],
+      "workplace_context_examples": [
+        "Handle materials (as appropriate)"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle raw materials in accordance with work instructions, workplace health and safety, and hygiene requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Maintain clean holding room",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with clean holding room to workplace, safety, hygiene and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean holding room to workplace, safety",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean holding room to workplace, safety, hygiene and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean holding room to workplace, safety, hygiene and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean holding room to workplace, safety, hygiene and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean holding room to workplace, safety, hygiene and regulatory requirements",
+      "knowledge_focus": [
+        "Clean holding room to workplace, safety, hygiene and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Maintain clean holding room"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean holding room to workplace, safety, hygiene and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean holding room to workplace, safety, hygiene and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean holding room to workplace, safety, hygiene and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.345004+00:00"
+}

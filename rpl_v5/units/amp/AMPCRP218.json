@@ -1,0 +1,599 @@
+{
+  "code": "AMPCRP218",
+  "title": "Sort carcases",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Sort carcases demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for sorting to specification",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify customer specifications and workplace requirements for sorting carcases",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify customer specifications and workplace requirements for sorting carcases?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify customer specifications and workplace requirements for sorting carcases.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for sorting to specification"
+    },
+    {
+      "id": "E2",
+      "title": "Identify carcases",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Select and sort carcases following workplace requirements and customer specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and sort carcases following workplace requirements and customer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and sort carcases following workplace requirements and customer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify potential sources of contamination and cross-contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential sources of contamination and cross-contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify potential sources of contamination and cross-contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify contaminated carcases and take corrective action",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contaminated carcases and take corrective action?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify contaminated carcases and take corrective action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify the escape methods from chiller if locked in",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the escape methods from chiller if locked in?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the escape methods from chiller if locked in.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify carcases"
+    },
+    {
+      "id": "E3",
+      "title": "Identify carcase details",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Handle carcases following workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle carcases following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle carcases following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Sort carcases following workplace requirements, customer specifications and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort carcases following workplace requirements, customer specifications and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Sort carcases following workplace requirements, customer specifications and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Sort carcases accurately using measuring devices and sorting techniques",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort carcases accurately using measuring devices and sorting techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Sort carcases accurately using measuring devices and sorting techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify carcase details"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for sorting to specification",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify customer specifications and workplace requirements for sorting carcases?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify customer specifications and wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify customer specifications and workplace requirements for sorting carcases",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify customer specifications and workplace requirements for sorting carcases.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify customer specifications and workplace requirements for sorting carcases?",
+      "practical_task_interpretation": "In practice this requires the worker to identify customer specifications and workplace requirements for sorting carcases",
+      "knowledge_focus": [
+        "Identify customer specifications and workplace requirements for sorting carcases"
+      ],
+      "workplace_context_examples": [
+        "Prepare for sorting to specification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify customer specifications and workplace requirements for sorting carcases"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify customer specifications and workplace requirements for sorting carcases"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify customer specifications and workplace requirements for sorting carcases."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for sorting to specification",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for sorting to specification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Identify carcases",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to select and sort carcases following workplace requirements and customer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and sort carcases following work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and sort carcases following workplace requirements and customer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select and sort carcases following workplace requirements and customer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and sort carcases following workplace requirements and customer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to select and sort carcases following workplace requirements and customer specifications",
+      "knowledge_focus": [
+        "Select and sort carcases following workplace requirements and customer specifications"
+      ],
+      "workplace_context_examples": [
+        "Identify carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and sort carcases following workplace requirements and customer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and sort carcases following workplace requirements and customer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and sort carcases following workplace requirements and customer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify carcases",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify potential sources of contamination and cross-contamination?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify potential sources of contamina",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify potential sources of contamination and cross-contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify potential sources of contamination and cross-contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential sources of contamination and cross-contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to identify potential sources of contamination and cross-contamination",
+      "knowledge_focus": [
+        "Identify potential sources of contamination and cross-contamination"
+      ],
+      "workplace_context_examples": [
+        "Identify carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify potential sources of contamination and cross-contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify potential sources of contamination and cross-contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify potential sources of contamination and cross-contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify carcases",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify contaminated carcases and take corrective action?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify contaminated carcases and take",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify contaminated carcases and take corrective action",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify contaminated carcases and take corrective action.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify contaminated carcases and take corrective action?",
+      "practical_task_interpretation": "In practice this requires the worker to identify contaminated carcases and take corrective action",
+      "knowledge_focus": [
+        "Identify contaminated carcases and take corrective action"
+      ],
+      "workplace_context_examples": [
+        "Identify carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify contaminated carcases and take corrective action"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify contaminated carcases and take corrective action"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify contaminated carcases and take corrective action."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Identify carcase details",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to handle carcases following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle carcases following workplace req",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle carcases following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Handle carcases following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle carcases following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to handle carcases following workplace requirements",
+      "knowledge_focus": [
+        "Handle carcases following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify carcase details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle carcases following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle carcases following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle carcases following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Identify carcase details",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to sort carcases following workplace requirements, customer specifications and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sort carcases following workplace requi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sort carcases following workplace requirements, customer specifications and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Sort carcases following workplace requirements, customer specifications and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort carcases following workplace requirements, customer specifications and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to sort carcases following workplace requirements, customer specifications and regulatory requirements",
+      "knowledge_focus": [
+        "Sort carcases following workplace requirements, customer specifications and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify carcase details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sort carcases following workplace requirements, customer specifications and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sort carcases following workplace requirements, customer specifications and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sort carcases following workplace requirements, customer specifications and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Identify carcase details",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to sort carcases accurately using measuring devices and sorting techniques? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sort carcases accurately using measurin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sort carcases accurately using measuring devices and sorting techniques",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Sort carcases accurately using measuring devices and sorting techniques.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort carcases accurately using measuring devices and sorting techniques?",
+      "practical_task_interpretation": "In practice this requires the worker to sort carcases accurately using measuring devices and sorting techniques",
+      "knowledge_focus": [
+        "Sort carcases accurately using measuring devices and sorting techniques"
+      ],
+      "workplace_context_examples": [
+        "Identify carcase details"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sort carcases accurately using measuring devices and sorting techniques"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sort carcases accurately using measuring devices and sorting techniques"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sort carcases accurately using measuring devices and sorting techniques."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.953434+00:00"
+}

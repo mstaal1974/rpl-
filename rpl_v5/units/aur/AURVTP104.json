@@ -1,0 +1,335 @@
+{
+  "code": "AURVTP104",
+  "title": "Apply basic colour matching techniques using vehicle paint codes",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply basic colour matching techniques using vehicle paint codes demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to apply basic colour matching techniques",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to apply basic colour matching techniques"
+    },
+    {
+      "id": "E2",
+      "title": "Mix paint colour",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Mix paint colour"
+    },
+    {
+      "id": "E3",
+      "title": "Prepare colour test cards and perform visual matching",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Prepare colour test cards and perform visual matching"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to apply basic colour matching techniques",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify job requirements from workplace instructions1.2 identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify job requirements from workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify job requirements from workplace instructions1.2 identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify job requirements from workplace instructions1.2 identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures",
+      "knowledge_focus": [
+        "Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare to apply basic colour matching techniques"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify job requirements from workplace instructions1.2 identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify job requirements from workplace instructions1.2 identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Identify hazards associated with the work, assess potential risks and implement control measures in line with workplace policies and procedures 1.3 Identify tools, equipment and chemicals required for repair activity and establish serviceability according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Mix paint colour",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to set up and check paint measuring system required for job according to workplace procedures2.2 carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up and check paint measuring system",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up and check paint measuring system required for job according to workplace procedures2.2 carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to set up and check paint measuring system required for job according to workplace procedures2.2 carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures",
+      "knowledge_focus": [
+        "Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Mix paint colour"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up and check paint measuring system required for job according to workplace procedures2.2 carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up and check paint measuring system required for job according to workplace procedures2.2 carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up and check paint measuring system required for job according to workplace procedures2.2 Carry out colour mixing using methods, tools, equipment and materials, according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Prepare colour test cards and perform visual matching",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you prepare and spray test cards according to workplace procedures, oem paint codes, workplace health and safety and environmental requirements3.2 carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 remix paint for further matching if mix does not match original paint, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare and spray test cards according ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare and spray test cards according to workplace procedures, oem paint codes, workplace health and safety and environmental requirements3.2 carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 remix paint for further matching if mix does not match original paint",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare and spray test cards according to workplace procedures, oem paint codes, workplace health and safety and environmental requirements3.2 carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 remix paint for further matching if mix does not match original paint",
+      "knowledge_focus": [
+        "Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint"
+      ],
+      "workplace_context_examples": [
+        "Prepare colour test cards and perform visual matching"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare and spray test cards according to workplace procedures, oem paint codes, workplace health and safety and environmental requirements3.2 carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 remix paint for further matching if mix does not match original paint"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare and spray test cards according to workplace procedures, oem paint codes, workplace health and safety and environmental requirements3.2 carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 remix paint for further matching if mix does not match original paint"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare and spray test cards according to workplace procedures, OEM paint codes, workplace health and safety and environmental requirements3.2 Carry out visual matching and make comparisons between matched and original paint, and record paint codes 3.3 Remix paint for further matching if mix does not match original paint."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.248926+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AMPR319",
+  "title": "Locate, identify and assess meat cuts",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Locate, identify and assess meat cuts demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Locate cuts on a carcase",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Locate cuts on a carcase"
+    },
+    {
+      "id": "E2",
+      "title": "Identify cuts",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify cuts"
+    },
+    {
+      "id": "E3",
+      "title": "Assess cuts",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Assess cuts"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Locate cuts on a carcase",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate primal cuts on a carcase by cut ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications",
+      "knowledge_focus": [
+        "Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications"
+      ],
+      "workplace_context_examples": [
+        "Locate cuts on a carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate primal cuts on a carcase by cut name and species according to workplace requirements and specifications1.2 Locate meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications1.3 Locate specialised cuts on a carcase by cut name and species according to workplace requirements and customer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Identify cuts",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify meat cuts on a carcase by cut ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications",
+      "knowledge_focus": [
+        "Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications"
+      ],
+      "workplace_context_examples": [
+        "Identify cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify meat cuts on a carcase by cut name and species according to workplace requirements and customer specifications2.2 Identify meat cuts on primals in cartons by cut name and species according to workplace requirements and customer specifications2.3 Identify cutting lines for meat cuts on primals according to workplace requirements and customer specifications2.4 Identify cutting lines for primal cuts on a carcase according to workplace requirements and customer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Assess cuts",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to assess meat cuts for quality to workplace requirements and customer specifications3.2 assess meat cuts against cut specifications to workplace requirements3.3 assess primal cuts for quality to workplace requirements and customer specifications3.4 assess primal cuts against cut specifications to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess meat cuts for quality to workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess meat cuts for quality to workplace requirements and customer specifications3.2 assess meat cuts against cut specifications to workplace requirements3.3 assess primal cuts for quality to workplace requirements and customer specifications3.4 assess primal cuts against cut specifications to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to assess meat cuts for quality to workplace requirements and customer specifications3.2 assess meat cuts against cut specifications to workplace requirements3.3 assess primal cuts for quality to workplace requirements and customer specifications3.4 assess primal cuts against cut specifications to workplace requirements",
+      "knowledge_focus": [
+        "Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Assess cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess meat cuts for quality to workplace requirements and customer specifications3.2 assess meat cuts against cut specifications to workplace requirements3.3 assess primal cuts for quality to workplace requirements and customer specifications3.4 assess primal cuts against cut specifications to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess meat cuts for quality to workplace requirements and customer specifications3.2 assess meat cuts against cut specifications to workplace requirements3.3 assess primal cuts for quality to workplace requirements and customer specifications3.4 assess primal cuts against cut specifications to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess meat cuts for quality to workplace requirements and customer specifications3.2 Assess meat cuts against cut specifications to workplace requirements3.3 Assess primal cuts for quality to workplace requirements and customer specifications3.4 Assess primal cuts against cut specifications to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.317923+00:00"
+}

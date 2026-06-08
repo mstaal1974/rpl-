@@ -1,0 +1,976 @@
+{
+  "code": "MSL974028",
+  "title": "Classify soils",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Classify soils demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to classify soil samples",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs?",
+          "benchmark_statement": "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify any hazards and relevant safe work procedures associated with the types of site samples",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify any hazards and relevant safe work procedures associated with the types of site samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify any hazards and relevant safe work procedures associated with the types of site samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Inspect supplied samples and test data, compare with specifications and record and report any discrepancies",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect supplied samples and test data, compare with specifications and record and report any discrepancies?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect supplied samples and test data, compare with specifications and record and report any discrepancies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Liaise with client when supplied samples, test data and/or job request forms do not comply with workplace procedures and resolve any problems",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with client when supplied samples, test data and/or job request forms do not comply with workplace procedures and resolve any problems?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise with client when supplied samples, test data and/or job request forms do not comply with workplace procedures and resolve any problems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Assemble required equipment/materials and check that they are fit for purpose",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble required equipment/materials and check that they are fit for purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Assemble required equipment/materials and check that they are fit for purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to classify soil samples"
+    },
+    {
+      "id": "E2",
+      "title": "Examine properties of soil samples",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Assess appearance and feel of soil to determine moisture condition",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess appearance and feel of soil to determine moisture condition?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess appearance and feel of soil to determine moisture condition.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency?",
+          "benchmark_statement": "The candidate demonstrates that they can Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify the soil\u2019s major, secondary and minor components and the proportion of each",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the soil\u2019s major, secondary and minor components and the proportion of each?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the soil\u2019s major, secondary and minor components and the proportion of each.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Assign a soil colour based on own observations and review of field log sheets",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assign a soil colour based on own observations and review of field log sheets?",
+          "benchmark_statement": "The candidate demonstrates that they can Assign a soil colour based on own observations and review of field log sheets.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Determine soil structure based on own observations and review of available zoning, defect and cementing data recorded for undisturbed field samples",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine soil structure based on own observations and review of available zoning, defect and cementing data recorded for undisturbed field samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine soil structure based on own observations and review of available zoning, defect and cementing data recorded for undisturbed field samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Review any additional observations and test data that may identify soil origin",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review any additional observations and test data that may identify soil origin?",
+          "benchmark_statement": "The candidate demonstrates that they can Review any additional observations and test data that may identify soil origin.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Examine properties of soil samples"
+    },
+    {
+      "id": "E3",
+      "title": "Analyse available test results",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Compare supplied mechanical test data with standard classification values for different soil types",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare supplied mechanical test data with standard classification values for different soil types?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare supplied mechanical test data with standard classification values for different soil types.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Compare particle size and percentage composition data with standard classification values for different soil types",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare particle size and percentage composition data with standard classification values for different soil types?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare particle size and percentage composition data with standard classification values for different soil types.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Recognise anomalies or unexpected results and, if necessary, recheck specimens and test results and conduct repeat tests to ensure reliable results",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise anomalies or unexpected results and, if necessary, recheck specimens and test results and conduct repeat tests to ensure reliable results?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise anomalies or unexpected results and, if necessary, recheck specimens and test results and conduct repeat tests to ensure reliable results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Analyse available test results"
+    },
+    {
+      "id": "E4",
+      "title": "Record soil classification",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Use standard symbols and descriptors to assign a valid soil classification",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standard symbols and descriptors to assign a valid soil classification?",
+          "benchmark_statement": "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid soil classification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Maintain confidentiality of client information in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain confidentiality of client information in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain confidentiality of client information in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Record soil classification"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of other personnel",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of other personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Use safe work procedures and personal protective equipment (PPE) to ensure personal safety and that of other personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Clean work area and collect, recycle or dispose of all waste in accordance with workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work area and collect, recycle or dispose of all waste in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean work area and collect, recycle or dispose of all waste in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Clean and check serviceability of test equipment before storage",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and check serviceability of test equipment before storage?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and check serviceability of test equipment before storage.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to classify soil samples",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review job request and any accompanying",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs?",
+      "practical_task_interpretation": "In practice this requires the worker to review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs",
+      "knowledge_focus": [
+        "Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review job request and any accompanying documentation to identify purpose of soil classification and client\u2019s information needs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to classify soil samples",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify any hazards and relevant safe work procedures associated with the types of site samples?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify any hazards and relevant safe ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify any hazards and relevant safe work procedures associated with the types of site samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify any hazards and relevant safe work procedures associated with the types of site samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify any hazards and relevant safe work procedures associated with the types of site samples?",
+      "practical_task_interpretation": "In practice this requires the worker to identify any hazards and relevant safe work procedures associated with the types of site samples",
+      "knowledge_focus": [
+        "Identify any hazards and relevant safe work procedures associated with the types of site samples"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify any hazards and relevant safe work procedures associated with the types of site samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify any hazards and relevant safe work procedures associated with the types of site samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify any hazards and relevant safe work procedures associated with the types of site samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to classify soil samples",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to inspect supplied samples and test data, compare with specifications and record and report any discrepancies?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect supplied samples and test data,",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect supplied samples and test data, compare with specifications and record and report any discrepancies",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect supplied samples and test data, compare with specifications and record and report any discrepancies.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect supplied samples and test data, compare with specifications and record and report any discrepancies?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect supplied samples and test data, compare with specifications and record and report any discrepancies",
+      "knowledge_focus": [
+        "Inspect supplied samples and test data, compare with specifications and record and report any discrepancies"
+      ],
+      "workplace_context_examples": [
+        "Prepare to classify soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect supplied samples and test data, compare with specifications and record and report any discrepancies"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect supplied samples and test data, compare with specifications and record and report any discrepancies"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect supplied samples and test data, compare with specifications and record and report any discrepancies."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Examine properties of soil samples",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to assess appearance and feel of soil to determine moisture condition?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess appearance and feel of soil to d",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess appearance and feel of soil to determine moisture condition",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess appearance and feel of soil to determine moisture condition.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess appearance and feel of soil to determine moisture condition?",
+      "practical_task_interpretation": "In practice this requires the worker to assess appearance and feel of soil to determine moisture condition",
+      "knowledge_focus": [
+        "Assess appearance and feel of soil to determine moisture condition"
+      ],
+      "workplace_context_examples": [
+        "Examine properties of soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess appearance and feel of soil to determine moisture condition"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess appearance and feel of soil to determine moisture condition"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess appearance and feel of soil to determine moisture condition."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Examine properties of soil samples",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use moulding/indentation tests, penetro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency?",
+      "practical_task_interpretation": "In practice this requires the worker to use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency",
+      "knowledge_focus": [
+        "Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency"
+      ],
+      "workplace_context_examples": [
+        "Examine properties of soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use moulding/indentation tests, penetrometer and/or density index data to determine soil consistency."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Examine properties of soil samples",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify the soil\u2019s major, secondary and minor components and the proportion of each?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the soil\u2019s major, secondary an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the soil\u2019s major, secondary and minor components and the proportion of each",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the soil\u2019s major, secondary and minor components and the proportion of each.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the soil\u2019s major, secondary and minor components and the proportion of each?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the soil\u2019s major, secondary and minor components and the proportion of each",
+      "knowledge_focus": [
+        "Identify the soil\u2019s major, secondary and minor components and the proportion of each"
+      ],
+      "workplace_context_examples": [
+        "Examine properties of soil samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the soil\u2019s major, secondary and minor components and the proportion of each"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the soil\u2019s major, secondary and minor components and the proportion of each"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the soil\u2019s major, secondary and minor components and the proportion of each."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Analyse available test results",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to compare supplied mechanical test data with standard classification values for different soil types? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare supplied mechanical test data w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare supplied mechanical test data with standard classification values for different soil types",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Compare supplied mechanical test data with standard classification values for different soil types.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare supplied mechanical test data with standard classification values for different soil types?",
+      "practical_task_interpretation": "In practice this requires the worker to compare supplied mechanical test data with standard classification values for different soil types",
+      "knowledge_focus": [
+        "Compare supplied mechanical test data with standard classification values for different soil types"
+      ],
+      "workplace_context_examples": [
+        "Analyse available test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare supplied mechanical test data with standard classification values for different soil types"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare supplied mechanical test data with standard classification values for different soil types"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare supplied mechanical test data with standard classification values for different soil types."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Analyse available test results",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to compare particle size and percentage composition data with standard classification values for different soil types? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare particle size and percentage co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare particle size and percentage composition data with standard classification values for different soil types",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Compare particle size and percentage composition data with standard classification values for different soil types.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare particle size and percentage composition data with standard classification values for different soil types?",
+      "practical_task_interpretation": "In practice this requires the worker to compare particle size and percentage composition data with standard classification values for different soil types",
+      "knowledge_focus": [
+        "Compare particle size and percentage composition data with standard classification values for different soil types"
+      ],
+      "workplace_context_examples": [
+        "Analyse available test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare particle size and percentage composition data with standard classification values for different soil types"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare particle size and percentage composition data with standard classification values for different soil types"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare particle size and percentage composition data with standard classification values for different soil types."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Analyse available test results",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare other laboratory test results w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples?",
+      "practical_task_interpretation": "In practice this requires the worker to compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples",
+      "knowledge_focus": [
+        "Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples"
+      ],
+      "workplace_context_examples": [
+        "Analyse available test results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare other laboratory test results with own observations to confirm assignment of plasticity, grading and strength of soil samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Record soil classification",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to use standard symbols and descriptors to assign a valid soil classification? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use standard symbols and descriptors to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use standard symbols and descriptors to assign a valid soil classification",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid soil classification.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standard symbols and descriptors to assign a valid soil classification?",
+      "practical_task_interpretation": "In practice this requires the worker to use standard symbols and descriptors to assign a valid soil classification",
+      "knowledge_focus": [
+        "Use standard symbols and descriptors to assign a valid soil classification"
+      ],
+      "workplace_context_examples": [
+        "Record soil classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use standard symbols and descriptors to assign a valid soil classification"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use standard symbols and descriptors to assign a valid soil classification"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use standard symbols and descriptors to assign a valid soil classification."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Record soil classification",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record and store client\u2019s soil classifi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Record soil classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record and store client\u2019s soil classification, samples and test data in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Record soil classification",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that maintain confidentiality of client information in accordance with workplace procedures is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain confidentiality of client info",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain confidentiality of client information in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain confidentiality of client information in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain confidentiality of client information in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain confidentiality of client information in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Maintain confidentiality of client information in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Record soil classification"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain confidentiality of client information in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain confidentiality of client information in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain confidentiality of client information in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.829193+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AMPS211",
+  "title": "Prepare dry ingredients",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare dry ingredients demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Select ingredients",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Select ingredients"
+    },
+    {
+      "id": "E2",
+      "title": "Weigh and batch ingredients",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Weigh and batch ingredients"
+    },
+    {
+      "id": "E3",
+      "title": "Record usage",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Record usage"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Select ingredients",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select ingredients a by type and quality according to product specifications1.2 select dry ingredients according to the formulation specification1.3 handle ingredients hygienically at all times to prevent contamination?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select ingredients a by type and qualit",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select ingredients a by type and quality according to product specifications1.2 select dry ingredients according to the formulation specification1.3 handle ingredients hygienically at all times to prevent contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to select ingredients a by type and quality according to product specifications1.2 select dry ingredients according to the formulation specification1.3 handle ingredients hygienically at all times to prevent contamination",
+      "knowledge_focus": [
+        "Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination"
+      ],
+      "workplace_context_examples": [
+        "Select ingredients"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select ingredients a by type and quality according to product specifications1.2 select dry ingredients according to the formulation specification1.3 handle ingredients hygienically at all times to prevent contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select ingredients a by type and quality according to product specifications1.2 select dry ingredients according to the formulation specification1.3 handle ingredients hygienically at all times to prevent contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select ingredients a by type and quality according to product specifications1.2 Select dry ingredients according to the formulation specification1.3 Handle ingredients hygienically at all times to prevent contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Weigh and batch ingredients",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to correctly calibrate scales for precise measurement2.2 place ingredients in specific containers for weighing2.3 weigh ingredients according to daily production requirements2.4 sort and weight ingredients into batch quantities according to recipes and product requirements2.5 mix spices according to recipe, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly calibrate scales for precise ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly calibrate scales for precise measurement2.2 place ingredients in specific containers for weighing2.3 weigh ingredients according to daily production requirements2.4 sort and weight ingredients into batch quantities according to recipes and product requirements2.5 mix spices according to recipe",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly calibrate scales for precise measurement2.2 place ingredients in specific containers for weighing2.3 weigh ingredients according to daily production requirements2.4 sort and weight ingredients into batch quantities according to recipes and product requirements2.5 mix spices according to recipe",
+      "knowledge_focus": [
+        "Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe"
+      ],
+      "workplace_context_examples": [
+        "Weigh and batch ingredients"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly calibrate scales for precise measurement2.2 place ingredients in specific containers for weighing2.3 weigh ingredients according to daily production requirements2.4 sort and weight ingredients into batch quantities according to recipes and product requirements2.5 mix spices according to recipe"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly calibrate scales for precise measurement2.2 place ingredients in specific containers for weighing2.3 weigh ingredients according to daily production requirements2.4 sort and weight ingredients into batch quantities according to recipes and product requirements2.5 mix spices according to recipe"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly calibrate scales for precise measurement2.2 Place ingredients in specific containers for weighing2.3 Weigh ingredients according to daily production requirements2.4 Sort and weight ingredients into batch quantities according to recipes and product requirements2.5 Mix spices according to recipe."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Record usage",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you store ingredients in a safe and hygienic manner3.2 accurately record usage of ingredients to workplace requirements3.3 reconcile usage of ingredients to production specifications, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store ingredients in a safe and hygieni",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store ingredients in a safe and hygienic manner3.2 accurately record usage of ingredients to workplace requirements3.3 reconcile usage of ingredients to production specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to store ingredients in a safe and hygienic manner3.2 accurately record usage of ingredients to workplace requirements3.3 reconcile usage of ingredients to production specifications",
+      "knowledge_focus": [
+        "Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications"
+      ],
+      "workplace_context_examples": [
+        "Record usage"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store ingredients in a safe and hygienic manner3.2 accurately record usage of ingredients to workplace requirements3.3 reconcile usage of ingredients to production specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store ingredients in a safe and hygienic manner3.2 accurately record usage of ingredients to workplace requirements3.3 reconcile usage of ingredients to production specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store ingredients in a safe and hygienic manner3.2 Accurately record usage of ingredients to workplace requirements3.3 Reconcile usage of ingredients to production specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.350939+00:00"
+}

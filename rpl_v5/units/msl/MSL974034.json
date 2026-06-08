@@ -1,0 +1,872 @@
+{
+  "code": "MSL974034",
+  "title": "Perform biological procedures",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform biological procedures demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Interpret and schedule work requirements",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Review work request to identify samples, required procedures and materials equipment involved",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review work request to identify samples, required procedures and materials equipment involved?",
+          "benchmark_statement": "The candidate demonstrates that they can Review work request to identify samples, required procedures and materials equipment involved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Plan parallel work sequences to optimise throughput of multiple sets of samples",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan parallel work sequences to optimise throughput of multiple sets of samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan parallel work sequences to optimise throughput of multiple sets of samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Interpret and schedule work requirements"
+    },
+    {
+      "id": "E2",
+      "title": "Receive and prepare biological samples",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee?",
+          "benchmark_statement": "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Prepare samples in accordance with testing requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare samples in accordance with testing requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare samples in accordance with testing requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Receive and prepare biological samples"
+    },
+    {
+      "id": "E3",
+      "title": "Perform biological techniques on samples",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Set up and use equipment and reagents in accordance with the method",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and use equipment and reagents in accordance with the method?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up and use equipment and reagents in accordance with the method.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Perform techniques in accordance with the standard operating procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform techniques in accordance with the standard operating procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform techniques in accordance with the standard operating procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Perform biological techniques on samples"
+    },
+    {
+      "id": "E4",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Safely dispose of biohazardous wastes",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Safely dispose of biohazardous wastes?",
+          "benchmark_statement": "The candidate demonstrates that they can Safely dispose of biohazardous wastes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Clean, care for and store equipment and reagents in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean, care for and store equipment and reagents in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean, care for and store equipment and reagents in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Maintain a safe work environment"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain laboratory records",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Record data and results in accordance with workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record data and results in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record data and results in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Follow procedures to support traceability of sample from receipt to reporting of results",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow procedures to support traceability of sample from receipt to reporting of results?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow procedures to support traceability of sample from receipt to reporting of results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain laboratory records"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Interpret and schedule work requirements",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to review work request to identify samples, required procedures and materials equipment involved?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review work request to identify samples",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review work request to identify samples, required procedures and materials equipment involved",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Review work request to identify samples, required procedures and materials equipment involved.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review work request to identify samples, required procedures and materials equipment involved?",
+      "practical_task_interpretation": "In practice this requires the worker to review work request to identify samples, required procedures and materials equipment involved",
+      "knowledge_focus": [
+        "Review work request to identify samples, required procedures and materials equipment involved"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule work requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review work request to identify samples, required procedures and materials equipment involved"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review work request to identify samples, required procedures and materials equipment involved"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review work request to identify samples, required procedures and materials equipment involved."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Interpret and schedule work requirements",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify hazards and workplace control ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment",
+      "knowledge_focus": [
+        "Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule work requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify hazards and workplace control measures associated with the sample, preparation methods, reagents and/or equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Interpret and schedule work requirements",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to plan parallel work sequences to optimise throughput of multiple sets of samples? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan parallel work sequences to optimis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan parallel work sequences to optimise throughput of multiple sets of samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Plan parallel work sequences to optimise throughput of multiple sets of samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan parallel work sequences to optimise throughput of multiple sets of samples?",
+      "practical_task_interpretation": "In practice this requires the worker to plan parallel work sequences to optimise throughput of multiple sets of samples",
+      "knowledge_focus": [
+        "Plan parallel work sequences to optimise throughput of multiple sets of samples"
+      ],
+      "workplace_context_examples": [
+        "Interpret and schedule work requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan parallel work sequences to optimise throughput of multiple sets of samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan parallel work sequences to optimise throughput of multiple sets of samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan parallel work sequences to optimise throughput of multiple sets of samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Receive and prepare biological samples",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Register samples in accordance with wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee?",
+      "practical_task_interpretation": "In practice this requires the worker to register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee",
+      "knowledge_focus": [
+        "Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+      ],
+      "workplace_context_examples": [
+        "Receive and prepare biological samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Register samples in accordance with workplace procedures, recording details that allow accurate tracking and chain of custody traceable to employee."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Receive and prepare biological samples",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be recorded when you match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Match sample provided to accompanying d",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Receive and prepare biological samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Match sample provided to accompanying documentation and report any discrepancies in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Receive and prepare biological samples",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What steps are required to prepare samples in accordance with testing requirements, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare samples in accordance with test",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare samples in accordance with testing requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare samples in accordance with testing requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare samples in accordance with testing requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare samples in accordance with testing requirements",
+      "knowledge_focus": [
+        "Prepare samples in accordance with testing requirements"
+      ],
+      "workplace_context_examples": [
+        "Receive and prepare biological samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare samples in accordance with testing requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare samples in accordance with testing requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare samples in accordance with testing requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Perform biological techniques on samples",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What steps are required to set up and use equipment and reagents in accordance with the method, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up and use equipment and reagents i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up and use equipment and reagents in accordance with the method",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Set up and use equipment and reagents in accordance with the method.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and use equipment and reagents in accordance with the method?",
+      "practical_task_interpretation": "In practice this requires the worker to set up and use equipment and reagents in accordance with the method",
+      "knowledge_focus": [
+        "Set up and use equipment and reagents in accordance with the method"
+      ],
+      "workplace_context_examples": [
+        "Perform biological techniques on samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up and use equipment and reagents in accordance with the method"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up and use equipment and reagents in accordance with the method"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up and use equipment and reagents in accordance with the method."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Perform biological techniques on samples",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to perform techniques in accordance with the standard operating procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform techniques in accordance with t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform techniques in accordance with the standard operating procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Perform techniques in accordance with the standard operating procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform techniques in accordance with the standard operating procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to perform techniques in accordance with the standard operating procedures",
+      "knowledge_focus": [
+        "Perform techniques in accordance with the standard operating procedures"
+      ],
+      "workplace_context_examples": [
+        "Perform biological techniques on samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform techniques in accordance with the standard operating procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform techniques in accordance with the standard operating procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform techniques in accordance with the standard operating procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use established safe work practices and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel",
+      "knowledge_focus": [
+        "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What are the key hazards and required controls associated with safely dispose of biohazardous wastes?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Safely dispose of biohazardous wastes.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to safely dispose of biohazardous wastes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Safely dispose of biohazardous wastes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Safely dispose of biohazardous wastes?",
+      "practical_task_interpretation": "In practice this requires the worker to safely dispose of biohazardous wastes",
+      "knowledge_focus": [
+        "Safely dispose of biohazardous wastes"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of safely dispose of biohazardous wastes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of safely dispose of biohazardous wastes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Safely dispose of biohazardous wastes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to clean, care for and store equipment and reagents in accordance with workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean, care for and store equipment and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean, care for and store equipment and reagents in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Clean, care for and store equipment and reagents in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean, care for and store equipment and reagents in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean, care for and store equipment and reagents in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Clean, care for and store equipment and reagents in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean, care for and store equipment and reagents in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean, care for and store equipment and reagents in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean, care for and store equipment and reagents in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Maintain laboratory records",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What information must be recorded when you record data and results in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record data and results in accordance w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record data and results in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Record data and results in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record data and results in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record data and results in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record data and results in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Maintain laboratory records"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record data and results in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record data and results in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record data and results in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.832501+00:00"
+}
