@@ -1,0 +1,335 @@
+{
+  "code": "AURVTP021",
+  "title": "Restore vehicle body exterior paint",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Restore vehicle body exterior paint demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to restore vehicle body exterior paint",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to restore vehicle body exterior paint"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect and identify paint faults",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish?",
+          "benchmark_statement": "The candidate demonstrates that they can Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect and identify paint faults"
+    },
+    {
+      "id": "E3",
+      "title": "Undertake restoration activities",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Undertake restoration activities"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to restore vehicle body exterior paint",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from workplace instructions1.2 restoration information is accessed and interpreted1.3 polishing materials are selected and inspected for quality1.4 hazards associated with the work are identified and risks are managed1.5 tools and equipment are identified and checked for serviceability1.6 work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from workplace instructions1.2 restoration information is accessed and interpreted1.3 polishing materials are selected and inspected for quality1.4 hazards associated with the work are identified and risks are managed1.5 tools and equipment are identified and checked for serviceability1.6 work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from workplace instructions1.2 restoration information is accessed and interpreted1.3 polishing materials are selected and inspected for quality1.4 hazards associated with the work are identified and risks are managed1.5 tools and equipment are identified and checked for serviceability1.6 work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle",
+      "knowledge_focus": [
+        "Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle"
+      ],
+      "workplace_context_examples": [
+        "Prepare to restore vehicle body exterior paint"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from workplace instructions1.2 restoration information is accessed and interpreted1.3 polishing materials are selected and inspected for quality1.4 hazards associated with the work are identified and risks are managed1.5 tools and equipment are identified and checked for serviceability1.6 work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from workplace instructions1.2 restoration information is accessed and interpreted1.3 polishing materials are selected and inspected for quality1.4 hazards associated with the work are identified and risks are managed1.5 tools and equipment are identified and checked for serviceability1.6 work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Restoration information is accessed and interpreted1.3 Polishing materials are selected and inspected for quality1.4 Hazards associated with the work are identified and risks are managed1.5 Tools and equipment are identified and checked for serviceability1.6 Work is planned to identify restoration procedures, minimise waste, and avoid damage to vehicle."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect and identify paint faults",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 restoration process is determined according to type of damage, paint type and required finish?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Faults are identified and inspected acc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 restoration process is determined according to type of damage, paint type and required finish",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish?",
+      "practical_task_interpretation": "In practice this requires the worker to faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 restoration process is determined according to type of damage, paint type and required finish",
+      "knowledge_focus": [
+        "Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish"
+      ],
+      "workplace_context_examples": [
+        "Inspect and identify paint faults"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 restoration process is determined according to type of damage, paint type and required finish"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 restoration process is determined according to type of damage, paint type and required finish"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Faults are identified and inspected according to workplace procedures and without causing further damage to vehicle exterior paint or components2.2 Restoration process is determined according to type of damage, paint type and required finish."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Undertake restoration activities",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you restoration materials are selected according to type of damage and type of finishing material3.2 exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 paint restoration is completed without causing damage to components or systems, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Restoration materials are selected acco",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to restoration materials are selected according to type of damage and type of finishing material3.2 exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 paint restoration is completed without causing damage to components or systems",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems?",
+      "practical_task_interpretation": "In practice this requires the worker to restoration materials are selected according to type of damage and type of finishing material3.2 exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 paint restoration is completed without causing damage to components or systems",
+      "knowledge_focus": [
+        "Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems"
+      ],
+      "workplace_context_examples": [
+        "Undertake restoration activities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of restoration materials are selected according to type of damage and type of finishing material3.2 exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 paint restoration is completed without causing damage to components or systems"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of restoration materials are selected according to type of damage and type of finishing material3.2 exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 paint restoration is completed without causing damage to components or systems"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Restoration materials are selected according to type of damage and type of finishing material3.2 Exterior paint finish is polished according to workplace and manufacturer prescribed procedures3.3 Polishing tools and equipment are used according to workplace procedures and safety and environmental requirements3.4 Materials are used during restoration process according to vehicle finish type, workplace methods, and paint manufacturer specifications3.5 Paint restoration is completed without causing damage to components or systems."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work meets workplace expectations and vehicle is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked, reported if faulty, and stored according to workplace procedures4.4Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.246088+00:00"
+}

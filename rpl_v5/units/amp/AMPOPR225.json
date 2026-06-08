@@ -1,0 +1,464 @@
+{
+  "code": "AMPOPR225",
+  "title": "Complete changeover operation",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Complete changeover operation demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for changeover",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify and follow work instruction for repositioning carcases on processing chain or rail",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for repositioning carcases on processing chain or rail?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for repositioning carcases on processing chain or rail.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Prepare equipment for repositioning carcases following work instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment for repositioning carcases following work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare equipment for repositioning carcases following work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for changeover"
+    },
+    {
+      "id": "E2",
+      "title": "Re-position carcases",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Complete changeover in accordance with workplace health and safety requirements and work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete changeover in accordance with workplace health and safety requirements and work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete changeover in accordance with workplace health and safety requirements and work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Use safe manual handling techniques",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe manual handling techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Use safe manual handling techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Store or dispose of gambrels, spreaders and slides as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store or dispose of gambrels, spreaders and slides as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Store or dispose of gambrels, spreaders and slides as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Check equipment for any defects and, where necessary, report to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment for any defects and, where necessary, report to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Check equipment for any defects and, where necessary, report to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Re-position carcases"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for changeover",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for changeover"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for changeover",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify and follow work instruction for repositioning carcases on processing chain or rail?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and follow work instruction fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and follow work instruction for repositioning carcases on processing chain or rail",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for repositioning carcases on processing chain or rail.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for repositioning carcases on processing chain or rail?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and follow work instruction for repositioning carcases on processing chain or rail",
+      "knowledge_focus": [
+        "Identify and follow work instruction for repositioning carcases on processing chain or rail"
+      ],
+      "workplace_context_examples": [
+        "Prepare for changeover"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and follow work instruction for repositioning carcases on processing chain or rail"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and follow work instruction for repositioning carcases on processing chain or rail"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and follow work instruction for repositioning carcases on processing chain or rail."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for changeover",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What steps are required to prepare equipment for repositioning carcases following work instructions, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare equipment for repositioning car",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare equipment for repositioning carcases following work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare equipment for repositioning carcases following work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment for repositioning carcases following work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare equipment for repositioning carcases following work instructions",
+      "knowledge_focus": [
+        "Prepare equipment for repositioning carcases following work instructions"
+      ],
+      "workplace_context_examples": [
+        "Prepare for changeover"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare equipment for repositioning carcases following work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare equipment for repositioning carcases following work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare equipment for repositioning carcases following work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Re-position carcases",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you complete changeover in accordance with workplace health and safety requirements and work instructions, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete changeover in accordance with ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete changeover in accordance with workplace health and safety requirements and work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Complete changeover in accordance with workplace health and safety requirements and work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete changeover in accordance with workplace health and safety requirements and work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to complete changeover in accordance with workplace health and safety requirements and work instructions",
+      "knowledge_focus": [
+        "Complete changeover in accordance with workplace health and safety requirements and work instructions"
+      ],
+      "workplace_context_examples": [
+        "Re-position carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete changeover in accordance with workplace health and safety requirements and work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete changeover in accordance with workplace health and safety requirements and work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete changeover in accordance with workplace health and safety requirements and work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Re-position carcases",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to use safe manual handling techniques? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use safe manual handling techniques.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use safe manual handling techniques",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use safe manual handling techniques.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe manual handling techniques?",
+      "practical_task_interpretation": "In practice this requires the worker to use safe manual handling techniques",
+      "knowledge_focus": [
+        "Use safe manual handling techniques"
+      ],
+      "workplace_context_examples": [
+        "Re-position carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use safe manual handling techniques"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use safe manual handling techniques"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use safe manual handling techniques."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Re-position carcases",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to store or dispose of gambrels, spreaders and slides as required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Store or dispose of gambrels, spreaders",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to store or dispose of gambrels, spreaders and slides as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Store or dispose of gambrels, spreaders and slides as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store or dispose of gambrels, spreaders and slides as required?",
+      "practical_task_interpretation": "In practice this requires the worker to store or dispose of gambrels, spreaders and slides as required",
+      "knowledge_focus": [
+        "Store or dispose of gambrels, spreaders and slides as required"
+      ],
+      "workplace_context_examples": [
+        "Re-position carcases"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of store or dispose of gambrels, spreaders and slides as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of store or dispose of gambrels, spreaders and slides as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Store or dispose of gambrels, spreaders and slides as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.147861+00:00"
+}

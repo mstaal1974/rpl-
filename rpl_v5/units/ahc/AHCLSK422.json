@@ -1,0 +1,477 @@
+{
+  "code": "AHCLSK422",
+  "title": "Identify and select animals for breeding",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify and select animals for breeding demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify breeding selection criteria",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Access workplace production records and document production goals in breeding program",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access workplace production records and document production goals in breeding program?",
+          "benchmark_statement": "The candidate demonstrates that they can Access workplace production records and document production goals in breeding program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Source the desired performance characteristics and the potential for genetic improvement",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source the desired performance characteristics and the potential for genetic improvement?",
+          "benchmark_statement": "The candidate demonstrates that they can Source the desired performance characteristics and the potential for genetic improvement.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Determine and record selection criteria in production plan",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and record selection criteria in production plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine and record selection criteria in production plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify breeding selection criteria"
+    },
+    {
+      "id": "E2",
+      "title": "Select animals for breeding",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Assess animals against selection criteria",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess animals against selection criteria?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess animals against selection criteria.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Determine and organise culling and replacement practices to improve performance of workplace breeding program",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and organise culling and replacement practices to improve performance of workplace breeding program?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine and organise culling and replacement practices to improve performance of workplace breeding program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Evaluate animals according to breeding program parameters",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate animals according to breeding program parameters?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate animals according to breeding program parameters.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Assess and record performance of breeding program",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess and record performance of breeding program?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess and record performance of breeding program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Select animals for breeding"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify breeding selection criteria",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What information must be recorded when you access workplace production records and document production goals in breeding program, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access workplace production records and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access workplace production records and document production goals in breeding program",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access workplace production records and document production goals in breeding program.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access workplace production records and document production goals in breeding program?",
+      "practical_task_interpretation": "In practice this requires the worker to access workplace production records and document production goals in breeding program",
+      "knowledge_focus": [
+        "Access workplace production records and document production goals in breeding program"
+      ],
+      "workplace_context_examples": [
+        "Identify breeding selection criteria"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access workplace production records and document production goals in breeding program"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access workplace production records and document production goals in breeding program"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access workplace production records and document production goals in breeding program."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify breeding selection criteria",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What criteria determine how to source the desired performance characteristics and the potential for genetic improvement?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Source the desired performance characte",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to source the desired performance characteristics and the potential for genetic improvement",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Source the desired performance characteristics and the potential for genetic improvement.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source the desired performance characteristics and the potential for genetic improvement?",
+      "practical_task_interpretation": "In practice this requires the worker to source the desired performance characteristics and the potential for genetic improvement",
+      "knowledge_focus": [
+        "Source the desired performance characteristics and the potential for genetic improvement"
+      ],
+      "workplace_context_examples": [
+        "Identify breeding selection criteria"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of source the desired performance characteristics and the potential for genetic improvement"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of source the desired performance characteristics and the potential for genetic improvement"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Source the desired performance characteristics and the potential for genetic improvement."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify breeding selection criteria",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to determine and record selection criteria in production plan?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine and record selection criteria",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine and record selection criteria in production plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine and record selection criteria in production plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and record selection criteria in production plan?",
+      "practical_task_interpretation": "In practice this requires the worker to determine and record selection criteria in production plan",
+      "knowledge_focus": [
+        "Determine and record selection criteria in production plan"
+      ],
+      "workplace_context_examples": [
+        "Identify breeding selection criteria"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine and record selection criteria in production plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine and record selection criteria in production plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine and record selection criteria in production plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Select animals for breeding",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to assess animals against selection criteria?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess animals against selection criter",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess animals against selection criteria",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess animals against selection criteria.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess animals against selection criteria?",
+      "practical_task_interpretation": "In practice this requires the worker to assess animals against selection criteria",
+      "knowledge_focus": [
+        "Assess animals against selection criteria"
+      ],
+      "workplace_context_examples": [
+        "Select animals for breeding"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess animals against selection criteria"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess animals against selection criteria"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess animals against selection criteria."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Select animals for breeding",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to determine and organise culling and replacement practices to improve performance of workplace breeding program?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine and organise culling and repl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine and organise culling and replacement practices to improve performance of workplace breeding program",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine and organise culling and replacement practices to improve performance of workplace breeding program.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine and organise culling and replacement practices to improve performance of workplace breeding program?",
+      "practical_task_interpretation": "In practice this requires the worker to determine and organise culling and replacement practices to improve performance of workplace breeding program",
+      "knowledge_focus": [
+        "Determine and organise culling and replacement practices to improve performance of workplace breeding program"
+      ],
+      "workplace_context_examples": [
+        "Select animals for breeding"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine and organise culling and replacement practices to improve performance of workplace breeding program"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine and organise culling and replacement practices to improve performance of workplace breeding program"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine and organise culling and replacement practices to improve performance of workplace breeding program."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Select animals for breeding",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check and monitor selected livestock to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements",
+      "knowledge_focus": [
+        "Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements"
+      ],
+      "workplace_context_examples": [
+        "Select animals for breeding"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check and monitor selected livestock to ensure maintenance of condition and welfare status according to breeding program requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.915705+00:00"
+}

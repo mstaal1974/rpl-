@@ -1,0 +1,335 @@
+{
+  "code": "AURBTA108",
+  "title": "Disassemble and pack a bicycle for transport",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Disassemble and pack a bicycle for transport demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to pack a bicycle for transport",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to pack a bicycle for transport"
+    },
+    {
+      "id": "E2",
+      "title": "Disassemble bicycle",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Disassemble bicycle"
+    },
+    {
+      "id": "E3",
+      "title": "Pack bicycle for transport",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Pack bicycle for transport"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to pack a bicycle for transport",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to determine job requirement from workplace instructions1.2 identify hazards and manage risks associated with packing bicycle for transport1.3 analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirement from workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirement from workplace instructions1.2 identify hazards and manage risks associated with packing bicycle for transport1.3 analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirement from workplace instructions1.2 identify hazards and manage risks associated with packing bicycle for transport1.3 analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures",
+      "knowledge_focus": [
+        "Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare to pack a bicycle for transport"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirement from workplace instructions1.2 identify hazards and manage risks associated with packing bicycle for transport1.3 analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirement from workplace instructions1.2 identify hazards and manage risks associated with packing bicycle for transport1.3 analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirement from workplace instructions1.2 Identify hazards and manage risks associated with packing bicycle for transport1.3 Analyse and select method to pack bicycle for transit according to manufacturer instructions and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Disassemble bicycle",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to source and interpret service information to disassemble bicycle2.2 inspect, check and select tools, equipment and materials for serviceability 2.3 identify hazards and manage risks associated with the work2.4 disassemble bicycle according to workplace and manufacturer procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Source and interpret service informatio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to source and interpret service information to disassemble bicycle2.2 inspect, check and select tools, equipment and materials for serviceability 2.3 identify hazards and manage risks associated with the work2.4 disassemble bicycle according to workplace and manufacturer procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to source and interpret service information to disassemble bicycle2.2 inspect, check and select tools, equipment and materials for serviceability 2.3 identify hazards and manage risks associated with the work2.4 disassemble bicycle according to workplace and manufacturer procedures",
+      "knowledge_focus": [
+        "Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures"
+      ],
+      "workplace_context_examples": [
+        "Disassemble bicycle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of source and interpret service information to disassemble bicycle2.2 inspect, check and select tools, equipment and materials for serviceability 2.3 identify hazards and manage risks associated with the work2.4 disassemble bicycle according to workplace and manufacturer procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of source and interpret service information to disassemble bicycle2.2 inspect, check and select tools, equipment and materials for serviceability 2.3 identify hazards and manage risks associated with the work2.4 disassemble bicycle according to workplace and manufacturer procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Source and interpret service information to disassemble bicycle2.2 Inspect, check and select tools, equipment and materials for serviceability 2.3 Identify hazards and manage risks associated with the work2.4 Disassemble bicycle according to workplace and manufacturer procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Pack bicycle for transport",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to carry out packing of bicycle into determined transport container according to workplace procedures3.2 inspect transport container and confirm bicycle is secure and seal transport container3.3 report condition of transport container and document according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out packing of bicycle into deter",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out packing of bicycle into determined transport container according to workplace procedures3.2 inspect transport container and confirm bicycle is secure and seal transport container3.3 report condition of transport container and document according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out packing of bicycle into determined transport container according to workplace procedures3.2 inspect transport container and confirm bicycle is secure and seal transport container3.3 report condition of transport container and document according to workplace procedures",
+      "knowledge_focus": [
+        "Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Pack bicycle for transport"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out packing of bicycle into determined transport container according to workplace procedures3.2 inspect transport container and confirm bicycle is secure and seal transport container3.3 report condition of transport container and document according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out packing of bicycle into determined transport container according to workplace procedures3.2 inspect transport container and confirm bicycle is secure and seal transport container3.3 report condition of transport container and document according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out packing of bicycle into determined transport container according to workplace procedures3.2 Inspect transport container and confirm bicycle is secure and seal transport container3.3 Report condition of transport container and document according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a04.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.672159+00:00"
+}

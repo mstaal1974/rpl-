@@ -1,0 +1,903 @@
+{
+  "code": "MSL974029",
+  "title": "Operate an automated mineral analysis system",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate an automated mineral analysis system demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare automated analysis system for operation",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Plan or adjust work flow to suit maintenance or servicing as required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan or adjust work flow to suit maintenance or servicing as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan or adjust work flow to suit maintenance or servicing as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each?",
+          "benchmark_statement": "The candidate demonstrates that they can Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify hazards, safety equipment and safe work procedures associated with samples, reagents, analytical methods and operating robotic arms",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards, safety equipment and safe work procedures associated with samples, reagents, analytical methods and operating robotic arms?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards, safety equipment and safe work procedures associated with samples, reagents, analytical methods and operating robotic arms.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Perform routine system checks at start of shift",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform routine system checks at start of shift?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform routine system checks at start of shift.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare automated analysis system for operation"
+    },
+    {
+      "id": "E2",
+      "title": "Conduct or monitor loading of samples into system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence?",
+          "benchmark_statement": "The candidate demonstrates that they can For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes?",
+          "benchmark_statement": "The candidate demonstrates that they can For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Conduct or monitor loading of samples into system"
+    },
+    {
+      "id": "E3",
+      "title": "Monitor and adjust system operation",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Monitor control screens continuously and respond promptly to error codes",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor control screens continuously and respond promptly to error codes?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor control screens continuously and respond promptly to error codes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Conduct regular visual checks to ensure that system elements are operating correctly",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct regular visual checks to ensure that system elements are operating correctly?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct regular visual checks to ensure that system elements are operating correctly.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Interpret routine error codes to identify faulty system elements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret routine error codes to identify faulty system elements?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret routine error codes to identify faulty system elements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Take control of system and activate interlocks to isolate relevant system elements before investigating faults",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take control of system and activate interlocks to isolate relevant system elements before investigating faults?",
+          "benchmark_statement": "The candidate demonstrates that they can Take control of system and activate interlocks to isolate relevant system elements before investigating faults.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Clean and reposition robots, vials, crucibles or other system elements as necessary",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and reposition robots, vials, crucibles or other system elements as necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and reposition robots, vials, crucibles or other system elements as necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.7",
+          "text": "Use appropriate system checks and commands to reset system elements, re-enter sample data and resume operations",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use appropriate system checks and commands to reset system elements, re-enter sample data and resume operations?",
+          "benchmark_statement": "The candidate demonstrates that they can Use appropriate system checks and commands to reset system elements, re-enter sample data and resume operations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.8",
+          "text": "Seek advice about dealing with any situation beyond scope of responsibility or knowledge",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice about dealing with any situation beyond scope of responsibility or knowledge?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek advice about dealing with any situation beyond scope of responsibility or knowledge.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.9",
+          "text": "Liaise with and assist relevant service personnel to ensure major breakdowns are rectified promptly",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with and assist relevant service personnel to ensure major breakdowns are rectified promptly?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise with and assist relevant service personnel to ensure major breakdowns are rectified promptly.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Monitor and adjust system operation"
+    },
+    {
+      "id": "E4",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others?",
+          "benchmark_statement": "The candidate demonstrates that they can Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Minimise the generation of waste and environmental impacts",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Segregate and dispose of wastes in accordance with workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Segregate and dispose of wastes in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Segregate and dispose of wastes in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare automated analysis system for operation",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm equipment status, shift priorit",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators",
+      "knowledge_focus": [
+        "Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators"
+      ],
+      "workplace_context_examples": [
+        "Prepare automated analysis system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm equipment status, shift priorities, work flow issues and/or specific client requirements with supervisor and other operators."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare automated analysis system for operation",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to plan or adjust work flow to suit maintenance or servicing as required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan or adjust work flow to suit mainte",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan or adjust work flow to suit maintenance or servicing as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Plan or adjust work flow to suit maintenance or servicing as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan or adjust work flow to suit maintenance or servicing as required?",
+      "practical_task_interpretation": "In practice this requires the worker to plan or adjust work flow to suit maintenance or servicing as required",
+      "knowledge_focus": [
+        "Plan or adjust work flow to suit maintenance or servicing as required"
+      ],
+      "workplace_context_examples": [
+        "Prepare automated analysis system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan or adjust work flow to suit maintenance or servicing as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan or adjust work flow to suit maintenance or servicing as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan or adjust work flow to suit maintenance or servicing as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare automated analysis system for operation",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review job requests to identify samples",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each?",
+      "practical_task_interpretation": "In practice this requires the worker to review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each",
+      "knowledge_focus": [
+        "Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each"
+      ],
+      "workplace_context_examples": [
+        "Prepare automated analysis system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review job requests to identify samples/batches, required operating parameters and any special instructions/analyses for each."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Conduct or monitor loading of samples into system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to for systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can For systems with a manual in-feed stati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to for systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence?",
+      "practical_task_interpretation": "In practice this requires the worker to for systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence",
+      "knowledge_focus": [
+        "For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence"
+      ],
+      "workplace_context_examples": [
+        "Conduct or monitor loading of samples into system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of for systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of for systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can For systems with a manual in-feed station, prepare vials with the specified sample volume and load them in the correct sequence."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Conduct or monitor loading of samples into system",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What would indicate that for fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can For fully automated systems, monitor sa",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to for fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes?",
+      "practical_task_interpretation": "In practice this requires the worker to for fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes",
+      "knowledge_focus": [
+        "For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes"
+      ],
+      "workplace_context_examples": [
+        "Conduct or monitor loading of samples into system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of for fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of for fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can For fully automated systems, monitor sample in-feed station to ensure vials contain specified minimum volumes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Monitor and adjust system operation",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to adjust system operating parameters, such as furnace temperature, to suit specific batch requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Adjust system operating parameters, suc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to adjust system operating parameters, such as furnace temperature, to suit specific batch requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to adjust system operating parameters, such as furnace temperature, to suit specific batch requirements",
+      "knowledge_focus": [
+        "Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements"
+      ],
+      "workplace_context_examples": [
+        "Monitor and adjust system operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of adjust system operating parameters, such as furnace temperature, to suit specific batch requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of adjust system operating parameters, such as furnace temperature, to suit specific batch requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Adjust system operating parameters, such as furnace temperature, to suit specific batch requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Monitor and adjust system operation",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What are the key hazards and required controls associated with monitor control screens continuously and respond promptly to error codes?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor control screens continuously an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor control screens continuously and respond promptly to error codes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor control screens continuously and respond promptly to error codes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor control screens continuously and respond promptly to error codes?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor control screens continuously and respond promptly to error codes",
+      "knowledge_focus": [
+        "Monitor control screens continuously and respond promptly to error codes"
+      ],
+      "workplace_context_examples": [
+        "Monitor and adjust system operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor control screens continuously and respond promptly to error codes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor control screens continuously and respond promptly to error codes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor control screens continuously and respond promptly to error codes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Monitor and adjust system operation",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to conduct regular visual checks to ensure that system elements are operating correctly?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct regular visual checks to ensure",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct regular visual checks to ensure that system elements are operating correctly",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct regular visual checks to ensure that system elements are operating correctly.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct regular visual checks to ensure that system elements are operating correctly?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct regular visual checks to ensure that system elements are operating correctly",
+      "knowledge_focus": [
+        "Conduct regular visual checks to ensure that system elements are operating correctly"
+      ],
+      "workplace_context_examples": [
+        "Monitor and adjust system operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct regular visual checks to ensure that system elements are operating correctly"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct regular visual checks to ensure that system elements are operating correctly"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct regular visual checks to ensure that system elements are operating correctly."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with use safe work practices, safety equipment and personal protective equipment (ppe) to ensure personal safety and that of others?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use safe work practices, safety equipme",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use safe work practices, safety equipment and personal protective equipment (ppe) to ensure personal safety and that of others",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others?",
+      "practical_task_interpretation": "In practice this requires the worker to use safe work practices, safety equipment and personal protective equipment (ppe) to ensure personal safety and that of others",
+      "knowledge_focus": [
+        "Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use safe work practices, safety equipment and personal protective equipment (ppe) to ensure personal safety and that of others"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use safe work practices, safety equipment and personal protective equipment (ppe) to ensure personal safety and that of others"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use safe work practices, safety equipment and personal protective equipment (PPE) to ensure personal safety and that of others."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What would indicate that clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and maintain system elements, mai",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required",
+      "knowledge_focus": [
+        "Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and maintain system elements, maintain consumable stocks, and care for and store equipment as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Maintain a safe work environment",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to minimise the generation of waste and environmental impacts? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Minimise the generation of waste and en",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to minimise the generation of waste and environmental impacts",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+      "practical_task_interpretation": "In practice this requires the worker to minimise the generation of waste and environmental impacts",
+      "knowledge_focus": [
+        "Minimise the generation of waste and environmental impacts"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of minimise the generation of waste and environmental impacts"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of minimise the generation of waste and environmental impacts"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.829763+00:00"
+}

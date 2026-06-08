@@ -1,0 +1,1002 @@
+{
+  "code": "MSL974031",
+  "title": "Prepare, standardise and use solutions",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare, standardise and use solutions demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare solutions",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select appropriate procedure for solution preparation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate procedure for solution preparation?",
+          "benchmark_statement": "The candidate demonstrates that they can Select appropriate procedure for solution preparation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Select equipment, materials and solvent of specified purity",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select equipment, materials and solvent of specified purity?",
+          "benchmark_statement": "The candidate demonstrates that they can Select equipment, materials and solvent of specified purity.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Measure appropriate quantities of reagents for solution preparation and record data",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measure appropriate quantities of reagents for solution preparation and record data?",
+          "benchmark_statement": "The candidate demonstrates that they can Measure appropriate quantities of reagents for solution preparation and record data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Select and assemble specified laboratory equipment and appropriate grade of glassware",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and assemble specified laboratory equipment and appropriate grade of glassware?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and assemble specified laboratory equipment and appropriate grade of glassware.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Perform specified dilutions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform specified dilutions?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform specified dilutions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Prepare solutions to achieve homogeneous mix of the specified concentration",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare solutions to achieve homogeneous mix of the specified concentration?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare solutions to achieve homogeneous mix of the specified concentration.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Label and store solutions to maintain identity and stability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label and store solutions to maintain identity and stability?",
+          "benchmark_statement": "The candidate demonstrates that they can Label and store solutions to maintain identity and stability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare solutions"
+    },
+    {
+      "id": "E2",
+      "title": "Standardise and use volumetric solutions",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Assemble appropriate laboratory equipment",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble appropriate laboratory equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Assemble appropriate laboratory equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Standardise the solution to the required specified range and precision",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Standardise the solution to the required specified range and precision?",
+          "benchmark_statement": "The candidate demonstrates that they can Standardise the solution to the required specified range and precision.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Label and store solutions to maintain identity and stability",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label and store solutions to maintain identity and stability?",
+          "benchmark_statement": "The candidate demonstrates that they can Label and store solutions to maintain identity and stability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Use standard volumetric solutions to determine concentration of unknown solutions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standard volumetric solutions to determine concentration of unknown solutions?",
+          "benchmark_statement": "The candidate demonstrates that they can Use standard volumetric solutions to determine concentration of unknown solutions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Standardise and use volumetric solutions"
+    },
+    {
+      "id": "E3",
+      "title": "Calculate and record data",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Accurately calculate specified concentrations",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately calculate specified concentrations?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately calculate specified concentrations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Use authorised procedure if data is to be modified",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use authorised procedure if data is to be modified?",
+          "benchmark_statement": "The candidate demonstrates that they can Use authorised procedure if data is to be modified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Estimate and document uncertainty of measurement in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and document uncertainty of measurement in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Record all relevant details in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record all relevant details in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record all relevant details in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Report concentration with appropriate units",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report concentration with appropriate units?",
+          "benchmark_statement": "The candidate demonstrates that they can Report concentration with appropriate units.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Calculate and record data"
+    },
+    {
+      "id": "E4",
+      "title": "Monitor the quality of laboratory solutions",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Check solutions for visual deterioration and expiry date",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check solutions for visual deterioration and expiry date?",
+          "benchmark_statement": "The candidate demonstrates that they can Check solutions for visual deterioration and expiry date.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Record details and label solutions in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record details and label solutions in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record details and label solutions in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Monitor the quality of laboratory solutions"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Clean up spills using appropriate techniques to protect personnel, work area and environment",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean up spills using appropriate techniques to protect personnel, work area and environment?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean up spills using appropriate techniques to protect personnel, work area and environment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Minimise generation of waste and environmental impacts",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise generation of waste and environmental impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise generation of waste and environmental impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Ensure the safe collection of laboratory and hazardous waste for subsequent disposal",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure the safe collection of laboratory and hazardous waste for subsequent disposal.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Store equipment and reagents in accordance with workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store equipment and reagents in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Store equipment and reagents in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare solutions",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select appropriate procedure for solution preparation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select appropriate procedure for soluti",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select appropriate procedure for solution preparation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select appropriate procedure for solution preparation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate procedure for solution preparation?",
+      "practical_task_interpretation": "In practice this requires the worker to select appropriate procedure for solution preparation",
+      "knowledge_focus": [
+        "Select appropriate procedure for solution preparation"
+      ],
+      "workplace_context_examples": [
+        "Prepare solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select appropriate procedure for solution preparation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select appropriate procedure for solution preparation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select appropriate procedure for solution preparation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare solutions",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What criteria determine how to select equipment, materials and solvent of specified purity?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select equipment, materials and solvent",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select equipment, materials and solvent of specified purity",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select equipment, materials and solvent of specified purity.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select equipment, materials and solvent of specified purity?",
+      "practical_task_interpretation": "In practice this requires the worker to select equipment, materials and solvent of specified purity",
+      "knowledge_focus": [
+        "Select equipment, materials and solvent of specified purity"
+      ],
+      "workplace_context_examples": [
+        "Prepare solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select equipment, materials and solvent of specified purity"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select equipment, materials and solvent of specified purity"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select equipment, materials and solvent of specified purity."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare solutions",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What information must be recorded when you measure appropriate quantities of reagents for solution preparation and record data, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Measure appropriate quantities of reage",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to measure appropriate quantities of reagents for solution preparation and record data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Measure appropriate quantities of reagents for solution preparation and record data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measure appropriate quantities of reagents for solution preparation and record data?",
+      "practical_task_interpretation": "In practice this requires the worker to measure appropriate quantities of reagents for solution preparation and record data",
+      "knowledge_focus": [
+        "Measure appropriate quantities of reagents for solution preparation and record data"
+      ],
+      "workplace_context_examples": [
+        "Prepare solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of measure appropriate quantities of reagents for solution preparation and record data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of measure appropriate quantities of reagents for solution preparation and record data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Measure appropriate quantities of reagents for solution preparation and record data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Standardise and use volumetric solutions",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to assemble appropriate laboratory equipment? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assemble appropriate laboratory equipme",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assemble appropriate laboratory equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assemble appropriate laboratory equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble appropriate laboratory equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to assemble appropriate laboratory equipment",
+      "knowledge_focus": [
+        "Assemble appropriate laboratory equipment"
+      ],
+      "workplace_context_examples": [
+        "Standardise and use volumetric solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assemble appropriate laboratory equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assemble appropriate laboratory equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assemble appropriate laboratory equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Standardise and use volumetric solutions",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to standardise the solution to the required specified range and precision? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Standardise the solution to the require",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to standardise the solution to the required specified range and precision",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Standardise the solution to the required specified range and precision.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Standardise the solution to the required specified range and precision?",
+      "practical_task_interpretation": "In practice this requires the worker to standardise the solution to the required specified range and precision",
+      "knowledge_focus": [
+        "Standardise the solution to the required specified range and precision"
+      ],
+      "workplace_context_examples": [
+        "Standardise and use volumetric solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of standardise the solution to the required specified range and precision"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of standardise the solution to the required specified range and precision"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Standardise the solution to the required specified range and precision."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Standardise and use volumetric solutions",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that label and store solutions to maintain identity and stability is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Label and store solutions to maintain i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to label and store solutions to maintain identity and stability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Label and store solutions to maintain identity and stability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label and store solutions to maintain identity and stability?",
+      "practical_task_interpretation": "In practice this requires the worker to label and store solutions to maintain identity and stability",
+      "knowledge_focus": [
+        "Label and store solutions to maintain identity and stability"
+      ],
+      "workplace_context_examples": [
+        "Standardise and use volumetric solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of label and store solutions to maintain identity and stability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of label and store solutions to maintain identity and stability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Label and store solutions to maintain identity and stability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Calculate and record data",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to accurately calculate specified concentrations? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Accurately calculate specified concentr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to accurately calculate specified concentrations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Accurately calculate specified concentrations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately calculate specified concentrations?",
+      "practical_task_interpretation": "In practice this requires the worker to accurately calculate specified concentrations",
+      "knowledge_focus": [
+        "Accurately calculate specified concentrations"
+      ],
+      "workplace_context_examples": [
+        "Calculate and record data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of accurately calculate specified concentrations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of accurately calculate specified concentrations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Accurately calculate specified concentrations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Calculate and record data",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to use authorised procedure if data is to be modified? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use authorised procedure if data is to ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use authorised procedure if data is to be modified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use authorised procedure if data is to be modified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use authorised procedure if data is to be modified?",
+      "practical_task_interpretation": "In practice this requires the worker to use authorised procedure if data is to be modified",
+      "knowledge_focus": [
+        "Use authorised procedure if data is to be modified"
+      ],
+      "workplace_context_examples": [
+        "Calculate and record data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use authorised procedure if data is to be modified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use authorised procedure if data is to be modified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use authorised procedure if data is to be modified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Calculate and record data",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you estimate and document uncertainty of measurement in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate and document uncertainty of me",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate and document uncertainty of measurement in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and document uncertainty of measurement in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate and document uncertainty of measurement in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Estimate and document uncertainty of measurement in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Calculate and record data"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate and document uncertainty of measurement in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate and document uncertainty of measurement in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Monitor the quality of laboratory solutions",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to check solutions for visual deterioration and expiry date?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check solutions for visual deterioratio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check solutions for visual deterioration and expiry date",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check solutions for visual deterioration and expiry date.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check solutions for visual deterioration and expiry date?",
+      "practical_task_interpretation": "In practice this requires the worker to check solutions for visual deterioration and expiry date",
+      "knowledge_focus": [
+        "Check solutions for visual deterioration and expiry date"
+      ],
+      "workplace_context_examples": [
+        "Monitor the quality of laboratory solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check solutions for visual deterioration and expiry date"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check solutions for visual deterioration and expiry date"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check solutions for visual deterioration and expiry date."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Monitor the quality of laboratory solutions",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you record details and label solutions in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record details and label solutions in a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record details and label solutions in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record details and label solutions in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record details and label solutions in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record details and label solutions in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record details and label solutions in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Monitor the quality of laboratory solutions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record details and label solutions in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record details and label solutions in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record details and label solutions in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Maintain a safe work environment",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What are the key hazards and required controls associated with use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use established safe work practices and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel",
+      "knowledge_focus": [
+        "Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel"
+      ],
+      "workplace_context_examples": [
+        "Maintain a safe work environment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use established safe work practices and personal protective equipment (ppe) to ensure personal safety and that of other laboratory personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use established safe work practices and personal protective equipment (PPE) to ensure personal safety and that of other laboratory personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.830331+00:00"
+}

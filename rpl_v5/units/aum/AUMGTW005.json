@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTW005",
+  "title": "Perform gas metal arc welding",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform gas metal arc welding demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified?",
+          "benchmark_statement": "The candidate demonstrates that they can Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Weld materials",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Weld materials"
+    },
+    {
+      "id": "E3",
+      "title": "Check welds",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified?",
+          "benchmark_statement": "The candidate demonstrates that they can Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Check welds"
+    },
+    {
+      "id": "E4",
+      "title": "Complete job",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete job"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 resources and work areas are prepared and potential hazards identified?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weld specifications are identified and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 resources and work areas are prepared and potential hazards identified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified?",
+      "practical_task_interpretation": "In practice this requires the worker to weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 resources and work areas are prepared and potential hazards identified",
+      "knowledge_focus": [
+        "Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 resources and work areas are prepared and potential hazards identified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 resources and work areas are prepared and potential hazards identified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weld specifications are identified and confirmed from job sheets, welding standards and work instructions1.2 Welding safety equipment and welder are identified, obtained and inspected for faults and correct operation1.3 Resources and work areas are prepared and potential hazards identified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Weld materials",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to workplace procedures are identified and followed2.2 gmaw equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 materials are welded using gmaw process to specifications, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Workplace procedures are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to workplace procedures are identified and followed2.2 gmaw equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 materials are welded using gmaw process to specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to workplace procedures are identified and followed2.2 gmaw equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 materials are welded using gmaw process to specifications",
+      "knowledge_focus": [
+        "Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications"
+      ],
+      "workplace_context_examples": [
+        "Weld materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of workplace procedures are identified and followed2.2 gmaw equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 materials are welded using gmaw process to specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of workplace procedures are identified and followed2.2 gmaw equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 materials are welded using gmaw process to specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 GMAW equipment is prepared, adjusted and used according to manufacturer operating procedures2.3 Weld test runs are conducted according to work plan, weld specifications and quality requirements2.4 Materials are welded using GMAW process to specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Check welds",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to welds are cleaned using appropriate techniques according to work instruction3.2 weld quality and specifications are checked and confirmed by non-destructive testing3.3 weld defects are identified and prepared for re-welding, and appropriate personnel are notified?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Welds are cleaned using appropriate tec",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to welds are cleaned using appropriate techniques according to work instruction3.2 weld quality and specifications are checked and confirmed by non-destructive testing3.3 weld defects are identified and prepared for re-welding, and appropriate personnel are notified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified?",
+      "practical_task_interpretation": "In practice this requires the worker to welds are cleaned using appropriate techniques according to work instruction3.2 weld quality and specifications are checked and confirmed by non-destructive testing3.3 weld defects are identified and prepared for re-welding, and appropriate personnel are notified",
+      "knowledge_focus": [
+        "Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified"
+      ],
+      "workplace_context_examples": [
+        "Check welds"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of welds are cleaned using appropriate techniques according to work instruction3.2 weld quality and specifications are checked and confirmed by non-destructive testing3.3 weld defects are identified and prepared for re-welding, and appropriate personnel are notified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of welds are cleaned using appropriate techniques according to work instruction3.2 weld quality and specifications are checked and confirmed by non-destructive testing3.3 weld defects are identified and prepared for re-welding, and appropriate personnel are notified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Welds are cleaned using appropriate techniques according to work instruction3.2 Weld quality and specifications are checked and confirmed by non-destructive testing3.3 Weld defects are identified and prepared for re-welding, and appropriate personnel are notified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete job",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to work areas are cleaned and cleared of waste materials according to workplace procedures4.2 gmaw equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 faulty welding equipment is identified, tagged and reported4.4 work sheets are completed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work areas are cleaned and cleared of w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work areas are cleaned and cleared of waste materials according to workplace procedures4.2 gmaw equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 faulty welding equipment is identified, tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to work areas are cleaned and cleared of waste materials according to workplace procedures4.2 gmaw equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 faulty welding equipment is identified, tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "knowledge_focus": [
+        "Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete job"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work areas are cleaned and cleared of waste materials according to workplace procedures4.2 gmaw equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 faulty welding equipment is identified, tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work areas are cleaned and cleared of waste materials according to workplace procedures4.2 gmaw equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 faulty welding equipment is identified, tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work areas are cleaned and cleared of waste materials according to workplace procedures4.2 GMAW equipment is cleaned, maintained, inspected and stored according to workplace procedures4.3 Faulty welding equipment is identified, tagged and reported4.4 Work sheets are completed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.466428+00:00"
+}

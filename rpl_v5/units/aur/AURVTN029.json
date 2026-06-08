@@ -1,0 +1,263 @@
+{
+  "code": "AURVTN029",
+  "title": "Set up and operate universal vehicle measuring systems",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Set up and operate universal vehicle measuring systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to set up and operate universal measuring system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to set up and operate universal measuring system"
+    },
+    {
+      "id": "E2",
+      "title": "Carry out measurement activities",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Carry out measurement activities"
+    },
+    {
+      "id": "E3",
+      "title": "Complete measurement processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete measurement processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to set up and operate universal measuring system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from workplace instructions1.2 set-up information is accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 work is planned to complete job requirements efficiently?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from workplace instructions1.2 set-up information is accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 work is planned to complete job requirements efficiently",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from workplace instructions1.2 set-up information is accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 work is planned to complete job requirements efficiently",
+      "knowledge_focus": [
+        "Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently"
+      ],
+      "workplace_context_examples": [
+        "Prepare to set up and operate universal measuring system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from workplace instructions1.2 set-up information is accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 work is planned to complete job requirements efficiently"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from workplace instructions1.2 set-up information is accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 work is planned to complete job requirements efficiently"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Set-up information is accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Measuring equipment is selected, set up, and calibrated and checked for serviceability1.5 Work is planned to complete job requirements efficiently."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Carry out measurement activities",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you measuring system is secured and adjusted to vehicle according to original equipment manufacturer (oem) or authorised agency\u2019s recommended procedures and safety requirements2.2 vehicle is measured in three dimensions according to oem or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 pre- and post-repair measurements are recorded according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Measuring system is secured and adjuste",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to measuring system is secured and adjusted to vehicle according to original equipment manufacturer (oem) or authorised agency\u2019s recommended procedures and safety requirements2.2 vehicle is measured in three dimensions according to oem or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 pre- and post-repair measurements are recorded according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to measuring system is secured and adjusted to vehicle according to original equipment manufacturer (oem) or authorised agency\u2019s recommended procedures and safety requirements2.2 vehicle is measured in three dimensions according to oem or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 pre- and post-repair measurements are recorded according to workplace procedures",
+      "knowledge_focus": [
+        "Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Carry out measurement activities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of measuring system is secured and adjusted to vehicle according to original equipment manufacturer (oem) or authorised agency\u2019s recommended procedures and safety requirements2.2 vehicle is measured in three dimensions according to oem or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 pre- and post-repair measurements are recorded according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of measuring system is secured and adjusted to vehicle according to original equipment manufacturer (oem) or authorised agency\u2019s recommended procedures and safety requirements2.2 vehicle is measured in three dimensions according to oem or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 pre- and post-repair measurements are recorded according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Measuring system is secured and adjusted to vehicle according to original equipment manufacturer (OEM) or authorised agency\u2019s recommended procedures and safety requirements2.2 Vehicle is measured in three dimensions according to OEM or authorised agency\u2019s requirements and workplace procedures, and without causing damage to vehicle system or components2.3 Pre- and post-repair measurements are recorded according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete measurement processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with oem or authorised agency\u2019s specifications3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final checks are made to ensure measure",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with oem or authorised agency\u2019s specifications3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with oem or authorised agency\u2019s specifications3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete measurement processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with oem or authorised agency\u2019s specifications3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with oem or authorised agency\u2019s specifications3.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final checks are made to ensure measurements are accurate, meet workplace expectations, and comply with OEM or authorised agency\u2019s specifications3.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored3.3 Measuring equipment is checked and maintained according to manufacturer specifications, reported if faulty, and stored according to workplace procedures3.4 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.218903+00:00"
+}

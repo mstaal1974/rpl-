@@ -1,0 +1,335 @@
+{
+  "code": "AURVTT005",
+  "title": "Select trim and fabric materials",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Select trim and fabric materials demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Select and inspect materials",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Select and inspect materials"
+    },
+    {
+      "id": "E3",
+      "title": "Determine attachment methods",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Determine attachment methods"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined from workplace instructions1.2 hazards associated with the work are identified and risks are managed1.3 work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined from wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined from workplace instructions1.2 hazards associated with the work are identified and risks are managed1.3 work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined from workplace instructions1.2 hazards associated with the work are identified and risks are managed1.3 work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions",
+      "knowledge_focus": [
+        "Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined from workplace instructions1.2 hazards associated with the work are identified and risks are managed1.3 work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined from workplace instructions1.2 hazards associated with the work are identified and risks are managed1.3 work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined from workplace instructions1.2 Hazards associated with the work are identified and risks are managed1.3 Work area is prepared and a range of trim materials is gathered for inspection according to workplace instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Select and inspect materials",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to trim materials are selected against job and customer requirements2.2 trim materials are checked for quality and reported if faulty?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim materials are selected against job",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim materials are selected against job and customer requirements2.2 trim materials are checked for quality and reported if faulty",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty?",
+      "practical_task_interpretation": "In practice this requires the worker to trim materials are selected against job and customer requirements2.2 trim materials are checked for quality and reported if faulty",
+      "knowledge_focus": [
+        "Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty"
+      ],
+      "workplace_context_examples": [
+        "Select and inspect materials"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim materials are selected against job and customer requirements2.2 trim materials are checked for quality and reported if faulty"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim materials are selected against job and customer requirements2.2 trim materials are checked for quality and reported if faulty"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim materials are selected against job and customer requirements2.2 Trim materials are checked for quality and reported if faulty."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Determine attachment methods",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to attachment material information is sourced and interpreted3.2 attachment options are analysed and those most appropriate to the circumstances are selected3.3 selected option is reported according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Attachment material information is sour",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to attachment material information is sourced and interpreted3.2 attachment options are analysed and those most appropriate to the circumstances are selected3.3 selected option is reported according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to attachment material information is sourced and interpreted3.2 attachment options are analysed and those most appropriate to the circumstances are selected3.3 selected option is reported according to workplace procedures",
+      "knowledge_focus": [
+        "Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine attachment methods"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of attachment material information is sourced and interpreted3.2 attachment options are analysed and those most appropriate to the circumstances are selected3.3 selected option is reported according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of attachment material information is sourced and interpreted3.2 attachment options are analysed and those most appropriate to the circumstances are selected3.3 selected option is reported according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Attachment material information is sourced and interpreted3.2 Attachment options are analysed and those most appropriate to the circumstances are selected3.3 Selected option is reported according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you final material selection is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 workplace documentation is processed according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final material selection is presented r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final material selection is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final material selection is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final material selection is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final material selection is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final material selection is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.296738+00:00"
+}

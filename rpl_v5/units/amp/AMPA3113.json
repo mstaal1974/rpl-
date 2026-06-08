@@ -1,0 +1,335 @@
+{
+  "code": "AMPA3113",
+  "title": "Prepare a kill sheet",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare a kill sheet demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Review stock arrival documentation",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs)",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs)?",
+          "benchmark_statement": "The candidate demonstrates that they can Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Review stock arrival documentation"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare kill sheet",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare kill sheet"
+    },
+    {
+      "id": "E3",
+      "title": "Make adjustments to the kill sheet throughout the day",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Make adjustments to the kill sheet throughout the day"
+    },
+    {
+      "id": "E4",
+      "title": "Identify NLIS requirements that apply to meat processors",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data?",
+          "benchmark_statement": "The candidate demonstrates that they can Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Identify NLIS requirements that apply to meat processors"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Review stock arrival documentation",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check all relevant paperwork has been received, e.g., national vendor declarations (nvds) or post-sale summaries (psss)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check all relevant paperwork has been r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check all relevant paperwork has been received, e.g., national vendor declarations (nvds) or post-sale summaries (psss)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs)?",
+      "practical_task_interpretation": "In practice this requires the worker to check all relevant paperwork has been received, e.g., national vendor declarations (nvds) or post-sale summaries (psss)",
+      "knowledge_focus": [
+        "Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs)"
+      ],
+      "workplace_context_examples": [
+        "Review stock arrival documentation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check all relevant paperwork has been received, e.g., national vendor declarations (nvds) or post-sale summaries (psss)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check all relevant paperwork has been received, e.g., national vendor declarations (nvds) or post-sale summaries (psss)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check all relevant paperwork has been received, e.g., National Vendor Declarations (NVDs) or Post-Sale Summaries (PSSs)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare kill sheet",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to prepare kill sheet according to workplace requirements and livestock advice2.2 liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 ensure relevant staff receive kill sheet in a timely manner according to work place requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare kill sheet according to workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare kill sheet according to workplace requirements and livestock advice2.2 liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 ensure relevant staff receive kill sheet in a timely manner according to work place requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare kill sheet according to workplace requirements and livestock advice2.2 liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 ensure relevant staff receive kill sheet in a timely manner according to work place requirements",
+      "knowledge_focus": [
+        "Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare kill sheet"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare kill sheet according to workplace requirements and livestock advice2.2 liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 ensure relevant staff receive kill sheet in a timely manner according to work place requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare kill sheet according to workplace requirements and livestock advice2.2 liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 ensure relevant staff receive kill sheet in a timely manner according to work place requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare kill sheet according to workplace requirements and livestock advice2.2 Liaise with livestock staff to determine correct order for stock presentation to slaughter2.3 Ensure relevant staff receive kill sheet in a timely manner according to work place requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Make adjustments to the kill sheet throughout the day",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What would indicate that liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 ensure relevant staff received modified kill sheets in a timely manner according to work place requirements is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Liaise with slaughter floor staff to en",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 ensure relevant staff received modified kill sheets in a timely manner according to work place requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 ensure relevant staff received modified kill sheets in a timely manner according to work place requirements",
+      "knowledge_focus": [
+        "Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements"
+      ],
+      "workplace_context_examples": [
+        "Make adjustments to the kill sheet throughout the day"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 ensure relevant staff received modified kill sheets in a timely manner according to work place requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 ensure relevant staff received modified kill sheets in a timely manner according to work place requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Liaise with slaughter floor staff to ensure kill sheet is modified if stock are presented out of order, e.g. emergency kills3.2 Modify kill sheet as and when livestock or on-floor issues alter the order or number of stock to be processed3.3 Ensure relevant staff received modified kill sheets in a timely manner according to work place requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Identify NLIS requirements that apply to meat processors",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you explain the company\u2019s nlis reporting requirements4.2 ensure the kill sheet reconciliations are completed and enable an accurate upload of nlis data, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Explain the company\u2019s NLIS reporting re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to explain the company\u2019s nlis reporting requirements4.2 ensure the kill sheet reconciliations are completed and enable an accurate upload of nlis data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data?",
+      "practical_task_interpretation": "In practice this requires the worker to explain the company\u2019s nlis reporting requirements4.2 ensure the kill sheet reconciliations are completed and enable an accurate upload of nlis data",
+      "knowledge_focus": [
+        "Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data"
+      ],
+      "workplace_context_examples": [
+        "Identify NLIS requirements that apply to meat processors"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of explain the company\u2019s nlis reporting requirements4.2 ensure the kill sheet reconciliations are completed and enable an accurate upload of nlis data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of explain the company\u2019s nlis reporting requirements4.2 ensure the kill sheet reconciliations are completed and enable an accurate upload of nlis data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Explain the company\u2019s NLIS reporting requirements4.2 Ensure the kill sheet reconciliations are completed and enable an accurate upload of NLIS data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.915788+00:00"
+}

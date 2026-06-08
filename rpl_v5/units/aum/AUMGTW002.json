@@ -1,0 +1,263 @@
+{
+  "code": "AUMGTW002",
+  "title": "Perform mechanical cutting",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform mechanical cutting demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Undertake cutting processes",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Undertake cutting processes"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to identify job requirements and specifications from work order and drawings1.2 select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 set and adjust cutting equipment for use, according to material type and job specifications1.4 identify cutting list from work plan and plan cutting processes to ensure minimal waste?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify job requirements and specifica",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify job requirements and specifications from work order and drawings1.2 select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 set and adjust cutting equipment for use, according to material type and job specifications1.4 identify cutting list from work plan and plan cutting processes to ensure minimal waste",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste?",
+      "practical_task_interpretation": "In practice this requires the worker to identify job requirements and specifications from work order and drawings1.2 select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 set and adjust cutting equipment for use, according to material type and job specifications1.4 identify cutting list from work plan and plan cutting processes to ensure minimal waste",
+      "knowledge_focus": [
+        "Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify job requirements and specifications from work order and drawings1.2 select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 set and adjust cutting equipment for use, according to material type and job specifications1.4 identify cutting list from work plan and plan cutting processes to ensure minimal waste"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify job requirements and specifications from work order and drawings1.2 select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 set and adjust cutting equipment for use, according to material type and job specifications1.4 identify cutting list from work plan and plan cutting processes to ensure minimal waste"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify job requirements and specifications from work order and drawings1.2 Select appropriate cutting equipment, inspecting for safe operation and identifying faults 1.3 Set and adjust cutting equipment for use, according to material type and job specifications1.4 Identify cutting list from work plan and plan cutting processes to ensure minimal waste."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Undertake cutting processes",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to identify and use personal protective equipment (ppe) according to workplace procedures and work health and safety (whs) requirements2.2 check equipment safety stops and guards, adjusting if necessary2.3 operate equipment according to manufacturer instructions and workplace procedures2.4 inspect and cut material according to job specifications2.5 identify cutting defects and take corrective action?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and use personal protective eq",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and use personal protective equipment (ppe) according to workplace procedures and work health and safety (whs) requirements2.2 check equipment safety stops and guards, adjusting if necessary2.3 operate equipment according to manufacturer instructions and workplace procedures2.4 inspect and cut material according to job specifications2.5 identify cutting defects and take corrective action",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and use personal protective equipment (ppe) according to workplace procedures and work health and safety (whs) requirements2.2 check equipment safety stops and guards, adjusting if necessary2.3 operate equipment according to manufacturer instructions and workplace procedures2.4 inspect and cut material according to job specifications2.5 identify cutting defects and take corrective action",
+      "knowledge_focus": [
+        "Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action"
+      ],
+      "workplace_context_examples": [
+        "Undertake cutting processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and use personal protective equipment (ppe) according to workplace procedures and work health and safety (whs) requirements2.2 check equipment safety stops and guards, adjusting if necessary2.3 operate equipment according to manufacturer instructions and workplace procedures2.4 inspect and cut material according to job specifications2.5 identify cutting defects and take corrective action"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and use personal protective equipment (ppe) according to workplace procedures and work health and safety (whs) requirements2.2 check equipment safety stops and guards, adjusting if necessary2.3 operate equipment according to manufacturer instructions and workplace procedures2.4 inspect and cut material according to job specifications2.5 identify cutting defects and take corrective action"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and use personal protective equipment (PPE) according to workplace procedures and work health and safety (WHS) requirements2.2 Check equipment safety stops and guards, adjusting if necessary2.3 Operate equipment according to manufacturer instructions and workplace procedures2.4 Inspect and cut material according to job specifications2.5 Identify cutting defects and take corrective action."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to clean and maintain work area and equipment according to workplace procedures3.2 identify, tag and report faulty cutting equipment3.3 complete cutting list and give to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and maintain work area and equipm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and maintain work area and equipment according to workplace procedures3.2 identify, tag and report faulty cutting equipment3.3 complete cutting list and give to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and maintain work area and equipment according to workplace procedures3.2 identify, tag and report faulty cutting equipment3.3 complete cutting list and give to appropriate personnel",
+      "knowledge_focus": [
+        "Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and maintain work area and equipment according to workplace procedures3.2 identify, tag and report faulty cutting equipment3.3 complete cutting list and give to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and maintain work area and equipment according to workplace procedures3.2 identify, tag and report faulty cutting equipment3.3 complete cutting list and give to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and maintain work area and equipment according to workplace procedures3.2 Identify, tag and report faulty cutting equipment3.3 Complete cutting list and give to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.463567+00:00"
+}

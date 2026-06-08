@@ -1,0 +1,335 @@
+{
+  "code": "AURETR006",
+  "title": "Solder electrical wiring and circuits",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Solder electrical wiring and circuits demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to solder electrical wiring and circuits",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to solder electrical wiring and circuits"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare components, circuits and wiring for soldering",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use?",
+          "benchmark_statement": "The candidate demonstrates that they can Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare components, circuits and wiring for soldering"
+    },
+    {
+      "id": "E3",
+      "title": "Carry out soldering of components, circuits and wiring",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness?",
+          "benchmark_statement": "The candidate demonstrates that they can Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Carry out soldering of components, circuits and wiring"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to solder electrical wiring and circuits",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined according to workplace instructions1.2 technical procedures and information are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools and equipment are selected and checked for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined according to workplace instructions1.2 technical procedures and information are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools and equipment are selected and checked for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined according to workplace instructions1.2 technical procedures and information are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools and equipment are selected and checked for serviceability",
+      "knowledge_focus": [
+        "Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to solder electrical wiring and circuits"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined according to workplace instructions1.2 technical procedures and information are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools and equipment are selected and checked for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined according to workplace instructions1.2 technical procedures and information are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools and equipment are selected and checked for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Technical procedures and information are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools and equipment are selected and checked for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare components, circuits and wiring for soldering",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 solder and flux type are identified and prepared2.3 soldering equipment is cleaned and prepared ready for use?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Materials and components to be joined a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 solder and flux type are identified and prepared2.3 soldering equipment is cleaned and prepared ready for use",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use?",
+      "practical_task_interpretation": "In practice this requires the worker to materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 solder and flux type are identified and prepared2.3 soldering equipment is cleaned and prepared ready for use",
+      "knowledge_focus": [
+        "Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use"
+      ],
+      "workplace_context_examples": [
+        "Prepare components, circuits and wiring for soldering"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 solder and flux type are identified and prepared2.3 soldering equipment is cleaned and prepared ready for use"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 solder and flux type are identified and prepared2.3 soldering equipment is cleaned and prepared ready for use"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Materials and components to be joined are selected and prepared according to workplace procedures and safety and environmental requirements2.2 Solder and flux type are identified and prepared2.3 Soldering equipment is cleaned and prepared ready for use."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Carry out soldering of components, circuits and wiring",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 soldered connection is inspected visually and checked to ensure effectiveness?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Soldering is carried out according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 soldered connection is inspected visually and checked to ensure effectiveness",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness?",
+      "practical_task_interpretation": "In practice this requires the worker to soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 soldered connection is inspected visually and checked to ensure effectiveness",
+      "knowledge_focus": [
+        "Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness"
+      ],
+      "workplace_context_examples": [
+        "Carry out soldering of components, circuits and wiring"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 soldered connection is inspected visually and checked to ensure effectiveness"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 soldered connection is inspected visually and checked to ensure effectiveness"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Soldering is carried out according to workplace quality expectations, and without causing damage to vehicle, components, electrical circuits and system wiring3.2 Soldered connection is inspected visually and checked to ensure effectiveness."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.742317+00:00"
+}

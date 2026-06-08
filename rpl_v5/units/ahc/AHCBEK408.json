@@ -1,0 +1,903 @@
+{
+  "code": "AHCBEK408",
+  "title": "Provide bee pollination services",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide bee pollination services demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assess pollination service requirement",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Discuss and confirm the pollination services required with client",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Discuss and confirm the pollination services required with client?",
+          "benchmark_statement": "The candidate demonstrates that they can Discuss and confirm the pollination services required with client.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Determine number, location and types of colonies required for crop",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine number, location and types of colonies required for crop?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine number, location and types of colonies required for crop.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Assess strength, condition and health of bee colonies for their suitability for use as crop pollinators",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess strength, condition and health of bee colonies for their suitability for use as crop pollinators?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess strength, condition and health of bee colonies for their suitability for use as crop pollinators.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Assess risk of pollination problems with client and establish process to monitor risk",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess risk of pollination problems with client and establish process to monitor risk?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess risk of pollination problems with client and establish process to monitor risk.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Provide technical information to client to support bee performance and maintain health",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide technical information to client to support bee performance and maintain health?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide technical information to client to support bee performance and maintain health.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Obtain appropriate certificates and permits where bees are to be moved across state borders",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain appropriate certificates and permits where bees are to be moved across state borders?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain appropriate certificates and permits where bees are to be moved across state borders.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assess pollination service requirement"
+    },
+    {
+      "id": "E2",
+      "title": "Price and formalise agreement for pollination services",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify resources and calculate costs in providing pollination services",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify resources and calculate costs in providing pollination services?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify resources and calculate costs in providing pollination services.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Confirm with client the price for pollination services",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm with client the price for pollination services?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm with client the price for pollination services.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Document, confirm and exercise an agreement with client to provide pollination service",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document, confirm and exercise an agreement with client to provide pollination service?",
+          "benchmark_statement": "The candidate demonstrates that they can Document, confirm and exercise an agreement with client to provide pollination service.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Price and formalise agreement for pollination services"
+    },
+    {
+      "id": "E3",
+      "title": "Prepare apiary sites and deliver hives to client",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Prepare sites for hives according to workplace procedures and client requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare sites for hives according to workplace procedures and client requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare sites for hives according to workplace procedures and client requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice?",
+          "benchmark_statement": "The candidate demonstrates that they can Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Demonstrate strength and condition of hives to client to confirm agreed service has been provided",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Demonstrate strength and condition of hives to client to confirm agreed service has been provided?",
+          "benchmark_statement": "The candidate demonstrates that they can Demonstrate strength and condition of hives to client to confirm agreed service has been provided.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Prepare apiary sites and deliver hives to client"
+    },
+    {
+      "id": "E4",
+      "title": "Monitor pollination performance of bee colonies",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Liaise with client on spraying programmes to minimise damage to bees",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with client on spraying programmes to minimise damage to bees?",
+          "benchmark_statement": "The candidate demonstrates that they can Liaise with client on spraying programmes to minimise damage to bees.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Carry out bee husbandry practices to ensure apiary performance",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out bee husbandry practices to ensure apiary performance?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out bee husbandry practices to ensure apiary performance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Monitor pollination performance of bee colonies"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assess pollination service requirement",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to discuss and confirm the pollination services required with client?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Discuss and confirm the pollination ser",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to discuss and confirm the pollination services required with client",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Discuss and confirm the pollination services required with client.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Discuss and confirm the pollination services required with client?",
+      "practical_task_interpretation": "In practice this requires the worker to discuss and confirm the pollination services required with client",
+      "knowledge_focus": [
+        "Discuss and confirm the pollination services required with client"
+      ],
+      "workplace_context_examples": [
+        "Assess pollination service requirement"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of discuss and confirm the pollination services required with client"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of discuss and confirm the pollination services required with client"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Discuss and confirm the pollination services required with client."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Assess pollination service requirement",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to determine number, location and types of colonies required for crop?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine number, location and types of",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine number, location and types of colonies required for crop",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Determine number, location and types of colonies required for crop.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine number, location and types of colonies required for crop?",
+      "practical_task_interpretation": "In practice this requires the worker to determine number, location and types of colonies required for crop",
+      "knowledge_focus": [
+        "Determine number, location and types of colonies required for crop"
+      ],
+      "workplace_context_examples": [
+        "Assess pollination service requirement"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine number, location and types of colonies required for crop"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine number, location and types of colonies required for crop"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine number, location and types of colonies required for crop."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Assess pollination service requirement",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm state, territory and local gove",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services",
+      "knowledge_focus": [
+        "Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services"
+      ],
+      "workplace_context_examples": [
+        "Assess pollination service requirement"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm state, territory and local government legislative and regulatory and requirements, including biosecurity affecting pollination services."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Price and formalise agreement for pollination services",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify resources and calculate costs in providing pollination services?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify resources and calculate costs ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify resources and calculate costs in providing pollination services",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify resources and calculate costs in providing pollination services.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify resources and calculate costs in providing pollination services?",
+      "practical_task_interpretation": "In practice this requires the worker to identify resources and calculate costs in providing pollination services",
+      "knowledge_focus": [
+        "Identify resources and calculate costs in providing pollination services"
+      ],
+      "workplace_context_examples": [
+        "Price and formalise agreement for pollination services"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify resources and calculate costs in providing pollination services"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify resources and calculate costs in providing pollination services"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify resources and calculate costs in providing pollination services."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Price and formalise agreement for pollination services",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to confirm with client the price for pollination services?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm with client the price for polli",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm with client the price for pollination services",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm with client the price for pollination services.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm with client the price for pollination services?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm with client the price for pollination services",
+      "knowledge_focus": [
+        "Confirm with client the price for pollination services"
+      ],
+      "workplace_context_examples": [
+        "Price and formalise agreement for pollination services"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm with client the price for pollination services"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm with client the price for pollination services"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm with client the price for pollination services."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Price and formalise agreement for pollination services",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to document, confirm and exercise an agreement with client to provide pollination service?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Document, confirm and exercise an agree",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to document, confirm and exercise an agreement with client to provide pollination service",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Document, confirm and exercise an agreement with client to provide pollination service.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document, confirm and exercise an agreement with client to provide pollination service?",
+      "practical_task_interpretation": "In practice this requires the worker to document, confirm and exercise an agreement with client to provide pollination service",
+      "knowledge_focus": [
+        "Document, confirm and exercise an agreement with client to provide pollination service"
+      ],
+      "workplace_context_examples": [
+        "Price and formalise agreement for pollination services"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of document, confirm and exercise an agreement with client to provide pollination service"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of document, confirm and exercise an agreement with client to provide pollination service"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Document, confirm and exercise an agreement with client to provide pollination service."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Prepare apiary sites and deliver hives to client",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What steps are required to prepare sites for hives according to workplace procedures and client requirements, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare sites for hives according to wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare sites for hives according to workplace procedures and client requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare sites for hives according to workplace procedures and client requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare sites for hives according to workplace procedures and client requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare sites for hives according to workplace procedures and client requirements",
+      "knowledge_focus": [
+        "Prepare sites for hives according to workplace procedures and client requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare apiary sites and deliver hives to client"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare sites for hives according to workplace procedures and client requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare sites for hives according to workplace procedures and client requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare sites for hives according to workplace procedures and client requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Prepare apiary sites and deliver hives to client",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What steps are required to deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Deliver hives to site and set up apiary",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice?",
+      "practical_task_interpretation": "In practice this requires the worker to deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice",
+      "knowledge_focus": [
+        "Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice"
+      ],
+      "workplace_context_examples": [
+        "Prepare apiary sites and deliver hives to client"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Deliver hives to site and set up apiary according to client and workplace procedures, legislative requirements and biosecurity code of practice."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Prepare apiary sites and deliver hives to client",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What checks would you perform to demonstrate strength and condition of hives to client to confirm agreed service has been provided?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Demonstrate strength and condition of h",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to demonstrate strength and condition of hives to client to confirm agreed service has been provided",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Demonstrate strength and condition of hives to client to confirm agreed service has been provided.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Demonstrate strength and condition of hives to client to confirm agreed service has been provided?",
+      "practical_task_interpretation": "In practice this requires the worker to demonstrate strength and condition of hives to client to confirm agreed service has been provided",
+      "knowledge_focus": [
+        "Demonstrate strength and condition of hives to client to confirm agreed service has been provided"
+      ],
+      "workplace_context_examples": [
+        "Prepare apiary sites and deliver hives to client"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of demonstrate strength and condition of hives to client to confirm agreed service has been provided"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of demonstrate strength and condition of hives to client to confirm agreed service has been provided"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Demonstrate strength and condition of hives to client to confirm agreed service has been provided."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Monitor pollination performance of bee colonies",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to liaise with client on spraying programmes to minimise damage to bees? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Liaise with client on spraying programm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to liaise with client on spraying programmes to minimise damage to bees",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Liaise with client on spraying programmes to minimise damage to bees.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Liaise with client on spraying programmes to minimise damage to bees?",
+      "practical_task_interpretation": "In practice this requires the worker to liaise with client on spraying programmes to minimise damage to bees",
+      "knowledge_focus": [
+        "Liaise with client on spraying programmes to minimise damage to bees"
+      ],
+      "workplace_context_examples": [
+        "Monitor pollination performance of bee colonies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of liaise with client on spraying programmes to minimise damage to bees"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of liaise with client on spraying programmes to minimise damage to bees"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Liaise with client on spraying programmes to minimise damage to bees."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Monitor pollination performance of bee colonies",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What would indicate that monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor crop within appropriate timefra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency",
+      "knowledge_focus": [
+        "Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency"
+      ],
+      "workplace_context_examples": [
+        "Monitor pollination performance of bee colonies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor crop within appropriate timeframe for evidence of bee foraging and pollination efficiency."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Monitor pollination performance of bee colonies",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that carry out bee husbandry practices to ensure apiary performance is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out bee husbandry practices to en",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out bee husbandry practices to ensure apiary performance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out bee husbandry practices to ensure apiary performance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out bee husbandry practices to ensure apiary performance?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out bee husbandry practices to ensure apiary performance",
+      "knowledge_focus": [
+        "Carry out bee husbandry practices to ensure apiary performance"
+      ],
+      "workplace_context_examples": [
+        "Monitor pollination performance of bee colonies"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out bee husbandry practices to ensure apiary performance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out bee husbandry practices to ensure apiary performance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out bee husbandry practices to ensure apiary performance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.472003+00:00"
+}

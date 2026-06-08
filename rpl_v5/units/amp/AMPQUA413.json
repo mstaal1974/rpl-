@@ -1,0 +1,937 @@
+{
+  "code": "AMPQUA413",
+  "title": "Specify sheep product using AUS-MEAT language",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Specify sheep product using AUS-MEAT language demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify anatomical features of a sheep carcase",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Describe directions on a carcase using anatomical direction format",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe directions on a carcase using anatomical direction format?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe directions on a carcase using anatomical direction format.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Locate and identify bones relevant to meat specifications on a sheep skeleton",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and identify bones relevant to meat specifications on a sheep skeleton?",
+          "benchmark_statement": "The candidate demonstrates that they can Locate and identify bones relevant to meat specifications on a sheep skeleton.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify major muscles relevant to meat specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify major muscles relevant to meat specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify major muscles relevant to meat specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify major glands and cartilage relevant to meat specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify major glands and cartilage relevant to meat specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify major glands and cartilage relevant to meat specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify anatomical features of a sheep carcase"
+    },
+    {
+      "id": "E2",
+      "title": "Identify and name meat products using standard product descriptions",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify nature and format of product specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify nature and format of product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify nature and format of product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Use standardised cut descriptions to name meat products",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standardised cut descriptions to name meat products?",
+          "benchmark_statement": "The candidate demonstrates that they can Use standardised cut descriptions to name meat products.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify major muscles that make up each meat cut",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify major muscles that make up each meat cut?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify major muscles that make up each meat cut.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify correct cutting lines for each product and describe them using correct anatomical terms",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify correct cutting lines for each product and describe them using correct anatomical terms?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify correct cutting lines for each product and describe them using correct anatomical terms.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Identify necessary alterations for any given meat product to comply with workplace product specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify necessary alterations for any given meat product to comply with workplace product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify necessary alterations for any given meat product to comply with workplace product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify and name meat products using standard product descriptions"
+    },
+    {
+      "id": "E3",
+      "title": "Check sheep products comply with written specifications",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Check sheep products comply with written specifications, and describe principles of quality assurance (QA)",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check sheep products comply with written specifications, and describe principles of quality assurance (QA)?",
+          "benchmark_statement": "The candidate demonstrates that they can Check sheep products comply with written specifications, and describe principles of quality assurance (QA).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Define and describe non-conforming products in relation to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define and describe non-conforming products in relation to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Define and describe non-conforming products in relation to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Identify and monitor product specifications according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and monitor product specifications according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and monitor product specifications according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Check sheep products comply with written specifications"
+    },
+    {
+      "id": "E4",
+      "title": "Assess product compliance",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Identify and explain product description given in written specifications",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain product description given in written specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and explain product description given in written specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Take corrective action in the event of non-conformance to sheep product specifications",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take corrective action in the event of non-conformance to sheep product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Take corrective action in the event of non-conformance to sheep product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Assess product compliance"
+    },
+    {
+      "id": "E5",
+      "title": "Measure and check product compliance against written specifications",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Check cutting lines and muscle content according to written specifications",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check cutting lines and muscle content according to written specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Check cutting lines and muscle content according to written specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Identify non-conforming products that can be altered to comply with relevant specifications",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify non-conforming products that can be altered to comply with relevant specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify non-conforming products that can be altered to comply with relevant specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Measure and check product compliance against written specifications"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify anatomical features of a sheep carcase",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to describe directions on a carcase using anatomical direction format? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe directions on a carcase using ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe directions on a carcase using anatomical direction format",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Describe directions on a carcase using anatomical direction format.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe directions on a carcase using anatomical direction format?",
+      "practical_task_interpretation": "In practice this requires the worker to describe directions on a carcase using anatomical direction format",
+      "knowledge_focus": [
+        "Describe directions on a carcase using anatomical direction format"
+      ],
+      "workplace_context_examples": [
+        "Identify anatomical features of a sheep carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe directions on a carcase using anatomical direction format"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe directions on a carcase using anatomical direction format"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe directions on a carcase using anatomical direction format."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify anatomical features of a sheep carcase",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to locate and identify bones relevant to meat specifications on a sheep skeleton?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Locate and identify bones relevant to m",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to locate and identify bones relevant to meat specifications on a sheep skeleton",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Locate and identify bones relevant to meat specifications on a sheep skeleton.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Locate and identify bones relevant to meat specifications on a sheep skeleton?",
+      "practical_task_interpretation": "In practice this requires the worker to locate and identify bones relevant to meat specifications on a sheep skeleton",
+      "knowledge_focus": [
+        "Locate and identify bones relevant to meat specifications on a sheep skeleton"
+      ],
+      "workplace_context_examples": [
+        "Identify anatomical features of a sheep carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of locate and identify bones relevant to meat specifications on a sheep skeleton"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of locate and identify bones relevant to meat specifications on a sheep skeleton"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Locate and identify bones relevant to meat specifications on a sheep skeleton."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify anatomical features of a sheep carcase",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify major muscles relevant to meat specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify major muscles relevant to meat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify major muscles relevant to meat specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify major muscles relevant to meat specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify major muscles relevant to meat specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to identify major muscles relevant to meat specifications",
+      "knowledge_focus": [
+        "Identify major muscles relevant to meat specifications"
+      ],
+      "workplace_context_examples": [
+        "Identify anatomical features of a sheep carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify major muscles relevant to meat specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify major muscles relevant to meat specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify major muscles relevant to meat specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify and name meat products using standard product descriptions",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify nature and format of product specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify nature and format of product s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify nature and format of product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify nature and format of product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify nature and format of product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to identify nature and format of product specifications",
+      "knowledge_focus": [
+        "Identify nature and format of product specifications"
+      ],
+      "workplace_context_examples": [
+        "Identify and name meat products using standard product descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify nature and format of product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify nature and format of product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify nature and format of product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify and name meat products using standard product descriptions",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to use standardised cut descriptions to name meat products? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use standardised cut descriptions to na",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use standardised cut descriptions to name meat products",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use standardised cut descriptions to name meat products.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use standardised cut descriptions to name meat products?",
+      "practical_task_interpretation": "In practice this requires the worker to use standardised cut descriptions to name meat products",
+      "knowledge_focus": [
+        "Use standardised cut descriptions to name meat products"
+      ],
+      "workplace_context_examples": [
+        "Identify and name meat products using standard product descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use standardised cut descriptions to name meat products"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use standardised cut descriptions to name meat products"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use standardised cut descriptions to name meat products."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Identify and name meat products using standard product descriptions",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify major muscles that make up each meat cut?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify major muscles that make up eac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify major muscles that make up each meat cut",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify major muscles that make up each meat cut.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify major muscles that make up each meat cut?",
+      "practical_task_interpretation": "In practice this requires the worker to identify major muscles that make up each meat cut",
+      "knowledge_focus": [
+        "Identify major muscles that make up each meat cut"
+      ],
+      "workplace_context_examples": [
+        "Identify and name meat products using standard product descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify major muscles that make up each meat cut"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify major muscles that make up each meat cut"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify major muscles that make up each meat cut."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Check sheep products comply with written specifications",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to check sheep products comply with written specifications, and describe principles of quality assurance (qa)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check sheep products comply with writte",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check sheep products comply with written specifications, and describe principles of quality assurance (qa)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check sheep products comply with written specifications, and describe principles of quality assurance (QA).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check sheep products comply with written specifications, and describe principles of quality assurance (QA)?",
+      "practical_task_interpretation": "In practice this requires the worker to check sheep products comply with written specifications, and describe principles of quality assurance (qa)",
+      "knowledge_focus": [
+        "Check sheep products comply with written specifications, and describe principles of quality assurance (QA)"
+      ],
+      "workplace_context_examples": [
+        "Check sheep products comply with written specifications"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check sheep products comply with written specifications, and describe principles of quality assurance (qa)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check sheep products comply with written specifications, and describe principles of quality assurance (qa)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check sheep products comply with written specifications, and describe principles of quality assurance (QA)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Check sheep products comply with written specifications",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to describe sections of the workplace qa system related to ensuring sheep products comply with aus-meat product description requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe sections of the workplace QA s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe sections of the workplace qa system related to ensuring sheep products comply with aus-meat product description requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to describe sections of the workplace qa system related to ensuring sheep products comply with aus-meat product description requirements",
+      "knowledge_focus": [
+        "Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements"
+      ],
+      "workplace_context_examples": [
+        "Check sheep products comply with written specifications"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe sections of the workplace qa system related to ensuring sheep products comply with aus-meat product description requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe sections of the workplace qa system related to ensuring sheep products comply with aus-meat product description requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe sections of the workplace QA system related to ensuring sheep products comply with AUS-MEAT product description requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Check sheep products comply with written specifications",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to define and describe non-conforming products in relation to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Define and describe non-conforming prod",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to define and describe non-conforming products in relation to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Define and describe non-conforming products in relation to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define and describe non-conforming products in relation to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to define and describe non-conforming products in relation to workplace requirements",
+      "knowledge_focus": [
+        "Define and describe non-conforming products in relation to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Check sheep products comply with written specifications"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of define and describe non-conforming products in relation to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of define and describe non-conforming products in relation to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Define and describe non-conforming products in relation to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Assess product compliance",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to assess product compliance with written specifications according to workplace and aus-meat product description requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess product compliance with written ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess product compliance with written specifications according to workplace and aus-meat product description requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to assess product compliance with written specifications according to workplace and aus-meat product description requirements",
+      "knowledge_focus": [
+        "Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements"
+      ],
+      "workplace_context_examples": [
+        "Assess product compliance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess product compliance with written specifications according to workplace and aus-meat product description requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess product compliance with written specifications according to workplace and aus-meat product description requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess product compliance with written specifications according to workplace and AUS-MEAT product description requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Assess product compliance",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to identify and explain product description given in written specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and explain product descriptio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and explain product description given in written specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and explain product description given in written specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and explain product description given in written specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and explain product description given in written specifications",
+      "knowledge_focus": [
+        "Identify and explain product description given in written specifications"
+      ],
+      "workplace_context_examples": [
+        "Assess product compliance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and explain product description given in written specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and explain product description given in written specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and explain product description given in written specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Assess product compliance",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to take corrective action in the event of non-conformance to sheep product specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Take corrective action in the event of ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to take corrective action in the event of non-conformance to sheep product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Take corrective action in the event of non-conformance to sheep product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take corrective action in the event of non-conformance to sheep product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to take corrective action in the event of non-conformance to sheep product specifications",
+      "knowledge_focus": [
+        "Take corrective action in the event of non-conformance to sheep product specifications"
+      ],
+      "workplace_context_examples": [
+        "Assess product compliance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of take corrective action in the event of non-conformance to sheep product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of take corrective action in the event of non-conformance to sheep product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Take corrective action in the event of non-conformance to sheep product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.260413+00:00"
+}

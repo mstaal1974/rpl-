@@ -1,0 +1,407 @@
+{
+  "code": "AUMGTY001",
+  "title": "Paint vehicle chassis and panels",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Paint vehicle chassis and panels demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for painting",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code?",
+          "benchmark_statement": "The candidate demonstrates that they can Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for painting"
+    },
+    {
+      "id": "E2",
+      "title": "Operate spraying equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required?",
+          "benchmark_statement": "The candidate demonstrates that they can Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate spraying equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Apply paint",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Apply paint"
+    },
+    {
+      "id": "E4",
+      "title": "Inspect painted surfaces",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified?",
+          "benchmark_statement": "The candidate demonstrates that they can Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Inspect painted surfaces"
+    },
+    {
+      "id": "E5",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed?",
+          "benchmark_statement": "The candidate demonstrates that they can Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for painting",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to paints and materials are identified and prepared according to workplace procedures1.2 panels are masked off to ensure surrounding areas are protected from overspray1.3 spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 paint colours are matched according to job specifications and vehicle paint code?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Paints and materials are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to paints and materials are identified and prepared according to workplace procedures1.2 panels are masked off to ensure surrounding areas are protected from overspray1.3 spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 paint colours are matched according to job specifications and vehicle paint code",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code?",
+      "practical_task_interpretation": "In practice this requires the worker to paints and materials are identified and prepared according to workplace procedures1.2 panels are masked off to ensure surrounding areas are protected from overspray1.3 spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 paint colours are matched according to job specifications and vehicle paint code",
+      "knowledge_focus": [
+        "Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code"
+      ],
+      "workplace_context_examples": [
+        "Prepare for painting"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of paints and materials are identified and prepared according to workplace procedures1.2 panels are masked off to ensure surrounding areas are protected from overspray1.3 spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 paint colours are matched according to job specifications and vehicle paint code"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of paints and materials are identified and prepared according to workplace procedures1.2 panels are masked off to ensure surrounding areas are protected from overspray1.3 spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 paint colours are matched according to job specifications and vehicle paint code"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Paints and materials are identified and prepared according to workplace procedures1.2 Panels are masked off to ensure surrounding areas are protected from overspray1.3 Spraying equipment is selected and inspected, and faulty equipment identified, tagged and reported to appropriate personnel1.4 Paint colours are matched according to job specifications and vehicle paint code."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Operate spraying equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 spray painting booths are inspected for correct operation and adjusted if required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Spray painting guns are checked and adj",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 spray painting booths are inspected for correct operation and adjusted if required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required?",
+      "practical_task_interpretation": "In practice this requires the worker to spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 spray painting booths are inspected for correct operation and adjusted if required",
+      "knowledge_focus": [
+        "Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required"
+      ],
+      "workplace_context_examples": [
+        "Operate spraying equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 spray painting booths are inspected for correct operation and adjusted if required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 spray painting booths are inspected for correct operation and adjusted if required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Spray painting guns are checked and adjusted for spray pattern, fan width and paint flow2.2 Spray painting booths are inspected for correct operation and adjusted if required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Apply paint",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What would indicate that primers and paint are applied to ensure interior and exterior surfaces are coated3.2 paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 paint coatings are monitored for surface blemishes3.4 paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Primers and paint are applied to ensure",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to primers and paint are applied to ensure interior and exterior surfaces are coated3.2 paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 paint coatings are monitored for surface blemishes3.4 paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to primers and paint are applied to ensure interior and exterior surfaces are coated3.2 paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 paint coatings are monitored for surface blemishes3.4 paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications",
+      "knowledge_focus": [
+        "Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Apply paint"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of primers and paint are applied to ensure interior and exterior surfaces are coated3.2 paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 paint coatings are monitored for surface blemishes3.4 paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of primers and paint are applied to ensure interior and exterior surfaces are coated3.2 paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 paint coatings are monitored for surface blemishes3.4 paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Primers and paint are applied to ensure interior and exterior surfaces are coated3.2 Paint is applied according to manufacturer\u2019s recommended thickness, lustre and surface finish3.3 Paint coatings are monitored for surface blemishes3.4 Paint viscosity is monitored and adjusted to ensure compliance with paint manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Inspect painted surfaces",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to painted surfaces are visually inspected and faults identified4.2 painted surfaces with paint faults are redirected for rework and appropriate personnel are notified?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Painted surfaces are visually inspected",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to painted surfaces are visually inspected and faults identified4.2 painted surfaces with paint faults are redirected for rework and appropriate personnel are notified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified?",
+      "practical_task_interpretation": "In practice this requires the worker to painted surfaces are visually inspected and faults identified4.2 painted surfaces with paint faults are redirected for rework and appropriate personnel are notified",
+      "knowledge_focus": [
+        "Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified"
+      ],
+      "workplace_context_examples": [
+        "Inspect painted surfaces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of painted surfaces are visually inspected and faults identified4.2 painted surfaces with paint faults are redirected for rework and appropriate personnel are notified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of painted surfaces are visually inspected and faults identified4.2 painted surfaces with paint faults are redirected for rework and appropriate personnel are notified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Painted surfaces are visually inspected and faults identified4.2 Painted surfaces with paint faults are redirected for rework and appropriate personnel are notified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E5: Complete work processes",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What checks would you perform to spraying equipment is cleaned and inspected according to workplace procedures5.2 work areas are cleaned, and unused materials stored5.3 waste materials are removed and disposed of according to workplace environmental procedures5.4 workplace job sheets or production schedules are completed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Spraying equipment is cleaned and inspe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to spraying equipment is cleaned and inspected according to workplace procedures5.2 work areas are cleaned, and unused materials stored5.3 waste materials are removed and disposed of according to workplace environmental procedures5.4 workplace job sheets or production schedules are completed",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed?",
+      "practical_task_interpretation": "In practice this requires the worker to spraying equipment is cleaned and inspected according to workplace procedures5.2 work areas are cleaned, and unused materials stored5.3 waste materials are removed and disposed of according to workplace environmental procedures5.4 workplace job sheets or production schedules are completed",
+      "knowledge_focus": [
+        "Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of spraying equipment is cleaned and inspected according to workplace procedures5.2 work areas are cleaned, and unused materials stored5.3 waste materials are removed and disposed of according to workplace environmental procedures5.4 workplace job sheets or production schedules are completed"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of spraying equipment is cleaned and inspected according to workplace procedures5.2 work areas are cleaned, and unused materials stored5.3 waste materials are removed and disposed of according to workplace environmental procedures5.4 workplace job sheets or production schedules are completed"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Spraying equipment is cleaned and inspected according to workplace procedures5.2 Work areas are cleaned, and unused materials stored5.3 Waste materials are removed and disposed of according to workplace environmental procedures5.4 Workplace job sheets or production schedules are completed."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.467385+00:00"
+}

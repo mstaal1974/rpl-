@@ -1,0 +1,903 @@
+{
+  "code": "AMPGAM302",
+  "title": "Operate a wild game harvester vehicle",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate a wild game harvester vehicle demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare and maintain field harvesting vehicle and equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check wild field harvesting vehicle is clean prior to harvesting operation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check wild field harvesting vehicle is clean prior to harvesting operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Check wild field harvesting vehicle is clean prior to harvesting operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Check equipment is clean and fit for purpose",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment is clean and fit for purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Check equipment is clean and fit for purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Check and replenish consumables, as required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and replenish consumables, as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Check and replenish consumables, as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify health and safety risks associated with operating vehicle, and implement control measures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety risks associated with operating vehicle, and implement control measures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health and safety risks associated with operating vehicle, and implement control measures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare and maintain field harvesting vehicle and equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Load, transport and deliver to field depot or wild game meat processing premises",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Load carcases according to management plan, safe work and regulatory requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load carcases according to management plan, safe work and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Load carcases according to management plan, safe work and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Load and transport carcases to avoid contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load and transport carcases to avoid contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Load and transport carcases to avoid contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Plan delivery times to meet regulatory and company requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan delivery times to meet regulatory and company requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan delivery times to meet regulatory and company requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Load, transport and deliver to field depot or wild game meat processing premises"
+    },
+    {
+      "id": "E3",
+      "title": "Unload field dressed wild game animal carcase",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Unload carcases according to management plan and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload carcases according to management plan and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Unload carcases according to management plan and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Unload carcases to minimise contamination",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload carcases to minimise contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Unload carcases to minimise contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Unload field dressed wild game animal carcase"
+    },
+    {
+      "id": "E4",
+      "title": "Clean field harvester vehicle and equipment",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean vehicle to meet regulatory requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean vehicle to meet regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean vehicle to meet regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Clean kit and hanging pins according to the management plan",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean kit and hanging pins according to the management plan?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean kit and hanging pins according to the management plan.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Store kit and hanging pins to avoid contamination",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store kit and hanging pins to avoid contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Store kit and hanging pins to avoid contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Identify and organise any vehicle or equipment maintenance requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and organise any vehicle or equipment maintenance requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and organise any vehicle or equipment maintenance requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Complete records in line with regulatory and workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete records in line with regulatory and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete records in line with regulatory and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Clean field harvester vehicle and equipment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare and maintain field harvesting vehicle and equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check wild field harvesting vehicle is clean prior to harvesting operation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check wild field harvesting vehicle is ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check wild field harvesting vehicle is clean prior to harvesting operation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check wild field harvesting vehicle is clean prior to harvesting operation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check wild field harvesting vehicle is clean prior to harvesting operation?",
+      "practical_task_interpretation": "In practice this requires the worker to check wild field harvesting vehicle is clean prior to harvesting operation",
+      "knowledge_focus": [
+        "Check wild field harvesting vehicle is clean prior to harvesting operation"
+      ],
+      "workplace_context_examples": [
+        "Prepare and maintain field harvesting vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check wild field harvesting vehicle is clean prior to harvesting operation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check wild field harvesting vehicle is clean prior to harvesting operation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check wild field harvesting vehicle is clean prior to harvesting operation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare and maintain field harvesting vehicle and equipment",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to check equipment is clean and fit for purpose?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check equipment is clean and fit for pu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check equipment is clean and fit for purpose",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check equipment is clean and fit for purpose.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment is clean and fit for purpose?",
+      "practical_task_interpretation": "In practice this requires the worker to check equipment is clean and fit for purpose",
+      "knowledge_focus": [
+        "Check equipment is clean and fit for purpose"
+      ],
+      "workplace_context_examples": [
+        "Prepare and maintain field harvesting vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check equipment is clean and fit for purpose"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check equipment is clean and fit for purpose"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check equipment is clean and fit for purpose."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare and maintain field harvesting vehicle and equipment",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to check and replenish consumables, as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check and replenish consumables, as req",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check and replenish consumables, as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check and replenish consumables, as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and replenish consumables, as required?",
+      "practical_task_interpretation": "In practice this requires the worker to check and replenish consumables, as required",
+      "knowledge_focus": [
+        "Check and replenish consumables, as required"
+      ],
+      "workplace_context_examples": [
+        "Prepare and maintain field harvesting vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check and replenish consumables, as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check and replenish consumables, as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check and replenish consumables, as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Load, transport and deliver to field depot or wild game meat processing premises",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to load carcases according to management plan, safe work and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Load carcases according to management p",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to load carcases according to management plan, safe work and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Load carcases according to management plan, safe work and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load carcases according to management plan, safe work and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to load carcases according to management plan, safe work and regulatory requirements",
+      "knowledge_focus": [
+        "Load carcases according to management plan, safe work and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Load, transport and deliver to field depot or wild game meat processing premises"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of load carcases according to management plan, safe work and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of load carcases according to management plan, safe work and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Load carcases according to management plan, safe work and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Load, transport and deliver to field depot or wild game meat processing premises",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to load and transport carcases to avoid contamination? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Load and transport carcases to avoid co",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to load and transport carcases to avoid contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Load and transport carcases to avoid contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load and transport carcases to avoid contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to load and transport carcases to avoid contamination",
+      "knowledge_focus": [
+        "Load and transport carcases to avoid contamination"
+      ],
+      "workplace_context_examples": [
+        "Load, transport and deliver to field depot or wild game meat processing premises"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of load and transport carcases to avoid contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of load and transport carcases to avoid contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Load and transport carcases to avoid contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Load, transport and deliver to field depot or wild game meat processing premises",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to plan delivery times to meet regulatory and company requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan delivery times to meet regulatory ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan delivery times to meet regulatory and company requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Plan delivery times to meet regulatory and company requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan delivery times to meet regulatory and company requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to plan delivery times to meet regulatory and company requirements",
+      "knowledge_focus": [
+        "Plan delivery times to meet regulatory and company requirements"
+      ],
+      "workplace_context_examples": [
+        "Load, transport and deliver to field depot or wild game meat processing premises"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan delivery times to meet regulatory and company requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan delivery times to meet regulatory and company requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan delivery times to meet regulatory and company requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Unload field dressed wild game animal carcase",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to unload carcases according to management plan and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Unload carcases according to management",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to unload carcases according to management plan and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Unload carcases according to management plan and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload carcases according to management plan and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to unload carcases according to management plan and regulatory requirements",
+      "knowledge_focus": [
+        "Unload carcases according to management plan and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Unload field dressed wild game animal carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of unload carcases according to management plan and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of unload carcases according to management plan and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Unload carcases according to management plan and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Unload field dressed wild game animal carcase",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to unload carcases to minimise contamination? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Unload carcases to minimise contaminati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to unload carcases to minimise contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Unload carcases to minimise contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload carcases to minimise contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to unload carcases to minimise contamination",
+      "knowledge_focus": [
+        "Unload carcases to minimise contamination"
+      ],
+      "workplace_context_examples": [
+        "Unload field dressed wild game animal carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of unload carcases to minimise contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of unload carcases to minimise contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Unload carcases to minimise contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Unload field dressed wild game animal carcase",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan and achieve delivery times at fiel",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements",
+      "knowledge_focus": [
+        "Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Unload field dressed wild game animal carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan and achieve delivery times at field depots or processing premises to meet regulatory and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Clean field harvester vehicle and equipment",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to clean vehicle to meet regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean vehicle to meet regulatory requir",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean vehicle to meet regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean vehicle to meet regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean vehicle to meet regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean vehicle to meet regulatory requirements",
+      "knowledge_focus": [
+        "Clean vehicle to meet regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean field harvester vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean vehicle to meet regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean vehicle to meet regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean vehicle to meet regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Clean field harvester vehicle and equipment",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to use cleaning chemicals that meet regulatory requirements according to manufacturer instructions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use cleaning chemicals that meet regula",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use cleaning chemicals that meet regulatory requirements according to manufacturer instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to use cleaning chemicals that meet regulatory requirements according to manufacturer instructions",
+      "knowledge_focus": [
+        "Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions"
+      ],
+      "workplace_context_examples": [
+        "Clean field harvester vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use cleaning chemicals that meet regulatory requirements according to manufacturer instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use cleaning chemicals that meet regulatory requirements according to manufacturer instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use cleaning chemicals that meet regulatory requirements according to manufacturer instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Clean field harvester vehicle and equipment",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to clean kit and hanging pins according to the management plan? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean kit and hanging pins according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean kit and hanging pins according to the management plan",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Clean kit and hanging pins according to the management plan.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean kit and hanging pins according to the management plan?",
+      "practical_task_interpretation": "In practice this requires the worker to clean kit and hanging pins according to the management plan",
+      "knowledge_focus": [
+        "Clean kit and hanging pins according to the management plan"
+      ],
+      "workplace_context_examples": [
+        "Clean field harvester vehicle and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean kit and hanging pins according to the management plan"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean kit and hanging pins according to the management plan"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean kit and hanging pins according to the management plan."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.999441+00:00"
+}

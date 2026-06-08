@@ -1,0 +1,638 @@
+{
+  "code": "AMPS301",
+  "title": "Cook, steam and cool product",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Cook, steam and cool product demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Place product in cooking or steaming facility",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Space product in cooking facility according to product and manufacturer's specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Space product in cooking facility according to product and manufacturer's specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Space product in cooking facility according to product and manufacturer's specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Place product in cooking or steaming facility"
+    },
+    {
+      "id": "E2",
+      "title": "Cook or steam product",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Determine correct cooking or steaming procedure",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine correct cooking or steaming procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine correct cooking or steaming procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Set and maintain cooking or steaming cycle according to specifications and workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set and maintain cooking or steaming cycle according to specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Set and maintain cooking or steaming cycle according to specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Check internal temperature of product on completion of cooking or steaming cycle to ensure correct process has been achieved",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check internal temperature of product on completion of cooking or steaming cycle to ensure correct process has been achieved?",
+          "benchmark_statement": "The candidate demonstrates that they can Check internal temperature of product on completion of cooking or steaming cycle to ensure correct process has been achieved.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Cook or steam a variety of products to workplace requirements and customer specifications at a speed similar to production requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cook or steam a variety of products to workplace requirements and customer specifications at a speed similar to production requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Cook or steam a variety of products to workplace requirements and customer specifications at a speed similar to production requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Correctly record process and results of cooking or steaming",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly record process and results of cooking or steaming?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly record process and results of cooking or steaming.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Dye product to achieve a uniform colour when required by product specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dye product to achieve a uniform colour when required by product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Dye product to achieve a uniform colour when required by product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Cook or steam product"
+    },
+    {
+      "id": "E3",
+      "title": "Chill or cool product",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Weigh product immediately on completion of cooking or steaming cycle",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh product immediately on completion of cooking or steaming cycle?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh product immediately on completion of cooking or steaming cycle.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Chill product immediately or cool at ambient temperature before chilling according to product specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Chill product immediately or cool at ambient temperature before chilling according to product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Chill product immediately or cool at ambient temperature before chilling according to product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Identify and store product according to product specifications and workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and store product according to product specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and store product according to product specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Chill or cool product"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Place product in cooking or steaming facility",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify individual product and place correctly in cooking or steaming facility for even cooking or steaming?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify individual product and place c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify individual product and place correctly in cooking or steaming facility for even cooking or steaming",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming?",
+      "practical_task_interpretation": "In practice this requires the worker to identify individual product and place correctly in cooking or steaming facility for even cooking or steaming",
+      "knowledge_focus": [
+        "Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming"
+      ],
+      "workplace_context_examples": [
+        "Place product in cooking or steaming facility"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify individual product and place correctly in cooking or steaming facility for even cooking or steaming"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify individual product and place correctly in cooking or steaming facility for even cooking or steaming"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify individual product and place correctly in cooking or steaming facility for even cooking or steaming."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Place product in cooking or steaming facility",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to space product in cooking facility according to product and manufacturer's specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Space product in cooking facility accor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to space product in cooking facility according to product and manufacturer's specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Space product in cooking facility according to product and manufacturer's specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Space product in cooking facility according to product and manufacturer's specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to space product in cooking facility according to product and manufacturer's specifications",
+      "knowledge_focus": [
+        "Space product in cooking facility according to product and manufacturer's specifications"
+      ],
+      "workplace_context_examples": [
+        "Place product in cooking or steaming facility"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of space product in cooking facility according to product and manufacturer's specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of space product in cooking facility according to product and manufacturer's specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Space product in cooking facility according to product and manufacturer's specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Cook or steam product",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to determine correct cooking or steaming procedure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine correct cooking or steaming p",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine correct cooking or steaming procedure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine correct cooking or steaming procedure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine correct cooking or steaming procedure?",
+      "practical_task_interpretation": "In practice this requires the worker to determine correct cooking or steaming procedure",
+      "knowledge_focus": [
+        "Determine correct cooking or steaming procedure"
+      ],
+      "workplace_context_examples": [
+        "Cook or steam product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine correct cooking or steaming procedure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine correct cooking or steaming procedure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine correct cooking or steaming procedure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Cook or steam product",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What would indicate that set and maintain cooking or steaming cycle according to specifications and workplace requirements is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set and maintain cooking or steaming cy",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set and maintain cooking or steaming cycle according to specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Set and maintain cooking or steaming cycle according to specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set and maintain cooking or steaming cycle according to specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to set and maintain cooking or steaming cycle according to specifications and workplace requirements",
+      "knowledge_focus": [
+        "Set and maintain cooking or steaming cycle according to specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Cook or steam product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set and maintain cooking or steaming cycle according to specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set and maintain cooking or steaming cycle according to specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set and maintain cooking or steaming cycle according to specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Cook or steam product",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Regularly monitor cooking or steaming p",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications",
+      "knowledge_focus": [
+        "Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications"
+      ],
+      "workplace_context_examples": [
+        "Cook or steam product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Regularly monitor cooking or steaming process and adjust as necessary to fulfil product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Chill or cool product",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to weigh product immediately on completion of cooking or steaming cycle? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh product immediately on completion",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh product immediately on completion of cooking or steaming cycle",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh product immediately on completion of cooking or steaming cycle.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh product immediately on completion of cooking or steaming cycle?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh product immediately on completion of cooking or steaming cycle",
+      "knowledge_focus": [
+        "Weigh product immediately on completion of cooking or steaming cycle"
+      ],
+      "workplace_context_examples": [
+        "Chill or cool product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh product immediately on completion of cooking or steaming cycle"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh product immediately on completion of cooking or steaming cycle"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh product immediately on completion of cooking or steaming cycle."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Chill or cool product",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to chill product immediately or cool at ambient temperature before chilling according to product specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Chill product immediately or cool at am",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to chill product immediately or cool at ambient temperature before chilling according to product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Chill product immediately or cool at ambient temperature before chilling according to product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Chill product immediately or cool at ambient temperature before chilling according to product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to chill product immediately or cool at ambient temperature before chilling according to product specifications",
+      "knowledge_focus": [
+        "Chill product immediately or cool at ambient temperature before chilling according to product specifications"
+      ],
+      "workplace_context_examples": [
+        "Chill or cool product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of chill product immediately or cool at ambient temperature before chilling according to product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of chill product immediately or cool at ambient temperature before chilling according to product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Chill product immediately or cool at ambient temperature before chilling according to product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Chill or cool product",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What factors would you consider when you need to identify and store product according to product specifications and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and store product according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and store product according to product specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and store product according to product specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and store product according to product specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and store product according to product specifications and workplace requirements",
+      "knowledge_focus": [
+        "Identify and store product according to product specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Chill or cool product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and store product according to product specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and store product according to product specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and store product according to product specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.353732+00:00"
+}

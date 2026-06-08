@@ -1,0 +1,263 @@
+{
+  "code": "AURLTJ011",
+  "title": "Select light vehicle wheels and tyres",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Select light vehicle wheels and tyres demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify tyre and wheel options",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify tyre and wheel options"
+    },
+    {
+      "id": "E2",
+      "title": "Select tyres and wheels for specific applications",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Select tyres and wheels for specific applications"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify tyre and wheel options",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify job requirements from workplace instructions1.2 obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify job requirements from workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify job requirements from workplace instructions1.2 obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify job requirements from workplace instructions1.2 obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements",
+      "knowledge_focus": [
+        "Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify tyre and wheel options"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify job requirements from workplace instructions1.2 obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify job requirements from workplace instructions1.2 obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret tyre and wheel information in order to identify tyre and wheel options required for the job1.3 Identify hazards and issues associated with the work, assess potential risks and implement control measures from workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Select tyres and wheels for specific applications",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to assess technical compliance and economic benefits of tyre and wheel options2.2 select tyres and wheels according to manufacturer specifications, workplace procedures, australian design rules, and customer requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess technical compliance and economi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess technical compliance and economic benefits of tyre and wheel options2.2 select tyres and wheels according to manufacturer specifications, workplace procedures, australian design rules, and customer requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to assess technical compliance and economic benefits of tyre and wheel options2.2 select tyres and wheels according to manufacturer specifications, workplace procedures, australian design rules, and customer requirements",
+      "knowledge_focus": [
+        "Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements"
+      ],
+      "workplace_context_examples": [
+        "Select tyres and wheels for specific applications"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess technical compliance and economic benefits of tyre and wheel options2.2 select tyres and wheels according to manufacturer specifications, workplace procedures, australian design rules, and customer requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess technical compliance and economic benefits of tyre and wheel options2.2 select tyres and wheels according to manufacturer specifications, workplace procedures, australian design rules, and customer requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess technical compliance and economic benefits of tyre and wheel options2.2 Select tyres and wheels according to manufacturer specifications, workplace procedures, Australian Design Rules, and customer requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you communicate selection to appropriate personnel or customer according to workplace procedures3.2 complete and process workplace documentation according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Communicate selection to appropriate pe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to communicate selection to appropriate personnel or customer according to workplace procedures3.2 complete and process workplace documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to communicate selection to appropriate personnel or customer according to workplace procedures3.2 complete and process workplace documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of communicate selection to appropriate personnel or customer according to workplace procedures3.2 complete and process workplace documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of communicate selection to appropriate personnel or customer according to workplace procedures3.2 complete and process workplace documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Communicate selection to appropriate personnel or customer according to workplace procedures3.2 Complete and process workplace documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.943948+00:00"
+}

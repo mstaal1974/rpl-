@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RPL Trainer Dashboard — ABC Training</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#1F2060;--green:#4DB848;--gd:#3A8E35;--off:#F8F9FB;--border:#E4E7EC;--text:#111827;--muted:#6B7280;--faint:#9CA3AF;--mb:#F0FDF4;--mt:#166534;--ma:#22C55E;--pb:#FEFCE8;--pt:#92400E;--pa:#F59E0B;--rb:#FEF2F2;--rt:#991B1B;--ib:#EFF6FF;--it:#1D4ED8;--r8:8px;--r12:12px;--sh:0 1px 3px rgba(0,0,0,.08)}
+html{font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:var(--off);-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer}input,textarea,select{font-family:inherit}
+.shell{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+.sb{background:var(--navy);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sb-logo{padding:16px;border-bottom:1px solid rgba(255,255,255,.08)}
+.sb-mark{width:34px;height:34px;background:var(--green);border-radius:7px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:var(--navy);margin-bottom:7px}
+.sb-name{font-size:13px;font-weight:500;color:#fff}.sb-rto{font-size:10px;color:#9CA3AF;margin-top:1px}
+.sb-sec{padding:12px 12px 3px;font-size:9px;font-weight:600;color:#4B5563;letter-spacing:.6px;text-transform:uppercase}
+.sb-item{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:7px;margin:1px 6px;cursor:pointer;border:none;background:transparent;width:calc(100% - 12px);text-align:left;transition:background .12s}
+.sb-item:hover{background:rgba(255,255,255,.06)}.sb-item.active{background:rgba(77,184,72,.18)}
+.sb-ico{width:24px;height:24px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px;background:rgba(255,255,255,.06);flex-shrink:0}
+.sb-item.active .sb-ico{background:var(--green);color:var(--navy)}
+.sb-lbl{font-size:11px;font-weight:500;color:#C9D1E9}.sb-item.active .sb-lbl{color:#fff}
+.sb-foot{margin-top:auto;padding:10px 14px;border-top:1px solid rgba(255,255,255,.06);font-size:10px;color:#4B5563}
+.main{display:flex;flex-direction:column;min-height:100vh}
+.topbar{height:48px;background:#fff;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 20px;position:sticky;top:0;z-index:10;flex-shrink:0}
+.topbar-title{font-size:13px;font-weight:500}
+.pin-row{display:flex;align-items:center;gap:6px}
+.pin-input{border:0.5px solid var(--border);border-radius:7px;padding:5px 10px;font-size:12px;width:120px}
+.chip{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:500}
+.chip-g{background:var(--mb);color:var(--mt)}.chip-a{background:var(--pb);color:var(--pt)}.chip-r{background:var(--rb);color:var(--rt)}.chip-n{background:var(--navy);color:#fff}.chip-b{background:var(--ib);color:var(--it)}
+.content{padding:18px;flex:1}
+.card{background:#fff;border:1px solid var(--border);border-radius:var(--r12);padding:16px;margin-bottom:10px;box-shadow:var(--sh)}
+.ctitle{font-size:13px;font-weight:500;margin-bottom:8px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.csub{font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.65}
+.btn{padding:7px 14px;border-radius:7px;border:1px solid var(--border);background:#fff;font-size:11px;font-weight:500;color:var(--text);transition:all .12s;display:inline-flex;align-items:center;gap:5px;cursor:pointer}
+.btn:hover{background:var(--off)}.btn-p{background:var(--navy);color:#fff;border-color:var(--navy)}.btn-p:hover{background:#161855}
+.btn-g{background:var(--green);color:#fff;border-color:var(--green)}.btn-g:hover{background:var(--gd)}
+.btn-sm{padding:4px 9px;font-size:10px}.btn:disabled{opacity:.4;cursor:not-allowed}
+.fl{display:block;font-size:10px;font-weight:600;color:var(--muted);margin-bottom:3px}
+input[type=text],input[type=email],textarea,select{width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:12px;color:var(--text);background:#fff}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--navy)}
+textarea{resize:vertical;line-height:1.6}.fr{margin-bottom:9px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:9px}.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{background:var(--off);padding:7px 10px;text-align:left;font-size:10px;font-weight:600;color:var(--muted);border-bottom:1px solid var(--border)}
+.tbl td{padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;vertical-align:middle}
+.tbl tr:last-child td{border-bottom:none}.tbl tr:hover td{background:var(--off)}
+.invite-box{background:var(--mb);border:1.5px solid var(--ma);border-radius:9px;padding:12px 14px;margin-top:10px}
+.invite-url{font-family:'DM Mono',monospace;font-size:11px;color:var(--mt);word-break:break-all;background:#fff;border:1px solid #86EFAC;border-radius:5px;padding:7px 9px;margin:5px 0}
+.status-pill{display:inline-flex;align-items:center;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:500}
+.s-invited{background:#EFF6FF;color:#1D4ED8}.s-inprog{background:var(--pb);color:var(--pt)}.s-submitted{background:#EDE9FE;color:#5B21B6}.s-complete{background:var(--mb);color:var(--mt)}.s-due{background:var(--rb);color:var(--rt)}
+.pip-bar{display:flex;gap:3px}.pip{width:7px;height:7px;border-radius:50%;flex-shrink:0}.pip-done{background:var(--green)}.pip-todo{background:var(--border)}
+.conf-bar{height:4px;border-radius:2px;background:var(--border);overflow:hidden;margin-top:3px}.conf-fill{height:100%;border-radius:2px}
+.trend-dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex-shrink:0}
+.trend-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--border)}.trend-row:last-child{border-bottom:none}
+.unit-search{width:100%;border:1px solid var(--border);border-radius:7px;padding:8px 11px;font-size:12px;margin-bottom:7px}
+.unit-search:focus{outline:none;border-color:var(--navy)}
+.unit-pkg-filter{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:7px}
+.pkg-btn{padding:3px 9px;border-radius:14px;border:1px solid var(--border);background:#fff;font-size:10px;font-weight:500;color:var(--muted);cursor:pointer;transition:all .12s}
+.pkg-btn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.unit-results{max-height:240px;overflow-y:auto;border:1px solid var(--border);border-radius:7px;margin-bottom:7px}
+.unit-row{display:flex;align-items:center;gap:9px;padding:7px 11px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .1s}
+.unit-row:last-child{border-bottom:none}.unit-row:hover{background:var(--off)}.unit-row.selected{background:#EFF6FF;border-left:3px solid var(--navy)}
+.unit-row input{width:auto;flex-shrink:0;cursor:pointer}
+.unit-selected-chips{display:flex;flex-wrap:wrap;gap:3px;min-height:26px;padding:3px 0}
+.unit-chip{display:flex;align-items:center;gap:4px;background:var(--navy);color:#fff;border-radius:14px;padding:2px 9px;font-size:10px;font-weight:500}
+.unit-chip button{background:none;border:none;color:rgba(255,255,255,.7);cursor:pointer;font-size:12px;padding:0;line-height:1}.unit-chip button:hover{color:#fff}
+.unit-empty{padding:16px;text-align:center;font-size:11px;color:var(--muted)}
+.tmpl-card{border:1px solid var(--border);border-radius:9px;padding:12px;transition:all .12s}
+.tmpl-card:hover{border-color:var(--navy);background:var(--ib)}
+.dz{border:2px dashed var(--border);border-radius:10px;padding:24px;text-align:center;cursor:pointer;transition:all .15s}
+.dz:hover{border-color:var(--green);background:var(--mb)}
+.spinner{width:11px;height:11px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:inline-block}
+.spinner-d{border-top-color:var(--navy);border-color:var(--border)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.info-box{background:var(--off);border-left:3px solid var(--navy);border-radius:0 7px 7px 0;padding:8px 12px;font-size:11px;line-height:1.65;margin-bottom:10px}
+</style>
+</head>
+<body>
+<!-- ────────── LOGIN OVERLAY (shown until JWT in sessionStorage) ────────── -->
+<div id="login-overlay" style="position:fixed;inset:0;background:#1F2060;display:flex;align-items:center;justify-content:center;z-index:9999;font-family:'DM Sans',system-ui,sans-serif">
+  <div style="background:#fff;border-radius:14px;padding:36px 32px;width:380px;box-shadow:0 12px 40px rgba(0,0,0,0.3)">
+    <div style="text-align:center;margin-bottom:24px">
+      <div style="width:48px;height:48px;background:#4DB848;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;color:#1F2060;font-weight:700;margin-bottom:12px">RPL</div>
+      <div style="font-size:18px;font-weight:600;color:#111827">RPL Trainer Portal</div>
+      <div style="font-size:12px;color:#6B7280;margin-top:4px">Sign in with your organisation account</div>
+    </div>
+    <div id="login-error" style="display:none;background:#FEF2F2;color:#991B1B;border:1px solid #FCA5A5;border-radius:7px;padding:8px 12px;font-size:12px;margin-bottom:12px"></div>
+    <div class="fr">
+      <label class="fl">Email</label>
+      <input id="login-email" type="email" autocomplete="username" placeholder="you@your-org.com.au">
+    </div>
+    <div class="fr">
+      <label class="fl">Password</label>
+      <input id="login-pw" type="password" autocomplete="current-password" placeholder="••••••••">
+    </div>
+    <button class="btn btn-p" id="login-submit" style="width:100%;justify-content:center;padding:10px;font-size:13px">Sign in</button>
+    <div style="font-size:10px;color:#9CA3AF;margin-top:16px;text-align:center;line-height:1.6">
+      First-time setup? Use <code style="background:#F8F9FB;padding:1px 6px;border-radius:4px">POST&nbsp;/api/auth/bootstrap</code> with your <code style="background:#F8F9FB;padding:1px 6px;border-radius:4px">BOOTSTRAP_KEY</code> to create your organisation.
+    </div>
+  </div>
+</div>
+
+<div class="shell">
+<nav class="sb">
+  <div class="sb-logo">
+    <div class="sb-mark" id="sb-mark">RPL</div>
+    <div class="sb-name" id="sb-org-name">Loading…</div>
+    <div class="sb-rto" id="sb-org-rto">RTO · Trainer Portal</div>
+  </div>
+  <div class="sb-sec">Assessments</div>
+  <button class="sb-item active" data-nav="dashboard" id="n-dashboard"><div class="sb-ico">◫</div><span class="sb-lbl">Dashboard</span></button>
+  <button class="sb-item" data-nav="create" id="n-create"><div class="sb-ico">+</div><span class="sb-lbl">New RPL assessment</span></button>
+  <button class="sb-item" data-nav="bulk" id="n-bulk"><div class="sb-ico">⇪</div><span class="sb-lbl">Bulk create (CSV)</span></button>
+  <div class="sb-sec">Configuration</div>
+  <button class="sb-item" data-nav="templates" id="n-templates"><div class="sb-ico">☰</div><span class="sb-lbl">Assessment templates</span></button>
+  <button class="sb-item" data-nav="units" id="n-units"><div class="sb-ico">≡</div><span class="sb-lbl">Unit registry</span></button>
+  <div class="sb-sec">Assessment tools</div>
+  <button class="sb-item" data-nav="prescreen" id="n-prescreen"><div class="sb-ico">🔍</div><span class="sb-lbl">Pre-screen candidate</span></button>
+  <button class="sb-item" data-nav="patterns" id="n-patterns"><div class="sb-ico">📈</div><span class="sb-lbl">Assessment patterns</span></button>
+  <div class="sb-sec super-only" style="display:none">Platform</div>
+  <button class="sb-item super-only" data-nav="orgs" id="n-orgs" style="display:none"><div class="sb-ico">🏢</div><span class="sb-lbl">Organisations</span></button>
+  <div class="sb-sec admin-only" style="display:none">Administration</div>
+  <button class="sb-item admin-only" data-nav="users" id="n-users" style="display:none"><div class="sb-ico">👥</div><span class="sb-lbl">Users</span></button>
+  <button class="sb-item admin-only" data-nav="admin" id="n-admin" style="display:none"><div class="sb-ico">⬆</div><span class="sb-lbl">Upload training packages</span></button>
+  <button class="sb-item" data-nav="account" id="n-account"><div class="sb-ico">⚙</div><span class="sb-lbl">My account</span></button>
+  <div class="sb-foot">RPL System · v5.0 · multi-tenant</div>
+</nav>
+<div class="main">
+  <div class="topbar">
+    <div class="topbar-title" id="topbar-title">Trainer dashboard</div>
+    <div class="pin-row">
+      <span id="user-widget" style="font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px">
+        <span id="user-name" style="font-weight:500;color:var(--text)"></span>
+        <span class="chip" id="user-role-chip"></span>
+      </span>
+      <button class="btn btn-sm" id="logout-btn" style="margin-left:8px">Log out</button>
+    </div>
+  </div>
+  <div class="content" id="root"></div>
+</div>
+</div>
+<script>
+const API='/api';
+var _allUnits=[],_selUnits={},_pkgFilter='',_templates=[];
+var ME=null, ORG=null;
+
+// ── Token storage (sessionStorage so it doesn't outlive the browser tab) ──
+function getToken(){ return sessionStorage.getItem('rpl_token') || ''; }
+function setSession(token, user, org){
+  sessionStorage.setItem('rpl_token', token);
+  sessionStorage.setItem('rpl_user', JSON.stringify(user||{}));
+  sessionStorage.setItem('rpl_org',  JSON.stringify(org||{}));
+  ME = user; ORG = org;
+}
+function clearSession(){
+  sessionStorage.removeItem('rpl_token');
+  sessionStorage.removeItem('rpl_user');
+  sessionStorage.removeItem('rpl_org');
+  ME = null; ORG = null;
+}
+function restoreSession(){
+  const t = getToken();
+  if(!t) return false;
+  try{ ME  = JSON.parse(sessionStorage.getItem('rpl_user')||'null'); }catch{ ME = null; }
+  try{ ORG = JSON.parse(sessionStorage.getItem('rpl_org')||'null'); }catch{ ORG = null; }
+  return !!(ME && ORG);
+}
+
+// ── Legacy getPin() kept as alias so untouched call sites don't break ──
+function getPin(){ return getToken(); }
+function authHeaders(extra){
+  const h = Object.assign({'Authorization':'Bearer '+getToken()}, extra||{});
+  return h;
+}
+
+const TITLES={dashboard:'Trainer dashboard',create:'New RPL assessment',bulk:'Bulk create from CSV',templates:'Assessment templates',units:'Unit registry',admin:'Upload training packages',prescreen:'Pre-screen candidate',patterns:'Assessment patterns — historical insights',users:'Users — Administration & Compliance',account:'My account',orgs:'Organisations — Platform administration'};
+function nav(name){
+  document.querySelectorAll('.sb-item').forEach(b=>b.classList.remove('active'));
+  document.getElementById('n-'+name)?.classList.add('active');
+  document.getElementById('topbar-title').textContent=TITLES[name]||name;
+  const V={dashboard:renderDashboard,create:renderCreate,bulk:renderBulk,templates:renderTemplates,units:renderUnits,admin:renderAdmin,prescreen:renderPreScreen,patterns:renderPatterns,users:renderUsers,account:renderAccount,orgs:renderOrgs};
+  if(V[name])V[name](document.getElementById('root'));
+}
+function loadDashboard(){nav('dashboard');}
+async function apiGet(p){const r=await fetch(API+p,{headers:authHeaders()});if(r.status===401){forceLogin();throw new Error('Session expired');}if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||'HTTP '+r.status);}return r.json();}
+async function apiPost(p,b){const r=await fetch(API+p,{method:'POST',headers:authHeaders({'Content-Type':'application/json'}),body:JSON.stringify(b)});if(r.status===401){forceLogin();throw new Error('Session expired');}if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||'HTTP '+r.status);}return r.json();}
+async function apiPatch(p,b){const r=await fetch(API+p,{method:'PATCH',headers:authHeaders({'Content-Type':'application/json'}),body:JSON.stringify(b)});if(r.status===401){forceLogin();throw new Error('Session expired');}if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||'HTTP '+r.status);}return r.json();}
+async function apiDelete(p){const r=await fetch(API+p,{method:'DELETE',headers:authHeaders()});if(r.status===401){forceLogin();throw new Error('Session expired');}if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||'HTTP '+r.status);}return r.json();}
+function statusPill(s){const m={INVITED:'s-invited',IN_PROGRESS:'s-inprog',SUBMITTED:'s-submitted',COMPLETE:'s-complete'};const l={INVITED:'Invited',IN_PROGRESS:'In progress',SUBMITTED:'Submitted',COMPLETE:'Complete'};return `<span class="status-pill ${m[s]||'s-invited'}">${l[s]||s}</span>`;}
+function daysIdle(a){const d=a.last_updated||a.created_at;if(!d)return 0;return Math.floor((Date.now()-new Date(d).getTime())/(1000*86400));}
+function pipBar(p){const steps=['checklist','resume','position','knowledge','evidence'],done=p?.completed_steps||[];return `<div class="pip-bar">${steps.map(s=>`<div class="pip ${done.includes(s)?'pip-done':'pip-todo'}" title="${s}"></div>`).join('')}</div>`;}
+
+// ── DASHBOARD ─────────────────────────────────────────────────────────────────
+async function renderDashboard(root){
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading...</div></div>';
+  try{
+    const d=await apiGet('/trainer/assessments');const aa=d.assessments||[];
+    const submitted=aa.filter(a=>a.status==='SUBMITTED').length;
+    const inprog=aa.filter(a=>a.status==='IN_PROGRESS').length;
+    const dueSoon=aa.filter(a=>a.status!=='COMPLETE'&&a.status!=='SUBMITTED'&&daysIdle(a)>=14).length;
+    let html=`<div class="g4" style="margin-bottom:10px">
+      <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500">${aa.length}</div><div style="font-size:10px;color:var(--muted)">Total</div></div>
+      <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--pt)">${inprog}</div><div style="font-size:10px;color:var(--muted)">In progress</div></div>
+      <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500;color:#5B21B6">${submitted}</div><div style="font-size:10px;color:var(--muted)">Awaiting review</div></div>
+      <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--rt)">${dueSoon}</div><div style="font-size:10px;color:var(--muted)">Due soon (&gt;14d)</div></div>
+    </div>`;
+    if(!aa.length){html+='<div class="card" style="text-align:center;padding:32px"><div style="font-size:28px;margin-bottom:10px">📋</div><div style="font-size:13px;font-weight:500;margin-bottom:8px">No assessments yet</div><button class="btn btn-p" onclick="nav(\'create\')">Create first assessment</button></div>';root.innerHTML=html;return;}
+    html+=`<div class="card" style="padding:0;overflow:hidden">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
+        <div style="font-size:13px;font-weight:500">All assessments</div>
+        <div style="display:flex;gap:5px"><button class="btn btn-sm" data-nav="bulk">⇪ Bulk create</button><button class="btn btn-p btn-sm" data-nav="create">+ New</button></div>
+      </div>
+      <table class="tbl"><thead><tr><th>Candidate</th><th>Units</th><th>Status</th><th>Progress</th><th>Idle</th><th></th></tr></thead><tbody>`;
+    aa.forEach(a=>{
+      const c=a.candidate||{},idle=daysIdle(a);
+      const idleBadge=idle>=14&&a.status!=='COMPLETE'?`<span class="status-pill s-due">⚠ ${idle}d</span>`:`<span style="font-size:10px;color:var(--muted)">${idle}d</span>`;
+      const units=(a.unit_codes||[]).map(u=>`<span style="font-family:'DM Mono',monospace;font-size:10px">${u}</span>`).join(' ');
+      html+=`<tr><td><div style="font-weight:500">${c.name||'—'}</div><div style="font-size:10px;color:var(--muted)">${c.employer||''}</div></td><td>${units}</td><td>${statusPill(a.status)}</td><td>${pipBar(a.progress)}</td><td>${idleBadge}</td>
+      <td><div style="display:flex;gap:3px"><button class="btn btn-sm" onclick="viewAssessment('${a.assessment_id}')">View</button><button class="btn btn-sm" onclick="copyInvite('${a.invite_token}')">Link</button></div></td></tr>`;
+    });
+    html+='</tbody></table></div>';root.innerHTML=html;
+  }catch(e){root.innerHTML=`<div class="card"><div style="color:var(--rt)">Error: ${e.message}</div><div style="font-size:11px;color:var(--muted);margin-top:4px">Check your trainer PIN.</div></div>`;}
+}
+
+// ── VIEW ASSESSMENT ───────────────────────────────────────────────────────────
+async function viewAssessment(id){
+  const root=document.getElementById('root');
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading...</div></div>';
+  try{
+    const a=await apiGet(`/trainer/assessments/${id}`);
+    const c=a.candidate||{},p=a.progress||{},mapping=p.mapping;
+    const steps=['checklist','resume','position','knowledge','evidence'],done=p.completed_steps||[];
+    // Normalise analyses — new schema uses overall_score_percent, old used confidence (0-1)
+    const analyses=Object.values(p.knowledge_analyses||{}).flatMap(u=>Object.values(u)).map(a=>({
+      ...a,
+      confidence: a.overall_score_percent!=null ? a.overall_score_percent/100
+                : (a.confidence||a.confidence_score_percent/100||0),
+      verdict: a.meets_requirement || a.verdict || (a.judgement==='Satisfactory'?'STRENGTH':'GAP'),
+      summary: a.commentary?.substring(0,60) || a.summary || ''
+    }));
+    let html=`<div style="display:flex;align-items:center;gap:7px;margin-bottom:10px;flex-wrap:wrap">
+      <button class="btn btn-sm" data-nav="dashboard">← Back</button>
+      <div style="font-size:13px;font-weight:500">${c.name||'Candidate'} — ${(a.unit_codes||[]).join(', ')}</div>
+      ${statusPill(a.status)}
+      ${daysIdle(a)>=14&&a.status!=='COMPLETE'?`<span class="status-pill s-due">⚠ Idle ${daysIdle(a)} days</span>`:''}
+    </div>
+    <div class="g2" style="margin-bottom:10px">
+      <div class="card"><div class="ctitle">Candidate</div>
+        ${[['Name',c.name],['Email',c.email],['Employer',c.employer],['Role',c.role],['Duration',c.duration]].map(([k,v])=>`<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--border);font-size:11px"><span style="color:var(--muted)">${k}</span><span style="font-weight:500">${v||'—'}</span></div>`).join('')}
+        <div style="margin-top:7px"><div style="font-size:10px;font-weight:600;color:var(--muted);margin-bottom:3px">INVITE</div>
+        <div class="invite-url">${window.location.origin}/rpl/${a.invite_token}</div>
+        <div style="display:flex;gap:4px;margin-top:4px">
+          <button class="btn btn-sm" onclick="navigator.clipboard.writeText('${window.location.origin}/rpl/${a.invite_token}');this.textContent='Copied!'">Copy</button>
+          <button class="btn btn-sm" onclick="openMailto('${c.email}','${c.name}','${window.location.origin}/rpl/${a.invite_token}','${(a.unit_codes||[]).join(',')}')">Email</button>
+        </div></div>
+      </div>
+      <div class="card"><div class="ctitle">Steps</div>
+        ${steps.map(s=>`<div style="display:flex;align-items:center;gap:7px;padding:5px 0;border-bottom:1px solid var(--border)">
+          <div style="width:14px;height:14px;border-radius:50%;background:${done.includes(s)?'var(--green)':'var(--border)'};display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff">${done.includes(s)?'✓':''}</div>
+          <span style="font-size:11px;text-transform:capitalize;flex:1">${s}</span>
+          ${done.includes(s)?'<span class="chip chip-g">Done</span>':'<span style="font-size:10px;color:var(--faint)">Pending</span>'}
+        </div>`).join('')}
+        <div style="font-size:10px;color:var(--muted);margin-top:5px">Current step: <strong>${p.current_step||'not started'}</strong></div>
+      </div>
+    </div>`;
+
+    // Confidence trend
+    if(analyses.length){
+      const avg=(analyses.reduce((s,a)=>s+(a.confidence||0),0)/analyses.length).toFixed(2);
+      const last=analyses[analyses.length-1]?.confidence||0,first=analyses[0]?.confidence||0;
+      const trend=last>first?'↑ Improving':last<first?'↓ Declining':'→ Stable';
+      html+=`<div class="card" style="margin-bottom:10px">
+        <div class="ctitle">Confidence trend <span style="font-size:10px;font-weight:400;color:var(--muted)">${trend} · avg ${avg}</span></div>
+        ${analyses.map((a,i)=>{const pct=Math.round((a.confidence||0)*100);const col=pct>=70?'var(--green)':pct>=50?'var(--pa)':'var(--ra)';
+          return `<div class="trend-row">
+            <div class="trend-dot" style="background:${col}"></div>
+            <div style="font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.summary||('Q'+(i+1))}</div>
+            <div style="font-size:10px;font-weight:500;color:${col};min-width:30px;text-align:right">${pct}%</div>
+            <div style="width:70px;margin-left:6px"><div class="conf-bar"><div class="conf-fill" style="width:${pct}%;background:${col}"></div></div></div>
+            <span class="chip ${pct>=70?'chip-g':pct>=50?'chip-a':'chip-r'}" style="margin-left:5px">${a.verdict||''}</span>
+          </div>`;
+        }).join('')}
+      </div>`;
+    }
+
+    // Candidate responses section
+    // renderCandidateResponses called below with full args
+
+    // Full mapping guide
+    if(mapping){
+      html += renderFullMappingGuide(mapping, id, a);
+    }
+
+    if(a.status==='SUBMITTED'||a.status==='COMPLETE'){
+      html+=`<div class="card" style="background:var(--mb);border-color:var(--ma);text-align:center;padding:14px">
+        <div style="font-size:13px;font-weight:500;color:var(--mt);margin-bottom:7px">
+          ${a.status==='SUBMITTED'?'RPL submitted — ready for your review':'Assessment complete'}
+        </div>
+        ${a.status==='SUBMITTED'?`<button class="btn btn-p btn-sm" onclick="markComplete('${id}')">Mark as complete</button>`:''}
+      </div>`;
+    }
+
+    // Candidate responses panel
+    html += renderCandidateResponses(id, a.progress||{}, a.unit_codes||[]);
+
+    // Evidence portfolio review — formal HITL trainer review
+    html += renderPortfolioReviewPanel(id, a);
+
+    // Assessment tools panel
+    html += renderAssessmentTools(id, a.unit_codes||[], a.progress||{});
+
+    root.innerHTML=html;
+
+    // Load saved industry context
+    try{
+      const ctx=await apiGet('/assessment/${id}/industry-context');
+      if(ctx.industry_context){
+        const el=document.getElementById('industry-ctx-${id}');
+        const sel=document.getElementById('industry-sector-${id}');
+        if(el) el.value=ctx.industry_context;
+        if(sel) sel.value=ctx.industry_sector||'';
+      }
+    }catch(e){}
+
+    // Load saved portfolio review
+    loadPortfolioReview(id);
+  }catch(e){root.innerHTML=`<div class="card"><div style="color:var(--rt)">${e.message}</div></div>`;}
+}
+
+function renderFullMappingGuide(mapping, assessmentId, assessment){
+  const o = mapping.overall || {};
+  const units = assessment?.unit_codes || [];
+  const totalPCs = (o.pc_match||0)+(o.pc_partial||0)+(o.pc_gap||0);
+  const pctMatch = totalPCs ? Math.round((o.pc_match||0)/totalPCs*100) : 0;
+
+  // Summary header
+  let html = `<div class="card" style="margin-bottom:8px">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+      <div>
+        <div class="ctitle" style="margin-bottom:4px">
+          AI mapping guide
+          <span class="chip ${o.signal==='STRONG_EVIDENCE'?'chip-g':o.signal==='SUPPORTED_PATHWAY'?'chip-a':'chip-r'}">${o.signal?.replace(/_/g,' ')||''}</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.65;max-width:600px">${o.narrative||''}</div>
+      </div>
+      <div style="display:flex;gap:5px;flex-wrap:wrap;flex-shrink:0">
+        ${units.length>=2?`<button class="btn btn-sm" onclick="runCrossUnit('${assessmentId}',event)">Cross-unit</button>`:''}
+        <button class="btn btn-sm" onclick="generateTPR('${assessmentId}','${units[0]||''}',event)">3rd party report</button>
+      </div>
+    </div>
+
+    <!-- Summary stats -->
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:10px">
+      ${[
+        ['Matched',o.pc_match||0,'var(--mb)','var(--mt)'],
+        ['Partial',o.pc_partial||0,'var(--pb)','var(--pt)'],
+        ['Gap',o.pc_gap||0,'var(--rb)','var(--rt)'],
+        ['Agg. confidence',Math.round((o.aggregate_confidence||0)*100)+'%','var(--ib)','var(--it)'],
+        ['K demonstrated',o.k_demonstrated||0,'var(--mb)','var(--mt)'],
+        ['K gaps',(o.k_not||0)+(o.k_partial||0),'var(--rb)','var(--rt)'],
+      ].map(([lbl,val,bg,col])=>`<div style="text-align:center;padding:8px;background:${bg};border-radius:7px">
+        <div style="font-size:15px;font-weight:600;color:${col}">${val}</div>
+        <div style="font-size:9px;color:${col};margin-top:1px">${lbl}</div>
+      </div>`).join('')}
+    </div>
+
+    <!-- PC coverage bar -->
+    <div style="margin-bottom:8px">
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:3px">
+        <span>PC coverage</span><span>${pctMatch}% matched</span>
+      </div>
+      <div style="height:8px;background:var(--border);border-radius:4px;overflow:hidden;display:flex">
+        <div style="width:${pctMatch}%;background:var(--green)"></div>
+        <div style="width:${totalPCs?Math.round((o.pc_partial||0)/totalPCs*100):0}%;background:var(--pa)"></div>
+        <div style="flex:1;background:var(--ra);opacity:.5"></div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:3px;font-size:9px;color:var(--muted)">
+        <span>🟢 Match</span><span>🟡 Partial</span><span>🔴 Gap</span>
+      </div>
+    </div>
+
+    <div style="padding:8px 10px;background:var(--pb);border-radius:7px;font-size:11px;color:var(--pt)">
+      <strong>Assessor note:</strong> ${o.hitl_note||'Review all evidence before making a final determination.'}
+    </div>
+  </div>`;
+
+  // Assessor actions
+  const actions = mapping.assessor_actions || [];
+  if(actions.length){
+    html += `<div class="card" style="margin-bottom:8px;padding:12px">
+      <div class="ctitle" style="margin-bottom:7px">Assessor actions</div>
+      ${actions.map(a=>`<div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid var(--border)">
+        <span style="padding:2px 7px;border-radius:10px;font-size:9px;font-weight:600;flex-shrink:0;background:${a.priority==='CRITICAL'?'var(--rb)':a.priority==='RECOMMENDED'?'var(--pb)':'var(--off)'};color:${a.priority==='CRITICAL'?'var(--rt)':a.priority==='RECOMMENDED'?'var(--pt)':'var(--muted)'}">${a.priority}</span>
+        <div style="flex:1;font-size:11px;line-height:1.55">${a.action}</div>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:var(--faint);flex-shrink:0">${a.pc_ref||''}</span>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  // Outstanding evidence
+  const outstanding = mapping.outstanding_evidence || [];
+  if(outstanding.length){
+    html += `<div class="card" style="margin-bottom:8px;padding:12px">
+      <div class="ctitle" style="margin-bottom:7px">Outstanding evidence required</div>
+      ${outstanding.map(e=>`<div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid var(--border)">
+        <span style="font-size:14px;flex-shrink:0">📋</span>
+        <div style="flex:1">
+          <div style="font-size:11px;font-weight:500">${e.item}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px">${e.reason}</div>
+        </div>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:var(--faint);flex-shrink:0">${e.pc_ref||''}</span>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  // Per-element PC breakdown
+  const elements = mapping.elements || [];
+  elements.forEach(el=>{
+    const elConf = Math.round((el.confidence||0)*100);
+    const elCol  = elConf>=70?'var(--mt)':elConf>=50?'var(--pt)':'var(--rt)';
+    const elBg   = elConf>=70?'var(--mb)':elConf>=50?'var(--pb)':'var(--rb)';
+
+    html += `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden">
+      <!-- Element header -->
+      <div style="padding:10px 13px;background:${elBg};display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--border)">
+        <div style="font-size:11px;font-weight:600;color:${elCol};flex:1">${el.title||el.id}</div>
+        <div style="font-size:10px;font-weight:600;color:${elCol}">${elConf}%</div>
+        <div style="width:60px;height:5px;background:rgba(0,0,0,.1);border-radius:3px;overflow:hidden">
+          <div style="width:${elConf}%;height:100%;background:${elCol};border-radius:3px"></div>
+        </div>
+      </div>
+
+      <!-- PCs table -->
+      <table style="width:100%;border-collapse:collapse">
+        <thead>
+          <tr style="background:var(--off)">
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:40px">PC</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Criterion</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:90px">Judgement</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:70px">Score</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:200px">Evidence / Gap</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${(el.pcs||[]).map(pc=>{
+            const pct  = Math.round((pc.confidence||0)*100);
+            const isSat = pc.judgement==='Satisfactory';
+            const verdict = pc.verdict||'GAP';
+            const vCol = verdict==='MATCH'?'var(--mt)':verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
+            const vBg  = verdict==='MATCH'?'var(--mb)':verdict==='PARTIAL'?'var(--pb)':'var(--rb)';
+            const hasGap = pc.gap_notes && pc.gap_notes.length>2;
+
+            return `<tr style="border-bottom:1px solid var(--border);vertical-align:top">
+              <td style="padding:8px 10px;font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)">${pc.id}</td>
+              <td style="padding:8px 10px">
+                <div style="font-size:11px;line-height:1.4;margin-bottom:3px">${pc.criterion||pc.id}</div>
+                ${pc.benchmark_statement?`<div style="font-size:9px;color:var(--muted);font-style:italic;line-height:1.4">Benchmark: ${pc.benchmark_statement.substring(0,100)}${pc.benchmark_statement.length>100?'...':''}</div>`:''}
+              </td>
+              <td style="padding:8px 10px;text-align:center">
+                <span style="padding:2px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
+              </td>
+              <td style="padding:8px 10px">
+                <div style="text-align:center;font-size:11px;font-weight:600;color:${vCol};margin-bottom:3px">${pct}%</div>
+                <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
+                  <div style="width:${pct}%;height:100%;background:${vCol};border-radius:2px"></div>
+                </div>
+              </td>
+              <td style="padding:8px 10px">
+                ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,2).map(e=>`<div style="font-size:9px;color:var(--mt);font-style:italic;line-height:1.4;padding:2px 5px;background:var(--mb);border-radius:3px;margin-bottom:2px">"${e.substring(0,80)}${e.length>80?'...':''}"</div>`).join('')}</div>`:''}
+                ${hasGap?`<div style="font-size:9px;color:var(--rt);line-height:1.4;padding:3px 6px;background:var(--rb);border-radius:3px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes.substring(0,100)}${pc.gap_notes.length>100?'...':''}</div>`:''}
+                ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9px;color:var(--pt);margin-top:2px">⚑ ${pc.vacs}</div>`:''}
+                ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
+                ${pc.assessor_note?`<div style="font-size:9px;color:var(--it);margin-top:3px">👁 ${pc.assessor_note.substring(0,80)}${pc.assessor_note.length>80?'...':''}</div>`:''}
+              </td>
+            </tr>
+            ${pc.followup?`<tr style="border-bottom:1px solid var(--border);background:#EFF6FF">
+              <td colspan="5" style="padding:5px 10px 7px 40px">
+                <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px">🎙 Targeted competency conversation question</div>
+                <div style="font-size:10px;font-style:italic;color:var(--text);line-height:1.5">"${pc.followup}"</div>
+              </td>
+            </tr>`:''}`
+          }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+  });
+
+  // Knowledge mapping
+  const knowledge = mapping.knowledge || [];
+  if(knowledge.length){
+    html += `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden">
+      <div style="padding:9px 13px;background:var(--off);border-bottom:1px solid var(--border);font-size:11px;font-weight:500">Knowledge requirements</div>
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr style="background:var(--off)">
+          <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Requirement</th>
+          <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:90px">Judgement</th>
+          <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:60px">Score</th>
+          <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Evidence / Note</th>
+        </tr></thead>
+        <tbody>
+        ${knowledge.map(k=>{
+          const pct=Math.round((k.confidence||0)*100);
+          const isSat=k.judgement==='Satisfactory';
+          const col=k.verdict==='DEMONSTRATED'?'var(--mt)':k.verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
+          return `<tr style="border-bottom:1px solid var(--border);vertical-align:top">
+            <td style="padding:7px 10px;font-size:10px;line-height:1.4">${k.requirement||k.id}</td>
+            <td style="padding:7px 10px;text-align:center">
+              <span style="padding:2px 6px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${k.judgement||k.verdict}</span>
+            </td>
+            <td style="padding:7px 10px">
+              <div style="text-align:center;font-size:11px;font-weight:600;color:${col}">${pct}%</div>
+              <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden;margin-top:2px">
+                <div style="width:${pct}%;height:100%;background:${col}"></div>
+              </div>
+            </td>
+            <td style="padding:7px 10px;font-size:10px;color:var(--muted);line-height:1.4">${k.evidence||''} ${k.assessor_note?`<br><span style="color:var(--it)">👁 ${k.assessor_note}</span>`:''}</td>
+          </tr>`;
+        }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+  }
+
+  // Competency conversation questions panel
+  const convQs = mapping.conversation_questions || [];
+  if(convQs.length){
+    html += `<div class="card" style="margin-bottom:8px;padding:12px">
+      <div class="ctitle" style="margin-bottom:7px">🎙 Competency conversation — targeted questions</div>
+      <div class="csub" style="margin-bottom:8px">These questions are generated from gap_notes for each Not Satisfactory PC. Each targets only the specific missing evidence.</div>
+      ${convQs.map((q,i)=>`<div style="padding:9px 11px;border:1px solid #93C5FD;border-radius:8px;background:#EFF6FF;margin-bottom:6px">
+        <div style="display:flex;align-items:flex-start;gap:8px">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--it);flex-shrink:0;padding-top:1px">${q.pc}</div>
+          <div style="flex:1">
+            ${q.gap_area?`<div style="font-size:9px;color:var(--pt);margin-bottom:3px;font-weight:500">Gap: ${q.gap_area}</div>`:''}
+            <div style="font-size:11px;font-style:italic;line-height:1.6;color:var(--text)">"${q.star_question}"</div>
+          </div>
+        </div>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  html += `<div id="extra-analysis-${assessmentId}"></div>`;
+  return html;
+}
+
+async function runMultiUnitMapping(id,evt){
+  const btn=evt.target;btn.disabled=true;btn.textContent='🤖 Running agents...';
+  const a=await apiGet(`/trainer/assessments/${id}`);
+  const out=document.getElementById(`extra-analysis-${id}`);
+  if(out) out.innerHTML=`<div style="padding:12px;background:var(--off);border-radius:8px;margin-top:8px">
+    <div style="font-size:11px;font-weight:500;margin-bottom:6px">🤖 Multi-agent assessment running...</div>
+    <div style="font-size:10px;color:var(--muted);line-height:1.65">
+      Phase 1 — Evidence Intake<br>
+      Phase 2 — Knowledge Assessment + Element Mapping (parallel per element)<br>
+      Phase 3 — Gap Analysis + Cross-Unit (parallel)<br>
+      Phase 4 — Report Synthesis<br><br>
+      This takes 20–60 seconds depending on unit size.
+    </div>
+  </div>`;
+  try{
+    const r=await fetch(API+'/mapping/generate-multi-unit',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+getToken()},
+      body:JSON.stringify({assessment_id:id,unit_codes:a.unit_codes,
+        industry_context:document.getElementById(`industry-ctx-${id}`)?.value||''})
+    });
+    const d=await r.json();
+    if(out){
+      let html='<div style="margin-top:8px">';
+      (a.unit_codes||[]).forEach(code=>{
+        const ur=d[code];if(!ur||ur.error)return;
+        const o=ur.overall||{};
+        const signal=o.signal||'';
+        html+=`<div style="border:1px solid var(--border);border-radius:8px;padding:10px;margin-bottom:7px">
+          <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600">${code}</span>
+            <span class="chip ${signal==='STRONG_EVIDENCE'?'chip-g':signal==='SUPPORTED_PATHWAY'?'chip-a':'chip-r'}">${signal.replace(/_/g,' ')}</span>
+            <span style="font-size:10px;font-weight:600;margin-left:auto">${Math.round((o.aggregate_confidence||0)*100)}%</span>
+          </div>
+          <div style="font-size:11px;line-height:1.65;margin-bottom:5px">${o.narrative||''}</div>
+          <div style="font-size:10px;color:var(--it);padding:5px 8px;background:var(--ib);border-radius:5px">${o.hitl_note||''}</div>
+        </div>`;
+      });
+      const cx=d.cross_unit||{};
+      if(cx.applicable&&cx.cross_mappings?.length){
+        html+=`<div style="padding:9px 11px;background:var(--mb);border-radius:8px;margin-bottom:7px">
+          <div style="font-size:10px;font-weight:600;color:var(--mt);margin-bottom:4px">Cross-unit evidence (${cx.cross_mappings.length} shared)</div>
+          ${cx.cross_mappings.map(m=>`<div style="font-size:10px;color:var(--mt);padding:2px 0">✓ ${m.evidence_summary} — covers ${m.units_covered.join(', ')}</div>`).join('')}
+        </div>`;
+      }
+      html+='<div style="font-size:9px;color:var(--faint);text-align:right">Architecture: hierarchical_multi_agent_v1</div></div>';
+      out.innerHTML=html;
+    }
+    // Reload full assessment to show updated mapping
+    setTimeout(()=>viewAssessment(id), 500);
+  }catch(e){
+    if(out)out.innerHTML=`<div style="color:var(--rt);font-size:11px;margin-top:8px">Error: ${e.message}</div>`;
+  }
+  btn.disabled=false;btn.textContent='🤖 Multi-unit orchestration';
+}
+
+async function runCrossUnit(id,evt){
+  const btn=evt.target;btn.disabled=true;btn.textContent='Analysing...';
+  try{
+    const a=await apiGet(`/trainer/assessments/${id}`);
+    const r=await apiPost('/mapping/cross-unit',{assessment_id:id,unit_codes:a.unit_codes,candidate:a.candidate,evidence_summary:a.progress?.candidate_notes?.resume||'',knowledge_responses:a.progress?.knowledge_responses||{}});
+    const div=document.getElementById(`extra-analysis-${id}`);
+    if(div) div.innerHTML=`<div style="margin-top:10px;border-top:1px solid var(--border);padding-top:10px">
+      <div style="font-size:12px;font-weight:500;margin-bottom:6px">Cross-unit evidence</div>
+      <p style="font-size:11px;line-height:1.65;margin-bottom:6px">${r.summary||''}</p>
+      ${(r.cross_mappings||[]).map(m=>`<div style="padding:7px;background:var(--mb);border-radius:6px;margin-bottom:5px;font-size:11px">
+        <strong>${m.evidence_item}</strong><br>Covers: ${m.units_covered.join(', ')} — ${m.rationale}
+      </div>`).join('')}
+    </div>`;
+  }catch(e){alert('Cross-unit error: '+e.message);}
+  btn.disabled=false;btn.textContent='Cross-unit analysis';
+}
+
+async function generateTPR(id,unitCode,evt){
+  if(!unitCode){alert('No unit code.');return;}
+  const btn=evt.target;btn.disabled=true;btn.textContent='Generating...';
+  try{
+    const a=await apiGet(`/trainer/assessments/${id}`);
+    const r=await apiPost('/mapping/third-party-report',{assessment_id:id,unit_code:unitCode,candidate:a.candidate,mapping:a.progress?.mapping||{}});
+    const div=document.getElementById(`extra-analysis-${id}`);
+    if(div) div.innerHTML=`<div style="margin-top:10px;border-top:1px solid var(--border);padding-top:10px">
+      <div style="font-size:12px;font-weight:500;margin-bottom:5px">Third-party report template — ${unitCode}</div>
+      <div class="info-box">${r.instructions_to_supervisor||''}</div>
+      ${(r.sections||[]).map(s=>`<div style="margin-bottom:8px"><div style="font-size:11px;font-weight:500;margin-bottom:4px">${s.heading}</div>
+        ${(s.questions||[]).map(q=>`<div style="padding:7px;border:1px solid var(--border);border-radius:6px;margin-bottom:4px;font-size:11px">
+          <div style="font-weight:500;margin-bottom:2px">${q.question}</div>
+          <div style="color:var(--muted);font-size:10px">PCs: ${(q.pc_refs||[]).join(', ')} · ${q.response_type}</div>
+        </div>`).join('')}
+      </div>`).join('')}
+    </div>`;
+  }catch(e){alert('TPR error: '+e.message);}
+  btn.disabled=false;btn.textContent='Generate 3rd party report';
+}
+
+async function markComplete(id){
+  try{await apiPost(`/trainer/assessments/${id}/complete`,{assessment_id:id,pc_id:'overall',assessor_verdict:'CONFIRMED',assessor_notes:'Reviewed.'});nav('dashboard');}
+  catch(e){alert('Error: '+e.message);}
+}
+function copyInvite(token){const url=`${window.location.origin}/rpl/${token}`;navigator.clipboard.writeText(url).then(()=>alert('Copied: '+url));}
+function openMailto(email,name,url,units){const s=encodeURIComponent(`Your RPL — ${units}`);const b=encodeURIComponent(`Hi ${name},\n\nYour RPL for ${units} is ready:\n${url}\n\nABC Training`);window.open(`mailto:${email}?subject=${s}&body=${b}`);}
+
+// ── NEW ASSESSMENT ────────────────────────────────────────────────────────────
+function renderCreate(root){
+  _selUnits={};_pkgFilter='';
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">New RPL assessment</div>
+    <div class="csub">Fill in candidate details, optionally start from a template, then search and select units.</div>
+    <div id="tmpl-strip" style="margin-bottom:10px"></div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:7px">Candidate details</div>
+    <div class="g2" style="margin-bottom:10px">
+      <div class="fr"><label class="fl">Candidate name *</label><input type="text" id="c-name" placeholder="Full name"></div>
+      <div class="fr"><label class="fl">Candidate email *</label><input type="email" id="c-email" placeholder="candidate@email.com"></div>
+      <div class="fr"><label class="fl">Employer *</label><input type="text" id="c-employer" placeholder="Current employer"></div>
+      <div class="fr"><label class="fl">Role / job title *</label><input type="text" id="c-role" placeholder="e.g. Laboratory Technician"></div>
+      <div class="fr"><label class="fl">Duration in role</label><input type="text" id="c-duration" placeholder="e.g. 3 years (2022–present)"></div>
+      <div class="fr"><label class="fl">Prior roles (optional)</label><input type="text" id="c-prior" placeholder="e.g. Lab Assistant 2019–2022"></div>
+    </div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:7px">Your details</div>
+    <div class="g2" style="margin-bottom:10px">
+      <div class="fr"><label class="fl">Your name *</label><input type="text" id="t-name" placeholder="Trainer / assessor name"></div>
+      <div class="fr"><label class="fl">Your email *</label><input type="email" id="t-email" placeholder="trainer@abctraining.com.au"></div>
+    </div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:3px">Units of competency *</div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:7px">Search by code or keyword. Click rows to select.</div>
+    <div id="unit-pkg-filter" class="unit-pkg-filter"></div>
+    <input class="unit-search" id="unit-search" type="text" placeholder="e.g. BSBMED, medical terminology, WHS, forklift..." oninput="filterUnits()">
+    <div class="unit-results" id="unit-results"><div class="unit-empty">Loading units...</div></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:3px">
+      <div style="font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px">Selected</div>
+      <button class="btn btn-sm" onclick="clearUnits()">Clear</button>
+    </div>
+    <div class="unit-selected-chips" id="unit-chips"><div style="font-size:11px;color:var(--faint)">None selected</div></div>
+    <div class="fr" style="margin-top:10px"><label class="fl">Notes for candidate (optional)</label>
+    <textarea id="t-notes" rows="2" placeholder="e.g. Please complete steps 1–5 first."></textarea></div>
+    <div style="display:flex;gap:7px;margin-top:7px;align-items:center">
+      <button class="btn btn-p" id="create-btn" onclick="createAssessment()">
+        <span id="create-lbl">Create &amp; send invite</span><span id="create-spin" class="spinner" style="display:none"></span>
+      </button>
+      <button class="btn" data-nav="dashboard">Cancel</button>
+      <div style="font-size:10px;color:var(--muted);margin-left:auto">Invite emailed automatically if SendGrid configured</div>
+    </div>
+    <div id="create-result" style="margin-top:10px"></div>
+  </div>`;
+  loadUnitsForSearch();
+  loadTemplatesStrip();
+}
+
+async function loadTemplatesStrip(){
+  try{
+    const d=await apiGet('/trainer/templates');_templates=d.templates||[];
+    const el=document.getElementById('tmpl-strip');if(!el)return;
+    if(!_templates.length){el.innerHTML='';return;}
+    el.innerHTML=`<div style="font-size:11px;font-weight:500;margin-bottom:4px;color:var(--muted)">Quick-start from template:</div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap">${_templates.map(t=>`<button class="btn btn-sm" onclick="applyTemplate(${JSON.stringify(t.unit_codes)})">${t.name}</button>`).join('')}</div>`;
+  }catch(e){const el=document.getElementById('tmpl-strip');if(el)el.innerHTML='';}
+}
+
+function applyTemplate(codes){codes.forEach(c=>{const u=_allUnits.find(x=>x.code===c);if(u)_selUnits[c]=u;});renderUnitResults('');renderChips();}
+
+async function createAssessment(){
+  const name=document.getElementById('c-name')?.value?.trim();
+  const email=document.getElementById('c-email')?.value?.trim();
+  const employer=document.getElementById('c-employer')?.value?.trim();
+  const role=document.getElementById('c-role')?.value?.trim();
+  const tname=document.getElementById('t-name')?.value?.trim();
+  const temail=document.getElementById('t-email')?.value?.trim();
+  if(!name||!email||!employer||!role||!tname||!temail){alert('Please fill in all required fields.');return;}
+  const selectedUnits=Object.keys(_selUnits);
+  if(!selectedUnits.length){alert('Select at least one unit.');return;}
+  const btn=document.getElementById('create-btn'),lbl=document.getElementById('create-lbl'),spin=document.getElementById('create-spin');
+  btn.disabled=true;lbl.style.display='none';spin.style.display='inline-block';
+  try{
+    const d=await apiPost('/trainer/assessments/create',{
+      trainer_name:tname,trainer_email:temail,unit_codes:selectedUnits,
+      notes:document.getElementById('t-notes')?.value||'',
+      candidate:{name,email,employer,role,duration:document.getElementById('c-duration')?.value||'',prior_roles:document.getElementById('c-prior')?.value||''}
+    });
+    const emailBadge=d.email_sent?`<span class="chip chip-g">✓ Invite emailed to ${email}</span>`:`<span class="chip chip-a">SendGrid not configured — copy link below</span>`;
+    const correctInviteUrl = window.location.origin + '/rpl/' + d.invite_token;
+    document.getElementById('create-result').innerHTML=`<div class="invite-box">
+      <div style="font-size:13px;font-weight:500;color:var(--mt);margin-bottom:5px">✓ Assessment created for ${name}</div>
+      <div style="margin-bottom:7px">${emailBadge}</div>
+      <div class="invite-url" id="new-invite-url">${correctInviteUrl}</div>
+      <div style="display:flex;gap:5px;margin-top:6px">
+        <button class="btn btn-g btn-sm" onclick="navigator.clipboard.writeText(document.getElementById('new-invite-url').textContent);this.textContent='Copied!'">Copy link</button>
+        <button class="btn btn-sm" onclick="openMailto('${email}','${name}',document.getElementById('new-invite-url').textContent,'${selectedUnits.join(',')}')">Open in email</button>
+        <button class="btn btn-sm" data-nav="dashboard">Back</button>
+      </div>
+    </div>`;
+  }catch(e){document.getElementById('create-result').innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+  btn.disabled=false;lbl.style.display='inline';spin.style.display='none';
+}
+
+// ── UNIT SEARCH ───────────────────────────────────────────────────────────────
+async function loadUnitsForSearch(){
+  try{
+    const d=await apiGet('/units');_allUnits=d.units||[];
+    const pkgs=[...new Set(_allUnits.map(u=>u.training_package).filter(Boolean))].sort();
+    const el=document.getElementById('unit-pkg-filter');
+    if(el) el.innerHTML=`<button class="pkg-btn active" onclick="setPkgFilter('')" id="pkg-all">All (${_allUnits.length.toLocaleString()})</button>`
+      +pkgs.map(p=>`<button class="pkg-btn" onclick="setPkgFilter('${p}')" id="pkg-${p}">${p} (${_allUnits.filter(u=>u.training_package===p).length})</button>`).join('');
+    renderUnitResults('');
+  }catch(e){const el=document.getElementById('unit-results');if(el)el.innerHTML=`<div class="unit-empty">Error loading units</div>`;}
+}
+function setPkgFilter(pkg){_pkgFilter=pkg;document.querySelectorAll('.pkg-btn').forEach(b=>b.classList.remove('active'));(document.getElementById(pkg?`pkg-${pkg}`:'pkg-all'))?.classList.add('active');filterUnits();}
+function filterUnits(){renderUnitResults((document.getElementById('unit-search')?.value||'').trim().toLowerCase());}
+function renderUnitResults(q){
+  const el=document.getElementById('unit-results');if(!el)return;
+  let f=_allUnits;
+  if(_pkgFilter) f=f.filter(u=>u.training_package===_pkgFilter);
+  if(q.length>=2) f=f.filter(u=>u.code.toLowerCase().includes(q)||u.title.toLowerCase().includes(q));
+  else if(!q&&!_pkgFilter){el.innerHTML=`<div class="unit-empty">Type a keyword or select a package</div>`;return;}
+  if(!f.length){el.innerHTML=`<div class="unit-empty">No units found</div>`;return;}
+  const MAX=80,more=f.length-MAX;
+  el.innerHTML=f.slice(0,MAX).map(u=>{const sel=!!_selUnits[u.code];
+    return `<div class="unit-row ${sel?'selected':''}" data-code="${u.code}" onclick="toggleByCode('${u.code}')">
+      <input type="checkbox" ${sel?'checked':''} onclick="event.stopPropagation();toggleByCode('${u.code}')">
+      <div style="flex:1;min-width:0"><div style="font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:${sel?'var(--navy)':'var(--muted)'}">${u.code}</div>
+      <div style="font-size:11px;font-weight:${sel?'500':'400'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${u.title}</div></div>
+      <div style="font-size:10px;color:var(--faint);flex-shrink:0">${u.element_count}E·${u.pc_count}PC</div>
+    </div>`;
+  }).join('')+(more>0?`<div class="unit-empty">+${more} more — refine search</div>`:'');
+}
+function toggleByCode(code){
+  const u=_allUnits.find(x=>x.code===code);
+  if(u) toggleUnit(u);
+}
+function toggleUnit(u){
+  if(!u||!u.code) return;
+  if(_selUnits[u.code]) delete _selUnits[u.code];
+  else _selUnits[u.code]=u;
+  renderUnitResults((document.getElementById('unit-search')?.value||'').toLowerCase());
+  renderChips();
+}
+function renderChips(){
+  const el=document.getElementById('unit-chips');if(!el)return;
+  const sel=Object.values(_selUnits);
+  if(!sel.length){el.innerHTML=`<div style="font-size:11px;color:var(--faint)">None selected</div>`;return;}
+  el.innerHTML=sel.map(u=>`<div class="unit-chip"><span style="font-family:'DM Mono',monospace">${u.code}</span><span style="opacity:.7;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${u.title}</span><button onclick="toggleByCode('${u.code}')" title="Remove">×</button></div>`).join('');
+}
+function clearUnits(){_selUnits={};renderUnitResults((document.getElementById('unit-search')?.value||'').toLowerCase());renderChips();}
+
+// ── BULK CREATE ───────────────────────────────────────────────────────────────
+function renderBulk(root){
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">Bulk create from CSV</div>
+    <div class="csub">Upload a CSV with one candidate per row. Assessments and invite links are generated for all candidates at once.</div>
+    <div class="info-box">CSV columns: <strong>name</strong>, <strong>email</strong>, <strong>employer</strong>, <strong>role</strong>, <em>duration (optional)</em>. First row = headers.
+    <a href="#" onclick="downloadSampleCSV();return false" style="margin-left:8px">Download sample CSV</a></div>
+    <div class="g2" style="margin-bottom:9px">
+      <div class="fr"><label class="fl">Your name *</label><input type="text" id="bt-name" placeholder="Trainer name"></div>
+      <div class="fr"><label class="fl">Your email *</label><input type="email" id="bt-email" placeholder="trainer@abctraining.com.au"></div>
+    </div>
+    <div class="fr"><label class="fl">Unit codes (comma-separated) *</label><input type="text" id="bt-units" placeholder="e.g. BSBMED301, BSBWHS311" style="text-transform:uppercase"></div>
+    <div class="fr"><label class="fl">Notes for all candidates (optional)</label><textarea id="bt-notes" rows="2" placeholder="Notes sent to every candidate in this batch"></textarea></div>
+    <div class="dz" id="bulk-dz" onclick="document.getElementById('bulk-file').click()"
+      ondragover="event.preventDefault();this.style.borderColor='var(--green)'"
+      ondragleave="this.style.borderColor=''"
+      ondrop="event.preventDefault();handleBulkDrop(event)">
+      <div style="font-size:22px;margin-bottom:6px">📋</div>
+      <div style="font-size:12px;font-weight:500;margin-bottom:3px">Drop CSV file here or click to browse</div>
+      <div style="font-size:10px;color:var(--muted)">.csv files only</div>
+      <input type="file" id="bulk-file" accept=".csv" style="display:none" onchange="uploadBulk(this.files[0])">
+    </div>
+    <div id="bulk-progress" style="display:none;margin-top:8px">
+      <div style="display:flex;align-items:center;gap:8px;padding:10px;background:var(--off);border-radius:7px">
+        <span class="spinner spinner-d"></span><span id="bulk-status" style="font-size:12px">Processing...</span>
+      </div>
+    </div>
+    <div id="bulk-result" style="margin-top:8px"></div>
+  </div>`;
+}
+function downloadSampleCSV(){
+  const csv='name,email,employer,role,duration\nJohn Smith,john@example.com,ABC Corp,Laboratory Technician,3 years\nJane Doe,jane@example.com,XYZ Ltd,Senior Technician,5 years';
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='candidates_sample.csv';a.click();
+}
+function handleBulkDrop(e){document.getElementById('bulk-dz').style.borderColor='';const f=e.dataTransfer.files[0];if(f)uploadBulk(f);}
+async function uploadBulk(file){
+  if(!file)return;
+  const tname=document.getElementById('bt-name')?.value?.trim();
+  const temail=document.getElementById('bt-email')?.value?.trim();
+  const units=document.getElementById('bt-units')?.value?.trim();
+  if(!tname||!temail||!units){alert('Fill in trainer name, email and unit codes first.');return;}
+  const prog=document.getElementById('bulk-progress'),result=document.getElementById('bulk-result'),status=document.getElementById('bulk-status');
+  prog.style.display='block';result.innerHTML='';status.textContent=`Processing ${file.name}...`;
+  const form=new FormData();
+  form.append('file',file);form.append('trainer_name',tname);form.append('trainer_email',temail);
+  form.append('unit_codes',units);form.append('notes',document.getElementById('bt-notes')?.value||'');
+  try{
+    const r=await fetch(API+'/trainer/assessments/bulk-create',{method:'POST',headers:{'Authorization':'Bearer '+getToken()},body:form});
+    const d=await r.json();prog.style.display='none';
+    if(d.created){
+      result.innerHTML=`<div class="invite-box">
+        <div style="font-size:13px;font-weight:500;color:var(--mt);margin-bottom:7px">✓ ${d.created} assessments created</div>
+        ${d.errors.length?`<div style="font-size:11px;color:var(--rt);margin-bottom:6px">Errors: ${d.errors.join(', ')}</div>`:''}
+        <table class="tbl" style="margin-top:5px"><thead><tr><th>Name</th><th>Email</th><th>Invite</th></tr></thead><tbody>
+        ${d.assessments.map(a=>`<tr><td>${a.name}</td><td>${a.email}</td><td><button class="btn btn-sm" onclick="navigator.clipboard.writeText('${a.invite_url}');this.textContent='Copied!'">Copy</button></td></tr>`).join('')}
+        </tbody></table>
+        <button class="btn btn-sm" style="margin-top:7px" onclick="downloadInviteCSV(${JSON.stringify(d.assessments)})">Download all links as CSV</button>
+      </div>`;
+    }else{result.innerHTML=`<div style="color:var(--rt);font-size:11px">${d.detail||JSON.stringify(d)}</div>`;}
+  }catch(e){prog.style.display='none';result.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+}
+function downloadInviteCSV(assessments){
+  const rows=['name,email,invite_url,assessment_id'].concat(assessments.map(a=>`"${a.name}","${a.email}","${a.invite_url}","${a.assessment_id}"`));
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([rows.join('\n')],{type:'text/csv'}));a.download='invites.csv';a.click();
+}
+
+// ── TEMPLATES ─────────────────────────────────────────────────────────────────
+async function renderTemplates(root){
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading...</div></div>';
+  try{
+    const d=await apiGet('/trainer/templates');_templates=d.templates||[];
+    let html=`<div class="card"><div class="ctitle">Assessment templates</div>
+    <div class="csub">Save common qualification unit combinations for quick reuse when creating assessments.</div>`;
+    if(_templates.length){
+      html+=`<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-bottom:12px">
+        ${_templates.map(t=>`<div class="tmpl-card">
+          <div style="font-size:12px;font-weight:500;margin-bottom:3px">${t.name}</div>
+          <div style="font-size:10px;color:var(--muted);margin-bottom:5px">${t.description}</div>
+          <div style="display:flex;flex-wrap:wrap;gap:2px;margin-bottom:6px">${t.unit_codes.map(c=>`<span style="font-family:'DM Mono',monospace;font-size:9px;background:var(--ib);color:var(--it);padding:1px 5px;border-radius:3px">${c}</span>`).join('')}</div>
+          <div style="display:flex;gap:4px">
+            <button class="btn btn-p btn-sm" onclick="useTemplate(${JSON.stringify(t)})">Use</button>
+            <button class="btn btn-sm" style="color:var(--rt)" onclick="deleteTemplate('${t.id}')">Delete</button>
+          </div>
+        </div>`).join('')}
+      </div>`;
+    }else{html+=`<div style="text-align:center;padding:18px;color:var(--muted);font-size:11px">No templates yet — create one below</div>`;}
+    html+=`<div style="border-top:1px solid var(--border);padding-top:12px;margin-top:4px">
+      <div style="font-size:12px;font-weight:500;margin-bottom:7px">Create new template</div>
+      <div class="g2">
+        <div class="fr"><label class="fl">Template name *</label><input type="text" id="tmpl-name" placeholder="e.g. Cert III Lab Skills"></div>
+        <div class="fr"><label class="fl">Your email *</label><input type="email" id="tmpl-email" placeholder="trainer@abctraining.com.au"></div>
+      </div>
+      <div class="fr"><label class="fl">Description</label><input type="text" id="tmpl-desc" placeholder="Brief description"></div>
+      <div class="fr"><label class="fl">Unit codes (comma-separated) *</label><input type="text" id="tmpl-codes" placeholder="e.g. MSL912001, BSBMED301" style="text-transform:uppercase"></div>
+      <button class="btn btn-p btn-sm" onclick="saveTemplate()">Save template</button>
+    </div></div>`;
+    root.innerHTML=html;
+  }catch(e){root.innerHTML=`<div class="card" style="color:var(--rt)">${e.message}</div>`;}
+}
+async function saveTemplate(){
+  const name=document.getElementById('tmpl-name')?.value?.trim();
+  const email=document.getElementById('tmpl-email')?.value?.trim();
+  const desc=document.getElementById('tmpl-desc')?.value?.trim();
+  const codes=(document.getElementById('tmpl-codes')?.value||'').split(',').map(c=>c.trim().toUpperCase()).filter(Boolean);
+  if(!name||!email||!codes.length){alert('Name, email and at least one unit code required.');return;}
+  try{await apiPost('/trainer/templates',{name,description:desc,unit_codes:codes,trainer_email:email});renderTemplates(document.getElementById('root'));}
+  catch(e){alert('Error: '+e.message);}
+}
+async function deleteTemplate(id){
+  if(!confirm('Delete this template?'))return;
+  try{await fetch(API+`/trainer/templates/${id}`,{method:'DELETE',headers:{'Authorization':'Bearer '+getToken()}});renderTemplates(document.getElementById('root'));}
+  catch(e){alert('Error: '+e.message);}
+}
+function useTemplate(t){nav('create');setTimeout(()=>{t.unit_codes.forEach(c=>{const u=_allUnits.find(x=>x.code===c);if(u)_selUnits[c]=u;});renderUnitResults('');renderChips();},300);}
+
+// ── UNIT REGISTRY ─────────────────────────────────────────────────────────────
+async function renderUnits(root){
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading...</div></div>';
+  try{
+    const d=await apiGet('/units');const units=d.units||[];
+    root.innerHTML=`<div class="card" style="padding:0;overflow:hidden">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
+        <div style="font-size:13px;font-weight:500">Unit registry <span class="chip chip-n">${units.length.toLocaleString()} units</span></div>
+      </div>
+      <table class="tbl"><thead><tr><th>Code</th><th>Title</th><th>Elements</th><th>PCs</th><th>Package</th></tr></thead><tbody>
+      ${units.map(u=>`<tr><td><span style="font-family:'DM Mono',monospace;font-weight:500">${u.code}</span></td><td>${u.title}</td><td style="text-align:center">${u.element_count}</td><td style="text-align:center">${u.pc_count}</td><td><span class="chip chip-n">${u.training_package}</span></td></tr>`).join('')}
+      ${!units.length?'<tr><td colspan="5" style="text-align:center;padding:20px;color:var(--muted)">No units loaded</td></tr>':''}
+      </tbody></table>
+    </div>
+    <div class="card" style="margin-top:10px"><div class="ctitle">Import from training.gov.au</div>
+      <div class="g2">
+        <div class="fr"><label class="fl">Unit code</label><input type="text" id="imp-code" placeholder="e.g. MSL924006" style="text-transform:uppercase"></div>
+        <div style="display:flex;align-items:flex-end;padding-bottom:9px"><button class="btn btn-p btn-sm" onclick="importUnit()">Import</button></div>
+      </div>
+      <div id="imp-msg" style="font-size:11px;margin-top:3px;color:var(--muted)"></div>
+    </div>`;
+  }catch(e){root.innerHTML=`<div class="card" style="color:var(--rt)">${e.message}</div>`;}
+}
+async function importUnit(){
+  const code=(document.getElementById('imp-code')?.value||'').trim().toUpperCase();if(!code)return;
+  const msg=document.getElementById('imp-msg');if(msg){msg.textContent='Importing...';msg.style.color='var(--muted)';}
+  try{const d=await apiPost(`/units/import/${code}`,{});if(msg){msg.textContent=`✓ ${code}: ${d.unit?.title}`;msg.style.color='var(--mt)';}setTimeout(()=>renderUnits(document.getElementById('root')),400);}
+  catch(e){if(msg){msg.textContent=`✕ ${e.message}`;msg.style.color='var(--rt)';}}
+}
+
+// ── ADMIN UPLOAD ──────────────────────────────────────────────────────────────
+async function renderAdmin(root){
+  let stats=null;try{stats=await apiGet('/admin/stats');}catch(e){}
+  let enrich=null;try{enrich=await apiGet('/admin/enrichment-status');}catch(e){}
+  const pkgs=stats?.packages||[];
+  root.innerHTML=`${stats?`<div class="g3" style="margin-bottom:10px">
+    <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500">${stats.total_units.toLocaleString()}</div><div style="font-size:10px;color:var(--muted)">Units loaded</div></div>
+    <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500">${stats.total_packages}</div><div style="font-size:10px;color:var(--muted)">Training packages</div></div>
+    <div class="card" style="padding:12px;text-align:center"><div style="font-size:20px;font-weight:500">${stats.total_pcs.toLocaleString()}</div><div style="font-size:10px;color:var(--muted)">Performance criteria</div></div>
+  </div>`:''}
+  ${enrich?`<div class="card" style="margin-bottom:8px;padding:12px">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px">
+      <div>
+        <div style="font-size:12px;font-weight:500;margin-bottom:3px">AI question enrichment</div>
+        <div style="font-size:11px;color:var(--muted)">${enrich.enriched_units} of ${enrich.total_units} units have AI-quality knowledge questions (${enrich.percent_enriched}%)</div>
+      </div>
+      <div style="text-align:right">
+        ${enrich.queue_size>0
+          ?`<span class="chip chip-a">⟳ ${enrich.queue_size} units queued</span>`
+          :`<span class="chip chip-g">✓ Queue idle</span>`}
+      </div>
+    </div>
+    <div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-top:8px">
+      <div style="width:${enrich.percent_enriched}%;height:100%;background:var(--green);transition:width .4s"></div>
+    </div>
+    <div style="font-size:10px;color:var(--muted);margin-top:5px">
+      ${enrich.queue_size>0
+        ?'Enrichment runs automatically in the background after upload — no action needed'
+        :'Upload any Excel file to queue new units for AI question generation'}
+    </div>
+  </div>`:''}
+  <div class="card">
+    <div class="ctitle">Upload training packages</div>
+    <div class="csub">Upload TGA Excel exports. Select multiple files at once (Ctrl+A) or drag and drop a batch.</div>
+    <div class="info-box"><strong>How to export from training.gov.au:</strong> Search → filter by Training Package → Export → select "Elements and performance criteria" → Download as Excel</div>
+    <div class="dz" id="drop-zone" onclick="document.getElementById('pkg-file').click()"
+      ondragover="event.preventDefault();this.style.borderColor='var(--green)';this.style.background='var(--mb)'"
+      ondragleave="this.style.borderColor='';this.style.background=''"
+      ondrop="handleDrop(event)">
+      <div style="font-size:24px;margin-bottom:6px">📦</div>
+      <div style="font-size:12px;font-weight:500;margin-bottom:3px">Drop Excel files here or click to browse</div>
+      <div style="font-size:10px;color:var(--muted)">.xlsx files · Select multiple with Ctrl/Cmd · All upload in one batch</div>
+      <input type="file" id="pkg-file" accept=".xlsx,.xls" multiple style="display:none" onchange="uploadFiles(this.files)">
+    </div>
+    <div id="upload-progress" style="display:none;margin-top:8px">
+      <div style="display:flex;align-items:center;gap:8px;padding:10px;background:var(--off);border-radius:7px">
+        <span class="spinner spinner-d"></span>
+        <div><div style="font-size:12px;font-weight:500" id="upload-status">Uploading...</div><div style="font-size:10px;color:var(--muted)" id="upload-file-name"></div></div>
+      </div>
+    </div>
+    <div id="upload-result" style="margin-top:8px"></div>
+  </div>
+  ${pkgs.length?`<div class="card" style="padding:0;overflow:hidden">
+    <div style="padding:10px 14px;border-bottom:1px solid var(--border);font-size:13px;font-weight:500">Loaded packages</div>
+    <table class="tbl"><thead><tr><th>Code</th><th>Package name</th><th>Units</th><th>PCs</th></tr></thead><tbody>
+    ${pkgs.map(p=>`<tr><td><span style="font-family:'DM Mono',monospace;font-weight:500">${p.code}</span></td><td>${p.name}</td><td style="text-align:center">${p.count.toLocaleString()}</td><td style="text-align:center">${p.pcs.toLocaleString()}</td></tr>`).join('')}
+    </tbody></table>
+  </div>`:''}`;
+}
+function handleDrop(e){e.preventDefault();document.getElementById('drop-zone').style.borderColor='';document.getElementById('drop-zone').style.background='';if(e.dataTransfer.files.length)uploadFiles(e.dataTransfer.files);}
+async function uploadFiles(files){
+  if(!files||!files.length)return;
+  const fileList=Array.from(files).filter(f=>f.name.match(/\.xlsx?$/i));if(!fileList.length)return;
+  const prog=document.getElementById('upload-progress'),result=document.getElementById('upload-result'),status=document.getElementById('upload-status'),fname=document.getElementById('upload-file-name');
+  prog.style.display='block';result.innerHTML='';
+  const tot={added:0,updated:0,skipped:0,errors:[]};const allPkgs=new Set();let lastTotal=0;
+  for(let i=0;i<fileList.length;i++){
+    const file=fileList[i];status.textContent=`Uploading ${i+1} of ${fileList.length}: ${file.name}`;fname.textContent=`${(file.size/1024).toFixed(0)} KB`;
+    const form=new FormData();form.append('file',file);
+    try{
+      const r=await fetch(API+'/admin/upload-training-package',{method:'POST',headers:{'Authorization':'Bearer '+getToken()},body:form});
+      const d=await r.json();
+      if(d.success){tot.added+=d.added||0;tot.updated+=d.updated||0;tot.skipped+=d.skipped||0;lastTotal=d.registry_total||0;(d.packages||[]).forEach(p=>allPkgs.add(p));if(d.errors?.length)tot.errors.push(...d.errors.map(e=>`${file.name}: ${e}`));}
+      else{tot.errors.push(`${file.name}: ${d.detail||'failed'}`);}
+    }catch(e){tot.errors.push(`${file.name}: ${e.message}`);}
+  }
+  prog.style.display='none';
+  const parts=[];if(tot.added)parts.push(`${tot.added.toLocaleString()} new`);if(tot.updated)parts.push(`${tot.updated.toLocaleString()} updated`);
+  result.innerHTML=`<div class="invite-box">
+    <div style="font-size:13px;font-weight:500;color:var(--mt);margin-bottom:7px">✓ ${fileList.length} file${fileList.length>1?'s':''} uploaded — ${parts.join(' · ')||'0 units'}</div>
+    ${d.questions_queued_for_enrichment?`<div style="font-size:11px;color:var(--it);margin-bottom:5px">🔄 ${d.questions_queued_for_enrichment} units queued for AI question generation (runs in background)</div>`:''}
+    <div class="g3" style="margin-bottom:7px">
+      <div style="text-align:center;background:#fff;padding:8px;border-radius:7px;border:1px solid var(--border)"><div style="font-size:18px;font-weight:500;color:var(--mt)">${tot.added.toLocaleString()}</div><div style="font-size:10px;color:var(--muted)">New</div></div>
+      <div style="text-align:center;background:#fff;padding:8px;border-radius:7px;border:1px solid var(--border)"><div style="font-size:18px;font-weight:500;color:var(--pt)">${tot.updated.toLocaleString()}</div><div style="font-size:10px;color:var(--muted)">Updated</div></div>
+      <div style="text-align:center;background:#fff;padding:8px;border-radius:7px;border:1px solid var(--border)"><div style="font-size:18px;font-weight:500">${lastTotal.toLocaleString()}</div><div style="font-size:10px;color:var(--muted)">Total</div></div>
+    </div>
+    ${allPkgs.size?`<div style="display:flex;flex-wrap:wrap;gap:3px;margin-bottom:5px">${[...allPkgs].sort().map(p=>`<span class="chip chip-g">${p}</span>`).join('')}</div>`:''}
+    ${tot.errors.length?`<div style="font-size:11px;color:var(--rt);margin-bottom:5px">${tot.errors.slice(0,5).join(', ')}</div>`:''}
+    <div style="display:flex;gap:5px">
+      <button class="btn btn-p btn-sm" onclick="renderAdmin(document.getElementById('root'))">Refresh stats</button>
+      <label class="btn btn-sm" style="cursor:pointer">Upload more <input type="file" accept=".xlsx,.xls" multiple style="display:none" onchange="uploadFiles(this.files)"></label>
+    </div>
+  </div>`;
+}
+
+// ── ASSESSMENT TOOLS — injected into viewAssessment ───────────────────────────
+
+function renderCandidateResponses(assessmentId, progress, unitCodes){
+  const kResponses = progress?.knowledge_responses || {};
+  const kAnalyses  = progress?.knowledge_analyses  || {};
+  const convRecords= progress?.conversation_records|| [];
+  const checklist  = progress?.checklist           || {};
+  const notes      = progress?.candidate_notes     || {};
+  const uploads    = progress?.uploads             || {};
+  const mapping    = progress?.mapping             || null;
+
+  // Build PC lookup from mapping for analysis cross-reference
+  const pcAnalysis = {};
+  if(mapping){
+    (mapping.elements||[]).forEach(el=>{
+      (el.pcs||[]).forEach(pc=>{
+        pcAnalysis[pc.id] = pc;
+      });
+    });
+  }
+
+  let html = `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden">
+    <div style="background:var(--navy);padding:11px 14px;display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:8px;cursor:pointer;flex:1" onclick="toggleSection('resp-body-${assessmentId}')">
+        <div style="font-size:13px;font-weight:500;color:#fff">📋 Full evidence &amp; response review</div>
+        <span id="resp-toggle-${assessmentId}" style="font-size:11px;color:rgba(255,255,255,.5)">▲ Hide</span>
+      </div>
+      <button onclick="rebuildAnalyses('${assessmentId}')" id="rebuild-btn-${assessmentId}"
+        style="padding:4px 10px;border-radius:6px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;font-size:10px;cursor:pointer;flex-shrink:0">
+        🔄 Refresh AI analysis
+      </button>
+    </div>
+    <div id="resp-body-${assessmentId}" style="display:block">`;
+
+  // ── SECTION 1: UPLOADED DOCUMENTS ──────────────────────────────────────────
+  const uploadEntries = Object.entries(uploads).filter(([,v])=>v&&(v.name||v.filename));
+  const resume = notes.resume || '';
+  const position = notes.position || '';
+
+  if(resume || position || uploadEntries.length){
+    html += `<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+      <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
+        📄 Documents &amp; uploads
+      </div>`;
+
+    if(resume){
+      html += `<div style="margin-bottom:9px;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+        <div style="padding:7px 11px;background:var(--off);display:flex;align-items:center;justify-content:space-between">
+          <span style="font-size:11px;font-weight:500">📄 Resume / background statement</span>
+        </div>
+        <div style="padding:10px 12px;font-size:11px;line-height:1.75;white-space:pre-wrap;max-height:200px;overflow-y:auto">${resume}</div>
+      </div>`;
+    }
+
+    if(position){
+      html += `<div style="margin-bottom:9px;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+        <div style="padding:7px 11px;background:var(--off)"><span style="font-size:11px;font-weight:500">📋 Position description</span></div>
+        <div style="padding:10px 12px;font-size:11px;line-height:1.75;white-space:pre-wrap;max-height:200px;overflow-y:auto">${position}</div>
+      </div>`;
+    }
+
+    uploadEntries.forEach(([k,v])=>{
+      html += `<div style="margin-bottom:6px;padding:8px 11px;border:1px solid var(--border);border-radius:8px;display:flex;align-items:center;gap:9px">
+        <span style="font-size:16px">📎</span>
+        <div style="flex:1"><div style="font-size:11px;font-weight:500">${v.name||v.filename||k}</div>
+        ${v.size?`<div style="font-size:10px;color:var(--muted)">${v.size}</div>`:''}</div>
+        ${v.url?`<a href="${v.url}" target="_blank" class="btn btn-sm">View</a>`:''}
+      </div>`;
+    });
+
+    html += `</div>`;
+  }
+
+  // ── SECTION 2: SELF-ASSESSMENT CHECKLIST ───────────────────────────────────
+  const clEntries = Object.entries(checklist);
+  if(clEntries.length){
+    html += `<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+      <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
+        ☑ Self-assessment checklist
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:10px">
+        <thead><tr style="background:var(--off)">
+          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">Unit</th>
+          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">PC</th>
+          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">Self-rating</th>
+          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">AI mapping verdict</th>
+        </tr></thead>
+        <tbody>`;
+
+    clEntries.forEach(([unit, pcs])=>{
+      if(typeof pcs!=='object') return;
+      Object.entries(pcs).forEach(([pc, val])=>{
+        const col = val==='f'?'var(--mt)':val==='s'?'var(--pt)':'var(--muted)';
+        const lbl = val==='f'?'Frequently':val==='s'?'Sometimes':'Not yet';
+        const pcMap = pcAnalysis[pc];
+        const mapVerdict = pcMap?.judgement || pcMap?.verdict || '';
+        const mapCol = mapVerdict==='Satisfactory'?'var(--mt)':mapVerdict==='MATCH'?'var(--mt)':mapVerdict?'var(--pt)':'var(--faint)';
+        html += `<tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:5px 9px;font-family:'DM Mono',monospace;font-size:9px;color:var(--muted)">${unit}</td>
+          <td style="padding:5px 9px;font-family:'DM Mono',monospace;font-size:9px;font-weight:600">${pc}</td>
+          <td style="padding:5px 9px"><span style="color:${col};font-weight:500">${lbl}</span></td>
+          <td style="padding:5px 9px"><span style="color:${mapCol};font-size:9px;font-weight:500">${mapVerdict||'—'}</span></td>
+        </tr>`;
+      });
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // ── SECTION 3: KNOWLEDGE QUESTIONS + AI ANALYSIS ───────────────────────────
+  unitCodes.forEach(unitCode=>{
+    const unitResp = kResponses[unitCode] || kResponses || {};
+    const unitAnal = kAnalyses[unitCode]  || kAnalyses  || {};
+    const entries  = Object.entries(unitResp).filter(([,v])=>v&&String(v).trim());
+    if(!entries.length) return;
+
+    html += `<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+      <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
+        💡 Knowledge questions — <span style="font-family:'DM Mono',monospace">${unitCode}</span>
+      </div>`;
+
+    entries.forEach(([qIdx, answer])=>{
+      const anal = unitAnal[qIdx] || {};
+      const isSat = anal.judgement==='Satisfactory';
+      const meetsReq = anal.meets_requirement || '';
+      const commentary = anal.commentary || anal.summary || anal.evaluation_summary || '';
+      const demonstrated = (anal.what_the_answer_demonstrates||anal.evidence_items||anal.matched_knowledge_points||[]).filter(Boolean);
+      const missing = (anal.what_is_missing||anal.gaps||[]).filter(Boolean);
+      const hasAnal = commentary || demonstrated.length || missing.length;
+      const judgeCol = isSat?'var(--mt)':'var(--rt)';
+      const judgeBg  = isSat?'var(--mb)':'var(--rb)';
+
+      // Get question text from stored analysis or unit registry
+      const qText = anal.question_text || '';
+      const pcId  = anal.pc_id || '';
+
+      html += `<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:8px" id="kq-row-${unitCode}-${qIdx}">
+
+        <!-- Question header — dark, shows question text -->
+        <div style="padding:9px 12px;background:var(--navy)">
+          <div style="display:flex;align-items:center;gap:7px;margin-bottom:${qText?'5px':'0px'};flex-wrap:wrap">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700;color:rgba(255,255,255,.9)">${unitCode} · Q${parseInt(qIdx)+1}</span>
+            ${pcId?`<span style="font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.4)">PC ${pcId}</span>`:''}
+            ${anal.judgement
+              ? `<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--ma)':'var(--ra)'};color:#fff;margin-left:auto">${anal.judgement}</span>`
+              : `<button onclick="runTrainerKQAnalysis('${unitCode}','${qIdx}','${assessmentId}')"
+                  id="trainer-anal-btn-${unitCode}-${qIdx}"
+                  style="margin-left:auto;padding:3px 9px;border-radius:6px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);color:#fff;font-size:10px;cursor:pointer">
+                  🤖 Run analysis
+                </button>`}
+          </div>
+          ${qText?`<div style="font-size:11px;font-weight:500;color:rgba(255,255,255,.85);line-height:1.5">${qText}</div>`:''}
+        </div>
+
+        <!-- Candidate answer -->
+        <div style="padding:10px 12px;border-bottom:1px solid var(--border);background:#fff">
+          <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:5px">Candidate answer</div>
+          <div style="font-size:11px;line-height:1.75;white-space:pre-wrap;max-height:180px;overflow-y:auto">${String(answer)}</div>
+        </div>
+
+        <div id="kq-anal-${unitCode}-${qIdx}">
+        ${hasAnal ? renderKQAnalysisPanel(anal, unitCode, qIdx) : `
+          <div style="padding:9px 12px;display:flex;align-items:center;justify-content:space-between;background:var(--off)">
+            <span style="font-size:10px;color:var(--faint);font-style:italic">No AI analysis yet</span>
+            <button onclick="runTrainerKQAnalysis('${unitCode}','${qIdx}','${assessmentId}')"
+              id="trainer-anal-btn-${unitCode}-${qIdx}"
+              style="padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:var(--ib);color:var(--it);font-size:10px;cursor:pointer">
+              🤖 Run AI analysis
+            </button>
+          </div>`}
+        </div>`;
+    });
+    html += '</div>';
+  });
+
+  // ── SECTION 4: COMPETENCY CONVERSATION + AI ANALYSIS ───────────────────────
+  const hasConv = convRecords.some(r=>(r.dialogue||[]).length > 0);
+  if(hasConv){
+    html += `<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+      <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
+        🎙 Competency conversations
+      </div>`;
+
+    convRecords.filter(r=>(r.dialogue||[]).length).forEach(rec=>{
+      const isSat = rec.final_judgement==='Satisfactory';
+      const pct   = rec.final_confidence ? Math.round(rec.final_confidence*100) : null;
+      const pcMap = pcAnalysis[rec.pc];
+
+      html += `<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px">
+
+        <!-- Conversation header -->
+        <div style="padding:8px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${rec.unit||''} · ${rec.pc||''}</span>
+          <span style="font-size:10px;color:${isSat?'var(--mt)':'var(--pt)'}">${rec.question?.substring(0,70)||''}...</span>
+          <div style="margin-left:auto;display:flex;align-items:center;gap:6px">
+            ${rec.final_judgement?`<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--ma)':'var(--pa)'};color:#fff">${rec.final_judgement}</span>`:''}
+            ${pct!==null?`<span style="font-size:10px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">${pct}%</span>`:''}
+          </div>
+        </div>
+
+        <!-- AI analysis against PC (from mapping) -->
+        ${pcMap ? `<div style="padding:8px 12px;background:rgba(29,78,216,.04);border-bottom:1px solid var(--border)">
+          <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px">
+            🤖 AI mapping analysis — PC ${rec.pc}
+          </div>
+          ${pcMap.rationale?`<div style="font-size:11px;line-height:1.7;padding:7px 9px;background:#fff;border-radius:6px;border:1px solid var(--border);margin-bottom:5px">${pcMap.rationale}</div>`:''}
+          ${pcMap.gap_notes?`<div style="font-size:10px;color:var(--rt);padding:5px 8px;background:var(--rb);border-radius:5px;margin-bottom:4px"><strong>Gap:</strong> ${pcMap.gap_notes}</div>`:''}
+          ${pcMap.assessor_note?`<div style="font-size:10px;color:var(--it);padding:5px 8px;background:var(--ib);border-radius:5px;">👁 ${pcMap.assessor_note}</div>`:''}
+        </div>` : ''}
+
+        <!-- Dialogue transcript -->
+        <div style="padding:10px 12px">
+          <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:7px">
+            Dialogue transcript (${(rec.dialogue||[]).filter(t=>t.role==='candidate').length} turn(s))
+          </div>
+          ${(rec.dialogue||[]).map((turn,ti)=>{
+            const isCandidate = turn.role==='candidate';
+            const turnAnal = turn.analysis || {};
+            const turnCommentary = turnAnal.commentary || turnAnal.what_was_demonstrated?.[0] || '';
+            return `<div style="display:flex;gap:8px;margin-bottom:9px;align-items:flex-start">
+              <div style="width:60px;flex-shrink:0;text-align:right;padding-top:6px">
+                <span style="font-size:9px;font-weight:700;color:${isCandidate?'var(--green)':'var(--navy)'}">
+                  ${isCandidate?'Candidate':'AI guide'}
+                </span>
+              </div>
+              <div style="flex:1">
+                <div style="padding:8px 10px;border-radius:${isCandidate?'10px 10px 2px 10px':'2px 10px 10px 10px'};border:1px solid var(--border);background:${isCandidate?'#fff':'var(--off)'};font-size:11px;line-height:1.65">
+                  ${turn.content||''}
+                </div>
+                ${isCandidate && turnCommentary ? `<div style="margin-top:3px;font-size:9px;color:var(--it);padding:3px 8px;background:var(--ib);border-radius:4px">
+                  AI: ${turnCommentary.substring(0,100)}${turnCommentary.length>100?'...':''}
+                </div>` : ''}
+                ${isCandidate && (turn.analysis?.what_is_still_missing||[]).length ? `<div style="margin-top:2px;font-size:9px;color:var(--pt);padding:2px 7px">
+                  Still needed: ${(turn.analysis.what_is_still_missing||[]).join('; ').substring(0,80)}
+                </div>` : ''}
+              </div>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  html += '</div></div>';
+  return html;
+}
+function toggleSection(id){
+  const el=document.getElementById(id);
+  const tog=document.getElementById(id.replace('resp-body','resp-toggle'));
+  if(!el)return;
+  const hidden=el.style.display==='none';
+  el.style.display=hidden?'block':'none';
+  if(tog)tog.textContent=hidden?'▲ Hide':'▼ Show';
+}
+
+function renderAssessmentTools(assessmentId, unitCodes, progress){
+  const hasMapping = !!progress?.mapping;
+  const industryCtx = progress?.industry_context||'';
+  return `<div class="card" style="margin-bottom:8px">
+    <div class="ctitle">Assessment tools</div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:10px">Generate detailed analysis reports to support your determination. Each tool uses all collected evidence.</div>
+
+    <!-- Industry context -->
+    <div style="background:var(--off);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:10px">
+      <div style="font-size:11px;font-weight:500;margin-bottom:5px">Industry context <span style="font-size:10px;font-weight:400;color:var(--muted)">(optional — improves all analysis)</span></div>
+      <input type="text" id="industry-ctx-${assessmentId}" value="${industryCtx}"
+        placeholder="e.g. NATA-accredited calibration lab, hospital pathology, mining site metrology, food manufacturing QC..."
+        style="margin-bottom:5px">
+      <input type="text" id="industry-sector-${assessmentId}"
+        placeholder="Sector (e.g. Healthcare, Mining, Manufacturing, Agriculture)"
+        style="margin-bottom:6px">
+      <button class="btn btn-sm" onclick="saveIndustryContext('${assessmentId}')">Save context</button>
+      <span id="ctx-saved-${assessmentId}" style="font-size:10px;color:var(--mt);margin-left:8px;display:none">✓ Saved</span>
+    </div>
+
+    <!-- Tool buttons -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+      ${unitCodes.map(code=>`
+        <div style="padding:10px 12px;border:1px solid var(--border);border-radius:8px;background:var(--off)">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--navy);margin-bottom:6px">${code}</div>
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <button class="btn btn-sm" onclick="runEvidenceSummary('${assessmentId}','${code}')" style="justify-content:flex-start">📋 Evidence portfolio summary</button>
+            ${hasMapping?`<button class="btn btn-sm" onclick="runGapReport('${assessmentId}','${code}')" style="justify-content:flex-start">🎯 Benchmark gap report</button>`:''}
+            <button class="btn btn-sm" onclick="runDeterminationWorksheet('${assessmentId}','${code}')" style="justify-content:flex-start">📝 Determination worksheet</button>
+            <button class="btn btn-sm" onclick="runAIDetection('${assessmentId}','${code}')"
+              style="justify-content:flex-start;border-color:#7C3AED;color:#7C3AED">🔍 AI usage detection</button>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    <div id="tool-output-${assessmentId}" style="margin-top:10px"></div>
+  </div>`;
+}
+
+async function saveIndustryContext(id){
+  const ctx=document.getElementById(`industry-ctx-${id}`)?.value||'';
+  const sector=document.getElementById(`industry-sector-${id}`)?.value||'';
+  try{
+    await apiPost('/assessment/industry-context',{assessment_id:id,industry_context:ctx,industry_sector:sector});
+    const el=document.getElementById(`ctx-saved-${id}`);if(el){el.style.display='inline';setTimeout(()=>el.style.display='none',2000);}
+  }catch(e){alert('Error: '+e.message);}
+}
+
+function getCtx(id){return document.getElementById(`industry-ctx-${id}`)?.value||'';}
+
+async function runEvidenceSummary(id,unitCode){
+  const out=document.getElementById(`tool-output-${id}`);
+  if(out)out.innerHTML='<div style="padding:12px;background:var(--off);border-radius:8px;font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Generating evidence portfolio summary...</div>';
+  try{
+    const r=await apiPost('/assessment/evidence-summary',{assessment_id:id,unit_code:unitCode,industry_context:getCtx(id)});
+    if(out) out.innerHTML=renderEvidenceSummary(r,unitCode);
+  }catch(e){if(out)out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+}
+
+function renderEvidenceSummary(r, unitCode){
+  const pcs=r.pc_summaries||[];
+  const strong=pcs.filter(p=>p.evidence_strength==='STRONG'||p.evidence_strength==='ADEQUATE').length;
+  const weak=pcs.filter(p=>p.evidence_strength==='WEAK'||p.evidence_strength==='ABSENT').length;
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:4px">
+    <div style="background:var(--navy);padding:10px 13px;color:#fff">
+      <div style="font-size:12px;font-weight:500;margin-bottom:2px">📋 Evidence Portfolio Summary — ${unitCode}</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.6)">${r.candidate_summary||''}</div>
+    </div>
+    <div style="padding:10px 13px">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">
+        <div style="text-align:center;padding:8px;background:var(--mb);border-radius:7px"><div style="font-size:16px;font-weight:600;color:var(--mt)">${strong}</div><div style="font-size:9px;color:var(--mt)">Adequate evidence</div></div>
+        <div style="text-align:center;padding:8px;background:var(--rb);border-radius:7px"><div style="font-size:16px;font-weight:600;color:var(--rt)">${weak}</div><div style="font-size:9px;color:var(--rt)">Weak / absent</div></div>
+        <div style="text-align:center;padding:8px;background:var(--ib);border-radius:7px"><div style="font-size:16px;font-weight:600;color:var(--it)">${pcs.length}</div><div style="font-size:9px;color:var(--it)">PCs analysed</div></div>
+      </div>
+      ${r.industry_context_note?`<div class="info-box" style="margin-bottom:8px">${r.industry_context_note}</div>`:''}
+      ${pcs.map(pc=>{
+        const strengthCol={STRONG:'var(--mt)',ADEQUATE:'var(--it)',WEAK:'var(--pt)',ABSENT:'var(--rt)'}[pc.evidence_strength]||'var(--muted)';
+        const strengthBg={STRONG:'var(--mb)',ADEQUATE:'var(--ib)',WEAK:'var(--pb)',ABSENT:'var(--rb)'}[pc.evidence_strength]||'var(--off)';
+        const isSat=pc.overall_judgement==='Satisfactory';
+        const vacs=pc.vacs_assessment||{};
+        const vacsIcons=[
+          vacs.valid!==false?'✓V':'✕V',
+          vacs.authentic!==false?'✓A':'✕A',
+          vacs.current!==false?'✓C':'✕C',
+          vacs.sufficient!==false?'✓S':'✕S',
+        ];
+        return `<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:6px">
+          <div style="padding:7px 10px;background:${strengthBg};display:flex;align-items:center;gap:7px">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:${strengthCol}">${pc.pc_id}</span>
+            <span style="font-size:10px;flex:1;color:${strengthCol}">${pc.pc_text?.substring(0,60)}${pc.pc_text?.length>60?'...':''}</span>
+            <span style="padding:1px 7px;border-radius:9px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.overall_judgement||''}</span>
+            <span style="font-size:9px;font-weight:600;color:${strengthCol}">${Math.round((pc.confidence||0)*100)}%</span>
+            <span style="font-size:9px;color:${strengthCol};font-family:'DM Mono',monospace">${vacsIcons.join(' ')}</span>
+          </div>
+          <div style="padding:8px 10px">
+            <div style="font-size:11px;line-height:1.65;margin-bottom:5px">${pc.annotated_summary||''}</div>
+            ${pc.assessor_note?`<div style="font-size:10px;color:var(--it);padding:5px 8px;background:var(--ib);border-radius:5px">👁 Assessor note: ${pc.assessor_note}</div>`:''}
+            ${(pc.vacs_assessment?.concerns||[]).length?`<div style="font-size:10px;color:var(--pt);margin-top:4px">⚑ ${pc.vacs_assessment.concerns.join('; ')}</div>`:''}
+          </div>
+        </div>`;
+      }).join('')}
+      ${r.evidence_gaps_summary?`<div style="padding:8px 10px;background:var(--pb);border-radius:7px;font-size:11px;color:var(--pt);margin-top:4px"><strong>Gaps summary:</strong> ${r.evidence_gaps_summary}</div>`:''}
+      ${(r.recommended_next_steps||[]).length?`<div style="margin-top:7px"><div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px">Recommended next steps</div>${r.recommended_next_steps.map(s=>`<div style="font-size:10px;padding:3px 0;border-bottom:1px solid var(--border);color:var(--text)">→ ${s}</div>`).join('')}</div>`:''}
+    </div>
+  </div>`;
+}
+
+async function runGapReport(id,unitCode){
+  const out=document.getElementById(`tool-output-${id}`);
+  if(out)out.innerHTML='<div style="padding:12px;background:var(--off);border-radius:8px;font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Generating benchmark gap report...</div>';
+  try{
+    const r=await apiPost('/assessment/gap-report',{assessment_id:id,unit_code:unitCode,industry_context:getCtx(id)});
+    if(out) out.innerHTML=renderGapReport(r,unitCode);
+  }catch(e){if(out)out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+}
+
+function renderGapReport(r,unitCode){
+  const pathwayCol={ADDITIONAL_EVIDENCE:'var(--it)',COMPETENCY_CONVERSATION:'#5B21B6',THIRD_PARTY_REPORT:'var(--mt)',WORKPLACE_OBSERVATION:'var(--pt)',BRIDGING_TASK:'var(--rt)'};
+  const pathwayIcon={ADDITIONAL_EVIDENCE:'📎',COMPETENCY_CONVERSATION:'🎙',THIRD_PARTY_REPORT:'👥',WORKPLACE_OBSERVATION:'👁',BRIDGING_TASK:'📚'};
+  const sevCol={MINOR:'var(--it)',MODERATE:'var(--pt)',SIGNIFICANT:'var(--rt)'};
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:4px">
+    <div style="background:var(--navy);padding:10px 13px">
+      <div style="font-size:12px;font-weight:500;color:#fff;margin-bottom:2px">🎯 Benchmark Gap Report — ${unitCode}</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.6)">${r.overall_status||''}</div>
+    </div>
+    <div style="padding:10px 13px">
+      <div style="padding:9px 11px;background:var(--ib);border-radius:7px;font-size:11px;line-height:1.65;margin-bottom:10px">${r.executive_summary||''}</div>
+      ${r.positive_recognition?`<div style="padding:8px 10px;background:var(--mb);border-radius:7px;font-size:11px;color:var(--mt);margin-bottom:8px">✓ ${r.positive_recognition}</div>`:''}
+      ${(r.pc_gaps||[]).map(gap=>`<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:7px">
+        <div style="padding:7px 10px;background:var(--off);display:flex;align-items:center;gap:7px">
+          <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600">${gap.pc_id}</span>
+          <span style="font-size:10px;flex:1">${gap.pc_text?.substring(0,60)}...</span>
+          <span style="font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;background:var(--rb);color:var(--rt)">${gap.gap_severity||''}</span>
+          <span style="font-size:10px;font-weight:600;color:${pathwayCol[gap.recommended_pathway]||'var(--muted)'}">${pathwayIcon[gap.recommended_pathway]||''} ${(gap.recommended_pathway||'').replace(/_/g,' ')}</span>
+        </div>
+        <div style="padding:9px 11px;display:grid;grid-template-columns:1fr 1fr;gap:8px">
+          <div><div style="font-size:9px;font-weight:600;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">What was demonstrated</div><div style="font-size:10px;line-height:1.55;color:var(--muted)">${gap.what_was_demonstrated||''}</div></div>
+          <div><div style="font-size:9px;font-weight:600;color:var(--rt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">What is still needed</div><div style="font-size:10px;line-height:1.55">${gap.what_is_still_needed||''}</div></div>
+        </div>
+        <div style="padding:0 11px 9px">
+          <div style="font-size:9px;font-weight:600;color:${pathwayCol[gap.recommended_pathway]||'var(--muted)'};text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">How to close this gap</div>
+          <div style="font-size:10px;line-height:1.6;padding:6px 8px;background:var(--ib);border-radius:6px;margin-bottom:4px">${gap.pathway_description||''}</div>
+          <div style="font-size:10px;color:var(--muted)">Example: ${gap.example_evidence||''}</div>
+          ${gap.timeframe_suggestion?`<div style="font-size:9px;color:var(--faint);margin-top:2px">⏱ ${gap.timeframe_suggestion}</div>`:''}
+        </div>
+      </div>`).join('')}
+      ${(r.next_steps||[]).length?`<div style="margin-top:7px;padding:9px 11px;background:var(--off);border-radius:8px"><div style="font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:5px">Candidate next steps</div>${r.next_steps.map((s,i)=>`<div style="font-size:10px;padding:3px 0;border-bottom:1px solid var(--border)">${i+1}. ${s}</div>`).join('')}</div>`:''}
+    </div>
+  </div>`;
+}
+
+async function runDeterminationWorksheet(id,unitCode){
+  const out=document.getElementById(`tool-output-${id}`);
+  if(out)out.innerHTML='<div style="padding:12px;background:var(--off);border-radius:8px;font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Generating determination worksheet...</div>';
+  try{
+    const r=await apiPost('/assessment/determination-worksheet',{assessment_id:id,unit_code:unitCode,industry_context:getCtx(id)});
+    if(out) out.innerHTML=renderDeterminationWorksheet(r,id,unitCode);
+  }catch(e){if(out)out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+}
+
+function renderDeterminationWorksheet(ws,assessmentId,unitCode){
+  // Build interactive worksheet
+  const elDets=ws.element_determinations||[];
+  let pcRows='';
+  elDets.forEach(el=>{
+    pcRows+=`<div style="margin-bottom:10px"><div style="padding:7px 10px;background:var(--navy);color:#fff;font-size:11px;font-weight:500;border-radius:7px 7px 0 0">${el.element_title||el.element_id}</div>`;
+    (el.pcs||[]).forEach(pc=>{
+      const isSat=pc.ai_recommendation==='Satisfactory';
+      pcRows+=`<div style="border:1px solid var(--border);border-top:none;padding:10px 11px">
+        <div style="display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:start;margin-bottom:8px">
+          <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;padding-top:1px">${pc.pc_id}</span>
+          <div>
+            <div style="font-size:11px;margin-bottom:3px">${pc.pc_text||''}</div>
+            <div style="font-size:9px;color:var(--muted);font-style:italic">Benchmark: ${pc.benchmark||''}</div>
+          </div>
+          <div style="text-align:right;flex-shrink:0">
+            <div style="font-size:9px;color:var(--muted)">AI: <span style="font-weight:600;color:${isSat?'var(--mt)':'var(--rt)'}">${pc.ai_recommendation}</span></div>
+            <div style="font-size:9px;color:var(--muted)">${Math.round((pc.ai_confidence||0)*100)}%</div>
+          </div>
+        </div>
+        ${pc.ai_evidence_summary?`<div style="font-size:10px;color:var(--muted);padding:5px 7px;background:var(--mb);border-radius:5px;margin-bottom:6px">AI evidence: ${pc.ai_evidence_summary.substring(0,120)}</div>`:''}
+        ${pc.ai_gap_notes?`<div style="font-size:10px;color:var(--pt);padding:5px 7px;background:var(--pb);border-radius:5px;margin-bottom:6px">AI gap: ${pc.ai_gap_notes.substring(0,120)}</div>`:''}
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
+          <div>
+            <div style="font-size:9px;font-weight:600;color:var(--muted);margin-bottom:3px;text-transform:uppercase;letter-spacing:.3px">Assessor judgement *</div>
+            <select id="det-${pc.pc_id?.replace('.','_')}" style="font-size:11px;padding:5px 8px">
+              <option value="">— select —</option>
+              <option value="Satisfactory" ${isSat?'selected':''}>Satisfactory</option>
+              <option value="Not Satisfactory" ${!isSat?'selected':''}>Not Satisfactory</option>
+            </select>
+          </div>
+          <div>
+            <div style="font-size:9px;font-weight:600;color:var(--muted);margin-bottom:3px;text-transform:uppercase;letter-spacing:.3px">Reasoning</div>
+            <textarea id="det-note-${pc.pc_id?.replace('.','_')}" rows="2" placeholder="${pc.assessor_notes_prompt||'Record your reasoning'}" style="font-size:10px;padding:5px 7px;resize:none"></textarea>
+          </div>
+        </div>
+      </div>`;
+    });
+    pcRows+='</div>';
+  });
+
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:4px">
+    <div style="background:var(--navy);padding:10px 13px">
+      <div style="font-size:12px;font-weight:500;color:#fff;margin-bottom:2px">📝 ${ws.worksheet_title||'Determination Worksheet'}</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.5)">${ws.rto||''} · Compliant with Standards for RTOs 2015</div>
+    </div>
+    <div style="padding:10px 13px">
+
+      <!-- Principles checklist -->
+      <div style="margin-bottom:10px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:5px">Principles of Assessment — confirm before proceeding</div>
+        ${(ws.principles_checklist||[]).map((p,i)=>`<label style="display:flex;align-items:flex-start;gap:7px;padding:5px 0;border-bottom:1px solid var(--border);cursor:pointer">
+          <input type="checkbox" id="prin-${i}" style="width:auto;margin-top:2px">
+          <span style="font-size:10px;line-height:1.55">${p.principle}</span>
+        </label>`).join('')}
+      </div>
+
+      <!-- VACS checklist -->
+      <div style="margin-bottom:10px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:5px">Rules of Evidence (VACS)</div>
+        ${(ws.vacs_checklist||[]).map((v,i)=>`<label style="display:flex;align-items:flex-start;gap:7px;padding:5px 0;border-bottom:1px solid var(--border);cursor:pointer">
+          <input type="checkbox" id="vacs-${i}" style="width:auto;margin-top:2px">
+          <span style="font-size:10px;line-height:1.55">${v.rule}</span>
+        </label>`).join('')}
+      </div>
+
+      <!-- PC determinations -->
+      <div style="margin-bottom:10px"><div style="font-size:11px;font-weight:500;margin-bottom:7px">PC determinations</div>${pcRows}</div>
+
+      <!-- Overall determination -->
+      <div style="margin-bottom:10px;padding:10px 11px;background:var(--off);border-radius:8px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:7px">Overall determination *</div>
+        ${(ws.overall_determination_options||[]).map(o=>`<label style="display:flex;align-items:flex-start;gap:7px;margin-bottom:5px;cursor:pointer">
+          <input type="radio" name="overall-det-${assessmentId}" value="${o.value}" style="width:auto;margin-top:2px">
+          <div><div style="font-size:11px;font-weight:500">${o.value}</div><div style="font-size:10px;color:var(--muted)">${o.description}</div></div>
+        </label>`).join('')}
+        <div style="margin-top:8px">
+          <div style="font-size:9px;font-weight:600;color:var(--muted);margin-bottom:3px;text-transform:uppercase;letter-spacing:.3px">Overall rationale *</div>
+          <textarea id="overall-rationale-${assessmentId}" rows="3" placeholder="${ws.overall_rationale_prompt||'Record your reasoning'}"></textarea>
+        </div>
+      </div>
+
+      <!-- Trainer signature -->
+      <div style="margin-bottom:10px;padding:10px 11px;background:var(--off);border-radius:8px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:7px">Assessor declaration</div>
+        <div style="font-size:10px;color:var(--muted);line-height:1.65;margin-bottom:8px;font-style:italic">${ws.assessor_declaration||''}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
+          <div class="fr"><label class="fl">Assessor name *</label><input type="text" id="det-assessor-name-${assessmentId}" placeholder="Your full name"></div>
+          <div class="fr"><label class="fl">Assessor credential / ID</label><input type="text" id="det-assessor-id-${assessmentId}" placeholder="Credential number"></div>
+        </div>
+        <div class="fr"><label class="fl">Reasonable adjustments (if any)</label><textarea id="det-ra-${assessmentId}" rows="2" placeholder="${ws.reasonable_adjustment_prompt||'Describe any adjustments'}"></textarea></div>
+      </div>
+
+      <!-- Appeal rights -->
+      <div style="padding:8px 10px;background:var(--off);border:1px solid var(--border);border-radius:7px;font-size:10px;color:var(--muted);line-height:1.55;margin-bottom:10px">
+        <strong>Appeal rights:</strong> ${ws.appeal_rights||''}<br>
+        <strong>Retention:</strong> ${ws.retention_note||''}
+      </div>
+
+      <!-- Submit button -->
+      <button class="btn btn-p" onclick="submitDetermination('${assessmentId}','${unitCode}',${JSON.stringify(ws).replace(/'/g,"&apos;")})">
+        Submit formal determination →
+      </button>
+    </div>
+  </div>`;
+}
+
+async function submitDetermination(assessmentId, unitCode, ws){
+  const name=document.getElementById(`det-assessor-name-${assessmentId}`)?.value?.trim();
+  if(!name){alert('Assessor name is required before submitting a determination.');return;}
+
+  const overallEl=document.querySelector(`input[name="overall-det-${assessmentId}"]:checked`);
+  if(!overallEl){alert('Please select an overall determination before submitting.');return;}
+
+  const pcDets=[];
+  (ws.element_determinations||[]).forEach(el=>{
+    (el.pcs||[]).forEach(pc=>{
+      const key=pc.pc_id?.replace('.','_');
+      const judgement=document.getElementById(`det-${key}`)?.value||pc.ai_recommendation;
+      const notes=document.getElementById(`det-note-${key}`)?.value||'';
+      pcDets.push({pc_id:pc.pc_id,assessor_judgement:judgement,assessor_notes:notes,
+        ai_recommendation:pc.ai_recommendation,override:judgement!==pc.ai_recommendation});
+    });
+  });
+
+  if(!confirm(`Submit determination: ${overallEl.value} for ${unitCode}?
+
+This creates a formal ASQA-compliant record that cannot be edited.`)) return;
+
+  try{
+    await apiPost('/assessment/determination-submit',{
+      assessment_id:assessmentId, unit_code:unitCode,
+      overall_determination:overallEl.value,
+      assessor_rationale:document.getElementById(`overall-rationale-${assessmentId}`)?.value||'',
+      assessor_name:name,
+      assessor_id:document.getElementById(`det-assessor-id-${assessmentId}`)?.value||'',
+      reasonable_adjustments:document.getElementById(`det-ra-${assessmentId}`)?.value||'',
+      pc_determinations:pcDets,
+      industry_context:getCtx(assessmentId)
+    });
+    const out=document.getElementById(`tool-output-${assessmentId}`);
+    if(out) out.innerHTML=`<div style="padding:14px;background:var(--mb);border:1px solid var(--ma);border-radius:9px;text-align:center">
+      <div style="font-size:16px;margin-bottom:6px">✓</div>
+      <div style="font-size:13px;font-weight:500;color:var(--mt)">Determination submitted: ${overallEl.value}</div>
+      <div style="font-size:11px;color:var(--mt);margin-top:4px">Formal record saved. Assessment${overallEl.value==='RPL Granted'?' marked complete.':' updated.'}</div>
+    </div>`;
+    setTimeout(()=>nav('dashboard'),1500);
+  }catch(e){alert('Error: '+e.message);}
+}
+
+// ── PRE-SCREEN VIEW ───────────────────────────────────────────────────────────
+function renderPreScreen(root){
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">Pre-screen candidate</div>
+    <div class="csub">Screen a candidate's profile against unit requirements before issuing an RPL invite. Identifies likely gaps and helps you decide whether RPL is appropriate.</div>
+    <div class="g2" style="margin-bottom:9px">
+      <div class="fr"><label class="fl">Candidate name</label><input type="text" id="ps-name" placeholder="Full name"></div>
+      <div class="fr"><label class="fl">Employer</label><input type="text" id="ps-employer" placeholder="Current employer"></div>
+      <div class="fr"><label class="fl">Role / job title</label><input type="text" id="ps-role" placeholder="e.g. Laboratory Technician"></div>
+      <div class="fr"><label class="fl">Duration in role</label><input type="text" id="ps-duration" placeholder="e.g. 3 years"></div>
+    </div>
+    <div class="g2" style="margin-bottom:9px">
+      <div class="fr"><label class="fl">Prior roles</label><input type="text" id="ps-prior" placeholder="e.g. Lab Assistant 2019–2022"></div>
+      <div class="fr"><label class="fl">Qualifications</label><input type="text" id="ps-quals" placeholder="e.g. Cert III in Laboratory Skills"></div>
+    </div>
+    <div class="fr"><label class="fl">Industry context</label><input type="text" id="ps-ctx" placeholder="e.g. NATA-accredited lab, hospital pathology, mining site"></div>
+    <div class="fr"><label class="fl">Unit codes (comma-separated)</label><input type="text" id="ps-units" placeholder="e.g. MSL904003, MSL905004" style="text-transform:uppercase"></div>
+    <div class="fr"><label class="fl">Resume / background notes (optional)</label><textarea id="ps-resume" rows="3" placeholder="Paste relevant resume sections or background notes..."></textarea></div>
+    <button class="btn btn-p" id="ps-btn" onclick="runPreScreen()">Run pre-assessment screen →</button>
+    <div id="ps-result" style="margin-top:12px"></div>
+  </div>`;
+}
+
+async function runPreScreen(){
+  const codes=(document.getElementById('ps-units')?.value||'').split(',').map(c=>c.trim().toUpperCase()).filter(Boolean);
+  if(!codes.length){alert('Enter at least one unit code.');return;}
+  const btn=document.getElementById('ps-btn');
+  btn.disabled=true;btn.textContent='Screening...';
+  const result=document.getElementById('ps-result');
+  result.innerHTML='<div style="padding:12px;background:var(--off);border-radius:8px;font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing candidate profile against unit requirements...</div>';
+  try{
+    const r=await apiPost('/assessment/pre-screen',{
+      unit_codes:codes,
+      candidate:{
+        name:document.getElementById('ps-name')?.value||'',
+        employer:document.getElementById('ps-employer')?.value||'',
+        role:document.getElementById('ps-role')?.value||'',
+        duration:document.getElementById('ps-duration')?.value||'',
+        prior_roles:document.getElementById('ps-prior')?.value||'',
+        qualifications:document.getElementById('ps-quals')?.value||''
+      },
+      resume_text:document.getElementById('ps-resume')?.value||'',
+      industry_context:document.getElementById('ps-ctx')?.value||''
+    });
+    result.innerHTML=renderPreScreenResult(r);
+  }catch(e){result.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+  btn.disabled=false;btn.textContent='Run pre-assessment screen →';
+}
+
+function renderPreScreenResult(r){
+  const likeCol={HIGH:'var(--mt)',MEDIUM:'var(--pt)',LOW:'var(--rt)'};
+  const likeBg={HIGH:'var(--mb)',MEDIUM:'var(--pb)',LOW:'var(--rb)'};
+  const recCol={PROCEED_RPL:'var(--mt)',PROCEED_WITH_GAPS_NOTED:'var(--it)',CONSIDER_TRAINING_FIRST:'var(--pt)',DISCUSS_WITH_CANDIDATE:'var(--pt)'};
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+    <div style="background:var(--navy);padding:10px 13px">
+      <div style="font-size:12px;font-weight:500;color:#fff;margin-bottom:2px">Pre-Assessment Screening Report</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.5)">AI assessment of RPL readiness — for trainer use only</div>
+    </div>
+    <div style="padding:10px 13px">
+      <!-- Overall -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px">
+        <div style="padding:10px;background:${likeBg[r.overall_likelihood]||'var(--off)'};border-radius:8px;text-align:center">
+          <div style="font-size:12px;font-weight:600;color:${likeCol[r.overall_likelihood]||'var(--muted)'}">${r.overall_likelihood} likelihood</div>
+          <div style="font-size:10px;color:${likeCol[r.overall_likelihood]||'var(--muted)'}">RPL success</div>
+        </div>
+        <div style="padding:10px;background:var(--ib);border-radius:8px;text-align:center">
+          <div style="font-size:11px;font-weight:600;color:${recCol[r.recommendation]||'var(--it)'}">${(r.recommendation||'').replace(/_/g,' ')}</div>
+          <div style="font-size:10px;color:var(--it)">Recommendation</div>
+        </div>
+      </div>
+
+      <div style="font-size:11px;line-height:1.65;margin-bottom:8px">${r.screening_summary||''}</div>
+      <div style="padding:8px 10px;background:var(--ib);border-radius:7px;font-size:11px;margin-bottom:10px">${r.recommendation_rationale||''}</div>
+
+      <!-- Per unit -->
+      ${(r.units||[]).map(u=>`<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:7px">
+        <div style="padding:7px 10px;background:${likeBg[u.likelihood]||'var(--off)'};display:flex;align-items:center;justify-content:space-between">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600">${u.unit_code}</div>
+          <div style="font-size:10px;font-weight:600;color:${likeCol[u.likelihood]||'var(--muted)'}">${u.likelihood} likelihood</div>
+        </div>
+        <div style="padding:9px 11px">
+          ${(u.likely_strengths||[]).length?`<div style="margin-bottom:6px"><div style="font-size:9px;font-weight:600;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Likely strengths</div>${u.likely_strengths.map(s=>`<div style="font-size:10px;color:var(--muted);padding:2px 0">✓ ${s}</div>`).join('')}</div>`:''}
+          ${(u.likely_gaps||[]).length?`<div style="margin-bottom:6px"><div style="font-size:9px;font-weight:600;color:var(--rt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Likely gaps to watch</div>${u.likely_gaps.map(g=>`<div style="padding:6px 8px;background:var(--rb);border-radius:5px;margin-bottom:4px">
+            <div style="font-size:10px;font-weight:500">${g.pc_id} — ${g.gap_risk} risk</div>
+            <div style="font-size:10px;color:var(--muted);margin-top:2px">${g.reason}</div>
+            ${g.probe_question?`<div style="font-size:10px;font-style:italic;color:var(--it);margin-top:3px;padding:4px 6px;background:var(--ib);border-radius:4px">Quick probe: "${g.probe_question}"</div>`:''}
+          </div>`).join('')}</div>`:''}
+        </div>
+      </div>`).join('')}
+
+      <!-- Pre-briefing -->
+      ${r.pre_briefing_for_candidate?`<div style="padding:9px 11px;background:var(--off);border-radius:8px;margin-bottom:7px">
+        <div style="font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px">What to tell the candidate</div>
+        <div style="font-size:11px;line-height:1.65">${r.pre_briefing_for_candidate}</div>
+      </div>`:''}
+
+      ${(r.evidence_to_request_upfront||[]).length?`<div style="margin-bottom:7px"><div style="font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px">Request these documents upfront</div>${r.evidence_to_request_upfront.map(e=>`<div style="font-size:10px;padding:3px 0;border-bottom:1px solid var(--border)">📎 ${e}</div>`).join('')}</div>`:''}
+
+      ${(r.trainer_watch_list||[]).length?`<div style="padding:8px 10px;background:var(--pb);border-radius:7px"><div style="font-size:10px;font-weight:600;color:var(--pt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px">Trainer watch list</div>${r.trainer_watch_list.map(w=>`<div style="font-size:10px;color:var(--pt);padding:2px 0">⚑ ${w}</div>`).join('')}</div>`:''}
+
+      ${r.estimated_completion_time?`<div style="font-size:10px;color:var(--muted);margin-top:7px;text-align:center">Estimated completion: ${r.estimated_completion_time}</div>`:''}
+
+      <!-- Action buttons -->
+      <div style="display:flex;gap:6px;margin-top:10px;flex-wrap:wrap">
+        <button class="btn btn-p btn-sm" data-nav="create">Create RPL assessment →</button>
+        <button class="btn btn-sm" onclick="navigator.clipboard.writeText(document.getElementById('ps-units')?.value||'').then(()=>alert('Unit codes copied'))">Copy unit codes</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ── PATTERNS VIEW ─────────────────────────────────────────────────────────────
+async function renderPatterns(root){
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">Assessment patterns — historical insights</div>
+    <div class="csub">Analyse completed assessments for a unit to surface patterns that help you set better candidate expectations and identify common evidence gaps.</div>
+    <div class="g2" style="margin-bottom:9px">
+      <div class="fr"><label class="fl">Unit code</label><input type="text" id="pat-code" placeholder="e.g. MSL904003" style="text-transform:uppercase"></div>
+      <div style="display:flex;align-items:flex-end;padding-bottom:9px"><button class="btn btn-p btn-sm" id="pat-btn" onclick="runPatterns()">Analyse patterns</button></div>
+    </div>
+    <div id="pat-result"></div>
+  </div>`;
+}
+
+async function runPatterns(){
+  const code=(document.getElementById('pat-code')?.value||'').trim().toUpperCase();
+  if(!code){alert('Enter a unit code.');return;}
+  const btn=document.getElementById('pat-btn');
+  btn.disabled=true;btn.textContent='Analysing...';
+  const result=document.getElementById('pat-result');
+  result.innerHTML='<div style="padding:12px;background:var(--off);border-radius:8px;font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing historical assessments...</div>';
+  try{
+    const r=await apiGet(`/assessment/patterns/${code}`);
+    if(r.message){result.innerHTML=`<div style="padding:12px;background:var(--pb);border-radius:8px;font-size:11px;color:var(--pt)">${r.message}</div>`;return;}
+    result.innerHTML=renderPatternsResult(r,code);
+  }catch(e){result.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`;}
+  btn.disabled=false;btn.textContent='Analyse patterns';
+}
+
+function renderPatternsResult(r,code){
+  const diffCol={HIGH:'var(--rt)',MEDIUM:'var(--pt)',LOW:'var(--mt)'};
+  const diffBg={HIGH:'var(--rb)',MEDIUM:'var(--pb)',LOW:'var(--mb)'};
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+    <div style="background:var(--navy);padding:10px 13px">
+      <div style="font-size:12px;font-weight:500;color:#fff;margin-bottom:2px">📈 Assessment Patterns — ${code}</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.5)">${r.assessments_analysed} completed assessments analysed</div>
+    </div>
+    <div style="padding:10px 13px">
+      ${r.trainer_briefing_guide?`<div class="info-box" style="margin-bottom:10px"><strong>Pre-briefing guide:</strong> ${r.trainer_briefing_guide}</div>`:''}
+
+      <!-- PC difficulty ranking -->
+      <div style="margin-bottom:10px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:6px">PC difficulty ranking</div>
+        ${(r.pc_difficulty_ranking||[]).map(pc=>`<div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)">
+          <span style="padding:2px 7px;border-radius:8px;font-size:9px;font-weight:600;background:${diffBg[pc.difficulty]||'var(--off)'};color:${diffCol[pc.difficulty]||'var(--muted)'};flex-shrink:0">${pc.difficulty}</span>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;gap:6px">
+              <span style="font-family:'DM Mono',monospace;font-size:9px;font-weight:600">${pc.pc_id}</span>
+              <span style="font-size:10px">${pc.pc_text?.substring(0,60)}...</span>
+              <span style="font-size:10px;font-weight:600;color:${diffCol[pc.difficulty]||'var(--muted)'}">
+                ${Math.round((pc.satisfactory_rate||0)*100)}% sat
+              </span>
+            </div>
+            ${pc.common_gap_pattern?`<div style="font-size:10px;color:var(--muted);margin-top:2px">Common gap: ${pc.common_gap_pattern}</div>`:''}
+            ${pc.recommended_pre_briefing?`<div style="font-size:10px;color:var(--it);margin-top:2px;font-style:italic">Tell candidates: ${pc.recommended_pre_briefing}</div>`:''}
+          </div>
+        </div>`).join('')}
+      </div>
+
+      <!-- Evidence insights -->
+      ${(r.evidence_insights||[]).length?`<div style="margin-bottom:10px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:5px">Evidence insights</div>
+        ${r.evidence_insights.map(i=>`<div style="padding:7px 9px;background:var(--ib);border-radius:7px;margin-bottom:5px">
+          <div style="font-size:10px;font-weight:500;color:var(--it)">${i.finding}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px">→ ${i.implication}</div>
+        </div>`).join('')}
+      </div>`:''}
+
+      <!-- Conversation insights -->
+      ${r.conversation_insights?`<div style="margin-bottom:10px;padding:9px 11px;background:var(--off);border-radius:8px">
+        <div style="font-size:11px;font-weight:500;margin-bottom:5px">Competency conversation patterns</div>
+        <div style="font-size:10px;color:var(--muted);margin-bottom:4px">Average turns to Satisfactory: <strong>${r.conversation_insights.avg_turns_to_satisfactory}</strong></div>
+        ${r.conversation_insights.common_first_response_weakness?`<div style="font-size:10px;color:var(--pt)">Common first response weakness: ${r.conversation_insights.common_first_response_weakness}</div>`:''}
+        ${(r.conversation_insights.high_value_probes||[]).length?`<div style="margin-top:5px"><div style="font-size:9px;font-weight:600;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">High-value probe patterns</div>${r.conversation_insights.high_value_probes.map(p=>`<div style="font-size:10px;padding:2px 0;color:var(--muted)">• ${p}</div>`).join('')}</div>`:''}
+      </div>`:''}
+
+      <!-- Evidence collection tips -->
+      ${(r.evidence_collection_tips||[]).length?`<div style="margin-bottom:10px"><div style="font-size:11px;font-weight:500;margin-bottom:5px">Evidence collection tips</div>${r.evidence_collection_tips.map(t=>`<div style="font-size:10px;padding:4px 0;border-bottom:1px solid var(--border);color:var(--muted)">💡 ${t}</div>`).join('')}</div>`:''}
+
+      <!-- Red flags -->
+      ${(r.red_flags||[]).length?`<div style="padding:9px 11px;background:var(--rb);border-radius:8px"><div style="font-size:10px;font-weight:600;color:var(--rt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px">Red flags in early responses</div>${r.red_flags.map(f=>`<div style="font-size:10px;color:var(--rt);padding:2px 0">⚑ ${f}</div>`).join('')}</div>`:''}
+    </div>
+  </div>`;
+}
+
+
+// ── AI DETECTION ────────────────────────────────────────────────────────────
+
+function renderAIFlagInline(det){
+  if(!det||det.ai_probability==='LOW') return '';
+  const col={MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'}[det.ai_probability]||'var(--pt)';
+  const bg ={MEDIUM:'var(--pb)',HIGH:'#F5F3FF',VERY_HIGH:'var(--rb)'}[det.ai_probability]||'var(--pb)';
+  const icon={MEDIUM:'⚑',HIGH:'⚠',VERY_HIGH:'🚨'}[det.ai_probability]||'⚑';
+  return `<div style="margin-top:4px;padding:3px 7px;background:${bg};border-radius:5px;border:1px solid ${col};display:inline-flex;align-items:center;gap:4px">
+    <span style="font-size:10px">${icon}</span>
+    <span style="font-size:9px;font-weight:600;color:${col}">AI risk: ${det.ai_probability} (${det.ai_probability_score}%)</span>
+  </div>`;
+}
+
+async function runAIDetection(assessmentId, unitCode){
+  const out=document.getElementById(`tool-output-${assessmentId}`);
+  if(out) out.innerHTML=`<div style="padding:12px;background:var(--off);border-radius:8px;margin-top:8px;font-size:11px;color:var(--muted)">
+    <span class="spinner spinner-d"></span> Running AI usage detection across all responses...
+  </div>`;
+  try{
+    const r=await apiPost('/assessment/ai-detection-report',{
+      assessment_id:assessmentId, unit_code:unitCode,
+      industry_context:getCtx(assessmentId)
+    });
+    if(out) out.innerHTML=renderAIDetectionReport(r);
+  }catch(e){
+    if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px;margin-top:8px">Error: ${e.message}</div>`;
+  }
+}
+
+function renderAIDetectionReport(r){
+  const riskCol={LOW:'var(--mt)',MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'};
+  const riskBg ={LOW:'var(--mb)',MEDIUM:'var(--pb)',HIGH:'#F5F3FF',VERY_HIGH:'var(--rb)'};
+  const riskIcon={LOW:'✓',MEDIUM:'⚑',HIGH:'⚠',VERY_HIGH:'🚨'};
+  const risk = r.overall_ai_risk||'LOW';
+
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:8px">
+    <!-- Header -->
+    <div style="background:var(--navy);padding:10px 14px">
+      <div style="font-size:12px;font-weight:500;color:#fff;margin-bottom:2px">🔍 AI Usage Detection Report — ${r.unit_code||''}</div>
+      <div style="font-size:10px;color:rgba(255,255,255,.5)">${r.responses_analysed||0} responses analysed</div>
+    </div>
+
+    <!-- Overall risk -->
+    <div style="padding:10px 14px;background:${riskBg[risk]||'var(--off)'};border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:5px">
+        <span style="font-size:20px">${riskIcon[risk]||'⚑'}</span>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:${riskCol[risk]||'var(--muted)'}">${risk.replace('_',' ')} AI risk</div>
+          <div style="font-size:10px;color:${riskCol[risk]||'var(--muted)'}">
+            Average score: ${r.overall_score||0}% · Max: ${r.max_individual_score||0}% · ${r.high_risk_responses||0} high-risk response(s)
+          </div>
+        </div>
+        <div style="margin-left:auto;width:80px;height:8px;background:rgba(0,0,0,.1);border-radius:4px;overflow:hidden">
+          <div style="width:${r.overall_score||0}%;height:100%;background:${riskCol[risk]||'var(--pt)'}"></div>
+        </div>
+      </div>
+      <div style="font-size:11px;line-height:1.6;color:${riskCol[risk]||'var(--muted)'}">${r.overall_guidance||''}</div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div style="padding:8px 14px;background:var(--ib);border-bottom:1px solid var(--border)">
+      <div style="font-size:10px;color:var(--it);line-height:1.55">ℹ ${r.disclaimer||''}</div>
+    </div>
+
+    <!-- Per-response breakdown -->
+    <div style="padding:10px 14px">
+      <div style="font-size:11px;font-weight:500;margin-bottom:8px">Response breakdown</div>
+      ${(r.response_analyses||[]).map(ra=>{
+        const det=ra.detection||{};
+        const rprob=det.ai_probability||'LOW';
+        const score=det.ai_probability_score||0;
+        const col=riskCol[rprob]||'var(--muted)';
+        const bg=riskBg[rprob]||'var(--off)';
+        const signals=(det.signals_triggered||[]).filter(s=>s.signal);
+        const authIndicators=(det.authenticity_indicators||[]);
+        return `<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:7px">
+          <!-- Response header -->
+          <div style="padding:8px 11px;background:${bg};display:flex;align-items:center;gap:7px;flex-wrap:wrap">
+            <span style="font-size:10px">${riskIcon[rprob]||'⚑'}</span>
+            <div style="flex:1;min-width:0">
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:1px">
+                <span style="font-family:'DM Mono',monospace;font-size:9px;font-weight:600">${ra.pc_id||ra.source||''}</span>
+                <span style="font-size:10px;font-weight:600;color:${col}">${rprob.replace('_',' ')}</span>
+                <span style="font-size:9px;color:${col};margin-left:auto">${score}%</span>
+              </div>
+              <div style="font-size:10px;color:var(--muted);font-style:italic;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">
+                "${ra.answer_preview||''}"
+              </div>
+            </div>
+            <!-- Mini score bar -->
+            <div style="width:60px;height:5px;background:rgba(0,0,0,.1);border-radius:3px;overflow:hidden;flex-shrink:0">
+              <div style="width:${score}%;height:100%;background:${col}"></div>
+            </div>
+          </div>
+
+          ${signals.length||authIndicators.length?`<div style="padding:8px 11px">
+            <!-- Triggered signals -->
+            ${signals.length?`<div style="margin-bottom:5px">
+              <div style="font-size:9px;font-weight:700;color:var(--rt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Signals triggered</div>
+              ${signals.map(s=>{
+                const sc={LOW:'var(--pt)',MEDIUM:'#7C3AED',HIGH:'var(--rt)'}[s.severity]||'var(--muted)';
+                return `<div style="padding:5px 8px;background:var(--off);border-radius:5px;margin-bottom:3px;border-left:3px solid ${sc}">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px">
+                    <span style="font-size:9px;font-weight:700;color:${sc}">${s.signal.replace(/_/g,' ')}</span>
+                    <span style="padding:1px 5px;border-radius:8px;font-size:8px;background:${sc};color:#fff;opacity:.8">${s.severity}</span>
+                  </div>
+                  ${s.evidence?`<div style="font-size:9px;color:var(--muted);font-style:italic;margin-bottom:2px">"${s.evidence.substring(0,80)}${s.evidence.length>80?'...':''}"</div>`:''}
+                  ${s.explanation?`<div style="font-size:9px;color:var(--text)">${s.explanation}</div>`:''}
+                </div>`;
+              }).join('')}
+            </div>`:''}
+
+            <!-- Authenticity indicators -->
+            ${authIndicators.length?`<div style="margin-bottom:5px">
+              <div style="font-size:9px;font-weight:700;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Authenticity indicators</div>
+              ${authIndicators.map(a=>`<div style="font-size:9px;color:var(--mt);padding:2px 0;border-bottom:1px solid var(--border)">✓ ${a}</div>`).join('')}
+            </div>`:''}
+
+            <!-- Assessor guidance -->
+            ${det.assessor_guidance?`<div style="padding:6px 8px;background:var(--ib);border-radius:6px">
+              <div style="font-size:9px;font-weight:700;color:var(--it);margin-bottom:2px">👁 Assessor action</div>
+              <div style="font-size:10px;color:var(--it);line-height:1.5">${det.assessor_guidance}</div>
+            </div>`:''}
+            ${det.recommended_verification?`<div style="margin-top:4px;font-size:9px;color:var(--muted)">→ ${det.recommended_verification}</div>`:''}
+          </div>`:''}
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+}
+
+
+// ══════════════════════════════════════════════════════════════════════════════
+// EVIDENCE PORTFOLIO REVIEW — trainer formal review panel
+// ══════════════════════════════════════════════════════════════════════════════
+
+function renderPortfolioReviewPanel(assessmentId, assessment){
+  const p       = assessment.progress || {};
+  const kResp   = p.knowledge_responses  || {};
+  const convRecs= p.conversation_records || [];
+  const uploads = p.uploads || {};
+  const notes   = p.candidate_notes || {};
+  const unitCodes = assessment.unit_codes || [];
+
+  // Count reviewable items
+  let evidenceItems = [];
+
+  // Resume/background
+  const resume = notes.resume || notes.background || '';
+  if(resume) evidenceItems.push({
+    id:'resume', type:'document',
+    label:'Resume / background statement',
+    content: resume.substring(0,200)+'...',
+    icon:'📄'
+  });
+
+  // Position description
+  const pd = notes.position_description || notes.position || '';
+  if(pd) evidenceItems.push({
+    id:'position_desc', type:'document',
+    label:'Position description',
+    content: pd.substring(0,200)+'...',
+    icon:'📋'
+  });
+
+  // Uploaded files
+  Object.entries(uploads).forEach(([k,v])=>{
+    if(v && (v.name||v.filename||k)){
+      evidenceItems.push({
+        id:`upload_${k}`, type:'upload',
+        label: v.name || v.filename || k,
+        content: `Uploaded document — ${v.size||'unknown size'}`,
+        icon:'📎'
+      });
+    }
+  });
+
+  // Self-assessment checklist summary
+  const checklist = p.checklist || {};
+  const clCount = Object.values(checklist).flat().filter(v=>v&&v!=='n').length;
+  if(clCount>0) evidenceItems.push({
+    id:'checklist', type:'checklist',
+    label:`Self-assessment checklist (${clCount} items confirmed)`,
+    content:'Candidate self-rated their competency against each PC',
+    icon:'☑'
+  });
+
+  return `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden" id="portfolio-panel-${assessmentId}">
+    <!-- Header -->
+    <div style="padding:11px 14px;background:var(--navy);display:flex;align-items:center;justify-content:space-between">
+      <div>
+        <div style="font-size:13px;font-weight:500;color:#fff">📂 Evidence portfolio review</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.5);margin-top:1px">
+          Trainer formal review — tick and comment on each piece of evidence before making a determination
+        </div>
+      </div>
+      <div id="portfolio-save-status-${assessmentId}" style="font-size:10px;color:rgba(255,255,255,.5)"></div>
+    </div>
+
+    <div style="padding:12px 14px">
+      <!-- HITL declaration banner -->
+      <div style="padding:9px 12px;background:var(--ib);border:1px solid #93C5FD;border-radius:8px;margin-bottom:12px;font-size:11px;color:var(--it);line-height:1.65">
+        <strong>Standards for RTOs 2015 — Assessor obligation:</strong>
+        You must review all evidence and make an independent professional judgement before issuing a determination.
+        Tick each item below to confirm you have reviewed it. Your comments become the formal assessment record.
+      </div>
+
+      <!-- Evidence items -->
+      ${evidenceItems.length ? `
+      <div style="margin-bottom:12px">
+        <div style="font-size:11px;font-weight:600;margin-bottom:7px">Evidence documents &amp; submissions</div>
+        ${evidenceItems.map(item=>`
+        <div class="portfolio-item" id="pitem-${assessmentId}-${item.id}"
+          style="border:1px solid var(--border);border-radius:8px;margin-bottom:6px;overflow:hidden">
+          <div style="padding:9px 12px;background:var(--off);display:flex;align-items:flex-start;gap:8px">
+            <input type="checkbox" id="pcheck-${assessmentId}-${item.id}"
+              style="width:auto;margin-top:2px;flex-shrink:0"
+              onchange="portfolioItemChanged('${assessmentId}','${item.id}',this)">
+            <div style="flex:1;min-width:0">
+              <div style="display:flex;align-items:center;gap:7px;margin-bottom:3px;flex-wrap:wrap">
+                <span style="font-size:12px">${item.icon}</span>
+                <span style="font-size:11px;font-weight:500">${item.label}</span>
+                <span style="padding:1px 6px;border-radius:8px;font-size:9px;background:var(--off);border:1px solid var(--border);color:var(--muted)">${item.type}</span>
+              </div>
+              <div style="font-size:10px;color:var(--muted);font-style:italic;line-height:1.5">${item.content}</div>
+            </div>
+          </div>
+          <div class="portfolio-review-fields" id="pfields-${assessmentId}-${item.id}"
+            style="padding:9px 12px;border-top:1px solid var(--border);display:none">
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:7px">
+              ${['Authentic','Current','Sufficient'].map(label=>`
+              <label style="display:flex;align-items:center;gap:5px;font-size:10px;cursor:pointer;padding:5px 8px;background:#fff;border:1px solid var(--border);border-radius:6px">
+                <input type="checkbox" id="p${label.toLowerCase()}-${assessmentId}-${item.id}" style="width:auto">
+                <span><span style="font-weight:500">${label[0]}</span>${label.slice(1)}</span>
+              </label>`).join('')}
+            </div>
+            <div style="margin-bottom:5px">
+              <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Assessor comment</div>
+              <textarea id="pcomment-${assessmentId}-${item.id}" rows="2"
+                placeholder="Note what this evidence demonstrates, any concerns, or what it links to..."
+                style="font-size:11px;padding:6px 8px;border-radius:6px"></textarea>
+            </div>
+            <div>
+              <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">VACS concern (if any)</div>
+              <input type="text" id="pvacs-${assessmentId}-${item.id}"
+                placeholder="e.g. Currency: document dated 2019 — confirm still current"
+                style="font-size:11px;padding:5px 8px;border-radius:6px">
+            </div>
+          </div>
+        </div>`).join('')}
+      </div>` : ''}
+
+      <!-- Knowledge responses review — full answer + AI analysis + assessor fields -->
+      ${Object.entries(kResp).length ? `
+      <div style="margin-bottom:12px">
+        <div style="font-size:11px;font-weight:600;margin-bottom:7px">Knowledge question responses</div>
+        ${unitCodes.map(code=>{
+          const unitResp = kResp[code] || kResp;
+          const unitAnal = (p.knowledge_analyses||{})[code] || (p.knowledge_analyses||{}) || {};
+          const entries = typeof unitResp === 'object' && !Array.isArray(unitResp)
+            ? Object.entries(unitResp) : [];
+          return entries.map(([qIdx,answer])=>{
+            const anal = unitAnal[qIdx] || {};
+            const isSat = anal.judgement==='Satisfactory';
+            const commentary = anal.commentary || anal.summary || anal.evaluation_summary || '';
+            const demonstrated = (anal.what_the_answer_demonstrates||anal.evidence_items||anal.matched_knowledge_points||[]).filter(Boolean);
+            const missing = (anal.what_is_missing||anal.gaps||[]).filter(Boolean);
+            const hasAnal = commentary || demonstrated.length || missing.length;
+            return `
+          <div style="border:1px solid var(--border);border-radius:8px;margin-bottom:8px;overflow:hidden">
+
+            <!-- Header: review checkbox + PC ref + AI judgement -->
+            <div style="padding:8px 12px;background:var(--off);display:flex;align-items:flex-start;gap:8px">
+              <input type="checkbox" id="kcheck-${assessmentId}-${code}-${qIdx}"
+                style="width:auto;margin-top:3px;flex-shrink:0"
+                onchange="portfolioKnowledgeChanged('${assessmentId}','${code}','${qIdx}',this)">
+              <div style="flex:1;min-width:0;display:flex;align-items:center;gap:7px;flex-wrap:wrap">
+                <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700;color:var(--navy)">${code} · Q${parseInt(qIdx)+1}</span>
+                ${anal.pc_id?`<span style="font-family:'DM Mono',monospace;font-size:9px;color:var(--muted)">PC ${anal.pc_id}</span>`:''}
+                ${anal.judgement?`<span style="padding:1px 8px;border-radius:9px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'};margin-left:auto">${anal.judgement}</span>`:'<span style="font-size:9px;color:var(--faint);margin-left:auto">Not yet analysed</span>'}
+              </div>
+            </div>
+
+            <!-- Full candidate answer -->
+            <div style="padding:9px 12px;border-bottom:1px solid var(--border);background:#fff">
+              <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px">Candidate answer</div>
+              <div style="font-size:11px;line-height:1.75;white-space:pre-wrap;max-height:160px;overflow-y:auto">${String(answer)}</div>
+            </div>
+
+            <!-- AI analysis — rich panel -->
+            <div style="border-bottom:1px solid var(--border)">
+              ${hasAnal ? renderKQAnalysisPanel(anal, code, qIdx) : `<div style="padding:7px 12px;display:flex;align-items:center;justify-content:space-between;background:var(--off)">
+                <span style="font-size:10px;color:var(--faint);font-style:italic">No AI analysis yet</span>
+                <button onclick="runTrainerKQAnalysis('${code}','${qIdx}','${assessmentId}')"
+                  id="trainer-anal-btn-${code}-${qIdx}"
+                  style="padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:var(--ib);color:var(--it);font-size:10px;cursor:pointer">
+                  🤖 Run AI analysis
+                </button>
+              </div>`}
+            </div>
+
+            <!-- Assessor review fields (shown when ticked) -->
+            <div id="kfields-${assessmentId}-${code}-${qIdx}" style="padding:9px 12px;display:none">
+              <label style="display:flex;align-items:center;gap:5px;font-size:10px;cursor:pointer;margin-bottom:6px;padding:5px 8px;background:#fff;border:1px solid var(--border);border-radius:6px;width:fit-content">
+                <input type="checkbox" id="ksuff-${assessmentId}-${code}-${qIdx}" style="width:auto">
+                <span>Sufficient underpinning knowledge demonstrated</span>
+              </label>
+              <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Assessor comment</div>
+              <textarea id="kcomment-${assessmentId}-${code}-${qIdx}" rows="2"
+                placeholder="Record your assessment of this response — what it demonstrates, any concerns, how it supports your determination..."
+                style="font-size:11px;padding:6px 8px;border-radius:6px"></textarea>
+            </div>
+          </div>`;
+          }).join('');
+        }).join('')}
+      </div>` : ''}
+
+      <!-- Conversation records review -->
+      ${convRecs.length ? `
+      <div style="margin-bottom:12px">
+        <div style="font-size:11px;font-weight:600;margin-bottom:7px">Competency conversation records</div>
+        ${convRecs.map((rec,i)=>`
+        <div style="border:1px solid var(--border);border-radius:8px;margin-bottom:6px;overflow:hidden">
+          <div style="padding:8px 12px;background:var(--off);display:flex;align-items:flex-start;gap:8px">
+            <input type="checkbox" id="ccheck-${assessmentId}-${i}"
+              style="width:auto;margin-top:2px;flex-shrink:0"
+              onchange="portfolioConvChanged('${assessmentId}',${i},this)">
+            <div style="flex:1;min-width:0">
+              <div style="display:flex;align-items:center;gap:7px;margin-bottom:3px;flex-wrap:wrap">
+                <span style="font-family:'DM Mono',monospace;font-size:9px;font-weight:600">${rec.unit||''} · ${rec.pc||''}</span>
+                <span style="font-size:10px">${rec.question?.substring(0,80)||''}...</span>
+                ${rec.final_judgement?`<span style="padding:1px 6px;border-radius:8px;font-size:9px;font-weight:600;background:${rec.final_judgement==='Satisfactory'?'var(--mb)':'var(--pb)'};color:${rec.final_judgement==='Satisfactory'?'var(--mt)':'var(--pt)'}">${rec.final_judgement}</span>`:''}
+              </div>
+              <div style="font-size:10px;color:var(--muted)">${(rec.dialogue||[]).filter(t=>t.role==='candidate').length} turn(s) · Final confidence: ${Math.round((rec.final_confidence||0)*100)}%</div>
+            </div>
+          </div>
+          <div id="cfields-${assessmentId}-${i}"
+            style="padding:8px 12px;border-top:1px solid var(--border);display:none">
+            <label style="display:flex;align-items:center;gap:5px;font-size:10px;cursor:pointer;margin-bottom:6px;padding:5px 8px;background:#fff;border:1px solid var(--border);border-radius:6px;width:fit-content">
+              <input type="checkbox" id="ccred-${assessmentId}-${i}" style="width:auto">
+              <span>Conversation credible — responses consistent with claimed experience</span>
+            </label>
+            <textarea id="ccomment-${assessmentId}-${i}" rows="2"
+              placeholder="Assessor observations on this conversation — quality of responses, specific evidence demonstrated..."
+              style="font-size:11px;padding:6px 8px;border-radius:6px"></textarea>
+          </div>
+        </div>`).join('')}
+      </div>` : ''}
+
+      <!-- Overall portfolio summary -->
+      <div style="border:1px solid var(--border);border-radius:8px;padding:11px 13px;margin-bottom:10px">
+        <div style="font-size:11px;font-weight:600;margin-bottom:7px">Overall portfolio assessment</div>
+        <div style="margin-bottom:8px">
+          <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:5px">Portfolio sufficiency</div>
+          <div style="display:flex;gap:7px">
+            ${[
+              ['sufficient','Sufficient — portfolio supports competency determination','var(--mb)','var(--mt)'],
+              ['insufficient','Insufficient — further evidence required','var(--rb)','var(--rt)'],
+              ['partial','Partially sufficient — gap pathway required','var(--pb)','var(--pt)'],
+            ].map(([val,label,bg,col])=>`
+            <label style="display:flex;align-items:center;gap:5px;font-size:10px;cursor:pointer;padding:6px 9px;background:${bg};border:1px solid ${col};border-radius:7px;color:${col}">
+              <input type="radio" name="portfolio-suff-${assessmentId}" value="${val}" style="width:auto">
+              <span>${label}</span>
+            </label>`).join('')}
+          </div>
+        </div>
+        <div style="margin-bottom:8px">
+          <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Portfolio summary comment</div>
+          <textarea id="portfolio-comment-${assessmentId}" rows="3"
+            placeholder="Summarise the overall quality of the evidence portfolio — what was strong, what was weak, how the portfolio supports (or does not support) your determination..."
+            style="font-size:11px;padding:7px 9px;border-radius:7px"></textarea>
+        </div>
+      </div>
+
+      <!-- HITL confirmation -->
+      <div style="padding:10px 12px;background:var(--navy);border-radius:8px;margin-bottom:10px">
+        <label style="display:flex;align-items:flex-start;gap:9px;cursor:pointer">
+          <input type="checkbox" id="hitl-confirm-${assessmentId}" style="width:auto;margin-top:2px;flex-shrink:0">
+          <div style="font-size:11px;color:#fff;line-height:1.65">
+            <strong>Assessor declaration:</strong>
+            I confirm I have personally reviewed all evidence submitted by this candidate and
+            have applied my independent professional judgement in accordance with the Principles
+            of Assessment and Rules of Evidence (Standards for RTOs 2015).
+            This review record supports — and does not replace — my formal determination.
+          </div>
+        </label>
+      </div>
+
+      <!-- Save button -->
+      <div style="display:flex;gap:7px;align-items:center">
+        <button class="btn btn-p" id="portfolio-save-btn-${assessmentId}"
+          onclick="savePortfolioReview('${assessmentId}')">
+          Save evidence review
+        </button>
+        <span id="portfolio-saved-${assessmentId}" style="font-size:11px;color:var(--mt);display:none">✓ Saved</span>
+        <span style="font-size:10px;color:var(--muted)">Auto-saved when you tick each item</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function portfolioItemChanged(id, itemId, checkbox){
+  const fields = document.getElementById(`pfields-${id}-${itemId}`);
+  if(fields) fields.style.display = checkbox.checked ? 'block' : 'none';
+  autoSavePortfolio(id);
+}
+
+function portfolioKnowledgeChanged(id, code, qIdx, checkbox){
+  const fields = document.getElementById(`kfields-${id}-${code}-${qIdx}`);
+  if(fields) fields.style.display = checkbox.checked ? 'block' : 'none';
+  autoSavePortfolio(id);
+}
+
+function portfolioConvChanged(id, i, checkbox){
+  const fields = document.getElementById(`cfields-${id}-${i}`);
+  if(fields) fields.style.display = checkbox.checked ? 'block' : 'none';
+  autoSavePortfolio(id);
+}
+
+let _portfolioSaveTimer = null;
+function autoSavePortfolio(id){
+  clearTimeout(_portfolioSaveTimer);
+  _portfolioSaveTimer = setTimeout(()=>savePortfolioReview(id, true), 1500);
+}
+
+async function savePortfolioReview(id, silent=false){
+  const btn = document.getElementById(`portfolio-save-btn-${id}`);
+  if(btn && !silent){ btn.disabled=true; btn.textContent='Saving...'; }
+
+  // Collect all review data from the DOM
+  const review = {
+    evidence_reviews: [],
+    knowledge_reviews: [],
+    conversation_reviews: [],
+    overall_portfolio_comment: document.getElementById(`portfolio-comment-${id}`)?.value||'',
+    portfolio_sufficient: document.querySelector(`input[name="portfolio-suff-${id}"]:checked`)?.value||null,
+    hitl_confirmed: document.getElementById(`hitl-confirm-${id}`)?.checked||false,
+  };
+
+  // Collect evidence item reviews
+  document.querySelectorAll(`[id^="pcheck-${id}-"]`).forEach(cb=>{
+    const itemId = cb.id.replace(`pcheck-${id}-`,'');
+    review.evidence_reviews.push({
+      evidence_id:           itemId,
+      reviewed:              cb.checked,
+      authenticity_confirmed: document.getElementById(`pauthentic-${id}-${itemId}`)?.checked||false,
+      currency_confirmed:    document.getElementById(`pcurrent-${id}-${itemId}`)?.checked||false,
+      relevance_confirmed:   document.getElementById(`psufficient-${id}-${itemId}`)?.checked||false,
+      assessor_comment:      document.getElementById(`pcomment-${id}-${itemId}`)?.value||'',
+      vacs_concern:          document.getElementById(`pvacs-${id}-${itemId}`)?.value||'',
+    });
+  });
+
+  // Collect knowledge reviews
+  document.querySelectorAll(`[id^="kcheck-${id}-"]`).forEach(cb=>{
+    const parts = cb.id.replace(`kcheck-${id}-`,'').split('-');
+    const code=parts[0], qIdx=parts[1];
+    review.knowledge_reviews.push({
+      unit_code:   code,
+      q_idx:       qIdx,
+      reviewed:    cb.checked,
+      sufficient:  document.getElementById(`ksuff-${id}-${code}-${qIdx}`)?.checked||false,
+      assessor_comment: document.getElementById(`kcomment-${id}-${code}-${qIdx}`)?.value||'',
+    });
+  });
+
+  // Collect conversation reviews
+  document.querySelectorAll(`[id^="ccheck-${id}-"]`).forEach(cb=>{
+    const i = cb.id.replace(`ccheck-${id}-`,'');
+    review.conversation_reviews.push({
+      index:     parseInt(i),
+      reviewed:  cb.checked,
+      credible:  document.getElementById(`ccred-${id}-${i}`)?.checked||false,
+      assessor_comment: document.getElementById(`ccomment-${id}-${i}`)?.value||'',
+    });
+  });
+
+  try{
+    await apiPost(`/assessment/${id}/portfolio-review`, review);
+    if(!silent){
+      const saved = document.getElementById(`portfolio-saved-${id}`);
+      if(saved){ saved.style.display='inline'; setTimeout(()=>saved.style.display='none',2000); }
+      const status = document.getElementById(`portfolio-save-status-${id}`);
+      if(status) status.textContent = '✓ Saved ' + new Date().toLocaleTimeString('en-AU');
+    }
+  }catch(e){
+    if(!silent) alert('Save failed: '+e.message);
+  }
+
+  if(btn && !silent){ btn.disabled=false; btn.textContent='Save evidence review'; }
+}
+
+async function loadPortfolioReview(id){
+  try{
+    const r = await apiGet(`/assessment/${id}/portfolio-review`);
+    if(!r || !r.evidence_reviews?.length) return;
+
+    // Restore evidence item reviews
+    (r.evidence_reviews||[]).forEach(ev=>{
+      const cb = document.getElementById(`pcheck-${id}-${ev.evidence_id}`);
+      if(cb && ev.reviewed){
+        cb.checked = true;
+        const fields = document.getElementById(`pfields-${id}-${ev.evidence_id}`);
+        if(fields) fields.style.display='block';
+        if(ev.authenticity_confirmed) document.getElementById(`pauthentic-${id}-${ev.evidence_id}`)?.checked === false && (document.getElementById(`pauthentic-${id}-${ev.evidence_id}`).checked=true);
+        if(ev.currency_confirmed) { const el=document.getElementById(`pcurrent-${id}-${ev.evidence_id}`); if(el) el.checked=true; }
+        if(ev.relevance_confirmed) { const el=document.getElementById(`psufficient-${id}-${ev.evidence_id}`); if(el) el.checked=true; }
+        if(ev.assessor_comment) { const el=document.getElementById(`pcomment-${id}-${ev.evidence_id}`); if(el) el.value=ev.assessor_comment; }
+        if(ev.vacs_concern) { const el=document.getElementById(`pvacs-${id}-${ev.evidence_id}`); if(el) el.value=ev.vacs_concern; }
+      }
+    });
+
+    // Restore knowledge reviews
+    (r.knowledge_reviews||[]).forEach(kv=>{
+      const cb = document.getElementById(`kcheck-${id}-${kv.unit_code}-${kv.q_idx}`);
+      if(cb && kv.reviewed){
+        cb.checked=true;
+        const fields = document.getElementById(`kfields-${id}-${kv.unit_code}-${kv.q_idx}`);
+        if(fields) fields.style.display='block';
+        if(kv.sufficient){ const el=document.getElementById(`ksuff-${id}-${kv.unit_code}-${kv.q_idx}`); if(el) el.checked=true; }
+        if(kv.assessor_comment){ const el=document.getElementById(`kcomment-${id}-${kv.unit_code}-${kv.q_idx}`); if(el) el.value=kv.assessor_comment; }
+      }
+    });
+
+    // Restore conversation reviews
+    (r.conversation_reviews||[]).forEach(cv=>{
+      const cb = document.getElementById(`ccheck-${id}-${cv.index}`);
+      if(cb && cv.reviewed){
+        cb.checked=true;
+        const fields = document.getElementById(`cfields-${id}-${cv.index}`);
+        if(fields) fields.style.display='block';
+        if(cv.credible){ const el=document.getElementById(`ccred-${id}-${cv.index}`); if(el) el.checked=true; }
+        if(cv.assessor_comment){ const el=document.getElementById(`ccomment-${id}-${cv.index}`); if(el) el.value=cv.assessor_comment; }
+      }
+    });
+
+    // Restore overall
+    if(r.overall_portfolio_comment){
+      const el=document.getElementById(`portfolio-comment-${id}`);
+      if(el) el.value=r.overall_portfolio_comment;
+    }
+    if(r.portfolio_sufficient){
+      const rb=document.querySelector(`input[name="portfolio-suff-${id}"][value="${r.portfolio_sufficient}"]`);
+      if(rb) rb.checked=true;
+    }
+    if(r.hitl_confirmed){
+      const cb=document.getElementById(`hitl-confirm-${id}`);
+      if(cb) cb.checked=true;
+    }
+
+    const status=document.getElementById(`portfolio-save-status-${id}`);
+    if(status&&r.reviewed_at) status.textContent=`Last saved ${new Date(r.reviewed_at).toLocaleString('en-AU')}`;
+  }catch(e){ console.warn('Portfolio load:',e.message); }
+}
+
+async function rebuildAnalyses(id){
+  const btn = document.getElementById(`rebuild-btn-${id}`);
+  if(btn){btn.disabled=true;btn.textContent='⟳ Refreshing...';}
+  try{
+    const r = await apiPost(`/assessment/${id}/rebuild-analyses`,{});
+    if(btn){btn.textContent=`✓ ${r.total_analyses||0} analyses loaded`;}
+    setTimeout(()=>viewAssessment(id), 800);
+  }catch(e){
+    if(btn){btn.disabled=false;btn.textContent='🔄 Refresh AI analysis';}
+    alert('Refresh failed: '+e.message);
+  }
+}
+
+async function runTrainerKQAnalysis(unitCode, qIdx, assessmentId){
+  const btn = document.getElementById(`trainer-anal-btn-${unitCode}-${qIdx}`);
+  if(btn){btn.disabled=true;btn.textContent='⟳ Analysing...';}
+  try{
+    const r = await apiPost(`/assessment/${assessmentId}/analyse-question`,{
+      unit_code: unitCode,
+      q_idx: parseInt(qIdx),
+      assessment_id: assessmentId
+    });
+    // Reload assessment view to show analysis
+    viewAssessment(assessmentId);
+  }catch(e){
+    if(btn){btn.disabled=false;btn.textContent='🤖 Run analysis';}
+    alert('Analysis failed: '+e.message);
+  }
+}
+
+// ── AI Analysis Summary & Trainer Report panel ───────────────────────────────
+function renderKQAnalysisPanel(anal, unitCode, qIdx){
+  const isSat = anal.judgement==='Satisfactory';
+  const score = anal.overall_score_percent || 0;
+  const meetsReq = anal.meets_requirement || '';
+  const commentary = anal.commentary || anal.summary || anal.evaluation_summary || '';
+  const trainerSuggestion = anal.trainer_suggestion || anal.assessor_note || '';
+  const nextStep = anal.next_step || (isSat ? 'PROCEED' : 'PROBE');
+  const demonstrated = (anal.what_the_answer_demonstrates||anal.evidence_items||anal.matched_knowledge_points||[]).filter(Boolean);
+  const missing = (anal.what_is_missing||anal.gaps||[]).filter(Boolean);
+  const reqMap = anal.requirements_map || [];
+  const followup = anal.followup_question || '';
+
+  // Score dial colour
+  const dialCol = score>=80?'#22C55E':score>=60?'#F59E0B':'#EF4444';
+  const dialBg  = score>=80?'#F0FDF4':score>=60?'#FEFCE8':'#FEF2F2';
+
+  // Next step config
+  const stepCfg = {
+    PROCEED:          {col:'var(--mt)', bg:'var(--mb)', icon:'✓', label:'Proceed to next step'},
+    PROBE:            {col:'var(--pt)', bg:'var(--pb)', icon:'⚑', label:'Probe further in interview'},
+    INTERVIEW:        {col:'#7C3AED',  bg:'#F5F3FF',  icon:'🎙', label:'Book interview'},
+    NOT_DEMONSTRATED: {col:'var(--rt)', bg:'var(--rb)', icon:'✕', label:'Not demonstrated'},
+  };
+  const step = stepCfg[nextStep] || stepCfg.PROBE;
+
+  return `
+  <div style="border-top:1px solid var(--border)">
+    <!-- Panel header -->
+    <div style="padding:8px 13px;background:#1F2060;display:flex;align-items:center;justify-content:space-between">
+      <div style="font-size:11px;font-weight:600;color:#fff">AI Analysis Summary &amp; Trainer Report</div>
+      <span style="padding:2px 9px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'#4DB848':'#EF4444'};color:#fff">
+        ${isSat?'✓ SATISFACTORY':'✕ NOT SATISFACTORY'}
+      </span>
+    </div>
+
+    <div style="display:grid;grid-template-columns:220px 1fr 1fr;gap:0;min-height:160px">
+
+      <!-- LEFT: Assessment Scorecard -->
+      <div style="padding:12px 14px;border-right:1px solid var(--border);background:${dialBg}">
+        <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.4px;margin-bottom:10px">Assessment Scorecard</div>
+
+        <!-- Score dial -->
+        <div style="text-align:center;margin-bottom:10px">
+          <div style="position:relative;width:80px;height:80px;margin:0 auto">
+            <svg viewBox="0 0 80 80" style="transform:rotate(-90deg)">
+              <circle cx="40" cy="40" r="34" fill="none" stroke="#E5E7EB" stroke-width="8"/>
+              <circle cx="40" cy="40" r="34" fill="none" stroke="${dialCol}" stroke-width="8"
+                stroke-dasharray="${Math.round(score*2.136)} 213.6"
+                stroke-linecap="round"/>
+            </svg>
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center">
+              <div style="font-size:17px;font-weight:700;color:${dialCol};line-height:1">${score}%</div>
+              <div style="font-size:7px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px">${meetsReq.replace(/_/g,' ')||'ASSESSED'}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Status items -->
+        ${demonstrated.slice(0,3).map(d=>`
+        <div style="display:flex;align-items:flex-start;gap:5px;margin-bottom:4px">
+          <span style="color:#22C55E;font-size:12px;flex-shrink:0;margin-top:1px">✓</span>
+          <span style="font-size:9px;line-height:1.5;color:var(--text)">${d.substring(0,55)}${d.length>55?'...':''}</span>
+        </div>`).join('')}
+        ${missing.slice(0,2).map(m=>`
+        <div style="display:flex;align-items:flex-start;gap:5px;margin-bottom:4px">
+          <span style="color:var(--pt);font-size:12px;flex-shrink:0;margin-top:1px">ⓘ</span>
+          <span style="font-size:9px;line-height:1.5;color:var(--pt)">${m.substring(0,55)}${m.length>55?'...':''}</span>
+        </div>`).join('')}
+      </div>
+
+      <!-- CENTRE: Trainer Feedback -->
+      <div style="padding:12px 14px;border-right:1px solid var(--border)">
+        <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.4px;margin-bottom:8px">Trainer Feedback</div>
+        <div style="font-size:11px;line-height:1.75;color:var(--text);margin-bottom:8px">${commentary}</div>
+        ${trainerSuggestion?`
+        <div style="padding:7px 9px;background:var(--ib);border-radius:6px;border-left:3px solid #93C5FD">
+          <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">Suggestion</div>
+          <div style="font-size:10px;color:var(--it);line-height:1.6">${trainerSuggestion}</div>
+        </div>`:''}
+        ${followup?`
+        <div style="margin-top:7px;padding:7px 9px;background:rgba(124,58,237,.06);border-radius:6px;border-left:3px solid #7C3AED">
+          <div style="font-size:9px;font-weight:700;color:#7C3AED;text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">Suggested interview question</div>
+          <div style="font-size:10px;color:#4C1D95;line-height:1.6;font-style:italic">"${followup}"</div>
+        </div>`:''}
+      </div>
+
+      <!-- RIGHT: Requirements table -->
+      <div style="padding:12px 14px">
+        <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.4px;margin-bottom:8px">Requirements</div>
+        ${reqMap.length ? `
+        <table style="width:100%;border-collapse:collapse;font-size:9px">
+          <thead>
+            <tr style="background:var(--off)">
+              <th style="padding:4px 6px;text-align:left;font-weight:600;color:var(--muted);border-bottom:1px solid var(--border)">Requirement</th>
+              <th style="padding:4px 6px;text-align:center;font-weight:600;color:var(--muted);border-bottom:1px solid var(--border);width:28px">Found</th>
+              <th style="padding:4px 6px;text-align:left;font-weight:600;color:var(--muted);border-bottom:1px solid var(--border)">Assessment</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${reqMap.map(r=>{
+              const aCol = r.assessment==='VERIFIED'?'var(--mt)':r.assessment==='NEEDS_PROBING'?'var(--pt)':'var(--rt)';
+              const aBg  = r.assessment==='VERIFIED'?'var(--mb)':r.assessment==='NEEDS_PROBING'?'var(--pb)':'var(--rb)';
+              const aIcon= r.assessment==='VERIFIED'?'✓':r.assessment==='NEEDS_PROBING'?'⚑':'✕';
+              return `<tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:5px 6px;line-height:1.4">${r.requirement}</td>
+                <td style="padding:5px 6px;text-align:center">
+                  <span style="font-size:12px;color:${r.evidence_found?'#22C55E':'#EF4444'}">${r.evidence_found?'✓':'✕'}</span>
+                </td>
+                <td style="padding:5px 6px">
+                  <span style="padding:1px 6px;border-radius:8px;font-size:8px;font-weight:600;background:${aBg};color:${aCol}">${aIcon} ${r.assessment?.replace(/_/g,' ')}</span>
+                  ${r.evidence_reference?`<div style="font-size:8px;color:var(--faint);margin-top:1px">${r.evidence_reference.substring(0,40)}</div>`:''}
+                </td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>` : `
+        <div style="font-size:10px;color:var(--muted)">
+          ${demonstrated.map(d=>`<div style="padding:3px 0;border-bottom:1px solid var(--border)">✓ ${d.substring(0,60)}</div>`).join('')}
+          ${missing.map(m=>`<div style="padding:3px 0;border-bottom:1px solid var(--border);color:var(--pt)">⚑ ${m.substring(0,60)}</div>`).join('')}
+        </div>`}
+
+        <!-- Next Step -->
+        <div style="margin-top:8px;padding:7px 9px;background:${step.bg};border-radius:7px;display:flex;align-items:center;justify-content:space-between">
+          <div>
+            <div style="font-size:8px;font-weight:700;color:${step.col};text-transform:uppercase;letter-spacing:.3px">Next Step Recommendation</div>
+            <div style="font-size:10px;font-weight:600;color:${step.col}">${step.icon} ${step.label}</div>
+          </div>
+          ${nextStep==='INTERVIEW'||nextStep==='PROBE'?`
+          <button style="padding:4px 9px;border-radius:6px;border:1px solid ${step.col};background:#fff;color:${step.col};font-size:9px;font-weight:600;cursor:pointer">
+            ${nextStep==='INTERVIEW'?'Book interview':'Add probe question'}
+          </button>`:''}
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ── Super-admin: Organisations console ────────────────────────────────────────
+async function renderOrgs(root){
+  if(!ME || ME.role!=='superadmin'){
+    root.innerHTML='<div class="card"><div class="ctitle">Access denied</div><div class="csub">Only the platform super-admin can manage organisations.</div></div>';
+    return;
+  }
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading organisations…</div></div>';
+  try{
+    const [stats, list] = await Promise.all([
+      apiGet('/superadmin/stats'),
+      apiGet('/superadmin/orgs')
+    ]);
+    const orgs = (list.orgs||[]).filter(o=>o.id!=='__platform__');
+    const rows = orgs.map(o=>`
+      <tr>
+        <td><strong>${o.name||'(unnamed)'}</strong>${o.rto_code?`<div style="font-size:10px;color:var(--muted)">RTO ${o.rto_code}</div>`:''}</td>
+        <td>${o.admin_emails&&o.admin_emails.length?o.admin_emails.join('<br>'):'<span style="color:var(--muted)">none</span>'}</td>
+        <td style="text-align:center">${o.user_count||0}</td>
+        <td style="text-align:center">${o.trainer_count||0}</td>
+        <td style="text-align:center">${(stats.assessments_by_org||{})[o.id]||0}</td>
+        <td>${o.active!==false?'<span class="chip chip-g">Active</span>':'<span class="chip chip-r">Suspended</span>'}</td>
+        <td style="text-align:right;white-space:nowrap">
+          <button class="btn btn-sm" onclick="saAddAdmin('${o.id}','${(o.name||'').replace(/'/g,"&#39;")}')">+ User</button>
+          <button class="btn btn-sm" onclick="saToggleOrg('${o.id}',${o.active!==false})">${o.active!==false?'Suspend':'Reactivate'}</button>
+        </td>
+      </tr>`).join('');
+    root.innerHTML=`
+      <div class="g4" style="margin-bottom:10px">
+        <div class="card" style="text-align:center"><div style="font-size:22px;font-weight:600;color:var(--navy)">${stats.total_orgs-1>=0?stats.total_orgs-1:stats.total_orgs}</div><div style="font-size:10px;color:var(--muted)">Organisations</div></div>
+        <div class="card" style="text-align:center"><div style="font-size:22px;font-weight:600;color:var(--navy)">${stats.total_users||0}</div><div style="font-size:10px;color:var(--muted)">Total users</div></div>
+        <div class="card" style="text-align:center"><div style="font-size:22px;font-weight:600;color:var(--navy)">${stats.total_trainers||0}</div><div style="font-size:10px;color:var(--muted)">Trainers</div></div>
+        <div class="card" style="text-align:center"><div style="font-size:22px;font-weight:600;color:var(--navy)">${stats.total_assessments||0}</div><div style="font-size:10px;color:var(--muted)">Assessments</div></div>
+      </div>
+      <div class="card">
+        <div class="ctitle">All organisations (RTOs)</div>
+        <div style="overflow-x:auto"><table class="tbl">
+          <thead><tr><th>Organisation</th><th>Admin(s)</th><th style="text-align:center">Users</th><th style="text-align:center">Trainers</th><th style="text-align:center">Assessments</th><th>Status</th><th></th></tr></thead>
+          <tbody>${rows||'<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:20px">No organisations yet — create one below</td></tr>'}</tbody>
+        </table></div>
+      </div>
+      <div class="card">
+        <div class="ctitle">Create a new RTO</div>
+        <div class="csub">This creates the organisation and its first Administration &amp; Compliance admin in one step. Send the admin their login securely.</div>
+        <div class="g2">
+          <div class="fr"><label class="fl">Organisation / RTO name</label><input id="no-name" type="text" placeholder="Greenhills Training Group"></div>
+          <div class="fr"><label class="fl">RTO code</label><input id="no-rto" type="text" placeholder="12345"></div>
+        </div>
+        <div class="g2">
+          <div class="fr"><label class="fl">First admin — full name</label><input id="no-aname" type="text" placeholder="Jane Smith"></div>
+          <div class="fr"><label class="fl">First admin — email</label><input id="no-aemail" type="email" placeholder="jane@greenhills.edu.au"></div>
+        </div>
+        <div class="fr"><label class="fl">First admin — initial password (≥ 8 chars)</label><input id="no-apw" type="text" placeholder="ChangeMe123!"></div>
+        <button class="btn btn-p" id="no-create">Create organisation</button>
+        <div id="no-msg" style="font-size:11px;margin-top:8px"></div>
+      </div>`;
+    document.getElementById('no-create').addEventListener('click', async ()=>{
+      const msg=document.getElementById('no-msg'); msg.textContent=''; msg.style.color='';
+      const body={
+        org_name:       document.getElementById('no-name').value.trim(),
+        rto_code:       document.getElementById('no-rto').value.trim(),
+        admin_name:     document.getElementById('no-aname').value.trim(),
+        admin_email:    document.getElementById('no-aemail').value.trim(),
+        admin_password: document.getElementById('no-apw').value
+      };
+      if(!body.org_name||!body.admin_email||!body.admin_password||!body.admin_name){
+        msg.style.color='#991B1B'; msg.textContent='Org name, admin name, email and password are all required.'; return;
+      }
+      try{
+        await apiPost('/superadmin/orgs', body);
+        msg.style.color='#166534'; msg.textContent='Organisation created. Share the admin login securely.';
+        setTimeout(()=>renderOrgs(root), 800);
+      }catch(e){
+        msg.style.color='#991B1B'; msg.textContent='Error: '+e.message;
+      }
+    });
+  }catch(e){
+    root.innerHTML=`<div class="card"><div class="ctitle">Error</div><div class="csub">${e.message}</div></div>`;
+  }
+}
+async function saToggleOrg(id, currentlyActive){
+  const verb = currentlyActive ? 'suspend' : 'reactivate';
+  if(!confirm(`Are you sure you want to ${verb} this organisation?`)) return;
+  try{
+    await apiPatch(`/superadmin/orgs/${id}/active`, {active: !currentlyActive});
+    renderOrgs(document.getElementById('root'));
+  }catch(e){ alert('Failed: '+e.message); }
+}
+async function saAddAdmin(id, name){
+  const email = prompt(`New user email for ${name}:`);
+  if(!email) return;
+  const uname = prompt('Full name:');
+  if(!uname) return;
+  const role = prompt('Role (admin or trainer):', 'admin');
+  if(role!=='admin' && role!=='trainer'){ alert('Role must be admin or trainer'); return; }
+  const pw = prompt('Initial password (≥ 8 chars):');
+  if(!pw || pw.length<8){ alert('Password must be at least 8 characters'); return; }
+  try{
+    await apiPost(`/superadmin/orgs/${id}/admins`, {email, name:uname, role, password:pw});
+    alert('User created.');
+    renderOrgs(document.getElementById('root'));
+  }catch(e){ alert('Failed: '+e.message); }
+}
+
+// ── Admin: User management ────────────────────────────────────────────────────
+async function renderUsers(root){
+  if(!ME || ME.role!=='admin'){
+    root.innerHTML='<div class="card"><div class="ctitle">Access denied</div><div class="csub">Only Administration &amp; Compliance users can manage users.</div></div>';
+    return;
+  }
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading users…</div></div>';
+  try{
+    const d = await apiGet('/org/users');
+    const rows = (d.users||[]).map(u=>`
+      <tr>
+        <td><strong>${u.name||'(no name)'}</strong><div style="font-size:10px;color:var(--muted)">${u.email}</div></td>
+        <td><span class="chip ${u.role==='admin'?'chip-n':'chip-b'}">${u.role==='admin'?'Admin &amp; Compliance':'Trainer'}</span></td>
+        <td>${u.active!==false?'<span class="chip chip-g">Active</span>':'<span class="chip chip-r">Disabled</span>'}</td>
+        <td style="font-size:10px;color:var(--muted)">${u.last_login?new Date(u.last_login).toLocaleString():'never'}</td>
+        <td style="text-align:right">
+          <button class="btn btn-sm" onclick="editUser('${u.id}','${(u.name||'').replace(/'/g,"&#39;")}','${u.role}',${u.active!==false})">Edit</button>
+          ${u.id===ME.id?'':`<button class="btn btn-sm" style="color:#991B1B" onclick="deleteUser('${u.id}','${(u.email||'').replace(/'/g,"&#39;")}')">Remove</button>`}
+        </td>
+      </tr>`).join('');
+    root.innerHTML=`
+      <div class="card">
+        <div class="ctitle">Users — ${ORG?.name||'your organisation'}</div>
+        <div class="csub">Administration &amp; Compliance can manage all users. Trainers can only see and work on their own assessments.</div>
+        <div style="overflow-x:auto"><table class="tbl">
+          <thead><tr><th>Person</th><th>Role</th><th>Status</th><th>Last login</th><th></th></tr></thead>
+          <tbody>${rows||'<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:20px">No users yet</td></tr>'}</tbody>
+        </table></div>
+      </div>
+      <div class="card">
+        <div class="ctitle">Add a user</div>
+        <div class="g2">
+          <div class="fr"><label class="fl">Full name</label><input id="nu-name" type="text" placeholder="Jane Smith"></div>
+          <div class="fr"><label class="fl">Email</label><input id="nu-email" type="email" placeholder="jane@your-org.com.au"></div>
+        </div>
+        <div class="g2">
+          <div class="fr"><label class="fl">Role</label>
+            <select id="nu-role">
+              <option value="trainer">Trainer (user level)</option>
+              <option value="admin">Administration &amp; Compliance (admin level)</option>
+            </select>
+          </div>
+          <div class="fr"><label class="fl">Initial password (≥ 8 chars)</label><input id="nu-pw" type="text" placeholder="ChangeMe123!"></div>
+        </div>
+        <button class="btn btn-p" id="nu-create">Create user</button>
+        <div id="nu-msg" style="font-size:11px;margin-top:8px"></div>
+      </div>`;
+    document.getElementById('nu-create').addEventListener('click', async ()=>{
+      const msg = document.getElementById('nu-msg');
+      msg.textContent=''; msg.style.color='';
+      const body = {
+        name:  document.getElementById('nu-name').value.trim(),
+        email: document.getElementById('nu-email').value.trim(),
+        role:  document.getElementById('nu-role').value,
+        password: document.getElementById('nu-pw').value
+      };
+      if(!body.name||!body.email||!body.password){
+        msg.style.color='#991B1B'; msg.textContent='All fields required.'; return;
+      }
+      try{
+        await apiPost('/org/users', body);
+        msg.style.color='#166534'; msg.textContent='User created. Share their password securely.';
+        setTimeout(()=>renderUsers(root), 800);
+      }catch(e){
+        msg.style.color='#991B1B'; msg.textContent='Error: '+e.message;
+      }
+    });
+  }catch(e){
+    root.innerHTML=`<div class="card"><div class="ctitle">Error</div><div class="csub">${e.message}</div></div>`;
+  }
+}
+async function editUser(id, name, role, active){
+  const newName = prompt('Name:', name);
+  if(newName===null) return;
+  const newRole = prompt('Role (admin or trainer):', role);
+  if(newRole===null) return;
+  if(newRole!=='admin' && newRole!=='trainer'){ alert('Role must be admin or trainer'); return; }
+  const newActive = confirm('Account active? (OK = active, Cancel = disabled)');
+  try{
+    await apiPatch('/org/users/'+id, {name:newName, role:newRole, active:newActive});
+    renderUsers(document.getElementById('root'));
+  }catch(e){ alert('Update failed: '+e.message); }
+}
+async function deleteUser(id, email){
+  if(!confirm('Remove user '+email+'? This cannot be undone.')) return;
+  try{
+    await apiDelete('/org/users/'+id);
+    renderUsers(document.getElementById('root'));
+  }catch(e){ alert('Delete failed: '+e.message); }
+}
+
+// ── My account ────────────────────────────────────────────────────────────────
+async function renderAccount(root){
+  root.innerHTML=`
+    <div class="card">
+      <div class="ctitle">My account</div>
+      <div class="csub">${ME?.name||''} · ${ME?.email||''}</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:6px">Role: <span class="chip ${ME?.role==='admin'?'chip-n':'chip-b'}">${ME?.role==='admin'?'Administration &amp; Compliance':'Trainer'}</span></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Organisation: ${ORG?.name||''} ${ORG?.rto_code?'· RTO '+ORG.rto_code:''}</div>
+    </div>
+    <div class="card">
+      <div class="ctitle">Change password</div>
+      <div class="g2">
+        <div class="fr"><label class="fl">Current password</label><input id="pw-current" type="password"></div>
+        <div class="fr"><label class="fl">New password (≥ 8 chars)</label><input id="pw-new" type="password"></div>
+      </div>
+      <button class="btn btn-p" id="pw-submit">Change password</button>
+      <div id="pw-msg" style="font-size:11px;margin-top:8px"></div>
+    </div>`;
+  document.getElementById('pw-submit').addEventListener('click', async ()=>{
+    const m = document.getElementById('pw-msg');
+    const cur = document.getElementById('pw-current').value;
+    const nw  = document.getElementById('pw-new').value;
+    if(!cur || nw.length < 8){
+      m.style.color='#991B1B';
+      m.textContent='Enter current password and a new password of 8+ characters.';
+      return;
+    }
+    try{
+      await apiPost('/auth/change-password', {current_password:cur, new_password:nw});
+      m.style.color='#166534'; m.textContent='Password updated.';
+      document.getElementById('pw-current').value='';
+      document.getElementById('pw-new').value='';
+    }catch(e){
+      m.style.color='#991B1B'; m.textContent='Error: '+e.message;
+    }
+  });
+}
+
+// ── Login flow ────────────────────────────────────────────────────────────────
+function forceLogin(){
+  clearSession();
+  document.getElementById('login-overlay').style.display='flex';
+}
+function hideLogin(){ document.getElementById('login-overlay').style.display='none'; }
+
+function applyUserToUI(){
+  if(!ME||!ORG) return;
+  document.getElementById('sb-org-name').textContent = ORG.name || 'Your RTO';
+  document.getElementById('sb-org-rto').textContent =
+    (ORG.rto_code?('RTO '+ORG.rto_code+' · '):'')+'Trainer Portal';
+  document.getElementById('sb-mark').textContent =
+    (ORG.name||'RPL').split(/\s+/).map(w=>w[0]||'').join('').slice(0,3).toUpperCase();
+  document.getElementById('user-name').textContent = ME.name || ME.email;
+  const chip = document.getElementById('user-role-chip');
+  const roleLabel = ME.role==='superadmin' ? 'Super Admin'
+                  : ME.role==='admin' ? 'Admin & Compliance' : 'Trainer';
+  chip.textContent = roleLabel;
+  chip.className = 'chip '+(ME.role==='superadmin'?'chip-a':ME.role==='admin'?'chip-n':'chip-b');
+  // Show/hide role-gated items
+  const isAdmin = (ME.role==='admin' || ME.role==='superadmin');
+  document.querySelectorAll('.admin-only').forEach(el=>{ el.style.display = isAdmin ? '' : 'none'; });
+  document.querySelectorAll('.super-only').forEach(el=>{ el.style.display = (ME.role==='superadmin') ? '' : 'none'; });
+}
+
+async function doLogin(){
+  const err = document.getElementById('login-error');
+  err.style.display='none';
+  const email = document.getElementById('login-email').value.trim();
+  const pw    = document.getElementById('login-pw').value;
+  if(!email||!pw){ err.textContent='Enter email and password.'; err.style.display='block'; return; }
+  try{
+    const r = await fetch(API+'/auth/login',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email, password:pw})
+    });
+    if(!r.ok){
+      const e = await r.json().catch(()=>({}));
+      err.textContent = e.detail||'Sign in failed';
+      err.style.display='block'; return;
+    }
+    const d = await r.json();
+    setSession(d.token, d.user, d.org);
+    applyUserToUI();
+    hideLogin();
+    nav(ME.role==='superadmin' ? 'orgs' : 'dashboard');
+  }catch(e){
+    err.textContent='Network error: '+e.message;
+    err.style.display='block';
+  }
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  // Wire login form
+  document.getElementById('login-submit').addEventListener('click', doLogin);
+  document.getElementById('login-pw').addEventListener('keydown', e=>{
+    if(e.key==='Enter') doLogin();
+  });
+  document.getElementById('login-email').addEventListener('keydown', e=>{
+    if(e.key==='Enter') document.getElementById('login-pw').focus();
+  });
+  // Logout button
+  document.getElementById('logout-btn').addEventListener('click',()=>{
+    clearSession();
+    forceLogin();
+  });
+  // Sidebar nav
+  document.querySelectorAll('[data-nav]').forEach(btn=>{
+    btn.addEventListener('click', function(){ nav(this.dataset.nav); });
+  });
+  // Restore session if we have a valid token, else show login
+  if(restoreSession()){
+    applyUserToUI();
+    hideLogin();
+    // Verify token still valid by hitting /me
+    apiGet('/auth/me').then(d=>{
+      ME = d.user; ORG = d.org;
+      sessionStorage.setItem('rpl_user', JSON.stringify(ME));
+      sessionStorage.setItem('rpl_org',  JSON.stringify(ORG));
+      applyUserToUI();
+      nav(ME.role==='superadmin' ? 'orgs' : 'dashboard');
+    }).catch(()=>{ forceLogin(); });
+  } else {
+    forceLogin();
+  }
+});
+</script>
+</body>
+</html>

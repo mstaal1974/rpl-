@@ -1,0 +1,191 @@
+{
+  "code": "AMPA3117",
+  "title": "Oversee product loadout",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Oversee product loadout demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify and check products to be loaded",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify and check products to be loaded"
+    },
+    {
+      "id": "E2",
+      "title": "Monitor loadout process",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Monitor loadout process"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify and check products to be loaded",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 check temperature records to ensure that product meets workplace and customer requirements1.3 check brands or labels against order1.4 ensure packaging is intact1.5 ensure re-packs meet company and regulatory requirements1.6 check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 take corrective action where necessary?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that identified product has been ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 check temperature records to ensure that product meets workplace and customer requirements1.3 check brands or labels against order1.4 ensure packaging is intact1.5 ensure re-packs meet company and regulatory requirements1.6 check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 take corrective action where necessary",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary?",
+      "practical_task_interpretation": "In practice this requires the worker to check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 check temperature records to ensure that product meets workplace and customer requirements1.3 check brands or labels against order1.4 ensure packaging is intact1.5 ensure re-packs meet company and regulatory requirements1.6 check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 take corrective action where necessary",
+      "knowledge_focus": [
+        "Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary"
+      ],
+      "workplace_context_examples": [
+        "Identify and check products to be loaded"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 check temperature records to ensure that product meets workplace and customer requirements1.3 check brands or labels against order1.4 ensure packaging is intact1.5 ensure re-packs meet company and regulatory requirements1.6 check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 take corrective action where necessary"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 check temperature records to ensure that product meets workplace and customer requirements1.3 check brands or labels against order1.4 ensure packaging is intact1.5 ensure re-packs meet company and regulatory requirements1.6 check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 take corrective action where necessary"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that identified product has been correctly selected, is complete, and meets workplace requirements and customer specifications1.2 Check temperature records to ensure that product meets workplace and customer requirements1.3 Check brands or labels against order1.4 Ensure packaging is intact1.5 Ensure re-packs meet company and regulatory requirements1.6 Check that loadout area and equipment meet workplace health and safety and regulatory requirements1.7 Check that transportation vehicle or container meets hygiene and sanitation, workplace health and safety and regulatory requirements1.8 Take corrective action where necessary."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Monitor loadout process",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to ensure required temperatures are maintained2.2 ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 check loadout documentation for accuracy and completeness2.4 identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 ensure loadout area is kept clean and tidy and clear of obstructions2.7 provide advice and support to team members where necessary?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure required temperatures are mainta",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure required temperatures are maintained2.2 ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 check loadout documentation for accuracy and completeness2.4 identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 ensure loadout area is kept clean and tidy and clear of obstructions2.7 provide advice and support to team members where necessary",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure required temperatures are maintained2.2 ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 check loadout documentation for accuracy and completeness2.4 identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 ensure loadout area is kept clean and tidy and clear of obstructions2.7 provide advice and support to team members where necessary",
+      "knowledge_focus": [
+        "Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary"
+      ],
+      "workplace_context_examples": [
+        "Monitor loadout process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure required temperatures are maintained2.2 ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 check loadout documentation for accuracy and completeness2.4 identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 ensure loadout area is kept clean and tidy and clear of obstructions2.7 provide advice and support to team members where necessary"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure required temperatures are maintained2.2 ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 check loadout documentation for accuracy and completeness2.4 identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 ensure loadout area is kept clean and tidy and clear of obstructions2.7 provide advice and support to team members where necessary"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure required temperatures are maintained2.2 Ensure product is loaded according to workplace health and safety, workplace and regulatory requirements2.3 Check loadout documentation for accuracy and completeness2.4 Identify and resolve problems to ensure safe and efficient loadout processes are in place and followed2.5 Meet security requirements for products (e.g. seals on trucks and containers) in accordance with regulatory requirements2.6 Ensure loadout area is kept clean and tidy and clear of obstructions2.7 Provide advice and support to team members where necessary."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.916646+00:00"
+}

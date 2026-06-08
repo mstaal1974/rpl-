@@ -1,0 +1,191 @@
+{
+  "code": "AMPX309",
+  "title": "Identify and repair equipment faults",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify and repair equipment faults demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Locate equipment faults",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Locate equipment faults"
+    },
+    {
+      "id": "E2",
+      "title": "Repair and/or replace faulty equipment components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system?",
+          "benchmark_statement": "The candidate demonstrates that they can Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Repair and/or replace faulty equipment components"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Locate equipment faults",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to monitor unit or sub-system performance to identify presence of actual and potential faults1.2 monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 detect equipment faults using established fault diagnoses techniques and procedures1.4 record and/or report faults according to standard procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor unit or sub-system performance ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor unit or sub-system performance to identify presence of actual and potential faults1.2 monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 detect equipment faults using established fault diagnoses techniques and procedures1.4 record and/or report faults according to standard procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor unit or sub-system performance to identify presence of actual and potential faults1.2 monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 detect equipment faults using established fault diagnoses techniques and procedures1.4 record and/or report faults according to standard procedures",
+      "knowledge_focus": [
+        "Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures"
+      ],
+      "workplace_context_examples": [
+        "Locate equipment faults"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor unit or sub-system performance to identify presence of actual and potential faults1.2 monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 detect equipment faults using established fault diagnoses techniques and procedures1.4 record and/or report faults according to standard procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor unit or sub-system performance to identify presence of actual and potential faults1.2 monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 detect equipment faults using established fault diagnoses techniques and procedures1.4 record and/or report faults according to standard procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor unit or sub-system performance to identify presence of actual and potential faults1.2 Monitor built in test functions, fault indicators, alarms and error codes and check and review appropriate maintenance records1.3 Detect equipment faults using established fault diagnoses techniques and procedures1.4 Record and/or report faults according to standard procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Repair and/or replace faulty equipment components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to isolate equipment according to standard procedures in preparation for component repair or replacement2.2 remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 use tools according to manufacturer's specifications to achieve desired outcomes2.6 dispose of waste arising from maintenance according to waste management requirements2.7 record maintenance information in the company reporting system?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Isolate equipment according to standard",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to isolate equipment according to standard procedures in preparation for component repair or replacement2.2 remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 use tools according to manufacturer's specifications to achieve desired outcomes2.6 dispose of waste arising from maintenance according to waste management requirements2.7 record maintenance information in the company reporting system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system?",
+      "practical_task_interpretation": "In practice this requires the worker to isolate equipment according to standard procedures in preparation for component repair or replacement2.2 remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 use tools according to manufacturer's specifications to achieve desired outcomes2.6 dispose of waste arising from maintenance according to waste management requirements2.7 record maintenance information in the company reporting system",
+      "knowledge_focus": [
+        "Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system"
+      ],
+      "workplace_context_examples": [
+        "Repair and/or replace faulty equipment components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of isolate equipment according to standard procedures in preparation for component repair or replacement2.2 remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 use tools according to manufacturer's specifications to achieve desired outcomes2.6 dispose of waste arising from maintenance according to waste management requirements2.7 record maintenance information in the company reporting system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of isolate equipment according to standard procedures in preparation for component repair or replacement2.2 remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 use tools according to manufacturer's specifications to achieve desired outcomes2.6 dispose of waste arising from maintenance according to waste management requirements2.7 record maintenance information in the company reporting system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Isolate equipment according to standard procedures in preparation for component repair or replacement2.2 Remove faulty components using appropriate tools and techniques in accordance with standard procedures2.3 Repair and/or replace faulty components in accordance with manufacturer's specifications and standard procedures2.4 Check and test unit, sub-system or system to confirm that maintenance has been completed to specifications2.5 Use tools according to manufacturer's specifications to achieve desired outcomes2.6 Dispose of waste arising from maintenance according to waste management requirements2.7 Record maintenance information in the company reporting system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.404825+00:00"
+}

@@ -1,0 +1,478 @@
+{
+  "code": "AMPX305",
+  "title": "Smoke product",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Smoke product demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Select meat",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Select meat"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare ingredients and equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare ingredients and equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Load products",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times?",
+          "benchmark_statement": "The candidate demonstrates that they can Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Load products"
+    },
+    {
+      "id": "E4",
+      "title": "Smoke product",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Smoke product"
+    },
+    {
+      "id": "E5",
+      "title": "Monitor smoke cycle",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Monitor smoke cycle"
+    },
+    {
+      "id": "E6",
+      "title": "Chill products",
+      "pcs": [
+        {
+          "id": "6.1",
+          "text": "On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E6: Chill products"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Select meat",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select meat according to product specifications1.2 prepare meat according to product specifications, where part of the work instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select meat according to product specif",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select meat according to product specifications1.2 prepare meat according to product specifications, where part of the work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to select meat according to product specifications1.2 prepare meat according to product specifications, where part of the work instructions",
+      "knowledge_focus": [
+        "Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions"
+      ],
+      "workplace_context_examples": [
+        "Select meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select meat according to product specifications1.2 prepare meat according to product specifications, where part of the work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select meat according to product specifications1.2 prepare meat according to product specifications, where part of the work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select meat according to product specifications1.2 Prepare meat according to product specifications, where part of the work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare ingredients and equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to prepare ingredients according to product specifications and workplace requirements2.2 prepare machinery and equipment according to product and manufacturer's specifications, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare ingredients according to produc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare ingredients according to product specifications and workplace requirements2.2 prepare machinery and equipment according to product and manufacturer's specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare ingredients according to product specifications and workplace requirements2.2 prepare machinery and equipment according to product and manufacturer's specifications",
+      "knowledge_focus": [
+        "Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications"
+      ],
+      "workplace_context_examples": [
+        "Prepare ingredients and equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare ingredients according to product specifications and workplace requirements2.2 prepare machinery and equipment according to product and manufacturer's specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare ingredients according to product specifications and workplace requirements2.2 prepare machinery and equipment according to product and manufacturer's specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare ingredients according to product specifications and workplace requirements2.2 Prepare machinery and equipment according to product and manufacturer's specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Load products",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to check products to ensure correct spacing prior to loading3.2 load products in a manner that ensures even cooking3.3 handle products according to workplace health and safety, hygiene and sanitation requirements at all times?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check products to ensure correct spacin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check products to ensure correct spacing prior to loading3.2 load products in a manner that ensures even cooking3.3 handle products according to workplace health and safety, hygiene and sanitation requirements at all times",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times?",
+      "practical_task_interpretation": "In practice this requires the worker to check products to ensure correct spacing prior to loading3.2 load products in a manner that ensures even cooking3.3 handle products according to workplace health and safety, hygiene and sanitation requirements at all times",
+      "knowledge_focus": [
+        "Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times"
+      ],
+      "workplace_context_examples": [
+        "Load products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check products to ensure correct spacing prior to loading3.2 load products in a manner that ensures even cooking3.3 handle products according to workplace health and safety, hygiene and sanitation requirements at all times"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check products to ensure correct spacing prior to loading3.2 load products in a manner that ensures even cooking3.3 handle products according to workplace health and safety, hygiene and sanitation requirements at all times"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check products to ensure correct spacing prior to loading3.2 Load products in a manner that ensures even cooking3.3 Handle products according to workplace health and safety, hygiene and sanitation requirements at all times."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Smoke product",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 monitor and record process according to workplace requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Insert core temperature probes into pro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 monitor and record process according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 monitor and record process according to workplace requirements",
+      "knowledge_focus": [
+        "Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Smoke product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 monitor and record process according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 monitor and record process according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Insert core temperature probes into product centre appropriately and in accordance with product specifications and workplace requirements4.2 Program machinery, where applicable, in accordance with manufacturer's and product specifications4.3 Smoke a variety of products to workplace requirements and customer specifications at a speed similar to production requirements4.4 Monitor and record process according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E5: Monitor smoke cycle",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What checks would you perform to regularly monitor smoke cycle, note results and correct deviations from the program5.2 manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 when product type and processing procedures require, initiate a shower cycle according to process specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Regularly monitor smoke cycle, note res",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to regularly monitor smoke cycle, note results and correct deviations from the program5.2 manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 when product type and processing procedures require, initiate a shower cycle according to process specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to regularly monitor smoke cycle, note results and correct deviations from the program5.2 manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 when product type and processing procedures require, initiate a shower cycle according to process specifications",
+      "knowledge_focus": [
+        "Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications"
+      ],
+      "workplace_context_examples": [
+        "Monitor smoke cycle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of regularly monitor smoke cycle, note results and correct deviations from the program5.2 manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 when product type and processing procedures require, initiate a shower cycle according to process specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of regularly monitor smoke cycle, note results and correct deviations from the program5.2 manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 when product type and processing procedures require, initiate a shower cycle according to process specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Regularly monitor smoke cycle, note results and correct deviations from the program5.2 Manually check internal temperature in accordance with workplace requirements to ensure correct smoke time has been achieved and undertake further cooking if necessary5.3 When product type and processing procedures require, initiate a shower cycle according to process specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E6: Chill products",
+      "pc_refs": [
+        "6.1"
+      ],
+      "pc_id": "6.1",
+      "text": "What factors would you consider when you need to on completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 keep products at a specific and constant temperature according to product specifications6.3 store products according to product specifications6.4 identify and stack products according to product specifications and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can On completion of smoke cycle, correctly",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to on completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 keep products at a specific and constant temperature according to product specifications6.3 store products according to product specifications6.4 identify and stack products according to product specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 6.1",
+      "benchmark_statement": "The candidate demonstrates that they can On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to on completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 keep products at a specific and constant temperature according to product specifications6.3 store products according to product specifications6.4 identify and stack products according to product specifications and workplace requirements",
+      "knowledge_focus": [
+        "On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Chill products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of on completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 keep products at a specific and constant temperature according to product specifications6.3 store products according to product specifications6.4 identify and stack products according to product specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of on completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 keep products at a specific and constant temperature according to product specifications6.3 store products according to product specifications6.4 identify and stack products according to product specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can On completion of smoke cycle, correctly weigh product and either chill immediately or cool at ambient temperature to a specified internal temperature before chilling, according to regulatory requirements6.2 Keep products at a specific and constant temperature according to product specifications6.3 Store products according to product specifications6.4 Identify and stack products according to product specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.403896+00:00"
+}

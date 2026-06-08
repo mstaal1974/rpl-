@@ -1,0 +1,929 @@
+{
+  "code": "AHCBEK409",
+  "title": "Rear queen bees",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Rear queen bees demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Establish breeding stock and obtain requirements for queen bee rearing",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Select and obtain queen bee breeding stock according to breeding program",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and obtain queen bee breeding stock according to breeding program?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and obtain queen bee breeding stock according to breeding program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify health and safety hazards, risks and implement controls according to workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards, risks and implement controls according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards, risks and implement controls according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Select, fit and use personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit and use personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Select, fit and use personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Select and safely use tools and equipment required to rear queen bees",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and safely use tools and equipment required to rear queen bees?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and safely use tools and equipment required to rear queen bees.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Confirm site quarantine and other biosecurity protocols and ensure that they are followed",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm site quarantine and other biosecurity protocols and ensure that they are followed?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm site quarantine and other biosecurity protocols and ensure that they are followed.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Establish breeding stock and obtain requirements for queen bee rearing"
+    },
+    {
+      "id": "E2",
+      "title": "Assess condition of colonies and nurse bees and prepare queen cups with larvae",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Select larvae from the breeder queen bee cells for grafting according to specification",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select larvae from the breeder queen bee cells for grafting according to specification?",
+          "benchmark_statement": "The candidate demonstrates that they can Select larvae from the breeder queen bee cells for grafting according to specification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Select and prepare queen cups according to workplace procedures and production method",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and prepare queen cups according to workplace procedures and production method?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and prepare queen cups according to workplace procedures and production method.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Transfer larvae from worker cells into queen cell cups according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transfer larvae from worker cells into queen cell cups according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Transfer larvae from worker cells into queen cell cups according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Ensure an adequate number of nurse bees are present in cell raising colonies",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure an adequate number of nurse bees are present in cell raising colonies?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure an adequate number of nurse bees are present in cell raising colonies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Assess condition of colonies and nurse bees and prepare queen cups with larvae"
+    },
+    {
+      "id": "E3",
+      "title": "Establish and monitor the queen mating process",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Transfer ripe queen cells into the nucleus after grafting according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transfer ripe queen cells into the nucleus after grafting according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Transfer ripe queen cells into the nucleus after grafting according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Provide drones during mating period according to workplace standards and specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide drones during mating period according to workplace standards and specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide drones during mating period according to workplace standards and specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Monitor and maintain hives in a healthy pest and disease free condition",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor and maintain hives in a healthy pest and disease free condition?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor and maintain hives in a healthy pest and disease free condition.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Maintain records of grafting and queen rearing activities according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain records of grafting and queen rearing activities according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain records of grafting and queen rearing activities according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Establish and monitor the queen mating process"
+    },
+    {
+      "id": "E4",
+      "title": "Package queen bees for transport",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Select type of queen cage suitable for transport according to workplace procedures and method of production",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select type of queen cage suitable for transport according to workplace procedures and method of production?",
+          "benchmark_statement": "The candidate demonstrates that they can Select type of queen cage suitable for transport according to workplace procedures and method of production.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Ensure queen cage is stocked with food and secured for transport",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure queen cage is stocked with food and secured for transport?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure queen cage is stocked with food and secured for transport.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Prepare package with queen bee cage and contents according to transport method and according to workplace and transport company procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare package with queen bee cage and contents according to transport method and according to workplace and transport company procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare package with queen bee cage and contents according to transport method and according to workplace and transport company procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Package queen bees for transport"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Establish breeding stock and obtain requirements for queen bee rearing",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What criteria determine how to select and obtain queen bee breeding stock according to breeding program?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and obtain queen bee breeding st",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and obtain queen bee breeding stock according to breeding program",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select and obtain queen bee breeding stock according to breeding program.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and obtain queen bee breeding stock according to breeding program?",
+      "practical_task_interpretation": "In practice this requires the worker to select and obtain queen bee breeding stock according to breeding program",
+      "knowledge_focus": [
+        "Select and obtain queen bee breeding stock according to breeding program"
+      ],
+      "workplace_context_examples": [
+        "Establish breeding stock and obtain requirements for queen bee rearing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and obtain queen bee breeding stock according to breeding program"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and obtain queen bee breeding stock according to breeding program"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and obtain queen bee breeding stock according to breeding program."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Establish breeding stock and obtain requirements for queen bee rearing",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify health and safety hazards, risks and implement controls according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify health and safety hazards, ris",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify health and safety hazards, risks and implement controls according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify health and safety hazards, risks and implement controls according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify health and safety hazards, risks and implement controls according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify health and safety hazards, risks and implement controls according to workplace requirements",
+      "knowledge_focus": [
+        "Identify health and safety hazards, risks and implement controls according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Establish breeding stock and obtain requirements for queen bee rearing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify health and safety hazards, risks and implement controls according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify health and safety hazards, risks and implement controls according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify health and safety hazards, risks and implement controls according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Establish breeding stock and obtain requirements for queen bee rearing",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What criteria determine how to select, fit and use personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select, fit and use personal protective",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select, fit and use personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Select, fit and use personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select, fit and use personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to select, fit and use personal protective equipment",
+      "knowledge_focus": [
+        "Select, fit and use personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Establish breeding stock and obtain requirements for queen bee rearing"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select, fit and use personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select, fit and use personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select, fit and use personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Assess condition of colonies and nurse bees and prepare queen cups with larvae",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What would indicate that ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure hives and colonies used for quee",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition",
+      "knowledge_focus": [
+        "Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition"
+      ],
+      "workplace_context_examples": [
+        "Assess condition of colonies and nurse bees and prepare queen cups with larvae"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure hives and colonies used for queen bee and drone production are in a clean and healthy condition."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Assess condition of colonies and nurse bees and prepare queen cups with larvae",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What criteria determine how to select larvae from the breeder queen bee cells for grafting according to specification?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select larvae from the breeder queen be",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select larvae from the breeder queen bee cells for grafting according to specification",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Select larvae from the breeder queen bee cells for grafting according to specification.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select larvae from the breeder queen bee cells for grafting according to specification?",
+      "practical_task_interpretation": "In practice this requires the worker to select larvae from the breeder queen bee cells for grafting according to specification",
+      "knowledge_focus": [
+        "Select larvae from the breeder queen bee cells for grafting according to specification"
+      ],
+      "workplace_context_examples": [
+        "Assess condition of colonies and nurse bees and prepare queen cups with larvae"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select larvae from the breeder queen bee cells for grafting according to specification"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select larvae from the breeder queen bee cells for grafting according to specification"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select larvae from the breeder queen bee cells for grafting according to specification."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Assess condition of colonies and nurse bees and prepare queen cups with larvae",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What criteria determine how to select and prepare queen cups according to workplace procedures and production method?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and prepare queen cups according",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and prepare queen cups according to workplace procedures and production method",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Select and prepare queen cups according to workplace procedures and production method.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and prepare queen cups according to workplace procedures and production method?",
+      "practical_task_interpretation": "In practice this requires the worker to select and prepare queen cups according to workplace procedures and production method",
+      "knowledge_focus": [
+        "Select and prepare queen cups according to workplace procedures and production method"
+      ],
+      "workplace_context_examples": [
+        "Assess condition of colonies and nurse bees and prepare queen cups with larvae"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and prepare queen cups according to workplace procedures and production method"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and prepare queen cups according to workplace procedures and production method"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and prepare queen cups according to workplace procedures and production method."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Establish and monitor the queen mating process",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to transfer ripe queen cells into the nucleus after grafting according to workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Transfer ripe queen cells into the nucl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to transfer ripe queen cells into the nucleus after grafting according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Transfer ripe queen cells into the nucleus after grafting according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Transfer ripe queen cells into the nucleus after grafting according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to transfer ripe queen cells into the nucleus after grafting according to workplace procedures",
+      "knowledge_focus": [
+        "Transfer ripe queen cells into the nucleus after grafting according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Establish and monitor the queen mating process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of transfer ripe queen cells into the nucleus after grafting according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of transfer ripe queen cells into the nucleus after grafting according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Transfer ripe queen cells into the nucleus after grafting according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Establish and monitor the queen mating process",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to provide drones during mating period according to workplace standards and specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide drones during mating period acc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide drones during mating period according to workplace standards and specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Provide drones during mating period according to workplace standards and specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide drones during mating period according to workplace standards and specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to provide drones during mating period according to workplace standards and specifications",
+      "knowledge_focus": [
+        "Provide drones during mating period according to workplace standards and specifications"
+      ],
+      "workplace_context_examples": [
+        "Establish and monitor the queen mating process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide drones during mating period according to workplace standards and specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide drones during mating period according to workplace standards and specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide drones during mating period according to workplace standards and specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Establish and monitor the queen mating process",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What would indicate that monitor and maintain hives in a healthy pest and disease free condition is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor and maintain hives in a healthy",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor and maintain hives in a healthy pest and disease free condition",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor and maintain hives in a healthy pest and disease free condition.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor and maintain hives in a healthy pest and disease free condition?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor and maintain hives in a healthy pest and disease free condition",
+      "knowledge_focus": [
+        "Monitor and maintain hives in a healthy pest and disease free condition"
+      ],
+      "workplace_context_examples": [
+        "Establish and monitor the queen mating process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor and maintain hives in a healthy pest and disease free condition"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor and maintain hives in a healthy pest and disease free condition"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor and maintain hives in a healthy pest and disease free condition."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Package queen bees for transport",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What criteria determine how to select type of queen cage suitable for transport according to workplace procedures and method of production?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select type of queen cage suitable for ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select type of queen cage suitable for transport according to workplace procedures and method of production",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select type of queen cage suitable for transport according to workplace procedures and method of production.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select type of queen cage suitable for transport according to workplace procedures and method of production?",
+      "practical_task_interpretation": "In practice this requires the worker to select type of queen cage suitable for transport according to workplace procedures and method of production",
+      "knowledge_focus": [
+        "Select type of queen cage suitable for transport according to workplace procedures and method of production"
+      ],
+      "workplace_context_examples": [
+        "Package queen bees for transport"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select type of queen cage suitable for transport according to workplace procedures and method of production"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select type of queen cage suitable for transport according to workplace procedures and method of production"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select type of queen cage suitable for transport according to workplace procedures and method of production."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Package queen bees for transport",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Capture mated queen bee and transfer to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures",
+      "knowledge_focus": [
+        "Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Package queen bees for transport"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Capture mated queen bee and transfer to queen cage supported by young escort bees according to cage type and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Package queen bees for transport",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that ensure queen cage is stocked with food and secured for transport is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure queen cage is stocked with food ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure queen cage is stocked with food and secured for transport",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure queen cage is stocked with food and secured for transport.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure queen cage is stocked with food and secured for transport?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure queen cage is stocked with food and secured for transport",
+      "knowledge_focus": [
+        "Ensure queen cage is stocked with food and secured for transport"
+      ],
+      "workplace_context_examples": [
+        "Package queen bees for transport"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure queen cage is stocked with food and secured for transport"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure queen cage is stocked with food and secured for transport"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure queen cage is stocked with food and secured for transport."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.473150+00:00"
+}

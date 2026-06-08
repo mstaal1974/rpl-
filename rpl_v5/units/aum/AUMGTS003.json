@@ -1,0 +1,263 @@
+{
+  "code": "AUMGTS003",
+  "title": "Fabricate plugs",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Fabricate plugs demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan for fabrication",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan for fabrication"
+    },
+    {
+      "id": "E2",
+      "title": "Shape material for plug",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Shape material for plug"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan for fabrication",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to work order and job specifications are identified and job requirements and plug material are confirmed1.2 equipment for fabrication of plug is selected and checked for safe operation1.3 plug shape is established and plug dimensions are determined from job specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work order and job specifications are i",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work order and job specifications are identified and job requirements and plug material are confirmed1.2 equipment for fabrication of plug is selected and checked for safe operation1.3 plug shape is established and plug dimensions are determined from job specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to work order and job specifications are identified and job requirements and plug material are confirmed1.2 equipment for fabrication of plug is selected and checked for safe operation1.3 plug shape is established and plug dimensions are determined from job specifications",
+      "knowledge_focus": [
+        "Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications"
+      ],
+      "workplace_context_examples": [
+        "Plan for fabrication"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work order and job specifications are identified and job requirements and plug material are confirmed1.2 equipment for fabrication of plug is selected and checked for safe operation1.3 plug shape is established and plug dimensions are determined from job specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work order and job specifications are identified and job requirements and plug material are confirmed1.2 equipment for fabrication of plug is selected and checked for safe operation1.3 plug shape is established and plug dimensions are determined from job specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work order and job specifications are identified and job requirements and plug material are confirmed1.2 Equipment for fabrication of plug is selected and checked for safe operation1.3 Plug shape is established and plug dimensions are determined from job specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Shape material for plug",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to workplace procedures are identified and followed during the shaping activities2.2 plug templates and patterns are identified and produced from selected materials2.3 plug material is cut and prepared according to job specifications2.4 material surface is shaped using fabrication equipment2.5 plug dimensions are checked against template and job specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Workplace procedures are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to workplace procedures are identified and followed during the shaping activities2.2 plug templates and patterns are identified and produced from selected materials2.3 plug material is cut and prepared according to job specifications2.4 material surface is shaped using fabrication equipment2.5 plug dimensions are checked against template and job specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to workplace procedures are identified and followed during the shaping activities2.2 plug templates and patterns are identified and produced from selected materials2.3 plug material is cut and prepared according to job specifications2.4 material surface is shaped using fabrication equipment2.5 plug dimensions are checked against template and job specifications",
+      "knowledge_focus": [
+        "Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications"
+      ],
+      "workplace_context_examples": [
+        "Shape material for plug"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of workplace procedures are identified and followed during the shaping activities2.2 plug templates and patterns are identified and produced from selected materials2.3 plug material is cut and prepared according to job specifications2.4 material surface is shaped using fabrication equipment2.5 plug dimensions are checked against template and job specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of workplace procedures are identified and followed during the shaping activities2.2 plug templates and patterns are identified and produced from selected materials2.3 plug material is cut and prepared according to job specifications2.4 material surface is shaped using fabrication equipment2.5 plug dimensions are checked against template and job specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Workplace procedures are identified and followed during the shaping activities2.2 Plug templates and patterns are identified and produced from selected materials2.3 Plug material is cut and prepared according to job specifications2.4 Material surface is shaped using fabrication equipment2.5 Plug dimensions are checked against template and job specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to plug is finished according to workplace procedures and job requirements3.2 work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 waste material is collected and recycled or disposed of according to workplace procedures3.4 faulty equipment is identified, tagged and reported3.5 job sheets are completed and reported to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plug is finished according to workplace",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plug is finished according to workplace procedures and job requirements3.2 work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 waste material is collected and recycled or disposed of according to workplace procedures3.4 faulty equipment is identified, tagged and reported3.5 job sheets are completed and reported to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to plug is finished according to workplace procedures and job requirements3.2 work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 waste material is collected and recycled or disposed of according to workplace procedures3.4 faulty equipment is identified, tagged and reported3.5 job sheets are completed and reported to appropriate personnel",
+      "knowledge_focus": [
+        "Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plug is finished according to workplace procedures and job requirements3.2 work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 waste material is collected and recycled or disposed of according to workplace procedures3.4 faulty equipment is identified, tagged and reported3.5 job sheets are completed and reported to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plug is finished according to workplace procedures and job requirements3.2 work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 waste material is collected and recycled or disposed of according to workplace procedures3.4 faulty equipment is identified, tagged and reported3.5 job sheets are completed and reported to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plug is finished according to workplace procedures and job requirements3.2 Work area and equipment are cleaned, inspected and maintained according to workplace procedures3.3 Waste material is collected and recycled or disposed of according to workplace procedures3.4 Faulty equipment is identified, tagged and reported3.5 Job sheets are completed and reported to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.459501+00:00"
+}

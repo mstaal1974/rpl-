@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RPL Assessment — ABC Training</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#1F2060;--green:#4DB848;--gd:#3A8E35;--off:#F8F9FB;--border:#E4E7EC;--borders:#CBD5E1;--text:#111827;--muted:#6B7280;--faint:#9CA3AF;--mb:#F0FDF4;--mt:#166534;--ma:#22C55E;--pb:#FEFCE8;--pt:#92400E;--pa:#F59E0B;--rb:#FEF2F2;--rt:#991B1B;--ra:#EF4444;--r8:8px;--r12:12px;--sh:0 1px 3px rgba(0,0,0,.08)}
+html{font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:var(--off);-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer}
+input,textarea,select{font-family:inherit}
+.shell{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.sb{background:var(--navy);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sb-logo{padding:18px 16px 14px;border-bottom:1px solid rgba(255,255,255,.08)}
+.sb-mark{width:36px;height:36px;background:var(--green);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--navy);margin-bottom:8px}
+.sb-name{font-size:13px;font-weight:500;color:#fff}
+.sb-rto{font-size:10px;color:#9CA3AF;margin-top:1px}
+.sb-cand{margin:10px 10px 0;background:rgba(77,184,72,.12);border:1px solid rgba(77,184,72,.25);border-radius:8px;padding:8px 10px}
+.sb-cand-name{font-size:12px;font-weight:500;color:#fff}
+.sb-cand-unit{font-family:'DM Mono',monospace;font-size:10px;color:var(--green);margin-top:2px}
+.sb-sec{padding:14px 12px 4px;font-size:9px;font-weight:600;color:#4B5563;letter-spacing:.6px;text-transform:uppercase}
+.sb-item{display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:7px;margin:2px 6px;cursor:pointer;border:none;background:transparent;width:calc(100% - 12px);text-align:left;transition:background .12s}
+.sb-item:hover{background:rgba(255,255,255,.06)}
+.sb-item.active{background:rgba(77,184,72,.18)}
+.sb-ico{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;background:rgba(255,255,255,.06);flex-shrink:0;position:relative}
+.sb-item.active .sb-ico{background:var(--green);color:var(--navy)}
+.sb-ico.done::after{content:'✓';position:absolute;top:-3px;right:-3px;width:12px;height:12px;border-radius:50%;background:var(--green);color:#fff;font-size:8px;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:12px;text-align:center}
+.sb-lbl{font-size:12px;font-weight:500;color:#C9D1E9}
+.sb-item.active .sb-lbl{color:#fff}
+.sb-progress{margin:10px 10px 0;background:rgba(0,0,0,.2);border-radius:8px;padding:10px}
+.sb-prog-lbl{font-size:10px;color:#9CA3AF;margin-bottom:5px}
+.sb-prog-bar{height:5px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden}
+.sb-prog-fill{height:100%;background:var(--green);border-radius:3px;transition:width .4s}
+.sb-prog-pct{font-size:10px;color:var(--green);margin-top:3px}
+.sb-save{margin:8px 10px 0;font-size:10px;color:#6B7280;display:flex;align-items:center;gap:5px}
+.save-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s ease infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.sb-foot{margin-top:auto;padding:12px 14px;border-top:1px solid rgba(255,255,255,.06);font-size:10px;color:#4B5563}
+.main{display:flex;flex-direction:column}
+.topbar{height:50px;background:#fff;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 22px;position:sticky;top:0;z-index:10;flex-shrink:0}
+.topbar-title{font-size:13px;font-weight:500}
+.topbar-r{display:flex;align-items:center;gap:8px}
+.chip{font-size:10px;padding:2px 9px;border-radius:20px;font-weight:500}
+.chip-g{background:var(--mb);color:var(--mt)}
+.chip-n{background:var(--navy);color:#fff}
+.content{padding:20px;flex:1;overflow-y:auto}
+.card{background:#fff;border:1px solid var(--border);border-radius:var(--r12);padding:18px;margin-bottom:12px;box-shadow:var(--sh)}
+.ctitle{font-size:13px;font-weight:500;margin-bottom:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.csub{font-size:12px;color:var(--muted);margin-bottom:12px;line-height:1.65}
+.btn{padding:8px 16px;border-radius:8px;border:1px solid var(--border);background:#fff;font-size:12px;font-weight:500;color:var(--text);transition:all .12s;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.btn:hover{background:var(--off)}
+.btn-p{background:var(--navy);color:#fff;border-color:var(--navy)}.btn-p:hover{background:#161855}
+.btn-g{background:var(--green);color:#fff;border-color:var(--green)}.btn-g:hover{background:var(--gd)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.fl{display:block;font-size:10px;font-weight:600;color:var(--muted);margin-bottom:4px}
+input[type=text],input[type=email],textarea,select{width:100%;border:1px solid var(--border);border-radius:8px;padding:8px 11px;font-size:12px;color:var(--text);background:#fff}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--navy)}
+textarea{resize:vertical;line-height:1.6}
+.fr{margin-bottom:10px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.info-box{background:var(--off);border-left:3px solid var(--navy);border-radius:0 8px 8px 0;padding:9px 13px;font-size:11px;line-height:1.65;margin-bottom:12px}
+.hitl-box{background:var(--mb);border:0.5px solid #86EFAC;border-radius:8px;padding:10px 13px;font-size:11px;color:var(--mt);line-height:1.65;margin-bottom:12px}
+.pc-row{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;border:1px solid var(--border);margin-bottom:4px}
+.pcid{font-family:'DM Mono',monospace;font-size:9px;font-weight:500;color:var(--muted);min-width:28px}
+.pctxt{flex:1;font-size:11px;line-height:1.4}
+.fgrp{display:flex;gap:3px;flex-shrink:0}
+.fb{padding:3px 8px;border-radius:5px;border:1px solid var(--border);background:#fff;font-size:10px;font-weight:500;color:var(--muted);cursor:pointer}
+.fb.sf{background:var(--mb);border-color:var(--ma);color:var(--mt)}
+.fb.ss{background:var(--pb);border-color:var(--pa);color:var(--pt)}
+.fb.sn{background:var(--rb);border-color:var(--ra);color:var(--rt)}
+.el-hd{display:flex;align-items:center;gap:7px;padding:7px 10px;border-radius:7px;margin:12px 0 5px}
+.dz{border:1.5px dashed var(--borders);border-radius:8px;padding:20px;text-align:center;cursor:pointer;transition:all .13s;margin:8px 0 6px}
+.dz:hover{border-color:var(--navy);background:#F0F4FF}
+.dz.up{border-color:var(--green);background:var(--mb)}
+.spinner{width:12px;height:12px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+.unit-tab-row{display:flex;gap:3px;margin-bottom:14px;background:var(--off);border-radius:7px;padding:3px;border:1px solid var(--border)}
+.utb{flex:1;padding:6px;border:none;border-radius:5px;background:transparent;font-size:11px;font-weight:500;color:var(--muted);cursor:pointer;text-align:center;transition:all .13s}
+.utb.active{background:#fff;color:var(--text);border:1px solid var(--border)}
+.resume-banner{background:#EFF6FF;border:1.5px solid #93C5FD;border-radius:10px;padding:14px 16px;margin-bottom:12px;display:flex;align-items:center;gap:12px}
+.resume-icon{font-size:24px;flex-shrink:0}
+.submit-banner{background:var(--mb);border:1.5px solid var(--ma);border-radius:12px;padding:16px 18px;text-align:center;margin-top:16px}
+</style>
+</head>
+<body>
+<!-- Session warning banner -->
+<div id="session-warning" style="display:none;position:fixed;top:0;left:0;right:0;z-index:9999;background:#1F2060;color:#fff;padding:10px 20px;font-size:12px;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 2px 8px rgba(0,0,0,.3)">
+  <div style="display:flex;align-items:center;gap:8px">
+    <span style="font-size:16px">⏱</span>
+    <div><strong>Your session expires in 5 minutes</strong> — your progress is saved. Data will be cleared from this device for your privacy.</div>
+  </div>
+  <button onclick="resetSessionTimer();document.getElementById('session-warning').style.display='none';"
+    style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;font-size:11px;cursor:pointer;flex-shrink:0">
+    Keep me logged in
+  </button>
+</div>
+<div class="shell">
+<nav class="sb">
+  <div class="sb-logo">
+    <div class="sb-mark">ABC</div>
+    <div class="sb-name">ABC Training</div>
+    <div class="sb-rto">RTO #5800 · RPL Portal</div>
+  </div>
+  <div id="sb-cand-area"></div>
+  <div id="sb-prog-area"></div>
+  <div id="sb-nav" style="display:none">
+    <div class="sb-sec">Your RPL steps</div>
+    <button class="sb-item" onclick="go('welcome')" id="n-welcome"><div class="sb-ico" id="ico-welcome">◎</div><span class="sb-lbl">Welcome &amp; overview</span></button>
+    <button class="sb-item" onclick="go('checklist')" id="n-checklist"><div class="sb-ico" id="ico-checklist">☑</div><span class="sb-lbl">Self-assessment</span></button>
+    <button class="sb-item" onclick="go('resume')" id="n-resume"><div class="sb-ico" id="ico-resume">📄</div><span class="sb-lbl">Resume</span></button>
+    <button class="sb-item" onclick="go('position')" id="n-position"><div class="sb-ico" id="ico-position">📋</div><span class="sb-lbl">Position description</span></button>
+    <button class="sb-item" onclick="go('knowledge')" id="n-knowledge"><div class="sb-ico" id="ico-knowledge">💡</div><span class="sb-lbl">Knowledge questions</span></button>
+    <button class="sb-item" onclick="go('evidence')" id="n-evidence"><div class="sb-ico" id="ico-evidence">📁</div><span class="sb-lbl">Evidence guide</span></button>
+    <button class="sb-item" onclick="go('mapping')" id="n-mapping"><div class="sb-ico" id="ico-mapping">📊</div><span class="sb-lbl">My mapping results</span></button>
+  <button class="sb-item" onclick="go('conversation')" id="n-conversation"><div class="sb-ico" id="ico-conversation">🎙</div><span class="sb-lbl">Competency conversation</span></button>
+  <button class="sb-item" onclick="go('privacy')" id="n-privacy"><div class="sb-ico" id="ico-privacy">🔒</div><span class="sb-lbl">My data &amp; privacy</span></button>
+  <button class="sb-item" onclick="go('submit')" id="n-submit"><div class="sb-ico" id="ico-submit">✉</div><span class="sb-lbl">Submit RPL</span></button>
+  </div>
+  <div id="sb-save-area" style="display:none" class="sb-save"><div class="save-dot"></div><span>Auto-saving...</span></div>
+  <div class="sb-foot">Your progress is saved automatically</div>
+</nav>
+<div class="main">
+  <div class="topbar">
+    <div class="topbar-title" id="topbar-title">Loading your RPL...</div>
+    <div class="topbar-r">
+      <span class="chip chip-n">RPL in progress</span>
+      <div id="topbar-av" style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600">?</div>
+    </div>
+  </div>
+  <div class="content" id="root">
+    <div class="card" style="text-align:center;padding:40px">
+      <div style="font-size:32px;margin-bottom:12px">◎</div>
+      <div style="font-size:13px;font-weight:500;margin-bottom:6px">Loading your RPL assessment...</div>
+      <div style="font-size:11px;color:var(--muted)">Please wait while we retrieve your details.</div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+const API='/api';
+const TOKEN='__TOKEN__';
+
+// State — loaded from server, merged with local changes
+const S={
+  assessmentId:null, token:TOKEN,
+  candidate:{}, trainerName:'', notes:'',
+  unitCodes:[], units:[],
+  currentUnitIdx:0,
+  progress:{
+    current_step:'welcome',
+    completed_steps:[],
+    checklist:{},
+    knowledge_responses:{},
+    knowledge_analyses:{},
+    uploads:{},
+    candidate_notes:{},
+    mapping:null,
+  },
+  curQ:0, saveTimer:null
+};
+
+const ELC=[{bg:'#EAF3DE',txt:'#3B6D11',acc:'#4DB848'},{bg:'#E6F1FB',txt:'#185FA5',acc:'#3B82F6'},{bg:'#FAEEDA',txt:'#854F0B',acc:'#F59E0B'},{bg:'#EEEDFE',txt:'#534AB7',acc:'#7C3AED'},{bg:'#FAECE7',txt:'#993C1D',acc:'#EF4444'}];
+function ec(i){return ELC[i%ELC.length];}
+
+const STEP_ORDER=['welcome','checklist','resume','position','knowledge','evidence','mapping','conversation','submit','privacy'];
+
+// ── Boot ───────────────────────────────────────────────────────────────────────
+// ── Session timeout ───────────────────────────────────────────────────────────
+const SESSION_TIMEOUT_MS = 30 * 60 * 1000; // 30 minutes
+let _sessionTimer = null;
+let _sessionWarningShown = false;
+
+function resetSessionTimer(){
+  clearTimeout(_sessionTimer);
+  _sessionWarningShown = false;
+  _sessionTimer = setTimeout(()=>{
+    // Warn at 25 minutes
+    _sessionWarningShown = true;
+    showSessionWarning();
+  }, SESSION_TIMEOUT_MS - 5*60*1000);
+}
+
+function showSessionWarning(){
+  const el = document.getElementById('session-warning');
+  if(el) el.style.display='flex';
+  // Auto-clear at 30 minutes
+  setTimeout(()=>clearSession(), 5*60*1000);
+}
+
+function clearSession(){
+  // Clear all candidate data from memory
+  S.assessmentId=null; S.candidate={}; S.trainerName='';
+  S.notes=''; S.unitCodes=[]; S.units=[]; S.progress={};
+  // Show session expired screen
+  document.body.innerHTML=`<div style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:var(--off);font-family:'DM Sans',system-ui,sans-serif">
+    <div style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:32px;text-align:center;max-width:400px">
+      <div style="font-size:32px;margin-bottom:12px">🔒</div>
+      <div style="font-size:15px;font-weight:500;margin-bottom:8px">Session expired</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.65;margin-bottom:16px">
+        Your session has been cleared for privacy protection after 30 minutes of inactivity.
+        Your progress has been saved — use your original invite link to continue.
+      </div>
+      <div style="font-size:10px;color:var(--faint)">ABC Training RTO #5800 · Privacy Policy</div>
+    </div>
+  </div>`;
+}
+
+// Reset timer on any user activity
+['click','keydown','touchstart','scroll'].forEach(evt=>{
+  document.addEventListener(evt, resetSessionTimer, {passive:true});
+});
+
+// ── Privacy Collection Notice ─────────────────────────────────────────────────
+function showPrivacyNotice(onAccept){
+  document.getElementById('root').innerHTML=`
+    <div style="max-width:640px;margin:0 auto">
+      <div class="card" style="border-top:4px solid var(--navy)">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+          <div style="width:36px;height:36px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;flex-shrink:0">🔒</div>
+          <div>
+            <div style="font-size:14px;font-weight:600">Privacy Collection Notice</div>
+            <div style="font-size:10px;color:var(--muted)">ABC Training RTO #5800 · Required under Privacy Act 1988 (Cth)</div>
+          </div>
+        </div>
+
+        <div style="font-size:12px;line-height:1.75;margin-bottom:14px">
+          Before we load your assessment, we are required to tell you how we handle your personal information.
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px">
+          ${[
+            ['📋 What we collect','Your name, email, employment details, role, qualifications, and the responses you provide during this assessment'],
+            ['🎯 Why we collect it','To assess your Recognition of Prior Learning (RPL) claim against the selected units of competency'],
+            ['👥 Who can see it','Your assigned assessor at ABC Training. ASQA may access records during a regulatory audit. No other third parties.'],
+            ['🤖 AI processing','Your responses are analysed by Claude AI to assist your assessor. Anthropic operates under Zero Data Retention — your data is not stored or used for AI training.'],
+            ['📍 Where it is stored','Australia only — Google Cloud Sydney (australia-southeast1). Your data does not leave Australia.'],
+            ['📅 How long we keep it','2 years from your assessment completion date, as required by ASQA. You may request anonymisation after completion.'],
+          ].map(([title,text])=>`<div style="padding:10px 11px;background:var(--off);border-radius:8px;border:1px solid var(--border)">
+            <div style="font-size:11px;font-weight:600;margin-bottom:3px">${title}</div>
+            <div style="font-size:10px;color:var(--muted);line-height:1.6">${text}</div>
+          </div>`).join('')}
+        </div>
+
+        <div style="padding:10px 12px;background:var(--mb);border-radius:8px;border:1px solid var(--ma);font-size:11px;color:var(--mt);margin-bottom:14px;line-height:1.65">
+          <strong>Your rights under the Privacy Act 1988 (Cth):</strong><br>
+          You may access or correct your information at any time by contacting your trainer.
+          After your assessment is complete, you may request anonymisation of identifying details.
+          To make a privacy complaint, contact the Office of the Australian Information Commissioner at <strong>oaic.gov.au</strong>.
+        </div>
+
+        <div style="padding:10px 12px;background:var(--off);border-radius:8px;border:1px solid var(--border);font-size:11px;line-height:1.65;margin-bottom:16px">
+          <strong>Consent:</strong> By clicking <em>I understand and agree to proceed</em> below, you acknowledge that you have read this notice and consent to the collection and use of your personal information for the purpose of this RPL assessment.
+        </div>
+
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <a href="https://www.oaic.gov.au" target="_blank" rel="noopener" class="btn btn-sm" style="text-decoration:none">Learn about your rights ↗</a>
+          <button class="btn btn-p" id="privacy-accept-btn" onclick="acceptPrivacy()">
+            I understand and agree to proceed →
+          </button>
+        </div>
+
+        <div style="font-size:9px;color:var(--faint);margin-top:10px;text-align:center">
+          Notice version 1.0 · Australian Privacy Principles APP 1, 3, 5, 6, 11, 12, 13 ·
+          <a href="https://www.legislation.gov.au/Details/C2014C00076" target="_blank" rel="noopener" style="color:var(--faint)">Privacy Act 1988 (Cth)</a>
+        </div>
+      </div>
+    </div>`;
+
+  // Store callback
+  window._privacyOnAccept = onAccept;
+}
+
+async function acceptPrivacy(){
+  const btn = document.getElementById('privacy-accept-btn');
+  if(btn){btn.disabled=true;btn.textContent='Continuing...';}
+  // Record acknowledgement — non-blocking, never prevents loading
+  fetch(`${API}/privacy/acknowledge`,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({token:TOKEN, acknowledged:true})
+  }).catch(e=>console.warn('Privacy acknowledge (non-fatal):', e.message));
+  // Always proceed regardless of server response
+  if(window._privacyOnAccept) window._privacyOnAccept();
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', async()=>{
+  resetSessionTimer();
+
+  // Show loading state immediately
+  document.getElementById('root').innerHTML=`<div class="card" style="text-align:center;padding:40px">
+    <div style="font-size:32px;margin-bottom:12px">◎</div>
+    <div style="font-size:13px;font-weight:500;margin-bottom:6px">Preparing your assessment...</div>
+  </div>`;
+
+  // Check if already acknowledged (returning visit)
+  let alreadyAcknowledged = false;
+  try{
+    const check = await fetch(`${API}/privacy/check/${TOKEN}`);
+    const ck = await check.json();
+    alreadyAcknowledged = ck.acknowledged === true;
+  }catch(e){ alreadyAcknowledged = false; }
+
+  if(!alreadyAcknowledged){
+    // Show Privacy Collection Notice — no data loaded until acknowledged
+    showPrivacyNotice(()=>loadAssessment());
+  } else {
+    await loadAssessment();
+  }
+});
+
+async function loadAssessment(){
+  try {
+    const r=await fetch(`${API}/student/join/${TOKEN}`);
+    if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||'Invalid invite link');}
+    const d=await r.json();
+    S.assessmentId=d.assessment_id;
+    S.candidate=d.candidate||{};
+    S.trainerName=d.trainer_name||'';
+    S.notes=d.notes||'';
+    S.unitCodes=d.unit_codes||[];
+    S.units=d.units||[];
+    if(d.progress&&Object.keys(d.progress).length){
+      S.progress={...S.progress,...d.progress};
+    }
+    buildSidebar();
+    const resumeStep=S.progress.current_step||'welcome';
+    go(resumeStep);
+  } catch(e) {
+    document.getElementById('root').innerHTML=`<div class="card" style="text-align:center;padding:40px">
+      <div style="font-size:32px;margin-bottom:12px">✕</div>
+      <div style="font-size:14px;font-weight:500;margin-bottom:8px;color:var(--rt)">Invalid or expired link</div>
+      <div style="font-size:12px;color:var(--muted)">${e.message}</div>
+    </div>`;
+  }
+}
+
+function buildSidebar(){
+  const c=S.candidate;
+  document.getElementById('sb-cand-area').innerHTML=`<div class="sb-cand">
+    <div class="sb-cand-name">${c.name||'Candidate'}</div>
+    <div class="sb-cand-unit">${S.unitCodes.join(' · ')}</div>
+  </div>`;
+  document.getElementById('sb-nav').style.display='block';
+  document.getElementById('sb-save-area').style.display='flex';
+  const av=document.getElementById('topbar-av');
+  if(av) av.textContent=(c.name||'?').charAt(0).toUpperCase();
+  updateProgress();
+}
+
+function updateProgress(){
+  const done=S.progress.completed_steps||[];
+  const total=STEP_ORDER.length-1; // don't count welcome
+  const pct=Math.round(done.length/total*100);
+  document.getElementById('sb-prog-area').innerHTML=`<div class="sb-progress">
+    <div class="sb-prog-lbl">Your progress</div>
+    <div class="sb-prog-bar"><div class="sb-prog-fill" style="width:${pct}%"></div></div>
+    <div class="sb-prog-pct">${pct}% complete · ${done.length}/${total} steps done</div>
+  </div>`;
+  // Update step icons
+  STEP_ORDER.forEach(s=>{
+    const ico=document.getElementById(`ico-${s}`);
+    if(ico){ico.classList.toggle('done', done.includes(s));}
+  });
+}
+
+// ── Auto-save ──────────────────────────────────────────────────────────────────
+function triggerSave(){
+  clearTimeout(S.saveTimer);
+  S.saveTimer=setTimeout(doSave, 2000); // save 2s after last change
+}
+
+async function doSave(){
+  if(!S.assessmentId) return;
+  try {
+    await fetch(`${API}/student/progress`,{
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({assessment_id:S.assessmentId, progress:S.progress})
+    });
+  } catch(e){ console.warn('Auto-save failed:', e.message); }
+}
+
+function markStepDone(step){
+  if(!S.progress.completed_steps.includes(step)){
+    S.progress.completed_steps.push(step);
+  }
+  updateProgress();
+  triggerSave();
+}
+
+// ── Navigation ─────────────────────────────────────────────────────────────────
+const TITLES={welcome:'Welcome to your RPL',checklist:'Self-assessment checklist',resume:'Upload your resume',position:'Position description',knowledge:'Knowledge questions',evidence:'Guided evidence collection',mapping:'My mapping results',conversation:'Competency conversation',submit:'Submit your RPL',privacy:'My data &amp; privacy'};
+
+function go(name){
+  S.progress.current_step=name;
+  document.querySelectorAll('.sb-item').forEach(b=>b.classList.remove('active'));
+  document.getElementById(`n-${name}`)?.classList.add('active');
+  document.getElementById('topbar-title').textContent=TITLES[name]||name;
+  const root=document.getElementById('root'); root.innerHTML='';
+  const views={welcome:viewWelcome,checklist:viewChecklist,resume:viewResume,position:viewPosition,knowledge:viewKnowledge,evidence:viewEvidence,mapping:viewMapping,conversation:viewConversation,submit:viewSubmit,privacy:viewPrivacy};
+  if(views[name]) views[name](root);
+  triggerSave();
+}
+
+// ── VIEW: Welcome ──────────────────────────────────────────────────────────────
+function viewWelcome(root){
+  const done=S.progress.completed_steps||[];
+  const hasProgress=done.length>0;
+  root.innerHTML=`<div class="card">
+    <div style="background:var(--navy);border-radius:10px;padding:18px 20px;margin-bottom:14px">
+      <div style="font-size:15px;font-weight:500;color:#fff;margin-bottom:6px">Welcome, ${S.candidate.name||'Candidate'}</div>
+      <p style="font-size:12px;color:#D1D5DB;line-height:1.75">This is your RPL (Recognition of Prior Learning) assessment for <strong style="color:#4DB848">${S.unitCodes.join(', ')}</strong>. It has been set up for you by <strong style="color:#4DB848">${S.trainerName||'your trainer'}</strong> at ABC Training RTO #5800.</p>
+      ${S.notes?`<div style="margin-top:10px;padding:10px;background:rgba(255,255,255,.08);border-radius:7px;font-size:11px;color:#D1D5DB;line-height:1.65"><strong style="color:#4DB848">Note from your trainer:</strong> ${S.notes}</div>`:''}
+    </div>
+    ${hasProgress?`<div class="resume-banner"><div class="resume-icon">◷</div><div><div style="font-size:13px;font-weight:500;color:#1D4ED8;margin-bottom:3px">Welcome back — resuming where you left off</div><div style="font-size:11px;color:#3B82F6">You've completed ${done.length} of ${STEP_ORDER.length-1} steps. Pick up from the sidebar or continue below.</div></div></div>`:''}
+    <div class="hitl-box"><strong>Important:</strong> All AI analysis in this system assists your trainer — your trainer makes all final assessment decisions. You can save and return at any time. Your progress is stored automatically.</div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:8px">Your RPL steps</div>
+    ${STEP_ORDER.filter(s=>s!=='welcome').map(s=>`<div style="display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;border:1px solid ${done.includes(s)?'var(--ma)':'var(--border)'};background:${done.includes(s)?'var(--mb)':'#fff'};margin-bottom:5px">
+      <div style="width:20px;height:20px;border-radius:50%;background:${done.includes(s)?'var(--green)':'var(--border)'};display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">${done.includes(s)?'✓':''}</div>
+      <div style="flex:1;font-size:12px;font-weight:500">${TITLES[s]}</div>
+      ${done.includes(s)?'<span class="chip chip-g">Done</span>':'<span style="font-size:10px;color:var(--muted)">Pending</span>'}
+    </div>`).join('')}
+    <div style="display:flex;justify-content:flex-end;margin-top:14px">
+      <button class="btn btn-p" onclick="go('${hasProgress&&S.progress.current_step?S.progress.current_step:'checklist'}')">
+        ${hasProgress?'Continue where I left off →':'Begin RPL →'}
+      </button>
+    </div>
+  </div>`;
+}
+
+// ── VIEW: Checklist (multi-unit aware) ─────────────────────────────────────────
+function viewChecklist(root){
+  // If multiple units, show tabs
+  const units=S.units;
+  if(!units.length){root.innerHTML='<div class="card">No units loaded.</div>';return;}
+  let html=`<div class="card">`;
+  if(units.length>1){
+    html+=`<div class="unit-tab-row">${units.map((u,i)=>`<button class="utb ${i===S.currentUnitIdx?'active':''}" onclick="S.currentUnitIdx=${i};viewChecklist(document.getElementById('root'))">${u.code}</button>`).join('')}</div>`;
+  }
+  const unit=units[S.currentUnitIdx];
+  html+=`<div class="ctitle">Self-assessment — ${unit.code}</div>
+  <div class="csub">For each activity below, select how frequently you perform this task in your current or most recent workplace. Your trainer will review these results.</div>`;
+
+  const saved=S.progress.checklist[unit.code]||{};
+  unit.elements.forEach((el,i)=>{
+    const c=ec(i);
+    html+=`<div class="el-hd" style="background:${c.bg}"><div style="width:9px;height:9px;border-radius:50%;background:${c.acc};flex-shrink:0"></div><span style="font-size:12px;font-weight:600;color:${c.txt}">${el.title}</span></div>`;
+    el.pcs.forEach(pc=>{
+      const sv=saved[pc.id]||'';
+      html+=`<div class="pc-row" id="pcr-${unit.code}-${pc.id}"><span class="pcid">${pc.id}</span><span class="pctxt">${pc.text}</span><div class="fgrp">
+        <button class="fb ${sv==='f'?'sf':''}" onclick="csel('${unit.code}','${pc.id}','f',this)">Frequently</button>
+        <button class="fb ${sv==='s'?'ss':''}" onclick="csel('${unit.code}','${pc.id}','s',this)">Sometimes</button>
+        <button class="fb ${sv==='n'?'sn':''}" onclick="csel('${unit.code}','${pc.id}','n',this)">Not yet</button>
+      </div></div>`;
+    });
+  });
+  html+=`<div style="display:flex;justify-content:space-between;margin-top:14px">
+    <button class="btn" onclick="go('welcome')">← Back</button>
+    <button class="btn btn-p" onclick="completeChecklist()">Save &amp; continue →</button>
+  </div></div>`;
+  root.innerHTML=html;
+}
+
+function csel(unitCode, pcId, val, btn){
+  const row=document.getElementById(`pcr-${unitCode}-${pcId}`);
+  row.querySelectorAll('.fb').forEach(b=>b.classList.remove('sf','ss','sn'));
+  btn.classList.add(val==='f'?'sf':val==='s'?'ss':'sn');
+  if(!S.progress.checklist[unitCode]) S.progress.checklist[unitCode]={};
+  S.progress.checklist[unitCode][pcId]=val;
+  triggerSave();
+}
+
+function completeChecklist(){markStepDone('checklist');go('resume');}
+
+// ── VIEW: Resume ───────────────────────────────────────────────────────────────
+function viewResume(root){
+  const up=S.progress.uploads?.resume;
+  root.innerHTML=`<div class="card"><div class="ctitle">Upload your resume</div>
+  <div class="csub">Your resume helps map your work history against the unit performance criteria. If your resume doesn't capture all your experience, use the note field to fill in any gaps.</div>
+  <div class="dz ${up?'up':''}" onclick="document.getElementById('rf').click()">
+    <div style="font-size:22px;margin-bottom:6px">${up?'✓':'📄'}</div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:2px">${up?up.name:'Drop your resume here or click to upload'}</div>
+    <div style="font-size:10px;color:var(--muted)">PDF or DOCX · Your data is handled under Privacy Act 1988</div>
+  </div>
+  <input type="file" id="rf" accept=".pdf,.docx" style="display:none" onchange="uplFile('resume',this,'rf-dz')">
+  <div class="fr" style="margin-top:10px"><label class="fl">Additional context (optional)</label>
+  <textarea id="resume-note" rows="3" placeholder="e.g. My resume doesn't reflect my time at XYZ Lab where I performed daily WHS checks..." onchange="S.progress.candidate_notes.resume=this.value;triggerSave()">${S.progress.candidate_notes?.resume||''}</textarea></div>
+  <div style="display:flex;justify-content:space-between;margin-top:12px">
+    <button class="btn" onclick="go('checklist')">← Back</button>
+    <button class="btn btn-p" onclick="markStepDone('resume');go('position')">Save &amp; continue →</button>
+  </div></div>`;
+}
+
+// ── VIEW: Position ─────────────────────────────────────────────────────────────
+function viewPosition(root){
+  const up=S.progress.uploads?.pd;
+  root.innerHTML=`<div class="card"><div class="ctitle">Upload your position description</div>
+  <div class="csub">Your position description (PD) is one of the most powerful evidence items. It shows the assessor what duties you are officially responsible for.</div>
+  <div class="dz ${up?'up':''}" onclick="document.getElementById('pdf').click()">
+    <div style="font-size:22px;margin-bottom:6px">${up?'✓':'📋'}</div>
+    <div style="font-size:12px;font-weight:500;margin-bottom:2px">${up?up.name:'Upload your position description'}</div>
+    <div style="font-size:10px;color:var(--muted)">Current employer preferred · PDF or DOCX</div>
+  </div>
+  <input type="file" id="pdf" accept=".pdf,.docx" style="display:none" onchange="uplFile('pd',this,'')">
+  <div style="display:flex;gap:8px;margin-top:10px">
+    <div class="dz" style="flex:1;padding:12px" onclick="document.getElementById('orgf').click()"><div style="font-size:16px;margin-bottom:3px">🏢</div><div style="font-size:11px;font-weight:500">Org chart</div></div>
+    <div class="dz" style="flex:1;padding:12px" onclick="document.getElementById('sopf').click()"><div style="font-size:16px;margin-bottom:3px">📃</div><div style="font-size:11px;font-weight:500">SOP / procedure</div></div>
+  </div>
+  <input type="file" id="orgf" style="display:none" onchange="uplFile('org',this,'')">
+  <input type="file" id="sopf" style="display:none" onchange="uplFile('sop',this,'')">
+  <div style="display:flex;justify-content:space-between;margin-top:12px">
+    <button class="btn" onclick="go('resume')">← Back</button>
+    <button class="btn btn-p" onclick="markStepDone('position');go('knowledge')">Save &amp; continue →</button>
+  </div></div>`;
+}
+
+function uplFile(type, input, dzId){
+  const f=input.files[0]; if(!f) return;
+  if(!S.progress.uploads) S.progress.uploads={};
+  S.progress.uploads[type]={name:f.name,size:f.size,uploaded_at:new Date().toISOString()};
+  triggerSave();
+  if(dzId){const dz=document.getElementById(dzId);if(dz){dz.classList.add('up');}}
+  // Re-render to show upload status
+  if(type==='resume') viewResume(document.getElementById('root'));
+  if(type==='pd') viewPosition(document.getElementById('root'));
+}
+
+// ── VIEW: Knowledge ────────────────────────────────────────────────────────────
+function viewKnowledge(root){
+  const units=S.units;
+  if(!units.length){root.innerHTML='<div class="card">No units loaded.</div>';return;}
+  S.curQ=0;
+
+  // Build tab row for multiple units
+  const tabRow = units.length > 1
+    ? `<div class="unit-tab-row" id="k-tabs">${units.map((u,i)=>{
+        const done=S.progress.knowledge_analyses?.[u.code];
+        const allDone=done&&Object.keys(done).length>=(u.knowledge_questions||[]).length;
+        return `<button class="utb ${i===S.currentUnitIdx?'active':''}" onclick="switchKnowledgeUnit(${i})" id="ktab-${i}">
+          ${u.code} ${allDone?'✓':''}
+        </button>`;
+      }).join('')}</div>`
+    : '';
+
+  const unit=units[S.currentUnitIdx];
+  const qs=unit.knowledge_questions||[];
+
+  // Check if ALL units are done
+  function allUnitsDone(){
+    return units.every(u=>{
+      const analyses=S.progress.knowledge_analyses?.[u.code]||{};
+      const qs=u.knowledge_questions||[];
+      return !qs.length || Object.keys(analyses).length>=qs.length;
+    });
+  }
+
+  if(!qs.length){
+    if(allUnitsDone()||units.every(u=>!(u.knowledge_questions||[]).length)){
+      root.innerHTML=`<div class="card">${tabRow}<div class="csub">No knowledge questions for any unit.</div><button class="btn btn-p" onclick="markStepDone('knowledge');go('evidence')">Continue →</button></div>`;
+    } else {
+      root.innerHTML=`<div class="card">${tabRow}<div class="csub">No knowledge questions for ${unit.code}. Select another unit above or continue.</div>
+      <button class="btn btn-p" onclick="markStepDone('knowledge');go('evidence')">Save &amp; continue →</button></div>`;
+    }
+    return;
+  }
+
+  root.innerHTML=`<div class="card">
+  ${tabRow}
+  <div class="ctitle">Knowledge questions — ${unit.code}</div>
+  <div class="csub">Write your answers in your own words. Claude analyses your responses live. Specific workplace examples give the assessor more to work with.</div>
+  <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:12px" id="q-nav"></div>
+  <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden;margin-bottom:12px"><div id="q-prog" style="height:100%;background:var(--green);border-radius:2px;transition:width .4s;width:${100/qs.length}%"></div></div>
+  <div id="q-area"></div>
+  <div style="display:flex;justify-content:space-between;margin-top:12px">
+    <button class="btn" id="q-prev" onclick="qnav(-1)">← Previous</button>
+    <div style="display:flex;gap:8px">
+      <button class="btn btn-p" id="q-an" onclick="analyseQ()" disabled>Analyse with AI</button>
+      <button class="btn" id="q-nx" onclick="qnav(1)" style="display:none">Next →</button>
+      <button class="btn btn-g" id="q-next-unit" onclick="nextKnowledgeUnit()" style="display:none">Next unit →</button>
+      <button class="btn btn-g" id="q-fin" onclick="markStepDone('knowledge');go('evidence')" style="display:none">Save &amp; continue →</button>
+    </div>
+  </div></div>`;
+  buildQNav(unit,qs); loadQ(unit,qs,0);
+}
+
+function switchKnowledgeUnit(idx){
+  S.currentUnitIdx=idx;
+  S.curQ=0;
+  viewKnowledge(document.getElementById('root'));
+}
+
+function nextKnowledgeUnit(){
+  // Find next unit that has unanswered questions
+  const units=S.units;
+  for(let i=S.currentUnitIdx+1;i<units.length;i++){
+    const qs=units[i].knowledge_questions||[];
+    if(qs.length){S.currentUnitIdx=i;S.curQ=0;viewKnowledge(document.getElementById('root'));return;}
+  }
+  // All units done
+  markStepDone('knowledge');go('evidence');
+}
+
+function buildQNav(unit,qs){
+  const nav=document.getElementById('q-nav');if(!nav)return;
+  nav.innerHTML=qs.map((_,i)=>{
+    const a=S.progress.knowledge_analyses?.[unit.code]?.[i];
+    const r=(S.progress.knowledge_responses?.[unit.code]?.[i]||'').length>20;
+    const cls=i===S.curQ?'btn btn-p':a?'btn btn-g':r?'btn':'btn';
+    return `<button class="${cls} btn-sm" onclick="loadQ(S.units[S.currentUnitIdx],S.units[S.currentUnitIdx].knowledge_questions,${i})" style="min-width:30px;padding:4px 9px;font-size:11px">${i+1}</button>`;
+  }).join('');
+}
+
+function loadQ(unit,qs,idx){
+  S.curQ=idx;
+  const q=qs[idx];
+  const c=ec(parseInt(q.element_ref.replace(/\D+/,''))-1);
+  document.getElementById('q-prog').style.width=((idx+1)/qs.length*100)+'%';
+  const prev=(S.progress.knowledge_responses?.[unit.code]?.[idx])||'';
+  const analysis=(S.progress.knowledge_analyses?.[unit.code]?.[idx]);
+  const diffBadge={Basic:'background:#EFF6FF;color:#1D4ED8',Applied:'background:#FEFCE8;color:#92400E',Advanced:'background:#FEF2F2;color:#991B1B'}[q.difficulty_level||'Applied']||'background:var(--off);color:var(--muted)';
+  document.getElementById('q-area').innerHTML=`<div style="border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:8px">
+    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap">
+      <span style="font-size:10px;font-weight:600;color:${c.txt};font-family:'DM Mono',monospace">Q${q.num} · ${q.pc_refs?.[0]||q.element_ref}</span>
+      ${q.difficulty_level?`<span style="padding:1px 7px;border-radius:9px;font-size:9px;font-weight:600;${diffBadge}">${q.difficulty_level}</span>`:''}
+      ${q.question_purpose?`<span style="font-size:9px;color:var(--muted);font-style:italic">${q.question_purpose}</span>`:''}
+    </div>
+    <div style="font-size:13px;font-weight:500;line-height:1.5;margin-bottom:8px">${q.text}</div>
+    ${q.knowledge_focus?.length?`<div style="margin-bottom:7px"><span style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px">Knowledge focus: </span><span style="font-size:10px;color:var(--muted)">${q.knowledge_focus.join(' · ')}</span></div>`:''}
+    ${q.hint?`<div style="padding:7px 9px;background:var(--ib);border-radius:6px;font-size:10px;color:var(--it);line-height:1.55;margin-bottom:9px">
+      <strong>What to address:</strong> ${q.hint}
+    </div>`:''}
+    <textarea id="q-in" rows="5"
+      placeholder="Explain your technical understanding — what are the key requirements, procedures, or standards? Technical accuracy matters more than personal experience here."
+      oninput="onQIn('${unit.code}',${idx})">${prev}</textarea>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">
+      <div style="font-size:10px;color:var(--muted)">Knowledge check — explain the concept clearly. 30–100 words is usually sufficient. Your competency conversation (next step) is where you describe your personal workplace experience.</div>
+      <div style="font-size:10px;color:var(--faint)"><span id="wc-n">0</span> words</div>
+    </div>
+    ${analysis?renderAI(analysis):'<div id="ai-out"></div>'}
+  </div>`;
+  updateWC();
+  const hasA=!!analysis,hasR=prev.trim().split(/\s+/).length>=10;
+  document.getElementById('q-an').disabled=!hasR;
+  document.getElementById('q-prev').style.display=idx===0?'none':'';
+  document.getElementById('q-nx').style.display=hasA&&idx<qs.length-1?'':'none';
+  // Show "next unit" if this is last Q and there are more units, else show finish
+  const isLastQ=hasA&&idx===qs.length-1;
+  const hasMoreUnits=S.currentUnitIdx<S.units.length-1&&S.units.slice(S.currentUnitIdx+1).some(u=>(u.knowledge_questions||[]).length>0);
+  const nextUnitBtn=document.getElementById('q-next-unit');
+  const finBtn=document.getElementById('q-fin');
+  if(nextUnitBtn) nextUnitBtn.style.display=isLastQ&&hasMoreUnits?'':'none';
+  if(finBtn) finBtn.style.display=isLastQ&&!hasMoreUnits?'':'none';
+  buildQNav(unit,qs);
+}
+
+let _qAnalTimer=null;
+function onQIn(unitCode,idx){
+  const txt=document.getElementById('q-in')?.value||'';
+  if(!S.progress.knowledge_responses) S.progress.knowledge_responses={};
+  if(!S.progress.knowledge_responses[unitCode]) S.progress.knowledge_responses[unitCode]={};
+  S.progress.knowledge_responses[unitCode][idx]=txt;
+  updateWC(); triggerSave();
+  const wc=txt.trim().split(/\s+/).filter(w=>w).length;
+  document.getElementById('q-an').disabled=wc<10;
+  // Auto-analyse after 4 seconds of no typing if 25+ words
+  clearTimeout(_qAnalTimer);
+  if(wc>=25){
+    _qAnalTimer=setTimeout(()=>{
+      const b=document.getElementById('q-an');
+      if(b&&!b.disabled) analyseQ();
+    },4000);
+  }
+}
+function updateWC(){const inp=document.getElementById('q-in'),el=document.getElementById('wc-n');if(!inp||!el)return;const n=inp.value.trim().split(/\s+/).filter(w=>w).length;el.textContent=n;el.style.color=n>=80?'#22C55E':n>=30?'#F59E0B':'#EF4444';}
+function qnav(d){const qs=S.units[S.currentUnitIdx].knowledge_questions;const n=S.curQ+d;if(n>=0&&n<qs.length)loadQ(S.units[S.currentUnitIdx],qs,n);}
+
+async function analyseQ(){
+  const unit=S.units[S.currentUnitIdx];
+  const qs=unit.knowledge_questions;
+  const q=qs[S.curQ];
+  const ans=(document.getElementById('q-in')?.value||'').trim();
+  if(ans.split(/\s+/).length<10) return;
+  const btn=document.getElementById('q-an');
+  btn.innerHTML='<span class="spinner"></span> Analysing...'; btn.disabled=true;
+  try {
+    const r=await fetch(`${API}/knowledge/analyse`,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({unit_code:unit.code,question:q.text,answer:ans,pc_refs:q.pc_refs,element_ref:q.element_ref,q_num:q.num,assessment_id:S.assessmentId})});
+    const result=await r.json();
+    if(!S.progress.knowledge_analyses) S.progress.knowledge_analyses={};
+    if(!S.progress.knowledge_analyses[unit.code]) S.progress.knowledge_analyses[unit.code]={};
+    S.progress.knowledge_analyses[unit.code][S.curQ]=result;
+    triggerSave();
+    const out=document.getElementById('ai-out');
+    const html=renderAI(result);
+    if(out) out.outerHTML=html; else document.getElementById('q-area').insertAdjacentHTML('beforeend',html);
+    document.getElementById('q-nx').style.display=S.curQ<qs.length-1?'':'none';
+    document.getElementById('q-fin').style.display=S.curQ===qs.length-1?'':'none';
+    buildQNav(unit,qs);
+  } catch(e){alert('Analysis error: '+e.message);}
+  btn.innerHTML='Re-analyse'; btn.disabled=false;
+}
+
+function renderAI(r){
+  if(!r) return '<div id="ai-out"></div>';
+  const isSat = r.judgement==='Satisfactory';
+  const meetsReq = r.meets_requirement || (isSat ? 'SUBSTANTIALLY' : 'PARTIALLY');
+  const isFull = meetsReq==='FULLY'||meetsReq==='SUBSTANTIALLY';
+  const isPartial = meetsReq==='PARTIALLY';
+  const bg  = isFull ? '#F0FDF4' : isPartial ? '#FEFCE8' : '#FEF2F2';
+  const bdr = isFull ? '#86EFAC' : isPartial ? '#FDE047' : '#FCA5A5';
+  const icon = isFull ? '✓' : isPartial ? '⚑' : '✕';
+  const iconCol = isFull ? '#166534' : isPartial ? '#854D0E' : '#991B1B';
+  const demonstrated = (r.what_the_answer_demonstrates||r.evidence_items||r.matched_knowledge_points||[]).filter(e=>e);
+  const missing = (r.what_is_missing||r.gaps||r.missing_or_weak_knowledge_points||[]).filter(g=>g);
+  const commentary = r.commentary || r.summary || r.evaluation_summary || '';
+  const reqMap = (r.requirements_map||[]).filter(rm=>rm.requirement);
+
+  return `<div id="ai-out" style="background:${bg};border:1px solid ${bdr};border-radius:10px;padding:0;margin-top:10px;overflow:hidden">
+
+    <!-- Header -->
+    <div style="padding:10px 14px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;border-bottom:1px solid ${bdr}">
+      <span style="font-size:18px;color:${iconCol}">${icon}</span>
+      <div>
+        <div style="font-size:12px;font-weight:600;color:${iconCol}">${r.judgement||'Analysed'}</div>
+        <div style="font-size:10px;color:${iconCol};opacity:.8">${meetsReq.replace(/_/g,' ')} — ${isFull?'meets the requirement':'see feedback below'}</div>
+      </div>
+      ${r.pc_id?`<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--muted);padding:2px 8px;border-radius:8px;border:1px solid var(--border);background:#fff">PC ${r.pc_id}</span>`:''}
+    </div>
+
+    <!-- Commentary — the main feedback -->
+    ${commentary?`<div style="padding:11px 14px;border-bottom:1px solid ${bdr}">
+      <div style="font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px">AI feedback on your response</div>
+      <div style="font-size:12px;line-height:1.8;color:var(--text)">${commentary}</div>
+    </div>`:''}
+
+    <!-- What was demonstrated -->
+    ${demonstrated.length?`<div style="padding:9px 14px;border-bottom:1px solid ${bdr}">
+      <div style="font-size:9px;font-weight:700;color:#166534;text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px">✓ What your answer demonstrates</div>
+      ${demonstrated.map(d=>`<div style="font-size:11px;line-height:1.65;padding:3px 0;display:flex;gap:6px;align-items:baseline">
+        <span style="color:#166534;flex-shrink:0">✓</span><span>${d}</span>
+      </div>`).join('')}
+    </div>`:''}
+
+    <!-- What is missing -->
+    ${missing.length?`<div style="padding:9px 14px;border-bottom:1px solid ${bdr};background:rgba(153,27,27,.03)">
+      <div style="font-size:9px;font-weight:700;color:#991B1B;text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px">To fully meet this requirement, also address</div>
+      ${missing.map(m=>`<div style="font-size:11px;line-height:1.65;padding:3px 0;display:flex;gap:6px;align-items:baseline">
+        <span style="color:#991B1B;flex-shrink:0">•</span><span style="color:#7F1D1D">${m}</span>
+      </div>`).join('')}
+    </div>`:''}
+
+    <!-- Requirements map (PC coverage table) -->
+    ${reqMap.length?`<div style="padding:9px 14px;border-bottom:1px solid ${bdr}">
+      <div style="font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">How your answer maps to the unit requirements</div>
+      ${reqMap.map(rm=>{
+        const ac = rm.assessment==='VERIFIED'?'#166534':rm.assessment==='NEEDS_PROBING'?'#854D0E':'#991B1B';
+        const ab = rm.assessment==='VERIFIED'?'#F0FDF4':rm.assessment==='NEEDS_PROBING'?'#FEFCE8':'#FEF2F2';
+        const ai = rm.assessment==='VERIFIED'?'✓':rm.assessment==='NEEDS_PROBING'?'⚑':'✕';
+        return `<div style="display:flex;align-items:flex-start;gap:8px;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.06)">
+          <span style="padding:2px 7px;border-radius:8px;font-size:9px;font-weight:600;background:${ab};color:${ac};flex-shrink:0">${ai} ${rm.assessment?.replace(/_/g,' ')}</span>
+          <div style="flex:1">
+            <div style="font-size:11px;font-weight:500;color:var(--text)">${rm.requirement}</div>
+            ${rm.evidence_reference?`<div style="font-size:10px;color:var(--muted);font-style:italic">"${rm.evidence_reference}"</div>`:''}
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`:''}
+
+    <!-- Follow-up suggestion -->
+    ${r.followup_question?`<div style="padding:9px 14px;background:rgba(29,78,216,.04)">
+      <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">💡 To strengthen your answer, consider addressing</div>
+      <div style="font-size:11px;line-height:1.7;color:var(--it);font-style:italic">"${r.followup_question}"</div>
+    </div>`:''}
+
+    ${renderAIDetectionStudent(r.ai_detection)}
+  </div>`;
+}
+
+
+function renderAIDetectionStudent(det){
+  if(!det) return '';
+  const prob = det.ai_probability;
+  // Only show to candidate if MEDIUM or above — and frame constructively
+  if(prob==='LOW'||!prob) return '';
+  return `<div style="margin-top:8px;padding:8px 10px;background:var(--pb);border:1px solid var(--pa);border-radius:7px">
+    <div style="font-size:9px;font-weight:700;color:var(--pt);text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">⚑ Improve your response</div>
+    <div style="font-size:10px;color:var(--pt);line-height:1.6">
+      Your answer reads as quite generic. Strengthen it by adding specific details:
+      the name of your employer, the actual equipment or procedures you use, and concrete
+      outcomes from your experience. The more specific you are, the stronger your evidence.
+    </div>
+  </div>`;
+}
+
+// ── VIEW: Evidence ─────────────────────────────────────────────────────────────
+function viewEvidence(root){
+  const unit=S.units[S.currentUnitIdx];
+  const guide=unit?.evidence_guide||[];
+  let html=`<div class="card"><div class="ctitle">Evidence collection — ${unit?.code}</div>
+  <div class="csub">Upload documents that support your RPL claim. Items marked <span style="background:var(--pb);border:1px solid var(--pa);color:var(--pt);font-size:9px;padding:1px 6px;border-radius:5px;font-weight:600">Priority</span> directly address gaps in your self-assessment.</div>`;
+  guide.forEach((item,i)=>{
+    const up=S.progress.uploads?.[`ev${i}`];
+    const bdr=item.priority==='priority'?'var(--pa)':'var(--border)';
+    const tag=item.priority==='priority'?'<span style="background:var(--pb);border:1px solid var(--pa);color:var(--pt);font-size:9px;padding:1px 6px;border-radius:5px;font-weight:600">Priority</span>':'<span style="background:var(--mb);border:1px solid var(--ma);color:var(--mt);font-size:9px;padding:1px 6px;border-radius:5px;font-weight:600">Recommended</span>';
+    html+=`<div style="border:1px solid ${bdr};border-radius:12px;overflow:hidden;margin-bottom:8px">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 13px;background:var(--off);border-bottom:1px solid var(--border)">
+        <div style="font-size:11px;font-weight:600">${item.icon} ${item.title}</div>
+        <div style="display:flex;align-items:center;gap:6px">${tag}<span style="font-size:9px;font-family:'DM Mono',monospace;color:var(--muted)">${(item.pc_refs||[]).join(', ')}</span></div>
+      </div>
+      <div style="padding:13px">
+        <div style="font-size:11px;color:var(--muted);line-height:1.6;margin-bottom:8px">${item.description}</div>
+        <ul style="padding-left:14px;margin-bottom:10px">${(item.acceptable_forms||[]).map(f=>`<li style="font-size:11px;color:var(--muted);line-height:1.7">${f}</li>`).join('')}</ul>
+        <div class="dz ${up?'up':''}" onclick="document.getElementById('evf${i}').click()">
+          <div style="font-size:18px;margin-bottom:4px">${up?'✓':'📎'}</div>
+          <div style="font-size:11px;font-weight:500;margin-bottom:2px">${up?up.name:'Upload evidence'}</div>
+          <div style="font-size:9px;color:var(--muted)">PDF, DOCX, JPG, PNG accepted</div>
+        </div>
+        <input type="file" id="evf${i}" style="display:none" onchange="uplEv(${i},this)">
+        <textarea placeholder="Add a note describing what this document shows..." rows="2" oninput="S.progress.candidate_notes['ev${i}']=this.value;triggerSave()">${S.progress.candidate_notes?.[`ev${i}`]||''}</textarea>
+      </div>
+    </div>`;
+  });
+  html+=`<div style="display:flex;justify-content:space-between;margin-top:4px">
+    <button class="btn" onclick="go('knowledge')">← Back</button>
+    <button class="btn btn-p" onclick="markStepDone('evidence');go('submit')">Save &amp; continue →</button>
+  </div></div>`;
+  root.innerHTML=html;
+}
+
+function uplEv(i,input){
+  const f=input.files[0];if(!f) return;
+  if(!S.progress.uploads) S.progress.uploads={};
+  S.progress.uploads[`ev${i}`]={name:f.name,size:f.size,uploaded_at:new Date().toISOString()};
+  triggerSave();
+  viewEvidence(document.getElementById('root'));
+}
+
+// ── VIEW: Submit ───────────────────────────────────────────────────────────────
+// ── MAPPING GUIDE — candidate-facing results view ────────────────────────────
+function viewMapping(root){
+  const mapping = S.progress.mapping;
+
+  if(!mapping){
+    root.innerHTML=`<div class="card">
+      <div class="ctitle">📊 My mapping results</div>
+      <div class="hitl-box">Your mapping results will appear here after your trainer runs the AI mapping analysis. Complete all steps first, then your trainer will review and generate your mapping report.</div>
+      <div style="display:flex;justify-content:space-between;margin-top:12px">
+        <button class="btn" onclick="go('evidence')">← Back</button>
+        <button class="btn btn-p" onclick="go('conversation')">Continue →</button>
+      </div>
+    </div>`;
+    return;
+  }
+
+  const o = mapping.overall || {};
+  const totalPCs = (o.pc_match||0)+(o.pc_partial||0)+(o.pc_gap||0);
+  const pctMatch = totalPCs ? Math.round((o.pc_match||0)/totalPCs*100) : 0;
+  const isSat = o.signal==='STRONG_EVIDENCE';
+  const isPartial = o.signal==='SUPPORTED_PATHWAY';
+
+  let html = `<div class="card">
+    <div class="ctitle">📊 My mapping results</div>
+    <div class="hitl-box"><strong>Important:</strong> This is an AI-assisted analysis to help your trainer. Your trainer makes all final assessment decisions. These results show where your evidence is strong and where you may need to provide more.</div>
+
+    <!-- Signal banner -->
+    <div style="padding:12px 14px;border-radius:9px;background:${isSat?'var(--mb)':isPartial?'var(--pb)':'var(--rb)'};border:1px solid ${isSat?'var(--ma)':isPartial?'var(--pa)':'var(--ra)'};margin-bottom:12px">
+      <div style="font-size:13px;font-weight:500;color:${isSat?'var(--mt)':isPartial?'var(--pt)':'var(--rt)'};margin-bottom:4px">
+        ${isSat?'✓ Strong evidence — well supported RPL claim':isPartial?'⚑ Supported pathway — some gaps to address':'✕ Significant gaps — additional evidence required'}
+      </div>
+      <div style="font-size:11px;line-height:1.65;color:${isSat?'var(--mt)':isPartial?'var(--pt)':'var(--rt)'}">${o.narrative||''}</div>
+    </div>
+
+    <!-- Score summary -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:12px">
+      <div style="text-align:center;padding:10px;background:var(--mb);border-radius:8px">
+        <div style="font-size:20px;font-weight:600;color:var(--mt)">${o.pc_match||0}</div>
+        <div style="font-size:10px;color:var(--mt)">✓ Criteria met</div>
+      </div>
+      <div style="text-align:center;padding:10px;background:var(--pb);border-radius:8px">
+        <div style="font-size:20px;font-weight:600;color:var(--pt)">${o.pc_partial||0}</div>
+        <div style="font-size:10px;color:var(--pt)">⚑ Partially met</div>
+      </div>
+      <div style="text-align:center;padding:10px;background:var(--rb);border-radius:8px">
+        <div style="font-size:20px;font-weight:600;color:var(--rt)">${o.pc_gap||0}</div>
+        <div style="font-size:10px;color:var(--rt)">✕ Needs more evidence</div>
+      </div>
+    </div>
+
+    <!-- Coverage bar -->
+    <div style="margin-bottom:12px">
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:3px">
+        <span>Overall coverage</span><span>${pctMatch}% of criteria met</span>
+      </div>
+      <div style="height:10px;background:var(--border);border-radius:5px;overflow:hidden;display:flex">
+        <div style="width:${pctMatch}%;background:var(--green);transition:width .5s"></div>
+        <div style="width:${totalPCs?Math.round((o.pc_partial||0)/totalPCs*100):0}%;background:var(--pa)"></div>
+      </div>
+    </div>
+  </div>`;
+
+  // Per-element breakdown — candidate-friendly language
+  const elements = mapping.elements || [];
+  elements.forEach(el=>{
+    const elConf = Math.round((el.confidence||0)*100);
+    const elDone = (el.pcs||[]).filter(p=>p.verdict==='MATCH').length;
+    const elTotal = (el.pcs||[]).length;
+
+    html += `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden">
+      <div style="padding:10px 13px;background:${elConf>=70?'var(--mb)':elConf>=50?'var(--pb)':'var(--rb)'};border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
+        <div style="font-size:12px;font-weight:500;color:${elConf>=70?'var(--mt)':elConf>=50?'var(--pt)':'var(--rt)'}">${el.title||el.id}</div>
+        <div style="font-size:10px;color:${elConf>=70?'var(--mt)':elConf>=50?'var(--pt)':'var(--rt)'}">
+          ${elDone}/${elTotal} criteria met
+        </div>
+      </div>
+      ${(el.pcs||[]).map(pc=>{
+        const isMet = pc.verdict==='MATCH';
+        const isPartialPC = pc.verdict==='PARTIAL';
+        const isSatPC = pc.judgement==='Satisfactory';
+        const pct = Math.round((pc.confidence||0)*100);
+        const evItems = (pc.evidence_items||[]).slice(0,2);
+        const hasGap = pc.gap_notes && pc.gap_notes.length>3;
+        const hasFollowup = pc.followup && pc.followup.length>5;
+
+        return `<div style="padding:10px 13px;border-bottom:1px solid var(--border)">
+          <div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:6px">
+            <div style="width:20px;height:20px;border-radius:50%;background:${isMet?'var(--green)':isPartialPC?'var(--pa)':'var(--ra)'};display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0;margin-top:1px">${isMet?'✓':isPartialPC?'~':'✕'}</div>
+            <div style="flex:1">
+              <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:3px">
+                <span style="font-family:'DM Mono',monospace;font-size:9px;font-weight:600;color:var(--muted)">${pc.id}</span>
+                <span style="font-size:11px;line-height:1.4">${pc.criterion||''}</span>
+                <span style="padding:1px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${isSatPC?'var(--mb)':'var(--rb)'};color:${isSatPC?'var(--mt)':'var(--rt)'};flex-shrink:0">${pc.judgement||''}</span>
+              </div>
+
+              <!-- Confidence bar -->
+              <div style="display:flex;align-items:center;gap:7px;margin-bottom:6px">
+                <div style="flex:1;height:5px;background:var(--border);border-radius:3px;overflow:hidden">
+                  <div style="width:${pct}%;height:100%;background:${isMet?'var(--green)':isPartialPC?'var(--pa)':'var(--ra)'};border-radius:3px"></div>
+                </div>
+                <span style="font-size:10px;font-weight:600;color:${isMet?'var(--mt)':isPartialPC?'var(--pt)':'var(--rt)'};min-width:30px">${pct}%</span>
+              </div>
+
+              <!-- Evidence from your response -->
+              ${evItems.length?`<div style="margin-bottom:5px">
+                <div style="font-size:9px;font-weight:600;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">From your evidence:</div>
+                ${evItems.map(e=>`<div style="font-size:10px;font-style:italic;color:var(--text);padding:3px 7px;background:var(--mb);border-radius:4px;margin-bottom:2px;line-height:1.5">"${e.substring(0,100)}${e.length>100?'...':''}"</div>`).join('')}
+              </div>`:''}
+
+              <!-- What's needed -->
+              ${hasGap?`<div style="padding:6px 9px;background:var(--rb);border-radius:6px;margin-bottom:5px">
+                <div style="font-size:9px;font-weight:700;color:var(--rt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">What you still need to show:</div>
+                <div style="font-size:10px;color:var(--rt);line-height:1.55">${pc.gap_notes}</div>
+              </div>`:''}
+
+              <!-- Follow-up question -->
+              ${hasFollowup?`<div style="padding:7px 9px;background:#EFF6FF;border:1px solid #93C5FD;border-radius:6px">
+                <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">🎙 Your trainer may ask:</div>
+                <div style="font-size:10px;font-style:italic;line-height:1.55;color:var(--text)">"${pc.followup}"</div>
+              </div>`:''}
+            </div>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  });
+
+  // Outstanding evidence the candidate needs to provide
+  const outstanding = (mapping.outstanding_evidence||[]);
+  if(outstanding.length){
+    html += `<div class="card" style="margin-bottom:8px">
+      <div class="ctitle">📋 Additional evidence to provide</div>
+      ${outstanding.map(e=>`<div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)">
+        <span style="font-size:14px;flex-shrink:0">📎</span>
+        <div><div style="font-size:11px;font-weight:500">${e.item}</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:2px">${e.reason}</div></div>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:var(--faint);flex-shrink:0;margin-left:auto">${e.pc_ref||''}</span>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  html += `<div style="display:flex;justify-content:space-between;margin-top:4px">
+    <button class="btn" onclick="go('evidence')">← Back</button>
+    <button class="btn btn-p" onclick="go('conversation')">Continue to competency conversation →</button>
+  </div>`;
+
+  root.innerHTML=html;
+}
+
+// ── COMPETENCY CONVERSATION — guided multi-turn dialogue ─────────────────────
+let _convQuestions=[], _convIdx=0, _convAudio=null, _convSpeaking=false;
+const MAX_TURNS = 4;
+
+function buildConvQuestions(){
+  const questions=[];
+  S.units.forEach(unit=>{
+    const mapping=S.progress.mapping;
+    let added=false;
+    if(mapping){
+      (mapping.elements||[]).forEach(el=>{
+        (el.pcs||[]).forEach(pc=>{
+          if((pc.verdict==='PARTIAL'||pc.verdict==='GAP')&&(pc.followup||pc.gap_notes)){
+            questions.push({
+              unit:unit.code, unitTitle:unit.title,
+              pc:pc.id, text:pc.followup||`Tell me about your experience with ${pc.criterion}`,
+              verdict:pc.verdict, pc_refs:[pc.id], element_ref:el.title,
+              benchmark_statement: pc.benchmark_statement||'',
+              analysis_prompt: pc.analysis_prompt||'',
+              gap_notes: pc.gap_notes||''
+            });
+            added=true;
+          }
+        });
+      });
+    }
+    if(!added){
+      (unit.knowledge_questions||[]).slice(0,6).forEach(q=>{
+        questions.push({
+          unit:unit.code, unitTitle:unit.title,
+          pc:q.pc_id||q.pc_refs?.[0]||'', text:q.text,
+          verdict:'QUESTION', pc_refs:q.pc_refs||[], element_ref:q.element_ref,
+          benchmark_statement:q.benchmark_statement||'',
+          analysis_prompt:q.analysis_prompt||'', gap_notes:''
+        });
+      });
+    }
+  });
+  return questions;
+}
+
+// ── Main view ─────────────────────────────────────────────────────────────────
+function viewConversation(root){
+  _convQuestions=buildConvQuestions();
+  _convIdx=0;
+  const records=S.progress.conversation_records||[];
+
+  if(!_convQuestions.length){
+    root.innerHTML=`<div class="card">
+      <div class="ctitle">🎙 Competency conversation</div>
+      <div class="hitl-box">No gap questions identified yet — complete the knowledge questions step and view your mapping results first.</div>
+      <div style="display:flex;gap:7px;margin-top:10px">
+        <button class="btn" onclick="go('evidence')">← Back</button>
+        <button class="btn btn-p" onclick="go('submit')">Skip to submit →</button>
+      </div>
+    </div>`;
+    return;
+  }
+
+  // Count complete conversations
+  const done = records.filter(r=>r.dialogue_complete).length;
+
+  root.innerHTML=`<div class="card" style="padding:0;overflow:hidden">
+    <!-- Top bar -->
+    <div style="background:var(--navy);padding:14px 16px;display:flex;align-items:center;justify-content:space-between">
+      <div>
+        <div style="font-size:14px;font-weight:500;color:#fff;margin-bottom:2px">🎙 Competency conversation</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.5)">${_convQuestions.length} topics · guided dialogue · up to ${MAX_TURNS} turns each</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;color:var(--green);font-weight:500">${done}/${_convQuestions.length} complete</div>
+        <div style="width:80px;height:4px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden;margin-top:3px">
+          <div style="width:${_convQuestions.length?Math.round(done/_convQuestions.length*100):0}%;height:100%;background:var(--green)"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question tabs -->
+    <div style="padding:8px 12px;background:var(--off);border-bottom:1px solid var(--border);display:flex;gap:4px;flex-wrap:wrap" id="conv-tabs"></div>
+
+    <!-- Active dialogue -->
+    <div id="conv-dialogue-area" style="padding:14px"></div>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;margin-top:10px">
+    <button class="btn" onclick="go('mapping')">← Back</button>
+    <button class="btn btn-p" onclick="markStepDone('conversation');go('submit')">Save &amp; continue →</button>
+  </div>`;
+
+  buildConvTabs();
+  openConvQuestion(0);
+}
+
+// ── Tab navigation ─────────────────────────────────────────────────────────────
+function buildConvTabs(){
+  const el=document.getElementById('conv-tabs');if(!el)return;
+  const records=S.progress.conversation_records||[];
+  el.innerHTML=_convQuestions.map((q,i)=>{
+    const rec=records.find(r=>r.pc===q.pc&&r.unit===q.unit);
+    const complete=rec?.dialogue_complete;
+    const active=i===_convIdx;
+    const isSat=rec?.final_judgement==='Satisfactory';
+    return `<button onclick="openConvQuestion(${i})"
+      style="padding:4px 10px;border-radius:14px;border:1.5px solid ${active?'var(--navy)':complete?(isSat?'var(--ma)':'var(--pa)'):'var(--border)'};
+      background:${active?'var(--navy)':complete?(isSat?'var(--mb)':'var(--pb)'):'#fff'};
+      color:${active?'#fff':complete?(isSat?'var(--mt)':'var(--pt)'):'var(--muted)'};
+      font-size:10px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:4px">
+      ${complete?(isSat?'✓':'~'):i+1}
+      <span style="font-family:'DM Mono',monospace">${q.unit} ${q.pc}</span>
+    </button>`;
+  }).join('');
+}
+
+// ── Open a question and render its dialogue ────────────────────────────────────
+function openConvQuestion(idx){
+  _convIdx=idx;
+  buildConvTabs();
+  const q=_convQuestions[idx];
+  const records=S.progress.conversation_records||[];
+  const rec=records.find(r=>r.pc===q.pc&&r.unit===q.unit)||null;
+  const area=document.getElementById('conv-dialogue-area');if(!area)return;
+
+  const isComplete=rec?.dialogue_complete;
+
+  area.innerHTML=`
+    <!-- Question context card -->
+    <div style="background:var(--navy);border-radius:10px;padding:12px 14px;margin-bottom:12px;display:flex;align-items:flex-start;gap:10px">
+      <div style="width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${idx+1}</div>
+      <div style="flex:1">
+        <div style="font-size:9px;font-family:'DM Mono',monospace;color:rgba(255,255,255,.5);margin-bottom:4px">${q.unit} · ${q.pc}${q.verdict&&q.verdict!=='QUESTION'?' · '+q.verdict:''}</div>
+        <div style="font-size:13px;font-weight:500;color:#fff;line-height:1.5;margin-bottom:6px">${q.text}</div>
+        ${q.benchmark_statement?`<div style="font-size:10px;color:rgba(255,255,255,.5);line-height:1.5">To meet this: <em>${q.benchmark_statement}</em></div>`:''}
+      </div>
+      <button id="tts-q-btn" data-speak-text="Q_TEXT_PLACEHOLDER"
+        onclick="speakConvFromBtn(this,'tts-q-btn')"
+        style="flex-shrink:0;padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;font-size:10px;cursor:pointer">
+        🔊
+      </button>
+    </div>
+
+    <!-- Dialogue bubbles -->
+    <div id="conv-bubbles" style="margin-bottom:10px"></div>
+
+    <!-- Input area (hidden if complete) -->
+    <div id="conv-input-area"></div>
+  `;
+
+  // Render existing dialogue
+  renderDialogueBubbles(rec);
+
+  // Render input or completion state
+  if(isComplete){
+    renderConvComplete(q, rec);
+  } else {
+    const turnNum = (rec?.dialogue||[]).filter(t=>t.role==='candidate').length + 1;
+    const lastFollowUp = rec?.last_follow_up || null;
+    renderConvInput(q, idx, turnNum, lastFollowUp, rec);
+  }
+
+  // Set TTS text on buttons (safe — no inline escaping needed)
+  setTimeout(()=>{
+    setTTSText('tts-q-btn', q.text);
+    if(!rec) speakConv(q.text,'tts-q-btn');
+  }, 100);
+}
+
+function escQ(s){ return s||''; }  // kept for compatibility
+
+function speakConvFromBtn(btn, btnId){
+  const text = btn.dataset.speakText || btn.dataset.speak_text || '';
+  if(text) speakConv(text, btnId);
+}
+
+function setTTSText(btnId, text){
+  const btn = document.getElementById(btnId);
+  if(btn) btn.dataset.speakText = text;
+}
+
+// ── Render chat bubbles ────────────────────────────────────────────────────────
+function renderDialogueBubbles(rec){
+  const el=document.getElementById('conv-bubbles');if(!el)return;
+  if(!rec||!(rec.dialogue||[]).length){el.innerHTML='';return;}
+
+  let html='';
+  rec.dialogue.forEach((turn,i)=>{
+    if(turn.role==='assessor'){
+      html+=`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px">
+        <div style="width:26px;height:26px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">AI</div>
+        <div style="background:var(--off);border:1px solid var(--border);border-radius:0 10px 10px 10px;padding:9px 11px;max-width:85%">
+          <div style="font-size:11px;line-height:1.6;color:var(--text)">${turn.content}</div>
+          ${turn.encouragement?`<div style="font-size:10px;color:var(--mt);margin-top:4px;font-style:italic">${turn.encouragement}</div>`:''}
+        </div>
+      </div>`;
+    } else if(turn.role==='candidate'){
+      const a=turn.analysis;
+      const pct=a?Math.round((a.confidence||0)*100):null;
+      const col=!a?'var(--muted)':pct>=70?'var(--mt)':pct>=50?'var(--pt)':'var(--rt)';
+      html+=`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;flex-direction:row-reverse">
+        <div style="width:26px;height:26px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">${(S.candidate.name||'?')[0].toUpperCase()}</div>
+        <div style="max-width:85%">
+          <div style="background:#fff;border:1px solid var(--border);border-radius:10px 0 10px 10px;padding:9px 11px;margin-bottom:4px">
+            <div style="font-size:11px;line-height:1.6;color:var(--text)">${turn.content}</div>
+          </div>
+          ${pct!==null?`<div style="display:flex;align-items:center;gap:5px;justify-content:flex-end">
+            <div style="width:60px;height:4px;background:var(--border);border-radius:2px;overflow:hidden">
+              <div style="width:${pct}%;height:100%;background:${col}"></div>
+            </div>
+            <span style="font-size:10px;font-weight:500;color:${col}">${pct}%</span>
+            ${a.judgement?`<span style="padding:1px 6px;border-radius:9px;font-size:9px;font-weight:600;background:${pct>=70?'var(--mb)':'var(--pb)'};color:${pct>=70?'var(--mt)':'var(--pt)'}">${a.judgement}</span>`:''}
+          </div>`:''}
+          ${a&&a.what_was_demonstrated?.length?`<div style="font-size:9px;color:var(--mt);margin-top:3px;text-align:right">✓ ${a.what_was_demonstrated[0]?.substring(0,70)}</div>`:''}
+        </div>
+      </div>`;
+    }
+  });
+  el.innerHTML=html;
+}
+
+// ── Input area ────────────────────────────────────────────────────────────────
+function renderConvInput(q, idx, turnNum, followUpQuestion, rec){
+  const el=document.getElementById('conv-input-area');if(!el)return;
+  const promptQ = followUpQuestion || q.text;
+  const isFollowUp = !!followUpQuestion;
+  const previousAnswers = (rec?.dialogue||[])
+    .filter(t=>t.role==='candidate')
+    .map(t=>t.content).join(' ');
+
+  el.innerHTML=`
+    ${isFollowUp?`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:10px">
+      <div style="width:26px;height:26px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">AI</div>
+      <div style="background:var(--ib);border:1px solid #93C5FD;border-radius:0 10px 10px 10px;padding:9px 11px;max-width:85%">
+        <div style="font-size:9px;font-weight:600;color:var(--it);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Follow-up question (turn ${turnNum} of ${MAX_TURNS})</div>
+        <div style="font-size:12px;font-weight:500;line-height:1.5;color:var(--text)">${followUpQuestion}</div>
+        <button id="fup-tts" data-speak-text="FUP_TEXT_PLACEHOLDER"
+          onclick="speakConvFromBtn(this,'fup-tts')"
+          style="margin-top:5px;padding:3px 8px;border-radius:5px;border:1px solid #93C5FD;background:#EFF6FF;color:var(--it);font-size:10px;cursor:pointer">🔊 Listen</button>
+      </div>
+    </div>`:''}
+
+    <div style="background:var(--off);border:1px solid var(--border);border-radius:10px;padding:12px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:7px">
+        <div style="font-size:10px;font-weight:500;color:var(--muted)">
+          ${isFollowUp?`Turn ${turnNum} of ${MAX_TURNS} — add to your previous answer`:'Your response'}
+        </div>
+        <div style="display:flex;align-items:center;gap:5px">
+          <button id="mic-btn" onclick="toggleMic()"
+            style="padding:4px 9px;border-radius:6px;border:1px solid var(--border);background:#fff;font-size:10px;cursor:pointer;display:flex;align-items:center;gap:4px">
+            🎤 <span id="mic-lbl">Voice</span>
+          </button>
+          <span id="mic-status" style="font-size:10px;color:var(--muted)"></span>
+        </div>
+      </div>
+
+      <textarea id="conv-ans" rows="4"
+        placeholder="${isFollowUp
+          ? 'Continue from where you left off — focus on what was just asked...'
+          : `Describe a specific situation at ${S.candidate.employer||'your workplace'} — what happened, what you did, and the outcome. Be as specific as possible.`}"
+        style="width:100%;border:1px solid var(--border);border-radius:7px;padding:8px 10px;font-size:12px;line-height:1.65;resize:vertical;margin-bottom:7px"></textarea>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px">
+        <div style="font-size:10px;color:var(--faint)">
+          <span id="conv-wc" style="font-weight:500">0</span> words
+          ${isFollowUp?'· Add at least 20 words':'· Aim for 50+ words'}
+        </div>
+        <div style="display:flex;gap:5px">
+          ${turnNum>1?`<button class="btn btn-sm" onclick="skipConvQuestion(${idx})">Skip question</button>`:''}
+          <button class="btn btn-p" id="conv-send-btn" onclick="sendConvTurn(${idx},${turnNum})"
+            style="padding:6px 14px;font-size:11px">
+            <span id="conv-send-lbl">Submit response</span>
+            <span id="conv-send-spin" class="spinner" style="display:none"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div style="font-size:10px;color:var(--muted);margin-top:6px;text-align:center">
+      ${turnNum<=1?'Your first response sets the context — more detail = stronger evidence':'Each response builds on the last. Address exactly what was asked.'}
+    </div>
+  `;
+
+  // Word counter
+  document.getElementById('conv-ans')?.addEventListener('input',e=>{
+    const n=e.target.value.trim().split(/\s+/).filter(w=>w).length;
+    const el=document.getElementById('conv-wc');
+    if(el){el.textContent=n;el.style.color=n>=50?'var(--mt)':n>=20?'var(--pt)':'var(--rt)';}
+  });
+}
+
+// ── Send a conversation turn ───────────────────────────────────────────────────
+async function sendConvTurn(idx, turnNum){
+  const ta=document.getElementById('conv-ans');
+  const answer=(ta?.value||'').trim();
+  const wc=answer.split(/\s+/).filter(w=>w).length;
+  if(wc<10){alert('Please provide a more detailed response — at least 10 words.');return;}
+
+  const btn=document.getElementById('conv-send-btn');
+  const lbl=document.getElementById('conv-send-lbl');
+  const spin=document.getElementById('conv-send-spin');
+  if(btn){btn.disabled=true;lbl.style.display='none';spin.style.display='inline-block';}
+
+  const q=_convQuestions[idx];
+
+  // Get or create record
+  if(!S.progress.conversation_records) S.progress.conversation_records=[];
+  let recIdx=S.progress.conversation_records.findIndex(r=>r.pc===q.pc&&r.unit===q.unit);
+  if(recIdx<0){
+    S.progress.conversation_records.push({
+      unit:q.unit, pc:q.pc, question:q.text,
+      benchmark_statement:q.benchmark_statement, analysis_prompt:q.analysis_prompt,
+      dialogue:[], dialogue_complete:false, final_judgement:null, final_confidence:0
+    });
+    recIdx=S.progress.conversation_records.length-1;
+  }
+  const rec=S.progress.conversation_records[recIdx];
+
+  // Add candidate turn to dialogue
+  rec.dialogue.push({role:'candidate', content:answer, turn:turnNum});
+  renderDialogueBubbles(rec);
+
+  // Call guided turn endpoint
+  let result=null;
+  try{
+    const r=await fetch('/api/conversation/guided-turn',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        unit_code:q.unit,
+        pc_id:q.pc,
+        benchmark_statement:q.benchmark_statement,
+        analysis_prompt:q.analysis_prompt,
+        dialogue_history:rec.dialogue,
+        latest_answer:answer,
+        turn_number:turnNum,
+        max_turns:MAX_TURNS,
+        assessment_id:S.assessmentId
+      })
+    });
+    result=await r.json();
+  }catch(e){console.warn('Guided turn error:',e);}
+
+  if(result){
+    // Store analysis on the candidate turn
+    rec.dialogue[rec.dialogue.length-1].analysis=result.turn_analysis;
+    rec.dialogue[rec.dialogue.length-1].encouragement=result.encouragement;
+
+    const cumulative=result.cumulative_analysis||{};
+    rec.final_judgement=cumulative.judgement;
+    rec.final_confidence=cumulative.confidence||0;
+
+    // Safety net: backend should already have set next_action correctly,
+    // but double-check client-side too
+    let action = result.next_action;
+    const conf = cumulative.confidence||0;
+    if(action==='SATISFIED' && conf < 0.65 && turnNum < MAX_TURNS){
+      action = 'FOLLOW_UP';  // override — not good enough yet
+    }
+    if(turnNum >= MAX_TURNS) action = 'MAX_TURNS_REACHED';
+
+    const isSatisfied = action==='SATISFIED' || action==='MAX_TURNS_REACHED';
+    const hasFollowUp = action==='FOLLOW_UP' && result.follow_up_question && turnNum<MAX_TURNS;
+
+    if(hasFollowUp){
+      // Add assessor follow-up to dialogue
+      rec.dialogue.push({
+        role:'assessor',
+        content:result.follow_up_question,
+        encouragement:result.encouragement,
+        turn:turnNum
+      });
+      rec.last_follow_up=result.follow_up_question;
+    }
+
+    if(isSatisfied || !hasFollowUp){
+      rec.dialogue_complete=true;
+      rec.last_follow_up=null;
+      // Add closing assessor message
+      if(result.transition_summary){
+        rec.dialogue.push({role:'assessor',content:result.transition_summary,turn:turnNum});
+      }
+    }
+
+    // Update record
+    S.progress.conversation_records[recIdx]=rec;
+    triggerSave();
+
+    // Re-render
+    renderDialogueBubbles(rec);
+
+    if(rec.dialogue_complete){
+      renderConvComplete(q, rec);
+      buildConvTabs();
+      // Speak completion message
+      if(result.transition_summary) setTimeout(()=>speakConv(result.transition_summary,'tts-q-btn'),400);
+      // Auto-advance to next unanswered
+      setTimeout(()=>autoAdvanceConv(idx),2500);
+    } else {
+      renderConvInput(q, idx, turnNum+1, result.follow_up_question, rec);
+      // Speak follow-up
+      if(result.follow_up_question) setTimeout(()=>{
+        setTTSText('fup-tts', result.follow_up_question);
+        speakConv(result.follow_up_question,'fup-tts');
+      },400);
+    }
+  }
+
+  if(btn){btn.disabled=false;lbl.style.display='inline';spin.style.display='none';}
+}
+
+// ── Completion state ───────────────────────────────────────────────────────────
+function renderConvComplete(q, rec){
+  const el=document.getElementById('conv-input-area');if(!el)return;
+  const isSat=rec?.final_judgement==='Satisfactory';
+  // Show actual confidence — if 0 it means result wasn't set, show N/A
+  const rawConf = rec?.final_confidence||0;
+  const pct = rawConf > 0 ? Math.round(rawConf*100) : null;
+  const turns=(rec?.dialogue||[]).filter(t=>t.role==='candidate').length;
+  const confDisplay = pct!==null ? pct+'%' : 'Pending review';
+
+  el.innerHTML=`<div style="padding:12px 14px;border-radius:10px;background:${isSat?'var(--mb)':'var(--pb)'};border:1px solid ${isSat?'var(--ma)':'var(--pa)'}">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+      <span style="font-size:18px">${isSat?'✓':'~'}</span>
+      <div>
+        <div style="font-size:12px;font-weight:500;color:${isSat?'var(--mt)':'var(--pt)'}">${isSat?'Good response — this topic is complete':'Response recorded — trainer will review'}</div>
+        <div style="font-size:10px;color:${isSat?'var(--mt)':'var(--pt)'}">Confidence: ${confDisplay} · ${turns} turn${turns!==1?'s':''}</div>
+      </div>
+    </div>
+    ${pct!==null?`<div style="display:flex;align-items:center;gap:6px;margin-top:5px">
+      <div style="flex:1;height:6px;background:rgba(0,0,0,.1);border-radius:3px;overflow:hidden">
+        <div style="width:${pct}%;height:100%;background:${isSat?'var(--green)':'var(--pa)'}"></div>
+      </div>
+      <span style="font-size:10px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">${pct}%</span>
+    </div>`:''}
+    <button class="btn btn-sm" style="margin-top:8px" onclick="openConvQuestion(${_convIdx})">Review dialogue</button>
+  </div>`;
+}
+
+function autoAdvanceConv(completedIdx){
+  const records=S.progress.conversation_records||[];
+  for(let i=completedIdx+1;i<_convQuestions.length;i++){
+    const q=_convQuestions[i];
+    const rec=records.find(r=>r.pc===q.pc&&r.unit===q.unit);
+    if(!rec||!rec.dialogue_complete){openConvQuestion(i);return;}
+  }
+}
+
+function skipConvQuestion(idx){
+  if(!confirm('Skip this question? It will be marked as incomplete for your trainer to review.'))return;
+  const q=_convQuestions[idx];
+  if(!S.progress.conversation_records) S.progress.conversation_records=[];
+  let rec=S.progress.conversation_records.find(r=>r.pc===q.pc&&r.unit===q.unit);
+  if(!rec){
+    S.progress.conversation_records.push({unit:q.unit,pc:q.pc,question:q.text,
+      benchmark_statement:q.benchmark_statement,dialogue:[],dialogue_complete:true,
+      final_judgement:'Skipped',final_confidence:0});
+  } else {
+    rec.dialogue_complete=true;rec.final_judgement='Skipped';
+  }
+  triggerSave();
+  buildConvTabs();
+  autoAdvanceConv(idx);
+}
+
+// ── TTS ────────────────────────────────────────────────────────────────────────
+async function speakConv(text, btnId){
+  const btn=document.getElementById(btnId);
+  if(_convSpeaking){
+    _convSpeaking=false;
+    if(btn)btn.innerHTML=btn.innerHTML.replace(/⏹.*/,'🔊 Listen');
+    return;
+  }
+  if(btn){const orig=btn.innerHTML;btn.innerHTML='⏹ Stop';btn._orig=orig;}
+  _convSpeaking=true;
+  try{
+    const r=await fetch('/api/tts',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({text,voice:'Puck',speaking_rate:0.93})});
+    const d=await r.json();
+    const bytes=atob(d.audioContent);
+    const buf=new Uint8Array(bytes.length);
+    for(let i=0;i<bytes.length;i++) buf[i]=bytes.charCodeAt(i);
+    const ctx=new (window.AudioContext||window.webkitAudioContext)();
+    const ab=await ctx.decodeAudioData(new Uint8Array(bytes.length).buffer);
+    // Use blob approach for broader compatibility
+    const blob=new Blob([buf],{type:'audio/mpeg'});
+    const url=URL.createObjectURL(blob);
+    const audio=new Audio(url);
+    audio.onended=()=>{_convSpeaking=false;if(btn)btn.innerHTML=btn._orig||'🔊 Listen';};
+    audio.onerror=()=>{_convSpeaking=false;if(btn)btn.innerHTML=btn._orig||'🔊 Listen';};
+    await audio.play();
+  }catch(e){
+    _convSpeaking=false;
+    if(btn)btn.innerHTML=btn._orig||'🔊 Listen';
+    console.warn('TTS:',e.message);
+  }
+}
+
+// ── Microphone ────────────────────────────────────────────────────────────────
+let _recognition=null;
+function toggleMic(){
+  const btn=document.getElementById('mic-btn');
+  const lbl=document.getElementById('mic-lbl');
+  const status=document.getElementById('mic-status');
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR){alert('Voice input is not supported in this browser. Please use Chrome or Edge.');return;}
+  if(_recognition){
+    _recognition.stop();_recognition=null;
+    if(lbl)lbl.textContent='Voice';
+    if(btn){btn.style.borderColor='';btn.style.color='';}
+    if(status)status.textContent='';
+    return;
+  }
+  _recognition=new SR();
+  _recognition.continuous=true;_recognition.interimResults=true;_recognition.lang='en-AU';
+  _recognition.onstart=()=>{
+    if(lbl)lbl.textContent='Stop';
+    if(btn){btn.style.borderColor='var(--ra)';btn.style.color='var(--rt)';}
+    if(status)status.textContent='Listening...';
+  };
+  _recognition.onresult=(e)=>{
+    let t='';
+    for(let i=e.resultIndex;i<e.results.length;i++) t+=e.results[i][0].transcript;
+    const ta=document.getElementById('conv-ans');
+    if(ta){
+      ta.value=t;
+      const n=t.trim().split(/\s+/).filter(w=>w).length;
+      const wcel=document.getElementById('conv-wc');
+      if(wcel){wcel.textContent=n;wcel.style.color=n>=50?'var(--mt)':n>=20?'var(--pt)':'var(--rt)';}
+    }
+  };
+  _recognition.onerror=()=>{_recognition=null;if(lbl)lbl.textContent='Voice';if(status)status.textContent='';};
+  _recognition.onend=()=>{_recognition=null;if(lbl)lbl.textContent='Voice';if(status)status.textContent='';if(btn){btn.style.borderColor='';btn.style.color='';}};
+  _recognition.start();
+}
+
+// ── PRIVACY & DATA VIEW — APP 12 candidate data access ───────────────────────
+async function viewPrivacy(root){
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">🔒 My data &amp; privacy</div>
+    <div class="csub">You have the right to see all information we hold about you, and to request corrections or anonymisation after your assessment is complete.</div>
+    <div id="privacy-loading" style="text-align:center;padding:20px;color:var(--muted);font-size:12px">
+      <span class="spinner spinner-d"></span> Loading your data...
+    </div>
+  </div>`;
+
+  try{
+    const r = await fetch(`${API}/candidate/my-data/${TOKEN}`);
+    const d = await r.json();
+    const yd = d.your_data||{};
+    const pi = yd.personal_information||{};
+    const ai_info = yd.assessment_information||{};
+    const resp = yd.responses_provided||{};
+    const dh = yd.data_handling||{};
+    const rights = d.your_rights||{};
+
+    root.innerHTML=`<div>
+      <div class="card" style="border-top:4px solid var(--navy);margin-bottom:8px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+          <div style="width:32px;height:32px;background:var(--navy);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff">🔒</div>
+          <div>
+            <div style="font-size:13px;font-weight:500">Your data &amp; privacy</div>
+            <div style="font-size:10px;color:var(--muted)">Privacy Act 1988 (Cth) — Australian Privacy Principles</div>
+          </div>
+        </div>
+
+        <!-- Personal information -->
+        <div style="margin-bottom:12px">
+          <div style="font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">Personal information we hold</div>
+          <div style="border:1px solid var(--border);border-radius:8px;overflow:hidden">
+            ${Object.entries(pi).filter(([k,v])=>v).map(([k,v])=>`
+              <div style="display:flex;padding:8px 12px;border-bottom:1px solid var(--border)">
+                <div style="font-size:11px;font-weight:500;color:var(--muted);width:140px;flex-shrink:0;text-transform:capitalize">${k.replace(/_/g,' ')}</div>
+                <div style="font-size:11px">${v}</div>
+              </div>`).join('')}
+          </div>
+        </div>
+
+        <!-- Assessment info -->
+        <div style="margin-bottom:12px">
+          <div style="font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">Assessment record</div>
+          <div style="border:1px solid var(--border);border-radius:8px;overflow:hidden">
+            ${Object.entries(ai_info).filter(([k,v])=>v&&k!=='note').map(([k,v])=>`
+              <div style="display:flex;padding:8px 12px;border-bottom:1px solid var(--border)">
+                <div style="font-size:11px;font-weight:500;color:var(--muted);width:140px;flex-shrink:0;text-transform:capitalize">${k.replace(/_/g,' ')}</div>
+                <div style="font-size:11px">${Array.isArray(v)?v.join(', '):v}</div>
+              </div>`).join('')}
+          </div>
+        </div>
+
+        <!-- Responses provided -->
+        <div style="margin-bottom:12px">
+          <div style="font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">Responses &amp; documents provided</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+            ${[
+              ['Self-assessment checklist', resp.self_assessment_checklist],
+              ['Knowledge responses', resp.knowledge_responses],
+              ['Conversation records', resp.conversation_records>0 ? resp.conversation_records+' recorded' : false],
+              ['Documents uploaded', (resp.documents_uploaded||[]).length>0 ? resp.documents_uploaded.join(', ') : false],
+            ].map(([lbl,val])=>val?`<div style="padding:7px 10px;background:var(--mb);border-radius:7px;border:1px solid var(--ma)">
+              <div style="font-size:9px;font-weight:600;color:var(--mt);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">${lbl}</div>
+              <div style="font-size:10px;color:var(--mt)">${val===true?'Provided':val}</div>
+            </div>`:`<div style="padding:7px 10px;background:var(--off);border-radius:7px;border:1px solid var(--border)">
+              <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px">${lbl}</div>
+              <div style="font-size:10px;color:var(--faint)">Not yet provided</div>
+            </div>`).join('')}
+          </div>
+        </div>
+
+        <!-- Data handling -->
+        <div style="margin-bottom:12px">
+          <div style="font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">How your data is handled</div>
+          ${Object.entries(dh).map(([k,v])=>`<div style="padding:7px 10px;background:var(--ib);border-radius:7px;margin-bottom:4px;display:flex;gap:8px">
+            <div style="font-size:11px;font-weight:500;width:130px;flex-shrink:0;text-transform:capitalize;color:var(--it)">${k.replace(/_/g,' ')}</div>
+            <div style="font-size:11px;color:var(--text)">${v}</div>
+          </div>`).join('')}
+        </div>
+
+        <!-- Rights -->
+        <div style="padding:10px 12px;background:var(--off);border:1px solid var(--border);border-radius:8px;margin-bottom:14px">
+          <div style="font-size:11px;font-weight:600;margin-bottom:6px">Your rights</div>
+          ${Object.entries(rights).map(([k,v])=>`<div style="font-size:10px;line-height:1.65;padding:3px 0;border-bottom:1px solid var(--border);display:flex;gap:7px">
+            <strong style="text-transform:capitalize;min-width:80px">${k}:</strong>
+            <span style="color:var(--muted)">${v}</span>
+          </div>`).join('')}
+        </div>
+
+        <!-- Anonymisation -->
+        <div style="padding:10px 12px;background:var(--rb);border:1px solid var(--ra);border-radius:8px">
+          <div style="font-size:11px;font-weight:600;color:var(--rt);margin-bottom:4px">Request anonymisation</div>
+          <div style="font-size:10px;color:var(--rt);line-height:1.65;margin-bottom:8px">
+            After your assessment is complete, you can request that your identifying information (name, email, employer) be replaced with a pseudonym.
+            Your competency outcome and audit trail are retained as required by ASQA.
+          </div>
+          <button id="anon-btn" class="btn btn-sm"
+            style="border-color:var(--ra);color:var(--rt)"
+            onclick="requestAnonymisation()">
+            Request anonymisation
+          </button>
+          <div id="anon-result" style="margin-top:7px"></div>
+        </div>
+
+        <div style="font-size:9px;color:var(--faint);text-align:center;margin-top:12px">
+          Generated at ${new Date(d.generated_at||Date.now()).toLocaleString('en-AU')} ·
+          Notice v1.0 · <a href="https://www.oaic.gov.au" target="_blank" rel="noopener" style="color:var(--faint)">OAIC</a>
+        </div>
+      </div>
+    </div>`;
+
+  }catch(e){
+    root.innerHTML=`<div class="card">
+      <div class="ctitle">🔒 My data &amp; privacy</div>
+      <div style="color:var(--rt);font-size:12px">Could not load data: ${e.message}</div>
+    </div>`;
+  }
+}
+
+async function requestAnonymisation(){
+  const btn = document.getElementById('anon-btn');
+  const res = document.getElementById('anon-result');
+  if(!btn||!res) return;
+
+  if(!confirm(
+    'Request anonymisation of your identifying information?\n\n' +
+    'Your name, email, and employer will be replaced with a pseudonym.\n' +
+    'Your competency outcome and assessment records will be kept as required by ASQA.\n\n' +
+    'This cannot be undone.'
+  )) return;
+
+  btn.disabled=true; btn.textContent='Requesting...';
+  try{
+    const r = await fetch(`${API}/candidate/anonymise/${TOKEN}`,{method:'POST'});
+    const d = await r.json();
+    if(d.anonymised){
+      res.innerHTML=`<div style="padding:8px 10px;background:var(--mb);border-radius:6px;font-size:11px;color:var(--mt)">
+        ✓ Anonymisation complete. Your records now use the pseudonym: <strong>${d.pseudonym}</strong>
+      </div>`;
+      btn.style.display='none';
+    }else{
+      res.innerHTML=`<div style="padding:8px 10px;background:var(--rb);border-radius:6px;font-size:11px;color:var(--rt)">${d.detail||'Anonymisation not available yet — complete your assessment first.'}</div>`;
+      btn.disabled=false; btn.textContent='Request anonymisation';
+    }
+  }catch(e){
+    res.innerHTML=`<div style="font-size:11px;color:var(--rt)">${e.message}</div>`;
+    btn.disabled=false; btn.textContent='Request anonymisation';
+  }
+}
+
+function viewSubmit(root){
+  const done=S.progress.completed_steps||[];
+  const steps=['checklist','resume','position','knowledge','evidence'];
+  const allDone=steps.every(s=>done.includes(s));
+  const missing=steps.filter(s=>!done.includes(s));
+  root.innerHTML=`<div class="card">
+    <div class="ctitle">Submit your RPL</div>
+    <div class="csub">Once you submit, your trainer ${S.trainerName||''} will be notified and will review your assessment. You can still view your responses after submitting.</div>
+    <div style="margin-bottom:14px">
+      <div style="font-size:11px;font-weight:600;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.4px">Step completion</div>
+      ${steps.map(s=>`<div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)">
+        <div style="width:16px;height:16px;border-radius:50%;background:${done.includes(s)?'var(--green)':'var(--border)'};display:flex;align-items:center;justify-content:center;font-size:9px;color:#fff">${done.includes(s)?'✓':''}</div>
+        <span style="font-size:12px;text-transform:capitalize;flex:1">${s.replace(/_/g,' ')}</span>
+        ${done.includes(s)?'<span class="chip chip-g">Done</span>':
+          `<button class="btn" style="font-size:10px;padding:3px 9px" onclick="go('${s}')">Complete now</button>`}
+      </div>`).join('')}
+    </div>
+    ${!allDone?`<div style="background:var(--pb);border:1px solid var(--pa);border-radius:8px;padding:10px 13px;font-size:11px;color:var(--pt);margin-bottom:12px">
+      <strong>Please complete these steps before submitting:</strong> ${missing.map(s=>s.replace(/_/g,' ')).join(', ')}
+    </div>`:''}
+    <div class="submit-banner">
+      <div style="font-size:14px;font-weight:500;color:var(--mt);margin-bottom:6px">${allDone?'Ready to submit!':'Almost there...'}</div>
+      <div style="font-size:12px;color:var(--mt);margin-bottom:12px">${allDone?'All steps are complete. Click below to submit your RPL to your trainer for review.':'Complete all steps above to unlock submission.'}</div>
+      <button class="btn btn-g" id="submit-btn" onclick="submitRPL()" ${allDone?'':'disabled'} style="font-size:13px;padding:10px 24px">
+        <span id="submit-lbl">Submit RPL to trainer</span>
+        <span id="submit-spin" class="spinner" style="display:none"></span>
+      </button>
+    </div>
+  </div>`;
+}
+
+async function submitRPL(){
+  const btn=document.getElementById('submit-btn');
+  const lbl=document.getElementById('submit-lbl');
+  const spin=document.getElementById('submit-spin');
+  btn.disabled=true;lbl.style.display='none';spin.style.display='inline-block';
+  // Final progress save first
+  await doSave();
+  try {
+    const r=await fetch(`${API}/student/submit/${S.assessmentId}`,{method:'POST'});
+    const d=await r.json();
+    document.getElementById('root').innerHTML=`<div class="card" style="text-align:center;padding:40px">
+      <div style="font-size:44px;margin-bottom:14px">✓</div>
+      <div style="font-size:16px;font-weight:500;margin-bottom:8px;color:var(--mt)">RPL submitted successfully</div>
+      <div style="font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.7">${d.message||'Your trainer has been notified and will review your submission.'}</div>
+      <div style="background:var(--mb);border-radius:10px;padding:14px;font-size:12px;color:var(--mt);line-height:1.65;text-align:left">
+        <strong>What happens next:</strong><br>
+        Your trainer ${S.trainerName||''} will review your responses and the mapping report.<br>
+        They may contact you to schedule a competency conversation or request additional evidence.<br>
+        You will receive a formal determination in writing.
+      </div>
+    </div>`;
+  } catch(e){
+    btn.disabled=false;lbl.style.display='inline';spin.style.display='none';
+    alert('Submission error: '+e.message);
+  }
+}
+</script>
+</body>
+</html>

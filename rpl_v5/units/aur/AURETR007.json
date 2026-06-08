@@ -1,0 +1,263 @@
+{
+  "code": "AURETR007",
+  "title": "Apply knowledge of automotive electrical circuits and wiring systems",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply knowledge of automotive electrical circuits and wiring systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify relevant information of electrical circuit and wiring system construction and operation in work activities",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities?",
+          "benchmark_statement": "The candidate demonstrates that they can Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify relevant information of electrical circuit and wiring system construction and operation in work activities"
+    },
+    {
+      "id": "E2",
+      "title": "Apply relevant information of electrical circuit and wiring system construction and operation in work activities",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Apply relevant information of electrical circuit and wiring system construction and operation in work activities"
+    },
+    {
+      "id": "E3",
+      "title": "Evaluate knowledge of electrical circuit and wiring systems",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role?",
+          "benchmark_statement": "The candidate demonstrates that they can Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Evaluate knowledge of electrical circuit and wiring systems"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify relevant information of electrical circuit and wiring system construction and operation in work activities",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to components of circuit are identified during testing and repair activities1.2 functions of circuit components are identified during testing and repair activities1.3 relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Components of circuit are identified du",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to components of circuit are identified during testing and repair activities1.2 functions of circuit components are identified during testing and repair activities1.3 relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities?",
+      "practical_task_interpretation": "In practice this requires the worker to components of circuit are identified during testing and repair activities1.2 functions of circuit components are identified during testing and repair activities1.3 relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities",
+      "knowledge_focus": [
+        "Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities"
+      ],
+      "workplace_context_examples": [
+        "Identify relevant information of electrical circuit and wiring system construction and operation in work activities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of components of circuit are identified during testing and repair activities1.2 functions of circuit components are identified during testing and repair activities1.3 relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of components of circuit are identified during testing and repair activities1.2 functions of circuit components are identified during testing and repair activities1.3 relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Components of circuit are identified during testing and repair activities1.2 Functions of circuit components are identified during testing and repair activities1.3 Relationships between circuit components, including the effects of testing and repair activities on other electrical circuits, are identified during repair activities."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Apply relevant information of electrical circuit and wiring system construction and operation in work activities",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 basic electrical principles are used during fault finding procedures2.3 knowledge of basic testing procedures is used when using electrical test equipment? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Knowledge of electrical circuit constru",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 basic electrical principles are used during fault finding procedures2.3 knowledge of basic testing procedures is used when using electrical test equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 basic electrical principles are used during fault finding procedures2.3 knowledge of basic testing procedures is used when using electrical test equipment",
+      "knowledge_focus": [
+        "Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment"
+      ],
+      "workplace_context_examples": [
+        "Apply relevant information of electrical circuit and wiring system construction and operation in work activities"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 basic electrical principles are used during fault finding procedures2.3 knowledge of basic testing procedures is used when using electrical test equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 basic electrical principles are used during fault finding procedures2.3 knowledge of basic testing procedures is used when using electrical test equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Knowledge of electrical circuit construction and operation is used during testing or repair activities to carry out work according to manufacturer specifications and workplace procedures2.2 Basic electrical principles are used during fault finding procedures2.3 Knowledge of basic testing procedures is used when using electrical test equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Evaluate knowledge of electrical circuit and wiring systems",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 knowledge is updated as required to complement own work role?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Knowledge is regularly checked with col",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 knowledge is updated as required to complement own work role",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role?",
+      "practical_task_interpretation": "In practice this requires the worker to knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 knowledge is updated as required to complement own work role",
+      "knowledge_focus": [
+        "Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role"
+      ],
+      "workplace_context_examples": [
+        "Evaluate knowledge of electrical circuit and wiring systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 knowledge is updated as required to complement own work role"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 knowledge is updated as required to complement own work role"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Knowledge is regularly checked with colleagues and supervisor to ensure currency and accuracy3.2 Knowledge is updated as required to complement own work role."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.743283+00:00"
+}

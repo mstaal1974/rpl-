@@ -1,0 +1,335 @@
+{
+  "code": "AURETR128",
+  "title": "Diagnose and repair instruments and warning systems",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Diagnose and repair instruments and warning systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to diagnose and repair instruments and warning system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to diagnose and repair instruments and warning system"
+    },
+    {
+      "id": "E2",
+      "title": "Diagnose instruments and warning system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Diagnose instruments and warning system"
+    },
+    {
+      "id": "E3",
+      "title": "Repair instruments and warning system",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Repair instruments and warning system"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to diagnose and repair instruments and warning system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify job requirements from workplace instructions 1.2 identify required information for diagnosis activity 1.3 analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify job requirements from workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify job requirements from workplace instructions 1.2 identify required information for diagnosis activity 1.3 analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify job requirements from workplace instructions 1.2 identify required information for diagnosis activity 1.3 analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures",
+      "knowledge_focus": [
+        "Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare to diagnose and repair instruments and warning system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify job requirements from workplace instructions 1.2 identify required information for diagnosis activity 1.3 analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify job requirements from workplace instructions 1.2 identify required information for diagnosis activity 1.3 analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify job requirements from workplace instructions 1.2 Identify required information for diagnosis activity 1.3 Analyse diagnostic options and source testing strategy to identify cause of fault using workplace and manufacturer procedures 1.4 Identify hazards and environmental issues associated with diagnose and repair activity, assess potential risks and implement control measures in line with workplace policies and procedures 1.5 Identify tools and equipment required for testing strategy and establish serviceability according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Diagnose instruments and warning system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 identify cause of fault through analysis of diagnostic test results2.3 confirm and report cause of fault according to workplace procedures2.4 develop and report recommendations for necessary repairs according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Implement diagnostic tests set out in t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 identify cause of fault through analysis of diagnostic test results2.3 confirm and report cause of fault according to workplace procedures2.4 develop and report recommendations for necessary repairs according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 identify cause of fault through analysis of diagnostic test results2.3 confirm and report cause of fault according to workplace procedures2.4 develop and report recommendations for necessary repairs according to workplace procedures",
+      "knowledge_focus": [
+        "Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Diagnose instruments and warning system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 identify cause of fault through analysis of diagnostic test results2.3 confirm and report cause of fault according to workplace procedures2.4 develop and report recommendations for necessary repairs according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 identify cause of fault through analysis of diagnostic test results2.3 confirm and report cause of fault according to workplace procedures2.4 develop and report recommendations for necessary repairs according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Implement diagnostic tests set out in testing strategy according to manufacturer and workplace procedures, and workplace health and safety requirements2.2 Identify cause of fault through analysis of diagnostic test results2.3 Confirm and report cause of fault according to workplace procedures2.4 Develop and report recommendations for necessary repairs according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Repair instruments and warning system",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify required information for repair activity 3.2 identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify required information for repai",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify required information for repair activity 3.2 identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify required information for repair activity 3.2 identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements",
+      "knowledge_focus": [
+        "Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements"
+      ],
+      "workplace_context_examples": [
+        "Repair instruments and warning system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify required information for repair activity 3.2 identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify required information for repair activity 3.2 identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify required information for repair activity 3.2 Identify required repair tools, equipment and materials required for repair activity and establish serviceability according to workplace procedures 3.3 Carry out repairs according to workplace and manufacturer procedures, manufacturer specifications, workplace health and safety and environmental requirements3.4 Carry out post-repair testing according to workplace procedures, workplace health and safety and environmental requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use 4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.771577+00:00"
+}

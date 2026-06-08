@@ -1,0 +1,587 @@
+{
+  "code": "AMPLSK207",
+  "title": "Identify animals using electronic or other systems",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify animals using electronic or other systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to use electronic or other identification systems",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify the purpose for identification of individual animals",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the purpose for identification of individual animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the purpose for identification of individual animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify and follow start-up procedures for electronic readers or other systems",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow start-up procedures for electronic readers or other systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and follow start-up procedures for electronic readers or other systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify the consequences of incorrect identification of animals",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the consequences of incorrect identification of animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the consequences of incorrect identification of animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to use electronic or other identification systems"
+    },
+    {
+      "id": "E2",
+      "title": "Identify animals using systems",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Operate the identification and recording system according to work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate the identification and recording system according to work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate the identification and recording system according to work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Report any malfunctions of equipment and/or errors in identification to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any malfunctions of equipment and/or errors in identification to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Report any malfunctions of equipment and/or errors in identification to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify animals using systems"
+    },
+    {
+      "id": "E3",
+      "title": "Clean and monitor identification system equipment",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean identification equipment",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean identification equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean identification equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Undertake routine maintenance of equipment, following workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Undertake routine maintenance of equipment, following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Undertake routine maintenance of equipment, following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean and monitor identification system equipment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to use electronic or other identification systems",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify the purpose for identification of individual animals?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the purpose for identification",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the purpose for identification of individual animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the purpose for identification of individual animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the purpose for identification of individual animals?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the purpose for identification of individual animals",
+      "knowledge_focus": [
+        "Identify the purpose for identification of individual animals"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use electronic or other identification systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the purpose for identification of individual animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the purpose for identification of individual animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the purpose for identification of individual animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to use electronic or other identification systems",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify and follow start-up procedures for electronic readers or other systems?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and follow start-up procedures",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and follow start-up procedures for electronic readers or other systems",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and follow start-up procedures for electronic readers or other systems.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow start-up procedures for electronic readers or other systems?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and follow start-up procedures for electronic readers or other systems",
+      "knowledge_focus": [
+        "Identify and follow start-up procedures for electronic readers or other systems"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use electronic or other identification systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and follow start-up procedures for electronic readers or other systems"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and follow start-up procedures for electronic readers or other systems"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and follow start-up procedures for electronic readers or other systems."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to use electronic or other identification systems",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify the consequences of incorrect identification of animals?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the consequences of incorrect ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the consequences of incorrect identification of animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the consequences of incorrect identification of animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the consequences of incorrect identification of animals?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the consequences of incorrect identification of animals",
+      "knowledge_focus": [
+        "Identify the consequences of incorrect identification of animals"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use electronic or other identification systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the consequences of incorrect identification of animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the consequences of incorrect identification of animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the consequences of incorrect identification of animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify animals using systems",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you operate the identification and recording system according to work instructions, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate the identification and recordin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate the identification and recording system according to work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate the identification and recording system according to work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate the identification and recording system according to work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to operate the identification and recording system according to work instructions",
+      "knowledge_focus": [
+        "Operate the identification and recording system according to work instructions"
+      ],
+      "workplace_context_examples": [
+        "Identify animals using systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate the identification and recording system according to work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate the identification and recording system according to work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate the identification and recording system according to work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify animals using systems",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify animals electronically by scan",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos?",
+      "practical_task_interpretation": "In practice this requires the worker to identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos",
+      "knowledge_focus": [
+        "Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos"
+      ],
+      "workplace_context_examples": [
+        "Identify animals using systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify animals electronically by scanning stock or carcasses, or by reading and recording tattoos."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Identify animals using systems",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you report any malfunctions of equipment and/or errors in identification to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report any malfunctions of equipment an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report any malfunctions of equipment and/or errors in identification to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Report any malfunctions of equipment and/or errors in identification to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any malfunctions of equipment and/or errors in identification to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to report any malfunctions of equipment and/or errors in identification to supervisor",
+      "knowledge_focus": [
+        "Report any malfunctions of equipment and/or errors in identification to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Identify animals using systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report any malfunctions of equipment and/or errors in identification to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report any malfunctions of equipment and/or errors in identification to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report any malfunctions of equipment and/or errors in identification to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Clean and monitor identification system equipment",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to clean identification equipment? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean identification equipment.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean identification equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean identification equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean identification equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to clean identification equipment",
+      "knowledge_focus": [
+        "Clean identification equipment"
+      ],
+      "workplace_context_examples": [
+        "Clean and monitor identification system equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean identification equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean identification equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean identification equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Clean and monitor identification system equipment",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to undertake routine maintenance of equipment, following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Undertake routine maintenance of equipm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to undertake routine maintenance of equipment, following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Undertake routine maintenance of equipment, following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Undertake routine maintenance of equipment, following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to undertake routine maintenance of equipment, following workplace requirements",
+      "knowledge_focus": [
+        "Undertake routine maintenance of equipment, following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean and monitor identification system equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of undertake routine maintenance of equipment, following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of undertake routine maintenance of equipment, following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Undertake routine maintenance of equipment, following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.032636+00:00"
+}

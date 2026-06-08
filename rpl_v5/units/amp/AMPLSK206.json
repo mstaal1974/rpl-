@@ -1,0 +1,690 @@
+{
+  "code": "AMPLSK206",
+  "title": "Unload animals",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Unload animals demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to unload animals",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instructions, animal welfare requirements and work health and safety requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions, animal welfare requirements and work health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instructions, animal welfare requirements and work health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify facilities and equipment required for task, and confirm with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify facilities and equipment required for task, and confirm with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify facilities and equipment required for task, and confirm with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Check the work site, facilities and equipment for hazards",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the work site, facilities and equipment for hazards?",
+          "benchmark_statement": "The candidate demonstrates that they can Check the work site, facilities and equipment for hazards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Carry out or report repairs and maintenance of facilities and equipment required for the unloading of animals",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out or report repairs and maintenance of facilities and equipment required for the unloading of animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out or report repairs and maintenance of facilities and equipment required for the unloading of animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Select and wear appropriate personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and wear appropriate personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and wear appropriate personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to unload animals"
+    },
+    {
+      "id": "E2",
+      "title": "Unload animals",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify, count and record animals following workplace guidelines",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, count and record animals following workplace guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify, count and record animals following workplace guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Ensure documentation is passed on to supervisor according to workplace and transporter requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure documentation is passed on to supervisor according to workplace and transporter requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure documentation is passed on to supervisor according to workplace and transporter requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Unload animals"
+    },
+    {
+      "id": "E3",
+      "title": "Perform appropriate animal health procedures",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Sort animals according to workplace and regulatory requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort animals according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Sort animals according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Identify and separate sick or injured animals",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and separate sick or injured animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and separate sick or injured animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Perform animal health treatments as instructed and where required",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform animal health treatments as instructed and where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform animal health treatments as instructed and where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Feed and water animals following workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Feed and water animals following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Feed and water animals following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Perform appropriate animal health procedures"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to unload animals",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instructions, animal welfare requirements and work health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instructions, animal welf",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instructions, animal welfare requirements and work health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instructions, animal welfare requirements and work health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions, animal welfare requirements and work health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instructions, animal welfare requirements and work health and safety requirements",
+      "knowledge_focus": [
+        "Identify work instructions, animal welfare requirements and work health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare to unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instructions, animal welfare requirements and work health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instructions, animal welfare requirements and work health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instructions, animal welfare requirements and work health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to unload animals",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to identify facilities and equipment required for task, and confirm with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify facilities and equipment requi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify facilities and equipment required for task, and confirm with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify facilities and equipment required for task, and confirm with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify facilities and equipment required for task, and confirm with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify facilities and equipment required for task, and confirm with supervisor",
+      "knowledge_focus": [
+        "Identify facilities and equipment required for task, and confirm with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare to unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify facilities and equipment required for task, and confirm with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify facilities and equipment required for task, and confirm with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify facilities and equipment required for task, and confirm with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to unload animals",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to check the work site, facilities and equipment for hazards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check the work site, facilities and equ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check the work site, facilities and equipment for hazards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check the work site, facilities and equipment for hazards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check the work site, facilities and equipment for hazards?",
+      "practical_task_interpretation": "In practice this requires the worker to check the work site, facilities and equipment for hazards",
+      "knowledge_focus": [
+        "Check the work site, facilities and equipment for hazards"
+      ],
+      "workplace_context_examples": [
+        "Prepare to unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check the work site, facilities and equipment for hazards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check the work site, facilities and equipment for hazards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check the work site, facilities and equipment for hazards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Unload animals",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What would indicate that unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Unload animals in a safe manner to mini",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals?",
+      "practical_task_interpretation": "In practice this requires the worker to unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals",
+      "knowledge_focus": [
+        "Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals"
+      ],
+      "workplace_context_examples": [
+        "Unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Unload animals in a safe manner to minimise stress and ensure no injury to other workers or animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Unload animals",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify, count and record animals following workplace guidelines?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify, count and record animals foll",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify, count and record animals following workplace guidelines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify, count and record animals following workplace guidelines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, count and record animals following workplace guidelines?",
+      "practical_task_interpretation": "In practice this requires the worker to identify, count and record animals following workplace guidelines",
+      "knowledge_focus": [
+        "Identify, count and record animals following workplace guidelines"
+      ],
+      "workplace_context_examples": [
+        "Unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify, count and record animals following workplace guidelines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify, count and record animals following workplace guidelines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify, count and record animals following workplace guidelines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Unload animals",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you ensure documentation is passed on to supervisor according to workplace and transporter requirements, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Ensure documentation is passed on to su",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to ensure documentation is passed on to supervisor according to workplace and transporter requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Ensure documentation is passed on to supervisor according to workplace and transporter requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure documentation is passed on to supervisor according to workplace and transporter requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to ensure documentation is passed on to supervisor according to workplace and transporter requirements",
+      "knowledge_focus": [
+        "Ensure documentation is passed on to supervisor according to workplace and transporter requirements"
+      ],
+      "workplace_context_examples": [
+        "Unload animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of ensure documentation is passed on to supervisor according to workplace and transporter requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of ensure documentation is passed on to supervisor according to workplace and transporter requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Ensure documentation is passed on to supervisor according to workplace and transporter requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Perform appropriate animal health procedures",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to sort animals according to workplace and regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Sort animals according to workplace and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to sort animals according to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Sort animals according to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Sort animals according to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to sort animals according to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Sort animals according to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Perform appropriate animal health procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of sort animals according to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of sort animals according to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Sort animals according to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Perform appropriate animal health procedures",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to identify and separate sick or injured animals?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and separate sick or injured a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and separate sick or injured animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and separate sick or injured animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and separate sick or injured animals?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and separate sick or injured animals",
+      "knowledge_focus": [
+        "Identify and separate sick or injured animals"
+      ],
+      "workplace_context_examples": [
+        "Perform appropriate animal health procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and separate sick or injured animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and separate sick or injured animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and separate sick or injured animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Perform appropriate animal health procedures",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to perform animal health treatments as instructed and where required? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform animal health treatments as ins",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform animal health treatments as instructed and where required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Perform animal health treatments as instructed and where required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform animal health treatments as instructed and where required?",
+      "practical_task_interpretation": "In practice this requires the worker to perform animal health treatments as instructed and where required",
+      "knowledge_focus": [
+        "Perform animal health treatments as instructed and where required"
+      ],
+      "workplace_context_examples": [
+        "Perform appropriate animal health procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform animal health treatments as instructed and where required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform animal health treatments as instructed and where required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform animal health treatments as instructed and where required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.031621+00:00"
+}

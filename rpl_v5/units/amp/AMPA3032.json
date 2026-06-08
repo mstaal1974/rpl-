@@ -1,0 +1,263 @@
+{
+  "code": "AMPA3032",
+  "title": "Remove pelt manually",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove pelt manually demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Position carcase",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Secure carcase according to workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Secure carcase according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Secure carcase according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Position carcase"
+    },
+    {
+      "id": "E2",
+      "title": "Complete opening cuts",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)?",
+          "benchmark_statement": "The candidate demonstrates that they can Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Complete opening cuts"
+    },
+    {
+      "id": "E3",
+      "title": "Clean covering from carcase",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean covering from carcase"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Position carcase",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to secure carcase according to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Secure carcase according to workplace r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to secure carcase according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Secure carcase according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Secure carcase according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to secure carcase according to workplace requirements",
+      "knowledge_focus": [
+        "Secure carcase according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Position carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of secure carcase according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of secure carcase according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Secure carcase according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Complete opening cuts",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Cut leg so that all cuts to the pelt ar",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)?",
+      "practical_task_interpretation": "In practice this requires the worker to cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)",
+      "knowledge_focus": [
+        "Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)"
+      ],
+      "workplace_context_examples": [
+        "Complete opening cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Cut leg so that all cuts to the pelt are directed outwards, where this forms part of work instructions2.2 Punch pockets down each flank without damage to muscles or selvedge (where this forms part of work instructions)2.3 Pull pelt from the carcase without damage or loss of value to either the carcase or the pelt (where this forms part of work instructions)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Clean covering from carcase",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you remove covering completely without damage to the subcutaneous fat cover3.2 dispose of covering in accordance with work instructions, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove covering completely without dama",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove covering completely without damage to the subcutaneous fat cover3.2 dispose of covering in accordance with work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to remove covering completely without damage to the subcutaneous fat cover3.2 dispose of covering in accordance with work instructions",
+      "knowledge_focus": [
+        "Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions"
+      ],
+      "workplace_context_examples": [
+        "Clean covering from carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove covering completely without damage to the subcutaneous fat cover3.2 dispose of covering in accordance with work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove covering completely without damage to the subcutaneous fat cover3.2 dispose of covering in accordance with work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove covering completely without damage to the subcutaneous fat cover3.2 Dispose of covering in accordance with work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.895479+00:00"
+}

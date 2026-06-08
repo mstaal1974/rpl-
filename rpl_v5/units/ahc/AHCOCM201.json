@@ -1,0 +1,864 @@
+{
+  "code": "AHCOCM201",
+  "title": "Maintain cultural sites",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Maintain cultural sites demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assess maintenance work required",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify works required under the management plan and organisational procedures and confirm with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify works required under the management plan and organisational procedures and confirm with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify works required under the management plan and organisational procedures and confirm with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify required machinery and tools to carry out maintenance works and confirm with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify required machinery and tools to carry out maintenance works and confirm with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify required machinery and tools to carry out maintenance works and confirm with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Estimate materials required for maintenance work and confirm with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate materials required for maintenance work and confirm with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate materials required for maintenance work and confirm with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assess maintenance work required"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare for maintenance",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Organise machinery, tools and materials to carry out maintenance works",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise machinery, tools and materials to carry out maintenance works?",
+          "benchmark_statement": "The candidate demonstrates that they can Organise machinery, tools and materials to carry out maintenance works.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Inspect area for hazards associated with maintenance work, and report to supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect area for hazards associated with maintenance work, and report to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect area for hazards associated with maintenance work, and report to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Prepare and assemble safety equipment and materials",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and assemble safety equipment and materials?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare and assemble safety equipment and materials.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare for maintenance"
+    },
+    {
+      "id": "E3",
+      "title": "Maintain condition of cultural site",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Undertake maintenance work according to work programs and work health and safety policies and procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Undertake maintenance work according to work programs and work health and safety policies and procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Undertake maintenance work according to work programs and work health and safety policies and procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Report evidence of deterioration and wear",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report evidence of deterioration and wear?",
+          "benchmark_statement": "The candidate demonstrates that they can Report evidence of deterioration and wear.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Clean up cultural site on completion of maintenance works",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean up cultural site on completion of maintenance works?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean up cultural site on completion of maintenance works.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Maintain condition of cultural site"
+    },
+    {
+      "id": "E4",
+      "title": "Protect cultural site",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Report any evidence of damage to cultural site to supervisor",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any evidence of damage to cultural site to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Report any evidence of damage to cultural site to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Report any breach of organisation's procedures to supervisor",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any breach of organisation's procedures to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Report any breach of organisation's procedures to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Maintain protective barriers and signs according to organisational processes",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain protective barriers and signs according to organisational processes?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain protective barriers and signs according to organisational processes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Protect cultural site"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assess maintenance work required",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to identify works required under the management plan and organisational procedures and confirm with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify works required under the manag",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify works required under the management plan and organisational procedures and confirm with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify works required under the management plan and organisational procedures and confirm with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify works required under the management plan and organisational procedures and confirm with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify works required under the management plan and organisational procedures and confirm with supervisor",
+      "knowledge_focus": [
+        "Identify works required under the management plan and organisational procedures and confirm with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Assess maintenance work required"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify works required under the management plan and organisational procedures and confirm with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify works required under the management plan and organisational procedures and confirm with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify works required under the management plan and organisational procedures and confirm with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Assess maintenance work required",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to identify required machinery and tools to carry out maintenance works and confirm with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify required machinery and tools t",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify required machinery and tools to carry out maintenance works and confirm with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify required machinery and tools to carry out maintenance works and confirm with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify required machinery and tools to carry out maintenance works and confirm with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to identify required machinery and tools to carry out maintenance works and confirm with supervisor",
+      "knowledge_focus": [
+        "Identify required machinery and tools to carry out maintenance works and confirm with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Assess maintenance work required"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify required machinery and tools to carry out maintenance works and confirm with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify required machinery and tools to carry out maintenance works and confirm with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify required machinery and tools to carry out maintenance works and confirm with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Assess maintenance work required",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to estimate materials required for maintenance work and confirm with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate materials required for mainten",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate materials required for maintenance work and confirm with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate materials required for maintenance work and confirm with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate materials required for maintenance work and confirm with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate materials required for maintenance work and confirm with supervisor",
+      "knowledge_focus": [
+        "Estimate materials required for maintenance work and confirm with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Assess maintenance work required"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate materials required for maintenance work and confirm with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate materials required for maintenance work and confirm with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate materials required for maintenance work and confirm with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare for maintenance",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to organise machinery, tools and materials to carry out maintenance works? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Organise machinery, tools and materials",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to organise machinery, tools and materials to carry out maintenance works",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Organise machinery, tools and materials to carry out maintenance works.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Organise machinery, tools and materials to carry out maintenance works?",
+      "practical_task_interpretation": "In practice this requires the worker to organise machinery, tools and materials to carry out maintenance works",
+      "knowledge_focus": [
+        "Organise machinery, tools and materials to carry out maintenance works"
+      ],
+      "workplace_context_examples": [
+        "Prepare for maintenance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of organise machinery, tools and materials to carry out maintenance works"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of organise machinery, tools and materials to carry out maintenance works"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Organise machinery, tools and materials to carry out maintenance works."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare for maintenance",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What checks would you perform to inspect area for hazards associated with maintenance work, and report to supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect area for hazards associated wit",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect area for hazards associated with maintenance work, and report to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect area for hazards associated with maintenance work, and report to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect area for hazards associated with maintenance work, and report to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect area for hazards associated with maintenance work, and report to supervisor",
+      "knowledge_focus": [
+        "Inspect area for hazards associated with maintenance work, and report to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare for maintenance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect area for hazards associated with maintenance work, and report to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect area for hazards associated with maintenance work, and report to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect area for hazards associated with maintenance work, and report to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare for maintenance",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What are the key hazards and required controls associated with prepare and assemble safety equipment and materials?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare and assemble safety equipment a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare and assemble safety equipment and materials",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare and assemble safety equipment and materials.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and assemble safety equipment and materials?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare and assemble safety equipment and materials",
+      "knowledge_focus": [
+        "Prepare and assemble safety equipment and materials"
+      ],
+      "workplace_context_examples": [
+        "Prepare for maintenance"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare and assemble safety equipment and materials"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare and assemble safety equipment and materials"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare and assemble safety equipment and materials."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Maintain condition of cultural site",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with undertake maintenance work according to work programs and work health and safety policies and procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Undertake maintenance work according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to undertake maintenance work according to work programs and work health and safety policies and procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Undertake maintenance work according to work programs and work health and safety policies and procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Undertake maintenance work according to work programs and work health and safety policies and procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to undertake maintenance work according to work programs and work health and safety policies and procedures",
+      "knowledge_focus": [
+        "Undertake maintenance work according to work programs and work health and safety policies and procedures"
+      ],
+      "workplace_context_examples": [
+        "Maintain condition of cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of undertake maintenance work according to work programs and work health and safety policies and procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of undertake maintenance work according to work programs and work health and safety policies and procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Undertake maintenance work according to work programs and work health and safety policies and procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Maintain condition of cultural site",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be recorded when you recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise flora and/or fauna that may p",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor",
+      "knowledge_focus": [
+        "Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Maintain condition of cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise flora and/or fauna that may pose a threat to the cultural site and report to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Maintain condition of cultural site",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you report evidence of deterioration and wear, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report evidence of deterioration and we",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report evidence of deterioration and wear",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Report evidence of deterioration and wear.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report evidence of deterioration and wear?",
+      "practical_task_interpretation": "In practice this requires the worker to report evidence of deterioration and wear",
+      "knowledge_focus": [
+        "Report evidence of deterioration and wear"
+      ],
+      "workplace_context_examples": [
+        "Maintain condition of cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report evidence of deterioration and wear"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report evidence of deterioration and wear"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report evidence of deterioration and wear."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Protect cultural site",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you report any evidence of damage to cultural site to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report any evidence of damage to cultur",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report any evidence of damage to cultural site to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Report any evidence of damage to cultural site to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any evidence of damage to cultural site to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to report any evidence of damage to cultural site to supervisor",
+      "knowledge_focus": [
+        "Report any evidence of damage to cultural site to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Protect cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report any evidence of damage to cultural site to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report any evidence of damage to cultural site to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report any evidence of damage to cultural site to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Protect cultural site",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you report any breach of organisation's procedures to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report any breach of organisation's pro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report any breach of organisation's procedures to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Report any breach of organisation's procedures to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any breach of organisation's procedures to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to report any breach of organisation's procedures to supervisor",
+      "knowledge_focus": [
+        "Report any breach of organisation's procedures to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Protect cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report any breach of organisation's procedures to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report any breach of organisation's procedures to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report any breach of organisation's procedures to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Protect cultural site",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What would indicate that maintain protective barriers and signs according to organisational processes is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain protective barriers and signs ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain protective barriers and signs according to organisational processes",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain protective barriers and signs according to organisational processes.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain protective barriers and signs according to organisational processes?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain protective barriers and signs according to organisational processes",
+      "knowledge_focus": [
+        "Maintain protective barriers and signs according to organisational processes"
+      ],
+      "workplace_context_examples": [
+        "Protect cultural site"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain protective barriers and signs according to organisational processes"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain protective barriers and signs according to organisational processes"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain protective barriers and signs according to organisational processes."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.063903+00:00"
+}

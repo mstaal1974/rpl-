@@ -1,0 +1,335 @@
+{
+  "code": "AURSCA103",
+  "title": "Apply sales procedures in an automotive workplace",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply sales procedures in an automotive workplace demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Develop product and sales knowledge",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques?",
+          "benchmark_statement": "The candidate demonstrates that they can Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Develop product and sales knowledge"
+    },
+    {
+      "id": "E2",
+      "title": "Approach customer and address product or service requirements",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff?",
+          "benchmark_statement": "The candidate demonstrates that they can Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Approach customer and address product or service requirements"
+    },
+    {
+      "id": "E3",
+      "title": "Identify and resolve objections",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify and resolve objections"
+    },
+    {
+      "id": "E4",
+      "title": "Close sale",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Close sale"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Develop product and sales knowledge",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to research and clarify use, features and application of products and services according to workplace procedures1.2 research customer buying behaviour 1.3 consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Research and clarify use, features and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to research and clarify use, features and application of products and services according to workplace procedures1.2 research customer buying behaviour 1.3 consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques?",
+      "practical_task_interpretation": "In practice this requires the worker to research and clarify use, features and application of products and services according to workplace procedures1.2 research customer buying behaviour 1.3 consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques",
+      "knowledge_focus": [
+        "Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques"
+      ],
+      "workplace_context_examples": [
+        "Develop product and sales knowledge"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of research and clarify use, features and application of products and services according to workplace procedures1.2 research customer buying behaviour 1.3 consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of research and clarify use, features and application of products and services according to workplace procedures1.2 research customer buying behaviour 1.3 consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Research and clarify use, features and application of products and services according to workplace procedures1.2 Research customer buying behaviour 1.3 Consult experienced sales staff or product information guides to increase and confirm knowledge of products, services and sales techniques."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Approach customer and address product or service requirements",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to approach customer according to workplace standards and customer behaviour2.2 determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Approach customer according to workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to approach customer according to workplace standards and customer behaviour2.2 determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff?",
+      "practical_task_interpretation": "In practice this requires the worker to approach customer according to workplace standards and customer behaviour2.2 determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff",
+      "knowledge_focus": [
+        "Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff"
+      ],
+      "workplace_context_examples": [
+        "Approach customer and address product or service requirements"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of approach customer according to workplace standards and customer behaviour2.2 determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of approach customer according to workplace standards and customer behaviour2.2 determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Approach customer according to workplace standards and customer behaviour2.2 Determine customer buying motives and requirements, and guide customer to suitable product, service or specialist as required2.3 Respond to routine customer questions about features and benefits of product or service, or refer to more experienced sales staff."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Identify and resolve objections",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify and acknowledge customer objections 3.2 analyse solutions to objections in line with category of objection3.3 offer solutions to objections within scope of own responsibility and according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and acknowledge customer objec",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and acknowledge customer objections 3.2 analyse solutions to objections in line with category of objection3.3 offer solutions to objections within scope of own responsibility and according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and acknowledge customer objections 3.2 analyse solutions to objections in line with category of objection3.3 offer solutions to objections within scope of own responsibility and according to workplace procedures",
+      "knowledge_focus": [
+        "Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Identify and resolve objections"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and acknowledge customer objections 3.2 analyse solutions to objections in line with category of objection3.3 offer solutions to objections within scope of own responsibility and according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and acknowledge customer objections 3.2 analyse solutions to objections in line with category of objection3.3 offer solutions to objections within scope of own responsibility and according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and acknowledge customer objections 3.2 Analyse solutions to objections in line with category of objection3.3 Offer solutions to objections within scope of own responsibility and according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Close sale",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to monitor, identify and respond to customer buying signals4.2 select and apply method of closing sale to encourage customer purchase decision according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor, identify and respond to custom",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor, identify and respond to customer buying signals4.2 select and apply method of closing sale to encourage customer purchase decision according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor, identify and respond to customer buying signals4.2 select and apply method of closing sale to encourage customer purchase decision according to workplace procedures",
+      "knowledge_focus": [
+        "Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Close sale"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor, identify and respond to customer buying signals4.2 select and apply method of closing sale to encourage customer purchase decision according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor, identify and respond to customer buying signals4.2 select and apply method of closing sale to encourage customer purchase decision according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor, identify and respond to customer buying signals4.2 Select and apply method of closing sale to encourage customer purchase decision according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.049863+00:00"
+}

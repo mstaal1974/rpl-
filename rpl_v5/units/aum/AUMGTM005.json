@@ -1,0 +1,263 @@
+{
+  "code": "AUMGTM005",
+  "title": "Read and interpret engineering drawings and determine requirements",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Read and interpret engineering drawings and determine requirements demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Determine processes",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Determine processes"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to identify symbols, codes, legends and diagrams in engineering drawings 1.2 identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 determine work requirements and confirm with appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify symbols, codes, legends and di",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify symbols, codes, legends and diagrams in engineering drawings 1.2 identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 determine work requirements and confirm with appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to identify symbols, codes, legends and diagrams in engineering drawings 1.2 identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 determine work requirements and confirm with appropriate personnel",
+      "knowledge_focus": [
+        "Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify symbols, codes, legends and diagrams in engineering drawings 1.2 identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 determine work requirements and confirm with appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify symbols, codes, legends and diagrams in engineering drawings 1.2 identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 determine work requirements and confirm with appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify symbols, codes, legends and diagrams in engineering drawings 1.2 Identify and interpret manufacturing information, products, systems and components represented in engineering drawings 1.3 Determine work requirements and confirm with appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Determine processes",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify specific customer and job requirements 2.2 identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify specific customer and job requ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify specific customer and job requirements 2.2 identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify specific customer and job requirements 2.2 identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures",
+      "knowledge_focus": [
+        "Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify specific customer and job requirements 2.2 identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify specific customer and job requirements 2.2 identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify specific customer and job requirements 2.2 Identify required manufacturing processes from drawing, and select materials according to job requirements and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you prepare production order according to engineering drawings and workplace procedures3.2 record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare production order according to e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare production order according to engineering drawings and workplace procedures3.2 record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare production order according to engineering drawings and workplace procedures3.2 record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures",
+      "knowledge_focus": [
+        "Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare production order according to engineering drawings and workplace procedures3.2 record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare production order according to engineering drawings and workplace procedures3.2 record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare production order according to engineering drawings and workplace procedures3.2 Record engineering drawing outcomes and workplace documents and store engineering drawings according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.447366+00:00"
+}

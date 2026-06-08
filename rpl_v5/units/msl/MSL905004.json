@@ -1,0 +1,1015 @@
+{
+  "code": "MSL905004",
+  "title": "Perform non-standard calibrations",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform non-standard calibrations demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Select the appropriate calibration procedure",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify non-conforming calibration tasks and requests and analyse their significance",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify non-conforming calibration tasks and requests and analyse their significance?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify non-conforming calibration tasks and requests and analyse their significance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Review the authorised procedure and establish whether it is appropriate for the test, as required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review the authorised procedure and establish whether it is appropriate for the test, as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Review the authorised procedure and establish whether it is appropriate for the test, as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Research an alternative or adapt an existing procedure to satisfy the test specification requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research an alternative or adapt an existing procedure to satisfy the test specification requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Research an alternative or adapt an existing procedure to satisfy the test specification requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Confirm that available resources meet all the requirements of the calibration procedure",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm that available resources meet all the requirements of the calibration procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm that available resources meet all the requirements of the calibration procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Obtain authorisation prior to substituting equipment, changing or deviating from the specified procedure",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain authorisation prior to substituting equipment, changing or deviating from the specified procedure?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain authorisation prior to substituting equipment, changing or deviating from the specified procedure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Document and validate any authorised changes or deviations in accordance with workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document and validate any authorised changes or deviations in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Document and validate any authorised changes or deviations in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Select the appropriate calibration procedure"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare items for calibration",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Assemble and set up reference standards and associated equipment prior to testing",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble and set up reference standards and associated equipment prior to testing?",
+          "benchmark_statement": "The candidate demonstrates that they can Assemble and set up reference standards and associated equipment prior to testing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify and minimise potential sources of measurement error",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and minimise potential sources of measurement error?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and minimise potential sources of measurement error.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare items for calibration"
+    },
+    {
+      "id": "E3",
+      "title": "Perform calibration",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)?",
+          "benchmark_statement": "The candidate demonstrates that they can Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required?",
+          "benchmark_statement": "The candidate demonstrates that they can Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Analyse resulting test data to detect trends or inconsistencies that would significantly affect the accuracy or validity of test results",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Analyse resulting test data to detect trends or inconsistencies that would significantly affect the accuracy or validity of test results?",
+          "benchmark_statement": "The candidate demonstrates that they can Analyse resulting test data to detect trends or inconsistencies that would significantly affect the accuracy or validity of test results.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Seek appropriate advice when result interpretation is outside authorised scope of approval",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek appropriate advice when result interpretation is outside authorised scope of approval?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek appropriate advice when result interpretation is outside authorised scope of approval.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Perform calibration"
+    },
+    {
+      "id": "E4",
+      "title": "Document results",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Document compliance/non-compliance with requirements of test and/or specifications",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document compliance/non-compliance with requirements of test and/or specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Document compliance/non-compliance with requirements of test and/or specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Estimate and document uncertainty of measurement in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and document uncertainty of measurement in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Record the results of each test/calibration accurately, unambiguously and objectively",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record the results of each test/calibration accurately, unambiguously and objectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Record the results of each test/calibration accurately, unambiguously and objectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Ensure confidentiality of workplace information in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure confidentiality of workplace information in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure confidentiality of workplace information in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Document results"
+    },
+    {
+      "id": "E5",
+      "title": "Finalise calibration",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Prepare and issue a final report for the job/item detailing testing carried out, statement of compliance and all other required information",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare and issue a final report for the job/item detailing testing carried out, statement of compliance and all other required information?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare and issue a final report for the job/item detailing testing carried out, statement of compliance and all other required information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Report any non-compliance and verify next course of action with supervisor",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report any non-compliance and verify next course of action with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Report any non-compliance and verify next course of action with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Attach calibration labels, equipment stickers, quality control tags and tamper resistant seals as required in workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Attach calibration labels, equipment stickers, quality control tags and tamper resistant seals as required in workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Attach calibration labels, equipment stickers, quality control tags and tamper resistant seals as required in workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Report all changes and deviations that may have a significant influence on the test",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report all changes and deviations that may have a significant influence on the test?",
+          "benchmark_statement": "The candidate demonstrates that they can Report all changes and deviations that may have a significant influence on the test.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Store test equipment/measurement standards and results in accordance with workplace procedures",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store test equipment/measurement standards and results in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Store test equipment/measurement standards and results in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Finalise calibration"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Select the appropriate calibration procedure",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify non-conforming calibration tasks and requests and analyse their significance?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify non-conforming calibration tas",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify non-conforming calibration tasks and requests and analyse their significance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify non-conforming calibration tasks and requests and analyse their significance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify non-conforming calibration tasks and requests and analyse their significance?",
+      "practical_task_interpretation": "In practice this requires the worker to identify non-conforming calibration tasks and requests and analyse their significance",
+      "knowledge_focus": [
+        "Identify non-conforming calibration tasks and requests and analyse their significance"
+      ],
+      "workplace_context_examples": [
+        "Select the appropriate calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify non-conforming calibration tasks and requests and analyse their significance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify non-conforming calibration tasks and requests and analyse their significance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify non-conforming calibration tasks and requests and analyse their significance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Select the appropriate calibration procedure",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What steps are required to review the authorised procedure and establish whether it is appropriate for the test, as required, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review the authorised procedure and est",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review the authorised procedure and establish whether it is appropriate for the test, as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Review the authorised procedure and establish whether it is appropriate for the test, as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review the authorised procedure and establish whether it is appropriate for the test, as required?",
+      "practical_task_interpretation": "In practice this requires the worker to review the authorised procedure and establish whether it is appropriate for the test, as required",
+      "knowledge_focus": [
+        "Review the authorised procedure and establish whether it is appropriate for the test, as required"
+      ],
+      "workplace_context_examples": [
+        "Select the appropriate calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review the authorised procedure and establish whether it is appropriate for the test, as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review the authorised procedure and establish whether it is appropriate for the test, as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review the authorised procedure and establish whether it is appropriate for the test, as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Select the appropriate calibration procedure",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to research an alternative or adapt an existing procedure to satisfy the test specification requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Research an alternative or adapt an exi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to research an alternative or adapt an existing procedure to satisfy the test specification requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Research an alternative or adapt an existing procedure to satisfy the test specification requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research an alternative or adapt an existing procedure to satisfy the test specification requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to research an alternative or adapt an existing procedure to satisfy the test specification requirements",
+      "knowledge_focus": [
+        "Research an alternative or adapt an existing procedure to satisfy the test specification requirements"
+      ],
+      "workplace_context_examples": [
+        "Select the appropriate calibration procedure"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of research an alternative or adapt an existing procedure to satisfy the test specification requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of research an alternative or adapt an existing procedure to satisfy the test specification requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Research an alternative or adapt an existing procedure to satisfy the test specification requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare items for calibration",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify hazards and use the appropriate personal protective equipment (ppe), safety equipment and procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify hazards and use the appropriat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify hazards and use the appropriate personal protective equipment (ppe), safety equipment and procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify hazards and use the appropriate personal protective equipment (ppe), safety equipment and procedures",
+      "knowledge_focus": [
+        "Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare items for calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify hazards and use the appropriate personal protective equipment (ppe), safety equipment and procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify hazards and use the appropriate personal protective equipment (ppe), safety equipment and procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify hazards and use the appropriate personal protective equipment (PPE), safety equipment and procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare items for calibration",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What steps are required to assemble and set up reference standards and associated equipment prior to testing, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assemble and set up reference standards",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assemble and set up reference standards and associated equipment prior to testing",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Assemble and set up reference standards and associated equipment prior to testing.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble and set up reference standards and associated equipment prior to testing?",
+      "practical_task_interpretation": "In practice this requires the worker to assemble and set up reference standards and associated equipment prior to testing",
+      "knowledge_focus": [
+        "Assemble and set up reference standards and associated equipment prior to testing"
+      ],
+      "workplace_context_examples": [
+        "Prepare items for calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assemble and set up reference standards and associated equipment prior to testing"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assemble and set up reference standards and associated equipment prior to testing"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assemble and set up reference standards and associated equipment prior to testing."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare items for calibration",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Verify performance of reference standar",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary?",
+      "practical_task_interpretation": "In practice this requires the worker to verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary",
+      "knowledge_focus": [
+        "Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary"
+      ],
+      "workplace_context_examples": [
+        "Prepare items for calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Verify performance of reference standards and measuring equipment prior to use and adjust or calibrate as necessary."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Perform calibration",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform individual tests and document e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement?",
+      "practical_task_interpretation": "In practice this requires the worker to perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement",
+      "knowledge_focus": [
+        "Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform individual tests and document each step in the calibration procedure to ensure repeatability of measurement."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Perform calibration",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Critically analyse readings to confirm ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment).",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)?",
+      "practical_task_interpretation": "In practice this requires the worker to critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)",
+      "knowledge_focus": [
+        "Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Critically analyse readings to confirm they are the result of a valid measurement and record data as required (as-found or before adjustment)."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Perform calibration",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Adjust device under test to bring readi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required?",
+      "practical_task_interpretation": "In practice this requires the worker to adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required",
+      "knowledge_focus": [
+        "Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required"
+      ],
+      "workplace_context_examples": [
+        "Perform calibration"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Adjust device under test to bring readings within tolerance and record results (as-left or after adjustment) if required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Document results",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you document compliance/non-compliance with requirements of test and/or specifications, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Document compliance/non-compliance with",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to document compliance/non-compliance with requirements of test and/or specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Document compliance/non-compliance with requirements of test and/or specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Document compliance/non-compliance with requirements of test and/or specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to document compliance/non-compliance with requirements of test and/or specifications",
+      "knowledge_focus": [
+        "Document compliance/non-compliance with requirements of test and/or specifications"
+      ],
+      "workplace_context_examples": [
+        "Document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of document compliance/non-compliance with requirements of test and/or specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of document compliance/non-compliance with requirements of test and/or specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Document compliance/non-compliance with requirements of test and/or specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Document results",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you estimate and document uncertainty of measurement in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate and document uncertainty of me",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate and document uncertainty of measurement in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and document uncertainty of measurement in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate and document uncertainty of measurement in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Estimate and document uncertainty of measurement in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate and document uncertainty of measurement in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate and document uncertainty of measurement in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate and document uncertainty of measurement in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Document results",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you record the results of each test/calibration accurately, unambiguously and objectively, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record the results of each test/calibra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record the results of each test/calibration accurately, unambiguously and objectively",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record the results of each test/calibration accurately, unambiguously and objectively.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record the results of each test/calibration accurately, unambiguously and objectively?",
+      "practical_task_interpretation": "In practice this requires the worker to record the results of each test/calibration accurately, unambiguously and objectively",
+      "knowledge_focus": [
+        "Record the results of each test/calibration accurately, unambiguously and objectively"
+      ],
+      "workplace_context_examples": [
+        "Document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record the results of each test/calibration accurately, unambiguously and objectively"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record the results of each test/calibration accurately, unambiguously and objectively"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record the results of each test/calibration accurately, unambiguously and objectively."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.788111+00:00"
+}

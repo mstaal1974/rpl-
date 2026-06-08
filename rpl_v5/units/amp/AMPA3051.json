@@ -1,0 +1,483 @@
+{
+  "code": "AMPA3051",
+  "title": "Bone large stock carcase - hindquarter",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Bone large stock carcase - hindquarter demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify specifications for cuts",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify specifications for cuts"
+    },
+    {
+      "id": "E2",
+      "title": "Remove primal cuts from hindquarter of carcase",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Remove primal cuts from the hindquarter  according to  specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove primal cuts from the hindquarter  according to  specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove primal cuts from the hindquarter  according to  specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife?",
+          "benchmark_statement": "The candidate demonstrates that they can Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Cut primal lines in compliance with regulatory requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut primal lines in compliance with regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Cut primal lines in compliance with regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Deal with meat safety and quality hazards according to work instruction procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Deal with meat safety and quality hazards according to work instruction procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Deal with meat safety and quality hazards according to work instruction procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Cut primals to maximise yield",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut primals to maximise yield?",
+          "benchmark_statement": "The candidate demonstrates that they can Cut primals to maximise yield.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove primal cuts from hindquarter of carcase"
+    },
+    {
+      "id": "E3",
+      "title": "Identify and remove defects",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Trim and deal with defects and contamination according to workplace requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim and deal with defects and contamination according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim and deal with defects and contamination according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Report persistent defects to supervisors in accordance with work instructions",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report persistent defects to supervisors in accordance with work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Report persistent defects to supervisors in accordance with work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify and remove defects"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify specifications for cuts",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify specifications for hindquarter",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements",
+      "knowledge_focus": [
+        "Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify specifications for cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify specifications for hindquarter cuts, including those from the silverside, rumps and flanks, using cut descriptions according to regulatory requirements, customer and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Remove primal cuts from hindquarter of carcase",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to remove primal cuts from the hindquarter  according to  specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove primal cuts from the hindquarter",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove primal cuts from the hindquarter  according to  specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Remove primal cuts from the hindquarter  according to  specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove primal cuts from the hindquarter  according to  specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to remove primal cuts from the hindquarter  according to  specifications",
+      "knowledge_focus": [
+        "Remove primal cuts from the hindquarter  according to  specifications"
+      ],
+      "workplace_context_examples": [
+        "Remove primal cuts from hindquarter of carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove primal cuts from the hindquarter  according to  specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove primal cuts from the hindquarter  according to  specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove primal cuts from the hindquarter  according to  specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Remove primal cuts from hindquarter of carcase",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Bone product in accordance with workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife?",
+      "practical_task_interpretation": "In practice this requires the worker to bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife",
+      "knowledge_focus": [
+        "Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife"
+      ],
+      "workplace_context_examples": [
+        "Remove primal cuts from hindquarter of carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Bone product in accordance with workplace health and safety requirements including the use of safe manual handling techniques and the safe and effective use of a knife."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Remove primal cuts from hindquarter of carcase",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to cut primal lines in compliance with regulatory requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Cut primal lines in compliance with reg",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to cut primal lines in compliance with regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Cut primal lines in compliance with regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut primal lines in compliance with regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to cut primal lines in compliance with regulatory requirements",
+      "knowledge_focus": [
+        "Cut primal lines in compliance with regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Remove primal cuts from hindquarter of carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of cut primal lines in compliance with regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of cut primal lines in compliance with regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Cut primal lines in compliance with regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E3: Identify and remove defects",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to trim and deal with defects and contamination according to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim and deal with defects and contamin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim and deal with defects and contamination according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim and deal with defects and contamination according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim and deal with defects and contamination according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to trim and deal with defects and contamination according to workplace requirements",
+      "knowledge_focus": [
+        "Trim and deal with defects and contamination according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify and remove defects"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim and deal with defects and contamination according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim and deal with defects and contamination according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim and deal with defects and contamination according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Identify and remove defects",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be recorded when you report persistent defects to supervisors in accordance with work instructions, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report persistent defects to supervisor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report persistent defects to supervisors in accordance with work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Report persistent defects to supervisors in accordance with work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report persistent defects to supervisors in accordance with work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to report persistent defects to supervisors in accordance with work instructions",
+      "knowledge_focus": [
+        "Report persistent defects to supervisors in accordance with work instructions"
+      ],
+      "workplace_context_examples": [
+        "Identify and remove defects"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report persistent defects to supervisors in accordance with work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report persistent defects to supervisors in accordance with work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report persistent defects to supervisors in accordance with work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.904942+00:00"
+}

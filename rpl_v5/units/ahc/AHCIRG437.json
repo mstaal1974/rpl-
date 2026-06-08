@@ -1,0 +1,897 @@
+{
+  "code": "AHCIRG437",
+  "title": "Schedule irrigations",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Schedule irrigations demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Monitor crop and plant water use",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Estimate or measure water use from one or more systems",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate or measure water use from one or more systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate or measure water use from one or more systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Accumulate water as a soil water deficit in the root zone",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accumulate water as a soil water deficit in the root zone?",
+          "benchmark_statement": "The candidate demonstrates that they can Accumulate water as a soil water deficit in the root zone.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Monitor crop and plant water use"
+    },
+    {
+      "id": "E2",
+      "title": "Apply a measured amount of water",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Predict a pre-determined deficit using a scheduling system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Predict a pre-determined deficit using a scheduling system?",
+          "benchmark_statement": "The candidate demonstrates that they can Predict a pre-determined deficit using a scheduling system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Apply irrigation to partly or fully replace the deficit",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply irrigation to partly or fully replace the deficit?",
+          "benchmark_statement": "The candidate demonstrates that they can Apply irrigation to partly or fully replace the deficit.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone?",
+          "benchmark_statement": "The candidate demonstrates that they can Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Apply a measured amount of water"
+    },
+    {
+      "id": "E3",
+      "title": "Assess efficacy of irrigation and repeat cycles of irrigation",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Measure effectiveness of irrigation application with in-field equipment",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measure effectiveness of irrigation application with in-field equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Measure effectiveness of irrigation application with in-field equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Adjust estimated soil moisture level in scheduling system to match in-field measurements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust estimated soil moisture level in scheduling system to match in-field measurements?",
+          "benchmark_statement": "The candidate demonstrates that they can Adjust estimated soil moisture level in scheduling system to match in-field measurements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Recalibrate scheduling system where necessary",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recalibrate scheduling system where necessary?",
+          "benchmark_statement": "The candidate demonstrates that they can Recalibrate scheduling system where necessary.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Repeat cycles of irrigation until schedule is correctly established",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Repeat cycles of irrigation until schedule is correctly established?",
+          "benchmark_statement": "The candidate demonstrates that they can Repeat cycles of irrigation until schedule is correctly established.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Assess efficacy of irrigation and repeat cycles of irrigation"
+    },
+    {
+      "id": "E4",
+      "title": "Record irrigation and scheduling parameters",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system?",
+          "benchmark_statement": "The candidate demonstrates that they can Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Estimate and record drainage amount below root zone at each irrigation",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and record drainage amount below root zone at each irrigation?",
+          "benchmark_statement": "The candidate demonstrates that they can Estimate and record drainage amount below root zone at each irrigation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Record system performance data",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record system performance data?",
+          "benchmark_statement": "The candidate demonstrates that they can Record system performance data.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Record irrigation and scheduling parameters"
+    },
+    {
+      "id": "E5",
+      "title": "Plan for extremes of weather",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Modify estimated deficits to cater for prolonged saturation following heavy rainfall",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Modify estimated deficits to cater for prolonged saturation following heavy rainfall?",
+          "benchmark_statement": "The candidate demonstrates that they can Modify estimated deficits to cater for prolonged saturation following heavy rainfall.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Alter shift areas, and where applicable, application rates, to suit appropriate irrigation schedules to minimise frost damage where applicable",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Alter shift areas, and where applicable, application rates, to suit appropriate irrigation schedules to minimise frost damage where applicable?",
+          "benchmark_statement": "The candidate demonstrates that they can Alter shift areas, and where applicable, application rates, to suit appropriate irrigation schedules to minimise frost damage where applicable.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Implement strategies involving prioritising of plants and crops and intermittent irrigation at times of extreme heat",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement strategies involving prioritising of plants and crops and intermittent irrigation at times of extreme heat?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement strategies involving prioritising of plants and crops and intermittent irrigation at times of extreme heat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Plan for extremes of weather"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Monitor crop and plant water use",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to estimate or measure water use from one or more systems? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate or measure water use from one ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate or measure water use from one or more systems",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate or measure water use from one or more systems.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate or measure water use from one or more systems?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate or measure water use from one or more systems",
+      "knowledge_focus": [
+        "Estimate or measure water use from one or more systems"
+      ],
+      "workplace_context_examples": [
+        "Monitor crop and plant water use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate or measure water use from one or more systems"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate or measure water use from one or more systems"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate or measure water use from one or more systems."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Monitor crop and plant water use",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to accumulate water as a soil water deficit in the root zone? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Accumulate water as a soil water defici",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to accumulate water as a soil water deficit in the root zone",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Accumulate water as a soil water deficit in the root zone.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accumulate water as a soil water deficit in the root zone?",
+      "practical_task_interpretation": "In practice this requires the worker to accumulate water as a soil water deficit in the root zone",
+      "knowledge_focus": [
+        "Accumulate water as a soil water deficit in the root zone"
+      ],
+      "workplace_context_examples": [
+        "Monitor crop and plant water use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of accumulate water as a soil water deficit in the root zone"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of accumulate water as a soil water deficit in the root zone"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Accumulate water as a soil water deficit in the root zone."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Apply a measured amount of water",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to predict a pre-determined deficit using a scheduling system?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Predict a pre-determined deficit using ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to predict a pre-determined deficit using a scheduling system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Predict a pre-determined deficit using a scheduling system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Predict a pre-determined deficit using a scheduling system?",
+      "practical_task_interpretation": "In practice this requires the worker to predict a pre-determined deficit using a scheduling system",
+      "knowledge_focus": [
+        "Predict a pre-determined deficit using a scheduling system"
+      ],
+      "workplace_context_examples": [
+        "Apply a measured amount of water"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of predict a pre-determined deficit using a scheduling system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of predict a pre-determined deficit using a scheduling system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Predict a pre-determined deficit using a scheduling system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Apply a measured amount of water",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to apply irrigation to partly or fully replace the deficit? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Apply irrigation to partly or fully rep",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to apply irrigation to partly or fully replace the deficit",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Apply irrigation to partly or fully replace the deficit.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Apply irrigation to partly or fully replace the deficit?",
+      "practical_task_interpretation": "In practice this requires the worker to apply irrigation to partly or fully replace the deficit",
+      "knowledge_focus": [
+        "Apply irrigation to partly or fully replace the deficit"
+      ],
+      "workplace_context_examples": [
+        "Apply a measured amount of water"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of apply irrigation to partly or fully replace the deficit"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of apply irrigation to partly or fully replace the deficit"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Apply irrigation to partly or fully replace the deficit."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Apply a measured amount of water",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Increase water quantities where appropr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone?",
+      "practical_task_interpretation": "In practice this requires the worker to increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone",
+      "knowledge_focus": [
+        "Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone"
+      ],
+      "workplace_context_examples": [
+        "Apply a measured amount of water"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Increase water quantities where appropriate to ensure dilution and transport of toxic solutes below the root zone."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Assess efficacy of irrigation and repeat cycles of irrigation",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to measure effectiveness of irrigation application with in-field equipment? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Measure effectiveness of irrigation app",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to measure effectiveness of irrigation application with in-field equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Measure effectiveness of irrigation application with in-field equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Measure effectiveness of irrigation application with in-field equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to measure effectiveness of irrigation application with in-field equipment",
+      "knowledge_focus": [
+        "Measure effectiveness of irrigation application with in-field equipment"
+      ],
+      "workplace_context_examples": [
+        "Assess efficacy of irrigation and repeat cycles of irrigation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of measure effectiveness of irrigation application with in-field equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of measure effectiveness of irrigation application with in-field equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Measure effectiveness of irrigation application with in-field equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Assess efficacy of irrigation and repeat cycles of irrigation",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to adjust estimated soil moisture level in scheduling system to match in-field measurements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Adjust estimated soil moisture level in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to adjust estimated soil moisture level in scheduling system to match in-field measurements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Adjust estimated soil moisture level in scheduling system to match in-field measurements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Adjust estimated soil moisture level in scheduling system to match in-field measurements?",
+      "practical_task_interpretation": "In practice this requires the worker to adjust estimated soil moisture level in scheduling system to match in-field measurements",
+      "knowledge_focus": [
+        "Adjust estimated soil moisture level in scheduling system to match in-field measurements"
+      ],
+      "workplace_context_examples": [
+        "Assess efficacy of irrigation and repeat cycles of irrigation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of adjust estimated soil moisture level in scheduling system to match in-field measurements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of adjust estimated soil moisture level in scheduling system to match in-field measurements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Adjust estimated soil moisture level in scheduling system to match in-field measurements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Assess efficacy of irrigation and repeat cycles of irrigation",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What steps are required to recalibrate scheduling system where necessary, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recalibrate scheduling system where nec",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recalibrate scheduling system where necessary",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Recalibrate scheduling system where necessary.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recalibrate scheduling system where necessary?",
+      "practical_task_interpretation": "In practice this requires the worker to recalibrate scheduling system where necessary",
+      "knowledge_focus": [
+        "Recalibrate scheduling system where necessary"
+      ],
+      "workplace_context_examples": [
+        "Assess efficacy of irrigation and repeat cycles of irrigation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recalibrate scheduling system where necessary"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recalibrate scheduling system where necessary"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recalibrate scheduling system where necessary."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Record irrigation and scheduling parameters",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record each irrigation and significant ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system?",
+      "practical_task_interpretation": "In practice this requires the worker to record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system",
+      "knowledge_focus": [
+        "Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system"
+      ],
+      "workplace_context_examples": [
+        "Record irrigation and scheduling parameters"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record each irrigation and significant rainfall event, plus other appropriate parameters used in scheduling system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Record irrigation and scheduling parameters",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you estimate and record drainage amount below root zone at each irrigation, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Estimate and record drainage amount bel",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to estimate and record drainage amount below root zone at each irrigation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Estimate and record drainage amount below root zone at each irrigation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Estimate and record drainage amount below root zone at each irrigation?",
+      "practical_task_interpretation": "In practice this requires the worker to estimate and record drainage amount below root zone at each irrigation",
+      "knowledge_focus": [
+        "Estimate and record drainage amount below root zone at each irrigation"
+      ],
+      "workplace_context_examples": [
+        "Record irrigation and scheduling parameters"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of estimate and record drainage amount below root zone at each irrigation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of estimate and record drainage amount below root zone at each irrigation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Estimate and record drainage amount below root zone at each irrigation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Record irrigation and scheduling parameters",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you record system performance data, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record system performance data.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record system performance data",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record system performance data.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record system performance data?",
+      "practical_task_interpretation": "In practice this requires the worker to record system performance data",
+      "knowledge_focus": [
+        "Record system performance data"
+      ],
+      "workplace_context_examples": [
+        "Record irrigation and scheduling parameters"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record system performance data"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record system performance data"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record system performance data."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Plan for extremes of weather",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What technical knowledge is required to modify estimated deficits to cater for prolonged saturation following heavy rainfall? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Modify estimated deficits to cater for ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to modify estimated deficits to cater for prolonged saturation following heavy rainfall",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Modify estimated deficits to cater for prolonged saturation following heavy rainfall.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Modify estimated deficits to cater for prolonged saturation following heavy rainfall?",
+      "practical_task_interpretation": "In practice this requires the worker to modify estimated deficits to cater for prolonged saturation following heavy rainfall",
+      "knowledge_focus": [
+        "Modify estimated deficits to cater for prolonged saturation following heavy rainfall"
+      ],
+      "workplace_context_examples": [
+        "Plan for extremes of weather"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of modify estimated deficits to cater for prolonged saturation following heavy rainfall"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of modify estimated deficits to cater for prolonged saturation following heavy rainfall"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Modify estimated deficits to cater for prolonged saturation following heavy rainfall."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.741385+00:00"
+}

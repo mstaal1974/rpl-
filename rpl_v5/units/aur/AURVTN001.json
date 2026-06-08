@@ -1,0 +1,335 @@
+{
+  "code": "AURVTN001",
+  "title": "Remove and tag vehicle body components",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Remove and tag vehicle body components demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to remove and tag vehicle body components",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to remove and tag vehicle body components"
+    },
+    {
+      "id": "E2",
+      "title": "Remove components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Remove components"
+    },
+    {
+      "id": "E3",
+      "title": "Tag components",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Tag components"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to remove and tag vehicle body components",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to task instruction is interpreted and vehicle to be worked on is identified1.2 body component information is sourced and interpreted1.3 potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 tools and equipment are selected and checked for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Task instruction is interpreted and veh",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to task instruction is interpreted and vehicle to be worked on is identified1.2 body component information is sourced and interpreted1.3 potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 tools and equipment are selected and checked for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to task instruction is interpreted and vehicle to be worked on is identified1.2 body component information is sourced and interpreted1.3 potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 tools and equipment are selected and checked for serviceability",
+      "knowledge_focus": [
+        "Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to remove and tag vehicle body components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of task instruction is interpreted and vehicle to be worked on is identified1.2 body component information is sourced and interpreted1.3 potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 tools and equipment are selected and checked for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of task instruction is interpreted and vehicle to be worked on is identified1.2 body component information is sourced and interpreted1.3 potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 tools and equipment are selected and checked for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Task instruction is interpreted and vehicle to be worked on is identified1.2 Body component information is sourced and interpreted1.3 Potential hazards and risks associated with task are identified and reported to workplace supervisor1.4 Tools and equipment are selected and checked for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Remove components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to body components for removal are identified2.2 components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 removed components are inspected and findings recorded according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Body components for removal are identif",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to body components for removal are identified2.2 components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 removed components are inspected and findings recorded according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to body components for removal are identified2.2 components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 removed components are inspected and findings recorded according to workplace procedures",
+      "knowledge_focus": [
+        "Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Remove components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of body components for removal are identified2.2 components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 removed components are inspected and findings recorded according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of body components for removal are identified2.2 components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 removed components are inspected and findings recorded according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Body components for removal are identified2.2 Components are removed according to manufacturer specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems2.3 Removed components are inspected and findings recorded according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Tag components",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to tagging procedures are identified3.2 removed components are legibly tagged without causing damage and according to workplace procedures 3.3 tagged components are stored according to workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Tagging procedures are identified3.2 Re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to tagging procedures are identified3.2 removed components are legibly tagged without causing damage and according to workplace procedures 3.3 tagged components are stored according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to tagging procedures are identified3.2 removed components are legibly tagged without causing damage and according to workplace procedures 3.3 tagged components are stored according to workplace procedures",
+      "knowledge_focus": [
+        "Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Tag components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of tagging procedures are identified3.2 removed components are legibly tagged without causing damage and according to workplace procedures 3.3 tagged components are stored according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of tagging procedures are identified3.2 removed components are legibly tagged without causing damage and according to workplace procedures 3.3 tagged components are stored according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Tagging procedures are identified3.2 Removed components are legibly tagged without causing damage and according to workplace procedures 3.3 Tagged components are stored according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspection is made to ensure work meets task instruction and workplace standards4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work meets task instruction and workplace standards4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work meets task instruction and workplace standards4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work meets task instruction and workplace standards4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work meets task instruction and workplace standards4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 tools and equipment are checked and stored according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work meets task instruction and workplace standards4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected and stored4.3 Tools and equipment are checked and stored according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.206216+00:00"
+}

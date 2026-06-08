@@ -1,0 +1,651 @@
+{
+  "code": "MSL954006",
+  "title": "Relate anatomical and physiological features to laboratory samples",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Relate anatomical and physiological features to laboratory samples demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Recognise body systems and organs",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Correctly identify sampled organs based on macroscopic appearance and main function",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify sampled organs based on macroscopic appearance and main function?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly identify sampled organs based on macroscopic appearance and main function.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Use correct terminology to name organs and systems",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct terminology to name organs and systems?",
+          "benchmark_statement": "The candidate demonstrates that they can Use correct terminology to name organs and systems.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify broad streams of disease that effect body systems and organs",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify broad streams of disease that effect body systems and organs?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify broad streams of disease that effect body systems and organs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Recognise body systems and organs"
+    },
+    {
+      "id": "E2",
+      "title": "Recognise tissues and cells",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Correctly identify tissue types based on microscopic structure",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify tissue types based on microscopic structure?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly identify tissue types based on microscopic structure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Correctly identify cell types based on microscopic structure",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify cell types based on microscopic structure?",
+          "benchmark_statement": "The candidate demonstrates that they can Correctly identify cell types based on microscopic structure.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Use correct terminology to name tissue and cell types",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct terminology to name tissue and cell types?",
+          "benchmark_statement": "The candidate demonstrates that they can Use correct terminology to name tissue and cell types.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Recognise tissues and cells"
+    },
+    {
+      "id": "E3",
+      "title": "Identify and direct test specimens",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Confirm test sample type matches test request",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm test sample type matches test request?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm test sample type matches test request.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Follow procedures to direct test specimen to appropriate laboratory for testing",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow procedures to direct test specimen to appropriate laboratory for testing?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow procedures to direct test specimen to appropriate laboratory for testing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify and direct test specimens"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Recognise body systems and organs",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to correctly identify sampled organs based on macroscopic appearance and main function?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly identify sampled organs based",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly identify sampled organs based on macroscopic appearance and main function",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly identify sampled organs based on macroscopic appearance and main function.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify sampled organs based on macroscopic appearance and main function?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly identify sampled organs based on macroscopic appearance and main function",
+      "knowledge_focus": [
+        "Correctly identify sampled organs based on macroscopic appearance and main function"
+      ],
+      "workplace_context_examples": [
+        "Recognise body systems and organs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly identify sampled organs based on macroscopic appearance and main function"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly identify sampled organs based on macroscopic appearance and main function"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly identify sampled organs based on macroscopic appearance and main function."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Recognise body systems and organs",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What information must be recorded when you use correct terminology to name organs and systems, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use correct terminology to name organs ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use correct terminology to name organs and systems",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Use correct terminology to name organs and systems.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct terminology to name organs and systems?",
+      "practical_task_interpretation": "In practice this requires the worker to use correct terminology to name organs and systems",
+      "knowledge_focus": [
+        "Use correct terminology to name organs and systems"
+      ],
+      "workplace_context_examples": [
+        "Recognise body systems and organs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use correct terminology to name organs and systems"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use correct terminology to name organs and systems"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use correct terminology to name organs and systems."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Recognise body systems and organs",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify broad streams of disease that effect body systems and organs?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify broad streams of disease that ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify broad streams of disease that effect body systems and organs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify broad streams of disease that effect body systems and organs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify broad streams of disease that effect body systems and organs?",
+      "practical_task_interpretation": "In practice this requires the worker to identify broad streams of disease that effect body systems and organs",
+      "knowledge_focus": [
+        "Identify broad streams of disease that effect body systems and organs"
+      ],
+      "workplace_context_examples": [
+        "Recognise body systems and organs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify broad streams of disease that effect body systems and organs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify broad streams of disease that effect body systems and organs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify broad streams of disease that effect body systems and organs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Recognise tissues and cells",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to correctly identify tissue types based on microscopic structure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly identify tissue types based o",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly identify tissue types based on microscopic structure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly identify tissue types based on microscopic structure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify tissue types based on microscopic structure?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly identify tissue types based on microscopic structure",
+      "knowledge_focus": [
+        "Correctly identify tissue types based on microscopic structure"
+      ],
+      "workplace_context_examples": [
+        "Recognise tissues and cells"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly identify tissue types based on microscopic structure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly identify tissue types based on microscopic structure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly identify tissue types based on microscopic structure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Recognise tissues and cells",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to correctly identify cell types based on microscopic structure?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correctly identify cell types based on ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correctly identify cell types based on microscopic structure",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Correctly identify cell types based on microscopic structure.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correctly identify cell types based on microscopic structure?",
+      "practical_task_interpretation": "In practice this requires the worker to correctly identify cell types based on microscopic structure",
+      "knowledge_focus": [
+        "Correctly identify cell types based on microscopic structure"
+      ],
+      "workplace_context_examples": [
+        "Recognise tissues and cells"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correctly identify cell types based on microscopic structure"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correctly identify cell types based on microscopic structure"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correctly identify cell types based on microscopic structure."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Recognise tissues and cells",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What information must be recorded when you use correct terminology to name tissue and cell types, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use correct terminology to name tissue ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use correct terminology to name tissue and cell types",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Use correct terminology to name tissue and cell types.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use correct terminology to name tissue and cell types?",
+      "practical_task_interpretation": "In practice this requires the worker to use correct terminology to name tissue and cell types",
+      "knowledge_focus": [
+        "Use correct terminology to name tissue and cell types"
+      ],
+      "workplace_context_examples": [
+        "Recognise tissues and cells"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use correct terminology to name tissue and cell types"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use correct terminology to name tissue and cell types"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use correct terminology to name tissue and cell types."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Identify and direct test specimens",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use knowledge of body systems, organs a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples?",
+      "practical_task_interpretation": "In practice this requires the worker to use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples",
+      "knowledge_focus": [
+        "Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples"
+      ],
+      "workplace_context_examples": [
+        "Identify and direct test specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use knowledge of body systems, organs and tissues to confirm the identity of fresh, fixed and treated biological test samples."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Identify and direct test specimens",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What checks would you perform to confirm test sample type matches test request?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm test sample type matches test r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm test sample type matches test request",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm test sample type matches test request.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm test sample type matches test request?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm test sample type matches test request",
+      "knowledge_focus": [
+        "Confirm test sample type matches test request"
+      ],
+      "workplace_context_examples": [
+        "Identify and direct test specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm test sample type matches test request"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm test sample type matches test request"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm test sample type matches test request."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Identify and direct test specimens",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to follow procedures to direct test specimen to appropriate laboratory for testing? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow procedures to direct test specim",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow procedures to direct test specimen to appropriate laboratory for testing",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Follow procedures to direct test specimen to appropriate laboratory for testing.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow procedures to direct test specimen to appropriate laboratory for testing?",
+      "practical_task_interpretation": "In practice this requires the worker to follow procedures to direct test specimen to appropriate laboratory for testing",
+      "knowledge_focus": [
+        "Follow procedures to direct test specimen to appropriate laboratory for testing"
+      ],
+      "workplace_context_examples": [
+        "Identify and direct test specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow procedures to direct test specimen to appropriate laboratory for testing"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow procedures to direct test specimen to appropriate laboratory for testing"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow procedures to direct test specimen to appropriate laboratory for testing."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.814754+00:00"
+}

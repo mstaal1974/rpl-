@@ -1,0 +1,263 @@
+{
+  "code": "AUMGTY003",
+  "title": "Modify and repair chassis and frames",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Modify and repair chassis and frames demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Inspect vehicle",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Inspect vehicle"
+    },
+    {
+      "id": "E2",
+      "title": "Modify, repair and align chassis or components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order?",
+          "benchmark_statement": "The candidate demonstrates that they can Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Modify, repair and align chassis or components"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Inspect vehicle",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to inspection activities are carried out according to workplace procedures1.2 chassis or frame is measured and inspected to determine modification or repair requirements1.3 inspection report and work plan are prepared during inspection?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspection activities are carried out a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspection activities are carried out according to workplace procedures1.2 chassis or frame is measured and inspected to determine modification or repair requirements1.3 inspection report and work plan are prepared during inspection",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection?",
+      "practical_task_interpretation": "In practice this requires the worker to inspection activities are carried out according to workplace procedures1.2 chassis or frame is measured and inspected to determine modification or repair requirements1.3 inspection report and work plan are prepared during inspection",
+      "knowledge_focus": [
+        "Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection"
+      ],
+      "workplace_context_examples": [
+        "Inspect vehicle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspection activities are carried out according to workplace procedures1.2 chassis or frame is measured and inspected to determine modification or repair requirements1.3 inspection report and work plan are prepared during inspection"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspection activities are carried out according to workplace procedures1.2 chassis or frame is measured and inspected to determine modification or repair requirements1.3 inspection report and work plan are prepared during inspection"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspection activities are carried out according to workplace procedures1.2 Chassis or frame is measured and inspected to determine modification or repair requirements1.3 Inspection report and work plan are prepared during inspection."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Modify, repair and align chassis or components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to vehicle specifications are identified and interpreted according to original equipment manufacturer (oem) specifications and regulatory requirements2.2 tools and equipment are selected and checked for correct operation, and identified faults reported2.3 chassis or frame is modified or repaired and then aligned according to job sheet and work order?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Vehicle specifications are identified a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to vehicle specifications are identified and interpreted according to original equipment manufacturer (oem) specifications and regulatory requirements2.2 tools and equipment are selected and checked for correct operation, and identified faults reported2.3 chassis or frame is modified or repaired and then aligned according to job sheet and work order",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order?",
+      "practical_task_interpretation": "In practice this requires the worker to vehicle specifications are identified and interpreted according to original equipment manufacturer (oem) specifications and regulatory requirements2.2 tools and equipment are selected and checked for correct operation, and identified faults reported2.3 chassis or frame is modified or repaired and then aligned according to job sheet and work order",
+      "knowledge_focus": [
+        "Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order"
+      ],
+      "workplace_context_examples": [
+        "Modify, repair and align chassis or components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of vehicle specifications are identified and interpreted according to original equipment manufacturer (oem) specifications and regulatory requirements2.2 tools and equipment are selected and checked for correct operation, and identified faults reported2.3 chassis or frame is modified or repaired and then aligned according to job sheet and work order"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of vehicle specifications are identified and interpreted according to original equipment manufacturer (oem) specifications and regulatory requirements2.2 tools and equipment are selected and checked for correct operation, and identified faults reported2.3 chassis or frame is modified or repaired and then aligned according to job sheet and work order"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Vehicle specifications are identified and interpreted according to original equipment manufacturer (OEM) specifications and regulatory requirements2.2 Tools and equipment are selected and checked for correct operation, and identified faults reported2.3 Chassis or frame is modified or repaired and then aligned according to job sheet and work order."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to completed work is checked against job sheet and oem specifications3.2 work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 work forms and final inspection reports are completed and submitted to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Completed work is checked against job s",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to completed work is checked against job sheet and oem specifications3.2 work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 work forms and final inspection reports are completed and submitted to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to completed work is checked against job sheet and oem specifications3.2 work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 work forms and final inspection reports are completed and submitted to appropriate personnel",
+      "knowledge_focus": [
+        "Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of completed work is checked against job sheet and oem specifications3.2 work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 work forms and final inspection reports are completed and submitted to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of completed work is checked against job sheet and oem specifications3.2 work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 work forms and final inspection reports are completed and submitted to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Completed work is checked against job sheet and OEM specifications3.2 Work areas, tools and equipment are cleaned and stored according to workplace procedures3.3 Work forms and final inspection reports are completed and submitted to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.469391+00:00"
+}

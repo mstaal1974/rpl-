@@ -1,0 +1,263 @@
+{
+  "code": "AURETK001",
+  "title": "Identify, select and use low voltage electrical test equipment",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify, select and use low voltage electrical test equipment demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify and select LV electrical test equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify and select LV electrical test equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Use electrical test equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Use electrical test equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify and select LV electrical test equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined according to workplace instructions1.2 lv electrical test equipment is identified and selected to meet job requirements1.3 function and method of operation of equipment are confirmed before use1.4 lv electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 hazards associated with the work are identified and risks are managed1.6 safety requirements and safe operating procedures for equipment are accessed and interpreted?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined according to workplace instructions1.2 lv electrical test equipment is identified and selected to meet job requirements1.3 function and method of operation of equipment are confirmed before use1.4 lv electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 hazards associated with the work are identified and risks are managed1.6 safety requirements and safe operating procedures for equipment are accessed and interpreted",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined according to workplace instructions1.2 lv electrical test equipment is identified and selected to meet job requirements1.3 function and method of operation of equipment are confirmed before use1.4 lv electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 hazards associated with the work are identified and risks are managed1.6 safety requirements and safe operating procedures for equipment are accessed and interpreted",
+      "knowledge_focus": [
+        "Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted"
+      ],
+      "workplace_context_examples": [
+        "Identify and select LV electrical test equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined according to workplace instructions1.2 lv electrical test equipment is identified and selected to meet job requirements1.3 function and method of operation of equipment are confirmed before use1.4 lv electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 hazards associated with the work are identified and risks are managed1.6 safety requirements and safe operating procedures for equipment are accessed and interpreted"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined according to workplace instructions1.2 lv electrical test equipment is identified and selected to meet job requirements1.3 function and method of operation of equipment are confirmed before use1.4 lv electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 hazards associated with the work are identified and risks are managed1.6 safety requirements and safe operating procedures for equipment are accessed and interpreted"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 LV electrical test equipment is identified and selected to meet job requirements1.3 Function and method of operation of equipment are confirmed before use1.4 LV electrical test equipment is checked for serviceability according to manufacturer specifications and workplace procedures1.5 Hazards associated with the work are identified and risks are managed1.6 Safety requirements and safe operating procedures for equipment are accessed and interpreted."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Use electrical test equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Equipment is connected according to wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures",
+      "knowledge_focus": [
+        "Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Use electrical test equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Equipment is connected according to workplace procedures and without causing damage to vehicle or machinery2.2 Electrical test equipment is used according to safety requirements to prevent injury to self and others, and damage to vehicle or other workplace equipment2.3 Test results or readings are interpreted and confirmed according to job requirements and workplace procedures2.4 Damaged, faulty or inaccurate electrical test equipment is tagged and isolated for repair or replacement and reported according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Electrical test equipment is cleaned, c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Electrical test equipment is cleaned, checked and stored ready for use according to workplace procedures3.2 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.736551+00:00"
+}

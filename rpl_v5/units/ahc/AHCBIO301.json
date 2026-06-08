@@ -1,0 +1,386 @@
+{
+  "code": "AHCBIO301",
+  "title": "Identify and report signs of unusual disease or pest",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify and report signs of unusual disease or pest demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify signs of unusual disease or pest",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify signs of disease or pest on target species",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify signs of disease or pest on target species?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify signs of disease or pest on target species.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Compare signs with those common to the target species",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare signs with those common to the target species?",
+          "benchmark_statement": "The candidate demonstrates that they can Compare signs with those common to the target species.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Seek advice from supervisor or other professional when signs indicate an unusual disease or pest",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice from supervisor or other professional when signs indicate an unusual disease or pest?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek advice from supervisor or other professional when signs indicate an unusual disease or pest.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify signs of unusual disease or pest"
+    },
+    {
+      "id": "E2",
+      "title": "Report signs of unusual disease or a plant pest",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Report signs of unusual disease or pest to supervisor in a timely manner",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report signs of unusual disease or pest to supervisor in a timely manner?",
+          "benchmark_statement": "The candidate demonstrates that they can Report signs of unusual disease or pest to supervisor in a timely manner.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Report signs of unusual disease or a plant pest"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify signs of unusual disease or pest",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify signs of disease or pest on target species?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify signs of disease or pest on ta",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify signs of disease or pest on target species",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify signs of disease or pest on target species.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify signs of disease or pest on target species?",
+      "practical_task_interpretation": "In practice this requires the worker to identify signs of disease or pest on target species",
+      "knowledge_focus": [
+        "Identify signs of disease or pest on target species"
+      ],
+      "workplace_context_examples": [
+        "Identify signs of unusual disease or pest"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify signs of disease or pest on target species"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify signs of disease or pest on target species"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify signs of disease or pest on target species."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify signs of unusual disease or pest",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to compare signs with those common to the target species? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Compare signs with those common to the ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to compare signs with those common to the target species",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Compare signs with those common to the target species.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Compare signs with those common to the target species?",
+      "practical_task_interpretation": "In practice this requires the worker to compare signs with those common to the target species",
+      "knowledge_focus": [
+        "Compare signs with those common to the target species"
+      ],
+      "workplace_context_examples": [
+        "Identify signs of unusual disease or pest"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of compare signs with those common to the target species"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of compare signs with those common to the target species"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Compare signs with those common to the target species."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Identify signs of unusual disease or pest",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to seek advice from supervisor or other professional when signs indicate an unusual disease or pest? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seek advice from supervisor or other pr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seek advice from supervisor or other professional when signs indicate an unusual disease or pest",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Seek advice from supervisor or other professional when signs indicate an unusual disease or pest.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice from supervisor or other professional when signs indicate an unusual disease or pest?",
+      "practical_task_interpretation": "In practice this requires the worker to seek advice from supervisor or other professional when signs indicate an unusual disease or pest",
+      "knowledge_focus": [
+        "Seek advice from supervisor or other professional when signs indicate an unusual disease or pest"
+      ],
+      "workplace_context_examples": [
+        "Identify signs of unusual disease or pest"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seek advice from supervisor or other professional when signs indicate an unusual disease or pest"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seek advice from supervisor or other professional when signs indicate an unusual disease or pest"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seek advice from supervisor or other professional when signs indicate an unusual disease or pest."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Report signs of unusual disease or a plant pest",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you report signs of unusual disease or pest to supervisor in a timely manner, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Report signs of unusual disease or pest",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to report signs of unusual disease or pest to supervisor in a timely manner",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Report signs of unusual disease or pest to supervisor in a timely manner.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Report signs of unusual disease or pest to supervisor in a timely manner?",
+      "practical_task_interpretation": "In practice this requires the worker to report signs of unusual disease or pest to supervisor in a timely manner",
+      "knowledge_focus": [
+        "Report signs of unusual disease or pest to supervisor in a timely manner"
+      ],
+      "workplace_context_examples": [
+        "Report signs of unusual disease or a plant pest"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of report signs of unusual disease or pest to supervisor in a timely manner"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of report signs of unusual disease or pest to supervisor in a timely manner"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Report signs of unusual disease or pest to supervisor in a timely manner."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Report signs of unusual disease or a plant pest",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Implement biosecurity measures accordin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority?",
+      "practical_task_interpretation": "In practice this requires the worker to implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority",
+      "knowledge_focus": [
+        "Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority"
+      ],
+      "workplace_context_examples": [
+        "Report signs of unusual disease or a plant pest"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Implement biosecurity measures according to enterprise biosecurity plans and instructions from appropriate authority."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.505898+00:00"
+}

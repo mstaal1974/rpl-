@@ -1,0 +1,407 @@
+{
+  "code": "AUMGTP002",
+  "title": "Rework vehicle paint faults",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Rework vehicle paint faults demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for paint rework process",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality?",
+          "benchmark_statement": "The candidate demonstrates that they can Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for paint rework process"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare surfaces for rework",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed?",
+          "benchmark_statement": "The candidate demonstrates that they can Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare surfaces for rework"
+    },
+    {
+      "id": "E3",
+      "title": "Apply primer, hi-fill and colour",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Apply primer, hi-fill and colour"
+    },
+    {
+      "id": "E4",
+      "title": "Finish paint surfaces",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Finish paint surfaces"
+    },
+    {
+      "id": "E5",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified?",
+          "benchmark_statement": "The candidate demonstrates that they can Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for paint rework process",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to paint faults are identified and repair methods planned1.2 causes of faults are identified to ensure faults are rectified during rework1.3 tools, equipment and materials are selected and inspected for quality?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Paint faults are identified and repair ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to paint faults are identified and repair methods planned1.2 causes of faults are identified to ensure faults are rectified during rework1.3 tools, equipment and materials are selected and inspected for quality",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality?",
+      "practical_task_interpretation": "In practice this requires the worker to paint faults are identified and repair methods planned1.2 causes of faults are identified to ensure faults are rectified during rework1.3 tools, equipment and materials are selected and inspected for quality",
+      "knowledge_focus": [
+        "Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality"
+      ],
+      "workplace_context_examples": [
+        "Prepare for paint rework process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of paint faults are identified and repair methods planned1.2 causes of faults are identified to ensure faults are rectified during rework1.3 tools, equipment and materials are selected and inspected for quality"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of paint faults are identified and repair methods planned1.2 causes of faults are identified to ensure faults are rectified during rework1.3 tools, equipment and materials are selected and inspected for quality"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Paint faults are identified and repair methods planned1.2 Causes of faults are identified to ensure faults are rectified during rework1.3 Tools, equipment and materials are selected and inspected for quality."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Prepare surfaces for rework",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to masking is applied to surrounding panels to protect painted surfaces from overspray2.2 faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 prepared area is inspected to ensure paint fault has been removed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Masking is applied to surrounding panel",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to masking is applied to surrounding panels to protect painted surfaces from overspray2.2 faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 prepared area is inspected to ensure paint fault has been removed",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed?",
+      "practical_task_interpretation": "In practice this requires the worker to masking is applied to surrounding panels to protect painted surfaces from overspray2.2 faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 prepared area is inspected to ensure paint fault has been removed",
+      "knowledge_focus": [
+        "Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed"
+      ],
+      "workplace_context_examples": [
+        "Prepare surfaces for rework"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of masking is applied to surrounding panels to protect painted surfaces from overspray2.2 faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 prepared area is inspected to ensure paint fault has been removed"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of masking is applied to surrounding panels to protect painted surfaces from overspray2.2 faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 prepared area is inspected to ensure paint fault has been removed"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Masking is applied to surrounding panels to protect painted surfaces from overspray2.2 Faulty paint surfaces are scuffed back and cleaned to required pre-paint standard2.3 Prepared area is inspected to ensure paint fault has been removed."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Apply primer, hi-fill and colour",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with primer and hi-fill are applied and prepared according to manufacturer specifications3.2 paint colour is matched according to vehicle paint code3.3 paint colour is mixed to manufacturer-recommended viscosity3.4 paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (whs) requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Primer and hi-fill are applied and prep",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to primer and hi-fill are applied and prepared according to manufacturer specifications3.2 paint colour is matched according to vehicle paint code3.3 paint colour is mixed to manufacturer-recommended viscosity3.4 paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (whs) requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to primer and hi-fill are applied and prepared according to manufacturer specifications3.2 paint colour is matched according to vehicle paint code3.3 paint colour is mixed to manufacturer-recommended viscosity3.4 paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (whs) requirements",
+      "knowledge_focus": [
+        "Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements"
+      ],
+      "workplace_context_examples": [
+        "Apply primer, hi-fill and colour"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of primer and hi-fill are applied and prepared according to manufacturer specifications3.2 paint colour is matched according to vehicle paint code3.3 paint colour is mixed to manufacturer-recommended viscosity3.4 paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (whs) requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of primer and hi-fill are applied and prepared according to manufacturer specifications3.2 paint colour is matched according to vehicle paint code3.3 paint colour is mixed to manufacturer-recommended viscosity3.4 paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (whs) requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Primer and hi-fill are applied and prepared according to manufacturer specifications3.2 Paint colour is matched according to vehicle paint code3.3 Paint colour is mixed to manufacturer-recommended viscosity3.4 Paint colour is applied and blended into the existing paint work using tools, equipment and materials according to workplace procedures and work health and safety (WHS) requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Finish paint surfaces",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to painted surfaces are dried according to paint manufacturer specifications4.2 repainted surfaces are polished to job specification4.3 surrounding areas are cleaned and any overspray removed according to workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Painted surfaces are dried according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to painted surfaces are dried according to paint manufacturer specifications4.2 repainted surfaces are polished to job specification4.3 surrounding areas are cleaned and any overspray removed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to painted surfaces are dried according to paint manufacturer specifications4.2 repainted surfaces are polished to job specification4.3 surrounding areas are cleaned and any overspray removed according to workplace procedures",
+      "knowledge_focus": [
+        "Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Finish paint surfaces"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of painted surfaces are dried according to paint manufacturer specifications4.2 repainted surfaces are polished to job specification4.3 surrounding areas are cleaned and any overspray removed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of painted surfaces are dried according to paint manufacturer specifications4.2 repainted surfaces are polished to job specification4.3 surrounding areas are cleaned and any overspray removed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Painted surfaces are dried according to paint manufacturer specifications4.2 Repainted surfaces are polished to job specification4.3 Surrounding areas are cleaned and any overspray removed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E5: Complete work processes",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What checks would you perform to tools and equipment are cleaned and inspected5.2 faulty tools and equipment are identified, tagged, reported and sent for repair5.3 work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 work job sheets are completed and supervisor is notified?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Tools and equipment are cleaned and ins",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to tools and equipment are cleaned and inspected5.2 faulty tools and equipment are identified, tagged, reported and sent for repair5.3 work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 work job sheets are completed and supervisor is notified",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified?",
+      "practical_task_interpretation": "In practice this requires the worker to tools and equipment are cleaned and inspected5.2 faulty tools and equipment are identified, tagged, reported and sent for repair5.3 work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 work job sheets are completed and supervisor is notified",
+      "knowledge_focus": [
+        "Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of tools and equipment are cleaned and inspected5.2 faulty tools and equipment are identified, tagged, reported and sent for repair5.3 work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 work job sheets are completed and supervisor is notified"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of tools and equipment are cleaned and inspected5.2 faulty tools and equipment are identified, tagged, reported and sent for repair5.3 work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 work job sheets are completed and supervisor is notified"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Tools and equipment are cleaned and inspected5.2 Faulty tools and equipment are identified, tagged, reported and sent for repair5.3 Work area is cleaned, and materials disposed of or recycled according to workplace procedures5.4 Work job sheets are completed and supervisor is notified."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.453909+00:00"
+}

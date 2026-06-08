@@ -1,0 +1,464 @@
+{
+  "code": "AMPOFF211",
+  "title": "Prepare and trim honeycomb",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare and trim honeycomb demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instruction for preparing and trimming honeycomb",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for preparing and trimming honeycomb?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for preparing and trimming honeycomb.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify defects and contamination that can occur when processing honeycomb",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects and contamination that can occur when processing honeycomb?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify defects and contamination that can occur when processing honeycomb.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify hygiene and sanitation requirements for the tripe room",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for the tripe room?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for the tripe room.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work"
+    },
+    {
+      "id": "E2",
+      "title": "Trim honeycomb",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trim honeycomb following workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim honeycomb following workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim honeycomb following workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Work to avoid contamination and cross-contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work to avoid contamination and cross-contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Work to avoid contamination and cross-contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Place trimmed honeycomb and trim in appropriate bin or chute for further processing",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Place trimmed honeycomb and trim in appropriate bin or chute for further processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Place trimmed honeycomb and trim in appropriate bin or chute for further processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Trim honeycomb"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instruction for preparing and trimming honeycomb?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instruction for preparing",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instruction for preparing and trimming honeycomb",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for preparing and trimming honeycomb.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for preparing and trimming honeycomb?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instruction for preparing and trimming honeycomb",
+      "knowledge_focus": [
+        "Identify work instruction for preparing and trimming honeycomb"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instruction for preparing and trimming honeycomb"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instruction for preparing and trimming honeycomb"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instruction for preparing and trimming honeycomb."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify defects and contamination that can occur when processing honeycomb?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify defects and contamination that",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify defects and contamination that can occur when processing honeycomb",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify defects and contamination that can occur when processing honeycomb.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify defects and contamination that can occur when processing honeycomb?",
+      "practical_task_interpretation": "In practice this requires the worker to identify defects and contamination that can occur when processing honeycomb",
+      "knowledge_focus": [
+        "Identify defects and contamination that can occur when processing honeycomb"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify defects and contamination that can occur when processing honeycomb"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify defects and contamination that can occur when processing honeycomb"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify defects and contamination that can occur when processing honeycomb."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify hygiene and sanitation requirements for the tripe room?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify hygiene and sanitation require",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify hygiene and sanitation requirements for the tripe room",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for the tripe room.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for the tripe room?",
+      "practical_task_interpretation": "In practice this requires the worker to identify hygiene and sanitation requirements for the tripe room",
+      "knowledge_focus": [
+        "Identify hygiene and sanitation requirements for the tripe room"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify hygiene and sanitation requirements for the tripe room"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify hygiene and sanitation requirements for the tripe room"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify hygiene and sanitation requirements for the tripe room."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Trim honeycomb",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to trim honeycomb following workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim honeycomb following workplace requ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim honeycomb following workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim honeycomb following workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim honeycomb following workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to trim honeycomb following workplace requirements",
+      "knowledge_focus": [
+        "Trim honeycomb following workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Trim honeycomb"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim honeycomb following workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim honeycomb following workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim honeycomb following workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Trim honeycomb",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to work to avoid contamination and cross-contamination? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work to avoid contamination and cross-c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work to avoid contamination and cross-contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Work to avoid contamination and cross-contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work to avoid contamination and cross-contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to work to avoid contamination and cross-contamination",
+      "knowledge_focus": [
+        "Work to avoid contamination and cross-contamination"
+      ],
+      "workplace_context_examples": [
+        "Trim honeycomb"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work to avoid contamination and cross-contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work to avoid contamination and cross-contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work to avoid contamination and cross-contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Trim honeycomb",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to place trimmed honeycomb and trim in appropriate bin or chute for further processing? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Place trimmed honeycomb and trim in app",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to place trimmed honeycomb and trim in appropriate bin or chute for further processing",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Place trimmed honeycomb and trim in appropriate bin or chute for further processing.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Place trimmed honeycomb and trim in appropriate bin or chute for further processing?",
+      "practical_task_interpretation": "In practice this requires the worker to place trimmed honeycomb and trim in appropriate bin or chute for further processing",
+      "knowledge_focus": [
+        "Place trimmed honeycomb and trim in appropriate bin or chute for further processing"
+      ],
+      "workplace_context_examples": [
+        "Trim honeycomb"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of place trimmed honeycomb and trim in appropriate bin or chute for further processing"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of place trimmed honeycomb and trim in appropriate bin or chute for further processing"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Place trimmed honeycomb and trim in appropriate bin or chute for further processing."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.124626+00:00"
+}

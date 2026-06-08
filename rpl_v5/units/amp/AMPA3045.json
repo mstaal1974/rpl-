@@ -1,0 +1,191 @@
+{
+  "code": "AMPA3045",
+  "title": "Drop sock and pull shoulder pelt",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Drop sock and pull shoulder pelt demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Open pelt",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Open pelt"
+    },
+    {
+      "id": "E2",
+      "title": "Clear pelt",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase?",
+          "benchmark_statement": "The candidate demonstrates that they can Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Clear pelt"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Open pelt",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What are the key hazards and required controls associated with open pelt in accordance with workplace requirements1.2 open pelt in accordance with workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Open pelt in accordance with workplace ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to open pelt in accordance with workplace requirements1.2 open pelt in accordance with workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to open pelt in accordance with workplace requirements1.2 open pelt in accordance with workplace health and safety requirements",
+      "knowledge_focus": [
+        "Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Open pelt"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of open pelt in accordance with workplace requirements1.2 open pelt in accordance with workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of open pelt in accordance with workplace requirements1.2 open pelt in accordance with workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Open pelt in accordance with workplace requirements1.2 Open pelt in accordance with workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Clear pelt",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with clear pelt from around both forelegs in accordance with workplace requirements2.2 clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clear pelt from around both forelegs in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clear pelt from around both forelegs in accordance with workplace requirements2.2 clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase?",
+      "practical_task_interpretation": "In practice this requires the worker to clear pelt from around both forelegs in accordance with workplace requirements2.2 clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase",
+      "knowledge_focus": [
+        "Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase"
+      ],
+      "workplace_context_examples": [
+        "Clear pelt"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clear pelt from around both forelegs in accordance with workplace requirements2.2 clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clear pelt from around both forelegs in accordance with workplace requirements2.2 clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clear pelt from around both forelegs in accordance with workplace requirements2.2 Clear pelt from shoulder area following workplace health and safety requirements to avoid the risks of damage and contamination to the carcase."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.900560+00:00"
+}

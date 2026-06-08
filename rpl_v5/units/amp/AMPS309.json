@@ -1,0 +1,335 @@
+{
+  "code": "AMPS309",
+  "title": "Operate product forming machinery",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate product forming machinery demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Set up product forming equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Set up product forming equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Operate product forming machinery",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate product forming machinery"
+    },
+    {
+      "id": "E3",
+      "title": "Ensure smooth operation of process",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Ensure smooth operation of process"
+    },
+    {
+      "id": "E4",
+      "title": "Shut-down the process",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Shut-down the process"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Set up product forming equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to set up all processing equipment according to production requirements1.2 use appropriate personal and protective equipment (ppe) as provided1.3 conduct routine pre-start checks prior to commencement of operation1.4 ensure required product materials are in place?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up all processing equipment accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up all processing equipment according to production requirements1.2 use appropriate personal and protective equipment (ppe) as provided1.3 conduct routine pre-start checks prior to commencement of operation1.4 ensure required product materials are in place",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place?",
+      "practical_task_interpretation": "In practice this requires the worker to set up all processing equipment according to production requirements1.2 use appropriate personal and protective equipment (ppe) as provided1.3 conduct routine pre-start checks prior to commencement of operation1.4 ensure required product materials are in place",
+      "knowledge_focus": [
+        "Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place"
+      ],
+      "workplace_context_examples": [
+        "Set up product forming equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up all processing equipment according to production requirements1.2 use appropriate personal and protective equipment (ppe) as provided1.3 conduct routine pre-start checks prior to commencement of operation1.4 ensure required product materials are in place"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up all processing equipment according to production requirements1.2 use appropriate personal and protective equipment (ppe) as provided1.3 conduct routine pre-start checks prior to commencement of operation1.4 ensure required product materials are in place"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up all processing equipment according to production requirements1.2 Use appropriate Personal and Protective Equipment (PPE) as provided1.3 Conduct routine pre-start checks prior to commencement of operation1.4 Ensure required product materials are in place."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Operate product forming machinery",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to use product forming machinery is used according to workplace requirements2.2 take appropriate remedial action to correct any faults in process or product2.3 monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 meet daily production schedule2.5 maintain workplace records according to workplace recording requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use product forming machinery is used a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use product forming machinery is used according to workplace requirements2.2 take appropriate remedial action to correct any faults in process or product2.3 monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 meet daily production schedule2.5 maintain workplace records according to workplace recording requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to use product forming machinery is used according to workplace requirements2.2 take appropriate remedial action to correct any faults in process or product2.3 monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 meet daily production schedule2.5 maintain workplace records according to workplace recording requirements",
+      "knowledge_focus": [
+        "Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements"
+      ],
+      "workplace_context_examples": [
+        "Operate product forming machinery"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use product forming machinery is used according to workplace requirements2.2 take appropriate remedial action to correct any faults in process or product2.3 monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 meet daily production schedule2.5 maintain workplace records according to workplace recording requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use product forming machinery is used according to workplace requirements2.2 take appropriate remedial action to correct any faults in process or product2.3 monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 meet daily production schedule2.5 maintain workplace records according to workplace recording requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use product forming machinery is used according to workplace requirements2.2 Take appropriate remedial action to correct any faults in process or product2.3 Monitor process to confirm that specifications are met, and variations in operating conditions are addressed2.4 Meet daily production schedule2.5 Maintain workplace records according to workplace recording requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Ensure smooth operation of process",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 communicate clearly and accurately with team members3.3 promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 encourage and support team members to work as an effective team3.5 follow safe working procedures at all times?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify potential dangers from hazards",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 communicate clearly and accurately with team members3.3 promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 encourage and support team members to work as an effective team3.5 follow safe working procedures at all times",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times?",
+      "practical_task_interpretation": "In practice this requires the worker to identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 communicate clearly and accurately with team members3.3 promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 encourage and support team members to work as an effective team3.5 follow safe working procedures at all times",
+      "knowledge_focus": [
+        "Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times"
+      ],
+      "workplace_context_examples": [
+        "Ensure smooth operation of process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 communicate clearly and accurately with team members3.3 promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 encourage and support team members to work as an effective team3.5 follow safe working procedures at all times"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 communicate clearly and accurately with team members3.3 promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 encourage and support team members to work as an effective team3.5 follow safe working procedures at all times"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify potential dangers from hazards and ensure actions taken reflect the required precautions3.2 Communicate clearly and accurately with team members3.3 Promptly, clearly and accurately report faults and variances outside the job holder's area of responsibility to an appropriate authority3.4 Encourage and support team members to work as an effective team3.5 Follow safe working procedures at all times."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Shut-down the process",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify appropriate shut-down procedure4.2 shut-down process according to workplace procedures4.3 promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify appropriate shut-down procedur",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify appropriate shut-down procedure4.2 shut-down process according to workplace procedures4.3 promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority?",
+      "practical_task_interpretation": "In practice this requires the worker to identify appropriate shut-down procedure4.2 shut-down process according to workplace procedures4.3 promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority",
+      "knowledge_focus": [
+        "Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority"
+      ],
+      "workplace_context_examples": [
+        "Shut-down the process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify appropriate shut-down procedure4.2 shut-down process according to workplace procedures4.3 promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify appropriate shut-down procedure4.2 shut-down process according to workplace procedures4.3 promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify appropriate shut-down procedure4.2 Shut-down process according to workplace procedures4.3 Promptly, clearly and accurately report faults and variances outside area of responsibility to an appropriate authority."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.360300+00:00"
+}

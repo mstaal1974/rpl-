@@ -1,0 +1,263 @@
+{
+  "code": "AUMABA012",
+  "title": "Operate load shifting equipment",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate load shifting equipment demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Inspect load shifting equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Inspect load shifting equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Lift, shift and place load",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Lift, shift and place load"
+    },
+    {
+      "id": "E3",
+      "title": "Complete load shifting operations",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete load shifting operations"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Inspect load shifting equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to complete inspection of load shifting equipment according to workplace procedures1.2 identify load weights and volumes and receive confirmation from supervisor1.3 identify and document equipment faults and report to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete inspection of load shifting eq",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete inspection of load shifting equipment according to workplace procedures1.2 identify load weights and volumes and receive confirmation from supervisor1.3 identify and document equipment faults and report to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to complete inspection of load shifting equipment according to workplace procedures1.2 identify load weights and volumes and receive confirmation from supervisor1.3 identify and document equipment faults and report to appropriate personnel",
+      "knowledge_focus": [
+        "Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Inspect load shifting equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete inspection of load shifting equipment according to workplace procedures1.2 identify load weights and volumes and receive confirmation from supervisor1.3 identify and document equipment faults and report to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete inspection of load shifting equipment according to workplace procedures1.2 identify load weights and volumes and receive confirmation from supervisor1.3 identify and document equipment faults and report to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete inspection of load shifting equipment according to workplace procedures1.2 Identify load weights and volumes and receive confirmation from supervisor1.3 Identify and document equipment faults and report to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Lift, shift and place load",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify load characteristics and handling requirements to select an appropriate shifting device 2.2 plan shifting route, and identify and control potential hazards 2.3 place load in specified locations without causing damage to property, machinery or equipment2.4 complete lift, shift and placement of load using approved work health and safety (whs) methods and equipment, according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify load characteristics and handl",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify load characteristics and handling requirements to select an appropriate shifting device 2.2 plan shifting route, and identify and control potential hazards 2.3 place load in specified locations without causing damage to property, machinery or equipment2.4 complete lift, shift and placement of load using approved work health and safety (whs) methods and equipment, according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify load characteristics and handling requirements to select an appropriate shifting device 2.2 plan shifting route, and identify and control potential hazards 2.3 place load in specified locations without causing damage to property, machinery or equipment2.4 complete lift, shift and placement of load using approved work health and safety (whs) methods and equipment, according to workplace procedures",
+      "knowledge_focus": [
+        "Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Lift, shift and place load"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify load characteristics and handling requirements to select an appropriate shifting device 2.2 plan shifting route, and identify and control potential hazards 2.3 place load in specified locations without causing damage to property, machinery or equipment2.4 complete lift, shift and placement of load using approved work health and safety (whs) methods and equipment, according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify load characteristics and handling requirements to select an appropriate shifting device 2.2 plan shifting route, and identify and control potential hazards 2.3 place load in specified locations without causing damage to property, machinery or equipment2.4 complete lift, shift and placement of load using approved work health and safety (whs) methods and equipment, according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify load characteristics and handling requirements to select an appropriate shifting device 2.2 Plan shifting route, and identify and control potential hazards 2.3 Place load in specified locations without causing damage to property, machinery or equipment2.4 Complete lift, shift and placement of load using approved work health and safety (WHS) methods and equipment, according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete load shifting operations",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to complete post-inspection of load shifting equipment 3.2 identify, tag and report faults 3.3 store and secure load shifting equipment in accordance with workplace requirements3.4 complete load shifting documentation and maintenance records according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete post-inspection of load shifti",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete post-inspection of load shifting equipment 3.2 identify, tag and report faults 3.3 store and secure load shifting equipment in accordance with workplace requirements3.4 complete load shifting documentation and maintenance records according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to complete post-inspection of load shifting equipment 3.2 identify, tag and report faults 3.3 store and secure load shifting equipment in accordance with workplace requirements3.4 complete load shifting documentation and maintenance records according to workplace procedures",
+      "knowledge_focus": [
+        "Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete load shifting operations"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete post-inspection of load shifting equipment 3.2 identify, tag and report faults 3.3 store and secure load shifting equipment in accordance with workplace requirements3.4 complete load shifting documentation and maintenance records according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete post-inspection of load shifting equipment 3.2 identify, tag and report faults 3.3 store and secure load shifting equipment in accordance with workplace requirements3.4 complete load shifting documentation and maintenance records according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete post-inspection of load shifting equipment 3.2 Identify, tag and report faults 3.3 Store and secure load shifting equipment in accordance with workplace requirements3.4 Complete load shifting documentation and maintenance records according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.425995+00:00"
+}

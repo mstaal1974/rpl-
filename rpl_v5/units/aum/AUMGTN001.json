@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTN001",
+  "title": "Replace and repair vehicle body panels and fittings",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Replace and repair vehicle body panels and fittings demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Replace body panels and fittings",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Replace body panels and fittings"
+    },
+    {
+      "id": "E3",
+      "title": "Repair faulty or damaged panels",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Repair faulty or damaged panels"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to work instructions and job specifications are identified and confirmed1.2 tools and equipment required for the job are selected and inspected for safe operation1.3 work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 repair plan is developed and confirmed with appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work instructions and job specification",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work instructions and job specifications are identified and confirmed1.2 tools and equipment required for the job are selected and inspected for safe operation1.3 work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 repair plan is developed and confirmed with appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to work instructions and job specifications are identified and confirmed1.2 tools and equipment required for the job are selected and inspected for safe operation1.3 work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 repair plan is developed and confirmed with appropriate personnel",
+      "knowledge_focus": [
+        "Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work instructions and job specifications are identified and confirmed1.2 tools and equipment required for the job are selected and inspected for safe operation1.3 work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 repair plan is developed and confirmed with appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work instructions and job specifications are identified and confirmed1.2 tools and equipment required for the job are selected and inspected for safe operation1.3 work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 repair plan is developed and confirmed with appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work instructions and job specifications are identified and confirmed1.2 Tools and equipment required for the job are selected and inspected for safe operation1.3 Work area is prepared to ensure safety of personnel, workplace and other vehicles1.4 Repair plan is developed and confirmed with appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Replace body panels and fittings",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What information must be recorded when you workplace procedures are identified and followed2.2 replacement information is identified and interpreted from original equipment manufacturer (oem) specifications2.3 components are refitted using oem approved methods, materials and equipment2.4 sealant is selected and applied according to oem specifications2.5 replacement activities are completed within industry timelines and standards, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Workplace procedures are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to workplace procedures are identified and followed2.2 replacement information is identified and interpreted from original equipment manufacturer (oem) specifications2.3 components are refitted using oem approved methods, materials and equipment2.4 sealant is selected and applied according to oem specifications2.5 replacement activities are completed within industry timelines and standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards?",
+      "practical_task_interpretation": "In practice this requires the worker to workplace procedures are identified and followed2.2 replacement information is identified and interpreted from original equipment manufacturer (oem) specifications2.3 components are refitted using oem approved methods, materials and equipment2.4 sealant is selected and applied according to oem specifications2.5 replacement activities are completed within industry timelines and standards",
+      "knowledge_focus": [
+        "Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards"
+      ],
+      "workplace_context_examples": [
+        "Replace body panels and fittings"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of workplace procedures are identified and followed2.2 replacement information is identified and interpreted from original equipment manufacturer (oem) specifications2.3 components are refitted using oem approved methods, materials and equipment2.4 sealant is selected and applied according to oem specifications2.5 replacement activities are completed within industry timelines and standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of workplace procedures are identified and followed2.2 replacement information is identified and interpreted from original equipment manufacturer (oem) specifications2.3 components are refitted using oem approved methods, materials and equipment2.4 sealant is selected and applied according to oem specifications2.5 replacement activities are completed within industry timelines and standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Replacement information is identified and interpreted from original equipment manufacturer (OEM) specifications2.3 Components are refitted using OEM approved methods, materials and equipment2.4 Sealant is selected and applied according to OEM specifications2.5 Replacement activities are completed within industry timelines and standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Repair faulty or damaged panels",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to damaged sections are inspected and a rectification process identified3.2 damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 repair documentation is completed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Damaged sections are inspected and a re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to damaged sections are inspected and a rectification process identified3.2 damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 repair documentation is completed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to damaged sections are inspected and a rectification process identified3.2 damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 repair documentation is completed according to workplace procedures",
+      "knowledge_focus": [
+        "Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Repair faulty or damaged panels"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of damaged sections are inspected and a rectification process identified3.2 damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 repair documentation is completed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of damaged sections are inspected and a rectification process identified3.2 damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 repair documentation is completed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Damaged sections are inspected and a rectification process identified3.2 Damaged or faulty panels are rectified according to workplace procedures and quality standards3.3 Repair documentation is completed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work area is cleaned, and materials dis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures",
+      "knowledge_focus": [
+        "Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 tools and equipment are cleaned, checked and stored according to workplace procedures4.3 faulty equipment is tagged and reported4.4 work sheets are completed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work area is cleaned, and materials disposed of or recycled according to workplace procedures4.2 Tools and equipment are cleaned, checked and stored according to workplace procedures4.3 Faulty equipment is tagged and reported4.4 Work sheets are completed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.451995+00:00"
+}

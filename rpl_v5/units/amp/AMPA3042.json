@@ -1,0 +1,118 @@
+{
+  "code": "AMPA3042",
+  "title": "Backdown pig carcase",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Backdown pig carcase demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Backdown a pig carcase",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down?",
+          "benchmark_statement": "The candidate demonstrates that they can Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Backdown a pig carcase"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Backdown a pig carcase",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to backdown carcase according to workplace requirements1.2 identify and apply workplace health and safety requirements 1.3 identify and minimise sources of contamination and cross-contamination associated with backing down?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Backdown carcase according to workplace",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to backdown carcase according to workplace requirements1.2 identify and apply workplace health and safety requirements 1.3 identify and minimise sources of contamination and cross-contamination associated with backing down",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down?",
+      "practical_task_interpretation": "In practice this requires the worker to backdown carcase according to workplace requirements1.2 identify and apply workplace health and safety requirements 1.3 identify and minimise sources of contamination and cross-contamination associated with backing down",
+      "knowledge_focus": [
+        "Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down"
+      ],
+      "workplace_context_examples": [
+        "Backdown a pig carcase"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of backdown carcase according to workplace requirements1.2 identify and apply workplace health and safety requirements 1.3 identify and minimise sources of contamination and cross-contamination associated with backing down"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of backdown carcase according to workplace requirements1.2 identify and apply workplace health and safety requirements 1.3 identify and minimise sources of contamination and cross-contamination associated with backing down"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Backdown carcase according to workplace requirements1.2 Identify and apply workplace health and safety requirements 1.3 Identify and minimise sources of contamination and cross-contamination associated with backing down."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.899048+00:00"
+}

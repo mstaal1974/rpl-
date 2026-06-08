@@ -1,0 +1,335 @@
+{
+  "code": "AURETR019",
+  "title": "Inspect, service and repair AC electric motor drive systems",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Inspect, service and repair AC electric motor drive systems demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to inspect, service and repair AC electric motor drive system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to inspect, service and repair AC electric motor drive system"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect and test system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments?",
+          "benchmark_statement": "The candidate demonstrates that they can System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect and test system"
+    },
+    {
+      "id": "E3",
+      "title": "Service and repair system",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present?",
+          "benchmark_statement": "The candidate demonstrates that they can System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Service and repair system"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to inspect, service and repair AC electric motor drive system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to job requirements are determined according to workplace instructions1.2 inspection and servicing procedures are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools, equipment and materials are selected and checked for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Job requirements are determined accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to job requirements are determined according to workplace instructions1.2 inspection and servicing procedures are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools, equipment and materials are selected and checked for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to job requirements are determined according to workplace instructions1.2 inspection and servicing procedures are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools, equipment and materials are selected and checked for serviceability",
+      "knowledge_focus": [
+        "Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to inspect, service and repair AC electric motor drive system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of job requirements are determined according to workplace instructions1.2 inspection and servicing procedures are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools, equipment and materials are selected and checked for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of job requirements are determined according to workplace instructions1.2 inspection and servicing procedures are accessed and interpreted1.3 hazards associated with the work are identified and risks are managed1.4 tools, equipment and materials are selected and checked for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Job requirements are determined according to workplace instructions1.2 Inspection and servicing procedures are accessed and interpreted1.3 Hazards associated with the work are identified and risks are managed1.4 Tools, equipment and materials are selected and checked for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect and test system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to system is inspected and tested according to workplace procedures and safety requirements2.2 circuits are tested according to workplace procedures and without causing damage to components or systems2.3 inspection results are compared with manufacturer specifications2.4 inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can System is inspected and tested accordin",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to system is inspected and tested according to workplace procedures and safety requirements2.2 circuits are tested according to workplace procedures and without causing damage to components or systems2.3 inspection results are compared with manufacturer specifications2.4 inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments?",
+      "practical_task_interpretation": "In practice this requires the worker to system is inspected and tested according to workplace procedures and safety requirements2.2 circuits are tested according to workplace procedures and without causing damage to components or systems2.3 inspection results are compared with manufacturer specifications2.4 inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments",
+      "knowledge_focus": [
+        "System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments"
+      ],
+      "workplace_context_examples": [
+        "Inspect and test system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of system is inspected and tested according to workplace procedures and safety requirements2.2 circuits are tested according to workplace procedures and without causing damage to components or systems2.3 inspection results are compared with manufacturer specifications2.4 inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of system is inspected and tested according to workplace procedures and safety requirements2.2 circuits are tested according to workplace procedures and without causing damage to components or systems2.3 inspection results are compared with manufacturer specifications2.4 inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can System is inspected and tested according to workplace procedures and safety requirements2.2 Circuits are tested according to workplace procedures and without causing damage to components or systems2.3 Inspection results are compared with manufacturer specifications2.4 Inspection findings are reported according to workplace procedures, including recommendations for required repairs or adjustments."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Service and repair system",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to system is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 system is performance tested and final adjustments are made3.3 post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can System is serviced and repaired accordi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to system is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 system is performance tested and final adjustments are made3.3 post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present?",
+      "practical_task_interpretation": "In practice this requires the worker to system is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 system is performance tested and final adjustments are made3.3 post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present",
+      "knowledge_focus": [
+        "System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present"
+      ],
+      "workplace_context_examples": [
+        "Service and repair system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of system is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 system is performance tested and final adjustments are made3.3 post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of system is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 system is performance tested and final adjustments are made3.3 post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can System is serviced and repaired according to manufacturer and component specifications, workplace procedures, and safety and environmental requirements, and without causing damage to components or systems3.2 System is performance tested and final adjustments are made3.3 Post-repair testing is carried out to confirm system is operating to manufacturer specifications, any reported problems are resolved, and no other problems are present."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Final inspection is made to ensure work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures",
+      "knowledge_focus": [
+        "Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 workplace documentation is processed according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Final inspection is made to ensure work is to workplace expectations and vehicle, vessel or machinery is presented ready for use4.2 Work area is cleaned, waste and non-recyclable materials are disposed of, and recyclable material is collected4.3 Tools and equipment are checked and stored and any faulty electrical equipment is identified, tagged and isolated according to workplace procedures4.4 Workplace documentation is processed according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.752090+00:00"
+}

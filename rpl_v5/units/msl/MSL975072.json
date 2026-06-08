@@ -1,0 +1,994 @@
+{
+  "code": "MSL975072",
+  "title": "Use surgical cut-up techniques for non-complex tissue specimens",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Use surgical cut-up techniques for non-complex tissue specimens demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare equipment for specimen cut-up",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Load and handle blade safely",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load and handle blade safely?",
+          "benchmark_statement": "The candidate demonstrates that they can Load and handle blade safely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare equipment for specimen cut-up"
+    },
+    {
+      "id": "E2",
+      "title": "Interpret clinical information",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Confirm patient identification in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm patient identification in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm patient identification in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process?",
+          "benchmark_statement": "The candidate demonstrates that they can Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Critically evaluate information and determine its application to the processing of the individual specimen",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Critically evaluate information and determine its application to the processing of the individual specimen?",
+          "benchmark_statement": "The candidate demonstrates that they can Critically evaluate information and determine its application to the processing of the individual specimen.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Determine requirements for selective sampling based on clinical information",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine requirements for selective sampling based on clinical information?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine requirements for selective sampling based on clinical information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Interpret clinical information"
+    },
+    {
+      "id": "E3",
+      "title": "Determine and record macroscopic descriptions",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Identify specimen readiness for cut-up and record any special instructions to be implemented prior to dissection",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specimen readiness for cut-up and record any special instructions to be implemented prior to dissection?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify specimen readiness for cut-up and record any special instructions to be implemented prior to dissection.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Determine and record macroscopic descriptions"
+    },
+    {
+      "id": "E4",
+      "title": "Dissect non-complex specimens",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Follow specimen-specific workplace procedures for specimen orientation, selection and marking",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow specimen-specific workplace procedures for specimen orientation, selection and marking?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow specimen-specific workplace procedures for specimen orientation, selection and marking.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Hold and use instruments safely and in accordance with their intended purpose",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hold and use instruments safely and in accordance with their intended purpose?",
+          "benchmark_statement": "The candidate demonstrates that they can Hold and use instruments safely and in accordance with their intended purpose.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Record accurate details of internal gross features of dissected specimen using appropriate terminology and in accordance with specimen-specific workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record accurate details of internal gross features of dissected specimen using appropriate terminology and in accordance with specimen-specific workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record accurate details of internal gross features of dissected specimen using appropriate terminology and in accordance with specimen-specific workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Record or visually capture details of any significant findings using appropriate terminology and in accordance with specimen-specific workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record or visually capture details of any significant findings using appropriate terminology and in accordance with specimen-specific workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record or visually capture details of any significant findings using appropriate terminology and in accordance with specimen-specific workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Accurately record cassette contents and block key information",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately record cassette contents and block key information?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately record cassette contents and block key information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.7",
+          "text": "Retain specimen and/or container and dispose of waste in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Retain specimen and/or container and dispose of waste in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Retain specimen and/or container and dispose of waste in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.8",
+          "text": "Follow workplace procedures for safe removal and disposal of sharps",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace procedures for safe removal and disposal of sharps?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace procedures for safe removal and disposal of sharps.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.9",
+          "text": "Follow workplace procedures for safe disposal of chemical and biological waste",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace procedures for safe disposal of chemical and biological waste?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace procedures for safe disposal of chemical and biological waste.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.10",
+          "text": "Use decontamination techniques to prevent cross-contamination",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use decontamination techniques to prevent cross-contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Use decontamination techniques to prevent cross-contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.11",
+          "text": "Identify specimen readiness for processing and record any special instructions to be implemented prior to processing",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify specimen readiness for processing and record any special instructions to be implemented prior to processing?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify specimen readiness for processing and record any special instructions to be implemented prior to processing.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.12",
+          "text": "Select appropriate processor program for samples",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select appropriate processor program for samples?",
+          "benchmark_statement": "The candidate demonstrates that they can Select appropriate processor program for samples.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Dissect non-complex specimens"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare equipment for specimen cut-up",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up and confirm integrity of instrum",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process?",
+      "practical_task_interpretation": "In practice this requires the worker to set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process",
+      "knowledge_focus": [
+        "Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process"
+      ],
+      "workplace_context_examples": [
+        "Prepare equipment for specimen cut-up"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up and confirm integrity of instruments and consumables for safe, contaminant-free and efficient transfer process."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare equipment for specimen cut-up",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to load and handle blade safely? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Load and handle blade safely.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to load and handle blade safely",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Load and handle blade safely.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load and handle blade safely?",
+      "practical_task_interpretation": "In practice this requires the worker to load and handle blade safely",
+      "knowledge_focus": [
+        "Load and handle blade safely"
+      ],
+      "workplace_context_examples": [
+        "Prepare equipment for specimen cut-up"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of load and handle blade safely"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of load and handle blade safely"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Load and handle blade safely."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare equipment for specimen cut-up",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check ventilation system is operational",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare equipment for specimen cut-up"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check ventilation system is operational and adequate for the task and report any deficiencies in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Interpret clinical information",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to confirm patient identification in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm patient identification in accor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm patient identification in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm patient identification in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm patient identification in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm patient identification in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Confirm patient identification in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Interpret clinical information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm patient identification in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm patient identification in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm patient identification in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Interpret clinical information",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review clinical notes linked to the spe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process?",
+      "practical_task_interpretation": "In practice this requires the worker to review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process",
+      "knowledge_focus": [
+        "Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process"
+      ],
+      "workplace_context_examples": [
+        "Interpret clinical information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review clinical notes linked to the specimen and identify information relevant to the surgical cut-up process."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Interpret clinical information",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to critically evaluate information and determine its application to the processing of the individual specimen?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Critically evaluate information and det",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to critically evaluate information and determine its application to the processing of the individual specimen",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Critically evaluate information and determine its application to the processing of the individual specimen.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Critically evaluate information and determine its application to the processing of the individual specimen?",
+      "practical_task_interpretation": "In practice this requires the worker to critically evaluate information and determine its application to the processing of the individual specimen",
+      "knowledge_focus": [
+        "Critically evaluate information and determine its application to the processing of the individual specimen"
+      ],
+      "workplace_context_examples": [
+        "Interpret clinical information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of critically evaluate information and determine its application to the processing of the individual specimen"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of critically evaluate information and determine its application to the processing of the individual specimen"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Critically evaluate information and determine its application to the processing of the individual specimen."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Determine and record macroscopic descriptions",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh, count and measure tissue specime",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures",
+      "knowledge_focus": [
+        "Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine and record macroscopic descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh, count and measure tissue specimens in accordance with specimen-specific workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Determine and record macroscopic descriptions",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be recorded when you record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record accurate details of tissue speci",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures",
+      "knowledge_focus": [
+        "Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine and record macroscopic descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record accurate details of tissue specimen external gross features, using appropriate terminology and in accordance with specimen-specific workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Determine and record macroscopic descriptions",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record or capture visual representation",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures",
+      "knowledge_focus": [
+        "Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine and record macroscopic descriptions"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record or capture visual representation of specimen, clearly presenting required features based on specimen-specific workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Dissect non-complex specimens",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What criteria determine how to follow specimen-specific workplace procedures for specimen orientation, selection and marking?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow specimen-specific workplace proc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow specimen-specific workplace procedures for specimen orientation, selection and marking",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Follow specimen-specific workplace procedures for specimen orientation, selection and marking.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow specimen-specific workplace procedures for specimen orientation, selection and marking?",
+      "practical_task_interpretation": "In practice this requires the worker to follow specimen-specific workplace procedures for specimen orientation, selection and marking",
+      "knowledge_focus": [
+        "Follow specimen-specific workplace procedures for specimen orientation, selection and marking"
+      ],
+      "workplace_context_examples": [
+        "Dissect non-complex specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow specimen-specific workplace procedures for specimen orientation, selection and marking"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow specimen-specific workplace procedures for specimen orientation, selection and marking"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow specimen-specific workplace procedures for specimen orientation, selection and marking."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Dissect non-complex specimens",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What technical knowledge is required to hold and use instruments safely and in accordance with their intended purpose? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Hold and use instruments safely and in ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to hold and use instruments safely and in accordance with their intended purpose",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Hold and use instruments safely and in accordance with their intended purpose.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hold and use instruments safely and in accordance with their intended purpose?",
+      "practical_task_interpretation": "In practice this requires the worker to hold and use instruments safely and in accordance with their intended purpose",
+      "knowledge_focus": [
+        "Hold and use instruments safely and in accordance with their intended purpose"
+      ],
+      "workplace_context_examples": [
+        "Dissect non-complex specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of hold and use instruments safely and in accordance with their intended purpose"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of hold and use instruments safely and in accordance with their intended purpose"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Hold and use instruments safely and in accordance with their intended purpose."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Dissect non-complex specimens",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What criteria determine how to dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Dissect specimens in accordance with th",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures",
+      "knowledge_focus": [
+        "Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Dissect non-complex specimens"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Dissect specimens in accordance with the cut-up approach for the sample type, clinical setting and the method of tissue selection as specified by workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.852037+00:00"
+}

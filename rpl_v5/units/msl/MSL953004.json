@@ -1,0 +1,976 @@
+{
+  "code": "MSL953004",
+  "title": "Operate a robotic sample preparation system",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate a robotic sample preparation system demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare robotic system for operation",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Perform routine system checks at start of shift",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform routine system checks at start of shift?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform routine system checks at start of shift.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Confirm shift priorities with supervisor",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm shift priorities with supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm shift priorities with supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Review job requests to identify the samples, required parameters and special instructions/preparation methods for each",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job requests to identify the samples, required parameters and special instructions/preparation methods for each?",
+          "benchmark_statement": "The candidate demonstrates that they can Review job requests to identify the samples, required parameters and special instructions/preparation methods for each.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify hazards, safety equipment and safe work procedures associated with samples, preparation methods and robotic system",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hazards, safety equipment and safe work procedures associated with samples, preparation methods and robotic system?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hazards, safety equipment and safe work procedures associated with samples, preparation methods and robotic system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Check that samples are dry and free of obvious contamination",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that samples are dry and free of obvious contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that samples are dry and free of obvious contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Check that the particle size of any sample does not exceed system input size limits",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that the particle size of any sample does not exceed system input size limits?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that the particle size of any sample does not exceed system input size limits.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Check samples against accompanying documentation and record/report any discrepancies",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check samples against accompanying documentation and record/report any discrepancies?",
+          "benchmark_statement": "The candidate demonstrates that they can Check samples against accompanying documentation and record/report any discrepancies.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare robotic system for operation"
+    },
+    {
+      "id": "E2",
+      "title": "Load samples into system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Scan sample barcodes into system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Scan sample barcodes into system?",
+          "benchmark_statement": "The candidate demonstrates that they can Scan sample barcodes into system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Load samples in the correct sequence when the system is ready",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load samples in the correct sequence when the system is ready?",
+          "benchmark_statement": "The candidate demonstrates that they can Load samples in the correct sequence when the system is ready.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Use system monitor to ensure that correct worksheet is assigned to each sample",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use system monitor to ensure that correct worksheet is assigned to each sample?",
+          "benchmark_statement": "The candidate demonstrates that they can Use system monitor to ensure that correct worksheet is assigned to each sample.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Load samples into system"
+    },
+    {
+      "id": "E3",
+      "title": "Monitor system and report errors",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Recognise common error codes and promptly inform supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise common error codes and promptly inform supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise common error codes and promptly inform supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Seek advice to deal with any situation beyond scope of responsibility or knowledge",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice to deal with any situation beyond scope of responsibility or knowledge?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek advice to deal with any situation beyond scope of responsibility or knowledge.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Monitor system and report errors"
+    },
+    {
+      "id": "E4",
+      "title": "Unload samples",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Unload samples sequentially in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload samples sequentially in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Unload samples sequentially in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Obtain analytical portions of each sample using workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain analytical portions of each sample using workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain analytical portions of each sample using workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Label and store analytical portions and excess sample material in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label and store analytical portions and excess sample material in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Label and store analytical portions and excess sample material in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Seek advice when problems are beyond scope of responsibility or knowledge",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice when problems are beyond scope of responsibility or knowledge?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek advice when problems are beyond scope of responsibility or knowledge.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Unload samples"
+    },
+    {
+      "id": "E5",
+      "title": "Maintain a safe work environment",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Use safe work practices and personal protective equipment (PPE) to ensure personal safety and that of others",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use safe work practices and personal protective equipment (PPE) to ensure personal safety and that of others?",
+          "benchmark_statement": "The candidate demonstrates that they can Use safe work practices and personal protective equipment (PPE) to ensure personal safety and that of others.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Minimise the generation of waste and environmental impacts",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Minimise the generation of waste and environmental impacts?",
+          "benchmark_statement": "The candidate demonstrates that they can Minimise the generation of waste and environmental impacts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Segregate and dispose of wastes in accordance with workplace requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Segregate and dispose of wastes in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Segregate and dispose of wastes in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Clean robotic system components, care for and store equipment as required",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean robotic system components, care for and store equipment as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean robotic system components, care for and store equipment as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Maintain a safe work environment"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare robotic system for operation",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to perform routine system checks at start of shift?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Perform routine system checks at start ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to perform routine system checks at start of shift",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Perform routine system checks at start of shift.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform routine system checks at start of shift?",
+      "practical_task_interpretation": "In practice this requires the worker to perform routine system checks at start of shift",
+      "knowledge_focus": [
+        "Perform routine system checks at start of shift"
+      ],
+      "workplace_context_examples": [
+        "Prepare robotic system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of perform routine system checks at start of shift"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of perform routine system checks at start of shift"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Perform routine system checks at start of shift."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare robotic system for operation",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to confirm shift priorities with supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm shift priorities with superviso",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm shift priorities with supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm shift priorities with supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm shift priorities with supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm shift priorities with supervisor",
+      "knowledge_focus": [
+        "Confirm shift priorities with supervisor"
+      ],
+      "workplace_context_examples": [
+        "Prepare robotic system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm shift priorities with supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm shift priorities with supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm shift priorities with supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare robotic system for operation",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to review job requests to identify the samples, required parameters and special instructions/preparation methods for each?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review job requests to identify the sam",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review job requests to identify the samples, required parameters and special instructions/preparation methods for each",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Review job requests to identify the samples, required parameters and special instructions/preparation methods for each.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review job requests to identify the samples, required parameters and special instructions/preparation methods for each?",
+      "practical_task_interpretation": "In practice this requires the worker to review job requests to identify the samples, required parameters and special instructions/preparation methods for each",
+      "knowledge_focus": [
+        "Review job requests to identify the samples, required parameters and special instructions/preparation methods for each"
+      ],
+      "workplace_context_examples": [
+        "Prepare robotic system for operation"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review job requests to identify the samples, required parameters and special instructions/preparation methods for each"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review job requests to identify the samples, required parameters and special instructions/preparation methods for each"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review job requests to identify the samples, required parameters and special instructions/preparation methods for each."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Load samples into system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to scan sample barcodes into system? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Scan sample barcodes into system.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to scan sample barcodes into system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Scan sample barcodes into system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Scan sample barcodes into system?",
+      "practical_task_interpretation": "In practice this requires the worker to scan sample barcodes into system",
+      "knowledge_focus": [
+        "Scan sample barcodes into system"
+      ],
+      "workplace_context_examples": [
+        "Load samples into system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of scan sample barcodes into system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of scan sample barcodes into system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Scan sample barcodes into system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Load samples into system",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to load samples in the correct sequence when the system is ready? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Load samples in the correct sequence wh",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to load samples in the correct sequence when the system is ready",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Load samples in the correct sequence when the system is ready.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Load samples in the correct sequence when the system is ready?",
+      "practical_task_interpretation": "In practice this requires the worker to load samples in the correct sequence when the system is ready",
+      "knowledge_focus": [
+        "Load samples in the correct sequence when the system is ready"
+      ],
+      "workplace_context_examples": [
+        "Load samples into system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of load samples in the correct sequence when the system is ready"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of load samples in the correct sequence when the system is ready"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Load samples in the correct sequence when the system is ready."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Load samples into system",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that use system monitor to ensure that correct worksheet is assigned to each sample is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use system monitor to ensure that corre",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use system monitor to ensure that correct worksheet is assigned to each sample",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Use system monitor to ensure that correct worksheet is assigned to each sample.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use system monitor to ensure that correct worksheet is assigned to each sample?",
+      "practical_task_interpretation": "In practice this requires the worker to use system monitor to ensure that correct worksheet is assigned to each sample",
+      "knowledge_focus": [
+        "Use system monitor to ensure that correct worksheet is assigned to each sample"
+      ],
+      "workplace_context_examples": [
+        "Load samples into system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use system monitor to ensure that correct worksheet is assigned to each sample"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use system monitor to ensure that correct worksheet is assigned to each sample"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use system monitor to ensure that correct worksheet is assigned to each sample."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Monitor system and report errors",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor screen displays and conduct vis",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle",
+      "knowledge_focus": [
+        "Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle"
+      ],
+      "workplace_context_examples": [
+        "Monitor system and report errors"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor screen displays and conduct visual checks, as necessary, to ensure that system operates correctly throughout cycle."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Monitor system and report errors",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What information must be communicated when recognise common error codes and promptly inform supervisor, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise common error codes and prompt",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise common error codes and promptly inform supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise common error codes and promptly inform supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise common error codes and promptly inform supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise common error codes and promptly inform supervisor",
+      "knowledge_focus": [
+        "Recognise common error codes and promptly inform supervisor"
+      ],
+      "workplace_context_examples": [
+        "Monitor system and report errors"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise common error codes and promptly inform supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise common error codes and promptly inform supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise common error codes and promptly inform supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Monitor system and report errors",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to seek advice to deal with any situation beyond scope of responsibility or knowledge? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seek advice to deal with any situation ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seek advice to deal with any situation beyond scope of responsibility or knowledge",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Seek advice to deal with any situation beyond scope of responsibility or knowledge.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek advice to deal with any situation beyond scope of responsibility or knowledge?",
+      "practical_task_interpretation": "In practice this requires the worker to seek advice to deal with any situation beyond scope of responsibility or knowledge",
+      "knowledge_focus": [
+        "Seek advice to deal with any situation beyond scope of responsibility or knowledge"
+      ],
+      "workplace_context_examples": [
+        "Monitor system and report errors"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seek advice to deal with any situation beyond scope of responsibility or knowledge"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seek advice to deal with any situation beyond scope of responsibility or knowledge"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seek advice to deal with any situation beyond scope of responsibility or knowledge."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Unload samples",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to unload samples sequentially in accordance with workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Unload samples sequentially in accordan",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to unload samples sequentially in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Unload samples sequentially in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Unload samples sequentially in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to unload samples sequentially in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Unload samples sequentially in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Unload samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of unload samples sequentially in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of unload samples sequentially in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Unload samples sequentially in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Unload samples",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What criteria determine how to obtain analytical portions of each sample using workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Obtain analytical portions of each samp",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to obtain analytical portions of each sample using workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Obtain analytical portions of each sample using workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain analytical portions of each sample using workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to obtain analytical portions of each sample using workplace procedures",
+      "knowledge_focus": [
+        "Obtain analytical portions of each sample using workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Unload samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of obtain analytical portions of each sample using workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of obtain analytical portions of each sample using workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Obtain analytical portions of each sample using workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Unload samples",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to label and store analytical portions and excess sample material in accordance with workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Label and store analytical portions and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to label and store analytical portions and excess sample material in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Label and store analytical portions and excess sample material in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Label and store analytical portions and excess sample material in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to label and store analytical portions and excess sample material in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Label and store analytical portions and excess sample material in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Unload samples"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of label and store analytical portions and excess sample material in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of label and store analytical portions and excess sample material in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Label and store analytical portions and excess sample material in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.812565+00:00"
+}

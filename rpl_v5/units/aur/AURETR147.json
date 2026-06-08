@@ -1,0 +1,335 @@
+{
+  "code": "AURETR147",
+  "title": "Recharge vehicle batteries",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Recharge vehicle batteries demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to recharge battery",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to recharge battery"
+    },
+    {
+      "id": "E2",
+      "title": "Determine battery serviceability",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Determine battery serviceability"
+    },
+    {
+      "id": "E3",
+      "title": "Charge battery",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Charge battery"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to recharge battery",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify task requirements from task instructions, including vehicle battery to be worked on1.2 obtain and interpret technical information and safe operating procedures for battery recharging1.3 identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 implement control measures in line with workplace policies and procedures1.5 identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify task requirements from task in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify task requirements from task instructions, including vehicle battery to be worked on1.2 obtain and interpret technical information and safe operating procedures for battery recharging1.3 identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 implement control measures in line with workplace policies and procedures1.5 identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify task requirements from task instructions, including vehicle battery to be worked on1.2 obtain and interpret technical information and safe operating procedures for battery recharging1.3 identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 implement control measures in line with workplace policies and procedures1.5 identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements",
+      "knowledge_focus": [
+        "Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare to recharge battery"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify task requirements from task instructions, including vehicle battery to be worked on1.2 obtain and interpret technical information and safe operating procedures for battery recharging1.3 identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 implement control measures in line with workplace policies and procedures1.5 identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify task requirements from task instructions, including vehicle battery to be worked on1.2 obtain and interpret technical information and safe operating procedures for battery recharging1.3 identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 implement control measures in line with workplace policies and procedures1.5 identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify task requirements from task instructions, including vehicle battery to be worked on1.2 Obtain and interpret technical information and safe operating procedures for battery recharging1.3 Identify potential hazards and risks associated with the task according to workplace health and safety and environmental requirements and report to workplace supervisor1.4 Implement control measures in line with workplace policies and procedures1.5 Identify tools and equipment required for battery removal and refitting and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Determine battery serviceability",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean battery and prepare for inspectio",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+      "knowledge_focus": [
+        "Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Determine battery serviceability"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean battery and prepare for inspection and testing according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements2.2 Inspect and test battery according to manufacturer specifications, workplace procedures, and workplace health and safety and environmental requirements 2.3 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Charge battery",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify tools and equipment required f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 record battery condition, serviceability and issues requiring further exploration according to workplace procedures",
+      "knowledge_focus": [
+        "Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Charge battery"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 record battery condition, serviceability and issues requiring further exploration according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify tools and equipment required for battery charging and establish serviceability according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements 3.2 Charge battery according to manufacturer specifications, workplace procedures and workplace health and safety and environmental requirements3.3 Check post-charging condition of battery and serviceability according to manufacturer specifications and workplace procedures3.4 Record battery condition, serviceability and issues requiring further exploration according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 clear work area and dispose of or recycle materials according to workplace procedures4.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use4.2 Clear work area and dispose of or recycle materials according to workplace procedures4.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.806015+00:00"
+}

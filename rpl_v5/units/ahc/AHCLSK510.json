@@ -1,0 +1,942 @@
+{
+  "code": "AHCLSK510",
+  "title": "Develop production plans for livestock",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Develop production plans for livestock demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Determine feasibility of livestock enterprise",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Assess environment parameters and available infrastructure and their suitability for selected livestock species",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess environment parameters and available infrastructure and their suitability for selected livestock species?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess environment parameters and available infrastructure and their suitability for selected livestock species.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Assess the suitability of livestock enterprise for their market potential and gross margin returns",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the suitability of livestock enterprise for their market potential and gross margin returns?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess the suitability of livestock enterprise for their market potential and gross margin returns.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify capital and human resource requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify capital and human resource requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify capital and human resource requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify production risks and strategies to address them",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify production risks and strategies to address them?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify production risks and strategies to address them.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Select livestock species, breeds and genetics to suit the production system, environment and market",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select livestock species, breeds and genetics to suit the production system, environment and market?",
+          "benchmark_statement": "The candidate demonstrates that they can Select livestock species, breeds and genetics to suit the production system, environment and market.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Determine feasibility of livestock enterprise"
+    },
+    {
+      "id": "E2",
+      "title": "Identify and define determinants of livestock profitability",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Define production goals",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define production goals?",
+          "benchmark_statement": "The candidate demonstrates that they can Define production goals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Establish strategies for livestock sourcing and improvement to determine breeding program",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish strategies for livestock sourcing and improvement to determine breeding program?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish strategies for livestock sourcing and improvement to determine breeding program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Determine nutritional requirements for each age, sex and category of livestock",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine nutritional requirements for each age, sex and category of livestock?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine nutritional requirements for each age, sex and category of livestock.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Determine feeding strategy including grazing management, where appropriate, and develop feeding programs for each livestock category",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine feeding strategy including grazing management, where appropriate, and develop feeding programs for each livestock category?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine feeding strategy including grazing management, where appropriate, and develop feeding programs for each livestock category.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Develop health management program to manage and prevent disease in each livestock class or category",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop health management program to manage and prevent disease in each livestock class or category?",
+          "benchmark_statement": "The candidate demonstrates that they can Develop health management program to manage and prevent disease in each livestock class or category.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify and define determinants of livestock profitability"
+    },
+    {
+      "id": "E3",
+      "title": "Establish livestock production targets and prepare production plan",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Establish environmental controls as required",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish environmental controls as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish environmental controls as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Define performance indicators for livestock enterprise",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define performance indicators for livestock enterprise?",
+          "benchmark_statement": "The candidate demonstrates that they can Define performance indicators for livestock enterprise.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Develop product quality specifications and set production targets",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop product quality specifications and set production targets?",
+          "benchmark_statement": "The candidate demonstrates that they can Develop product quality specifications and set production targets.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Establish livestock production plan budget",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish livestock production plan budget?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish livestock production plan budget.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Prepare production plan incorporating a calendar of operations for workplace production cycle",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare production plan incorporating a calendar of operations for workplace production cycle?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare production plan incorporating a calendar of operations for workplace production cycle.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Establish livestock production targets and prepare production plan"
+    },
+    {
+      "id": "E4",
+      "title": "Implement and review production plan",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Establish schedules for the purchase of inputs and services used in production",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish schedules for the purchase of inputs and services used in production?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish schedules for the purchase of inputs and services used in production.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle?",
+          "benchmark_statement": "The candidate demonstrates that they can Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Review production plans to determine input and service requirement",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review production plans to determine input and service requirement?",
+          "benchmark_statement": "The candidate demonstrates that they can Review production plans to determine input and service requirement.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Implement and review production plan"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Determine feasibility of livestock enterprise",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to assess environment parameters and available infrastructure and their suitability for selected livestock species?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess environment parameters and avail",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess environment parameters and available infrastructure and their suitability for selected livestock species",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess environment parameters and available infrastructure and their suitability for selected livestock species.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess environment parameters and available infrastructure and their suitability for selected livestock species?",
+      "practical_task_interpretation": "In practice this requires the worker to assess environment parameters and available infrastructure and their suitability for selected livestock species",
+      "knowledge_focus": [
+        "Assess environment parameters and available infrastructure and their suitability for selected livestock species"
+      ],
+      "workplace_context_examples": [
+        "Determine feasibility of livestock enterprise"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess environment parameters and available infrastructure and their suitability for selected livestock species"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess environment parameters and available infrastructure and their suitability for selected livestock species"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess environment parameters and available infrastructure and their suitability for selected livestock species."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Determine feasibility of livestock enterprise",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to assess the suitability of livestock enterprise for their market potential and gross margin returns?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess the suitability of livestock ent",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess the suitability of livestock enterprise for their market potential and gross margin returns",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Assess the suitability of livestock enterprise for their market potential and gross margin returns.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess the suitability of livestock enterprise for their market potential and gross margin returns?",
+      "practical_task_interpretation": "In practice this requires the worker to assess the suitability of livestock enterprise for their market potential and gross margin returns",
+      "knowledge_focus": [
+        "Assess the suitability of livestock enterprise for their market potential and gross margin returns"
+      ],
+      "workplace_context_examples": [
+        "Determine feasibility of livestock enterprise"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess the suitability of livestock enterprise for their market potential and gross margin returns"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess the suitability of livestock enterprise for their market potential and gross margin returns"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess the suitability of livestock enterprise for their market potential and gross margin returns."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Determine feasibility of livestock enterprise",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify capital and human resource requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify capital and human resource req",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify capital and human resource requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify capital and human resource requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify capital and human resource requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify capital and human resource requirements",
+      "knowledge_focus": [
+        "Identify capital and human resource requirements"
+      ],
+      "workplace_context_examples": [
+        "Determine feasibility of livestock enterprise"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify capital and human resource requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify capital and human resource requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify capital and human resource requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify and define determinants of livestock profitability",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to define production goals? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Define production goals.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to define production goals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Define production goals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define production goals?",
+      "practical_task_interpretation": "In practice this requires the worker to define production goals",
+      "knowledge_focus": [
+        "Define production goals"
+      ],
+      "workplace_context_examples": [
+        "Identify and define determinants of livestock profitability"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of define production goals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of define production goals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Define production goals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify and define determinants of livestock profitability",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to establish strategies for livestock sourcing and improvement to determine breeding program?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish strategies for livestock sour",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish strategies for livestock sourcing and improvement to determine breeding program",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Establish strategies for livestock sourcing and improvement to determine breeding program.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish strategies for livestock sourcing and improvement to determine breeding program?",
+      "practical_task_interpretation": "In practice this requires the worker to establish strategies for livestock sourcing and improvement to determine breeding program",
+      "knowledge_focus": [
+        "Establish strategies for livestock sourcing and improvement to determine breeding program"
+      ],
+      "workplace_context_examples": [
+        "Identify and define determinants of livestock profitability"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish strategies for livestock sourcing and improvement to determine breeding program"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish strategies for livestock sourcing and improvement to determine breeding program"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish strategies for livestock sourcing and improvement to determine breeding program."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Identify and define determinants of livestock profitability",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to determine nutritional requirements for each age, sex and category of livestock?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine nutritional requirements for ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine nutritional requirements for each age, sex and category of livestock",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Determine nutritional requirements for each age, sex and category of livestock.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine nutritional requirements for each age, sex and category of livestock?",
+      "practical_task_interpretation": "In practice this requires the worker to determine nutritional requirements for each age, sex and category of livestock",
+      "knowledge_focus": [
+        "Determine nutritional requirements for each age, sex and category of livestock"
+      ],
+      "workplace_context_examples": [
+        "Identify and define determinants of livestock profitability"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine nutritional requirements for each age, sex and category of livestock"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine nutritional requirements for each age, sex and category of livestock"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine nutritional requirements for each age, sex and category of livestock."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Establish livestock production targets and prepare production plan",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with establish environmental controls as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish environmental controls as req",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish environmental controls as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Establish environmental controls as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish environmental controls as required?",
+      "practical_task_interpretation": "In practice this requires the worker to establish environmental controls as required",
+      "knowledge_focus": [
+        "Establish environmental controls as required"
+      ],
+      "workplace_context_examples": [
+        "Establish livestock production targets and prepare production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish environmental controls as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish environmental controls as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish environmental controls as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Establish livestock production targets and prepare production plan",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to define performance indicators for livestock enterprise? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Define performance indicators for lives",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to define performance indicators for livestock enterprise",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Define performance indicators for livestock enterprise.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define performance indicators for livestock enterprise?",
+      "practical_task_interpretation": "In practice this requires the worker to define performance indicators for livestock enterprise",
+      "knowledge_focus": [
+        "Define performance indicators for livestock enterprise"
+      ],
+      "workplace_context_examples": [
+        "Establish livestock production targets and prepare production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of define performance indicators for livestock enterprise"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of define performance indicators for livestock enterprise"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Define performance indicators for livestock enterprise."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Establish livestock production targets and prepare production plan",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What technical knowledge is required to develop product quality specifications and set production targets? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Develop product quality specifications ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to develop product quality specifications and set production targets",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Develop product quality specifications and set production targets.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop product quality specifications and set production targets?",
+      "practical_task_interpretation": "In practice this requires the worker to develop product quality specifications and set production targets",
+      "knowledge_focus": [
+        "Develop product quality specifications and set production targets"
+      ],
+      "workplace_context_examples": [
+        "Establish livestock production targets and prepare production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of develop product quality specifications and set production targets"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of develop product quality specifications and set production targets"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Develop product quality specifications and set production targets."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Implement and review production plan",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What steps are required to establish schedules for the purchase of inputs and services used in production, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish schedules for the purchase of",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish schedules for the purchase of inputs and services used in production",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Establish schedules for the purchase of inputs and services used in production.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish schedules for the purchase of inputs and services used in production?",
+      "practical_task_interpretation": "In practice this requires the worker to establish schedules for the purchase of inputs and services used in production",
+      "knowledge_focus": [
+        "Establish schedules for the purchase of inputs and services used in production"
+      ],
+      "workplace_context_examples": [
+        "Implement and review production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish schedules for the purchase of inputs and services used in production"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish schedules for the purchase of inputs and services used in production"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish schedules for the purchase of inputs and services used in production."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Implement and review production plan",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What information must be recorded when you plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Plan logistical arrangements related to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle?",
+      "practical_task_interpretation": "In practice this requires the worker to plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle",
+      "knowledge_focus": [
+        "Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle"
+      ],
+      "workplace_context_examples": [
+        "Implement and review production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Plan logistical arrangements related to livestock production, transport and marketing and other key operations of production cycle."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Implement and review production plan",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain and monitor physical and finan",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance",
+      "knowledge_focus": [
+        "Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance"
+      ],
+      "workplace_context_examples": [
+        "Implement and review production plan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain and monitor physical and financial record keeping system to provide data for analysis of livestock production performance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.933352+00:00"
+}

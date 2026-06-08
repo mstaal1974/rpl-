@@ -1,0 +1,640 @@
+{
+  "code": "AMPR322",
+  "title": "Prepare and produce value added products",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare and produce value added products demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare and operate processing equipment used in producing value-added products",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare and operate processing equipment used in producing value-added products"
+    },
+    {
+      "id": "E2",
+      "title": "Clean processing equipment",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Clean processing equipment"
+    },
+    {
+      "id": "E3",
+      "title": "Follow recipe",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Follow recipes to prepare and produce value-added products to product specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow recipes to prepare and produce value-added products to product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow recipes to prepare and produce value-added products to product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Follow recipe"
+    },
+    {
+      "id": "E4",
+      "title": "Select ingredients for formulation of value-added products",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Select ingredients for formulation of value-added products"
+    },
+    {
+      "id": "E5",
+      "title": "Prepare meat, stuffings, seasonings and force meat for value-added products",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Prepare meat, stuffings, seasonings and force meat for value-added products"
+    },
+    {
+      "id": "E6",
+      "title": "Prepare pastry, marinades, sauces, and glazes for value-added product",
+      "pcs": [
+        {
+          "id": "6.1",
+          "text": "Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice",
+          "element_id": "E6",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E6: Prepare pastry, marinades, sauces, and glazes for value-added product"
+    },
+    {
+      "id": "E7",
+      "title": "Mix ingredients",
+      "pcs": [
+        {
+          "id": "7.1",
+          "text": "Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications",
+          "element_id": "E7",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E7: Mix ingredients"
+    },
+    {
+      "id": "E8",
+      "title": "Produce value-added products",
+      "pcs": [
+        {
+          "id": "8.1",
+          "text": "Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements",
+          "element_id": "E8",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E8: Produce value-added products"
+    },
+    {
+      "id": "E9",
+      "title": "Store products and ingredients",
+      "pcs": [
+        {
+          "id": "9.1",
+          "text": "Store product according to workplace and regulatory requirements9.2 Store ingredients according to workplace and regulatory requirements9.3 Identify shelf life of products and take appropriate action9.4 Identify effects of ingredients on shelf life and take appropriate action",
+          "element_id": "E9",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Store product according to workplace and regulatory requirements9.2 Store ingredients according to workplace and regulatory requirements9.3 Identify shelf life of products and take appropriate action9.4 Identify effects of ingredients on shelf life and take appropriate action?",
+          "benchmark_statement": "The candidate demonstrates that they can Store product according to workplace and regulatory requirements9.2 Store ingredients according to workplace and regulatory requirements9.3 Identify shelf life of products and take appropriate action9.4 Identify effects of ingredients on shelf life and take appropriate action.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E9: Store products and ingredients"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare and operate processing equipment used in producing value-added products",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 identify faults in line with manufacturer and workplace requirements1.3 use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 performed start-up and shut-down procedures according to manufacturer and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepared and operate processing equipme",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 identify faults in line with manufacturer and workplace requirements1.3 use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 performed start-up and shut-down procedures according to manufacturer and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 identify faults in line with manufacturer and workplace requirements1.3 use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 performed start-up and shut-down procedures according to manufacturer and workplace requirements",
+      "knowledge_focus": [
+        "Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare and operate processing equipment used in producing value-added products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 identify faults in line with manufacturer and workplace requirements1.3 use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 performed start-up and shut-down procedures according to manufacturer and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 identify faults in line with manufacturer and workplace requirements1.3 use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 performed start-up and shut-down procedures according to manufacturer and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepared and operate processing equipment according to hygiene, and health and safety requirements1.2 Identify faults in line with manufacturer and workplace requirements1.3 Use equipment according to manufacturer, workplace and workplace health and safety requirements1.4 Performed start-up and shut-down procedures according to manufacturer and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Clean processing equipment",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean equipment to manufacturer's, work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements",
+      "knowledge_focus": [
+        "Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean processing equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean equipment to manufacturer's, workplace health and safety, hygiene and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Follow recipe",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What steps are required to follow recipes to prepare and produce value-added products to product specifications, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow recipes to prepare and produce v",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow recipes to prepare and produce value-added products to product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Follow recipes to prepare and produce value-added products to product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow recipes to prepare and produce value-added products to product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to follow recipes to prepare and produce value-added products to product specifications",
+      "knowledge_focus": [
+        "Follow recipes to prepare and produce value-added products to product specifications"
+      ],
+      "workplace_context_examples": [
+        "Follow recipe"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow recipes to prepare and produce value-added products to product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow recipes to prepare and produce value-added products to product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow recipes to prepare and produce value-added products to product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Select ingredients for formulation of value-added products",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What criteria determine how to select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 label ingredients according to workplace and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select ingredients in accordance with r",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 label ingredients according to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 label ingredients according to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Select ingredients for formulation of value-added products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 label ingredients according to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 label ingredients according to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select ingredients in accordance with recipes, policy and practice, and regulatory requirements4.2 Weigh ingredients in accordance with recipe specifications and regulatory requirements4.3 Label ingredients according to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E5: Prepare meat, stuffings, seasonings and force meat for value-added products",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What steps are required to prepare meat according to recipes, policy and practice5.2 prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare meat according to recipes, poli",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare meat according to recipes, policy and practice5.2 prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare meat according to recipes, policy and practice5.2 prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice",
+      "knowledge_focus": [
+        "Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice"
+      ],
+      "workplace_context_examples": [
+        "Prepare meat, stuffings, seasonings and force meat for value-added products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare meat according to recipes, policy and practice5.2 prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare meat according to recipes, policy and practice5.2 prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare meat according to recipes, policy and practice5.2 Prepare stuffings, seasonings and force meat in accordance with recipes, policy and practice."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E6: Prepare pastry, marinades, sauces, and glazes for value-added product",
+      "pc_refs": [
+        "6.1"
+      ],
+      "pc_id": "6.1",
+      "text": "What steps are required to prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare pastry, marinades, sauces and g",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 6.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice",
+      "knowledge_focus": [
+        "Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice"
+      ],
+      "workplace_context_examples": [
+        "Prepare pastry, marinades, sauces, and glazes for value-added product"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare pastry, marinades, sauces and glazes in accordance with recipes, policy and practice."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E7: Mix ingredients",
+      "pc_refs": [
+        "7.1"
+      ],
+      "pc_id": "7.1",
+      "text": "What technical knowledge is required to weigh ingredients in accordance with recipe requirements7.2 add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 blend ingredients to achieve product consistency according to recipes and product specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Weigh ingredients in accordance with re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to weigh ingredients in accordance with recipe requirements7.2 add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 blend ingredients to achieve product consistency according to recipes and product specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 7.1",
+      "benchmark_statement": "The candidate demonstrates that they can Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to weigh ingredients in accordance with recipe requirements7.2 add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 blend ingredients to achieve product consistency according to recipes and product specifications",
+      "knowledge_focus": [
+        "Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications"
+      ],
+      "workplace_context_examples": [
+        "Mix ingredients"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of weigh ingredients in accordance with recipe requirements7.2 add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 blend ingredients to achieve product consistency according to recipes and product specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of weigh ingredients in accordance with recipe requirements7.2 add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 blend ingredients to achieve product consistency according to recipes and product specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Weigh ingredients in accordance with recipe requirements7.2 Add ingredients to meat according to recipes, product specifications and regulatory requirements7.3 Blend ingredients to achieve product consistency according to recipes and product specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E8: Produce value-added products",
+      "pc_refs": [
+        "8.1"
+      ],
+      "pc_id": "8.1",
+      "text": "What technical knowledge is required to formulate product according to product specifications8.2 present product according to product specifications and policy and procedures8.3 use pastry types according to recipes and workplace requirements8.4 skewer meat according to recipes and workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Formulate product according to product ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to formulate product according to product specifications8.2 present product according to product specifications and policy and procedures8.3 use pastry types according to recipes and workplace requirements8.4 skewer meat according to recipes and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 8.1",
+      "benchmark_statement": "The candidate demonstrates that they can Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to formulate product according to product specifications8.2 present product according to product specifications and policy and procedures8.3 use pastry types according to recipes and workplace requirements8.4 skewer meat according to recipes and workplace requirements",
+      "knowledge_focus": [
+        "Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Produce value-added products"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of formulate product according to product specifications8.2 present product according to product specifications and policy and procedures8.3 use pastry types according to recipes and workplace requirements8.4 skewer meat according to recipes and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of formulate product according to product specifications8.2 present product according to product specifications and policy and procedures8.3 use pastry types according to recipes and workplace requirements8.4 skewer meat according to recipes and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Formulate product according to product specifications8.2 Present product according to product specifications and policy and procedures8.3 Use pastry types according to recipes and workplace requirements8.4 Skewer meat according to recipes and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.320030+00:00"
+}

@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTY002",
+  "title": "Install vehicle components",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Install vehicle components demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed?",
+          "benchmark_statement": "The candidate demonstrates that they can Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare"
+    },
+    {
+      "id": "E2",
+      "title": "Position and tension components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Position and tension components"
+    },
+    {
+      "id": "E3",
+      "title": "Hook up systems",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation?",
+          "benchmark_statement": "The candidate demonstrates that they can Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Hook up systems"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to hand tools and equipment are selected and inspected, and faults repaired or reported1.2 appropriate lifting equipment is selected and checked for safe operation1.3 fasteners are identified from job specifications1.4 job information and working drawings are identified, interpreted and confirmed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Hand tools and equipment are selected a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to hand tools and equipment are selected and inspected, and faults repaired or reported1.2 appropriate lifting equipment is selected and checked for safe operation1.3 fasteners are identified from job specifications1.4 job information and working drawings are identified, interpreted and confirmed",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed?",
+      "practical_task_interpretation": "In practice this requires the worker to hand tools and equipment are selected and inspected, and faults repaired or reported1.2 appropriate lifting equipment is selected and checked for safe operation1.3 fasteners are identified from job specifications1.4 job information and working drawings are identified, interpreted and confirmed",
+      "knowledge_focus": [
+        "Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of hand tools and equipment are selected and inspected, and faults repaired or reported1.2 appropriate lifting equipment is selected and checked for safe operation1.3 fasteners are identified from job specifications1.4 job information and working drawings are identified, interpreted and confirmed"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of hand tools and equipment are selected and inspected, and faults repaired or reported1.2 appropriate lifting equipment is selected and checked for safe operation1.3 fasteners are identified from job specifications1.4 job information and working drawings are identified, interpreted and confirmed"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Hand tools and equipment are selected and inspected, and faults repaired or reported1.2 Appropriate lifting equipment is selected and checked for safe operation1.3 Fasteners are identified from job specifications1.4 Job information and working drawings are identified, interpreted and confirmed."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Position and tension components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to workplace procedures are identified and followed2.2 components are matched, positioned and secured according to work instruction and component specifications2.3 fasteners are tensioned to specification2.4 components are inspected for alignment and quality according to work order and workplace quality standards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Workplace procedures are identified and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to workplace procedures are identified and followed2.2 components are matched, positioned and secured according to work instruction and component specifications2.3 fasteners are tensioned to specification2.4 components are inspected for alignment and quality according to work order and workplace quality standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards?",
+      "practical_task_interpretation": "In practice this requires the worker to workplace procedures are identified and followed2.2 components are matched, positioned and secured according to work instruction and component specifications2.3 fasteners are tensioned to specification2.4 components are inspected for alignment and quality according to work order and workplace quality standards",
+      "knowledge_focus": [
+        "Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards"
+      ],
+      "workplace_context_examples": [
+        "Position and tension components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of workplace procedures are identified and followed2.2 components are matched, positioned and secured according to work instruction and component specifications2.3 fasteners are tensioned to specification2.4 components are inspected for alignment and quality according to work order and workplace quality standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of workplace procedures are identified and followed2.2 components are matched, positioned and secured according to work instruction and component specifications2.3 fasteners are tensioned to specification2.4 components are inspected for alignment and quality according to work order and workplace quality standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Workplace procedures are identified and followed2.2 Components are matched, positioned and secured according to work instruction and component specifications2.3 Fasteners are tensioned to specification2.4 Components are inspected for alignment and quality according to work order and workplace quality standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Hook up systems",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to component service lines are hooked up according to drawings and component specifications3.2 completed hook-up is checked against job specifications, and then tested and inspected for quality and operation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Component service lines are hooked up a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to component service lines are hooked up according to drawings and component specifications3.2 completed hook-up is checked against job specifications, and then tested and inspected for quality and operation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation?",
+      "practical_task_interpretation": "In practice this requires the worker to component service lines are hooked up according to drawings and component specifications3.2 completed hook-up is checked against job specifications, and then tested and inspected for quality and operation",
+      "knowledge_focus": [
+        "Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation"
+      ],
+      "workplace_context_examples": [
+        "Hook up systems"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of component service lines are hooked up according to drawings and component specifications3.2 completed hook-up is checked against job specifications, and then tested and inspected for quality and operation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of component service lines are hooked up according to drawings and component specifications3.2 completed hook-up is checked against job specifications, and then tested and inspected for quality and operation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Component service lines are hooked up according to drawings and component specifications3.2 Completed hook-up is checked against job specifications, and then tested and inspected for quality and operation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 faulty equipment is identified, tagged and reported4.3 work sheets and production schedule are completed and given to appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Work area and equipment are cleaned, in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 faulty equipment is identified, tagged and reported4.3 work sheets and production schedule are completed and given to appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 faulty equipment is identified, tagged and reported4.3 work sheets and production schedule are completed and given to appropriate personnel",
+      "knowledge_focus": [
+        "Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 faulty equipment is identified, tagged and reported4.3 work sheets and production schedule are completed and given to appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 faulty equipment is identified, tagged and reported4.3 work sheets and production schedule are completed and given to appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Work area and equipment are cleaned, inspected and maintained according to workplace procedures4.2 Faulty equipment is identified, tagged and reported4.3 Work sheets and production schedule are completed and given to appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.468431+00:00"
+}

@@ -1,0 +1,936 @@
+{
+  "code": "AMPLSK201",
+  "title": "Apply animal welfare and handling requirements",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply animal welfare and handling requirements demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify workplace and regulatory requirements for handling animals",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify workplace and regulatory requirements for handling animals humanely",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace and regulatory requirements for handling animals humanely?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace and regulatory requirements for handling animals humanely.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify workplace and regulatory requirements for handling animals"
+    },
+    {
+      "id": "E2",
+      "title": "Identify safe animal handling practices",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify workplace health and safety requirements associated with handling animals",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements associated with handling animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements associated with handling animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Identify work instructions and work practices for the welfare and handling of animals",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions and work practices for the welfare and handling of animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instructions and work practices for the welfare and handling of animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Recognise and manage risks to animals being handled",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and manage risks to animals being handled?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise and manage risks to animals being handled.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Identify and manage risks to workers that are associated with handling animals, including use of personal protective equipment (PPE)",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and manage risks to workers that are associated with handling animals, including use of personal protective equipment (PPE)?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and manage risks to workers that are associated with handling animals, including use of personal protective equipment (PPE).",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Identify workplace and regulatory requirements for dealing with sick and injured animals",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace and regulatory requirements for dealing with sick and injured animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace and regulatory requirements for dealing with sick and injured animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify safe animal handling practices"
+    },
+    {
+      "id": "E3",
+      "title": "Identify the effect of animal welfare and handling on meat",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Identify the impact that animal stress and/or injury would have on the quality of meat",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the impact that animal stress and/or injury would have on the quality of meat?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the impact that animal stress and/or injury would have on the quality of meat.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Recognise defects in meat quality resulting from poor handling techniques of live animals",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise defects in meat quality resulting from poor handling techniques of live animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise defects in meat quality resulting from poor handling techniques of live animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Identify the effect of animal welfare and handling on meat"
+    },
+    {
+      "id": "E4",
+      "title": "Identify livestock identification procedures",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Identify individual animal identification procedures according to workplace and regulatory requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify individual animal identification procedures according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify individual animal identification procedures according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Identify the purpose of individual mob and lot identification",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the purpose of individual mob and lot identification?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the purpose of individual mob and lot identification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Recognise animal lots according to workplace requirements",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise animal lots according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise animal lots according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Identify the consequences of incorrect lot identification",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the consequences of incorrect lot identification?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify the consequences of incorrect lot identification.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Identify livestock identification procedures"
+    },
+    {
+      "id": "E5",
+      "title": "Handle animals safely",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Handle animals in a way that complies with workplace requirements and minimises stress",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle animals in a way that complies with workplace requirements and minimises stress?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle animals in a way that complies with workplace requirements and minimises stress.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Handle animals safely according to workplace health and safety requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle animals safely according to workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle animals safely according to workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Move, yard and control flow of animals to meet processing requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Move, yard and control flow of animals to meet processing requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Move, yard and control flow of animals to meet processing requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.4",
+          "text": "Communicate effectively with fellow workers while handling animals",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Communicate effectively with fellow workers while handling animals?",
+          "benchmark_statement": "The candidate demonstrates that they can Communicate effectively with fellow workers while handling animals.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.5",
+          "text": "Handle sick and injured animals according to workplace and regulatory requirements",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle sick and injured animals according to workplace and regulatory requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle sick and injured animals according to workplace and regulatory requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Handle animals safely"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify workplace and regulatory requirements for handling animals",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify workplace and regulatory requirements for handling animals humanely?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace and regulatory requi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace and regulatory requirements for handling animals humanely",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace and regulatory requirements for handling animals humanely.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace and regulatory requirements for handling animals humanely?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace and regulatory requirements for handling animals humanely",
+      "knowledge_focus": [
+        "Identify workplace and regulatory requirements for handling animals humanely"
+      ],
+      "workplace_context_examples": [
+        "Identify workplace and regulatory requirements for handling animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace and regulatory requirements for handling animals humanely"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace and regulatory requirements for handling animals humanely"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace and regulatory requirements for handling animals humanely."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Identify workplace and regulatory requirements for handling animals",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify and follow relevant sections of the applicable animal welfare standard and relevant legislation?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and follow relevant sections o",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and follow relevant sections of the applicable animal welfare standard and relevant legislation",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and follow relevant sections of the applicable animal welfare standard and relevant legislation",
+      "knowledge_focus": [
+        "Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation"
+      ],
+      "workplace_context_examples": [
+        "Identify workplace and regulatory requirements for handling animals"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and follow relevant sections of the applicable animal welfare standard and relevant legislation"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and follow relevant sections of the applicable animal welfare standard and relevant legislation"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and follow relevant sections of the applicable animal welfare standard and relevant legislation."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E2: Identify safe animal handling practices",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements associated with handling animals?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements associated with handling animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements associated with handling animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements associated with handling animals?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements associated with handling animals",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements associated with handling animals"
+      ],
+      "workplace_context_examples": [
+        "Identify safe animal handling practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements associated with handling animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements associated with handling animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements associated with handling animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Identify safe animal handling practices",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What factors would you consider when you need to identify work instructions and work practices for the welfare and handling of animals?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instructions and work pra",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instructions and work practices for the welfare and handling of animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instructions and work practices for the welfare and handling of animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instructions and work practices for the welfare and handling of animals?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instructions and work practices for the welfare and handling of animals",
+      "knowledge_focus": [
+        "Identify work instructions and work practices for the welfare and handling of animals"
+      ],
+      "workplace_context_examples": [
+        "Identify safe animal handling practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instructions and work practices for the welfare and handling of animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instructions and work practices for the welfare and handling of animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instructions and work practices for the welfare and handling of animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Identify safe animal handling practices",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What are the key hazards and required controls associated with recognise and manage risks to animals being handled?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise and manage risks to animals b",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise and manage risks to animals being handled",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise and manage risks to animals being handled.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and manage risks to animals being handled?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise and manage risks to animals being handled",
+      "knowledge_focus": [
+        "Recognise and manage risks to animals being handled"
+      ],
+      "workplace_context_examples": [
+        "Identify safe animal handling practices"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise and manage risks to animals being handled"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise and manage risks to animals being handled"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise and manage risks to animals being handled."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Identify the effect of animal welfare and handling on meat",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to identify the impact that animal stress and/or injury would have on the quality of meat?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the impact that animal stress ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the impact that animal stress and/or injury would have on the quality of meat",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the impact that animal stress and/or injury would have on the quality of meat.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the impact that animal stress and/or injury would have on the quality of meat?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the impact that animal stress and/or injury would have on the quality of meat",
+      "knowledge_focus": [
+        "Identify the impact that animal stress and/or injury would have on the quality of meat"
+      ],
+      "workplace_context_examples": [
+        "Identify the effect of animal welfare and handling on meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the impact that animal stress and/or injury would have on the quality of meat"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the impact that animal stress and/or injury would have on the quality of meat"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the impact that animal stress and/or injury would have on the quality of meat."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Identify the effect of animal welfare and handling on meat",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What technical knowledge is required to recognise defects in meat quality resulting from poor handling techniques of live animals? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise defects in meat quality resul",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise defects in meat quality resulting from poor handling techniques of live animals",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise defects in meat quality resulting from poor handling techniques of live animals.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise defects in meat quality resulting from poor handling techniques of live animals?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise defects in meat quality resulting from poor handling techniques of live animals",
+      "knowledge_focus": [
+        "Recognise defects in meat quality resulting from poor handling techniques of live animals"
+      ],
+      "workplace_context_examples": [
+        "Identify the effect of animal welfare and handling on meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise defects in meat quality resulting from poor handling techniques of live animals"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise defects in meat quality resulting from poor handling techniques of live animals"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise defects in meat quality resulting from poor handling techniques of live animals."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E4: Identify livestock identification procedures",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What factors would you consider when you need to identify individual animal identification procedures according to workplace and regulatory requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify individual animal identificati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify individual animal identification procedures according to workplace and regulatory requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify individual animal identification procedures according to workplace and regulatory requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify individual animal identification procedures according to workplace and regulatory requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify individual animal identification procedures according to workplace and regulatory requirements",
+      "knowledge_focus": [
+        "Identify individual animal identification procedures according to workplace and regulatory requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify livestock identification procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify individual animal identification procedures according to workplace and regulatory requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify individual animal identification procedures according to workplace and regulatory requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify individual animal identification procedures according to workplace and regulatory requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E4: Identify livestock identification procedures",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to identify the purpose of individual mob and lot identification?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify the purpose of individual mob ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify the purpose of individual mob and lot identification",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify the purpose of individual mob and lot identification.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify the purpose of individual mob and lot identification?",
+      "practical_task_interpretation": "In practice this requires the worker to identify the purpose of individual mob and lot identification",
+      "knowledge_focus": [
+        "Identify the purpose of individual mob and lot identification"
+      ],
+      "workplace_context_examples": [
+        "Identify livestock identification procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify the purpose of individual mob and lot identification"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify the purpose of individual mob and lot identification"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify the purpose of individual mob and lot identification."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Identify livestock identification procedures",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What technical knowledge is required to recognise animal lots according to workplace requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise animal lots according to work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise animal lots according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise animal lots according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise animal lots according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise animal lots according to workplace requirements",
+      "knowledge_focus": [
+        "Recognise animal lots according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Identify livestock identification procedures"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise animal lots according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise animal lots according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise animal lots according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E5: Handle animals safely",
+      "pc_refs": [
+        "5.1"
+      ],
+      "pc_id": "5.1",
+      "text": "What technical knowledge is required to handle animals in a way that complies with workplace requirements and minimises stress? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle animals in a way that complies w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle animals in a way that complies with workplace requirements and minimises stress",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.1",
+      "benchmark_statement": "The candidate demonstrates that they can Handle animals in a way that complies with workplace requirements and minimises stress.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle animals in a way that complies with workplace requirements and minimises stress?",
+      "practical_task_interpretation": "In practice this requires the worker to handle animals in a way that complies with workplace requirements and minimises stress",
+      "knowledge_focus": [
+        "Handle animals in a way that complies with workplace requirements and minimises stress"
+      ],
+      "workplace_context_examples": [
+        "Handle animals safely"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle animals in a way that complies with workplace requirements and minimises stress"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle animals in a way that complies with workplace requirements and minimises stress"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle animals in a way that complies with workplace requirements and minimises stress."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E5: Handle animals safely",
+      "pc_refs": [
+        "5.2"
+      ],
+      "pc_id": "5.2",
+      "text": "What are the key hazards and required controls associated with handle animals safely according to workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle animals safely according to work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle animals safely according to workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 5.2",
+      "benchmark_statement": "The candidate demonstrates that they can Handle animals safely according to workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle animals safely according to workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to handle animals safely according to workplace health and safety requirements",
+      "knowledge_focus": [
+        "Handle animals safely according to workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Handle animals safely"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle animals safely according to workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle animals safely according to workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle animals safely according to workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.026302+00:00"
+}

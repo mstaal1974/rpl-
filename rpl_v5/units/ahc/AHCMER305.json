@@ -1,0 +1,464 @@
+{
+  "code": "AHCMER305",
+  "title": "Provide information on hardware products",
+  "training_package": "AHC",
+  "training_package_name": "Agriculture, Horticulture and Conservation and Land Management Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Provide information on hardware products demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Establish customer needs",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Use interpersonal skills to engage customer and identify needs",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use interpersonal skills to engage customer and identify needs?",
+          "benchmark_statement": "The candidate demonstrates that they can Use interpersonal skills to engage customer and identify needs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Match available products to customer needs",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Match available products to customer needs?",
+          "benchmark_statement": "The candidate demonstrates that they can Match available products to customer needs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Establish customer needs"
+    },
+    {
+      "id": "E2",
+      "title": "Research and provide product information",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Research and update knowledge and understanding of hardware products from authoritative sources",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research and update knowledge and understanding of hardware products from authoritative sources?",
+          "benchmark_statement": "The candidate demonstrates that they can Research and update knowledge and understanding of hardware products from authoritative sources.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Exhibit and safely demonstrate products to customer",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Exhibit and safely demonstrate products to customer?",
+          "benchmark_statement": "The candidate demonstrates that they can Exhibit and safely demonstrate products to customer.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Address customer concerns and questions and suggest alternative or additional products to meet requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Address customer concerns and questions and suggest alternative or additional products to meet requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Address customer concerns and questions and suggest alternative or additional products to meet requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Research and provide product information"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Establish customer needs",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to use interpersonal skills to engage customer and identify needs?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Use interpersonal skills to engage cust",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to use interpersonal skills to engage customer and identify needs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Use interpersonal skills to engage customer and identify needs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Use interpersonal skills to engage customer and identify needs?",
+      "practical_task_interpretation": "In practice this requires the worker to use interpersonal skills to engage customer and identify needs",
+      "knowledge_focus": [
+        "Use interpersonal skills to engage customer and identify needs"
+      ],
+      "workplace_context_examples": [
+        "Establish customer needs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of use interpersonal skills to engage customer and identify needs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of use interpersonal skills to engage customer and identify needs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Use interpersonal skills to engage customer and identify needs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Establish customer needs",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle customer enquiries courteously a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements",
+      "knowledge_focus": [
+        "Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements"
+      ],
+      "workplace_context_examples": [
+        "Establish customer needs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle customer enquiries courteously and promptly according to workplace procedures and legislative requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Establish customer needs",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to match available products to customer needs? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Match available products to customer ne",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to match available products to customer needs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Match available products to customer needs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Match available products to customer needs?",
+      "practical_task_interpretation": "In practice this requires the worker to match available products to customer needs",
+      "knowledge_focus": [
+        "Match available products to customer needs"
+      ],
+      "workplace_context_examples": [
+        "Establish customer needs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of match available products to customer needs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of match available products to customer needs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Match available products to customer needs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Research and provide product information",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What criteria determine how to research and update knowledge and understanding of hardware products from authoritative sources?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Research and update knowledge and under",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to research and update knowledge and understanding of hardware products from authoritative sources",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Research and update knowledge and understanding of hardware products from authoritative sources.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Research and update knowledge and understanding of hardware products from authoritative sources?",
+      "practical_task_interpretation": "In practice this requires the worker to research and update knowledge and understanding of hardware products from authoritative sources",
+      "knowledge_focus": [
+        "Research and update knowledge and understanding of hardware products from authoritative sources"
+      ],
+      "workplace_context_examples": [
+        "Research and provide product information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of research and update knowledge and understanding of hardware products from authoritative sources"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of research and update knowledge and understanding of hardware products from authoritative sources"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Research and update knowledge and understanding of hardware products from authoritative sources."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Research and provide product information",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What information must be communicated when provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Provide information to customer in a ti",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements",
+      "knowledge_focus": [
+        "Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements"
+      ],
+      "workplace_context_examples": [
+        "Research and provide product information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Provide information to customer in a timely and professional manner according to workplace procedures and legislative requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Research and provide product information",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to exhibit and safely demonstrate products to customer? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Exhibit and safely demonstrate products",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to exhibit and safely demonstrate products to customer",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Exhibit and safely demonstrate products to customer.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Exhibit and safely demonstrate products to customer?",
+      "practical_task_interpretation": "In practice this requires the worker to exhibit and safely demonstrate products to customer",
+      "knowledge_focus": [
+        "Exhibit and safely demonstrate products to customer"
+      ],
+      "workplace_context_examples": [
+        "Research and provide product information"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of exhibit and safely demonstrate products to customer"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of exhibit and safely demonstrate products to customer"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Exhibit and safely demonstrate products to customer."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:25.961011+00:00"
+}

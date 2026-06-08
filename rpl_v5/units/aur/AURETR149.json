@@ -1,0 +1,263 @@
+{
+  "code": "AURETR149",
+  "title": "Apply knowledge of ADAS technology in vehicle pre-repair scans",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply knowledge of ADAS technology in vehicle pre-repair scans demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Identify ADAS components used in vehicle pre-repair scan",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Identify ADAS components used in vehicle pre-repair scan"
+    },
+    {
+      "id": "E2",
+      "title": "Identify damage to ADAS components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Identify damage to ADAS components"
+    },
+    {
+      "id": "E3",
+      "title": "Evaluate knowledge of ADAS",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Evaluate knowledge of ADAS"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Identify ADAS components used in vehicle pre-repair scan",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify and clarify job requirements from workplace instructions1.2 identify information, tools and equipment required for diagnosis activity1.3 apply workplace procedures to locate adas technology and identify its components according to manufacturer specifications1.4 identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and clarify job requirements f",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and clarify job requirements from workplace instructions1.2 identify information, tools and equipment required for diagnosis activity1.3 apply workplace procedures to locate adas technology and identify its components according to manufacturer specifications1.4 identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and clarify job requirements from workplace instructions1.2 identify information, tools and equipment required for diagnosis activity1.3 apply workplace procedures to locate adas technology and identify its components according to manufacturer specifications1.4 identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures",
+      "knowledge_focus": [
+        "Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures"
+      ],
+      "workplace_context_examples": [
+        "Identify ADAS components used in vehicle pre-repair scan"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and clarify job requirements from workplace instructions1.2 identify information, tools and equipment required for diagnosis activity1.3 apply workplace procedures to locate adas technology and identify its components according to manufacturer specifications1.4 identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and clarify job requirements from workplace instructions1.2 identify information, tools and equipment required for diagnosis activity1.3 apply workplace procedures to locate adas technology and identify its components according to manufacturer specifications1.4 identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and clarify job requirements from workplace instructions1.2 Identify information, tools and equipment required for diagnosis activity1.3 Apply workplace procedures to locate ADAS technology and identify its components according to manufacturer specifications1.4 Identify hazards and environmental issues associated with activity, assess potential risks and implement control measures in line with workplace policies and procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Identify damage to ADAS components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to identify information required to identify adas faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 carry out diagnostic scan of adas according to manufacturer specifications and workplace procedures2.3 carry out visual inspection of components to identify any damage 2.4 identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 confirm and report diagnosis findings according to workplace procedures, recording any limitations?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify information required to identi",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify information required to identify adas faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 carry out diagnostic scan of adas according to manufacturer specifications and workplace procedures2.3 carry out visual inspection of components to identify any damage 2.4 identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 confirm and report diagnosis findings according to workplace procedures, recording any limitations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations?",
+      "practical_task_interpretation": "In practice this requires the worker to identify information required to identify adas faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 carry out diagnostic scan of adas according to manufacturer specifications and workplace procedures2.3 carry out visual inspection of components to identify any damage 2.4 identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 confirm and report diagnosis findings according to workplace procedures, recording any limitations",
+      "knowledge_focus": [
+        "Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations"
+      ],
+      "workplace_context_examples": [
+        "Identify damage to ADAS components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify information required to identify adas faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 carry out diagnostic scan of adas according to manufacturer specifications and workplace procedures2.3 carry out visual inspection of components to identify any damage 2.4 identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 confirm and report diagnosis findings according to workplace procedures, recording any limitations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify information required to identify adas faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 carry out diagnostic scan of adas according to manufacturer specifications and workplace procedures2.3 carry out visual inspection of components to identify any damage 2.4 identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 confirm and report diagnosis findings according to workplace procedures, recording any limitations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify information required to identify ADAS faults, including any limitations to workplace procedures for diagnosis and repair activity2.2 Carry out diagnostic scan of ADAS according to manufacturer specifications and workplace procedures2.3 Carry out visual inspection of components to identify any damage 2.4 Identify and document diagnostic scan and visual inspections findings with reference to workplace procedures2.5 Confirm and report diagnosis findings according to workplace procedures, recording any limitations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Evaluate knowledge of ADAS",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 identify any authorised external repairers for escalation of further diagnosis and repair3.3 refer diagnostic findings to required workplace personnel3.4 complete pre-repair scan documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check knowledge regularly with colleagu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 identify any authorised external repairers for escalation of further diagnosis and repair3.3 refer diagnostic findings to required workplace personnel3.4 complete pre-repair scan documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 identify any authorised external repairers for escalation of further diagnosis and repair3.3 refer diagnostic findings to required workplace personnel3.4 complete pre-repair scan documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Evaluate knowledge of ADAS"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 identify any authorised external repairers for escalation of further diagnosis and repair3.3 refer diagnostic findings to required workplace personnel3.4 complete pre-repair scan documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 identify any authorised external repairers for escalation of further diagnosis and repair3.3 refer diagnostic findings to required workplace personnel3.4 complete pre-repair scan documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check knowledge regularly with colleagues and supervisor to ensure currency and accuracy 3.2 Identify any authorised external repairers for escalation of further diagnosis and repair3.3 Refer diagnostic findings to required workplace personnel3.4 Complete pre-repair scan documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.807052+00:00"
+}

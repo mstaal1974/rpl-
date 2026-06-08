@@ -1,0 +1,335 @@
+{
+  "code": "AMPX201",
+  "title": "Prepare and operate bandsaw",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare and operate bandsaw demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Assemble a bandsaw",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements.",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Assemble a bandsaw"
+    },
+    {
+      "id": "E2",
+      "title": "Operate a bandsaw",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements.",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate a bandsaw"
+    },
+    {
+      "id": "E3",
+      "title": "Clean a bandsaw",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements.",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean a bandsaw"
+    },
+    {
+      "id": "E4",
+      "title": "Disassemble bandsaw",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements.",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Disassemble bandsaw"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Assemble a bandsaw",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assemble bandsaw according to manufactu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements",
+      "knowledge_focus": [
+        "Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Assemble a bandsaw"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assemble bandsaw according to manufacturer's specifications and workplace requirements.1.2 Checked bandsaw guards and scrapers for functioning and safety according to manufacturer's specifications and workplace health and safety requirements.1.3 Check bandsaw to ensure it is clean in accordance with hygiene and sanitation, and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Operate a bandsaw",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 operate bandsaw in accordance with workplace health and safety requirements.2.3 use bandsaw to cut meat products according to product specifications and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate bandsaw in accordance with work",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 operate bandsaw in accordance with workplace health and safety requirements.2.3 use bandsaw to cut meat products according to product specifications and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 operate bandsaw in accordance with workplace health and safety requirements.2.3 use bandsaw to cut meat products according to product specifications and workplace requirements",
+      "knowledge_focus": [
+        "Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Operate a bandsaw"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 operate bandsaw in accordance with workplace health and safety requirements.2.3 use bandsaw to cut meat products according to product specifications and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 operate bandsaw in accordance with workplace health and safety requirements.2.3 use bandsaw to cut meat products according to product specifications and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate bandsaw in accordance with workplace requirements and manufacturer's specifications.2.2 Operate bandsaw in accordance with workplace health and safety requirements.2.3 Use bandsaw to cut meat products according to product specifications and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Clean a bandsaw",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What are the key hazards and required controls associated with clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean bandsaw to manufacturer's, hygien",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements",
+      "knowledge_focus": [
+        "Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Clean a bandsaw"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean bandsaw to manufacturer's, hygiene, workplace health and safety and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Disassemble bandsaw",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 perform routine maintenance according to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Disassemble bandsaw according to manufa",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 perform routine maintenance according to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 perform routine maintenance according to workplace requirements",
+      "knowledge_focus": [
+        "Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Disassemble bandsaw"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 perform routine maintenance according to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 perform routine maintenance according to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Disassemble bandsaw according to manufacturer's, workplace health and safety and workplace requirements4.2 Perform routine maintenance according to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.396858+00:00"
+}

@@ -1,0 +1,263 @@
+{
+  "code": "AUMGQA001",
+  "title": "Apply workplace technical quality standards",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Apply workplace technical quality standards demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for inspection",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for inspection"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect work",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect work"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for inspection",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to identify workplace materials and equipment required for inspection processes 1.2 identify, tag and report damaged or unserviceable equipment 1.3 identify and apply workplace instructions and quality guidelines?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace materials and equipm",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace materials and equipment required for inspection processes 1.2 identify, tag and report damaged or unserviceable equipment 1.3 identify and apply workplace instructions and quality guidelines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace materials and equipment required for inspection processes 1.2 identify, tag and report damaged or unserviceable equipment 1.3 identify and apply workplace instructions and quality guidelines",
+      "knowledge_focus": [
+        "Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines"
+      ],
+      "workplace_context_examples": [
+        "Prepare for inspection"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace materials and equipment required for inspection processes 1.2 identify, tag and report damaged or unserviceable equipment 1.3 identify and apply workplace instructions and quality guidelines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace materials and equipment required for inspection processes 1.2 identify, tag and report damaged or unserviceable equipment 1.3 identify and apply workplace instructions and quality guidelines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace materials and equipment required for inspection processes 1.2 Identify, tag and report damaged or unserviceable equipment 1.3 Identify and apply workplace instructions and quality guidelines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect work",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to identify and apply job specification, work order, inspection processes and quality standards 2.2 undertake workplace inspection processes against work quality goals2.3 identify and follow work health and safety (whs) requirements 2.4 apply workplace quality standards when conducting inspections, according to workplace procedures2.5 protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and apply job specification, w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and apply job specification, work order, inspection processes and quality standards 2.2 undertake workplace inspection processes against work quality goals2.3 identify and follow work health and safety (whs) requirements 2.4 apply workplace quality standards when conducting inspections, according to workplace procedures2.5 protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and apply job specification, work order, inspection processes and quality standards 2.2 undertake workplace inspection processes against work quality goals2.3 identify and follow work health and safety (whs) requirements 2.4 apply workplace quality standards when conducting inspections, according to workplace procedures2.5 protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines",
+      "knowledge_focus": [
+        "Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines"
+      ],
+      "workplace_context_examples": [
+        "Inspect work"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and apply job specification, work order, inspection processes and quality standards 2.2 undertake workplace inspection processes against work quality goals2.3 identify and follow work health and safety (whs) requirements 2.4 apply workplace quality standards when conducting inspections, according to workplace procedures2.5 protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and apply job specification, work order, inspection processes and quality standards 2.2 undertake workplace inspection processes against work quality goals2.3 identify and follow work health and safety (whs) requirements 2.4 apply workplace quality standards when conducting inspections, according to workplace procedures2.5 protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and apply job specification, work order, inspection processes and quality standards 2.2 Undertake workplace inspection processes against work quality goals2.3 Identify and follow work health and safety (WHS) requirements 2.4 Apply workplace quality standards when conducting inspections, according to workplace procedures2.5 Protect workplace materials and equipment against damage during inspection, according to workplace instructions and quality guidelines."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 complete and report work sheets and quality reports?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect completed work to ensure qualit",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 complete and report work sheets and quality reports",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 complete and report work sheets and quality reports",
+      "knowledge_focus": [
+        "Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 complete and report work sheets and quality reports"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 complete and report work sheets and quality reports"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect completed work to ensure quality outcomes against job specifications, and the achievement of customer requirements3.2 Complete and report work sheets and quality reports."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.438384+00:00"
+}

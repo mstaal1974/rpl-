@@ -1,0 +1,464 @@
+{
+  "code": "AMPRET203",
+  "title": "Trim meat for further processing",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Trim meat for further processing demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for work task",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify work instruction for trimming meat and clarify where required",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for trimming meat and clarify where required?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for trimming meat and clarify where required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective clothing and equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective clothing and equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective clothing and equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify sources of potential contamination to meat cuts",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of potential contamination to meat cuts?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify sources of potential contamination to meat cuts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify hygiene and sanitation requirements for trimming meat cuts",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for trimming meat cuts?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for trimming meat cuts.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for work task"
+    },
+    {
+      "id": "E2",
+      "title": "Trim meat",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trim meat to workplace specifications",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim meat to workplace specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim meat to workplace specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Follow workplace health and safety, and hygiene and sanitation requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace health and safety, and hygiene and sanitation requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace health and safety, and hygiene and sanitation requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Handle knife safely, hygienically and effectively",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Trim meat"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify work instruction for trimming meat and clarify where required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify work instruction for trimming ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify work instruction for trimming meat and clarify where required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify work instruction for trimming meat and clarify where required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify work instruction for trimming meat and clarify where required?",
+      "practical_task_interpretation": "In practice this requires the worker to identify work instruction for trimming meat and clarify where required",
+      "knowledge_focus": [
+        "Identify work instruction for trimming meat and clarify where required"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify work instruction for trimming meat and clarify where required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify work instruction for trimming meat and clarify where required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify work instruction for trimming meat and clarify where required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective clothing and equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective clothing and equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective clothing and equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective clothing and equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective clothing and equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective clothing and equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective clothing and equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective clothing and equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective clothing and equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare for work task",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify sources of potential contamination to meat cuts?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify sources of potential contamina",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify sources of potential contamination to meat cuts",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify sources of potential contamination to meat cuts.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of potential contamination to meat cuts?",
+      "practical_task_interpretation": "In practice this requires the worker to identify sources of potential contamination to meat cuts",
+      "knowledge_focus": [
+        "Identify sources of potential contamination to meat cuts"
+      ],
+      "workplace_context_examples": [
+        "Prepare for work task"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify sources of potential contamination to meat cuts"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify sources of potential contamination to meat cuts"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify sources of potential contamination to meat cuts."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Trim meat",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to trim meat to workplace specifications? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim meat to workplace specifications.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim meat to workplace specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim meat to workplace specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim meat to workplace specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to trim meat to workplace specifications",
+      "knowledge_focus": [
+        "Trim meat to workplace specifications"
+      ],
+      "workplace_context_examples": [
+        "Trim meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim meat to workplace specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim meat to workplace specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim meat to workplace specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Trim meat",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with follow workplace health and safety, and hygiene and sanitation requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow workplace health and safety, and",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow workplace health and safety, and hygiene and sanitation requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Follow workplace health and safety, and hygiene and sanitation requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace health and safety, and hygiene and sanitation requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to follow workplace health and safety, and hygiene and sanitation requirements",
+      "knowledge_focus": [
+        "Follow workplace health and safety, and hygiene and sanitation requirements"
+      ],
+      "workplace_context_examples": [
+        "Trim meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow workplace health and safety, and hygiene and sanitation requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow workplace health and safety, and hygiene and sanitation requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow workplace health and safety, and hygiene and sanitation requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Trim meat",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to handle knife safely, hygienically and effectively? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle knife safely, hygienically and e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle knife safely, hygienically and effectively",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+      "practical_task_interpretation": "In practice this requires the worker to handle knife safely, hygienically and effectively",
+      "knowledge_focus": [
+        "Handle knife safely, hygienically and effectively"
+      ],
+      "workplace_context_examples": [
+        "Trim meat"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle knife safely, hygienically and effectively"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle knife safely, hygienically and effectively"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle knife safely, hygienically and effectively."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.339512+00:00"
+}

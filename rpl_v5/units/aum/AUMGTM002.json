@@ -1,0 +1,335 @@
+{
+  "code": "AUMGTM002",
+  "title": "Assemble vehicle frames and axles",
+  "training_package": "AUM",
+  "training_package_name": "Automotive Manufacturing",
+  "application": "",
+  "competent_person_statement": "A competent person in Assemble vehicle frames and axles demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Plan and prepare assembly",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults?",
+          "benchmark_statement": "The candidate demonstrates that they can Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Plan and prepare assembly"
+    },
+    {
+      "id": "E2",
+      "title": "Cut, drill and weld chassis frame",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Cut, drill and weld chassis frame"
+    },
+    {
+      "id": "E3",
+      "title": "Fit axles, suspension, brackets, fixtures and service lines",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Fit axles, suspension, brackets, fixtures and service lines"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Plan and prepare assembly",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to interpret materials, parts, drawings and work orders to establish work requirements1.2 identify, select and operate lifting equipment according to workplace procedures1.3 select and inspect tools and equipment, reporting any faults?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Interpret materials, parts, drawings an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to interpret materials, parts, drawings and work orders to establish work requirements1.2 identify, select and operate lifting equipment according to workplace procedures1.3 select and inspect tools and equipment, reporting any faults",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults?",
+      "practical_task_interpretation": "In practice this requires the worker to interpret materials, parts, drawings and work orders to establish work requirements1.2 identify, select and operate lifting equipment according to workplace procedures1.3 select and inspect tools and equipment, reporting any faults",
+      "knowledge_focus": [
+        "Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults"
+      ],
+      "workplace_context_examples": [
+        "Plan and prepare assembly"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of interpret materials, parts, drawings and work orders to establish work requirements1.2 identify, select and operate lifting equipment according to workplace procedures1.3 select and inspect tools and equipment, reporting any faults"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of interpret materials, parts, drawings and work orders to establish work requirements1.2 identify, select and operate lifting equipment according to workplace procedures1.3 select and inspect tools and equipment, reporting any faults"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Interpret materials, parts, drawings and work orders to establish work requirements1.2 Identify, select and operate lifting equipment according to workplace procedures1.3 Select and inspect tools and equipment, reporting any faults."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Cut, drill and weld chassis frame",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to cut chassis as specified in work order and working drawings2.2 drill holes that comply in size and position with drawing specifications2.3 weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Cut chassis as specified in work order ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to cut chassis as specified in work order and working drawings2.2 drill holes that comply in size and position with drawing specifications2.3 weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards?",
+      "practical_task_interpretation": "In practice this requires the worker to cut chassis as specified in work order and working drawings2.2 drill holes that comply in size and position with drawing specifications2.3 weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards",
+      "knowledge_focus": [
+        "Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards"
+      ],
+      "workplace_context_examples": [
+        "Cut, drill and weld chassis frame"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of cut chassis as specified in work order and working drawings2.2 drill holes that comply in size and position with drawing specifications2.3 weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of cut chassis as specified in work order and working drawings2.2 drill holes that comply in size and position with drawing specifications2.3 weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Cut chassis as specified in work order and working drawings2.2 Drill holes that comply in size and position with drawing specifications2.3 Weld chassis rails according to workplace procedures, drawing specifications and, if applicable, standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Fit axles, suspension, brackets, fixtures and service lines",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What criteria determine how to select and use fasteners according to drawing specifications3.2 assemble and attach axles, suspension, brackets and fixtures to chassis3.3 fit and tension bolts and fasteners to specifications3.4 route, fasten, tie and clip service lines to specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Select and use fasteners according to d",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to select and use fasteners according to drawing specifications3.2 assemble and attach axles, suspension, brackets and fixtures to chassis3.3 fit and tension bolts and fasteners to specifications3.4 route, fasten, tie and clip service lines to specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to select and use fasteners according to drawing specifications3.2 assemble and attach axles, suspension, brackets and fixtures to chassis3.3 fit and tension bolts and fasteners to specifications3.4 route, fasten, tie and clip service lines to specifications",
+      "knowledge_focus": [
+        "Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications"
+      ],
+      "workplace_context_examples": [
+        "Fit axles, suspension, brackets, fixtures and service lines"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of select and use fasteners according to drawing specifications3.2 assemble and attach axles, suspension, brackets and fixtures to chassis3.3 fit and tension bolts and fasteners to specifications3.4 route, fasten, tie and clip service lines to specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of select and use fasteners according to drawing specifications3.2 assemble and attach axles, suspension, brackets and fixtures to chassis3.3 fit and tension bolts and fasteners to specifications3.4 route, fasten, tie and clip service lines to specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Select and use fasteners according to drawing specifications3.2 Assemble and attach axles, suspension, brackets and fixtures to chassis3.3 Fit and tension bolts and fasteners to specifications3.4 Route, fasten, tie and clip service lines to specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to clean, inspect and store work area, tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material, and recycle or dispose of according to workplace procedures4.4 record workflow and production schedule and complete workplace documents?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean, inspect and store work area, too",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean, inspect and store work area, tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material, and recycle or dispose of according to workplace procedures4.4 record workflow and production schedule and complete workplace documents",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents?",
+      "practical_task_interpretation": "In practice this requires the worker to clean, inspect and store work area, tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material, and recycle or dispose of according to workplace procedures4.4 record workflow and production schedule and complete workplace documents",
+      "knowledge_focus": [
+        "Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean, inspect and store work area, tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material, and recycle or dispose of according to workplace procedures4.4 record workflow and production schedule and complete workplace documents"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean, inspect and store work area, tools and equipment according to workplace procedures4.2 identify, tag and report faulty equipment 4.3 collect waste material, and recycle or dispose of according to workplace procedures4.4 record workflow and production schedule and complete workplace documents"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean, inspect and store work area, tools and equipment according to workplace procedures4.2 Identify, tag and report faulty equipment 4.3 Collect waste material, and recycle or dispose of according to workplace procedures4.4 Record workflow and production schedule and complete workplace documents."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.445475+00:00"
+}

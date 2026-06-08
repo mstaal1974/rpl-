@@ -1,0 +1,335 @@
+{
+  "code": "AURSCA010",
+  "title": "Appraise and purchase used motor vehicles for sale",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Appraise and purchase used motor vehicles for sale demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Inspect used motor vehicle",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides?",
+          "benchmark_statement": "The candidate demonstrates that they can Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Inspect used motor vehicle"
+    },
+    {
+      "id": "E2",
+      "title": "Value vehicle",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Value vehicle"
+    },
+    {
+      "id": "E3",
+      "title": "Negotiate vehicle purchase price",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points?",
+          "benchmark_statement": "The candidate demonstrates that they can Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Negotiate vehicle purchase price"
+    },
+    {
+      "id": "E4",
+      "title": "Purchase vehicle and finalise purchase process",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased?",
+          "benchmark_statement": "The candidate demonstrates that they can Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Purchase vehicle and finalise purchase process"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Inspect used motor vehicle",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to used motor vehicle is selected for inspection using workplace selection criteria 1.2 vehicle is inspected and appraised according to workplace procedures1.3 information collected from vehicle appraisal process is matched with information available in pricing guides?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Used motor vehicle is selected for insp",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to used motor vehicle is selected for inspection using workplace selection criteria 1.2 vehicle is inspected and appraised according to workplace procedures1.3 information collected from vehicle appraisal process is matched with information available in pricing guides",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides?",
+      "practical_task_interpretation": "In practice this requires the worker to used motor vehicle is selected for inspection using workplace selection criteria 1.2 vehicle is inspected and appraised according to workplace procedures1.3 information collected from vehicle appraisal process is matched with information available in pricing guides",
+      "knowledge_focus": [
+        "Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides"
+      ],
+      "workplace_context_examples": [
+        "Inspect used motor vehicle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of used motor vehicle is selected for inspection using workplace selection criteria 1.2 vehicle is inspected and appraised according to workplace procedures1.3 information collected from vehicle appraisal process is matched with information available in pricing guides"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of used motor vehicle is selected for inspection using workplace selection criteria 1.2 vehicle is inspected and appraised according to workplace procedures1.3 information collected from vehicle appraisal process is matched with information available in pricing guides"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Used motor vehicle is selected for inspection using workplace selection criteria 1.2 Vehicle is inspected and appraised according to workplace procedures1.3 Information collected from vehicle appraisal process is matched with information available in pricing guides."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Value vehicle",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to collected information is analysed to determine vehicle value2.2 requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Collected information is analysed to de",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to collected information is analysed to determine vehicle value2.2 requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to collected information is analysed to determine vehicle value2.2 requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor",
+      "knowledge_focus": [
+        "Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor"
+      ],
+      "workplace_context_examples": [
+        "Value vehicle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of collected information is analysed to determine vehicle value2.2 requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of collected information is analysed to determine vehicle value2.2 requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Collected information is analysed to determine vehicle value2.2 Requirement for vehicle is determined on the basis of any analysis of workplace records and stock requirements2.3 Issues and concerns about the used motor vehicle are discussed with experienced team members and supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Negotiate vehicle purchase price",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be communicated when vehicle is appraised based on information collected and appraisal is discussed with owner3.2 satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points, and to whom?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Vehicle is appraised based on informati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to vehicle is appraised based on information collected and appraisal is discussed with owner3.2 satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points?",
+      "practical_task_interpretation": "In practice this requires the worker to vehicle is appraised based on information collected and appraisal is discussed with owner3.2 satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points",
+      "knowledge_focus": [
+        "Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points"
+      ],
+      "workplace_context_examples": [
+        "Negotiate vehicle purchase price"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of vehicle is appraised based on information collected and appraisal is discussed with owner3.2 satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of vehicle is appraised based on information collected and appraisal is discussed with owner3.2 satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Vehicle is appraised based on information collected and appraisal is discussed with owner3.2 Satisfactory purchase price is negotiated with owner using key points identified in appraisal as negotiating points."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Purchase vehicle and finalise purchase process",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What information must be recorded when you used vehicle is purchased according to workplace budget and procedures4.2 purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 workplace records are updated to reflect vehicles purchased, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Used vehicle is purchased according to ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to used vehicle is purchased according to workplace budget and procedures4.2 purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 workplace records are updated to reflect vehicles purchased",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased?",
+      "practical_task_interpretation": "In practice this requires the worker to used vehicle is purchased according to workplace budget and procedures4.2 purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 workplace records are updated to reflect vehicles purchased",
+      "knowledge_focus": [
+        "Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased"
+      ],
+      "workplace_context_examples": [
+        "Purchase vehicle and finalise purchase process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of used vehicle is purchased according to workplace budget and procedures4.2 purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 workplace records are updated to reflect vehicles purchased"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of used vehicle is purchased according to workplace budget and procedures4.2 purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 workplace records are updated to reflect vehicles purchased"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Used vehicle is purchased according to workplace budget and procedures4.2 Purchase process and required documentation are completed according to workplace procedures and legislative and statutory requirements4.3 Workplace records are updated to reflect vehicles purchased."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.047674+00:00"
+}

@@ -1,0 +1,191 @@
+{
+  "code": "AMPA3005",
+  "title": "Rod weasand",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Rod weasand demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare equipment",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare equipment"
+    },
+    {
+      "id": "E2",
+      "title": "Rod weasand",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Rod weasand"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare equipment",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check and prepare equipment and materials for processing1.2 clean equipment to workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check and prepare equipment and materia",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check and prepare equipment and materials for processing1.2 clean equipment to workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to check and prepare equipment and materials for processing1.2 clean equipment to workplace requirements",
+      "knowledge_focus": [
+        "Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare equipment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check and prepare equipment and materials for processing1.2 clean equipment to workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check and prepare equipment and materials for processing1.2 clean equipment to workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check and prepare equipment and materials for processing1.2 Clean equipment to workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Rod weasand",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify sources of contamination and cross-contamination2.2 rod weasand in accordance with workplace health and safety and workplace requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify sources of contamination and c",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify sources of contamination and cross-contamination2.2 rod weasand in accordance with workplace health and safety and workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to identify sources of contamination and cross-contamination2.2 rod weasand in accordance with workplace health and safety and workplace requirements",
+      "knowledge_focus": [
+        "Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Rod weasand"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify sources of contamination and cross-contamination2.2 rod weasand in accordance with workplace health and safety and workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify sources of contamination and cross-contamination2.2 rod weasand in accordance with workplace health and safety and workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify sources of contamination and cross-contamination2.2 Rod weasand in accordance with workplace health and safety and workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.865164+00:00"
+}

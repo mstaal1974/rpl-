@@ -1,0 +1,963 @@
+{
+  "code": "AMPQUA423",
+  "title": "Participate in the ongoing development and implementation of a HACCP based QA system",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Participate in the ongoing development and implementation of a HACCP based QA system demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Involve management and staff in developing the quality system",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Involve relevant staff members and managers in clarifying purpose and scope of program",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Involve relevant staff members and managers in clarifying purpose and scope of program?",
+          "benchmark_statement": "The candidate demonstrates that they can Involve relevant staff members and managers in clarifying purpose and scope of program.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Clearly define workplace needs and expectations",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clearly define workplace needs and expectations?",
+          "benchmark_statement": "The candidate demonstrates that they can Clearly define workplace needs and expectations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs?",
+          "benchmark_statement": "The candidate demonstrates that they can Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Involve management and staff in developing the quality system"
+    },
+    {
+      "id": "E2",
+      "title": "Establish the scope of the system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance?",
+          "benchmark_statement": "The candidate demonstrates that they can Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards?",
+          "benchmark_statement": "The candidate demonstrates that they can Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Seek consensus from relevant workplace areas on coverage and scope of system",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek consensus from relevant workplace areas on coverage and scope of system?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek consensus from relevant workplace areas on coverage and scope of system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Establish the scope of the system"
+    },
+    {
+      "id": "E3",
+      "title": "Conduct hazard analysis and assessment",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Assess every step in the production process for potential food safety hazards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess every step in the production process for potential food safety hazards?",
+          "benchmark_statement": "The candidate demonstrates that they can Assess every step in the production process for potential food safety hazards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Establish critical limits for each CCP",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish critical limits for each CCP?",
+          "benchmark_statement": "The candidate demonstrates that they can Establish critical limits for each CCP.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Assign measurable or recognisable standards for each CCP to define the critical limits",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assign measurable or recognisable standards for each CCP to define the critical limits?",
+          "benchmark_statement": "The candidate demonstrates that they can Assign measurable or recognisable standards for each CCP to define the critical limits.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Technically and scientifically validate critical limits",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Technically and scientifically validate critical limits?",
+          "benchmark_statement": "The candidate demonstrates that they can Technically and scientifically validate critical limits.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Conduct hazard analysis and assessment"
+    },
+    {
+      "id": "E4",
+      "title": "Ensure all documents, work procedures and processes required for the system are developed, available and in use",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety?",
+          "benchmark_statement": "The candidate demonstrates that they can Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards?",
+          "benchmark_statement": "The candidate demonstrates that they can Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Implement documented procedures for monitoring CCPs",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement documented procedures for monitoring CCPs?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement documented procedures for monitoring CCPs.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Implement documented procedures designed to ensure any CCPs that are out of control are brought back under control, and any affected products are suitably handled",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement documented procedures designed to ensure any CCPs that are out of control are brought back under control, and any affected products are suitably handled?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement documented procedures designed to ensure any CCPs that are out of control are brought back under control, and any affected products are suitably handled.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.5",
+          "text": "Implement documented procedures to ensure the whole HACCP-based QA system is regularly audited and verified as working effectively",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement documented procedures to ensure the whole HACCP-based QA system is regularly audited and verified as working effectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Implement documented procedures to ensure the whole HACCP-based QA system is regularly audited and verified as working effectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.6",
+          "text": "Ensure availability, currency and current usage of all documents and records required for system",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Ensure availability, currency and current usage of all documents and records required for system?",
+          "benchmark_statement": "The candidate demonstrates that they can Ensure availability, currency and current usage of all documents and records required for system.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Ensure all documents, work procedures and processes required for the system are developed, available and in use"
+    },
+    {
+      "id": "E5",
+      "title": "Audit, verify and validate the system",
+      "pcs": [
+        {
+          "id": "5.1",
+          "text": "Routinely revise, verify and validate HACCP plan through reassessing hazards, CCPs, critical limits, testing methods, and all related HACCP system procedures, to ensure their ongoing relevancy to plant operations",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Routinely revise, verify and validate HACCP plan through reassessing hazards, CCPs, critical limits, testing methods, and all related HACCP system procedures, to ensure their ongoing relevancy to plant operations?",
+          "benchmark_statement": "The candidate demonstrates that they can Routinely revise, verify and validate HACCP plan through reassessing hazards, CCPs, critical limits, testing methods, and all related HACCP system procedures, to ensure their ongoing relevancy to plant operations.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.2",
+          "text": "Take corrective action and record follow-up on audit findings",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Take corrective action and record follow-up on audit findings?",
+          "benchmark_statement": "The candidate demonstrates that they can Take corrective action and record follow-up on audit findings.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "5.3",
+          "text": "Review HACCP-based QA system to account for any process or product changes",
+          "element_id": "E5",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review HACCP-based QA system to account for any process or product changes?",
+          "benchmark_statement": "The candidate demonstrates that they can Review HACCP-based QA system to account for any process or product changes.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E5: Audit, verify and validate the system"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1",
+        "5.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Involve management and staff in developing the quality system",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What technical knowledge is required to involve relevant staff members and managers in clarifying purpose and scope of program? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Involve relevant staff members and mana",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to involve relevant staff members and managers in clarifying purpose and scope of program",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Involve relevant staff members and managers in clarifying purpose and scope of program.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Involve relevant staff members and managers in clarifying purpose and scope of program?",
+      "practical_task_interpretation": "In practice this requires the worker to involve relevant staff members and managers in clarifying purpose and scope of program",
+      "knowledge_focus": [
+        "Involve relevant staff members and managers in clarifying purpose and scope of program"
+      ],
+      "workplace_context_examples": [
+        "Involve management and staff in developing the quality system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of involve relevant staff members and managers in clarifying purpose and scope of program"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of involve relevant staff members and managers in clarifying purpose and scope of program"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Involve relevant staff members and managers in clarifying purpose and scope of program."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Involve management and staff in developing the quality system",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What technical knowledge is required to clearly define workplace needs and expectations? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clearly define workplace needs and expe",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clearly define workplace needs and expectations",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clearly define workplace needs and expectations.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clearly define workplace needs and expectations?",
+      "practical_task_interpretation": "In practice this requires the worker to clearly define workplace needs and expectations",
+      "knowledge_focus": [
+        "Clearly define workplace needs and expectations"
+      ],
+      "workplace_context_examples": [
+        "Involve management and staff in developing the quality system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clearly define workplace needs and expectations"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clearly define workplace needs and expectations"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clearly define workplace needs and expectations."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Involve management and staff in developing the quality system",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to incorporate other systems, including aus-meat, workplace health and safety and meat inspection according to workplace needs?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Incorporate other systems, including AU",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to incorporate other systems, including aus-meat, workplace health and safety and meat inspection according to workplace needs",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs?",
+      "practical_task_interpretation": "In practice this requires the worker to incorporate other systems, including aus-meat, workplace health and safety and meat inspection according to workplace needs",
+      "knowledge_focus": [
+        "Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs"
+      ],
+      "workplace_context_examples": [
+        "Involve management and staff in developing the quality system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of incorporate other systems, including aus-meat, workplace health and safety and meat inspection according to workplace needs"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of incorporate other systems, including aus-meat, workplace health and safety and meat inspection according to workplace needs"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Incorporate other systems, including AUS-MEAT, workplace health and safety and meat inspection according to workplace needs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Establish the scope of the system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with define the scope of the haccp-based qa system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Define the scope of the HACCP-based QA ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to define the scope of the haccp-based qa system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance?",
+      "practical_task_interpretation": "In practice this requires the worker to define the scope of the haccp-based qa system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance",
+      "knowledge_focus": [
+        "Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance"
+      ],
+      "workplace_context_examples": [
+        "Establish the scope of the system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of define the scope of the haccp-based qa system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of define the scope of the haccp-based qa system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Define the scope of the HACCP-based QA system to encompass food safety, quality, regulatory compliance, animal welfare and preventative maintenance."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Establish the scope of the system",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Set up the system to prevent and contro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards?",
+      "practical_task_interpretation": "In practice this requires the worker to set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards",
+      "knowledge_focus": [
+        "Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards"
+      ],
+      "workplace_context_examples": [
+        "Establish the scope of the system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Set up the system to prevent and control food safety hazards and other hazards, including product quality and workplace health and safety hazards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Establish the scope of the system",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What technical knowledge is required to seek consensus from relevant workplace areas on coverage and scope of system? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seek consensus from relevant workplace ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seek consensus from relevant workplace areas on coverage and scope of system",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Seek consensus from relevant workplace areas on coverage and scope of system.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek consensus from relevant workplace areas on coverage and scope of system?",
+      "practical_task_interpretation": "In practice this requires the worker to seek consensus from relevant workplace areas on coverage and scope of system",
+      "knowledge_focus": [
+        "Seek consensus from relevant workplace areas on coverage and scope of system"
+      ],
+      "workplace_context_examples": [
+        "Establish the scope of the system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seek consensus from relevant workplace areas on coverage and scope of system"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seek consensus from relevant workplace areas on coverage and scope of system"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seek consensus from relevant workplace areas on coverage and scope of system."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Conduct hazard analysis and assessment",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to assess every step in the production process for potential food safety hazards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Assess every step in the production pro",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to assess every step in the production process for potential food safety hazards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Assess every step in the production process for potential food safety hazards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Assess every step in the production process for potential food safety hazards?",
+      "practical_task_interpretation": "In practice this requires the worker to assess every step in the production process for potential food safety hazards",
+      "knowledge_focus": [
+        "Assess every step in the production process for potential food safety hazards"
+      ],
+      "workplace_context_examples": [
+        "Conduct hazard analysis and assessment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of assess every step in the production process for potential food safety hazards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of assess every step in the production process for potential food safety hazards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Assess every step in the production process for potential food safety hazards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Conduct hazard analysis and assessment",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to establish critical control points (ccps) to identify methods for preventing and controlling significant hazards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish critical control points (CCPs",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish critical control points (ccps) to identify methods for preventing and controlling significant hazards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards?",
+      "practical_task_interpretation": "In practice this requires the worker to establish critical control points (ccps) to identify methods for preventing and controlling significant hazards",
+      "knowledge_focus": [
+        "Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards"
+      ],
+      "workplace_context_examples": [
+        "Conduct hazard analysis and assessment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish critical control points (ccps) to identify methods for preventing and controlling significant hazards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish critical control points (ccps) to identify methods for preventing and controlling significant hazards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish critical control points (CCPs) to identify methods for preventing and controlling significant hazards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Conduct hazard analysis and assessment",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What steps are required to establish critical limits for each ccp, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Establish critical limits for each CCP.",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to establish critical limits for each ccp",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Establish critical limits for each CCP.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Establish critical limits for each CCP?",
+      "practical_task_interpretation": "In practice this requires the worker to establish critical limits for each ccp",
+      "knowledge_focus": [
+        "Establish critical limits for each CCP"
+      ],
+      "workplace_context_examples": [
+        "Conduct hazard analysis and assessment"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of establish critical limits for each ccp"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of establish critical limits for each ccp"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Establish critical limits for each CCP."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Ensure all documents, work procedures and processes required for the system are developed, available and in use",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What are the key hazards and required controls associated with describe all products and processes covered by the haccp-based qa system in a standardised format defining product characteristics relevant to food safety?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Describe all products and processes cov",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to describe all products and processes covered by the haccp-based qa system in a standardised format defining product characteristics relevant to food safety",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety?",
+      "practical_task_interpretation": "In practice this requires the worker to describe all products and processes covered by the haccp-based qa system in a standardised format defining product characteristics relevant to food safety",
+      "knowledge_focus": [
+        "Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety"
+      ],
+      "workplace_context_examples": [
+        "Ensure all documents, work procedures and processes required for the system are developed, available and in use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of describe all products and processes covered by the haccp-based qa system in a standardised format defining product characteristics relevant to food safety"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of describe all products and processes covered by the haccp-based qa system in a standardised format defining product characteristics relevant to food safety"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Describe all products and processes covered by the HACCP-based QA system in a standardised format defining product characteristics relevant to food safety."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Ensure all documents, work procedures and processes required for the system are developed, available and in use",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What are the key hazards and required controls associated with review work instructions and standard operating procedures (sops) for accuracy, relevancy and sufficiency to prevent potential hazards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review work instructions and standard o",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review work instructions and standard operating procedures (sops) for accuracy, relevancy and sufficiency to prevent potential hazards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards?",
+      "practical_task_interpretation": "In practice this requires the worker to review work instructions and standard operating procedures (sops) for accuracy, relevancy and sufficiency to prevent potential hazards",
+      "knowledge_focus": [
+        "Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards"
+      ],
+      "workplace_context_examples": [
+        "Ensure all documents, work procedures and processes required for the system are developed, available and in use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review work instructions and standard operating procedures (sops) for accuracy, relevancy and sufficiency to prevent potential hazards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review work instructions and standard operating procedures (sops) for accuracy, relevancy and sufficiency to prevent potential hazards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review work instructions and standard operating procedures (SOPs) for accuracy, relevancy and sufficiency to prevent potential hazards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Ensure all documents, work procedures and processes required for the system are developed, available and in use",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What information must be recorded when you implement documented procedures for monitoring ccps, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Implement documented procedures for mon",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to implement documented procedures for monitoring ccps",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Implement documented procedures for monitoring CCPs.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Implement documented procedures for monitoring CCPs?",
+      "practical_task_interpretation": "In practice this requires the worker to implement documented procedures for monitoring ccps",
+      "knowledge_focus": [
+        "Implement documented procedures for monitoring CCPs"
+      ],
+      "workplace_context_examples": [
+        "Ensure all documents, work procedures and processes required for the system are developed, available and in use"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of implement documented procedures for monitoring ccps"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of implement documented procedures for monitoring ccps"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Implement documented procedures for monitoring CCPs."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.270528+00:00"
+}

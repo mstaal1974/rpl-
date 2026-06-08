@@ -1,0 +1,263 @@
+{
+  "code": "AURBTJ104",
+  "title": "Repair and overhaul bicycle wheels and hubs",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Repair and overhaul bicycle wheels and hubs demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to repair and overhaul bicycle wheels and hubs",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to repair and overhaul bicycle wheels and hubs"
+    },
+    {
+      "id": "E2",
+      "title": "Carry out repair and overhaul of bicycle wheels and hubs",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Carry out repair and overhaul of bicycle wheels and hubs"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to repair and overhaul bicycle wheels and hubs",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 inspect bicycle wheels and hubs for worn or damaged components1.4 identify and confirm repair options and techniques, and identify hazards associated with the work1.5 source replacement wheel and hub parts and components 1.6 select and check tools and equipment for serviceability1.7 plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 prepare work area and wheel and hub for repair or overhaul?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 inspect bicycle wheels and hubs for worn or damaged components1.4 identify and confirm repair options and techniques, and identify hazards associated with the work1.5 source replacement wheel and hub parts and components 1.6 select and check tools and equipment for serviceability1.7 plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 prepare work area and wheel and hub for repair or overhaul",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 inspect bicycle wheels and hubs for worn or damaged components1.4 identify and confirm repair options and techniques, and identify hazards associated with the work1.5 source replacement wheel and hub parts and components 1.6 select and check tools and equipment for serviceability1.7 plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 prepare work area and wheel and hub for repair or overhaul",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul"
+      ],
+      "workplace_context_examples": [
+        "Prepare to repair and overhaul bicycle wheels and hubs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 inspect bicycle wheels and hubs for worn or damaged components1.4 identify and confirm repair options and techniques, and identify hazards associated with the work1.5 source replacement wheel and hub parts and components 1.6 select and check tools and equipment for serviceability1.7 plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 prepare work area and wheel and hub for repair or overhaul"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 inspect bicycle wheels and hubs for worn or damaged components1.4 identify and confirm repair options and techniques, and identify hazards associated with the work1.5 source replacement wheel and hub parts and components 1.6 select and check tools and equipment for serviceability1.7 plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 prepare work area and wheel and hub for repair or overhaul"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions, including wheel and hub repair methods and materials1.2 Access and interpret manufacturer specifications, workplace procedures and other required technical information 1.3 Inspect bicycle wheels and hubs for worn or damaged components1.4 Identify and confirm repair options and techniques, and identify hazards associated with the work1.5 Source replacement wheel and hub parts and components 1.6 Select and check tools and equipment for serviceability1.7 Plan work avoid damage to bicycle, minimise waste and use time efficiently1.8 Prepare work area and wheel and hub for repair or overhaul."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Carry out repair and overhaul of bicycle wheels and hubs",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 check rims and adjust as required2.3 check spokes and replace any broken2.4 adjust and tension spokes2.5 use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 refit wheels and regrease wheel hubs according to workplace procedures2.7 report results and quality issues to authorised personnel as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Remove bicycle wheels according to manu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 check rims and adjust as required2.3 check spokes and replace any broken2.4 adjust and tension spokes2.5 use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 refit wheels and regrease wheel hubs according to workplace procedures2.7 report results and quality issues to authorised personnel as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required?",
+      "practical_task_interpretation": "In practice this requires the worker to remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 check rims and adjust as required2.3 check spokes and replace any broken2.4 adjust and tension spokes2.5 use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 refit wheels and regrease wheel hubs according to workplace procedures2.7 report results and quality issues to authorised personnel as required",
+      "knowledge_focus": [
+        "Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required"
+      ],
+      "workplace_context_examples": [
+        "Carry out repair and overhaul of bicycle wheels and hubs"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 check rims and adjust as required2.3 check spokes and replace any broken2.4 adjust and tension spokes2.5 use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 refit wheels and regrease wheel hubs according to workplace procedures2.7 report results and quality issues to authorised personnel as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 check rims and adjust as required2.3 check spokes and replace any broken2.4 adjust and tension spokes2.5 use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 refit wheels and regrease wheel hubs according to workplace procedures2.7 report results and quality issues to authorised personnel as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Remove bicycle wheels according to manufacturer specifications and safety and environmental requirements2.2 Check rims and adjust as required2.3 Check spokes and replace any broken2.4 Adjust and tension spokes2.5 Use wheel truing equipment and techniques to check for required operation according to manufacturer specifications and adjust as required, prior to refitting wheel2.6 Refit wheels and regrease wheel hubs according to workplace procedures2.7 Report results and quality issues to authorised personnel as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Conduct final inspection according to w",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Conduct final inspection according to workplace procedures and confirm vehicle is ready for use\u00a03.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.698620+00:00"
+}

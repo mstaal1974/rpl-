@@ -1,0 +1,916 @@
+{
+  "code": "MSL974036",
+  "title": "Process body fluid specimens using a point of care testing device",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Process body fluid specimens using a point of care testing device demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Complete pre-analytics",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Confirm correct patient identification in accordance with workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm correct patient identification in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm correct patient identification in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Recognise and reject specimens that do not meet specimen quality requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and reject specimens that do not meet specimen quality requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Recognise and reject specimens that do not meet specimen quality requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Complete pre-analytics"
+    },
+    {
+      "id": "E2",
+      "title": "Prepare and operate PoCT device",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Prepare PoCT device for operation in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare PoCT device for operation in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare PoCT device for operation in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Follow workplace procedures for traceability of operator and patient",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace procedures for traceability of operator and patient?",
+          "benchmark_statement": "The candidate demonstrates that they can Follow workplace procedures for traceability of operator and patient.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Maintain test integrity through appropriate handling of consumables",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain test integrity through appropriate handling of consumables?",
+          "benchmark_statement": "The candidate demonstrates that they can Maintain test integrity through appropriate handling of consumables.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "Perform tests in accordance with workplace procedures and personal protective equipment (PPE) requirements for infection prevention",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform tests in accordance with workplace procedures and personal protective equipment (PPE) requirements for infection prevention?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform tests in accordance with workplace procedures and personal protective equipment (PPE) requirements for infection prevention.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "Dispose of waste in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Dispose of waste in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Dispose of waste in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "Identify and troubleshoot result flags and errors in accordance with workplace procedures",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and troubleshoot result flags and errors in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and troubleshoot result flags and errors in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.7",
+          "text": "Identify and report device errors that are outside area of responsibility and refer to designated person, providing relevant supporting information",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and report device errors that are outside area of responsibility and refer to designated person, providing relevant supporting information?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and report device errors that are outside area of responsibility and refer to designated person, providing relevant supporting information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Prepare and operate PoCT device"
+    },
+    {
+      "id": "E3",
+      "title": "Review and document results",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Review results against reference intervals and reportable range",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review results against reference intervals and reportable range?",
+          "benchmark_statement": "The candidate demonstrates that they can Review results against reference intervals and reportable range.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Accurately record results in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately record results in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Accurately record results in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Review and document results"
+    },
+    {
+      "id": "E4",
+      "title": "Maintain device readiness",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean and decontaminate devices in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and decontaminate devices in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and decontaminate devices in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.2",
+          "text": "Identify, address and document minor device maintenance tasks in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, address and document minor device maintenance tasks in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify, address and document minor device maintenance tasks in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.3",
+          "text": "Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "4.4",
+          "text": "Perform routine quality-control tests in accordance with workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Perform routine quality-control tests in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Perform routine quality-control tests in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Maintain device readiness"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Complete pre-analytics",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to confirm correct patient identification in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm correct patient identification ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm correct patient identification in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm correct patient identification in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm correct patient identification in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm correct patient identification in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Confirm correct patient identification in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete pre-analytics"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm correct patient identification in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm correct patient identification in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm correct patient identification in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Complete pre-analytics",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify collection method and confirm ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures",
+      "knowledge_focus": [
+        "Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete pre-analytics"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify collection method and confirm specimen type has been approved for testing based on manufacturer requirements and workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Complete pre-analytics",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What technical knowledge is required to recognise and reject specimens that do not meet specimen quality requirements? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Recognise and reject specimens that do ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to recognise and reject specimens that do not meet specimen quality requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Recognise and reject specimens that do not meet specimen quality requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recognise and reject specimens that do not meet specimen quality requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to recognise and reject specimens that do not meet specimen quality requirements",
+      "knowledge_focus": [
+        "Recognise and reject specimens that do not meet specimen quality requirements"
+      ],
+      "workplace_context_examples": [
+        "Complete pre-analytics"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of recognise and reject specimens that do not meet specimen quality requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of recognise and reject specimens that do not meet specimen quality requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Recognise and reject specimens that do not meet specimen quality requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Prepare and operate PoCT device",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What steps are required to prepare poct device for operation in accordance with workplace procedures, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare PoCT device for operation in ac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare poct device for operation in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare PoCT device for operation in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare PoCT device for operation in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare poct device for operation in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Prepare PoCT device for operation in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Prepare and operate PoCT device"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare poct device for operation in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare poct device for operation in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare PoCT device for operation in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Prepare and operate PoCT device",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to follow workplace procedures for traceability of operator and patient? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Follow workplace procedures for traceab",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to follow workplace procedures for traceability of operator and patient",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Follow workplace procedures for traceability of operator and patient.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Follow workplace procedures for traceability of operator and patient?",
+      "practical_task_interpretation": "In practice this requires the worker to follow workplace procedures for traceability of operator and patient",
+      "knowledge_focus": [
+        "Follow workplace procedures for traceability of operator and patient"
+      ],
+      "workplace_context_examples": [
+        "Prepare and operate PoCT device"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of follow workplace procedures for traceability of operator and patient"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of follow workplace procedures for traceability of operator and patient"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Follow workplace procedures for traceability of operator and patient."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Prepare and operate PoCT device",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What would indicate that maintain test integrity through appropriate handling of consumables is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Maintain test integrity through appropr",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to maintain test integrity through appropriate handling of consumables",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Maintain test integrity through appropriate handling of consumables.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Maintain test integrity through appropriate handling of consumables?",
+      "practical_task_interpretation": "In practice this requires the worker to maintain test integrity through appropriate handling of consumables",
+      "knowledge_focus": [
+        "Maintain test integrity through appropriate handling of consumables"
+      ],
+      "workplace_context_examples": [
+        "Prepare and operate PoCT device"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of maintain test integrity through appropriate handling of consumables"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of maintain test integrity through appropriate handling of consumables"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Maintain test integrity through appropriate handling of consumables."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Review and document results",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you review results against reference intervals and reportable range, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Review results against reference interv",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to review results against reference intervals and reportable range",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Review results against reference intervals and reportable range.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Review results against reference intervals and reportable range?",
+      "practical_task_interpretation": "In practice this requires the worker to review results against reference intervals and reportable range",
+      "knowledge_focus": [
+        "Review results against reference intervals and reportable range"
+      ],
+      "workplace_context_examples": [
+        "Review and document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of review results against reference intervals and reportable range"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of review results against reference intervals and reportable range"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Review results against reference intervals and reportable range."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Review and document results",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What factors would you consider when you need to identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify abnormal, clinically urgent an",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Review and document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify abnormal, clinically urgent and erroneous results, taking action in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Review and document results",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you accurately record results in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Accurately record results in accordance",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to accurately record results in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Accurately record results in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Accurately record results in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to accurately record results in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Accurately record results in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Review and document results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of accurately record results in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of accurately record results in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Accurately record results in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 10,
+      "element_ref": "Element E4: Maintain device readiness",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What technical knowledge is required to clean and decontaminate devices in accordance with workplace procedures? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and decontaminate devices in acco",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and decontaminate devices in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and decontaminate devices in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and decontaminate devices in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and decontaminate devices in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Clean and decontaminate devices in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Maintain device readiness"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and decontaminate devices in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and decontaminate devices in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and decontaminate devices in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 11,
+      "element_ref": "Element E4: Maintain device readiness",
+      "pc_refs": [
+        "4.2"
+      ],
+      "pc_id": "4.2",
+      "text": "What factors would you consider when you need to identify, address and document minor device maintenance tasks in accordance with workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify, address and document minor de",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify, address and document minor device maintenance tasks in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify, address and document minor device maintenance tasks in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify, address and document minor device maintenance tasks in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to identify, address and document minor device maintenance tasks in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Identify, address and document minor device maintenance tasks in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Maintain device readiness"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify, address and document minor device maintenance tasks in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify, address and document minor device maintenance tasks in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify, address and document minor device maintenance tasks in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 12,
+      "element_ref": "Element E4: Maintain device readiness",
+      "pc_refs": [
+        "4.3"
+      ],
+      "pc_id": "4.3",
+      "text": "What factors would you consider when you need to identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify stock stability and storage re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity?",
+      "practical_task_interpretation": "In practice this requires the worker to identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity",
+      "knowledge_focus": [
+        "Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity"
+      ],
+      "workplace_context_examples": [
+        "Maintain device readiness"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify stock stability and storage requirements, taking any actions that result in maintenance of stock availability and integrity."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.833605+00:00"
+}

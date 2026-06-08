@@ -1,0 +1,263 @@
+{
+  "code": "AURBCA102",
+  "title": "Select and adjust bicycles to fit riders",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Select and adjust bicycles to fit riders demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to adjust bicycle",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to adjust bicycle"
+    },
+    {
+      "id": "E2",
+      "title": "Adjust bicycle to fit the rider",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required?",
+          "benchmark_statement": "The candidate demonstrates that they can Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Adjust bicycle to fit the rider"
+    },
+    {
+      "id": "E3",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to adjust bicycle",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements from workplace instructions1.2 identify and confirm customer cycling requirements and preferences1.3 assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 identify suitable bicycle types and configurations to match customer requirements1.5 discuss features and benefits of selected bicycle with customer?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements from workpla",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements from workplace instructions1.2 identify and confirm customer cycling requirements and preferences1.3 assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 identify suitable bicycle types and configurations to match customer requirements1.5 discuss features and benefits of selected bicycle with customer",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements from workplace instructions1.2 identify and confirm customer cycling requirements and preferences1.3 assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 identify suitable bicycle types and configurations to match customer requirements1.5 discuss features and benefits of selected bicycle with customer",
+      "knowledge_focus": [
+        "Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer"
+      ],
+      "workplace_context_examples": [
+        "Prepare to adjust bicycle"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements from workplace instructions1.2 identify and confirm customer cycling requirements and preferences1.3 assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 identify suitable bicycle types and configurations to match customer requirements1.5 discuss features and benefits of selected bicycle with customer"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements from workplace instructions1.2 identify and confirm customer cycling requirements and preferences1.3 assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 identify suitable bicycle types and configurations to match customer requirements1.5 discuss features and benefits of selected bicycle with customer"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements from workplace instructions1.2 Identify and confirm customer cycling requirements and preferences1.3 Assess physical attributes of customer through discussion, observation and if appropriate, measurements1.4 Identify suitable bicycle types and configurations to match customer requirements1.5 Discuss features and benefits of selected bicycle with customer."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Adjust bicycle to fit the rider",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 identify and manage hazards and risks associated with the work 2.3 select and check tools and equipment, including personal protective equipment (ppe)2.4 adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Source and interpret workplace procedur",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 identify and manage hazards and risks associated with the work 2.3 select and check tools and equipment, including personal protective equipment (ppe)2.4 adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required?",
+      "practical_task_interpretation": "In practice this requires the worker to source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 identify and manage hazards and risks associated with the work 2.3 select and check tools and equipment, including personal protective equipment (ppe)2.4 adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required",
+      "knowledge_focus": [
+        "Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required"
+      ],
+      "workplace_context_examples": [
+        "Adjust bicycle to fit the rider"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 identify and manage hazards and risks associated with the work 2.3 select and check tools and equipment, including personal protective equipment (ppe)2.4 adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 identify and manage hazards and risks associated with the work 2.3 select and check tools and equipment, including personal protective equipment (ppe)2.4 adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Source and interpret workplace procedures, manufacturer specifications, and safety and environmental requirements2.2 Identify and manage hazards and risks associated with the work 2.3 Select and check tools and equipment, including personal protective equipment (PPE)2.4 Adjust bicycle components to match rider\u2019s attributes and requirements using specialist tools and equipment and according to workplace procedures2.5 Observe customer test ride of bicycle to confirm riding comfort and efficiency and make further adjustments as required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Complete work processes",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Make final inspection to ensure work me",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 clear work area and dispose of or recycle materials according to workplace procedures3.3 complete documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Make final inspection to ensure work meets workplace expectations and present bicycle ready for use3.2 Clear work area and dispose of or recycle materials according to workplace procedures3.3 Complete documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.667591+00:00"
+}

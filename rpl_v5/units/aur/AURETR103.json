@@ -1,0 +1,191 @@
+{
+  "code": "AURETR103",
+  "title": "Identify automotive electrical systems and components",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Identify automotive electrical systems and components demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Locate and identify electrical system and its components",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Locate and identify electrical system and its components"
+    },
+    {
+      "id": "E2",
+      "title": "Demonstrate knowledge of electrical system",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information?",
+          "benchmark_statement": "The candidate demonstrates that they can Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Demonstrate knowledge of electrical system"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Locate and identify electrical system and its components",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify task requirements from task instructions including vehicle or machinery to be worked1.2 obtain technical information regarding electrical system to be identified1.3 identify electrical system major components according to workplace health and safety requirements and task instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify task requirements from task in",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify task requirements from task instructions including vehicle or machinery to be worked1.2 obtain technical information regarding electrical system to be identified1.3 identify electrical system major components according to workplace health and safety requirements and task instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to identify task requirements from task instructions including vehicle or machinery to be worked1.2 obtain technical information regarding electrical system to be identified1.3 identify electrical system major components according to workplace health and safety requirements and task instructions",
+      "knowledge_focus": [
+        "Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions"
+      ],
+      "workplace_context_examples": [
+        "Locate and identify electrical system and its components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify task requirements from task instructions including vehicle or machinery to be worked1.2 obtain technical information regarding electrical system to be identified1.3 identify electrical system major components according to workplace health and safety requirements and task instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify task requirements from task instructions including vehicle or machinery to be worked1.2 obtain technical information regarding electrical system to be identified1.3 identify electrical system major components according to workplace health and safety requirements and task instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify task requirements from task instructions including vehicle or machinery to be worked1.2 Obtain technical information regarding electrical system to be identified1.3 Identify electrical system major components according to workplace health and safety requirements and task instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Demonstrate knowledge of electrical system",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to confirm system function from technical information and demonstrate during workplace activities2.2 confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 confirm system relationship to vehicle or machinery operation is from technical information?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Confirm system function from technical ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to confirm system function from technical information and demonstrate during workplace activities2.2 confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 confirm system relationship to vehicle or machinery operation is from technical information",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information?",
+      "practical_task_interpretation": "In practice this requires the worker to confirm system function from technical information and demonstrate during workplace activities2.2 confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 confirm system relationship to vehicle or machinery operation is from technical information",
+      "knowledge_focus": [
+        "Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information"
+      ],
+      "workplace_context_examples": [
+        "Demonstrate knowledge of electrical system"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of confirm system function from technical information and demonstrate during workplace activities2.2 confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 confirm system relationship to vehicle or machinery operation is from technical information"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of confirm system function from technical information and demonstrate during workplace activities2.2 confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 confirm system relationship to vehicle or machinery operation is from technical information"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Confirm system function from technical information and demonstrate during workplace activities2.2 Confirm system major component function and basic operation from technical information and demonstrate during workplace activities2.3 Confirm system relationship to vehicle or machinery operation is from technical information."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.760937+00:00"
+}

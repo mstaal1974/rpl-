@@ -1,0 +1,335 @@
+{
+  "code": "AURKTJ013",
+  "title": "Perform minor repairs to earthmoving and off-the-road tyres",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Perform minor repairs to earthmoving and off-the-road tyres demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare for inspection of the tyre",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare for inspection of the tyre"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect the tyre",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect the tyre"
+    },
+    {
+      "id": "E3",
+      "title": "Carry out minor repair",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Carry out minor repair"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare for inspection of the tyre",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to obtain and interpret australian standards for earthmoving and otr tyres, workplace procedures and safety information 1.2 identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 complete initial workplace documentation for tyre inspection 1.4 prepare and clean tyre for inspection1.5 position and secure tyre for inspection?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Obtain and interpret Australian standar",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to obtain and interpret australian standards for earthmoving and otr tyres, workplace procedures and safety information 1.2 identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 complete initial workplace documentation for tyre inspection 1.4 prepare and clean tyre for inspection1.5 position and secure tyre for inspection",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection?",
+      "practical_task_interpretation": "In practice this requires the worker to obtain and interpret australian standards for earthmoving and otr tyres, workplace procedures and safety information 1.2 identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 complete initial workplace documentation for tyre inspection 1.4 prepare and clean tyre for inspection1.5 position and secure tyre for inspection",
+      "knowledge_focus": [
+        "Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection"
+      ],
+      "workplace_context_examples": [
+        "Prepare for inspection of the tyre"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of obtain and interpret australian standards for earthmoving and otr tyres, workplace procedures and safety information 1.2 identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 complete initial workplace documentation for tyre inspection 1.4 prepare and clean tyre for inspection1.5 position and secure tyre for inspection"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of obtain and interpret australian standards for earthmoving and otr tyres, workplace procedures and safety information 1.2 identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 complete initial workplace documentation for tyre inspection 1.4 prepare and clean tyre for inspection1.5 position and secure tyre for inspection"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Obtain and interpret Australian standards for earthmoving and OTR tyres, workplace procedures and safety information 1.2 Identify site and task hazards, assess potential risks, and implement control measures in line with workplace policies 1.3 Complete initial workplace documentation for tyre inspection 1.4 Prepare and clean tyre for inspection1.5 Position and secure tyre for inspection."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect the tyre",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What factors would you consider when you need to identify extent and nature of internal and external tyre damage2.2 categorise damage in line with australian standards2.3 identify repairable and non-repairable damage 2.4 assess overall repairability and extent of repairs required?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify extent and nature of internal ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify extent and nature of internal and external tyre damage2.2 categorise damage in line with australian standards2.3 identify repairable and non-repairable damage 2.4 assess overall repairability and extent of repairs required",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required?",
+      "practical_task_interpretation": "In practice this requires the worker to identify extent and nature of internal and external tyre damage2.2 categorise damage in line with australian standards2.3 identify repairable and non-repairable damage 2.4 assess overall repairability and extent of repairs required",
+      "knowledge_focus": [
+        "Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required"
+      ],
+      "workplace_context_examples": [
+        "Inspect the tyre"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify extent and nature of internal and external tyre damage2.2 categorise damage in line with australian standards2.3 identify repairable and non-repairable damage 2.4 assess overall repairability and extent of repairs required"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify extent and nature of internal and external tyre damage2.2 categorise damage in line with australian standards2.3 identify repairable and non-repairable damage 2.4 assess overall repairability and extent of repairs required"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify extent and nature of internal and external tyre damage2.2 Categorise damage in line with Australian standards2.3 Identify repairable and non-repairable damage 2.4 Assess overall repairability and extent of repairs required."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Carry out minor repair",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What factors would you consider when you need to access and interpret information on appropriate manufacturer instructions and australian standards 3.2 identify task hazards and risks and apply risk controls to the equipment to be used3.3 carry out minor repair to tyre according to workplace procedures, manufacturer instructions and australian standards?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Access and interpret information on app",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to access and interpret information on appropriate manufacturer instructions and australian standards 3.2 identify task hazards and risks and apply risk controls to the equipment to be used3.3 carry out minor repair to tyre according to workplace procedures, manufacturer instructions and australian standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards?",
+      "practical_task_interpretation": "In practice this requires the worker to access and interpret information on appropriate manufacturer instructions and australian standards 3.2 identify task hazards and risks and apply risk controls to the equipment to be used3.3 carry out minor repair to tyre according to workplace procedures, manufacturer instructions and australian standards",
+      "knowledge_focus": [
+        "Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards"
+      ],
+      "workplace_context_examples": [
+        "Carry out minor repair"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of access and interpret information on appropriate manufacturer instructions and australian standards 3.2 identify task hazards and risks and apply risk controls to the equipment to be used3.3 carry out minor repair to tyre according to workplace procedures, manufacturer instructions and australian standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of access and interpret information on appropriate manufacturer instructions and australian standards 3.2 identify task hazards and risks and apply risk controls to the equipment to be used3.3 carry out minor repair to tyre according to workplace procedures, manufacturer instructions and australian standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Access and interpret information on appropriate manufacturer instructions and Australian standards 3.2 Identify task hazards and risks and apply risk controls to the equipment to be used3.3 Carry out minor repair to tyre according to workplace procedures, manufacturer instructions and Australian standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to complete workplace documentation relating to tyre repair 4.2 complete inspection documentation according to australian standards4.3 store tyre according to workplace procedures4.4 clear work area and dispose of or recycle waste materials according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Complete workplace documentation relati",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to complete workplace documentation relating to tyre repair 4.2 complete inspection documentation according to australian standards4.3 store tyre according to workplace procedures4.4 clear work area and dispose of or recycle waste materials according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to complete workplace documentation relating to tyre repair 4.2 complete inspection documentation according to australian standards4.3 store tyre according to workplace procedures4.4 clear work area and dispose of or recycle waste materials according to workplace procedures",
+      "knowledge_focus": [
+        "Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of complete workplace documentation relating to tyre repair 4.2 complete inspection documentation according to australian standards4.3 store tyre according to workplace procedures4.4 clear work area and dispose of or recycle waste materials according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of complete workplace documentation relating to tyre repair 4.2 complete inspection documentation according to australian standards4.3 store tyre according to workplace procedures4.4 clear work area and dispose of or recycle waste materials according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Complete workplace documentation relating to tyre repair 4.2 Complete inspection documentation according to Australian standards4.3 Store tyre according to workplace procedures4.4 Clear work area and dispose of or recycle waste materials according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.917563+00:00"
+}

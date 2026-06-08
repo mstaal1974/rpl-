@@ -1,0 +1,335 @@
+{
+  "code": "AURTTB015",
+  "title": "Assemble and fit braking system components",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Assemble and fit braking system components demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to assemble and fit braking system components",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to assemble and fit braking system components"
+    },
+    {
+      "id": "E2",
+      "title": "Assemble and fit components",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Assemble and fit components"
+    },
+    {
+      "id": "E3",
+      "title": "Test components",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Test components"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to assemble and fit braking system components",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify job requirements from workplace instructions1.2 obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 identify tools and equipment required for the job and examine for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify job requirements from workplac",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify job requirements from workplace instructions1.2 obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 identify tools and equipment required for the job and examine for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to identify job requirements from workplace instructions1.2 obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 identify tools and equipment required for the job and examine for serviceability",
+      "knowledge_focus": [
+        "Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to assemble and fit braking system components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify job requirements from workplace instructions1.2 obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 identify tools and equipment required for the job and examine for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify job requirements from workplace instructions1.2 obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 identify tools and equipment required for the job and examine for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify job requirements from workplace instructions1.2 Obtain and interpret procedures and information for assembling and fitting braking system components to identify options required for the job1.3 Identify hazards and environmental issues, assess potential risks and implement control measures in line with workplace policies1.4 Identify tools and equipment required for the job and examine for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Assemble and fit components",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to inspect components for suitability and report faults according to workplace procedures 2.2 assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect components for suitability and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect components for suitability and report faults according to workplace procedures 2.2 assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect components for suitability and report faults according to workplace procedures 2.2 assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements",
+      "knowledge_focus": [
+        "Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Assemble and fit components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect components for suitability and report faults according to workplace procedures 2.2 assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect components for suitability and report faults according to workplace procedures 2.2 assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect components for suitability and report faults according to workplace procedures 2.2 Assemble components according to manufacturer specifications, workplace procedures, workplace health and safety and environmental requirements2.3 Fit components according to manufacturer specifications, workplace procedures, and workplace health and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Test components",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you obtain and interpret testing procedures from manufacturer specifications3.2 test braking system according to manufacturer specifications and adjust as required3.3 tag failed components for further work3.4 record test results according to workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Obtain and interpret testing procedures",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to obtain and interpret testing procedures from manufacturer specifications3.2 test braking system according to manufacturer specifications and adjust as required3.3 tag failed components for further work3.4 record test results according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to obtain and interpret testing procedures from manufacturer specifications3.2 test braking system according to manufacturer specifications and adjust as required3.3 tag failed components for further work3.4 record test results according to workplace procedures",
+      "knowledge_focus": [
+        "Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Test components"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of obtain and interpret testing procedures from manufacturer specifications3.2 test braking system according to manufacturer specifications and adjust as required3.3 tag failed components for further work3.4 record test results according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of obtain and interpret testing procedures from manufacturer specifications3.2 test braking system according to manufacturer specifications and adjust as required3.3 tag failed components for further work3.4 record test results according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Obtain and interpret testing procedures from manufacturer specifications3.2 Test braking system according to manufacturer specifications and adjust as required3.3 Tag failed components for further work3.4 Record test results according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 clear work area and dispose of or recycle materials according to workplace procedures 4.3 examine and store tools and equipment according to workplace procedures4.4 complete workplace documentation according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Carry out final inspection to ensure wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 clear work area and dispose of or recycle materials according to workplace procedures 4.3 examine and store tools and equipment according to workplace procedures4.4 complete workplace documentation according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 clear work area and dispose of or recycle materials according to workplace procedures 4.3 examine and store tools and equipment according to workplace procedures4.4 complete workplace documentation according to workplace procedures",
+      "knowledge_focus": [
+        "Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 clear work area and dispose of or recycle materials according to workplace procedures 4.3 examine and store tools and equipment according to workplace procedures4.4 complete workplace documentation according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 clear work area and dispose of or recycle materials according to workplace procedures 4.3 examine and store tools and equipment according to workplace procedures4.4 complete workplace documentation according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Carry out final inspection to ensure work is to workplace expectations and vehicle is ready for use according to workplace procedures4.2 Clear work area and dispose of or recycle materials according to workplace procedures 4.3 Examine and store tools and equipment according to workplace procedures4.4 Complete workplace documentation according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:28.100478+00:00"
+}

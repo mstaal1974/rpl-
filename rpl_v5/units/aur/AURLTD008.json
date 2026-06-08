@@ -1,0 +1,335 @@
+{
+  "code": "AURLTD008",
+  "title": "Replace and refit steering, suspension and braking system components",
+  "training_package": "AUR",
+  "training_package_name": "Automotive Retail, Service and Repair Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Replace and refit steering, suspension and braking system components demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to replace and refit steering, suspension or braking system component",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability?",
+          "benchmark_statement": "The candidate demonstrates that they can Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to replace and refit steering, suspension or braking system component"
+    },
+    {
+      "id": "E2",
+      "title": "Inspect and replace system component",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Inspect and replace system component"
+    },
+    {
+      "id": "E3",
+      "title": "Refit and test system component",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Refit and test system component"
+    },
+    {
+      "id": "E4",
+      "title": "Complete work processes",
+      "pcs": [
+        {
+          "id": "4.1",
+          "text": "Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures",
+          "element_id": "E4",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E4: Complete work processes"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "4.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to replace and refit steering, suspension or braking system component",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to determine job requirements according to workplace instructions1.2 access and interpret original equipment manufacturer (oem) specifications and workplace procedures1.3 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 identify components requiring servicing, and select tools and equipment according to job requirements1.5 check tools and equipment for serviceability?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Determine job requirements according to",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to determine job requirements according to workplace instructions1.2 access and interpret original equipment manufacturer (oem) specifications and workplace procedures1.3 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 identify components requiring servicing, and select tools and equipment according to job requirements1.5 check tools and equipment for serviceability",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability?",
+      "practical_task_interpretation": "In practice this requires the worker to determine job requirements according to workplace instructions1.2 access and interpret original equipment manufacturer (oem) specifications and workplace procedures1.3 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 identify components requiring servicing, and select tools and equipment according to job requirements1.5 check tools and equipment for serviceability",
+      "knowledge_focus": [
+        "Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability"
+      ],
+      "workplace_context_examples": [
+        "Prepare to replace and refit steering, suspension or braking system component"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of determine job requirements according to workplace instructions1.2 access and interpret original equipment manufacturer (oem) specifications and workplace procedures1.3 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 identify components requiring servicing, and select tools and equipment according to job requirements1.5 check tools and equipment for serviceability"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of determine job requirements according to workplace instructions1.2 access and interpret original equipment manufacturer (oem) specifications and workplace procedures1.3 identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 identify components requiring servicing, and select tools and equipment according to job requirements1.5 check tools and equipment for serviceability"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Determine job requirements according to workplace instructions1.2 Access and interpret original equipment manufacturer (OEM) specifications and workplace procedures1.3 Identify hazards and environmental issues associated with work tasks, assess potential risks and implement control measures according to workplace policies and procedures1.4 Identify components requiring servicing, and select tools and equipment according to job requirements1.5 Check tools and equipment for serviceability."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Inspect and replace system component",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What checks would you perform to inspect faulty components and determine solutions to restore component functionality2.2 select solution and prepare tools and equipment to restore component functionality2.3 replace component according to manufacturer specifications, workplace procedures and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Inspect faulty components and determine",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to inspect faulty components and determine solutions to restore component functionality2.2 select solution and prepare tools and equipment to restore component functionality2.3 replace component according to manufacturer specifications, workplace procedures and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to inspect faulty components and determine solutions to restore component functionality2.2 select solution and prepare tools and equipment to restore component functionality2.3 replace component according to manufacturer specifications, workplace procedures and safety requirements",
+      "knowledge_focus": [
+        "Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Inspect and replace system component"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of inspect faulty components and determine solutions to restore component functionality2.2 select solution and prepare tools and equipment to restore component functionality2.3 replace component according to manufacturer specifications, workplace procedures and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of inspect faulty components and determine solutions to restore component functionality2.2 select solution and prepare tools and equipment to restore component functionality2.3 replace component according to manufacturer specifications, workplace procedures and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Inspect faulty components and determine solutions to restore component functionality2.2 Select solution and prepare tools and equipment to restore component functionality2.3 Replace component according to manufacturer specifications, workplace procedures and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Refit and test system component",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to prepare replaced system component, tools and equipment for vehicle refitting3.2 refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 conduct post-refit testing of system functionality and rectify faults where required according to oem procedures3.4 conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare replaced system component, tool",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare replaced system component, tools and equipment for vehicle refitting3.2 refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 conduct post-refit testing of system functionality and rectify faults where required according to oem procedures3.4 conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare replaced system component, tools and equipment for vehicle refitting3.2 refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 conduct post-refit testing of system functionality and rectify faults where required according to oem procedures3.4 conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements",
+      "knowledge_focus": [
+        "Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements"
+      ],
+      "workplace_context_examples": [
+        "Refit and test system component"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare replaced system component, tools and equipment for vehicle refitting3.2 refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 conduct post-refit testing of system functionality and rectify faults where required according to oem procedures3.4 conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare replaced system component, tools and equipment for vehicle refitting3.2 refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 conduct post-refit testing of system functionality and rectify faults where required according to oem procedures3.4 conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare replaced system component, tools and equipment for vehicle refitting3.2 Refit system component according to workplace procedures, manufacturer specifications and safety requirements, without causing damage to vehicle3.3 Conduct post-refit testing of system functionality and rectify faults where required according to OEM procedures3.4 Conduct final inspection and confirm vehicle is ready for use according to road safety standards and safety requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E4: Complete work processes",
+      "pc_refs": [
+        "4.1"
+      ],
+      "pc_id": "4.1",
+      "text": "What checks would you perform to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and system component installation process according to workplace procedures?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean work area, collect recyclable mat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and system component installation process according to workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 4.1",
+      "benchmark_statement": "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and system component installation process according to workplace procedures",
+      "knowledge_focus": [
+        "Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Complete work processes"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and system component installation process according to workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 store tools and equipment according to workplace procedures4.3 document vehicle safety inspection and system component installation process according to workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean work area, collect recyclable material and dispose of waste and non-recyclable materials4.2 Store tools and equipment according to workplace procedures4.3 Document vehicle safety inspection and system component installation process according to workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.930703+00:00"
+}

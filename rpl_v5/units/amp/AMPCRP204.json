@@ -1,0 +1,451 @@
+{
+  "code": "AMPCRP204",
+  "title": "Number carcase and head",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Number carcase and head demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to number carcase and head",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify and follow work instruction for numbering carcase and head",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for numbering carcase and head?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for numbering carcase and head.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Prepare equipment and consumables for numbering carcase and head, following work instructions",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment and consumables for numbering carcase and head, following work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare equipment and consumables for numbering carcase and head, following work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to number carcase and head"
+    },
+    {
+      "id": "E2",
+      "title": "Correlate carcase and head by numbering",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Correlate carcase and head following workplace health and safety requirements and work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correlate carcase and head following workplace health and safety requirements and work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Correlate carcase and head following workplace health and safety requirements and work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Number carcase and head where required, following workplace health and safety requirements and work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Number carcase and head where required, following workplace health and safety requirements and work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Number carcase and head where required, following workplace health and safety requirements and work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Identify and manage potential sources of contamination when working with carcase and head",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and manage potential sources of contamination when working with carcase and head?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify and manage potential sources of contamination when working with carcase and head.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Correlate carcase and head by numbering"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to number carcase and head",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare to number carcase and head"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to number carcase and head",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify and follow work instruction for numbering carcase and head?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and follow work instruction fo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and follow work instruction for numbering carcase and head",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and follow work instruction for numbering carcase and head.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and follow work instruction for numbering carcase and head?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and follow work instruction for numbering carcase and head",
+      "knowledge_focus": [
+        "Identify and follow work instruction for numbering carcase and head"
+      ],
+      "workplace_context_examples": [
+        "Prepare to number carcase and head"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and follow work instruction for numbering carcase and head"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and follow work instruction for numbering carcase and head"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and follow work instruction for numbering carcase and head."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to number carcase and head",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What steps are required to prepare equipment and consumables for numbering carcase and head, following work instructions, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare equipment and consumables for n",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare equipment and consumables for numbering carcase and head, following work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare equipment and consumables for numbering carcase and head, following work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare equipment and consumables for numbering carcase and head, following work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare equipment and consumables for numbering carcase and head, following work instructions",
+      "knowledge_focus": [
+        "Prepare equipment and consumables for numbering carcase and head, following work instructions"
+      ],
+      "workplace_context_examples": [
+        "Prepare to number carcase and head"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare equipment and consumables for numbering carcase and head, following work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare equipment and consumables for numbering carcase and head, following work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare equipment and consumables for numbering carcase and head, following work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Correlate carcase and head by numbering",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with correlate carcase and head following workplace health and safety requirements and work instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Correlate carcase and head following wo",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to correlate carcase and head following workplace health and safety requirements and work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Correlate carcase and head following workplace health and safety requirements and work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Correlate carcase and head following workplace health and safety requirements and work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to correlate carcase and head following workplace health and safety requirements and work instructions",
+      "knowledge_focus": [
+        "Correlate carcase and head following workplace health and safety requirements and work instructions"
+      ],
+      "workplace_context_examples": [
+        "Correlate carcase and head by numbering"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of correlate carcase and head following workplace health and safety requirements and work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of correlate carcase and head following workplace health and safety requirements and work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Correlate carcase and head following workplace health and safety requirements and work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Correlate carcase and head by numbering",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with number carcase and head where required, following workplace health and safety requirements and work instructions?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Number carcase and head where required,",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to number carcase and head where required, following workplace health and safety requirements and work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Number carcase and head where required, following workplace health and safety requirements and work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Number carcase and head where required, following workplace health and safety requirements and work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to number carcase and head where required, following workplace health and safety requirements and work instructions",
+      "knowledge_focus": [
+        "Number carcase and head where required, following workplace health and safety requirements and work instructions"
+      ],
+      "workplace_context_examples": [
+        "Correlate carcase and head by numbering"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of number carcase and head where required, following workplace health and safety requirements and work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of number carcase and head where required, following workplace health and safety requirements and work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Number carcase and head where required, following workplace health and safety requirements and work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Correlate carcase and head by numbering",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What factors would you consider when you need to identify and manage potential sources of contamination when working with carcase and head?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify and manage potential sources o",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify and manage potential sources of contamination when working with carcase and head",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify and manage potential sources of contamination when working with carcase and head.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify and manage potential sources of contamination when working with carcase and head?",
+      "practical_task_interpretation": "In practice this requires the worker to identify and manage potential sources of contamination when working with carcase and head",
+      "knowledge_focus": [
+        "Identify and manage potential sources of contamination when working with carcase and head"
+      ],
+      "workplace_context_examples": [
+        "Correlate carcase and head by numbering"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify and manage potential sources of contamination when working with carcase and head"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify and manage potential sources of contamination when working with carcase and head"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify and manage potential sources of contamination when working with carcase and head."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:26.940271+00:00"
+}

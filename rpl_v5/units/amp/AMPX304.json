@@ -1,0 +1,263 @@
+{
+  "code": "AMPX304",
+  "title": "Prepare primal cuts",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Prepare primal cuts demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Bone primal cuts",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Bone primal cuts"
+    },
+    {
+      "id": "E2",
+      "title": "Trim primal cuts",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Trim primal cuts"
+    },
+    {
+      "id": "E3",
+      "title": "Handle knives effectively",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Handle knives safely, hygienically and effectively",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knives safely, hygienically and effectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle knives safely, hygienically and effectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Handle knives effectively"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Bone primal cuts",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What are the key hazards and required controls associated with bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and quality assurance (qa) requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Bone primal cuts in accordance with wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and quality assurance (qa) requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and quality assurance (qa) requirements",
+      "knowledge_focus": [
+        "Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements"
+      ],
+      "workplace_context_examples": [
+        "Bone primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and quality assurance (qa) requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and quality assurance (qa) requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Bone primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and Quality Assurance (QA) requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Trim primal cuts",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What are the key hazards and required controls associated with trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and qa requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Trim primal cuts in accordance with wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and qa requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and qa requirements",
+      "knowledge_focus": [
+        "Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements"
+      ],
+      "workplace_context_examples": [
+        "Trim primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and qa requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and qa requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Trim primal cuts in accordance with workplace, workplace health and safety, hygiene and sanitation, and QA requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E3: Handle knives effectively",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What technical knowledge is required to handle knives safely, hygienically and effectively? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle knives safely, hygienically and ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle knives safely, hygienically and effectively",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Handle knives safely, hygienically and effectively.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knives safely, hygienically and effectively?",
+      "practical_task_interpretation": "In practice this requires the worker to handle knives safely, hygienically and effectively",
+      "knowledge_focus": [
+        "Handle knives safely, hygienically and effectively"
+      ],
+      "workplace_context_examples": [
+        "Handle knives effectively"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle knives safely, hygienically and effectively"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle knives safely, hygienically and effectively"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle knives safely, hygienically and effectively."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.403022+00:00"
+}

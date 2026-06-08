@@ -1,0 +1,742 @@
+{
+  "code": "MSL977009",
+  "title": "Validate test methods",
+  "training_package": "MSL",
+  "training_package_name": "Laboratory Operations",
+  "application": "",
+  "competent_person_statement": "A competent person in Validate test methods demonstrates consistent performance across all elements and performance criteria.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Confirm equipment has been validated",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Check that latest editions of manufacturer specifications and operating instructions are present",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that latest editions of manufacturer specifications and operating instructions are present?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that latest editions of manufacturer specifications and operating instructions are present.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Check that equipment, including computer systems, is installed according to manufacturer specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that equipment, including computer systems, is installed according to manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that equipment, including computer systems, is installed according to manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Check that equipment operating instructions exist and conform to manufacturer specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that equipment operating instructions exist and conform to manufacturer specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that equipment operating instructions exist and conform to manufacturer specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Check that equipment operates according to manufacturer design specifications",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that equipment operates according to manufacturer design specifications?",
+          "benchmark_statement": "The candidate demonstrates that they can Check that equipment operates according to manufacturer design specifications.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Verify that equipment calibration complies with appropriate standards",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Verify that equipment calibration complies with appropriate standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Verify that equipment calibration complies with appropriate standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Check equipment and computer systems are validated",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check equipment and computer systems are validated?",
+          "benchmark_statement": "The candidate demonstrates that they can Check equipment and computer systems are validated.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Check method has an acceptable level of uncertainty",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check method has an acceptable level of uncertainty?",
+          "benchmark_statement": "The candidate demonstrates that they can Check method has an acceptable level of uncertainty.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Confirm equipment has been validated"
+    },
+    {
+      "id": "E2",
+      "title": "Validate test method according to defined protocol",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Develop validation test protocol in consultation with appropriate personnel",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop validation test protocol in consultation with appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Develop validation test protocol in consultation with appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Seek authorisation for protocol from appropriate personnel",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek authorisation for protocol from appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Seek authorisation for protocol from appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "Validate test method according to validation protocol",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Validate test method according to validation protocol?",
+          "benchmark_statement": "The candidate demonstrates that they can Validate test method according to validation protocol.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Validate test method according to defined protocol"
+    },
+    {
+      "id": "E3",
+      "title": "Evaluate and record results",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Evaluate validation results to confirm suitability of testing method",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate validation results to confirm suitability of testing method?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate validation results to confirm suitability of testing method.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Obtain approval for evaluation recommendations from appropriate personnel",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain approval for evaluation recommendations from appropriate personnel?",
+          "benchmark_statement": "The candidate demonstrates that they can Obtain approval for evaluation recommendations from appropriate personnel.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.3",
+          "text": "Record and file validation records in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and file validation records in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Record and file validation records in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.4",
+          "text": "Issue validated method in accordance with workplace procedures",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Issue validated method in accordance with workplace procedures?",
+          "benchmark_statement": "The candidate demonstrates that they can Issue validated method in accordance with workplace procedures.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.5",
+          "text": "Evaluate staff training needs and document appropriately",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate staff training needs and document appropriately?",
+          "benchmark_statement": "The candidate demonstrates that they can Evaluate staff training needs and document appropriately.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.6",
+          "text": "Recommend update of relevant documentation as a result of the validation",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Recommend update of relevant documentation as a result of the validation?",
+          "benchmark_statement": "The candidate demonstrates that they can Recommend update of relevant documentation as a result of the validation.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Evaluate and record results"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Current position description.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Confirm equipment has been validated",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What checks would you perform to check that latest editions of manufacturer specifications and operating instructions are present?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that latest editions of manufactu",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that latest editions of manufacturer specifications and operating instructions are present",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Check that latest editions of manufacturer specifications and operating instructions are present.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that latest editions of manufacturer specifications and operating instructions are present?",
+      "practical_task_interpretation": "In practice this requires the worker to check that latest editions of manufacturer specifications and operating instructions are present",
+      "knowledge_focus": [
+        "Check that latest editions of manufacturer specifications and operating instructions are present"
+      ],
+      "workplace_context_examples": [
+        "Confirm equipment has been validated"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that latest editions of manufacturer specifications and operating instructions are present"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that latest editions of manufacturer specifications and operating instructions are present"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that latest editions of manufacturer specifications and operating instructions are present."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Confirm equipment has been validated",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What checks would you perform to check that equipment, including computer systems, is installed according to manufacturer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that equipment, including compute",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that equipment, including computer systems, is installed according to manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Check that equipment, including computer systems, is installed according to manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that equipment, including computer systems, is installed according to manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to check that equipment, including computer systems, is installed according to manufacturer specifications",
+      "knowledge_focus": [
+        "Check that equipment, including computer systems, is installed according to manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Confirm equipment has been validated"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that equipment, including computer systems, is installed according to manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that equipment, including computer systems, is installed according to manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that equipment, including computer systems, is installed according to manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Confirm equipment has been validated",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What checks would you perform to check that equipment operating instructions exist and conform to manufacturer specifications?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Check that equipment operating instruct",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to check that equipment operating instructions exist and conform to manufacturer specifications",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Check that equipment operating instructions exist and conform to manufacturer specifications.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Check that equipment operating instructions exist and conform to manufacturer specifications?",
+      "practical_task_interpretation": "In practice this requires the worker to check that equipment operating instructions exist and conform to manufacturer specifications",
+      "knowledge_focus": [
+        "Check that equipment operating instructions exist and conform to manufacturer specifications"
+      ],
+      "workplace_context_examples": [
+        "Confirm equipment has been validated"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of check that equipment operating instructions exist and conform to manufacturer specifications"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of check that equipment operating instructions exist and conform to manufacturer specifications"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Check that equipment operating instructions exist and conform to manufacturer specifications."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Validate test method according to defined protocol",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to develop validation test protocol in consultation with appropriate personnel? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Develop validation test protocol in con",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to develop validation test protocol in consultation with appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Develop validation test protocol in consultation with appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Develop validation test protocol in consultation with appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to develop validation test protocol in consultation with appropriate personnel",
+      "knowledge_focus": [
+        "Develop validation test protocol in consultation with appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Validate test method according to defined protocol"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of develop validation test protocol in consultation with appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of develop validation test protocol in consultation with appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Develop validation test protocol in consultation with appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Validate test method according to defined protocol",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What technical knowledge is required to seek authorisation for protocol from appropriate personnel? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Seek authorisation for protocol from ap",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to seek authorisation for protocol from appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Seek authorisation for protocol from appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Seek authorisation for protocol from appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to seek authorisation for protocol from appropriate personnel",
+      "knowledge_focus": [
+        "Seek authorisation for protocol from appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Validate test method according to defined protocol"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of seek authorisation for protocol from appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of seek authorisation for protocol from appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Seek authorisation for protocol from appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E2: Validate test method according to defined protocol",
+      "pc_refs": [
+        "2.3"
+      ],
+      "pc_id": "2.3",
+      "text": "What checks would you perform to validate test method according to validation protocol?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Validate test method according to valid",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to validate test method according to validation protocol",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.3",
+      "benchmark_statement": "The candidate demonstrates that they can Validate test method according to validation protocol.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Validate test method according to validation protocol?",
+      "practical_task_interpretation": "In practice this requires the worker to validate test method according to validation protocol",
+      "knowledge_focus": [
+        "Validate test method according to validation protocol"
+      ],
+      "workplace_context_examples": [
+        "Validate test method according to defined protocol"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of validate test method according to validation protocol"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of validate test method according to validation protocol"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Validate test method according to validation protocol."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Evaluate and record results",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What checks would you perform to evaluate validation results to confirm suitability of testing method?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Evaluate validation results to confirm ",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to evaluate validation results to confirm suitability of testing method",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Evaluate validation results to confirm suitability of testing method.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Evaluate validation results to confirm suitability of testing method?",
+      "practical_task_interpretation": "In practice this requires the worker to evaluate validation results to confirm suitability of testing method",
+      "knowledge_focus": [
+        "Evaluate validation results to confirm suitability of testing method"
+      ],
+      "workplace_context_examples": [
+        "Evaluate and record results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of evaluate validation results to confirm suitability of testing method"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of evaluate validation results to confirm suitability of testing method"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Evaluate validation results to confirm suitability of testing method."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "element_ref": "Element E3: Evaluate and record results",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What criteria determine how to obtain approval for evaluation recommendations from appropriate personnel?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Obtain approval for evaluation recommen",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to obtain approval for evaluation recommendations from appropriate personnel",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Obtain approval for evaluation recommendations from appropriate personnel.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Obtain approval for evaluation recommendations from appropriate personnel?",
+      "practical_task_interpretation": "In practice this requires the worker to obtain approval for evaluation recommendations from appropriate personnel",
+      "knowledge_focus": [
+        "Obtain approval for evaluation recommendations from appropriate personnel"
+      ],
+      "workplace_context_examples": [
+        "Evaluate and record results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of obtain approval for evaluation recommendations from appropriate personnel"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of obtain approval for evaluation recommendations from appropriate personnel"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Obtain approval for evaluation recommendations from appropriate personnel."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 9,
+      "element_ref": "Element E3: Evaluate and record results",
+      "pc_refs": [
+        "3.3"
+      ],
+      "pc_id": "3.3",
+      "text": "What information must be recorded when you record and file validation records in accordance with workplace procedures, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Record and file validation records in a",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to record and file validation records in accordance with workplace procedures",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.3",
+      "benchmark_statement": "The candidate demonstrates that they can Record and file validation records in accordance with workplace procedures.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Record and file validation records in accordance with workplace procedures?",
+      "practical_task_interpretation": "In practice this requires the worker to record and file validation records in accordance with workplace procedures",
+      "knowledge_focus": [
+        "Record and file validation records in accordance with workplace procedures"
+      ],
+      "workplace_context_examples": [
+        "Evaluate and record results"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of record and file validation records in accordance with workplace procedures"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of record and file validation records in accordance with workplace procedures"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Record and file validation records in accordance with workplace procedures."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-23T02:33:40.853875+00:00"
+}

@@ -1,0 +1,191 @@
+{
+  "code": "AMPR318",
+  "title": "Break carcase for retail sale",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Break carcase for retail sale demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Break carcase into primal cuts",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Break carcase into primal cuts"
+    },
+    {
+      "id": "E2",
+      "title": "Handle knife effectively",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Handle knife safely, hygienically and effectively",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+          "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Handle knife effectively"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Break carcase into primal cuts",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What are the key hazards and required controls associated with separate carcase into primal cuts according to workplace, workplace health and safety, quality assurance (qa) and hygiene requirements?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Separate carcase into primal cuts accor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to separate carcase into primal cuts according to workplace, workplace health and safety, quality assurance (qa) and hygiene requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to separate carcase into primal cuts according to workplace, workplace health and safety, quality assurance (qa) and hygiene requirements",
+      "knowledge_focus": [
+        "Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements"
+      ],
+      "workplace_context_examples": [
+        "Break carcase into primal cuts"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of separate carcase into primal cuts according to workplace, workplace health and safety, quality assurance (qa) and hygiene requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of separate carcase into primal cuts according to workplace, workplace health and safety, quality assurance (qa) and hygiene requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Separate carcase into primal cuts according to workplace, workplace health and safety, Quality Assurance (QA) and hygiene requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E2: Handle knife effectively",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to handle knife safely, hygienically and effectively? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Handle knife safely, hygienically and e",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to handle knife safely, hygienically and effectively",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Handle knife safely, hygienically and effectively.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Handle knife safely, hygienically and effectively?",
+      "practical_task_interpretation": "In practice this requires the worker to handle knife safely, hygienically and effectively",
+      "knowledge_focus": [
+        "Handle knife safely, hygienically and effectively"
+      ],
+      "workplace_context_examples": [
+        "Handle knife effectively"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of handle knife safely, hygienically and effectively"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of handle knife safely, hygienically and effectively"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Handle knife safely, hygienically and effectively."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.316928+00:00"
+}

@@ -1,0 +1,535 @@
+{
+  "code": "AMPOPR221",
+  "title": "Operate new technology or process",
+  "training_package": "AMP",
+  "training_package_name": "Australian Meat Processing Training Package",
+  "application": "",
+  "competent_person_statement": "A competent person in Operate new technology or process demonstrates consistent performance across all elements and performance criteria in a workplace context.",
+  "elements": [
+    {
+      "id": "E1",
+      "title": "Prepare to use new equipment or process",
+      "pcs": [
+        {
+          "id": "1.1",
+          "text": "Prepare new equipment or process for operation in accordance with workplace requirements",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare new equipment or process for operation in accordance with workplace requirements?",
+          "benchmark_statement": "The candidate demonstrates that they can Prepare new equipment or process for operation in accordance with workplace requirements.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Identify workplace health and safety requirements for task, including personal protective equipment",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Identify safety hazards associated with new equipment or process, and control associated risks",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify safety hazards associated with new equipment or process, and control associated risks?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify safety hazards associated with new equipment or process, and control associated risks.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Identify hygiene and sanitation requirements for using new equipment or process to avoid contamination",
+          "element_id": "E1",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify hygiene and sanitation requirements for using new equipment or process to avoid contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Identify hygiene and sanitation requirements for using new equipment or process to avoid contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E1: Prepare to use new equipment or process"
+    },
+    {
+      "id": "E2",
+      "title": "Operate new equipment or process",
+      "pcs": [
+        {
+          "id": "2.1",
+          "text": "Operate equipment or undertake new process following work instructions",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate equipment or undertake new process following work instructions?",
+          "benchmark_statement": "The candidate demonstrates that they can Operate equipment or undertake new process following work instructions.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "Control potential sources of contamination and cross-contamination",
+          "element_id": "E2",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Control potential sources of contamination and cross-contamination?",
+          "benchmark_statement": "The candidate demonstrates that they can Control potential sources of contamination and cross-contamination.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E2: Operate new equipment or process"
+    },
+    {
+      "id": "E3",
+      "title": "Clean and maintain equipment and/or work area",
+      "pcs": [
+        {
+          "id": "3.1",
+          "text": "Monitor performance of equipment or new process, and report faults to supervisor",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor performance of equipment or new process, and report faults to supervisor?",
+          "benchmark_statement": "The candidate demonstrates that they can Monitor performance of equipment or new process, and report faults to supervisor.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        },
+        {
+          "id": "3.2",
+          "text": "Clean and maintain equipment and/or work area to workplace standards",
+          "element_id": "E3",
+          "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain equipment and/or work area to workplace standards?",
+          "benchmark_statement": "The candidate demonstrates that they can Clean and maintain equipment and/or work area to workplace standards.",
+          "evidence_record": {
+            "evidence_items": [],
+            "assessor_comments": "",
+            "judgement": null,
+            "gap_notes": ""
+          }
+        }
+      ],
+      "analysis_focus": "Analyse evidence against Element E3: Clean and maintain equipment and/or work area"
+    }
+  ],
+  "knowledge_requirements": [],
+  "skill_requirements": [],
+  "evidence_guide": [
+    {
+      "title": "Third Party Report \u2014 Workplace Supervisor (Required)",
+      "priority": "priority",
+      "pc_refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "2.1",
+        "2.2"
+      ],
+      "icon": "\ud83d\udcdd",
+      "description": "Completed by your direct supervisor \u2014 the strongest evidence item for RPL.",
+      "acceptable_forms": [
+        "Download Third Party Report template",
+        "Supervisor completes and signs",
+        "Upload completed signed form"
+      ]
+    },
+    {
+      "title": "Position description",
+      "priority": "recommended",
+      "pc_refs": [
+        "1.1",
+        "2.1",
+        "3.1"
+      ],
+      "icon": "\ud83d\udccb",
+      "description": "Your current position description showing duties relevant to this unit.",
+      "acceptable_forms": [
+        "Current employer PD",
+        "Letter from employer confirming duties"
+      ]
+    }
+  ],
+  "knowledge_questions": [
+    {
+      "num": 1,
+      "element_ref": "Element E1: Prepare to use new equipment or process",
+      "pc_refs": [
+        "1.1"
+      ],
+      "pc_id": "1.1",
+      "text": "What steps are required to prepare new equipment or process for operation in accordance with workplace requirements, and what would indicate it is ready to proceed?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Prepare new equipment or process for op",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to prepare new equipment or process for operation in accordance with workplace requirements",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.1",
+      "benchmark_statement": "The candidate demonstrates that they can Prepare new equipment or process for operation in accordance with workplace requirements.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Prepare new equipment or process for operation in accordance with workplace requirements?",
+      "practical_task_interpretation": "In practice this requires the worker to prepare new equipment or process for operation in accordance with workplace requirements",
+      "knowledge_focus": [
+        "Prepare new equipment or process for operation in accordance with workplace requirements"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use new equipment or process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of prepare new equipment or process for operation in accordance with workplace requirements"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of prepare new equipment or process for operation in accordance with workplace requirements"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Prepare new equipment or process for operation in accordance with workplace requirements."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "element_ref": "Element E1: Prepare to use new equipment or process",
+      "pc_refs": [
+        "1.2"
+      ],
+      "pc_id": "1.2",
+      "text": "What factors would you consider when you need to identify workplace health and safety requirements for task, including personal protective equipment?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify workplace health and safety re",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify workplace health and safety requirements for task, including personal protective equipment",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.2",
+      "benchmark_statement": "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify workplace health and safety requirements for task, including personal protective equipment?",
+      "practical_task_interpretation": "In practice this requires the worker to identify workplace health and safety requirements for task, including personal protective equipment",
+      "knowledge_focus": [
+        "Identify workplace health and safety requirements for task, including personal protective equipment"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use new equipment or process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify workplace health and safety requirements for task, including personal protective equipment"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify workplace health and safety requirements for task, including personal protective equipment."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "element_ref": "Element E1: Prepare to use new equipment or process",
+      "pc_refs": [
+        "1.3"
+      ],
+      "pc_id": "1.3",
+      "text": "What factors would you consider when you need to identify safety hazards associated with new equipment or process, and control associated risks?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Identify safety hazards associated with",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to identify safety hazards associated with new equipment or process, and control associated risks",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 1.3",
+      "benchmark_statement": "The candidate demonstrates that they can Identify safety hazards associated with new equipment or process, and control associated risks.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Identify safety hazards associated with new equipment or process, and control associated risks?",
+      "practical_task_interpretation": "In practice this requires the worker to identify safety hazards associated with new equipment or process, and control associated risks",
+      "knowledge_focus": [
+        "Identify safety hazards associated with new equipment or process, and control associated risks"
+      ],
+      "workplace_context_examples": [
+        "Prepare to use new equipment or process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of identify safety hazards associated with new equipment or process, and control associated risks"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of identify safety hazards associated with new equipment or process, and control associated risks"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Identify safety hazards associated with new equipment or process, and control associated risks."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 4,
+      "element_ref": "Element E2: Operate new equipment or process",
+      "pc_refs": [
+        "2.1"
+      ],
+      "pc_id": "2.1",
+      "text": "What technical knowledge is required to operate equipment or undertake new process following work instructions? Explain the key requirements, procedures, or standards involved.",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Operate equipment or undertake new proc",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to operate equipment or undertake new process following work instructions",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.1",
+      "benchmark_statement": "The candidate demonstrates that they can Operate equipment or undertake new process following work instructions.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Operate equipment or undertake new process following work instructions?",
+      "practical_task_interpretation": "In practice this requires the worker to operate equipment or undertake new process following work instructions",
+      "knowledge_focus": [
+        "Operate equipment or undertake new process following work instructions"
+      ],
+      "workplace_context_examples": [
+        "Operate new equipment or process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of operate equipment or undertake new process following work instructions"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of operate equipment or undertake new process following work instructions"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Operate equipment or undertake new process following work instructions."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 5,
+      "element_ref": "Element E2: Operate new equipment or process",
+      "pc_refs": [
+        "2.2"
+      ],
+      "pc_id": "2.2",
+      "text": "What are the key hazards and required controls associated with control potential sources of contamination and cross-contamination?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Control potential sources of contaminat",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to control potential sources of contamination and cross-contamination",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 2.2",
+      "benchmark_statement": "The candidate demonstrates that they can Control potential sources of contamination and cross-contamination.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Control potential sources of contamination and cross-contamination?",
+      "practical_task_interpretation": "In practice this requires the worker to control potential sources of contamination and cross-contamination",
+      "knowledge_focus": [
+        "Control potential sources of contamination and cross-contamination"
+      ],
+      "workplace_context_examples": [
+        "Operate new equipment or process"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of control potential sources of contamination and cross-contamination"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of control potential sources of contamination and cross-contamination"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Control potential sources of contamination and cross-contamination."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "element_ref": "Element E3: Clean and maintain equipment and/or work area",
+      "pc_refs": [
+        "3.1"
+      ],
+      "pc_id": "3.1",
+      "text": "What information must be recorded when you monitor performance of equipment or new process, and report faults to supervisor, and why?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Monitor performance of equipment or new",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to monitor performance of equipment or new process, and report faults to supervisor",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.1",
+      "benchmark_statement": "The candidate demonstrates that they can Monitor performance of equipment or new process, and report faults to supervisor.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Monitor performance of equipment or new process, and report faults to supervisor?",
+      "practical_task_interpretation": "In practice this requires the worker to monitor performance of equipment or new process, and report faults to supervisor",
+      "knowledge_focus": [
+        "Monitor performance of equipment or new process, and report faults to supervisor"
+      ],
+      "workplace_context_examples": [
+        "Clean and maintain equipment and/or work area"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of monitor performance of equipment or new process, and report faults to supervisor"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of monitor performance of equipment or new process, and report faults to supervisor"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Monitor performance of equipment or new process, and report faults to supervisor."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "element_ref": "Element E3: Clean and maintain equipment and/or work area",
+      "pc_refs": [
+        "3.2"
+      ],
+      "pc_id": "3.2",
+      "text": "What would indicate that clean and maintain equipment and/or work area to workplace standards is not being achieved, and what action should be taken?",
+      "hint": "Focus on technical knowledge: The candidate demonstrates that they can Clean and maintain equipment and/or wor",
+      "difficulty_level": "Applied",
+      "question_purpose": "Tests underpinning knowledge required to clean and maintain equipment and/or work area to workplace standards",
+      "why_task_specific": "Targets the specific technical knowledge needed to perform PC 3.2",
+      "benchmark_statement": "The candidate demonstrates that they can Clean and maintain equipment and/or work area to workplace standards.",
+      "analysis_prompt": "What valid, sufficient, authentic and current evidence shows the candidate can Clean and maintain equipment and/or work area to workplace standards?",
+      "practical_task_interpretation": "In practice this requires the worker to clean and maintain equipment and/or work area to workplace standards",
+      "knowledge_focus": [
+        "Clean and maintain equipment and/or work area to workplace standards"
+      ],
+      "workplace_context_examples": [
+        "Clean and maintain equipment and/or work area"
+      ],
+      "model_answer_guide": {
+        "expected_knowledge_points": [
+          "Technical understanding of clean and maintain equipment and/or work area to workplace standards"
+        ],
+        "acceptable_answer_examples": [],
+        "strong_answer_indicators": [
+          "Specific, technical, workplace-relevant detail with correct terminology"
+        ],
+        "weak_answer_indicators": [
+          "Vague, generic, theoretical, or no workplace-specific content"
+        ],
+        "common_gaps_or_errors": [
+          "Unable to specify workplace-relevant requirements or conditions"
+        ]
+      },
+      "assessor_framework": {
+        "what_to_look_for": [
+          "Accurate technical knowledge of clean and maintain equipment and/or work area to workplace standards"
+        ],
+        "minimum_expected_knowledge": [
+          "The candidate demonstrates that they can Clean and maintain equipment and/or work area to workplace standards."
+        ],
+        "indicators_of_partial_understanding": [
+          "Knows the general concept but cannot specify technical detail"
+        ],
+        "indicators_of_strong_understanding": [
+          "Demonstrates precise, contextual, technically accurate knowledge with workplace application"
+        ]
+      }
+    }
+  ],
+  "currency_years": 5,
+  "source": "xlsx",
+  "version": "1.0",
+  "last_updated": "2026-03-22T21:47:27.144713+00:00"
+}
