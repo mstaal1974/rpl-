@@ -114,6 +114,7 @@ textarea{resize:vertical;line-height:1.6}
     <button class="sb-item" onclick="go('knowledge')" id="n-knowledge"><div class="sb-ico" id="ico-knowledge">💡</div><span class="sb-lbl">Knowledge questions</span></button>
     <button class="sb-item" onclick="go('evidence')" id="n-evidence"><div class="sb-ico" id="ico-evidence">📁</div><span class="sb-lbl">Evidence guide</span></button>
     <button class="sb-item" onclick="go('mapping')" id="n-mapping"><div class="sb-ico" id="ico-mapping">📊</div><span class="sb-lbl">My mapping results</span></button>
+  <button class="sb-item" onclick="go('adaptive')" id="n-adaptive"><div class="sb-ico" id="ico-adaptive">🧭</div><span class="sb-lbl">Adaptive interview</span></button>
   <button class="sb-item" onclick="go('conversation')" id="n-conversation"><div class="sb-ico" id="ico-conversation">🎙</div><span class="sb-lbl">Competency conversation</span></button>
   <button class="sb-item" onclick="go('privacy')" id="n-privacy"><div class="sb-ico" id="ico-privacy">🔒</div><span class="sb-lbl">My data &amp; privacy</span></button>
   <button class="sb-item" onclick="go('submit')" id="n-submit"><div class="sb-ico" id="ico-submit">✉</div><span class="sb-lbl">Submit RPL</span></button>
@@ -164,7 +165,7 @@ const S={
 const ELC=[{bg:'#EAF3DE',txt:'#3B6D11',acc:'#4DB848'},{bg:'#E6F1FB',txt:'#185FA5',acc:'#3B82F6'},{bg:'#FAEEDA',txt:'#854F0B',acc:'#F59E0B'},{bg:'#EEEDFE',txt:'#534AB7',acc:'#7C3AED'},{bg:'#FAECE7',txt:'#993C1D',acc:'#EF4444'}];
 function ec(i){return ELC[i%ELC.length];}
 
-const STEP_ORDER=['welcome','checklist','resume','position','knowledge','evidence','mapping','conversation','submit','privacy'];
+const STEP_ORDER=['welcome','checklist','resume','position','knowledge','evidence','mapping','adaptive','conversation','submit','privacy'];
 
 // ── Boot ───────────────────────────────────────────────────────────────────────
 // ── Session timeout ───────────────────────────────────────────────────────────
@@ -391,7 +392,7 @@ function markStepDone(step){
 }
 
 // ── Navigation ─────────────────────────────────────────────────────────────────
-const TITLES={welcome:'Welcome to your RPL',checklist:'Self-assessment checklist',resume:'Upload your resume',position:'Position description',knowledge:'Knowledge questions',evidence:'Guided evidence collection',mapping:'My mapping results',conversation:'Competency conversation',submit:'Submit your RPL',privacy:'My data &amp; privacy'};
+const TITLES={welcome:'Welcome to your RPL',checklist:'Self-assessment checklist',resume:'Upload your resume',position:'Position description',knowledge:'Knowledge questions',evidence:'Guided evidence collection',mapping:'My mapping results',adaptive:'Adaptive interview',conversation:'Competency conversation',submit:'Submit your RPL',privacy:'My data &amp; privacy'};
 
 function go(name){
   S.progress.current_step=name;
@@ -399,7 +400,7 @@ function go(name){
   document.getElementById(`n-${name}`)?.classList.add('active');
   document.getElementById('topbar-title').textContent=TITLES[name]||name;
   const root=document.getElementById('root'); root.innerHTML='';
-  const views={welcome:viewWelcome,checklist:viewChecklist,resume:viewResume,position:viewPosition,knowledge:viewKnowledge,evidence:viewEvidence,mapping:viewMapping,conversation:viewConversation,submit:viewSubmit,privacy:viewPrivacy};
+  const views={welcome:viewWelcome,checklist:viewChecklist,resume:viewResume,position:viewPosition,knowledge:viewKnowledge,evidence:viewEvidence,mapping:viewMapping,adaptive:viewAdaptive,conversation:viewConversation,submit:viewSubmit,privacy:viewPrivacy};
   if(views[name]) views[name](root);
   triggerSave();
 }
@@ -1448,6 +1449,275 @@ function skipConvQuestion(idx){
   triggerSave();
   buildConvTabs();
   autoAdvanceConv(idx);
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ADAPTIVE INTERVIEW — résumé-driven, branching competency conversation
+// Questions are tailored from the candidate's résumé; the interview branches on
+// the substance of each answer. AI-usage / authenticity analysis is computed
+// server-side and stored for the trainer — it is intentionally NOT shown to the
+// candidate (so it can't be gamed); the CHALLENGE branch surfaces it neutrally.
+// ══════════════════════════════════════════════════════════════════════════════
+let _adaptive={unitCode:null, plan:[], idx:0, profileSummary:'', planSummary:''};
+
+function _adaptiveUnits(){ return S.units||[]; }
+function _adaptRec(unit,pc){ return (S.progress.adaptive_records||[]).find(r=>r.unit===unit&&r.pc===pc)||null; }
+
+const _PRIORITY_LABEL={CONFIRM:'Confirming your experience',PROBE:'Filling a detail gap',EXPLORE:'Exploring your experience',GAP:'No résumé evidence yet'};
+const _BRANCH_BADGE={DEEPEN:{t:'↳ Going deeper',c:'var(--navy)'},CHALLENGE:{t:'◎ Make it concrete',c:'var(--pt)'},PIVOT:{t:'⤳ Your context',c:'var(--it)'}};
+
+function viewAdaptive(root){
+  if(!_adaptiveUnits().length){root.innerHTML='<div class="card">No units loaded.</div>';return;}
+  if(!_adaptive.unitCode || !_adaptiveUnits().find(u=>u.code===_adaptive.unitCode))
+    _adaptive.unitCode=_adaptiveUnits()[0].code;
+  const unit=_adaptiveUnits().find(u=>u.code===_adaptive.unitCode);
+
+  root.innerHTML=`<div class="card" style="padding:0;overflow:hidden">
+    <div style="background:var(--navy);padding:14px 16px">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#fff;margin-bottom:2px">🧭 Adaptive interview</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.5)">Tailored to your résumé · adapts to your answers · up to ${MAX_TURNS} turns per topic</div>
+        </div>
+        <div id="adapt-progress" style="text-align:right"></div>
+      </div>
+      ${_adaptiveUnits().length>1?`<div style="display:flex;gap:5px;margin-top:10px;flex-wrap:wrap">${_adaptiveUnits().map(u=>`<button onclick="selectAdaptiveUnit('${u.code}')" style="padding:4px 10px;border-radius:13px;border:1px solid ${u.code===unit.code?'#fff':'rgba(255,255,255,.25)'};background:${u.code===unit.code?'#fff':'transparent'};color:${u.code===unit.code?'var(--navy)':'#fff'};font-size:10px;font-family:'DM Mono',monospace;cursor:pointer">${u.code}</button>`).join('')}</div>`:''}
+    </div>
+    <div id="adapt-profile" style="padding:10px 14px;background:var(--ib);border-bottom:1px solid #93C5FD;font-size:11px;color:var(--it);line-height:1.55;display:none"></div>
+    <div style="padding:8px 12px;background:var(--off);border-bottom:1px solid var(--border);display:flex;gap:4px;flex-wrap:wrap" id="adapt-tabs"></div>
+    <div id="adapt-area" style="padding:14px"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;margin-top:10px">
+    <button class="btn" onclick="go('mapping')">← Back</button>
+    <button class="btn btn-p" onclick="markStepDone('adaptive');go('conversation')">Save &amp; continue →</button>
+  </div>`;
+
+  startAdaptive(unit.code);
+}
+
+function selectAdaptiveUnit(code){
+  _adaptive.unitCode=code; _adaptive.plan=[]; _adaptive.idx=0;
+  viewAdaptive(document.getElementById('root'));
+}
+
+function showAdaptiveProfile(){
+  const pb=document.getElementById('adapt-profile');
+  if(pb && (_adaptive.profileSummary||_adaptive.planSummary)){
+    pb.style.display='block';
+    pb.innerHTML=`${_adaptive.profileSummary?`<strong>From your résumé:</strong> ${_adaptive.profileSummary}<br>`:''}${_adaptive.planSummary?`<span style="color:var(--muted)">${_adaptive.planSummary}</span>`:''}`;
+  }
+}
+
+async function startAdaptive(unitCode){
+  const area=document.getElementById('adapt-area');
+  // Reuse a cached plan (stable across reloads, avoids re-generating each visit)
+  const cached=S.progress.adaptive_state?.[unitCode];
+  if(cached && cached.plan && cached.plan.length){
+    _adaptive.unitCode=unitCode; _adaptive.plan=cached.plan;
+    _adaptive.profileSummary=cached.profileSummary||''; _adaptive.planSummary=cached.planSummary||'';
+    showAdaptiveProfile(); buildAdaptiveTabs(); openAdaptiveTopic(firstIncompleteAdaptive()); return;
+  }
+  if(area) area.innerHTML=`<div style="text-align:center;padding:30px;color:var(--muted);font-size:12px"><span class="spinner"></span><div style="margin-top:10px">Building your tailored interview from your résumé…</div></div>`;
+  try{
+    const r=await fetch('/api/conversation/adaptive/start',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({token:TOKEN, assessment_id:S.assessmentId, unit_code:unitCode})});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d=await r.json();
+    _adaptive.unitCode=unitCode; _adaptive.plan=d.plan||[];
+    _adaptive.profileSummary=d.profile_summary||''; _adaptive.planSummary=d.plan_summary||'';
+    if(!S.progress.adaptive_state) S.progress.adaptive_state={};
+    S.progress.adaptive_state[unitCode]={plan:_adaptive.plan,profileSummary:_adaptive.profileSummary,planSummary:_adaptive.planSummary};
+    triggerSave();
+  }catch(e){
+    if(area) area.innerHTML=`<div class="hitl-box">Couldn't build the adaptive interview right now (${''+e}).<div style="margin-top:8px"><button class="btn btn-p" onclick="startAdaptive('${unitCode}')">Try again</button> <button class="btn" onclick="go('conversation')">Skip to conversation →</button></div></div>`;
+    return;
+  }
+  if(!_adaptive.plan.length){
+    if(area) area.innerHTML=`<div class="hitl-box">No adaptive topics were generated for this unit — your résumé already covers it well, or there isn't enough detail yet.<div style="margin-top:8px"><button class="btn btn-p" onclick="go('conversation')">Continue to competency conversation →</button></div></div>`;
+    return;
+  }
+  showAdaptiveProfile(); buildAdaptiveTabs(); openAdaptiveTopic(firstIncompleteAdaptive());
+}
+
+function firstIncompleteAdaptive(){
+  for(let i=0;i<_adaptive.plan.length;i++){
+    const rec=_adaptRec(_adaptive.unitCode,_adaptive.plan[i].pc_id);
+    if(!rec||!rec.complete) return i;
+  }
+  return 0;
+}
+
+function buildAdaptiveTabs(){
+  const el=document.getElementById('adapt-tabs'); if(!el)return;
+  el.innerHTML=_adaptive.plan.map((s,i)=>{
+    const rec=_adaptRec(_adaptive.unitCode,s.pc_id);
+    const complete=rec&&rec.complete, active=i===_adaptive.idx, sat=rec&&rec.final_judgement==='Satisfactory';
+    return `<button onclick="openAdaptiveTopic(${i})" style="padding:4px 10px;border-radius:14px;border:1.5px solid ${active?'var(--navy)':complete?(sat?'var(--ma)':'var(--pa)'):'var(--border)'};background:${active?'var(--navy)':complete?(sat?'var(--mb)':'var(--pb)'):'#fff'};color:${active?'#fff':complete?(sat?'var(--mt)':'var(--pt)'):'var(--muted)'};font-size:10px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:4px">${complete?(sat?'✓':'~'):i+1}<span style="font-family:'DM Mono',monospace">${s.pc_id}</span></button>`;
+  }).join('');
+  const pr=document.getElementById('adapt-progress');
+  if(pr){
+    const total=_adaptive.plan.length;
+    const done=_adaptive.plan.filter(s=>{const r=_adaptRec(_adaptive.unitCode,s.pc_id);return r&&r.complete;}).length;
+    pr.innerHTML=`<div style="font-size:11px;color:var(--green);font-weight:500">${done}/${total} complete</div><div style="width:80px;height:4px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden;margin-top:3px"><div style="width:${total?Math.round(done/total*100):0}%;height:100%;background:var(--green)"></div></div>`;
+  }
+}
+
+function openAdaptiveTopic(idx){
+  _adaptive.idx=idx; buildAdaptiveTabs();
+  const step=_adaptive.plan[idx]; if(!step)return;
+  const rec=_adaptRec(_adaptive.unitCode,step.pc_id);
+  const area=document.getElementById('adapt-area'); if(!area)return;
+  const sc=step.scenario||{};
+  area.innerHTML=`
+    <div style="background:var(--navy);border-radius:10px;padding:12px 14px;margin-bottom:12px;display:flex;align-items:flex-start;gap:10px">
+      <div style="width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${idx+1}</div>
+      <div style="flex:1">
+        <div style="font-size:9px;font-family:'DM Mono',monospace;color:rgba(255,255,255,.5);margin-bottom:4px">${_adaptive.unitCode} · ${step.pc_id} · ${_PRIORITY_LABEL[step.questioning_priority]||''}</div>
+        ${sc.context?`<div style="font-size:10px;color:rgba(255,255,255,.6);line-height:1.5;margin-bottom:5px">${sc.context}</div>`:''}
+        <div style="font-size:13px;font-weight:500;color:#fff;line-height:1.5">${sc.opening_question||step.pc_text}</div>
+      </div>
+      <button id="adapt-q-tts" data-speak-text="" onclick="speakConvFromBtn(this,'adapt-q-tts')" style="flex-shrink:0;padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;font-size:10px;cursor:pointer">🔊</button>
+    </div>
+    <div id="adapt-bubbles" style="margin-bottom:10px"></div>
+    <div id="adapt-input"></div>`;
+  renderAdaptiveBubbles(rec);
+  if(rec&&rec.complete){ renderAdaptiveComplete(step, rec); }
+  else {
+    const turnNum=(rec?.dialogue||[]).filter(t=>t.role==='candidate').length+1;
+    const currentQ=rec?.current_question||sc.opening_question||step.pc_text;
+    renderAdaptiveInput(step, idx, turnNum, rec, currentQ);
+  }
+  setTimeout(()=>{ setTTSText('adapt-q-tts', sc.opening_question||step.pc_text); if(!rec) speakConv(sc.opening_question||step.pc_text,'adapt-q-tts'); },100);
+}
+
+function renderAdaptiveBubbles(rec){
+  const el=document.getElementById('adapt-bubbles'); if(!el)return;
+  if(!rec||!(rec.dialogue||[]).length){el.innerHTML='';return;}
+  let html='';
+  rec.dialogue.forEach(turn=>{
+    if(turn.role==='assessor'){
+      const b=turn.branch?_BRANCH_BADGE[turn.branch]:null;
+      html+=`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px">
+        <div style="width:26px;height:26px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">AI</div>
+        <div style="background:var(--off);border:1px solid var(--border);border-radius:0 10px 10px 10px;padding:9px 11px;max-width:85%">
+          ${b?`<div style="font-size:9px;font-weight:600;color:${b.c};text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">${b.t}</div>`:''}
+          <div style="font-size:11px;line-height:1.6;color:var(--text)">${turn.content}</div>
+          ${turn.encouragement?`<div style="font-size:10px;color:var(--mt);margin-top:4px;font-style:italic">${turn.encouragement}</div>`:''}
+        </div></div>`;
+    } else {
+      const a=turn.analysis, pct=a?Math.round((a.confidence||0)*100):null;
+      const col=!a?'var(--muted)':pct>=70?'var(--mt)':pct>=50?'var(--pt)':'var(--rt)';
+      html+=`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;flex-direction:row-reverse">
+        <div style="width:26px;height:26px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">${(S.candidate.name||'?')[0].toUpperCase()}</div>
+        <div style="max-width:85%">
+          <div style="background:#fff;border:1px solid var(--border);border-radius:10px 0 10px 10px;padding:9px 11px;margin-bottom:4px"><div style="font-size:11px;line-height:1.6;color:var(--text)">${turn.content}</div></div>
+          ${pct!==null?`<div style="display:flex;align-items:center;gap:5px;justify-content:flex-end"><div style="width:60px;height:4px;background:var(--border);border-radius:2px;overflow:hidden"><div style="width:${pct}%;height:100%;background:${col}"></div></div><span style="font-size:10px;font-weight:500;color:${col}">${pct}%</span>${a.judgement?`<span style="padding:1px 6px;border-radius:9px;font-size:9px;font-weight:600;background:${pct>=70?'var(--mb)':'var(--pb)'};color:${pct>=70?'var(--mt)':'var(--pt)'}">${a.judgement}</span>`:''}</div>`:''}
+          ${a&&a.demonstrated&&a.demonstrated.length?`<div style="font-size:9px;color:var(--mt);margin-top:3px;text-align:right">✓ ${(''+a.demonstrated[0]).substring(0,70)}</div>`:''}
+        </div></div>`;
+    }
+  });
+  el.innerHTML=html;
+}
+
+function renderAdaptiveInput(step, idx, turnNum, rec, currentQ){
+  const el=document.getElementById('adapt-input'); if(!el)return;
+  const isFollow=turnNum>1;
+  el.innerHTML=`
+    ${isFollow?`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:10px"><div style="width:26px;height:26px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;flex-shrink:0">AI</div><div style="background:var(--ib);border:1px solid #93C5FD;border-radius:0 10px 10px 10px;padding:9px 11px;max-width:85%"><div style="font-size:9px;font-weight:600;color:var(--it);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Turn ${turnNum} of ${MAX_TURNS}</div><div style="font-size:12px;font-weight:500;line-height:1.5;color:var(--text)">${currentQ}</div><button id="adapt-fup-tts" data-speak-text="" onclick="speakConvFromBtn(this,'adapt-fup-tts')" style="margin-top:5px;padding:3px 8px;border-radius:5px;border:1px solid #93C5FD;background:#EFF6FF;color:var(--it);font-size:10px;cursor:pointer">🔊 Listen</button></div></div>`:''}
+    <div style="background:var(--off);border:1px solid var(--border);border-radius:10px;padding:12px">
+      <div style="font-size:10px;font-weight:500;color:var(--muted);margin-bottom:7px">${isFollow?`Turn ${turnNum} of ${MAX_TURNS} — build on your answer`:'Your response'}</div>
+      <textarea id="adapt-ans" rows="4" placeholder="${isFollow?'Address exactly what was just asked — be specific…':`Describe a specific situation at ${S.candidate.employer||'your workplace'} — what happened, what you did, and the outcome.`}" style="width:100%;border:1px solid var(--border);border-radius:7px;padding:8px 10px;font-size:12px;line-height:1.65;resize:vertical;margin-bottom:7px"></textarea>
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px">
+        <div style="font-size:10px;color:var(--faint)"><span id="adapt-wc" style="font-weight:500">0</span> words ${isFollow?'· Add at least 20 words':'· Aim for 50+ words'}</div>
+        <button class="btn btn-p" id="adapt-send-btn" onclick="sendAdaptiveTurn(${idx},${turnNum})" style="padding:6px 14px;font-size:11px"><span id="adapt-send-lbl">Submit response</span><span id="adapt-send-spin" class="spinner" style="display:none"></span></button>
+      </div>
+    </div>
+    <div style="font-size:10px;color:var(--muted);margin-top:6px;text-align:center">${turnNum<=1?'Your first answer sets the scene — specific names, steps and outcomes make the strongest evidence':'Each answer builds on the last. Answer exactly what was asked.'}</div>`;
+  document.getElementById('adapt-ans')?.addEventListener('input',e=>{const n=e.target.value.trim().split(/\s+/).filter(w=>w).length;const w=document.getElementById('adapt-wc');if(w){w.textContent=n;w.style.color=n>=50?'var(--mt)':n>=20?'var(--pt)':'var(--rt)';}});
+  if(isFollow) setTimeout(()=>setTTSText('adapt-fup-tts',currentQ),80);
+}
+
+async function sendAdaptiveTurn(idx, turnNum){
+  const ta=document.getElementById('adapt-ans'); const answer=(ta?.value||'').trim();
+  const wc=answer.split(/\s+/).filter(w=>w).length;
+  if(wc<10){alert('Please provide a more detailed response — at least 10 words.');return;}
+  const btn=document.getElementById('adapt-send-btn'),lbl=document.getElementById('adapt-send-lbl'),spin=document.getElementById('adapt-send-spin');
+  if(btn){btn.disabled=true;lbl.style.display='none';spin.style.display='inline-block';}
+  const step=_adaptive.plan[idx];
+
+  if(!S.progress.adaptive_records) S.progress.adaptive_records=[];
+  let rIdx=S.progress.adaptive_records.findIndex(r=>r.unit===_adaptive.unitCode&&r.pc===step.pc_id);
+  if(rIdx<0){
+    S.progress.adaptive_records.push({unit:_adaptive.unitCode,pc:step.pc_id,pc_text:step.pc_text,
+      priority:step.questioning_priority,scenario:step.scenario,dialogue:[],complete:false,
+      final_judgement:null,final_confidence:0,branch_trail:[]});
+    rIdx=S.progress.adaptive_records.length-1;
+  }
+  const rec=S.progress.adaptive_records[rIdx];
+  rec.dialogue.push({role:'candidate',content:answer,turn:turnNum});
+  renderAdaptiveBubbles(rec);
+
+  let result=null;
+  try{
+    const r=await fetch('/api/conversation/adaptive/turn',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({token:TOKEN,assessment_id:S.assessmentId,unit_code:_adaptive.unitCode,
+        pc_id:step.pc_id,scenario:step.scenario,dialogue_history:rec.dialogue,
+        latest_answer:answer,turn_number:turnNum,max_turns:MAX_TURNS})});
+    result=await r.json();
+  }catch(e){console.warn('Adaptive turn error:',e);}
+
+  if(result && result.turn_analysis){
+    rec.dialogue[rec.dialogue.length-1].analysis=result.turn_analysis;
+    rec.dialogue[rec.dialogue.length-1].encouragement=result.encouragement;
+    // Trainer-only signals stored on the turn — not rendered to the candidate.
+    rec.dialogue[rec.dialogue.length-1].authenticity=result.authenticity||{};
+    const cum=result.cumulative||{}; rec.final_judgement=cum.judgement; rec.final_confidence=cum.confidence||0;
+    const branch=result.branch||{}; const decision=branch.decision||'DEEPEN';
+    rec.branch_trail.push({turn:turnNum,decision,reason:branch.reason||''});
+
+    const close = result.next_action==='CLOSE_PC' || turnNum>=MAX_TURNS;
+    if(!close && branch.next_question){
+      rec.dialogue.push({role:'assessor',content:branch.next_question,branch:decision,encouragement:result.encouragement,turn:turnNum});
+      rec.current_question=branch.next_question;
+    }
+    if(close){ rec.complete=true; rec.current_question=null; rec.close_decision=decision; if(result.assessor_note) rec.assessor_note=result.assessor_note; }
+
+    S.progress.adaptive_records[rIdx]=rec; triggerSave();
+    renderAdaptiveBubbles(rec); buildAdaptiveTabs();
+
+    if(rec.complete){
+      renderAdaptiveComplete(step, rec);
+      setTimeout(()=>autoAdvanceAdaptive(idx),2200);
+    } else {
+      renderAdaptiveInput(step, idx, turnNum+1, rec, branch.next_question);
+      if(branch.next_question) setTimeout(()=>{setTTSText('adapt-fup-tts',branch.next_question);speakConv(branch.next_question,'adapt-fup-tts');},400);
+    }
+  } else {
+    rec.dialogue.pop();  // remove the unanswered candidate turn so they can retry
+    renderAdaptiveBubbles(rec);
+    alert('Could not analyse your response just now — please try submitting again.');
+  }
+  if(btn){btn.disabled=false;lbl.style.display='inline';spin.style.display='none';}
+}
+
+function renderAdaptiveComplete(step, rec){
+  const el=document.getElementById('adapt-input'); if(!el)return;
+  const isSat=rec.final_judgement==='Satisfactory', isGap=rec.close_decision==='GAP';
+  const pct=rec.final_confidence>0?Math.round(rec.final_confidence*100):null;
+  const turns=(rec.dialogue||[]).filter(t=>t.role==='candidate').length;
+  const trail=(rec.branch_trail||[]).map(b=>(_BRANCH_BADGE[b.decision]||{}).t||b.decision).filter((v,i,a)=>a.indexOf(v)===i);
+  el.innerHTML=`<div style="padding:12px 14px;border-radius:10px;background:${isSat?'var(--mb)':'var(--pb)'};border:1px solid ${isSat?'var(--ma)':'var(--pa)'}">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><span style="font-size:18px">${isSat?'✓':isGap?'!':'~'}</span><div><div style="font-size:12px;font-weight:500;color:${isSat?'var(--mt)':'var(--pt)'}">${isSat?'Great — this topic is complete':isGap?'Recorded — your trainer will discuss an evidence pathway':'Response recorded — your trainer will review'}</div><div style="font-size:10px;color:${isSat?'var(--mt)':'var(--pt)'}">${pct!==null?'Confidence: '+pct+'% · ':''}${turns} turn${turns!==1?'s':''}</div></div></div>
+    ${trail.length?`<div style="font-size:9px;color:var(--muted);margin-top:4px">Interview path: ${trail.join(' → ')}</div>`:''}
+    <button class="btn btn-sm" style="margin-top:8px" onclick="openAdaptiveTopic(${_adaptive.idx})">Review dialogue</button>
+  </div>`;
+}
+
+function autoAdvanceAdaptive(completedIdx){
+  for(let i=completedIdx+1;i<_adaptive.plan.length;i++){
+    const rec=_adaptRec(_adaptive.unitCode,_adaptive.plan[i].pc_id);
+    if(!rec||!rec.complete){ openAdaptiveTopic(i); return; }
+  }
 }
 
 // ── TTS ────────────────────────────────────────────────────────────────────────
