@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 import bcrypt
 from google.cloud import firestore
 
-PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT", "gen-lang-client-0137379650")
+PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT")  # inferred from ADC if unset
 PLATFORM_ORG_ID = "__platform__"
 
 

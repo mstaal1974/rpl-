@@ -229,8 +229,9 @@ async def import_from_tgau(unit_code: str) -> UnitOfCompetency:
             logger.info(f"Returning cached {code}")
             return UnitOfCompetency(**json.loads(cache.read_text()))
 
-    user = os.environ.get("TGA_USER", "WebService.Read")
-    pw   = os.environ.get("TGA_PASS",  "Asdf098")
+    # TGA web-service credentials must be supplied via the environment.
+    user = os.environ.get("TGA_USER", "")
+    pw   = os.environ.get("TGA_PASS", "")
     WSSE = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
     PT   = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"
     URL  = "https://ws.staging.training.gov.au/Deewr.Tga.Webservices/TrainingComponentServiceV12.svc/Training"

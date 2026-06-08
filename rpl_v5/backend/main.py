@@ -119,9 +119,19 @@ async def _enrich_worker():
             _enrich_queue.task_done()
         # Small delay to avoid hammering the AI API
         await asyncio.sleep(2)
-app.add_middleware(CORSMiddleware,
-    allow_origins=os.getenv("ALLOWED_ORIGINS", "*").split(","),
-    allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+# CORS — the app authenticates with Bearer tokens (not cookies). When no
+# explicit allow-list is configured we use the "*" wildcard WITHOUT credentials
+# ("*" + allow_credentials=True is an invalid combination that browsers reject).
+# Set ALLOWED_ORIGINS to a comma-separated list to lock this down.
+_allowed_origins = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+if _allowed_origins:
+    app.add_middleware(CORSMiddleware,
+        allow_origins=_allowed_origins,
+        allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+else:
+    app.add_middleware(CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=False, allow_methods=["*"], allow_headers=["*"])
 
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request as StarletteRequest
@@ -143,11 +153,16 @@ _ac = None
 def get_client():
     global _ac
     if _ac is None:
-        # Resolve project ID from either env var name
+        # Resolve project ID from the environment (Cloud Run injects
+        # GOOGLE_CLOUD_PROJECT automatically). Fail loudly if it is missing
+        # rather than leaking a hard-coded project ID in source.
         project_id = (os.getenv("GOOGLE_CLOUD_PROJECT") or
                       os.getenv("ANTHROPIC_VERTEX_PROJECT_ID") or
-                      os.getenv("GCLOUD_PROJECT") or
-                      "gen-lang-client-0137379650")  # explicit fallback
+                      os.getenv("GCLOUD_PROJECT"))
+        if not project_id:
+            raise RuntimeError(
+                "No GCP project configured — set GOOGLE_CLOUD_PROJECT "
+                "(or ANTHROPIC_VERTEX_PROJECT_ID) before using AI features.")
         region = os.getenv("VERTEX_REGION", "global")
         logger.info(f"Initialising Vertex client: project={project_id} region={region}")
         _ac = anthropic.AnthropicVertex(
@@ -184,14 +199,35 @@ def _check_record_tenant(record: dict, user: dict, *,
     if user.get("role") == "superadmin":
         return record
     rec_org = record.get("org_id", "")
-    if rec_org and rec_org != user.get("org_id"):
+    # Fail closed: a record must carry an org_id matching the caller's org.
+    # Legacy records with no org_id are NOT visible to any org user (only the
+    # super-admin above) — otherwise they would leak across every tenant.
+    if not rec_org or rec_org != user.get("org_id"):
         raise HTTPException(404, "Record not found.")
-    # Legacy records (no org_id) — only admins of the FIRST org can see;
-    # for safety we treat them as belonging to the user's own org if they had no scope set.
     if user.get("role") == "trainer" and not allow_trainer_cross:
         rec_uid = record.get("trainer_user_id", "")
         if rec_uid and rec_uid != user.get("id"):
             raise HTTPException(404, "Record not found.")
+    return record
+
+
+async def _verify_student_token(token: str, assessment_id: Optional[str] = None) -> dict:
+    """
+    Authenticate a student request by its invite token.
+
+    The invite token is the candidate's credential. When an assessment_id is
+    supplied, the token MUST resolve to that same assessment — this prevents a
+    holder of one valid token from reading or mutating another candidate's
+    record (IDOR). Returns the assessment record on success.
+    """
+    if not token:
+        raise HTTPException(401, "Missing invite token.")
+    record = await get_by_token(token)
+    if not record:
+        raise HTTPException(404, "Invalid or expired invite link.")
+    if assessment_id is not None and record.get("assessment_id") != assessment_id:
+        # Same 404 as an unknown token — don't confirm the id exists.
+        raise HTTPException(404, "Invalid or expired invite link.")
     return record
 
 
@@ -216,6 +252,7 @@ class CreateAssessmentRequest(BaseModel):
 class ProgressSaveRequest(BaseModel):
     assessment_id: str
     progress: dict                  # full progress object
+    token: str = ""                 # invite token — authenticates the candidate
 
 class KnowledgeAnalysisRequest(BaseModel):
     assessment_id: str
@@ -225,6 +262,7 @@ class KnowledgeAnalysisRequest(BaseModel):
     pc_refs: list
     element_ref: str
     q_num: int = 1
+    token: str = ""                 # invite token — authenticates the candidate
 
 class MappingRequest(BaseModel):
     assessment_id: str
@@ -242,6 +280,7 @@ class TTSRequest(BaseModel):
     text: str
     voice: str = "Puck"
     speaking_rate: float = 0.93
+    token: str = ""                 # invite token — gates access to paid TTS
 
 class BulkCreateRequest(BaseModel):
     trainer_name: str
@@ -309,6 +348,15 @@ class IndustryContextRequest(BaseModel):
 async def startup():
     """Restore uploaded units from Firestore and start background enrichment worker."""
     global _enrich_queue
+
+    # Fail closed: in a managed/production environment (Cloud Run sets K_SERVICE)
+    # an unset AUTH_SECRET means every instance signs JWTs with its own ephemeral
+    # key, silently breaking auth and degrading security. Refuse to start instead.
+    if not os.getenv("AUTH_SECRET") and os.getenv("K_SERVICE"):
+        raise RuntimeError(
+            "AUTH_SECRET must be set in production (Cloud Run). "
+            "Generate one with: python -c \"import secrets;print(secrets.token_urlsafe(48))\"")
+
     from .unit_registry import sync_registry_from_firestore
     from .database import _firestore, _token_index
     await sync_registry_from_firestore()
@@ -890,22 +938,19 @@ async def student_save_progress(req: ProgressSaveRequest):
     """
     Auto-save student progress after every step.
     Called from the frontend whenever anything changes.
+    The invite token authenticates the candidate and must own this assessment.
     """
-    # Verify the assessment exists
-    data = await get_assessment(req.assessment_id)
-    if not data:
-        raise HTTPException(404, "Assessment not found")
+    await _verify_student_token(req.token, req.assessment_id)
 
     await save_progress(req.assessment_id, req.progress)
     return {"saved": True, "timestamp": datetime.now(timezone.utc).isoformat()}
 
 
 @app.post("/api/student/submit/{assessment_id}")
-async def student_submit(assessment_id: str):
-    """Student submits their completed RPL — notifies trainer."""
-    data = await get_assessment(assessment_id)
-    if not data:
-        raise HTTPException(404, "Assessment not found")
+async def student_submit(assessment_id: str, token: str = ""):
+    """Student submits their completed RPL — notifies trainer.
+    The invite token authenticates the candidate and must own this assessment."""
+    data = await _verify_student_token(token, assessment_id)
 
     await submit_assessment(assessment_id)
 
@@ -982,8 +1027,10 @@ async def debug_tga_import(unit_code: str, user: dict = Depends(require_admin)):
     import xml.etree.ElementTree as ET
 
     code = unit_code.upper().strip()
-    tga_user = os.getenv("TGA_USER", "WebService.Read")
-    tga_pass  = os.getenv("TGA_PASS",  "Asdf098")
+    # TGA web-service credentials must come from the environment — never hard-code
+    # them in source. If unset, the SOAP probe simply runs unauthenticated.
+    tga_user = os.getenv("TGA_USER", "")
+    tga_pass = os.getenv("TGA_PASS", "")
     result    = {"code": code, "soap": {}, "scraper": {}}
 
     # ── Test SOAP ──────────────────────────────────────────────────────────────
@@ -1393,6 +1440,12 @@ async def delete_unit(unit_code: str, user: dict = Depends(require_admin)):
 @app.post("/api/tts")
 async def synthesise_speech(req: TTSRequest):
     import asyncio
+    # Gate paid speech synthesis behind a valid invite token so the endpoint
+    # can't be used as an open, anonymous proxy to Google TTS (cost abuse).
+    await _verify_student_token(req.token)
+    # Bound request size — a single utterance, not a document.
+    if len(req.text or "") > 5000:
+        raise HTTPException(413, "Text too long for synthesis (max 5000 chars).")
     voice_name = f"en-AU-Chirp3-HD-{req.voice}"
     logger.info(f"TTS: {voice_name}, {len(req.text)} chars")
     def _call():
@@ -1418,6 +1471,8 @@ async def synthesise_speech(req: TTSRequest):
 
 @app.post("/api/knowledge/analyse")
 async def analyse_knowledge(req: KnowledgeAnalysisRequest):
+    # Invite token authenticates the candidate and must own this assessment.
+    await _verify_student_token(req.token, req.assessment_id)
     unit = registry.get(req.unit_code)
     if not unit: raise HTTPException(404, f"Unit {req.unit_code} not found")
     if len((req.answer or "").split()) < 5:
@@ -1609,14 +1664,16 @@ async def generate_unit_questions(unit_code: str,
 
 
 @app.post("/api/mapping/generate")
-async def generate_mapping(req: MappingRequest):
+async def generate_mapping(req: MappingRequest, user: dict = Depends(current_user)):
     unit = registry.get(req.unit_code)
     if not unit:
         raise HTTPException(404, f"Unit {req.unit_code} not found. "
                                  f"Import via POST /api/units/import/{req.unit_code}")
     try:
-        # Load full assessment context for orchestrator
+        # Load full assessment context for orchestrator (tenant-scoped)
         assessment = await get_assessment(req.assessment_id) if req.assessment_id else {}
+        if req.assessment_id:
+            _check_record_tenant(assessment, user)
         progress = (assessment or {}).get("progress", {})
         uploads = progress.get("uploads", req.uploads or {})
         candidate_notes = progress.get("candidate_notes", req.candidate_notes or {})
@@ -1703,9 +1760,11 @@ async def generate_multi_unit_mapping(data: dict,
 
 
 @app.post("/api/gap-analysis/generate")
-async def gap_analysis(data: dict):
+async def gap_analysis(data: dict, user: dict = Depends(current_user)):
     unit = registry.get(data.get("unit_code", ""))
     if not unit: raise HTTPException(404, "Unit not found")
+    if data.get("assessment_id"):
+        _check_record_tenant(await get_assessment(data["assessment_id"]), user)
     try:
         result = await run_gap_analysis(get_client(), MODEL, unit, data.get("mapping", {}))
         if data.get("assessment_id"):
@@ -1717,9 +1776,15 @@ async def gap_analysis(data: dict):
 
 @app.post("/api/parse-document")
 async def parse_doc(file: UploadFile = File(...), doc_type: str = Form(...),
-                    assessment_id: str = Form(...), unit_code: str = Form(default="")):
+                    assessment_id: str = Form(...), unit_code: str = Form(default=""),
+                    token: str = Form(default="")):
+    # Invite token authenticates the candidate and must own this assessment.
+    await _verify_student_token(token, assessment_id)
     from .document_ai import parse_document, redact_sensitive
     content = await file.read()
+    # Bound upload size — guard against memory exhaustion (10 MB).
+    if len(content) > 10 * 1024 * 1024:
+        raise HTTPException(413, "File too large (max 10 MB).")
     try:
         parsed = await parse_document(content, file.content_type, doc_type)
         parsed = redact_sensitive(parsed)
@@ -1933,7 +1998,9 @@ async def _notify_candidate_invite(assessment_data: dict):
 # ══════════════════════════════════════════════════════════════════════════════
 
 @app.post("/api/mapping/cross-unit")
-async def cross_unit_mapping(req: CrossUnitRequest):
+async def cross_unit_mapping(req: CrossUnitRequest, user: dict = Depends(current_user)):
+    if req.assessment_id:
+        _check_record_tenant(await get_assessment(req.assessment_id), user)
     units = [registry.get(c) for c in req.unit_codes if registry.get(c)]
     if len(units) < 2:
         raise HTTPException(400, "Cross-unit mapping requires at least 2 valid units")
@@ -1949,7 +2016,9 @@ async def cross_unit_mapping(req: CrossUnitRequest):
 
 
 @app.post("/api/mapping/third-party-report")
-async def third_party_report(req: ThirdPartyReportRequest):
+async def third_party_report(req: ThirdPartyReportRequest, user: dict = Depends(current_user)):
+    if req.assessment_id:
+        _check_record_tenant(await get_assessment(req.assessment_id), user)
     unit = registry.get(req.unit_code)
     if not unit:
         raise HTTPException(404, f"Unit {req.unit_code} not found")
@@ -1973,7 +2042,8 @@ async def conversation_start(data: dict):
     """Initialise a competency conversation session for a student."""
     assessment_id = data.get("assessment_id")
     unit_code     = data.get("unit_code")
-    assessment    = await get_assessment(assessment_id) if assessment_id else None
+    # Invite token authenticates the candidate and must own this assessment.
+    assessment    = await _verify_student_token(data.get("token", ""), assessment_id)
     unit          = registry.get(unit_code) if unit_code else None
 
     if not unit:
@@ -2026,6 +2096,9 @@ async def conversation_analyse(data: dict):
     element_ref   = data.get("element_ref", "")
     assessment_id = data.get("assessment_id", "")
 
+    # Invite token authenticates the candidate and must own this assessment.
+    await _verify_student_token(data.get("token", ""), assessment_id or None)
+
     unit = registry.get(unit_code)
     if not unit:
         raise HTTPException(404, f"Unit {unit_code} not found")
@@ -2065,6 +2138,9 @@ async def guided_conversation_turn(data: dict):
     turn_number      = data.get("turn_number", 1)
     assessment_id    = data.get("assessment_id", "")
     max_turns        = data.get("max_turns", 4)
+
+    # Invite token authenticates the candidate and must own this assessment.
+    await _verify_student_token(data.get("token", ""), assessment_id or None)
 
     unit = registry.get(unit_code)
     if not unit:
@@ -2890,4 +2966,9 @@ async def student_portal(token: str):
     with open("frontend/templates/student.html") as f:
         return f.read().replace("__TOKEN__", token)
 
-app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
+# Only mount the static directory if it exists — StaticFiles raises at import
+# time on a missing directory, which would crash the whole app on boot.
+if os.path.isdir("frontend/static"):
+    app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
+else:
+    logger.info("frontend/static not present — skipping static mount")

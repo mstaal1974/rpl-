@@ -15,11 +15,14 @@ BQ_TABLE        = os.getenv("BQ_TABLE", "assessment_records")
 RETENTION_YEARS = int(os.getenv("ASQA_RETENTION_YEARS", "2"))
 
 def _gcp_project():
-    """Resolve GCP project ID from any of the env vars Cloud Run sets."""
+    """Resolve GCP project ID from any of the env vars Cloud Run sets.
+    Returns None if unset — the Google client libraries then infer the project
+    from Application Default Credentials (the correct behaviour on Cloud Run).
+    No project ID is hard-coded in source."""
     return (os.getenv("GOOGLE_CLOUD_PROJECT") or
             os.getenv("ANTHROPIC_VERTEX_PROJECT_ID") or
             os.getenv("GCLOUD_PROJECT") or
-            "gen-lang-client-0137379650")
+            None)
 
 _fs = None
 _bq = None
@@ -362,7 +365,9 @@ async def _mirror_bq(assessment_id: str, record_type: str, data: dict):
         return
 
     def _insert():
-        table = f"{_gcp_project()}.{BQ_DATASET}.{BQ_TABLE}"
+        # Use the project the BigQuery client actually resolved (handles the
+        # case where the project is inferred from ADC rather than an env var).
+        table = f"{bq.project}.{BQ_DATASET}.{BQ_TABLE}"
         rows = [{"assessment_id": assessment_id, "record_type": record_type,
                  "data_json": json.dumps(data),
                  "inserted_at": datetime.now(timezone.utc).isoformat(),

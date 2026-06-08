@@ -419,13 +419,24 @@ async def bootstrap_first_org(name: str, rto_code: str,
     """
     Create the very first organisation and its first admin user.
     Caller must supply BOOTSTRAP_KEY to use this.
-    Subsequent orgs and users go through normal admin endpoints.
+
+    Single-use: once any real organisation exists, this endpoint refuses to run
+    even with a valid key. Additional organisations must be created through the
+    super-admin console (POST /api/superadmin/orgs), so a leaked or un-removed
+    BOOTSTRAP_KEY cannot be used to spin up rogue orgs/admins.
     """
     if not BOOTSTRAP_KEY:
         raise HTTPException(503,
             "BOOTSTRAP_KEY env var not set — system not configured for bootstrap.")
-    if provided_key != BOOTSTRAP_KEY:
+    if not secrets.compare_digest(provided_key, BOOTSTRAP_KEY):
         raise HTTPException(401, "Invalid bootstrap key.")
+
+    # Refuse if a non-platform organisation already exists.
+    existing = [o for o in await list_orgs() if o.get("id") != PLATFORM_ORG_ID]
+    if existing:
+        raise HTTPException(409,
+            "Bootstrap already completed — an organisation already exists. "
+            "Use the super-admin console to add further organisations.")
 
     org = await create_org(name=name, rto_code=rto_code,
                             contact_email=admin_email)

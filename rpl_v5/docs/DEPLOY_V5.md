@@ -93,18 +93,16 @@ Open the invite link, work through the steps, submit. No login needed — the in
 
 ## Adding more organisations
 
-Two ways:
+`/api/auth/bootstrap` is **single-use** — once your first organisation exists it
+refuses to run again, even with a valid `BOOTSTRAP_KEY`. This prevents a leaked
+or un-removed key from being used to create rogue orgs and admins.
 
-**Option A — temporarily re-enable bootstrap:**
-```bash
-gcloud run services update rpl-portal \
-  --region australia-southeast1 \
-  --update-env-vars BOOTSTRAP_KEY=any-random-string
-# Then POST /api/auth/bootstrap again
-# Then remove BOOTSTRAP_KEY again
-```
+To add further organisations, use the **super-admin console**:
 
-**Option B — add an "Org creation" endpoint backed by a super-admin role.** Not built in v5 — talk to me if you need this.
+- Promote a platform owner once with `make_superadmin.py` (see that script's header).
+- Then create organisations (each with their first admin) via
+  `POST /api/superadmin/orgs`, or from the **Organisations** page in the portal
+  when logged in as the super-admin.
 
 ## Environment variables
 

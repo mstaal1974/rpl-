@@ -377,7 +377,7 @@ async function doSave(){
   try {
     await fetch(`${API}/student/progress`,{
       method:'POST', headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({assessment_id:S.assessmentId, progress:S.progress})
+      body:JSON.stringify({assessment_id:S.assessmentId, progress:S.progress, token:TOKEN})
     });
   } catch(e){ console.warn('Auto-save failed:', e.message); }
 }
@@ -686,7 +686,7 @@ async function analyseQ(){
   btn.innerHTML='<span class="spinner"></span> Analysing...'; btn.disabled=true;
   try {
     const r=await fetch(`${API}/knowledge/analyse`,{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({unit_code:unit.code,question:q.text,answer:ans,pc_refs:q.pc_refs,element_ref:q.element_ref,q_num:q.num,assessment_id:S.assessmentId})});
+      body:JSON.stringify({unit_code:unit.code,question:q.text,answer:ans,pc_refs:q.pc_refs,element_ref:q.element_ref,q_num:q.num,assessment_id:S.assessmentId,token:TOKEN})});
     const result=await r.json();
     if(!S.progress.knowledge_analyses) S.progress.knowledge_analyses={};
     if(!S.progress.knowledge_analyses[unit.code]) S.progress.knowledge_analyses[unit.code]={};
@@ -1321,7 +1321,8 @@ async function sendConvTurn(idx, turnNum){
         latest_answer:answer,
         turn_number:turnNum,
         max_turns:MAX_TURNS,
-        assessment_id:S.assessmentId
+        assessment_id:S.assessmentId,
+        token:TOKEN
       })
     });
     result=await r.json();
@@ -1461,7 +1462,7 @@ async function speakConv(text, btnId){
   _convSpeaking=true;
   try{
     const r=await fetch('/api/tts',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({text,voice:'Puck',speaking_rate:0.93})});
+      body:JSON.stringify({text,voice:'Puck',speaking_rate:0.93,token:TOKEN})});
     const d=await r.json();
     const bytes=atob(d.audioContent);
     const buf=new Uint8Array(bytes.length);
@@ -1711,7 +1712,7 @@ async function submitRPL(){
   // Final progress save first
   await doSave();
   try {
-    const r=await fetch(`${API}/student/submit/${S.assessmentId}`,{method:'POST'});
+    const r=await fetch(`${API}/student/submit/${S.assessmentId}?token=${encodeURIComponent(TOKEN)}`,{method:'POST'});
     const d=await r.json();
     document.getElementById('root').innerHTML=`<div class="card" style="text-align:center;padding:40px">
       <div style="font-size:44px;margin-bottom:14px">✓</div>
