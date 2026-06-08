@@ -715,8 +715,14 @@ function renderAI(r){
   const iconCol = isFull ? '#166534' : isPartial ? '#854D0E' : '#991B1B';
   const demonstrated = (r.what_the_answer_demonstrates||r.evidence_items||r.matched_knowledge_points||[]).filter(e=>e);
   const missing = (r.what_is_missing||r.gaps||r.missing_or_weak_knowledge_points||[]).filter(g=>g);
-  const commentary = r.commentary || r.summary || r.evaluation_summary || '';
+  let   commentary = r.commentary || r.summary || r.evaluation_summary || r.evaluation_rationale || '';
   const reqMap = (r.requirements_map||[]).filter(rm=>rm.requirement);
+  // Never render a "see feedback below" header with an empty body.
+  const hasBody = !!(commentary || demonstrated.length || missing.length || reqMap.length || r.followup_question);
+  if(!hasBody){
+    commentary = 'Your response was analysed, but the detailed feedback did not come through. Click "Re-analyse" to try again.';
+  }
+  const judgementLabel = r.judgement || (isFull?'Satisfactory':isPartial?'Partially demonstrated':'Not yet demonstrated');
 
   return `<div id="ai-out" style="background:${bg};border:1px solid ${bdr};border-radius:10px;padding:0;margin-top:10px;overflow:hidden">
 
@@ -724,8 +730,8 @@ function renderAI(r){
     <div style="padding:10px 14px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;border-bottom:1px solid ${bdr}">
       <span style="font-size:18px;color:${iconCol}">${icon}</span>
       <div>
-        <div style="font-size:12px;font-weight:600;color:${iconCol}">${r.judgement||'Analysed'}</div>
-        <div style="font-size:10px;color:${iconCol};opacity:.8">${meetsReq.replace(/_/g,' ')} — ${isFull?'meets the requirement':'see feedback below'}</div>
+        <div style="font-size:12px;font-weight:600;color:${iconCol}">${judgementLabel}</div>
+        <div style="font-size:10px;color:${iconCol};opacity:.8">${meetsReq.replace(/_/g,' ')}${isFull?' — meets the requirement':' — see feedback below'}</div>
       </div>
       ${r.pc_id?`<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--muted);padding:2px 8px;border-radius:8px;border:1px solid var(--border);background:#fff">PC ${r.pc_id}</span>`:''}
     </div>
