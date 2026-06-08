@@ -1270,7 +1270,7 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
     html += '</div>';
   }
 
-  html += renderAdaptiveInterviews(progress, pcAnalysis);
+  html += renderAdaptiveInterviews(assessmentId, progress, pcAnalysis);
 
   html += '</div></div>';
   return html;
@@ -1298,81 +1298,128 @@ const _EDGE={
   GAP:      {c:'var(--rt)',    t:'Gap'},
 };
 
-// Visual flow of one topic: Scenario → answers (confidence + integrity flags)
-// connected by branch edges → outcome. Lets the assessor see the path taken.
-function renderBranchMap(rec){
-  const cand=(rec.dialogue||[]).filter(t=>t.role==='candidate');
-  if(!cand.length) return '';
-  const trail=rec.branch_trail||[];
-  const nodes=[{type:'origin', label:(_ADAPT_PRIORITY[rec.priority]||rec.priority||'Start')}];
-  cand.forEach((t,i)=>{
-    // Edge leading into this answer: the branch decision that produced it
-    nodes.push(i===0 ? {type:'edge', decision:'OPEN'}
-                     : {type:'edge', decision:(trail[i-1]||{}).decision, reason:(trail[i-1]||{}).reason});
-    const aiu=t.authenticity?.ai_usage||{};
-    nodes.push({type:'turn', idx:i+1,
-      conf: t.analysis?.confidence!=null?Math.round(t.analysis.confidence*100):null,
-      judgement: t.analysis?.judgement,
-      aiProb: aiu.probability, aiScore: aiu.score,
-      authVerdict: t.authenticity?.verdict,
-      mismatch: t.authenticity?.consistent_with_resume===false});
+// Flatten a topic's dialogue into "tries" (one per candidate answer) with the
+// question that prompted it and the branch decision that followed it.
+function _adaptiveTries(rec){
+  const dlg=rec.dialogue||[], trail=rec.branch_trail||[];
+  const out=[]; let lastQ=(rec.scenario&&rec.scenario.opening_question)||rec.pc_text||''; let ci=0;
+  dlg.forEach(t=>{
+    if(t.role==='assessor'){ if(t.content) lastQ=t.content; return; }
+    if(t.role!=='candidate') return;
+    const a=t.analysis||{}, au=t.authenticity||{}, aiu=au.ai_usage||{}, dec=trail[ci]||{};
+    out.push({n:ci+1, question:lastQ, answer:t.content||'',
+      conf:a.confidence!=null?Math.round(a.confidence*100):null, judgement:a.judgement,
+      demonstrated:a.demonstrated||[], missing:a.missing||[], evidence:a.evidence_quotes||[],
+      aiProb:aiu.probability, aiScore:aiu.score, signals:aiu.signals_triggered||[], guidance:aiu.assessor_guidance,
+      authVerdict:au.verdict, consistent:au.consistent_with_resume, specificity:au.specificity, concerns:au.concerns||[],
+      encouragement:t.encouragement, branchDecision:dec.decision, branchReason:dec.reason});
+    ci++;
   });
-  const term=rec.close_decision || (trail[trail.length-1]||{}).decision;
-  nodes.push({type:'edge', decision:term, reason:(trail[trail.length-1]||{}).reason});
-  nodes.push({type:'outcome', sat:rec.final_judgement==='Satisfactory', gap:term==='GAP',
-    judgement:rec.final_judgement, conf:rec.final_confidence?Math.round(rec.final_confidence*100):null});
+  return out;
+}
 
-  return `<div style="overflow-x:auto;padding:12px;background:linear-gradient(180deg,#fbfcff,#f3f6fc);border-bottom:1px solid var(--border)">
-    <div style="display:flex;align-items:center;min-width:max-content">
-      ${nodes.map(renderBranchNode).join('')}
+function renderEdge(decision,reason){
+  const e=_EDGE[decision]||_EDGE.OPEN;
+  const tip=reason?` title="${(''+reason).replace(/"/g,'&quot;')}"`:'';
+  return `<div style="flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;padding:0 3px"${tip}>
+    <div style="font-size:8px;font-weight:700;color:${e.c};text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px;white-space:nowrap">${e.t}</div>
+    <div style="display:flex;align-items:center;width:100%"><div style="flex:1;height:2px;background:${e.c}"></div><div style="color:${e.c};font-size:11px;line-height:1;margin-left:-1px">▶</div></div>
+  </div>`;
+}
+
+function renderTurnNode(tr,mapId,i){
+  const col=tr.conf==null?'var(--muted)':tr.conf>=70?'var(--green)':tr.conf>=50?'var(--pa)':'var(--ra)';
+  const aiBad=tr.aiProb&&tr.aiProb!=='LOW'&&tr.aiProb!=='UNKNOWN';
+  const aiStyle=_aiRiskStyle(tr.aiProb||'LOW');
+  return `<div style="flex-shrink:0;text-align:center">
+    <div id="amap-node-${mapId}-${i}" onclick="toggleAdaptiveTry('${mapId}',${i})" title="Click to view this try in full"
+      style="width:54px;height:54px;border-radius:50%;border:3px solid ${col};display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;margin:0 auto;cursor:pointer;transition:box-shadow .15s">
+      <span style="font-size:8px;color:var(--muted);font-weight:600">Try ${tr.n}</span>
+      <span style="font-size:13px;font-weight:700;color:${col}">${tr.conf!=null?tr.conf+'%':'—'}</span>
+    </div>
+    <div style="display:flex;gap:3px;justify-content:center;margin-top:3px;min-height:12px">
+      ${aiBad?`<span title="AI usage ${tr.aiProb} (${tr.aiScore||0}%)" style="font-size:10px;color:${aiStyle.col}">${aiStyle.icon}</span>`:''}
+      ${tr.authVerdict&&tr.authVerdict!=='AUTHENTIC'?`<span title="Authenticity: ${tr.authVerdict}" style="font-size:10px;color:${tr.authVerdict==='SUSPECT'?'var(--rt)':'var(--pt)'}">⚑</span>`:''}
+      ${tr.consistent===false?`<span title="Résumé mismatch" style="font-size:10px;color:var(--rt)">⚠</span>`:''}
     </div>
   </div>`;
 }
 
-function renderBranchNode(n){
-  if(n.type==='origin'){
-    return `<div style="flex-shrink:0;text-align:center">
-      <div style="padding:6px 11px;border-radius:8px;background:var(--navy);color:#fff;font-size:10px;font-weight:600;white-space:nowrap">${n.label}</div>
-      <div style="font-size:8px;color:var(--faint);margin-top:3px">scenario</div>
-    </div>`;
-  }
-  if(n.type==='edge'){
-    const e=_EDGE[n.decision]||_EDGE.OPEN;
-    const tip=n.reason?` title="${(''+n.reason).replace(/"/g,'&quot;')}"`:'';
-    return `<div style="flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;padding:0 3px"${tip}>
-      <div style="font-size:8px;font-weight:700;color:${e.c};text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px;white-space:nowrap">${e.t}</div>
-      <div style="display:flex;align-items:center;width:100%"><div style="flex:1;height:2px;background:${e.c}"></div><div style="color:${e.c};font-size:11px;line-height:1;margin-left:-1px">▶</div></div>
-    </div>`;
-  }
-  if(n.type==='turn'){
-    const col=n.conf==null?'var(--muted)':n.conf>=70?'var(--green)':n.conf>=50?'var(--pa)':'var(--ra)';
-    const aiBad=n.aiProb&&n.aiProb!=='LOW'&&n.aiProb!=='UNKNOWN';
-    const aiStyle=_aiRiskStyle(n.aiProb||'LOW');
-    return `<div style="flex-shrink:0;text-align:center">
-      <div style="width:54px;height:54px;border-radius:50%;border:3px solid ${col};display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;margin:0 auto">
-        <span style="font-size:8px;color:var(--muted);font-weight:600">T${n.idx}</span>
-        <span style="font-size:13px;font-weight:700;color:${col}">${n.conf!=null?n.conf+'%':'—'}</span>
-      </div>
-      <div style="display:flex;gap:3px;justify-content:center;margin-top:3px;min-height:12px">
-        ${aiBad?`<span title="AI usage ${n.aiProb} (${n.aiScore||0}%)" style="font-size:10px;color:${aiStyle.col}">${aiStyle.icon}</span>`:''}
-        ${n.authVerdict&&n.authVerdict!=='AUTHENTIC'?`<span title="Authenticity: ${n.authVerdict}" style="font-size:10px;color:${n.authVerdict==='SUSPECT'?'var(--rt)':'var(--pt)'}">⚑</span>`:''}
-        ${n.mismatch?`<span title="Résumé mismatch" style="font-size:10px;color:var(--rt)">⚠</span>`:''}
-      </div>
-    </div>`;
-  }
-  if(n.type==='outcome'){
-    const c=n.gap?'var(--rt)':n.sat?'var(--green)':'var(--pa)';
-    const bg=n.gap?'var(--rb)':n.sat?'var(--mb)':'var(--pb)';
-    const ic=n.gap?'!':n.sat?'✓':'~';
-    return `<div style="flex-shrink:0;text-align:center">
-      <div style="padding:7px 12px;border-radius:8px;background:${bg};border:1.5px solid ${c};color:${c};font-size:11px;font-weight:700;white-space:nowrap">${ic} ${n.judgement||(n.gap?'Gap':'Review')}</div>
-      ${n.conf!=null?`<div style="font-size:8px;color:var(--faint);margin-top:3px">${n.conf}% confidence</div>`:''}
-    </div>`;
-  }
-  return '';
+function renderOutcome(rec,term){
+  const sat=rec.final_judgement==='Satisfactory', gap=term==='GAP';
+  const c=gap?'var(--rt)':sat?'var(--green)':'var(--pa)', bg=gap?'var(--rb)':sat?'var(--mb)':'var(--pb)', ic=gap?'!':sat?'✓':'~';
+  const conf=rec.final_confidence?Math.round(rec.final_confidence*100):null;
+  return `<div style="flex-shrink:0;text-align:center">
+    <div style="padding:7px 12px;border-radius:8px;background:${bg};border:1.5px solid ${c};color:${c};font-size:11px;font-weight:700;white-space:nowrap">${ic} ${rec.final_judgement||(gap?'Gap':'Review')}</div>
+    ${conf!=null?`<div style="font-size:8px;color:var(--faint);margin-top:3px">${conf}% confidence</div>`:''}
+  </div>`;
 }
 
-function renderAdaptiveInterviews(progress, pcAnalysis){
+// Full per-try detail — shown when a node is clicked (complete transparency).
+function renderTryDetail(tr){
+  const col=tr.conf==null?'var(--muted)':tr.conf>=70?'var(--green)':tr.conf>=50?'var(--pa)':'var(--ra)';
+  const e=_EDGE[tr.branchDecision]||null;
+  const li=arr=>(arr||[]).filter(Boolean).map(x=>`<li style="margin-bottom:2px">${x}</li>`).join('');
+  const aiStyle=_aiRiskStyle(tr.aiProb||'LOW');
+  let s=`<div style="margin:0 12px 12px;border:1px solid var(--border);border-left:3px solid ${col};border-radius:8px;background:#fff;overflow:hidden">
+    <div style="padding:8px 11px;background:var(--off);display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:700">Try ${tr.n}</span>
+      ${tr.judgement?`<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${tr.conf>=70?'var(--mb)':'var(--pb)'};color:${tr.conf>=70?'var(--mt)':'var(--pt)'}">${tr.judgement}${tr.conf!=null?' · '+tr.conf+'%':''}</span>`:''}
+      ${tr.branchDecision&&e?`<span style="margin-left:auto;font-size:9px;font-weight:700;color:${e.c}">→ ${e.t}</span>`:''}
+    </div>
+    <div style="padding:10px 12px">
+      <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Question / scenario</div>
+      <div style="font-size:11px;line-height:1.6;margin-bottom:9px;padding:7px 9px;background:var(--ib);border-radius:6px">${tr.question||'—'}</div>
+      <div style="font-size:9px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px">Candidate answer</div>
+      <div style="font-size:11px;line-height:1.7;white-space:pre-wrap;margin-bottom:9px">${tr.answer||'—'}</div>`;
+  if(tr.demonstrated.length) s+=`<div style="font-size:10px;color:var(--mt);margin-bottom:5px"><strong>✓ Demonstrated</strong><ul style="margin:3px 0 0 16px;padding:0">${li(tr.demonstrated)}</ul></div>`;
+  if(tr.missing.length)      s+=`<div style="font-size:10px;color:var(--pt);margin-bottom:5px"><strong>Still needed</strong><ul style="margin:3px 0 0 16px;padding:0">${li(tr.missing)}</ul></div>`;
+  if(tr.evidence.length)     s+=`<div style="font-size:10px;color:var(--muted);margin-bottom:5px"><strong>Evidence quotes</strong><ul style="margin:3px 0 0 16px;padding:0">${li(tr.evidence)}</ul></div>`;
+  s+=`<div style="margin-top:8px;padding:8px 10px;background:${aiStyle.bg};border-radius:6px">
+    <div style="font-size:9px;font-weight:700;color:${aiStyle.col};text-transform:uppercase;letter-spacing:.3px;margin-bottom:5px">${aiStyle.icon} AI-usage &amp; authenticity</div>
+    <div style="font-size:10px;line-height:1.7">AI probability: <strong style="color:${aiStyle.col}">${tr.aiProb||'—'}${tr.aiScore!=null?' ('+tr.aiScore+'%)':''}</strong>${tr.authVerdict?` · Authenticity: <strong>${tr.authVerdict}</strong>`:''}${tr.specificity?` · Specificity: ${tr.specificity}`:''}${tr.consistent===false?` · <span style="color:var(--rt)">résumé mismatch</span>`:''}</div>`;
+  if(tr.signals.length) s+=`<div style="margin-top:5px">${tr.signals.map(sg=>`<div style="font-size:9px;color:var(--muted);margin-bottom:3px;padding:4px 7px;background:#fff;border:1px solid var(--border);border-radius:5px"><strong>${sg.signal||sg.signal_type||''}</strong>${sg.severity?` <span style="color:${sg.severity==='HIGH'?'var(--rt)':'var(--pt)'}">[${sg.severity}]</span>`:''}${sg.evidence?`<div style="font-style:italic;margin-top:1px">“${sg.evidence}”</div>`:''}${sg.explanation?`<div style="color:var(--faint);margin-top:1px">${sg.explanation}</div>`:''}</div>`).join('')}</div>`;
+  if(tr.concerns.length) s+=`<div style="font-size:9px;color:var(--rt);margin-top:4px">Concerns: ${tr.concerns.join('; ')}</div>`;
+  if(tr.guidance) s+=`<div style="font-size:9px;color:var(--it);margin-top:4px">👁 ${tr.guidance}</div>`;
+  s+=`</div>`;
+  if(tr.branchReason) s+=`<div style="margin-top:8px;font-size:10px;color:var(--muted);padding:6px 9px;background:var(--off);border-radius:6px"><strong>What changed after this try:</strong> ${e?e.t:(tr.branchDecision||'')} — ${tr.branchReason}</div>`;
+  s+=`</div></div>`;
+  return s;
+}
+
+function toggleAdaptiveTry(mapId,i){
+  const cont=document.getElementById('amap-detail-'+mapId); if(!cont)return;
+  const panel=document.getElementById('amap-try-'+mapId+'-'+i);
+  const open=panel&&panel.style.display!=='none';
+  Array.prototype.forEach.call(cont.children,c=>c.style.display='none');
+  document.querySelectorAll('[id^="amap-node-'+mapId+'-"]').forEach(n=>n.style.boxShadow='none');
+  if(!open&&panel){ panel.style.display='block';
+    const node=document.getElementById('amap-node-'+mapId+'-'+i); if(node) node.style.boxShadow='0 0 0 3px rgba(31,32,96,.3)'; }
+}
+
+// Visual flow of one topic: Scenario → answers → branch edges → outcome.
+// Each answer circle is clickable and reveals the full try detail below.
+function renderBranchMap(rec, mapId){
+  const tries=_adaptiveTries(rec);
+  if(!tries.length) return '';
+  const trail=rec.branch_trail||[];
+  let flow=`<div style="flex-shrink:0;text-align:center"><div style="padding:6px 11px;border-radius:8px;background:var(--navy);color:#fff;font-size:10px;font-weight:600;white-space:nowrap">${_ADAPT_PRIORITY[rec.priority]||rec.priority||'Start'}</div><div style="font-size:8px;color:var(--faint);margin-top:3px">scenario</div></div>`;
+  tries.forEach((tr,i)=>{
+    flow+=renderEdge(i===0?'OPEN':(trail[i-1]||{}).decision, i===0?'':(trail[i-1]||{}).reason);
+    flow+=renderTurnNode(tr,mapId,i);
+  });
+  const term=rec.close_decision||(trail[trail.length-1]||{}).decision;
+  flow+=renderEdge(term,(trail[trail.length-1]||{}).reason);
+  flow+=renderOutcome(rec,term);
+  const panels=tries.map((tr,i)=>`<div id="amap-try-${mapId}-${i}" style="display:none">${renderTryDetail(tr)}</div>`).join('');
+  return `<div style="overflow-x:auto;padding:12px;background:linear-gradient(180deg,#fbfcff,#f3f6fc);border-bottom:1px solid var(--border)">
+    <div style="display:flex;align-items:center;min-width:max-content">${flow}</div>
+    <div style="font-size:8px;color:var(--faint);margin-top:6px">Tip: click any answer circle to see that try in full — question, answer, analysis and what changed.</div>
+  </div>
+  <div id="amap-detail-${mapId}" style="background:#fdfdff">${panels}</div>`;
+}
+
+function renderAdaptiveInterviews(assessmentId, progress, pcAnalysis){
   const records=(progress?.adaptive_records||[]).filter(r=>(r.dialogue||[]).length);
   const state  = progress?.adaptive_state||{};
   if(!records.length) return '';
@@ -1417,7 +1464,8 @@ function renderAdaptiveInterviews(progress, pcAnalysis){
     }
   });
 
-  records.forEach(rec=>{
+  records.forEach((rec,recIdx)=>{
+    const mapId=assessmentId+'-'+recIdx;
     const isSat=rec.final_judgement==='Satisfactory';
     const pct=rec.final_confidence?Math.round(rec.final_confidence*100):null;
     const candTurns=(rec.dialogue||[]).filter(t=>t.role==='candidate');
@@ -1441,7 +1489,7 @@ function renderAdaptiveInterviews(progress, pcAnalysis){
       </div>
 
       <!-- Branch-path diagram -->
-      ${renderBranchMap(rec)}
+      ${renderBranchMap(rec, mapId)}
 
       <!-- Integrity summary -->
       <div style="padding:8px 12px;border-bottom:1px solid var(--border);display:flex;gap:6px;flex-wrap:wrap;align-items:center">
