@@ -19,8 +19,9 @@ Each agent's output feeds the next — no repeated parsing, shared context.
 import json, logging, asyncio
 from typing import Optional
 from .unit_registry import UnitOfCompetency
-from .prompt_safety import INJECTION_GUARD, wrap_untrusted
+from .prompt_safety import INJECTION_GUARD, wrap_untrusted, cached_system
 from .llm_json import extract_json
+from . import cost
 
 logger = logging.getLogger(__name__)
 
@@ -63,7 +64,7 @@ def _call_sync(client, model: str, system: str, user: str,
                max_tokens: int = 2000):
     return client.messages.create(
         model=model, max_tokens=max_tokens,
-        system=system,
+        system=cached_system(system),
         messages=[{"role": "user", "content": user}]
     )
 
@@ -74,8 +75,8 @@ async def _call(client, model: str, system: str, user: str,
     system = f"{INJECTION_GUARD}\n\n{system}"
     response = await loop.run_in_executor(
         None, _call_sync, client, model, system, user, max_tokens)
-    raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return extract_json(raw)
+    cost.record(model, getattr(response, "usage", None), "orchestrator")
+    return extract_json(response.content[0].text)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
