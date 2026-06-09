@@ -52,6 +52,86 @@ HITL_REMINDER = (
 
 BRANCHES = {"DEEPEN", "CHALLENGE", "PIVOT", "ADVANCE", "GAP"}
 
+# ── Stable instruction + output schemas ───────────────────────────────────────
+# These live in the (cached) system prompt so the Vertex prompt cache covers the
+# large, repeated schema on every call; only the per-candidate data goes in the
+# user message. Plain strings (single braces), byte-identical across calls.
+
+_PROFILE_SCHEMA = """For EACH PC decide a questioning_priority:
+- CONFIRM  : strong résumé evidence — ask one confirmatory scenario only
+- PROBE    : partial evidence — ask a targeted scenario to fill the gap
+- EXPLORE  : unclear — ask an open scenario to discover whether they can do it
+- GAP      : no evidence — flag for an alternate evidence pathway
+
+Return ONLY this JSON object:
+{
+  "experience_profile": {
+    "summary": "2-3 sentences on the candidate's relevant experience base",
+    "primary_domain": "their main field of practice",
+    "roles": [
+      {"employer":"", "title":"", "duration":"", "key_activities":[], "tools_equipment":[], "procedures":[]}
+    ],
+    "total_relevant_years": "estimate",
+    "currency": "CURRENT|BORDERLINE|STALE"
+  },
+  "pc_coverage": [
+    {
+      "unit_code":"", "pc_id":"", "pc_text":"",
+      "coverage":"STRONG|PARTIAL|UNCLEAR|NONE",
+      "resume_evidence":"specific quote/paraphrase from the résumé, or null",
+      "confidence":0.0-1.0,
+      "rationale":"why this coverage level",
+      "questioning_priority":"CONFIRM|PROBE|EXPLORE|GAP"
+    }
+  ],
+  "authenticity_baseline": {
+    "specificity_level":"HIGH|MEDIUM|LOW",
+    "domain_terms_used":["sector-specific terms the candidate actually used"],
+    "writing_style_markers":["observations about their natural writing voice"],
+    "notes":"baseline to compare later answers against for authenticity"
+  },
+  "recommended_pathway":"PROCEED_RPL|PROCEED_WITH_GAPS|CONSIDER_TRAINING|DISCUSS_WITH_CANDIDATE",
+  "evidence_to_request":["specific documents to gather before/alongside the conversation"]
+}"""
+
+_TURN_SCHEMA = """Decide the branch and return ONLY this JSON object:
+{
+  "turn_analysis": {
+    "confidence": 0.0-1.0,
+    "judgement": "Satisfactory|Not Satisfactory",
+    "demonstrated": ["specific capability/knowledge shown in THIS answer"],
+    "missing": ["what is still needed to satisfy the benchmark"],
+    "evidence_quotes": ["direct quote from the answer that maps to the benchmark"]
+  },
+  "authenticity": {
+    "consistent_with_resume": true,
+    "specificity": "HIGH|MEDIUM|LOW",
+    "concerns": ["any authenticity concern, e.g. mismatch with stated experience"],
+    "verdict": "AUTHENTIC|UNCERTAIN|SUSPECT"
+  },
+  "branch": {
+    "decision": "DEEPEN|CHALLENGE|PIVOT|ADVANCE|GAP",
+    "reason": "why this branch",
+    "next_scenario": "context for the next scenario (empty if ADVANCE/GAP closing)",
+    "next_question": "the next question to ask (empty if ADVANCE/GAP closing)"
+  },
+  "cumulative": {
+    "confidence": 0.0-1.0,
+    "judgement": "Satisfactory|Not Satisfactory",
+    "summary": "running judgement on this PC across the dialogue"
+  },
+  "encouragement": "one supportive sentence acknowledging what they got right",
+  "assessor_note": "what the human assessor should verify before accepting this PC"
+}
+
+BRANCH DECISIONS:
+- DEEPEN   : answer is on-track but needs more specificity → press for detail
+- CHALLENGE: answer is generic, evasive, AI-like, or inconsistent with their résumé → pose a curveball a real practitioner could answer but a fabricator could not
+- PIVOT    : their real experience is in an adjacent area → re-anchor the scenario to it
+- ADVANCE  : the PC is satisfactorily demonstrated → close this PC
+- GAP      : a genuine capability gap is evident → record it, suggest an alternate pathway
+If AI probability is HIGH or VERY_HIGH you MUST choose the CHALLENGE branch."""
+
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -166,7 +246,7 @@ async def profile_candidate_experience(client, model: str,
         f"{INJECTION_GUARD}\n"
         "Read the candidate's background and map their real experience against each "
         "Performance Criterion. Be realistic — distinguish strong evidence from "
-        "assumptions. Respond ONLY in valid JSON."
+        "assumptions. Respond ONLY in valid JSON.\n\n" + _PROFILE_SCHEMA
     )
 
     user = f"""Profile this candidate for RPL across: {unit_titles}{ctx}
@@ -182,42 +262,7 @@ Résumé / background (untrusted candidate data):
 Performance Criteria to map against:
 {json.dumps(pcs, indent=2)}
 
-For EACH PC decide a questioning_priority:
-- CONFIRM  : strong résumé evidence — ask one confirmatory scenario only
-- PROBE    : partial evidence — ask a targeted scenario to fill the gap
-- EXPLORE  : unclear — ask an open scenario to discover whether they can do it
-- GAP      : no evidence — flag for an alternate evidence pathway
-
-Return JSON:
-{{
-  "experience_profile": {{
-    "summary": "2-3 sentences on the candidate's relevant experience base",
-    "primary_domain": "their main field of practice",
-    "roles": [
-      {{"employer":"", "title":"", "duration":"", "key_activities":[], "tools_equipment":[], "procedures":[]}}
-    ],
-    "total_relevant_years": "estimate",
-    "currency": "CURRENT|BORDERLINE|STALE"
-  }},
-  "pc_coverage": [
-    {{
-      "unit_code":"", "pc_id":"", "pc_text":"",
-      "coverage":"STRONG|PARTIAL|UNCLEAR|NONE",
-      "resume_evidence":"specific quote/paraphrase from the résumé, or null",
-      "confidence":0.0-1.0,
-      "rationale":"why this coverage level",
-      "questioning_priority":"CONFIRM|PROBE|EXPLORE|GAP"
-    }}
-  ],
-  "authenticity_baseline": {{
-    "specificity_level":"HIGH|MEDIUM|LOW",
-    "domain_terms_used":["sector-specific terms the candidate actually used"],
-    "writing_style_markers":["observations about their natural writing voice"],
-    "notes":"baseline to compare later answers against for authenticity"
-  }},
-  "recommended_pathway":"PROCEED_RPL|PROCEED_WITH_GAPS|CONSIDER_TRAINING|DISCUSS_WITH_CANDIDATE",
-  "evidence_to_request":["specific documents to gather before/alongside the conversation"]
-}}"""
+Return ONLY the JSON object defined in the system prompt."""
 
     try:
         result = await _call(client, model, system, user, max_tokens=4000)
@@ -410,15 +455,7 @@ async def adaptive_scenario_turn(client, model: str,
         "You guide the candidate through realistic scenarios and BRANCH based on "
         "the substance of each answer. Keep every scenario anchored to the PC's "
         "benchmark (validity). Continuously check that answers are consistent with "
-        "the candidate's stated experience (authenticity).\n\n"
-        "BRANCH DECISIONS:\n"
-        "- DEEPEN   : answer is on-track but needs more specificity → press for detail\n"
-        "- CHALLENGE: answer is generic, evasive, AI-like, or inconsistent with their "
-        "résumé → pose a curveball a real practitioner could answer but a fabricator could not\n"
-        "- PIVOT    : their real experience is in an adjacent area → re-anchor the scenario to it\n"
-        "- ADVANCE  : the PC is satisfactorily demonstrated → close this PC\n"
-        "- GAP      : a genuine capability gap is evident → record it, suggest an alternate pathway\n"
-        "Respond ONLY in valid JSON."
+        "the candidate's stated experience (authenticity).\n\n" + _TURN_SCHEMA
     )
 
     user = f"""PC {pc_id}: {pc_text}
@@ -444,36 +481,7 @@ AI-usage pre-analysis (from a separate detector):
 NOTE: If AI probability is HIGH or VERY_HIGH, you MUST choose the CHALLENGE branch.
 
 Turn {turn_number} of {max_turns} maximum.
-
-Return JSON:
-{{
-  "turn_analysis":{{
-    "confidence":0.0-1.0,
-    "judgement":"Satisfactory|Not Satisfactory",
-    "demonstrated":["specific capability/knowledge shown in THIS answer"],
-    "missing":["what is still needed to satisfy the benchmark"],
-    "evidence_quotes":["direct quote from the answer that maps to the benchmark"]
-  }},
-  "authenticity":{{
-    "consistent_with_resume":true|false,
-    "specificity":"HIGH|MEDIUM|LOW",
-    "concerns":["any authenticity concern, e.g. mismatch with stated experience"],
-    "verdict":"AUTHENTIC|UNCERTAIN|SUSPECT"
-  }},
-  "branch":{{
-    "decision":"DEEPEN|CHALLENGE|PIVOT|ADVANCE|GAP",
-    "reason":"why this branch",
-    "next_scenario":"context for the next scenario (empty if ADVANCE/GAP closing)",
-    "next_question":"the next question to ask (empty if ADVANCE/GAP closing)"
-  }},
-  "cumulative":{{
-    "confidence":0.0-1.0,
-    "judgement":"Satisfactory|Not Satisfactory",
-    "summary":"running judgement on this PC across the dialogue"
-  }},
-  "encouragement":"one supportive sentence acknowledging what they got right",
-  "assessor_note":"what the human assessor should verify before accepting this PC"
-}}"""
+Return ONLY the JSON object defined in the system prompt."""
 
     try:
         result = await _call(client, model, system, user, max_tokens=1800)
