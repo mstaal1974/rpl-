@@ -796,6 +796,15 @@ async def trainer_get_assessment(
     """Get full assessment record including student progress (tenant-scoped)."""
     data = await get_assessment(assessment_id)
     _check_record_tenant(data, user)
+    # Belt-and-braces: if the candidate has submitted but some answers still lack
+    # an AI analysis (e.g. the submit-time background run was interrupted), kick
+    # the idempotent analysis now — it runs while this instance is warm and skips
+    # anything already scored, so it's ready by the time the assessor refreshes.
+    if data and data.get("status") in ("SUBMITTED", "COMPLETE") and _has_unanalysed_answers(data):
+        try:
+            asyncio.create_task(_analyse_assessment_on_submit(assessment_id))
+        except Exception:
+            pass
     return data
 
 
@@ -975,7 +984,143 @@ async def student_submit(assessment_id: str, token: str = ""):
     # Send email notification to trainer (if SendGrid configured)
     await _notify_trainer_submission(data)
 
+    # Pre-run AI analysis on every answered knowledge question in the background,
+    # so the assessor opens a fully-analysed assessment instead of clicking
+    # "Run analysis" per question. Fire-and-forget — submit returns immediately.
+    try:
+        asyncio.create_task(_analyse_assessment_on_submit(assessment_id))
+    except Exception as e:
+        logger.warning(f"Could not schedule submit-analysis for {assessment_id}: {e}")
+
     return {"submitted": True, "message": "Your RPL has been submitted. Your trainer will review it and be in touch."}
+
+
+# ── Knowledge-answer analysis (shared by the trainer button and submit-time run) ──
+
+def _is_placeholder_q(q) -> bool:
+    """A question whose model answer guide is the generic template placeholder."""
+    if not q:
+        return True
+    pts = q.model_answer_guide.expected_knowledge_points
+    return not pts or (len(pts) == 1 and pts[0].lower().startswith("technical understanding of"))
+
+
+def _normalise_knowledge_result(result: dict, question_obj) -> dict:
+    """Fill both old and new schema fields so the UI can render any analysis."""
+    if "confidence_score_percent" in result and "overall_score_percent" not in result:
+        result["overall_score_percent"] = result["confidence_score_percent"]
+    if "overall_score_percent" not in result:
+        result["overall_score_percent"] = 0
+    if "commentary" not in result:
+        result["commentary"] = result.get("evaluation_summary") or result.get("summary") or ""
+    if "meets_requirement" not in result:
+        s = result.get("overall_score_percent", 0)
+        result["meets_requirement"] = ("FULLY" if s >= 85 else "SUBSTANTIALLY" if s >= 70
+                                       else "PARTIALLY" if s >= 50 else "MINIMALLY" if s >= 30 else "NOT_MET")
+    if "what_the_answer_demonstrates" not in result:
+        result["what_the_answer_demonstrates"] = (result.get("matched_knowledge_points")
+                                                  or result.get("evidence_items") or [])
+    if "what_is_missing" not in result:
+        result["what_is_missing"] = (result.get("missing_or_weak_knowledge_points")
+                                     or result.get("gaps") or [])
+    if "judgement" not in result:
+        result["judgement"] = "Satisfactory" if result.get("overall_score_percent", 0) >= 70 else "Not Satisfactory"
+    if "next_step" not in result:
+        s = result.get("overall_score_percent", 0)
+        result["next_step"] = ("PROCEED" if s >= 70 else "PROBE" if s >= 50
+                               else "INTERVIEW" if s >= 30 else "NOT_DEMONSTRATED")
+    if question_obj:
+        result["pc_id"] = question_obj.pc_id
+        result["question_text"] = question_obj.text
+    return result
+
+
+def _has_unanalysed_answers(rec: dict) -> bool:
+    """True if any answered knowledge question lacks a scored analysis."""
+    progress      = rec.get("progress", {}) or {}
+    responses_all = progress.get("knowledge_responses", {}) or {}
+    existing_all  = progress.get("knowledge_analyses", {}) or {}
+    for unit_code, unit_responses in responses_all.items():
+        if not isinstance(unit_responses, dict):
+            continue
+        existing = existing_all.get(unit_code, {}) or {}
+        for q_idx_str, answer in unit_responses.items():
+            if not str(q_idx_str).isdigit() or not answer or len(str(answer).split()) < 5:
+                continue
+            if (existing.get(q_idx_str) or {}).get("overall_score_percent") is None:
+                return True
+    return False
+
+
+async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: dict) -> dict:
+    """Run + normalise the AI analysis for one knowledge answer (no persistence)."""
+    question_obj = unit.knowledge_questions[q_idx] if q_idx < len(unit.knowledge_questions) else None
+    if not _is_placeholder_q(question_obj):
+        result = await evaluate_knowledge_answer_detailed(
+            get_client(), MODEL, unit, question_obj.model_dump(), answer, candidate=candidate)
+    else:
+        result = await analyse_knowledge_response(
+            get_client(), MODEL, unit,
+            question_obj.text if question_obj else "", answer,
+            [question_obj.pc_id] if question_obj else [],
+            question_obj.element_ref if question_obj else "", candidate=candidate)
+    return _normalise_knowledge_result(result, question_obj)
+
+
+async def _analyse_assessment_on_submit(assessment_id: str):
+    """
+    Background: analyse every answered knowledge question that hasn't been scored
+    yet, so the assessor sees a complete assessment. Sequential + the shared 429
+    backoff keeps it gentle on the Vertex quota.
+    """
+    try:
+        await asyncio.sleep(1)  # let the submit write settle
+        rec = await get_assessment(assessment_id)
+        if not rec:
+            return
+        progress      = rec.get("progress", {}) or {}
+        candidate     = rec.get("candidate", {}) or {}
+        responses_all = progress.get("knowledge_responses", {}) or {}
+        existing_all  = progress.get("knowledge_analyses", {}) or {}
+        total = 0
+        for unit_code in rec.get("unit_codes", []):
+            unit = registry.get(unit_code)
+            if not unit:
+                continue
+            unit_responses = responses_all.get(unit_code)
+            if not isinstance(unit_responses, dict):
+                # Legacy flat shape — only treat as this unit's if keys look numeric.
+                unit_responses = responses_all if all(str(k).isdigit() for k in responses_all) else {}
+            existing = existing_all.get(unit_code, {}) or {}
+            new_results = {}
+            for q_idx_str, answer in (unit_responses or {}).items():
+                if not str(q_idx_str).isdigit() or not answer or len(str(answer).split()) < 5:
+                    continue
+                # Skip answers already analysed with a real score.
+                if (existing.get(q_idx_str) or {}).get("overall_score_percent") is not None:
+                    continue
+                try:
+                    result = await _compute_knowledge_analysis(unit, int(q_idx_str), str(answer), candidate)
+                except Exception as e:
+                    logger.warning(f"submit-analysis {assessment_id} {unit_code} Q{q_idx_str}: {e}")
+                    continue
+                await save_assessment(assessment_id, f"knowledge_q{int(q_idx_str)+1}", {
+                    "unit_code": unit_code, "question": result.get("question_text", ""),
+                    "answer": str(answer), "analysis": result,
+                    "timestamp": datetime.now(timezone.utc).isoformat()})
+                new_results[q_idx_str] = result
+                total += 1
+                await asyncio.sleep(0.5)  # spread token usage across the minute
+            if new_results:
+                fresh = await get_assessment(assessment_id)
+                prog = (fresh or {}).get("progress", {}) or {}
+                ka = prog.get("knowledge_analyses", {}) or {}
+                ka.setdefault(unit_code, {}).update(new_results)
+                prog["knowledge_analyses"] = ka
+                await save_progress(assessment_id, prog)
+        logger.info(f"Submit-analysis complete for {assessment_id}: {total} answer(s) analysed")
+    except Exception as e:
+        logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
 
 
 async def _notify_trainer_submission(assessment_data: dict):
@@ -3071,66 +3216,8 @@ async def trainer_analyse_question(assessment_id: str, data: dict,
 
     candidate_data = assessment.get("candidate", {})
 
-    def _is_placeholder(q):
-        if not q: return True
-        pts = q.model_answer_guide.expected_knowledge_points
-        return not pts or (len(pts)==1 and pts[0].lower().startswith("technical understanding of"))
-
     try:
-        if not _is_placeholder(question_obj):
-            result = await evaluate_knowledge_answer_detailed(
-                get_client(), MODEL, unit,
-                question_obj.model_dump(), answer,
-                candidate=candidate_data)
-        else:
-            result = await analyse_knowledge_response(
-                get_client(), MODEL, unit,
-                question_obj.text if question_obj else "",
-                answer,
-                [question_obj.pc_id] if question_obj else [],
-                question_obj.element_ref if question_obj else "",
-                candidate=candidate_data)
-
-        # Normalise result — ensure both old and new schema fields are present
-        # Old schema: confidence_score_percent (0-100)
-        # New schema: overall_score_percent (0-100), commentary, meets_requirement
-        if "confidence_score_percent" in result and "overall_score_percent" not in result:
-            result["overall_score_percent"] = result["confidence_score_percent"]
-        if "overall_score_percent" not in result:
-            result["overall_score_percent"] = 0
-        if "commentary" not in result:
-            result["commentary"] = (result.get("evaluation_summary") or
-                                    result.get("summary") or "")
-        if "meets_requirement" not in result:
-            score = result.get("overall_score_percent", 0)
-            result["meets_requirement"] = (
-                "FULLY" if score >= 85 else
-                "SUBSTANTIALLY" if score >= 70 else
-                "PARTIALLY" if score >= 50 else
-                "MINIMALLY" if score >= 30 else "NOT_MET")
-        if "what_the_answer_demonstrates" not in result:
-            result["what_the_answer_demonstrates"] = (
-                result.get("matched_knowledge_points") or
-                result.get("evidence_items") or [])
-        if "what_is_missing" not in result:
-            result["what_is_missing"] = (
-                result.get("missing_or_weak_knowledge_points") or
-                result.get("gaps") or [])
-        if "judgement" not in result:
-            result["judgement"] = (
-                "Satisfactory" if result.get("overall_score_percent",0) >= 70
-                else "Not Satisfactory")
-        if "next_step" not in result:
-            score = result.get("overall_score_percent", 0)
-            result["next_step"] = (
-                "PROCEED" if score >= 70 else
-                "PROBE" if score >= 50 else
-                "INTERVIEW" if score >= 30 else "NOT_DEMONSTRATED")
-
-        # Attach metadata
-        if question_obj:
-            result["pc_id"]        = question_obj.pc_id
-            result["question_text"]= question_obj.text
+        result = await _compute_knowledge_analysis(unit, q_idx, answer, candidate_data)
 
         # Save to sub-record
         await save_assessment(assessment_id, f"knowledge_q{q_idx+1}", {
