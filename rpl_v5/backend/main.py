@@ -24,7 +24,7 @@ from .mapping_engine import (run_mapping, run_gap_analysis, analyse_knowledge_re
 from .orchestrator import (orchestrate_rpl_assessment, orchestrate_multi_unit_assessment)
 from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
 from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
-    adaptive_scenario_turn)
+    adaptive_scenario_turn, generate_resume_relevance_hints)
 from .prompt_safety import guard, wrap_untrusted
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
@@ -2502,6 +2502,45 @@ async def adaptive_turn(data: dict):
             "answer": latest_answer, "analysis": result,
             "timestamp": datetime.now(timezone.utc).isoformat()})
     return result
+
+
+@app.post("/api/knowledge/resume-hints")
+async def knowledge_resume_hints(data: dict):
+    """
+    Per-question hints relating each (generic) underpinning-knowledge question to
+    the candidate's own experience, drawn from their résumé. One cached call per
+    unit. Authenticated by the candidate's invite token.
+    """
+    token         = data.get("token", "")
+    assessment_id = data.get("assessment_id", "")
+    unit_code     = data.get("unit_code", "")
+    assessment    = await _verify_student_token(token, assessment_id)
+
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    progress = assessment.get("progress", {})
+    cache    = progress.get("knowledge_hints", {})
+    if cache.get(unit_code):
+        return {"unit_code": unit_code, "hints": cache[unit_code], "cached": True}
+
+    candidate   = assessment.get("candidate", {})
+    resume_text = _resume_text_from(progress, candidate)
+    if not resume_text:
+        return {"unit_code": unit_code, "hints": {}, "cached": False,
+                "note": "No résumé on file — add one to get experience-relevant hints."}
+
+    try:
+        hints = await generate_resume_relevance_hints(
+            get_client(), MODEL, unit, candidate, resume_text)
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+    cache[unit_code] = hints
+    progress["knowledge_hints"] = cache
+    await save_progress(assessment_id, progress)
+    return {"unit_code": unit_code, "hints": hints, "cached": False}
 
 
 # ══════════════════════════════════════════════════════════════════════════════

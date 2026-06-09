@@ -584,6 +584,7 @@ function viewKnowledge(root){
     </div>
   </div></div>`;
   buildQNav(unit,qs); loadQ(unit,qs,0);
+  ensureResumeHints(unit);
 }
 
 function switchKnowledgeUnit(idx){
@@ -613,6 +614,32 @@ function buildQNav(unit,qs){
   }).join('');
 }
 
+// Per-question hint relating the (generic) knowledge question to the candidate's
+// own experience. One cached fetch per unit; renders into #q-resume-hint.
+async function ensureResumeHints(unit){
+  if(!unit) return;
+  if(S.progress.knowledge_hints?.[unit.code]){ renderQHint(unit); return; }
+  const resume=S.progress.candidate_notes?.resume;
+  if(!resume) return;  // nothing to relate to yet
+  try{
+    const r=await fetch(`${API}/knowledge/resume-hints`,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({token:TOKEN, assessment_id:S.assessmentId, unit_code:unit.code})});
+    if(!r.ok) return;
+    const d=await r.json();
+    if(!S.progress.knowledge_hints) S.progress.knowledge_hints={};
+    S.progress.knowledge_hints[unit.code]=d.hints||{};
+    triggerSave();
+    renderQHint(unit);
+  }catch(e){/* hints are best-effort */}
+}
+
+function renderQHint(unit){
+  const el=document.getElementById('q-resume-hint'); if(!el)return;
+  const hint=S.progress.knowledge_hints?.[unit.code]?.[S.curQ];
+  el.innerHTML = hint ? `<div style="padding:7px 9px;background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;font-size:10px;color:#166534;line-height:1.55;margin-bottom:9px">
+    <strong>🧭 How this relates to your experience:</strong> ${hint}</div>` : '';
+}
+
 function loadQ(unit,qs,idx){
   S.curQ=idx;
   const q=qs[idx];
@@ -632,6 +659,7 @@ function loadQ(unit,qs,idx){
     ${q.hint?`<div style="padding:7px 9px;background:var(--ib);border-radius:6px;font-size:10px;color:var(--it);line-height:1.55;margin-bottom:9px">
       <strong>What to address:</strong> ${q.hint}
     </div>`:''}
+    <div id="q-resume-hint"></div>
     <textarea id="q-in" rows="5"
       placeholder="Explain your technical understanding — what are the key requirements, procedures, or standards? Technical accuracy matters more than personal experience here."
       oninput="onQIn('${unit.code}',${idx})">${prev}</textarea>
@@ -641,6 +669,7 @@ function loadQ(unit,qs,idx){
     </div>
     ${analysis?renderAI(analysis):'<div id="ai-out"></div>'}
   </div>`;
+  renderQHint(unit);
   updateWC();
   const hasA=!!analysis,hasR=prev.trim().split(/\s+/).length>=10;
   document.getElementById('q-an').disabled=!hasR;
