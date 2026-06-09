@@ -72,6 +72,17 @@ def _extract_json(raw: str):
         raise
 
 
+# Backoff schedule (seconds) for Vertex per-minute quota (429 / RESOURCE_EXHAUSTED).
+# Long enough to outlast a tokens-per-minute bucket without holding a request forever.
+_RATE_LIMIT_BACKOFF = [4, 12, 30]
+
+
+def _is_rate_limited(err: Exception) -> bool:
+    m = str(err)
+    return ("429" in m or "RESOURCE_EXHAUSTED" in m
+            or ("rate" in m.lower() and "limit" in m.lower()))
+
+
 async def _call(client, model: str, system: str, user: str,
                 max_tokens: int = 2500) -> dict:
     loop = asyncio.get_event_loop()
@@ -79,8 +90,29 @@ async def _call(client, model: str, system: str, user: str,
         return client.messages.create(
             model=model, max_tokens=max_tokens,
             system=system, messages=[{"role": "user", "content": user}])
-    resp = await loop.run_in_executor(None, _sync)
-    return _extract_json(resp.content[0].text)
+    last = None
+    for attempt in range(len(_RATE_LIMIT_BACKOFF) + 1):
+        try:
+            resp = await loop.run_in_executor(None, _sync)
+            return _extract_json(resp.content[0].text)
+        except Exception as e:
+            # Retry only on rate-limit/quota errors; surface everything else.
+            if attempt < len(_RATE_LIMIT_BACKOFF) and _is_rate_limited(e):
+                wait = _RATE_LIMIT_BACKOFF[attempt]
+                # Honour a Retry-After header if the SDK exposed one.
+                hdrs = getattr(getattr(e, "response", None), "headers", None)
+                if hdrs is not None:
+                    try:
+                        wait = max(wait, float(hdrs.get("retry-after")))
+                    except (TypeError, ValueError):
+                        pass
+                logger.warning(f"Vertex quota hit on {model}; retry "
+                               f"{attempt + 1}/{len(_RATE_LIMIT_BACKOFF)} in {wait:.0f}s")
+                await asyncio.sleep(wait)
+                last = e
+                continue
+            raise
+    raise last
 
 
 def _candidate_line(candidate: dict) -> str:

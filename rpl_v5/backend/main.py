@@ -171,10 +171,16 @@ def get_client():
         logger.info(f"Initialising Vertex client: project={project_id} region={region}")
         _ac = anthropic.AnthropicVertex(
             project_id=project_id,
-            region=region)
+            region=region,
+            max_retries=4,      # SDK auto-retries 429/5xx with backoff (honours Retry-After)
+            timeout=120.0)
     return _ac
 
 MODEL = "claude-sonnet-4-6"
+# Lighter model on a SEPARATE Vertex quota pool — used for the auxiliary adaptive
+# calls (résumé profiling, scenario plan, knowledge hints) so they don't consume
+# the Sonnet tokens-per-minute budget that the scoring/branching calls need.
+HAIKU = "claude-haiku-4-5-20251001"
 
 # ── Auth model ────────────────────────────────────────────────────────────────
 # v4 used a shared TRAINER_PIN. v5 uses per-user JWT login.
@@ -2388,7 +2394,7 @@ async def profile_experience(req: ProfileExperienceRequest,
     industry    = req.industry_context or progress.get("industry_context", "")
     try:
         profile = await profile_candidate_experience(
-            get_client(), MODEL, units, candidate, resume_text, industry)
+            get_client(), HAIKU, units, candidate, resume_text, industry)
     except Exception as e:
         raise HTTPException(500, str(e))
     progress["adaptive_profile"] = profile
@@ -2423,7 +2429,7 @@ async def adaptive_start(data: dict):
         resume_text = _resume_text_from(progress, candidate)
         try:
             profile = await profile_candidate_experience(
-                get_client(), MODEL, [unit], candidate, resume_text, industry)
+                get_client(), HAIKU, [unit], candidate, resume_text, industry)
         except Exception as e:
             raise HTTPException(500, f"Experience profiling failed: {e}")
         progress["adaptive_profile"] = profile
@@ -2434,7 +2440,7 @@ async def adaptive_start(data: dict):
     if not plan:
         try:
             plan = await build_adaptive_plan(
-                get_client(), MODEL, unit, profile, candidate, industry)
+                get_client(), HAIKU, unit, profile, candidate, industry)
         except Exception as e:
             raise HTTPException(500, f"Adaptive plan failed: {e}")
         plans[unit_code] = plan
@@ -2533,7 +2539,7 @@ async def knowledge_resume_hints(data: dict):
 
     try:
         hints = await generate_resume_relevance_hints(
-            get_client(), MODEL, unit, candidate, resume_text)
+            get_client(), HAIKU, unit, candidate, resume_text)
     except Exception as e:
         raise HTTPException(500, str(e))
 
