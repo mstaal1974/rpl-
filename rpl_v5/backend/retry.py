@@ -10,12 +10,28 @@ errors surface immediately.
 """
 import asyncio
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
 # Seconds to wait between attempts (≈46s total) — enough to let a per-minute
 # tokens-per-minute bucket refill, without holding a request open forever.
 RATE_LIMIT_BACKOFF = [4, 12, 30]
+
+# Global cap on concurrent Claude calls — smooths bursts (e.g. the orchestrator's
+# per-element fan-out) so they don't all hit the quota in the same instant.
+_SEM = None
+
+
+def _sem():
+    global _SEM
+    if _SEM is None:
+        try:
+            n = max(1, int(os.getenv("LLM_MAX_CONCURRENCY", "4")))
+        except (TypeError, ValueError):
+            n = 4
+        _SEM = asyncio.Semaphore(n)
+    return _SEM
 
 
 def is_rate_limited(err: Exception) -> bool:
@@ -25,12 +41,14 @@ def is_rate_limited(err: Exception) -> bool:
 
 
 async def acall(sync_fn, label: str = ""):
-    """Run sync_fn() in the default executor, retrying on quota/429 errors."""
+    """Run sync_fn() in the default executor under a concurrency cap, retrying on
+    quota/429 errors with backoff. The cap is released during backoff sleeps."""
     loop = asyncio.get_event_loop()
     last = None
     for attempt in range(len(RATE_LIMIT_BACKOFF) + 1):
         try:
-            return await loop.run_in_executor(None, sync_fn)
+            async with _sem():
+                return await loop.run_in_executor(None, sync_fn)
         except Exception as e:
             if attempt < len(RATE_LIMIT_BACKOFF) and is_rate_limited(e):
                 wait = RATE_LIMIT_BACKOFF[attempt]
