@@ -12,7 +12,7 @@ import json, logging, asyncio
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted, guard, cached_system
 from .llm_json import extract_json
-from . import cost
+from . import cost, retry
 
 # AI-usage detection is linguistic-forensic work that Haiku handles well — run it
 # on Haiku (separate quota pool, 1/3 the price) instead of Sonnet.
@@ -440,7 +440,7 @@ async def run_mapping(client, model: str, unit: UnitOfCompetency, candidate: dic
         return client.messages.create(model=model, max_tokens=6000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
     result = extract_json(raw)
     result["unit_meta"] = {
@@ -508,7 +508,7 @@ Return JSON:
         return client.messages.create(model=model, max_tokens=3000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
     return extract_json(raw)
 
@@ -531,7 +531,7 @@ async def analyse_knowledge_response(client, model: str, unit: UnitOfCompetency,
         return client.messages.create(model=model, max_tokens=2000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     cost.record(model, getattr(response, "usage", None), "knowledge_analysis")
     result = extract_json(response.content[0].text)
 
@@ -599,7 +599,7 @@ Return JSON:
         return client.messages.create(model=model, max_tokens=2000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
     return extract_json(raw)
 
@@ -660,7 +660,7 @@ Return JSON:
         return client.messages.create(model=model, max_tokens=2000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
     return extract_json(raw)
 
@@ -813,7 +813,7 @@ Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=6000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -908,7 +908,7 @@ Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -1015,7 +1015,7 @@ Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=3000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -1079,7 +1079,7 @@ Generate sector-specific assessment guidance. Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=3000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -1197,7 +1197,7 @@ Generate a determination worksheet. Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -1288,7 +1288,7 @@ Return JSON:
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
             system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
 
@@ -1401,7 +1401,7 @@ Return JSON array:
             system=KNOWLEDGE_QUESTION_SYSTEM,
             messages=[{"role": "user", "content": user}]
         )
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     pc_blocks = extract_json(raw)
 
@@ -1528,7 +1528,7 @@ Return JSON:
             system=cached_system(guard(system)),
             messages=[{"role": "user", "content": user}]
         )
-    response = await loop.run_in_executor(None, _call)
+    response = await retry.acall(_call, 'mapping')
     cost.record(model, getattr(response, "usage", None), "knowledge_eval")
     return extract_json(response.content[0].text)
 
@@ -1785,7 +1785,7 @@ Apply the 8 AI indicators and return ONLY the JSON object defined in the system 
                 model=AI_DETECTION_MODEL, max_tokens=2000,
                 system=cached_system(system),
                 messages=[{"role": "user", "content": user}])
-        _resp = await asyncio.get_event_loop().run_in_executor(None, _detect)
+        _resp = await retry.acall(_detect, 'ai_detection')
         cost.record(AI_DETECTION_MODEL, getattr(_resp, "usage", None), "ai_detection")
         linguistic = extract_json(_resp.content[0].text)
     except Exception as e:
