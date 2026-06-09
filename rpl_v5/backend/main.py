@@ -24,8 +24,9 @@ from .mapping_engine import (run_mapping, run_gap_analysis, analyse_knowledge_re
 from .orchestrator import (orchestrate_rpl_assessment, orchestrate_multi_unit_assessment)
 from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
 from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
-    adaptive_scenario_turn)
+    adaptive_scenario_turn, generate_resume_relevance_hints)
 from .prompt_safety import guard, wrap_untrusted
+from .llm_json import extract_json
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
     submit_assessment, complete_assessment,
@@ -170,10 +171,16 @@ def get_client():
         logger.info(f"Initialising Vertex client: project={project_id} region={region}")
         _ac = anthropic.AnthropicVertex(
             project_id=project_id,
-            region=region)
+            region=region,
+            max_retries=4,      # SDK auto-retries 429/5xx with backoff (honours Retry-After)
+            timeout=120.0)
     return _ac
 
 MODEL = "claude-sonnet-4-6"
+# Lighter model on a SEPARATE Vertex quota pool — used for the auxiliary adaptive
+# calls (résumé profiling, scenario plan, knowledge hints) so they don't consume
+# the Sonnet tokens-per-minute budget that the scoring/branching calls need.
+HAIKU = "claude-haiku-4-5-20251001"
 
 # ── Auth model ────────────────────────────────────────────────────────────────
 # v4 used a shared TRAINER_PIN. v5 uses per-user JWT login.
@@ -2300,8 +2307,7 @@ Return JSON:
                 messages=[{"role": "user", "content": user}]
             )
         response = await loop.run_in_executor(None, _call)
-        raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-        result = json.loads(raw)
+        result = extract_json(response.content[0].text)
 
         # ── Safety override: enforce follow-up logic based on actual confidence ──
         cumulative    = result.get("cumulative_analysis", {})
@@ -2388,7 +2394,7 @@ async def profile_experience(req: ProfileExperienceRequest,
     industry    = req.industry_context or progress.get("industry_context", "")
     try:
         profile = await profile_candidate_experience(
-            get_client(), MODEL, units, candidate, resume_text, industry)
+            get_client(), HAIKU, units, candidate, resume_text, industry)
     except Exception as e:
         raise HTTPException(500, str(e))
     progress["adaptive_profile"] = profile
@@ -2423,7 +2429,7 @@ async def adaptive_start(data: dict):
         resume_text = _resume_text_from(progress, candidate)
         try:
             profile = await profile_candidate_experience(
-                get_client(), MODEL, [unit], candidate, resume_text, industry)
+                get_client(), HAIKU, [unit], candidate, resume_text, industry)
         except Exception as e:
             raise HTTPException(500, f"Experience profiling failed: {e}")
         progress["adaptive_profile"] = profile
@@ -2434,7 +2440,7 @@ async def adaptive_start(data: dict):
     if not plan:
         try:
             plan = await build_adaptive_plan(
-                get_client(), MODEL, unit, profile, candidate, industry)
+                get_client(), HAIKU, unit, profile, candidate, industry)
         except Exception as e:
             raise HTTPException(500, f"Adaptive plan failed: {e}")
         plans[unit_code] = plan
@@ -2502,6 +2508,45 @@ async def adaptive_turn(data: dict):
             "answer": latest_answer, "analysis": result,
             "timestamp": datetime.now(timezone.utc).isoformat()})
     return result
+
+
+@app.post("/api/knowledge/resume-hints")
+async def knowledge_resume_hints(data: dict):
+    """
+    Per-question hints relating each (generic) underpinning-knowledge question to
+    the candidate's own experience, drawn from their résumé. One cached call per
+    unit. Authenticated by the candidate's invite token.
+    """
+    token         = data.get("token", "")
+    assessment_id = data.get("assessment_id", "")
+    unit_code     = data.get("unit_code", "")
+    assessment    = await _verify_student_token(token, assessment_id)
+
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    progress = assessment.get("progress", {})
+    cache    = progress.get("knowledge_hints", {})
+    if cache.get(unit_code):
+        return {"unit_code": unit_code, "hints": cache[unit_code], "cached": True}
+
+    candidate   = assessment.get("candidate", {})
+    resume_text = _resume_text_from(progress, candidate)
+    if not resume_text:
+        return {"unit_code": unit_code, "hints": {}, "cached": False,
+                "note": "No résumé on file — add one to get experience-relevant hints."}
+
+    try:
+        hints = await generate_resume_relevance_hints(
+            get_client(), HAIKU, unit, candidate, resume_text)
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+    cache[unit_code] = hints
+    progress["knowledge_hints"] = cache
+    await save_progress(assessment_id, progress)
+    return {"unit_code": unit_code, "hints": hints, "cached": False}
 
 
 # ══════════════════════════════════════════════════════════════════════════════

@@ -490,7 +490,7 @@ function viewResume(root){
   <textarea id="resume-note" rows="3" placeholder="e.g. My resume doesn't reflect my time at XYZ Lab where I performed daily WHS checks..." onchange="S.progress.candidate_notes.resume=this.value;triggerSave()">${S.progress.candidate_notes?.resume||''}</textarea></div>
   <div style="display:flex;justify-content:space-between;margin-top:12px">
     <button class="btn" onclick="go('checklist')">← Back</button>
-    <button class="btn btn-p" onclick="markStepDone('resume');go('position')">Save &amp; continue →</button>
+    <button class="btn btn-p" onclick="markStepDone('resume');pregenerateKnowledgeHints();go('position')">Save &amp; continue →</button>
   </div></div>`;
 }
 
@@ -584,6 +584,7 @@ function viewKnowledge(root){
     </div>
   </div></div>`;
   buildQNav(unit,qs); loadQ(unit,qs,0);
+  ensureResumeHints(unit);
 }
 
 function switchKnowledgeUnit(idx){
@@ -613,6 +614,59 @@ function buildQNav(unit,qs){
   }).join('');
 }
 
+// Per-question hint relating the (generic) knowledge question to the candidate's
+// own experience. One cached fetch per unit; renders into #q-resume-hint.
+async function ensureResumeHints(unit){
+  if(!unit) return;
+  if(S.progress.knowledge_hints?.[unit.code]){ renderQHint(unit); return; }
+  const resume=S.progress.candidate_notes?.resume;
+  if(!resume) return;  // nothing to relate to yet
+  try{
+    const r=await fetch(`${API}/knowledge/resume-hints`,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({token:TOKEN, assessment_id:S.assessmentId, unit_code:unit.code})});
+    if(!r.ok) return;
+    const d=await r.json();
+    if(!S.progress.knowledge_hints) S.progress.knowledge_hints={};
+    S.progress.knowledge_hints[unit.code]=d.hints||{};
+    triggerSave();
+    renderQHint(unit);
+  }catch(e){/* hints are best-effort */}
+}
+
+function renderQHint(unit){
+  const el=document.getElementById('q-resume-hint'); if(!el)return;
+  const hint=S.progress.knowledge_hints?.[unit.code]?.[S.curQ];
+  el.innerHTML = hint ? `<div style="padding:7px 9px;background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;font-size:10px;color:#166534;line-height:1.55;margin-bottom:9px">
+    <strong>🧭 How this relates to your experience:</strong> ${hint}</div>` : '';
+}
+
+// Pre-generate hints for every unit in the background after the résumé step, so
+// they're cached by the time the candidate reaches the knowledge questions.
+// Fire-and-forget — navigation is never blocked, and viewKnowledge still
+// lazily fetches as a fallback.
+async function pregenerateKnowledgeHints(){
+  // Persist the latest résumé note first so the server has it to work from.
+  try{
+    await fetch(`${API}/student/progress`,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({assessment_id:S.assessmentId, progress:S.progress, token:TOKEN})});
+  }catch(e){ return; }
+  if(!S.progress.candidate_notes?.resume) return;  // nothing to relate to
+  for(const u of (S.units||[])){
+    if(!(u.knowledge_questions||[]).length) continue;
+    if(S.progress.knowledge_hints?.[u.code]) continue;
+    try{
+      const r=await fetch(`${API}/knowledge/resume-hints`,{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({token:TOKEN, assessment_id:S.assessmentId, unit_code:u.code})});
+      if(r.ok){
+        const d=await r.json();
+        if(!S.progress.knowledge_hints) S.progress.knowledge_hints={};
+        S.progress.knowledge_hints[u.code]=d.hints||{};
+      }
+    }catch(e){/* best-effort */}
+  }
+  triggerSave();
+}
+
 function loadQ(unit,qs,idx){
   S.curQ=idx;
   const q=qs[idx];
@@ -632,6 +686,7 @@ function loadQ(unit,qs,idx){
     ${q.hint?`<div style="padding:7px 9px;background:var(--ib);border-radius:6px;font-size:10px;color:var(--it);line-height:1.55;margin-bottom:9px">
       <strong>What to address:</strong> ${q.hint}
     </div>`:''}
+    <div id="q-resume-hint"></div>
     <textarea id="q-in" rows="5"
       placeholder="Explain your technical understanding — what are the key requirements, procedures, or standards? Technical accuracy matters more than personal experience here."
       oninput="onQIn('${unit.code}',${idx})">${prev}</textarea>
@@ -641,6 +696,7 @@ function loadQ(unit,qs,idx){
     </div>
     ${analysis?renderAI(analysis):'<div id="ai-out"></div>'}
   </div>`;
+  renderQHint(unit);
   updateWC();
   const hasA=!!analysis,hasR=prev.trim().split(/\s+/).length>=10;
   document.getElementById('q-an').disabled=!hasR;
@@ -715,8 +771,14 @@ function renderAI(r){
   const iconCol = isFull ? '#166534' : isPartial ? '#854D0E' : '#991B1B';
   const demonstrated = (r.what_the_answer_demonstrates||r.evidence_items||r.matched_knowledge_points||[]).filter(e=>e);
   const missing = (r.what_is_missing||r.gaps||r.missing_or_weak_knowledge_points||[]).filter(g=>g);
-  const commentary = r.commentary || r.summary || r.evaluation_summary || '';
+  let   commentary = r.commentary || r.summary || r.evaluation_summary || r.evaluation_rationale || '';
   const reqMap = (r.requirements_map||[]).filter(rm=>rm.requirement);
+  // Never render a "see feedback below" header with an empty body.
+  const hasBody = !!(commentary || demonstrated.length || missing.length || reqMap.length || r.followup_question);
+  if(!hasBody){
+    commentary = 'Your response was analysed, but the detailed feedback did not come through. Click "Re-analyse" to try again.';
+  }
+  const judgementLabel = r.judgement || (isFull?'Satisfactory':isPartial?'Partially demonstrated':'Not yet demonstrated');
 
   return `<div id="ai-out" style="background:${bg};border:1px solid ${bdr};border-radius:10px;padding:0;margin-top:10px;overflow:hidden">
 
@@ -724,8 +786,8 @@ function renderAI(r){
     <div style="padding:10px 14px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;border-bottom:1px solid ${bdr}">
       <span style="font-size:18px;color:${iconCol}">${icon}</span>
       <div>
-        <div style="font-size:12px;font-weight:600;color:${iconCol}">${r.judgement||'Analysed'}</div>
-        <div style="font-size:10px;color:${iconCol};opacity:.8">${meetsReq.replace(/_/g,' ')} — ${isFull?'meets the requirement':'see feedback below'}</div>
+        <div style="font-size:12px;font-weight:600;color:${iconCol}">${judgementLabel}</div>
+        <div style="font-size:10px;color:${iconCol};opacity:.8">${meetsReq.replace(/_/g,' ')}${isFull?' — meets the requirement':' — see feedback below'}</div>
       </div>
       ${r.pc_id?`<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--muted);padding:2px 8px;border-radius:8px;border:1px solid var(--border);background:#fff">PC ${r.pc_id}</span>`:''}
     </div>

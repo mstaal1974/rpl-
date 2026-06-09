@@ -11,6 +11,7 @@ against the benchmark for each PC, producing:
 import json, logging, asyncio
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted, guard
+from .llm_json import extract_json
 
 logger = logging.getLogger(__name__)
 
@@ -432,7 +433,7 @@ async def run_mapping(client, model: str, unit: UnitOfCompetency, candidate: dic
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    result = json.loads(raw)
+    result = extract_json(raw)
     result["unit_meta"] = {
         "code":           unit.code,
         "title":          unit.title,
@@ -500,7 +501,7 @@ Return JSON:
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 async def analyse_knowledge_response(client, model: str, unit: UnitOfCompetency,
@@ -522,7 +523,7 @@ async def analyse_knowledge_response(client, model: str, unit: UnitOfCompetency,
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    result = json.loads(raw)
+    result = extract_json(raw)
 
     # Ensure commentary is always populated for student display
     if not result.get("commentary"):
@@ -590,7 +591,7 @@ Return JSON:
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 async def generate_third_party_report_template(client, model: str,
@@ -651,7 +652,7 @@ Return JSON:
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -804,7 +805,7 @@ Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -899,7 +900,7 @@ Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1006,7 +1007,7 @@ Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1070,7 +1071,7 @@ Generate sector-specific assessment guidance. Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1188,7 +1189,7 @@ Generate a determination worksheet. Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1279,7 +1280,7 @@ Return JSON:
             system=guard(system), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1392,7 +1393,7 @@ Return JSON array:
         )
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    pc_blocks = json.loads(raw)
+    pc_blocks = extract_json(raw)
 
     # Flatten into KnowledgeQuestion dicts
     questions = []
@@ -1519,7 +1520,7 @@ Return JSON:
         )
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1594,9 +1595,16 @@ def _heuristic_signals(answer: str, all_responses: list = None) -> dict:
         r'the laboratory|the organisation|the company|our workplace|our organisation|'
         r'my current role|my current workplace)',
         text, re.IGNORECASE))
+    # Named employer/site references — NOT bare acronyms. The old pattern counted
+    # any all-caps token (PPE, WHS, SOP, SDS, QA) as a "specific workplace",
+    # which is exactly the domain jargon authentic VET answers are full of —
+    # systematically under-flagging AI text. Match proper-noun entities instead:
+    # a Title-Case name with a company/org suffix, or a run of 2+ Title-Case words.
     specific_workplace = len(re.findall(
-        r'\b[A-Z]{2,}\b|\b[A-Z][a-z]+ (Pty|Ltd|Inc|Group|Labs?|Industries|'
-        r'Services|Solutions|Technologies|Corporation)',
+        r'\b[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]+)*\s+'
+        r'(?:Pty|Ltd|Inc|Group|Labs?|Industries|Services|Solutions|'
+        r'Technologies|Corporation|Council|Hospital|University|Department)\b'
+        r'|\b[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,}){1,}\b',
         text))
 
     # Structural AI markers
@@ -1759,14 +1767,13 @@ Return JSON:
     try:
         linguistic = await asyncio.get_event_loop().run_in_executor(
             None,
-            lambda: json.loads(
+            lambda: extract_json(
                 client.messages.create(
                     model=model, max_tokens=2000,
                     system=guard(system),
                     messages=[{"role": "user", "content": user}]
                 ).content[0].text
-                .strip().replace("```json","").replace("```","").strip()
-            )
+                )
         )
     except Exception as e:
         logger.warning(f"AI detection linguistic analysis failed: {e}")
