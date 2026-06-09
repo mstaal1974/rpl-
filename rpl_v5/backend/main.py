@@ -806,16 +806,108 @@ async def trainer_get_assessment(
     """Get full assessment record including student progress (tenant-scoped)."""
     data = await get_assessment(assessment_id)
     _check_record_tenant(data, user)
-    # Belt-and-braces: if the candidate has submitted but some answers still lack
-    # an AI analysis (e.g. the submit-time background run was interrupted), kick
-    # the idempotent analysis now — it runs while this instance is warm and skips
-    # anything already scored, so it's ready by the time the assessor refreshes.
-    if data and data.get("status") in ("SUBMITTED", "COMPLETE") and _has_unanalysed_answers(data):
-        try:
-            asyncio.create_task(_analyse_assessment_on_submit(assessment_id))
-        except Exception:
-            pass
+    # When the assessor opens an assessment, generate any missing AI artefacts in
+    # the background (idempotent), so they're ready on the assessor's next refresh.
+    # Fires for ANY status. Knowledge analyses always; the heavy orchestrator
+    # mapping only when it's still missing (so it runs once, not on every open).
+    if data:
+        needs_map = _needs_mapping(data)
+        needs_aid = _needs_ai_detection(data)
+        if needs_map or needs_aid or _has_unanalysed_answers(data):
+            try:
+                asyncio.create_task(_analyse_assessment_on_submit(
+                    assessment_id, with_mapping=needs_map, with_ai_detection=needs_aid))
+            except Exception:
+                pass
     return data
+
+
+async def _read_sub_records(assessment_id: str) -> dict:
+    """Return {record_type: data} for every sub-record of an assessment."""
+    out = {}
+    from .database import _firestore
+    db = _firestore()
+    if db:
+        try:
+            async for rec in db.collection("rpl_assessments").document(
+                    assessment_id).collection("records").stream():
+                out[rec.id] = rec.to_dict()
+        except Exception as e:
+            logger.warning(f"read sub-records failed for {assessment_id}: {e}")
+    else:
+        from .database import _store
+        out = dict(_store.get(assessment_id, {}) or {})
+    return out
+
+
+@app.get("/api/trainer/assessments/{assessment_id}/final-record")
+async def trainer_final_record(assessment_id: str,
+                               user: dict = Depends(current_user)):
+    """
+    Assemble the complete RPL assessment evidence record — every stored artefact
+    (candidate, evidence, AI analyses, mapping, AI-usage report, conversations,
+    portfolio review, determinations, consent) in one ASQA-audit-ready structure.
+    """
+    data = await get_assessment(assessment_id)
+    _check_record_tenant(data, user)
+    subs     = await _read_sub_records(assessment_id)
+    progress = data.get("progress", {}) or {}
+
+    units = []
+    for code in data.get("unit_codes", []):
+        u = registry.get(code)
+        units.append({
+            "code": code,
+            "title": u.title if u else "",
+            "training_package": u.training_package_name if u else "",
+            "elements": [{"id": el.id, "title": el.title,
+                          "pcs": [{"id": pc.id, "text": pc.text} for pc in el.pcs]}
+                         for el in (u.elements if u else [])],
+        })
+
+    record = {
+        "record_type":  "RPL Assessment — Evidence Record",
+        "rto":          "ABC Training RTO #5800",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_by": {"name": user.get("name"), "email": user.get("email"),
+                         "role": user.get("role")},
+        "assessment": {
+            "id":           assessment_id,
+            "status":       data.get("status"),
+            "created_at":   data.get("created_at"),
+            "first_opened": data.get("first_opened"),
+            "submitted_at": data.get("submitted_at"),
+            "completed_at": data.get("completed_at"),
+            "trainer_notes": data.get("notes", ""),
+        },
+        "candidate":  data.get("candidate", {}),
+        "assessor":   {"name": data.get("trainer_name", ""),
+                       "email": data.get("trainer_email", "")},
+        "units":      units,
+        "privacy_consent":           subs.get("privacy_consent"),
+        "self_assessment_checklist": progress.get("checklist", {}),
+        "documents": {
+            "uploads":         progress.get("uploads", {}),
+            "candidate_notes": progress.get("candidate_notes", {}),
+        },
+        "knowledge_responses":   progress.get("knowledge_responses", {}),
+        "knowledge_analyses":    progress.get("knowledge_analyses", {}),
+        "competency_conversations": progress.get("conversation_records", []),
+        "adaptive_interview":    progress.get("adaptive_records", []),
+        "ai_mapping":            progress.get("mapping") or {},
+        "ai_mappings":           progress.get("mappings", {}),
+        "ai_usage_report":       progress.get("ai_detection", {}),
+        "portfolio_review":      subs.get("portfolio_review"),
+        "determinations":        [v for k, v in subs.items()
+                                  if k.startswith("formal_determination_")],
+        "assessor_decisions":    [v for k, v in subs.items()
+                                  if k.startswith("assessor_")],
+        "hitl_statement": (
+            "All AI analysis in this record is decision-support only. The qualified "
+            "assessor named above has reviewed all evidence and made the final "
+            "competency determination in accordance with the Standards for RTOs 2015."),
+    }
+    return record
 
 
 @app.post("/api/trainer/assessments/{assessment_id}/complete")
@@ -1062,6 +1154,42 @@ def _has_unanalysed_answers(rec: dict) -> bool:
     return False
 
 
+def _has_candidate_evidence(progress: dict) -> bool:
+    """True if the candidate has done enough for a mapping to be meaningful."""
+    if (progress.get("candidate_notes", {}) or {}).get("resume"):
+        return True
+    for ur in (progress.get("knowledge_responses", {}) or {}).values():
+        if isinstance(ur, dict) and any(str(a).strip() for a in ur.values()):
+            return True
+    return False
+
+
+def _needs_mapping(rec: dict) -> bool:
+    """True if AUTO_MAP is on and some unit still lacks an AI mapping guide."""
+    if os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() in ("0", "false", "no"):
+        return False
+    progress   = rec.get("progress", {}) or {}
+    unit_codes = rec.get("unit_codes", [])
+    if not unit_codes or not _has_candidate_evidence(progress):
+        return False
+    mapped = set((progress.get("mappings", {}) or {}).keys())
+    if len(unit_codes) == 1 and progress.get("mapping"):
+        mapped.add(unit_codes[0])
+    return any(uc not in mapped for uc in unit_codes)
+
+
+def _needs_ai_detection(rec: dict) -> bool:
+    """True if AUTO_AI_DETECTION is on and some unit lacks an AI-usage report."""
+    if os.getenv("AUTO_AI_DETECTION", "1").lower() in ("0", "false", "no"):
+        return False
+    progress   = rec.get("progress", {}) or {}
+    unit_codes = rec.get("unit_codes", [])
+    if not unit_codes or not _has_candidate_evidence(progress):
+        return False
+    existing = set((progress.get("ai_detection", {}) or {}).keys())
+    return any(uc not in existing for uc in unit_codes)
+
+
 async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: dict) -> dict:
     """Run + normalise the AI analysis for one knowledge answer (no persistence)."""
     question_obj = unit.knowledge_questions[q_idx] if q_idx < len(unit.knowledge_questions) else None
@@ -1077,12 +1205,21 @@ async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: 
     return _normalise_knowledge_result(result, question_obj)
 
 
-async def _analyse_assessment_on_submit(assessment_id: str):
+# Dedup guard so repeated trainer-open / auto-refresh GETs don't spawn overlapping
+# background runs for the same assessment (per-instance; good enough).
+_analysis_in_flight: set = set()
+
+
+async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool = True,
+                                        with_ai_detection: bool = True):
     """
     Background: analyse every answered knowledge question that hasn't been scored
     yet, so the assessor sees a complete assessment. Sequential + the shared 429
     backoff keeps it gentle on the Vertex quota.
     """
+    if assessment_id in _analysis_in_flight:
+        return  # a run is already in progress for this assessment
+    _analysis_in_flight.add(assessment_id)
     try:
         await asyncio.sleep(1)  # let the submit write settle
         rec = await get_assessment(assessment_id)
@@ -1131,11 +1268,18 @@ async def _analyse_assessment_on_submit(assessment_id: str):
         logger.info(f"Submit-analysis complete for {assessment_id}: {total} answer(s) analysed")
 
         # Then the heavier orchestrator mapping (the assessor's "AI mapping guide").
-        # Gated by an off-switch so a quota-constrained RTO can disable it.
-        if os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
+        # Gated by an off-switch so a quota-constrained RTO can disable it, and
+        # skipped for the per-open trainer trigger (with_mapping=False).
+        if with_mapping and os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
             await _generate_mappings_on_submit(assessment_id)
+
+        # And the AI-usage / authenticity report (Haiku internally — cheap).
+        if with_ai_detection and os.getenv("AUTO_AI_DETECTION", "1").lower() not in ("0", "false", "no"):
+            await _generate_ai_detection_on_submit(assessment_id)
     except Exception as e:
         logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
+    finally:
+        _analysis_in_flight.discard(assessment_id)
 
 
 async def _generate_mappings_on_submit(assessment_id: str):
@@ -1201,6 +1345,50 @@ async def _generate_mappings_on_submit(assessment_id: str):
         logger.info(f"Submit-mapping complete for {assessment_id}: {len(made)} unit(s) mapped")
     except Exception as e:
         logger.error(f"Submit-mapping task failed for {assessment_id}: {e}")
+
+
+async def _generate_ai_detection_on_submit(assessment_id: str):
+    """
+    Background: run the AI-usage / authenticity report for each unit that doesn't
+    have one yet, and store it in progress.ai_detection[unit] so the trainer view
+    shows it without a manual click. Idempotent; Haiku internally so it's cheap.
+    """
+    try:
+        rec = await get_assessment(assessment_id)
+        if not rec:
+            return
+        progress  = rec.get("progress", {}) or {}
+        candidate = rec.get("candidate", {}) or {}
+        existing  = set((progress.get("ai_detection", {}) or {}).keys())
+        made = {}
+        for unit_code in rec.get("unit_codes", []):
+            if unit_code in existing:
+                continue
+            unit = registry.get(unit_code)
+            if not unit:
+                continue
+            try:
+                report = await analyse_assessment_for_ai_usage(
+                    get_client(), MODEL, unit, rec, candidate)
+            except Exception as e:
+                logger.warning(f"submit-ai-detection {assessment_id} {unit_code}: {e}")
+                continue
+            # Skip empty reports (no responses to analyse).
+            if not report or not report.get("response_analyses"):
+                continue
+            await save_assessment(assessment_id, f"ai_detection_{unit_code}", report)
+            made[unit_code] = report
+
+        if made:
+            fresh = await get_assessment(assessment_id)
+            prog = (fresh or {}).get("progress", {}) or {}
+            ad = prog.get("ai_detection", {}) or {}
+            ad.update(made)
+            prog["ai_detection"] = ad
+            await save_progress(assessment_id, prog)
+        logger.info(f"Submit-ai-detection complete for {assessment_id}: {len(made)} unit(s)")
+    except Exception as e:
+        logger.error(f"Submit-ai-detection task failed for {assessment_id}: {e}")
 
 
 async def _notify_trainer_submission(assessment_data: dict):
