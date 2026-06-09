@@ -158,16 +158,23 @@ _ac = None
 def get_client():
     global _ac
     if _ac is None:
-        # Resolve project ID from the environment (Cloud Run injects
-        # GOOGLE_CLOUD_PROJECT automatically). Fail loudly if it is missing
-        # rather than leaking a hard-coded project ID in source.
+        # Escape hatch: if ANTHROPIC_API_KEY is set, use Anthropic's direct API
+        # instead of Vertex — bypasses the Vertex per-model token quota entirely
+        # (useful when the Vertex Claude quota is 0 / a quota increase is pending).
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if api_key:
+            logger.info("Initialising direct Anthropic API client (ANTHROPIC_API_KEY set)")
+            _ac = anthropic.Anthropic(api_key=api_key, max_retries=4, timeout=120.0)
+            return _ac
+        # Otherwise use Vertex. Resolve project ID from the environment (Cloud Run
+        # injects GOOGLE_CLOUD_PROJECT automatically). Fail loudly if missing.
         project_id = (os.getenv("GOOGLE_CLOUD_PROJECT") or
                       os.getenv("ANTHROPIC_VERTEX_PROJECT_ID") or
                       os.getenv("GCLOUD_PROJECT"))
         if not project_id:
             raise RuntimeError(
-                "No GCP project configured — set GOOGLE_CLOUD_PROJECT "
-                "(or ANTHROPIC_VERTEX_PROJECT_ID) before using AI features.")
+                "No AI backend configured — set ANTHROPIC_API_KEY (direct API) or "
+                "GOOGLE_CLOUD_PROJECT (Vertex) before using AI features.")
         region = os.getenv("VERTEX_REGION", "global")
         logger.info(f"Initialising Vertex client: project={project_id} region={region}")
         _ac = anthropic.AnthropicVertex(
