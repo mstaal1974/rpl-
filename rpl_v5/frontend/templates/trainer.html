@@ -232,14 +232,20 @@ async function viewAssessment(id){
     const a=await apiGet(`/trainer/assessments/${id}`);
     const c=a.candidate||{},p=a.progress||{},mapping=p.mapping;
     const steps=['checklist','resume','position','knowledge','evidence'],done=p.completed_steps||[];
-    // Normalise analyses — new schema uses overall_score_percent, old used confidence (0-1)
-    const analyses=Object.values(p.knowledge_analyses||{}).flatMap(u=>Object.values(u)).map(a=>({
-      ...a,
-      confidence: a.overall_score_percent!=null ? a.overall_score_percent/100
-                : (a.confidence||a.confidence_score_percent/100||0),
-      verdict: a.meets_requirement || a.verdict || (a.judgement==='Satisfactory'?'STRENGTH':'GAP'),
-      summary: a.commentary?.substring(0,60) || a.summary || ''
-    }));
+    // Normalise analyses — new schema uses overall_score_percent, old used confidence (0-1).
+    // An analysis with NO score field has not been run yet — mark it Pending, don't
+    // render it as a real 0% / GAP (which falsely implies the candidate failed).
+    const analyses=Object.values(p.knowledge_analyses||{}).flatMap(u=>Object.values(u)).map(a=>{
+      const scored = a.overall_score_percent!=null || a.confidence!=null || a.confidence_score_percent!=null;
+      return {...a, scored,
+        confidence: a.overall_score_percent!=null ? a.overall_score_percent/100
+                  : (a.confidence!=null ? a.confidence
+                  : (a.confidence_score_percent!=null ? a.confidence_score_percent/100 : 0)),
+        verdict: a.meets_requirement || a.verdict
+                  || (a.judgement==='Satisfactory'?'STRENGTH':(scored?'GAP':'PENDING')),
+        summary: (a.commentary || a.summary || '').substring(0,60)
+      };
+    });
     let html=`<div style="display:flex;align-items:center;gap:7px;margin-bottom:10px;flex-wrap:wrap">
       <button class="btn btn-sm" data-nav="dashboard">← Back</button>
       <div style="font-size:13px;font-weight:500">${c.name||'Candidate'} — ${(a.unit_codes||[]).join(', ')}</div>
@@ -268,12 +274,24 @@ async function viewAssessment(id){
 
     // Confidence trend
     if(analyses.length){
-      const avg=(analyses.reduce((s,a)=>s+(a.confidence||0),0)/analyses.length).toFixed(2);
-      const last=analyses[analyses.length-1]?.confidence||0,first=analyses[0]?.confidence||0;
-      const trend=last>first?'↑ Improving':last<first?'↓ Declining':'→ Stable';
+      const scoredA=analyses.filter(a=>a.scored);
+      const pending=analyses.length-scoredA.length;
+      const avg=scoredA.length?(scoredA.reduce((s,a)=>s+(a.confidence||0),0)/scoredA.length).toFixed(2):'—';
+      const last=scoredA[scoredA.length-1]?.confidence||0,first=scoredA[0]?.confidence||0;
+      const trend=!scoredA.length?'not analysed yet':last>first?'↑ Improving':last<first?'↓ Declining':'→ Stable';
       html+=`<div class="card" style="margin-bottom:10px">
-        <div class="ctitle">Confidence trend <span style="font-size:10px;font-weight:400;color:var(--muted)">${trend} · avg ${avg}</span></div>
-        ${analyses.map((a,i)=>{const pct=Math.round((a.confidence||0)*100);const col=pct>=70?'var(--green)':pct>=50?'var(--pa)':'var(--ra)';
+        <div class="ctitle">Confidence trend <span style="font-size:10px;font-weight:400;color:var(--muted)">${trend}${scoredA.length?' · avg '+avg:''}${pending?' · '+pending+' pending':''}</span></div>
+        ${analyses.map((a,i)=>{
+          if(!a.scored){
+            return `<div class="trend-row">
+              <div class="trend-dot" style="background:var(--border)"></div>
+              <div style="font-size:11px;flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.summary||('Q'+(i+1))}</div>
+              <div style="font-size:10px;color:var(--faint);min-width:30px;text-align:right">—</div>
+              <div style="width:70px;margin-left:6px"></div>
+              <span class="chip" style="margin-left:5px;background:var(--off);color:var(--muted)">Not analysed yet</span>
+            </div>`;
+          }
+          const pct=Math.round((a.confidence||0)*100);const col=pct>=70?'var(--green)':pct>=50?'var(--pa)':'var(--ra)';
           return `<div class="trend-row">
             <div class="trend-dot" style="background:${col}"></div>
             <div style="font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.summary||('Q'+(i+1))}</div>
