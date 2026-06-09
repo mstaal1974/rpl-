@@ -806,16 +806,18 @@ async def trainer_get_assessment(
     """Get full assessment record including student progress (tenant-scoped)."""
     data = await get_assessment(assessment_id)
     _check_record_tenant(data, user)
-    # When the assessor opens an assessment, analyse any answered-but-unscored
-    # knowledge question in the background (idempotent — skips already-scored
-    # ones), so it's ready on the assessor's next refresh. Fires for ANY status
-    # (in-progress or submitted) and runs the knowledge analyses only — the heavy
-    # orchestrator mapping still runs on submit, not on every trainer open.
-    if data and _has_unanalysed_answers(data):
-        try:
-            asyncio.create_task(_analyse_assessment_on_submit(assessment_id, with_mapping=False))
-        except Exception:
-            pass
+    # When the assessor opens an assessment, generate any missing AI artefacts in
+    # the background (idempotent), so they're ready on the assessor's next refresh.
+    # Fires for ANY status. Knowledge analyses always; the heavy orchestrator
+    # mapping only when it's still missing (so it runs once, not on every open).
+    if data:
+        needs_map = _needs_mapping(data)
+        if needs_map or _has_unanalysed_answers(data):
+            try:
+                asyncio.create_task(
+                    _analyse_assessment_on_submit(assessment_id, with_mapping=needs_map))
+            except Exception:
+                pass
     return data
 
 
@@ -1063,6 +1065,30 @@ def _has_unanalysed_answers(rec: dict) -> bool:
     return False
 
 
+def _has_candidate_evidence(progress: dict) -> bool:
+    """True if the candidate has done enough for a mapping to be meaningful."""
+    if (progress.get("candidate_notes", {}) or {}).get("resume"):
+        return True
+    for ur in (progress.get("knowledge_responses", {}) or {}).values():
+        if isinstance(ur, dict) and any(str(a).strip() for a in ur.values()):
+            return True
+    return False
+
+
+def _needs_mapping(rec: dict) -> bool:
+    """True if AUTO_MAP is on and some unit still lacks an AI mapping guide."""
+    if os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() in ("0", "false", "no"):
+        return False
+    progress   = rec.get("progress", {}) or {}
+    unit_codes = rec.get("unit_codes", [])
+    if not unit_codes or not _has_candidate_evidence(progress):
+        return False
+    mapped = set((progress.get("mappings", {}) or {}).keys())
+    if len(unit_codes) == 1 and progress.get("mapping"):
+        mapped.add(unit_codes[0])
+    return any(uc not in mapped for uc in unit_codes)
+
+
 async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: dict) -> dict:
     """Run + normalise the AI analysis for one knowledge answer (no persistence)."""
     question_obj = unit.knowledge_questions[q_idx] if q_idx < len(unit.knowledge_questions) else None
@@ -1078,12 +1104,20 @@ async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: 
     return _normalise_knowledge_result(result, question_obj)
 
 
+# Dedup guard so repeated trainer-open / auto-refresh GETs don't spawn overlapping
+# background runs for the same assessment (per-instance; good enough).
+_analysis_in_flight: set = set()
+
+
 async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool = True):
     """
     Background: analyse every answered knowledge question that hasn't been scored
     yet, so the assessor sees a complete assessment. Sequential + the shared 429
     backoff keeps it gentle on the Vertex quota.
     """
+    if assessment_id in _analysis_in_flight:
+        return  # a run is already in progress for this assessment
+    _analysis_in_flight.add(assessment_id)
     try:
         await asyncio.sleep(1)  # let the submit write settle
         rec = await get_assessment(assessment_id)
@@ -1138,6 +1172,8 @@ async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool =
             await _generate_mappings_on_submit(assessment_id)
     except Exception as e:
         logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
+    finally:
+        _analysis_in_flight.discard(assessment_id)
 
 
 async def _generate_mappings_on_submit(assessment_id: str):

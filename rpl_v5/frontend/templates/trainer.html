@@ -243,12 +243,29 @@ function _pendingAnalysesCount(a){
   return n;
 }
 
+// Mapping is expected (and not yet present) when the candidate has done work but
+// progress.mapping hasn't been generated — the assessor-open trigger builds it.
+function _mappingPending(a){
+  const p=a.progress||{};
+  if(p.mapping) return false;
+  const ra=p.knowledge_responses||{};
+  const hasWork=(p.candidate_notes&&p.candidate_notes.resume) ||
+    Object.values(ra).some(ur=>ur&&typeof ur==='object'&&Object.values(ur).some(x=>String(x||'').trim()));
+  return !!hasWork;
+}
+
+function _anythingPending(a){ return _pendingAnalysesCount(a)>0 || _mappingPending(a); }
+
 function _analysisBanner(a,id){
   const n=_pendingAnalysesCount(a);
-  if(!n) return '';
+  const map=_mappingPending(a);
+  if(!n && !map) return '';
+  const parts=[];
+  if(n) parts.push(`<strong>${n}</strong> answer(s)`);
+  if(map) parts.push(`the AI mapping guide`);
   return `<div class="card" style="background:var(--ib);border:1px solid #93C5FD;margin-bottom:10px;display:flex;align-items:center;gap:10px">
     <span class="spinner spinner-d"></span>
-    <div style="flex:1;font-size:12px;color:var(--it)">AI analysis is generating for <strong>${n}</strong> answer(s) in the background — no need to click "Run analysis". The page updates automatically.</div>
+    <div style="flex:1;font-size:12px;color:var(--it)">AI analysis is generating for ${parts.join(' and ')} in the background — no need to click "Run analysis". The page updates automatically.</div>
     <button class="btn btn-sm" onclick="viewAssessment('${id}')">Refresh now</button>
   </div>`;
 }
@@ -381,7 +398,7 @@ async function viewAssessment(id){
     // re-render periodically so they appear without a manual click. Bounded (~90s),
     // skips a cycle if the assessor is typing, and preserves scroll position.
     clearTimeout(_analysisPollTimer);
-    if(_pendingAnalysesCount(a)>0 && _analysisPolls<6){
+    if(_anythingPending(a) && _analysisPolls<8){
       _analysisPolls++;
       _analysisPollTimer=setTimeout(function tick(){
         if(_lastAssessmentId!==id) return;
