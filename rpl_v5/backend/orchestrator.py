@@ -20,6 +20,7 @@ import json, logging, asyncio
 from typing import Optional
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted
+from .llm_json import extract_json
 
 logger = logging.getLogger(__name__)
 
@@ -74,7 +75,7 @@ async def _call(client, model: str, system: str, user: str,
     response = await loop.run_in_executor(
         None, _call_sync, client, model, system, user, max_tokens)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    return extract_json(raw)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -626,7 +627,7 @@ Return JSON:
     "signal": "{signal}",
     "aggregate_confidence": {avg_conf},
     "pc_match": {pc_match}, "pc_partial": {pc_partial}, "pc_gap": {pc_gap},
-    "k_satisfactory": {k_sat}, "k_not_satisfactory": {k_not - k_sat if k_not > k_sat else 0},
+    "k_satisfactory": {k_sat}, "k_not_satisfactory": {k_not},
     "narrative": "3-4 specific sentences on {candidate.get('name','')} at {candidate.get('employer','')} — what evidence is strong, what gaps exist",
     "hitl_note": "Specific instruction to the assessor before making determination"
   }},

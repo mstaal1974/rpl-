@@ -26,6 +26,7 @@ from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
 from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
     adaptive_scenario_turn, generate_resume_relevance_hints)
 from .prompt_safety import guard, wrap_untrusted
+from .llm_json import extract_json
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
     submit_assessment, complete_assessment,
@@ -2300,8 +2301,7 @@ Return JSON:
                 messages=[{"role": "user", "content": user}]
             )
         response = await loop.run_in_executor(None, _call)
-        raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-        result = json.loads(raw)
+        result = extract_json(response.content[0].text)
 
         # ── Safety override: enforce follow-up logic based on actual confidence ──
         cumulative    = result.get("cumulative_analysis", {})
