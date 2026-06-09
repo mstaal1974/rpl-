@@ -21,7 +21,7 @@ from typing import Optional
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted, cached_system
 from .llm_json import extract_json
-from . import cost
+from . import cost, retry
 
 logger = logging.getLogger(__name__)
 
@@ -70,11 +70,10 @@ def _call_sync(client, model: str, system: str, user: str,
 
 async def _call(client, model: str, system: str, user: str,
                 max_tokens: int = 2000) -> dict:
-    loop = asyncio.get_event_loop()
     # Harden every agent prompt against injection from candidate-supplied text.
     system = f"{INJECTION_GUARD}\n\n{system}"
-    response = await loop.run_in_executor(
-        None, _call_sync, client, model, system, user, max_tokens)
+    response = await retry.acall(
+        lambda: _call_sync(client, model, system, user, max_tokens), "orchestrator")
     cost.record(model, getattr(response, "usage", None), "orchestrator")
     return extract_json(response.content[0].text)
 

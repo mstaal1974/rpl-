@@ -27,7 +27,7 @@ from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
     adaptive_scenario_turn, generate_resume_relevance_hints)
 from .prompt_safety import guard, wrap_untrusted, cached_system
 from .llm_json import extract_json
-from . import cost
+from . import cost, retry
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
     submit_assessment, complete_assessment,
@@ -2308,7 +2308,7 @@ Return JSON:
                 system=cached_system(system),
                 messages=[{"role": "user", "content": user}]
             )
-        response = await loop.run_in_executor(None, _call)
+        response = await retry.acall(_call, "guided_turn")
         cost.record(MODEL, getattr(response, "usage", None), "guided_turn")
         result = extract_json(response.content[0].text)
 
