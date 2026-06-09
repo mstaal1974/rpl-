@@ -812,10 +812,11 @@ async def trainer_get_assessment(
     # mapping only when it's still missing (so it runs once, not on every open).
     if data:
         needs_map = _needs_mapping(data)
-        if needs_map or _has_unanalysed_answers(data):
+        needs_aid = _needs_ai_detection(data)
+        if needs_map or needs_aid or _has_unanalysed_answers(data):
             try:
-                asyncio.create_task(
-                    _analyse_assessment_on_submit(assessment_id, with_mapping=needs_map))
+                asyncio.create_task(_analyse_assessment_on_submit(
+                    assessment_id, with_mapping=needs_map, with_ai_detection=needs_aid))
             except Exception:
                 pass
     return data
@@ -1089,6 +1090,18 @@ def _needs_mapping(rec: dict) -> bool:
     return any(uc not in mapped for uc in unit_codes)
 
 
+def _needs_ai_detection(rec: dict) -> bool:
+    """True if AUTO_AI_DETECTION is on and some unit lacks an AI-usage report."""
+    if os.getenv("AUTO_AI_DETECTION", "1").lower() in ("0", "false", "no"):
+        return False
+    progress   = rec.get("progress", {}) or {}
+    unit_codes = rec.get("unit_codes", [])
+    if not unit_codes or not _has_candidate_evidence(progress):
+        return False
+    existing = set((progress.get("ai_detection", {}) or {}).keys())
+    return any(uc not in existing for uc in unit_codes)
+
+
 async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: dict) -> dict:
     """Run + normalise the AI analysis for one knowledge answer (no persistence)."""
     question_obj = unit.knowledge_questions[q_idx] if q_idx < len(unit.knowledge_questions) else None
@@ -1109,7 +1122,8 @@ async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: 
 _analysis_in_flight: set = set()
 
 
-async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool = True):
+async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool = True,
+                                        with_ai_detection: bool = True):
     """
     Background: analyse every answered knowledge question that hasn't been scored
     yet, so the assessor sees a complete assessment. Sequential + the shared 429
@@ -1170,6 +1184,10 @@ async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool =
         # skipped for the per-open trainer trigger (with_mapping=False).
         if with_mapping and os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
             await _generate_mappings_on_submit(assessment_id)
+
+        # And the AI-usage / authenticity report (Haiku internally — cheap).
+        if with_ai_detection and os.getenv("AUTO_AI_DETECTION", "1").lower() not in ("0", "false", "no"):
+            await _generate_ai_detection_on_submit(assessment_id)
     except Exception as e:
         logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
     finally:
@@ -1239,6 +1257,50 @@ async def _generate_mappings_on_submit(assessment_id: str):
         logger.info(f"Submit-mapping complete for {assessment_id}: {len(made)} unit(s) mapped")
     except Exception as e:
         logger.error(f"Submit-mapping task failed for {assessment_id}: {e}")
+
+
+async def _generate_ai_detection_on_submit(assessment_id: str):
+    """
+    Background: run the AI-usage / authenticity report for each unit that doesn't
+    have one yet, and store it in progress.ai_detection[unit] so the trainer view
+    shows it without a manual click. Idempotent; Haiku internally so it's cheap.
+    """
+    try:
+        rec = await get_assessment(assessment_id)
+        if not rec:
+            return
+        progress  = rec.get("progress", {}) or {}
+        candidate = rec.get("candidate", {}) or {}
+        existing  = set((progress.get("ai_detection", {}) or {}).keys())
+        made = {}
+        for unit_code in rec.get("unit_codes", []):
+            if unit_code in existing:
+                continue
+            unit = registry.get(unit_code)
+            if not unit:
+                continue
+            try:
+                report = await analyse_assessment_for_ai_usage(
+                    get_client(), MODEL, unit, rec, candidate)
+            except Exception as e:
+                logger.warning(f"submit-ai-detection {assessment_id} {unit_code}: {e}")
+                continue
+            # Skip empty reports (no responses to analyse).
+            if not report or not report.get("response_analyses"):
+                continue
+            await save_assessment(assessment_id, f"ai_detection_{unit_code}", report)
+            made[unit_code] = report
+
+        if made:
+            fresh = await get_assessment(assessment_id)
+            prog = (fresh or {}).get("progress", {}) or {}
+            ad = prog.get("ai_detection", {}) or {}
+            ad.update(made)
+            prog["ai_detection"] = ad
+            await save_progress(assessment_id, prog)
+        logger.info(f"Submit-ai-detection complete for {assessment_id}: {len(made)} unit(s)")
+    except Exception as e:
+        logger.error(f"Submit-ai-detection task failed for {assessment_id}: {e}")
 
 
 async def _notify_trainer_submission(assessment_data: dict):

@@ -254,19 +254,38 @@ function _mappingPending(a){
   return !!hasWork;
 }
 
-function _anythingPending(a){ return _pendingAnalysesCount(a)>0 || _mappingPending(a); }
+// AI-usage report is expected when there are answers but a unit has no stored report.
+function _aiDetectionPending(a){
+  const p=a.progress||{}, ra=p.knowledge_responses||{}, ad=p.ai_detection||{};
+  const hasWork=Object.values(ra).some(ur=>ur&&typeof ur==='object'&&Object.values(ur).some(x=>String(x||'').trim()));
+  if(!hasWork) return false;
+  return (a.unit_codes||[]).some(uc=>!ad[uc]);
+}
+
+function _anythingPending(a){ return _pendingAnalysesCount(a)>0 || _mappingPending(a) || _aiDetectionPending(a); }
 
 function _analysisBanner(a,id){
-  const n=_pendingAnalysesCount(a);
-  const map=_mappingPending(a);
-  if(!n && !map) return '';
+  const n=_pendingAnalysesCount(a), map=_mappingPending(a), aid=_aiDetectionPending(a);
+  if(!n && !map && !aid) return '';
   const parts=[];
   if(n) parts.push(`<strong>${n}</strong> answer(s)`);
   if(map) parts.push(`the AI mapping guide`);
+  if(aid) parts.push(`the AI-usage report`);
   return `<div class="card" style="background:var(--ib);border:1px solid #93C5FD;margin-bottom:10px;display:flex;align-items:center;gap:10px">
     <span class="spinner spinner-d"></span>
-    <div style="flex:1;font-size:12px;color:var(--it)">AI analysis is generating for ${parts.join(' and ')} in the background — no need to click "Run analysis". The page updates automatically.</div>
+    <div style="flex:1;font-size:12px;color:var(--it)">AI analysis is generating for ${parts.join(', ')} in the background — no need to click "Run analysis". The page updates automatically.</div>
     <button class="btn btn-sm" onclick="viewAssessment('${id}')">Refresh now</button>
+  </div>`;
+}
+
+// Render any AI-usage reports already stored on the assessment (auto-generated).
+function renderStoredAIDetection(a){
+  const ad=a.progress?.ai_detection||{};
+  const reports=Object.values(ad).filter(r=>r&&r.response_analyses);
+  if(!reports.length) return '';
+  return `<div class="card" style="margin-bottom:8px;padding:12px">
+    <div class="ctitle" style="margin-bottom:6px">🔍 AI usage &amp; authenticity</div>
+    ${reports.map(r=>renderAIDetectionReport(r)).join('')}
   </div>`;
 }
 
@@ -371,6 +390,9 @@ async function viewAssessment(id){
 
     // Candidate responses panel
     html += renderCandidateResponses(id, a.progress||{}, a.unit_codes||[]);
+
+    // Auto-generated AI-usage / authenticity report (if present)
+    html += renderStoredAIDetection(a);
 
     // Evidence portfolio review — formal HITL trainer review
     html += renderPortfolioReviewPanel(id, a);
