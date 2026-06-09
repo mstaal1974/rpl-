@@ -75,6 +75,15 @@ textarea{resize:vertical;line-height:1.6}.fr{margin-bottom:9px}
 .spinner-d{border-top-color:var(--navy);border-color:var(--border)}
 @keyframes spin{to{transform:rotate(360deg)}}
 .info-box{background:var(--off);border-left:3px solid var(--navy);border-radius:0 7px 7px 0;padding:8px 12px;font-size:11px;line-height:1.65;margin-bottom:10px}
+.frkv{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid var(--border);font-size:11px}
+.frkv span{color:var(--muted)}
+@media print{
+  body *{visibility:hidden}
+  #final-record,#final-record *{visibility:visible}
+  #final-record{position:absolute;left:0;top:0;width:100%}
+  .no-print,button{display:none!important}
+  .card{break-inside:avoid;box-shadow:none!important;border:1px solid #ccc}
+}
 </style>
 </head>
 <body>
@@ -316,6 +325,7 @@ async function viewAssessment(id){
       <div style="font-size:13px;font-weight:500">${c.name||'Candidate'} — ${(a.unit_codes||[]).join(', ')}</div>
       ${statusPill(a.status)}
       ${daysIdle(a)>=14&&a.status!=='COMPLETE'?`<span class="status-pill s-due">⚠ Idle ${daysIdle(a)} days</span>`:''}
+      <button class="btn btn-p btn-sm" style="margin-left:auto" onclick="viewFinalRecord('${id}')">📄 Final assessment record</button>
     </div>
     <div class="g2" style="margin-bottom:10px">
       <div class="card"><div class="ctitle">Candidate</div>
@@ -431,6 +441,104 @@ async function viewAssessment(id){
       }, 15000);
     }
   }catch(e){root.innerHTML=`<div class="card"><div style="color:var(--rt)">${e.message}</div></div>`;}
+}
+
+// ── Final assessment record (complete, printable evidence document) ────────────
+function _frDate(s){ return s? new Date(s).toLocaleString() : '—'; }
+
+function _frPrivacy(fr){
+  const pc=fr.privacy_consent;
+  return `<div class="card"><div class="ctitle">Privacy &amp; consent (APP 5)</div>
+    <div style="font-size:11px;line-height:1.7">${pc&&pc.acknowledged
+      ? `Candidate acknowledged the Privacy Collection Notice (v${pc.notice_version||'1.0'}) on ${_frDate(pc.timestamp)}. APPs covered: ${(pc.apps_covered||[]).join(', ')}.`
+      : 'No recorded privacy acknowledgement.'}</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:5px">Data stored in Australia (Google Cloud Sydney). Retention: 2 years from completion (ASQA). AI processing: Zero Data Retention.</div>
+  </div>`;
+}
+
+function _frExtraMappings(a){
+  const m=a.progress?.mappings||{}, codes=a.unit_codes||[], out=[];
+  codes.forEach((uc,i)=>{ if(i>0 && m[uc]) out.push(renderFullMappingGuide(m[uc], a.assessment_id||'', a)); });
+  return out.join('');
+}
+
+function _frPortfolio(pr){
+  if(!pr) return '';
+  const yn=v=>v===true?'✓ Yes':v===false?'✗ No':'—';
+  return `<div class="card"><div class="ctitle">Evidence portfolio review (HITL)</div>
+    <div style="font-size:11px">Reviewer: <b>${pr.reviewer||'—'}</b> · ${_frDate(pr.reviewed_at)}</div>
+    <div style="font-size:11px;margin-top:4px">Portfolio sufficient: <b>${yn(pr.portfolio_sufficient)}</b> · HITL confirmed: <b>${yn(pr.hitl_confirmed)}</b></div>
+    ${pr.overall_portfolio_comment?`<div style="font-size:11px;margin-top:4px">${pr.overall_portfolio_comment}</div>`:''}
+    ${pr.hitl_declaration?`<div style="font-size:10px;color:var(--it);margin-top:5px;font-style:italic">${pr.hitl_declaration}</div>`:''}
+  </div>`;
+}
+
+function _frDeterminations(dets){
+  if(!dets||!dets.length) return `<div class="card"><div class="ctitle">Determination</div><div style="font-size:11px;color:var(--muted)">No formal determination recorded yet.</div></div>`;
+  return dets.map(d=>`<div class="card" style="border-color:var(--ma)">
+    <div class="ctitle">Determination — ${d.unit_code||''} <span class="chip ${d.overall_determination==='RPL Granted'?'chip-g':(d.overall_determination||'').includes('Not')?'chip-r':'chip-a'}">${d.overall_determination||''}</span></div>
+    <div style="font-size:11px;line-height:1.7"><b>Rationale:</b> ${d.assessor_rationale||'—'}</div>
+    ${d.reasonable_adjustments?`<div style="font-size:11px;margin-top:4px"><b>Reasonable adjustments:</b> ${d.reasonable_adjustments}</div>`:''}
+    ${(d.pc_determinations||[]).length?`<table style="width:100%;border-collapse:collapse;font-size:10px;margin-top:6px"><thead><tr style="background:var(--off)"><th style="text-align:left;padding:4px">PC</th><th style="text-align:left;padding:4px">Judgement</th><th style="text-align:left;padding:4px">Notes</th></tr></thead><tbody>${d.pc_determinations.map(p=>`<tr style="border-bottom:1px solid var(--border)"><td style="padding:4px;font-family:'DM Mono',monospace">${p.pc_id||''}</td><td style="padding:4px">${p.assessor_judgement||''}</td><td style="padding:4px">${p.assessor_notes||p.override_reason||''}</td></tr>`).join('')}</tbody></table>`:''}
+    <div style="font-size:10px;color:var(--muted);margin-top:6px">Assessor: ${d.assessor_name||'—'} · ${_frDate(d.determined_at)} · Source: ${d.source||'HUMAN_ASSESSOR'}</div>
+  </div>`).join('');
+}
+
+async function viewFinalRecord(id){
+  const root=document.getElementById('root');
+  root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Assembling final record…</div></div>';
+  try{
+    const [a, fr]=await Promise.all([
+      apiGet(`/trainer/assessments/${id}`),
+      apiGet(`/trainer/assessments/${id}/final-record`)
+    ]);
+    const c=a.candidate||{};
+    root.innerHTML=`
+    <div class="no-print" style="display:flex;gap:7px;align-items:center;margin-bottom:10px;flex-wrap:wrap">
+      <button class="btn btn-sm" onclick="viewAssessment('${id}')">← Back to assessment</button>
+      <div style="font-size:13px;font-weight:600">Final assessment record</div>
+      <button class="btn btn-p btn-sm" style="margin-left:auto" onclick="window.print()">🖨 Print / Save as PDF</button>
+    </div>
+    <div id="final-record">
+      <div class="card" style="border:2px solid var(--navy)">
+        <div style="font-size:16px;font-weight:600;color:var(--navy)">RPL Assessment — Evidence Record</div>
+        <div style="font-size:11px;color:var(--muted)">${fr.rto} · Generated ${_frDate(fr.generated_at)} by ${fr.generated_by?.name||''}</div>
+        <div class="g2" style="margin-top:8px">
+          <div>
+            <div class="frkv"><span>Candidate</span><b>${c.name||'—'}</b></div>
+            <div class="frkv"><span>Email</span><b>${c.email||'—'}</b></div>
+            <div class="frkv"><span>Employer</span><b>${c.employer||'—'}</b></div>
+            <div class="frkv"><span>Role</span><b>${c.role||'—'}</b></div>
+            <div class="frkv"><span>Duration</span><b>${c.duration||'—'}</b></div>
+          </div>
+          <div>
+            <div class="frkv"><span>Status</span><b>${fr.assessment?.status||'—'}</b></div>
+            <div class="frkv"><span>Created</span><b>${_frDate(fr.assessment?.created_at)}</b></div>
+            <div class="frkv"><span>Submitted</span><b>${_frDate(fr.assessment?.submitted_at)}</b></div>
+            <div class="frkv"><span>Completed</span><b>${_frDate(fr.assessment?.completed_at)}</b></div>
+            <div class="frkv"><span>Assessor</span><b>${fr.assessor?.name||'—'}</b></div>
+          </div>
+        </div>
+        ${fr.units?.length?`<div style="margin-top:8px;font-size:11px"><b>Units of competency:</b><ul style="margin:4px 0 0 16px">${fr.units.map(u=>`<li>${u.code} — ${u.title}${u.training_package?' ('+u.training_package+')':''}</li>`).join('')}</ul></div>`:''}
+      </div>
+      ${_frPrivacy(fr)}
+      ${renderCandidateResponses(id, a.progress||{}, a.unit_codes||[])}
+      ${a.progress?.mapping ? renderFullMappingGuide(a.progress.mapping, id, a) : ''}
+      ${_frExtraMappings(a)}
+      ${renderStoredAIDetection(a)}
+      ${_frPortfolio(fr.portfolio_review)}
+      ${_frDeterminations(fr.determinations)}
+      <div class="card" style="background:var(--mb);border-color:var(--ma)">
+        <div class="ctitle">Human-in-the-loop declaration</div>
+        <div style="font-size:11px;line-height:1.7">${fr.hitl_statement||''}</div>
+        <div style="margin-top:12px;display:flex;gap:30px;flex-wrap:wrap;font-size:11px">
+          <div>Assessor: <b>${fr.assessor?.name||'—'}</b></div>
+          <div>Signature: ________________________</div>
+          <div>Date: ______________</div>
+        </div>
+      </div>
+    </div>`;
+  }catch(e){ root.innerHTML=`<div class="card"><div style="color:var(--rt)">${e.message}</div></div>`; }
 }
 
 function renderFullMappingGuide(mapping, assessmentId, assessment){

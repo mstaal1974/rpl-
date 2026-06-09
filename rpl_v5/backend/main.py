@@ -822,6 +822,94 @@ async def trainer_get_assessment(
     return data
 
 
+async def _read_sub_records(assessment_id: str) -> dict:
+    """Return {record_type: data} for every sub-record of an assessment."""
+    out = {}
+    from .database import _firestore
+    db = _firestore()
+    if db:
+        try:
+            async for rec in db.collection("rpl_assessments").document(
+                    assessment_id).collection("records").stream():
+                out[rec.id] = rec.to_dict()
+        except Exception as e:
+            logger.warning(f"read sub-records failed for {assessment_id}: {e}")
+    else:
+        from .database import _store
+        out = dict(_store.get(assessment_id, {}) or {})
+    return out
+
+
+@app.get("/api/trainer/assessments/{assessment_id}/final-record")
+async def trainer_final_record(assessment_id: str,
+                               user: dict = Depends(current_user)):
+    """
+    Assemble the complete RPL assessment evidence record — every stored artefact
+    (candidate, evidence, AI analyses, mapping, AI-usage report, conversations,
+    portfolio review, determinations, consent) in one ASQA-audit-ready structure.
+    """
+    data = await get_assessment(assessment_id)
+    _check_record_tenant(data, user)
+    subs     = await _read_sub_records(assessment_id)
+    progress = data.get("progress", {}) or {}
+
+    units = []
+    for code in data.get("unit_codes", []):
+        u = registry.get(code)
+        units.append({
+            "code": code,
+            "title": u.title if u else "",
+            "training_package": u.training_package_name if u else "",
+            "elements": [{"id": el.id, "title": el.title,
+                          "pcs": [{"id": pc.id, "text": pc.text} for pc in el.pcs]}
+                         for el in (u.elements if u else [])],
+        })
+
+    record = {
+        "record_type":  "RPL Assessment — Evidence Record",
+        "rto":          "ABC Training RTO #5800",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_by": {"name": user.get("name"), "email": user.get("email"),
+                         "role": user.get("role")},
+        "assessment": {
+            "id":           assessment_id,
+            "status":       data.get("status"),
+            "created_at":   data.get("created_at"),
+            "first_opened": data.get("first_opened"),
+            "submitted_at": data.get("submitted_at"),
+            "completed_at": data.get("completed_at"),
+            "trainer_notes": data.get("notes", ""),
+        },
+        "candidate":  data.get("candidate", {}),
+        "assessor":   {"name": data.get("trainer_name", ""),
+                       "email": data.get("trainer_email", "")},
+        "units":      units,
+        "privacy_consent":           subs.get("privacy_consent"),
+        "self_assessment_checklist": progress.get("checklist", {}),
+        "documents": {
+            "uploads":         progress.get("uploads", {}),
+            "candidate_notes": progress.get("candidate_notes", {}),
+        },
+        "knowledge_responses":   progress.get("knowledge_responses", {}),
+        "knowledge_analyses":    progress.get("knowledge_analyses", {}),
+        "competency_conversations": progress.get("conversation_records", []),
+        "adaptive_interview":    progress.get("adaptive_records", []),
+        "ai_mapping":            progress.get("mapping") or {},
+        "ai_mappings":           progress.get("mappings", {}),
+        "ai_usage_report":       progress.get("ai_detection", {}),
+        "portfolio_review":      subs.get("portfolio_review"),
+        "determinations":        [v for k, v in subs.items()
+                                  if k.startswith("formal_determination_")],
+        "assessor_decisions":    [v for k, v in subs.items()
+                                  if k.startswith("assessor_")],
+        "hitl_statement": (
+            "All AI analysis in this record is decision-support only. The qualified "
+            "assessor named above has reviewed all evidence and made the final "
+            "competency determination in accordance with the Standards for RTOs 2015."),
+    }
+    return record
+
+
 @app.post("/api/trainer/assessments/{assessment_id}/complete")
 async def trainer_complete_assessment(
     assessment_id: str,
