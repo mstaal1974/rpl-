@@ -490,7 +490,7 @@ function viewResume(root){
   <textarea id="resume-note" rows="3" placeholder="e.g. My resume doesn't reflect my time at XYZ Lab where I performed daily WHS checks..." onchange="S.progress.candidate_notes.resume=this.value;triggerSave()">${S.progress.candidate_notes?.resume||''}</textarea></div>
   <div style="display:flex;justify-content:space-between;margin-top:12px">
     <button class="btn" onclick="go('checklist')">← Back</button>
-    <button class="btn btn-p" onclick="markStepDone('resume');go('position')">Save &amp; continue →</button>
+    <button class="btn btn-p" onclick="markStepDone('resume');pregenerateKnowledgeHints();go('position')">Save &amp; continue →</button>
   </div></div>`;
 }
 
@@ -638,6 +638,33 @@ function renderQHint(unit){
   const hint=S.progress.knowledge_hints?.[unit.code]?.[S.curQ];
   el.innerHTML = hint ? `<div style="padding:7px 9px;background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;font-size:10px;color:#166534;line-height:1.55;margin-bottom:9px">
     <strong>🧭 How this relates to your experience:</strong> ${hint}</div>` : '';
+}
+
+// Pre-generate hints for every unit in the background after the résumé step, so
+// they're cached by the time the candidate reaches the knowledge questions.
+// Fire-and-forget — navigation is never blocked, and viewKnowledge still
+// lazily fetches as a fallback.
+async function pregenerateKnowledgeHints(){
+  // Persist the latest résumé note first so the server has it to work from.
+  try{
+    await fetch(`${API}/student/progress`,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({assessment_id:S.assessmentId, progress:S.progress, token:TOKEN})});
+  }catch(e){ return; }
+  if(!S.progress.candidate_notes?.resume) return;  // nothing to relate to
+  for(const u of (S.units||[])){
+    if(!(u.knowledge_questions||[]).length) continue;
+    if(S.progress.knowledge_hints?.[u.code]) continue;
+    try{
+      const r=await fetch(`${API}/knowledge/resume-hints`,{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({token:TOKEN, assessment_id:S.assessmentId, unit_code:u.code})});
+      if(r.ok){
+        const d=await r.json();
+        if(!S.progress.knowledge_hints) S.progress.knowledge_hints={};
+        S.progress.knowledge_hints[u.code]=d.hints||{};
+      }
+    }catch(e){/* best-effort */}
+  }
+  triggerSave();
 }
 
 function loadQ(unit,qs,idx){
