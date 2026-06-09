@@ -49,3 +49,15 @@ def guard(system_prompt: str) -> str:
     if s.lstrip().startswith("SECURITY — UNTRUSTED INPUT"):
         return s  # already guarded — don't stack duplicate guards
     return f"{INJECTION_GUARD}\n\n{s}"
+
+
+def cached_system(system):
+    """
+    Wrap a system prompt so its (stable) prefix is served from the Vertex prompt
+    cache on repeated identical calls — cutting input cost on the recurring
+    system/schema. Safe below the cache minimum: it simply won't cache, no error.
+    """
+    if not system or isinstance(system, list):
+        return system
+    return [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}]
+

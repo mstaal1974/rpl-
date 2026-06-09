@@ -10,8 +10,13 @@ against the benchmark for each PC, producing:
 """
 import json, logging, asyncio
 from .unit_registry import UnitOfCompetency
-from .prompt_safety import INJECTION_GUARD, wrap_untrusted, guard
+from .prompt_safety import INJECTION_GUARD, wrap_untrusted, guard, cached_system
 from .llm_json import extract_json
+from . import cost
+
+# AI-usage detection is linguistic-forensic work that Haiku handles well — run it
+# on Haiku (separate quota pool, 1/3 the price) instead of Sonnet.
+AI_DETECTION_MODEL = "claude-haiku-4-5-20251001"
 
 logger = logging.getLogger(__name__)
 
@@ -429,7 +434,7 @@ async def run_mapping(client, model: str, unit: UnitOfCompetency, candidate: dic
 
     def _call():
         return client.messages.create(model=model, max_tokens=6000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
@@ -497,7 +502,7 @@ Return JSON:
     loop = asyncio.get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=3000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
@@ -519,11 +524,11 @@ async def analyse_knowledge_response(client, model: str, unit: UnitOfCompetency,
     loop = asyncio.get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=2000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
     response = await loop.run_in_executor(None, _call)
-    raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    result = extract_json(raw)
+    cost.record(model, getattr(response, "usage", None), "knowledge_analysis")
+    result = extract_json(response.content[0].text)
 
     # Ensure commentary is always populated for student display
     if not result.get("commentary"):
@@ -587,7 +592,7 @@ Return JSON:
     loop = asyncio.get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=2000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
@@ -648,7 +653,7 @@ Return JSON:
     loop = asyncio.get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=2000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
 
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json", "").replace("```", "").strip()
@@ -802,7 +807,7 @@ Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=6000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -897,7 +902,7 @@ Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -1004,7 +1009,7 @@ Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=3000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -1068,7 +1073,7 @@ Generate sector-specific assessment guidance. Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=3000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -1186,7 +1191,7 @@ Generate a determination worksheet. Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -1277,7 +1282,7 @@ Return JSON:
     loop = __import__('asyncio').get_event_loop()
     def _call():
         return client.messages.create(model=model, max_tokens=4000,
-            system=guard(system), messages=[{"role": "user", "content": user}])
+            system=cached_system(guard(system)), messages=[{"role": "user", "content": user}])
     response = await loop.run_in_executor(None, _call)
     raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
     return extract_json(raw)
@@ -1515,12 +1520,12 @@ Return JSON:
     def _call():
         return client.messages.create(
             model=model, max_tokens=1000,
-            system=guard(system),
+            system=cached_system(guard(system)),
             messages=[{"role": "user", "content": user}]
         )
     response = await loop.run_in_executor(None, _call)
-    raw = response.content[0].text.strip().replace("```json","").replace("```","").strip()
-    return extract_json(raw)
+    cost.record(model, getattr(response, "usage", None), "knowledge_eval")
+    return extract_json(response.content[0].text)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1765,16 +1770,14 @@ Return JSON:
 }}"""
 
     try:
-        linguistic = await asyncio.get_event_loop().run_in_executor(
-            None,
-            lambda: extract_json(
-                client.messages.create(
-                    model=model, max_tokens=2000,
-                    system=guard(system),
-                    messages=[{"role": "user", "content": user}]
-                ).content[0].text
-                )
-        )
+        def _detect():
+            return client.messages.create(
+                model=AI_DETECTION_MODEL, max_tokens=2000,
+                system=cached_system(guard(system)),
+                messages=[{"role": "user", "content": user}])
+        _resp = await asyncio.get_event_loop().run_in_executor(None, _detect)
+        cost.record(AI_DETECTION_MODEL, getattr(_resp, "usage", None), "ai_detection")
+        linguistic = extract_json(_resp.content[0].text)
     except Exception as e:
         logger.warning(f"AI detection linguistic analysis failed: {e}")
         linguistic = {

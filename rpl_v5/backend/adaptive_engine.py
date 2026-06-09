@@ -40,7 +40,8 @@ from typing import Optional
 
 from .unit_registry import UnitOfCompetency
 from .mapping_engine import detect_ai_usage
-from .prompt_safety import INJECTION_GUARD, wrap_untrusted as _wrap, guard
+from .prompt_safety import INJECTION_GUARD, wrap_untrusted as _wrap, guard, cached_system
+from . import cost
 
 logger = logging.getLogger(__name__)
 
@@ -89,11 +90,12 @@ async def _call(client, model: str, system: str, user: str,
     def _sync():
         return client.messages.create(
             model=model, max_tokens=max_tokens,
-            system=system, messages=[{"role": "user", "content": user}])
+            system=cached_system(system), messages=[{"role": "user", "content": user}])
     last = None
     for attempt in range(len(_RATE_LIMIT_BACKOFF) + 1):
         try:
             resp = await loop.run_in_executor(None, _sync)
+            cost.record(model, getattr(resp, "usage", None), "adaptive")
             return _extract_json(resp.content[0].text)
         except Exception as e:
             # Retry only on rate-limit/quota errors; surface everything else.

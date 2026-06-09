@@ -25,8 +25,9 @@ from .orchestrator import (orchestrate_rpl_assessment, orchestrate_multi_unit_as
 from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
 from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
     adaptive_scenario_turn, generate_resume_relevance_hints)
-from .prompt_safety import guard, wrap_untrusted
+from .prompt_safety import guard, wrap_untrusted, cached_system
 from .llm_json import extract_json
+from . import cost
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
     submit_assessment, complete_assessment,
@@ -441,6 +442,7 @@ async def health():
         "assessments_in_firestore": fs_count,
         "tokens_in_memory":        len(_tidx),
         "auth":                    await auth_stats(),
+        "llm_cost":                cost.totals(),
         "timestamp":               datetime.now(timezone.utc).isoformat(),
     }
 
@@ -2303,10 +2305,11 @@ Return JSON:
         def _call():
             return client.messages.create(
                 model=MODEL, max_tokens=1000,
-                system=system,
+                system=cached_system(system),
                 messages=[{"role": "user", "content": user}]
             )
         response = await loop.run_in_executor(None, _call)
+        cost.record(MODEL, getattr(response, "usage", None), "guided_turn")
         result = extract_json(response.content[0].text)
 
         # ── Safety override: enforce follow-up logic based on actual confidence ──
