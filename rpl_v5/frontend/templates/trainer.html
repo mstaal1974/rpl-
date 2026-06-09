@@ -446,6 +446,26 @@ async function viewAssessment(id){
 // ── Final assessment record (complete, printable evidence document) ────────────
 function _frDate(s){ return s? new Date(s).toLocaleString() : '—'; }
 
+// Server-rendered PDF download (sends the Bearer token, streams the file).
+async function downloadFinalPdf(id, btn){
+  const label = btn ? btn.textContent : '';
+  if(btn){ btn.disabled=true; btn.textContent='Generating PDF…'; }
+  try{
+    const r=await fetch(`${API}/trainer/assessments/${id}/final-record.pdf`, {headers:authHeaders()});
+    if(r.status===401){ forceLogin(); return; }
+    if(!r.ok){ const er=await r.json().catch(()=>({})); throw new Error(er.detail||('HTTP '+r.status)); }
+    const blob=await r.blob();
+    const cd=r.headers.get('Content-Disposition')||'';
+    const m=cd.match(/filename="?([^"]+)"?/);
+    const name=m?m[1]:`RPL_record_${id}.pdf`;
+    const url=URL.createObjectURL(blob);
+    const aEl=document.createElement('a'); aEl.href=url; aEl.download=name;
+    document.body.appendChild(aEl); aEl.click(); aEl.remove();
+    setTimeout(()=>URL.revokeObjectURL(url), 5000);
+  }catch(e){ alert('PDF download failed: '+e.message); }
+  finally{ if(btn){ btn.disabled=false; btn.textContent=label; } }
+}
+
 function _frPrivacy(fr){
   const pc=fr.privacy_consent;
   return `<div class="card"><div class="ctitle">Privacy &amp; consent (APP 5)</div>
@@ -497,7 +517,8 @@ async function viewFinalRecord(id){
     <div class="no-print" style="display:flex;gap:7px;align-items:center;margin-bottom:10px;flex-wrap:wrap">
       <button class="btn btn-sm" onclick="viewAssessment('${id}')">← Back to assessment</button>
       <div style="font-size:13px;font-weight:600">Final assessment record</div>
-      <button class="btn btn-p btn-sm" style="margin-left:auto" onclick="window.print()">🖨 Print / Save as PDF</button>
+      <button class="btn btn-p btn-sm" style="margin-left:auto" onclick="downloadFinalPdf('${id}', this)">⬇ Download PDF</button>
+      <button class="btn btn-sm" onclick="window.print()">🖨 Print</button>
     </div>
     <div id="final-record">
       <div class="card" style="border:2px solid var(--navy)">

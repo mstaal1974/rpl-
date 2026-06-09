@@ -11,7 +11,7 @@ import httpx
 from fastapi import FastAPI, File, UploadFile, HTTPException, Form, Header, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, RedirectResponse, Response
 from pydantic import BaseModel, Field
 
 from .unit_registry import registry, UnitOfCompetency, import_from_tgau
@@ -840,9 +840,7 @@ async def _read_sub_records(assessment_id: str) -> dict:
     return out
 
 
-@app.get("/api/trainer/assessments/{assessment_id}/final-record")
-async def trainer_final_record(assessment_id: str,
-                               user: dict = Depends(current_user)):
+async def _build_final_record(assessment_id: str, user: dict) -> dict:
     """
     Assemble the complete RPL assessment evidence record — every stored artefact
     (candidate, evidence, AI analyses, mapping, AI-usage report, conversations,
@@ -908,6 +906,30 @@ async def trainer_final_record(assessment_id: str,
             "competency determination in accordance with the Standards for RTOs 2015."),
     }
     return record
+
+
+@app.get("/api/trainer/assessments/{assessment_id}/final-record")
+async def trainer_final_record(assessment_id: str,
+                               user: dict = Depends(current_user)):
+    """The complete RPL evidence record as JSON."""
+    return await _build_final_record(assessment_id, user)
+
+
+@app.get("/api/trainer/assessments/{assessment_id}/final-record.pdf")
+async def trainer_final_record_pdf(assessment_id: str,
+                                   user: dict = Depends(current_user)):
+    """The complete RPL evidence record rendered server-side as a PDF."""
+    record = await _build_final_record(assessment_id, user)
+    from .pdf_report import build_final_record_pdf
+    try:
+        pdf = build_final_record_pdf(record)
+    except Exception as e:
+        logger.error(f"PDF build failed for {assessment_id}: {e}")
+        raise HTTPException(500, f"PDF generation failed: {e}")
+    cand = (record.get("candidate") or {}).get("name") or assessment_id[:8]
+    fname = ("RPL_record_" + "".join(ch if ch.isalnum() else "_" for ch in cand))[:60] + ".pdf"
+    return Response(content=pdf, media_type="application/pdf",
+                    headers={"Content-Disposition": f'attachment; filename="{fname}"'})
 
 
 @app.post("/api/trainer/assessments/{assessment_id}/complete")
