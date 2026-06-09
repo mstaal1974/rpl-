@@ -177,11 +177,14 @@ def get_client():
             timeout=120.0)
     return _ac
 
-MODEL = "claude-sonnet-4-6"
+# Primary reasoning model. Override with RPL_MODEL — e.g. set it to the Haiku id
+# to run the WHOLE system on Haiku (a separate Vertex quota pool) as a stopgap
+# while a Sonnet tokens-per-minute quota increase is pending.
+MODEL = os.getenv("RPL_MODEL", "claude-sonnet-4-6")
 # Lighter model on a SEPARATE Vertex quota pool — used for the auxiliary adaptive
 # calls (résumé profiling, scenario plan, knowledge hints) so they don't consume
 # the Sonnet tokens-per-minute budget that the scoring/branching calls need.
-HAIKU = "claude-haiku-4-5-20251001"
+HAIKU = os.getenv("RPL_HAIKU_MODEL", "claude-haiku-4-5-20251001")
 
 # ── Auth model ────────────────────────────────────────────────────────────────
 # v4 used a shared TRAINER_PIN. v5 uses per-user JWT login.

@@ -8,7 +8,7 @@ against the benchmark for each PC, producing:
   - evidence_items: specific quotes from the candidate mapped to this PC
   - gap_notes: exactly what is missing — used to generate targeted follow-up questions
 """
-import json, logging, asyncio
+import os, json, logging, asyncio
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted, guard, cached_system
 from .llm_json import extract_json
@@ -16,7 +16,7 @@ from . import cost, retry
 
 # AI-usage detection is linguistic-forensic work that Haiku handles well — run it
 # on Haiku (separate quota pool, 1/3 the price) instead of Sonnet.
-AI_DETECTION_MODEL = "claude-haiku-4-5-20251001"
+AI_DETECTION_MODEL = os.getenv("RPL_HAIKU_MODEL", "claude-haiku-4-5-20251001")
 
 logger = logging.getLogger(__name__)
 

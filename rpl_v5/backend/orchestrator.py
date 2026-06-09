@@ -16,7 +16,7 @@ Agents 2 and 3 run per-element in parallel using asyncio.gather().
 Each agent's output feeds the next — no repeated parsing, shared context.
 """
 
-import json, logging, asyncio
+import os, json, logging, asyncio
 from typing import Optional
 from .unit_registry import UnitOfCompetency
 from .prompt_safety import INJECTION_GUARD, wrap_untrusted, cached_system
@@ -26,9 +26,11 @@ from . import cost, retry
 logger = logging.getLogger(__name__)
 
 # ── Model config ───────────────────────────────────────────────────────────────
-# Haiku for lightweight intake/synthesis, Sonnet for deep analysis
-HAIKU  = "claude-haiku-4-5-20251001"   # fast, cheap — intake + synthesis
-SONNET = "claude-sonnet-4-6"           # deep — mapping + gap + knowledge
+# Haiku for lightweight intake/synthesis, Sonnet for deep analysis.
+# Override with RPL_MODEL / RPL_HAIKU_MODEL (set RPL_MODEL to the Haiku id to run
+# the deep agents on Haiku too while a Sonnet quota increase is pending).
+HAIKU  = os.getenv("RPL_HAIKU_MODEL", "claude-haiku-4-5-20251001")  # fast, cheap — intake + synthesis
+SONNET = os.getenv("RPL_MODEL", "claude-sonnet-4-6")               # deep — mapping + gap + knowledge
 
 HITL_REMINDER = (
     "You are an AI assistant to a qualified human assessor. "
