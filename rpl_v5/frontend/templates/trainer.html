@@ -225,7 +225,36 @@ async function renderDashboard(root){
 }
 
 // ── VIEW ASSESSMENT ───────────────────────────────────────────────────────────
+// ── Background-analysis polling state ──────────────────────────────────────────
+let _lastAssessmentId=null, _analysisPolls=0, _analysisPollTimer=null;
+
+function _pendingAnalysesCount(a){
+  const p=a.progress||{}, ra=p.knowledge_responses||{}, ea=p.knowledge_analyses||{};
+  let n=0;
+  for(const uc in ra){
+    const ur=ra[uc]; if(!ur||typeof ur!=='object') continue;
+    const ex=ea[uc]||{};
+    for(const qi in ur){
+      const ans=ur[qi];
+      if(!/^\d+$/.test(qi)||!ans||String(ans).trim().split(/\s+/).filter(Boolean).length<5) continue;
+      if((ex[qi]||{}).overall_score_percent==null) n++;
+    }
+  }
+  return n;
+}
+
+function _analysisBanner(a,id){
+  const n=_pendingAnalysesCount(a);
+  if(!n) return '';
+  return `<div class="card" style="background:var(--ib);border:1px solid #93C5FD;margin-bottom:10px;display:flex;align-items:center;gap:10px">
+    <span class="spinner spinner-d"></span>
+    <div style="flex:1;font-size:12px;color:var(--it)">AI analysis is generating for <strong>${n}</strong> answer(s) in the background — no need to click "Run analysis". The page updates automatically.</div>
+    <button class="btn btn-sm" onclick="viewAssessment('${id}')">Refresh now</button>
+  </div>`;
+}
+
 async function viewAssessment(id){
+  if(id!==_lastAssessmentId){ _lastAssessmentId=id; _analysisPolls=0; clearTimeout(_analysisPollTimer); }
   const root=document.getElementById('root');
   root.innerHTML='<div class="card"><div class="ctitle"><span class="spinner spinner-d"></span> Loading...</div></div>';
   try{
@@ -271,6 +300,9 @@ async function viewAssessment(id){
         <div style="font-size:10px;color:var(--muted);margin-top:5px">Current step: <strong>${p.current_step||'not started'}</strong></div>
       </div>
     </div>`;
+
+    // AI analysis still generating (auto-runs on open) — show a banner.
+    html += _analysisBanner(a, id);
 
     // Confidence trend
     if(analyses.length){
@@ -344,6 +376,21 @@ async function viewAssessment(id){
 
     // Load saved portfolio review
     loadPortfolioReview(id);
+
+    // While AI analyses are still being generated in the background, re-fetch and
+    // re-render periodically so they appear without a manual click. Bounded (~90s),
+    // skips a cycle if the assessor is typing, and preserves scroll position.
+    clearTimeout(_analysisPollTimer);
+    if(_pendingAnalysesCount(a)>0 && _analysisPolls<6){
+      _analysisPolls++;
+      _analysisPollTimer=setTimeout(function tick(){
+        if(_lastAssessmentId!==id) return;
+        const ae=document.activeElement;
+        if(ae && /^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName)){ _analysisPollTimer=setTimeout(tick,15000); return; }
+        const y=window.scrollY;
+        viewAssessment(id).then(()=>{ try{window.scrollTo(0,y);}catch(e){} });
+      }, 15000);
+    }
   }catch(e){root.innerHTML=`<div class="card"><div style="color:var(--rt)">${e.message}</div></div>`;}
 }
 

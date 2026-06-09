@@ -806,13 +806,14 @@ async def trainer_get_assessment(
     """Get full assessment record including student progress (tenant-scoped)."""
     data = await get_assessment(assessment_id)
     _check_record_tenant(data, user)
-    # Belt-and-braces: if the candidate has submitted but some answers still lack
-    # an AI analysis (e.g. the submit-time background run was interrupted), kick
-    # the idempotent analysis now — it runs while this instance is warm and skips
-    # anything already scored, so it's ready by the time the assessor refreshes.
-    if data and data.get("status") in ("SUBMITTED", "COMPLETE") and _has_unanalysed_answers(data):
+    # When the assessor opens an assessment, analyse any answered-but-unscored
+    # knowledge question in the background (idempotent — skips already-scored
+    # ones), so it's ready on the assessor's next refresh. Fires for ANY status
+    # (in-progress or submitted) and runs the knowledge analyses only — the heavy
+    # orchestrator mapping still runs on submit, not on every trainer open.
+    if data and _has_unanalysed_answers(data):
         try:
-            asyncio.create_task(_analyse_assessment_on_submit(assessment_id))
+            asyncio.create_task(_analyse_assessment_on_submit(assessment_id, with_mapping=False))
         except Exception:
             pass
     return data
@@ -1077,7 +1078,7 @@ async def _compute_knowledge_analysis(unit, q_idx: int, answer: str, candidate: 
     return _normalise_knowledge_result(result, question_obj)
 
 
-async def _analyse_assessment_on_submit(assessment_id: str):
+async def _analyse_assessment_on_submit(assessment_id: str, with_mapping: bool = True):
     """
     Background: analyse every answered knowledge question that hasn't been scored
     yet, so the assessor sees a complete assessment. Sequential + the shared 429
@@ -1131,8 +1132,9 @@ async def _analyse_assessment_on_submit(assessment_id: str):
         logger.info(f"Submit-analysis complete for {assessment_id}: {total} answer(s) analysed")
 
         # Then the heavier orchestrator mapping (the assessor's "AI mapping guide").
-        # Gated by an off-switch so a quota-constrained RTO can disable it.
-        if os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
+        # Gated by an off-switch so a quota-constrained RTO can disable it, and
+        # skipped for the per-open trainer trigger (with_mapping=False).
+        if with_mapping and os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
             await _generate_mappings_on_submit(assessment_id)
     except Exception as e:
         logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
