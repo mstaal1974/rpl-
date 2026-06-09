@@ -1119,8 +1119,78 @@ async def _analyse_assessment_on_submit(assessment_id: str):
                 prog["knowledge_analyses"] = ka
                 await save_progress(assessment_id, prog)
         logger.info(f"Submit-analysis complete for {assessment_id}: {total} answer(s) analysed")
+
+        # Then the heavier orchestrator mapping (the assessor's "AI mapping guide").
+        # Gated by an off-switch so a quota-constrained RTO can disable it.
+        if os.getenv("AUTO_MAP_ON_SUBMIT", "1").lower() not in ("0", "false", "no"):
+            await _generate_mappings_on_submit(assessment_id)
     except Exception as e:
         logger.error(f"Submit-analysis task failed for {assessment_id}: {e}")
+
+
+async def _generate_mappings_on_submit(assessment_id: str):
+    """
+    Background: run the orchestrator AI mapping for each unit that isn't mapped
+    yet, and store it where the trainer view reads it (progress.mapping for the
+    primary unit, progress.mappings[unit] for each). Idempotent; quota-gentle via
+    the orchestrator's 429 backoff.
+    """
+    try:
+        rec = await get_assessment(assessment_id)
+        if not rec:
+            return
+        progress  = rec.get("progress", {}) or {}
+        candidate = rec.get("candidate", {}) or {}
+        notes     = progress.get("candidate_notes", {}) or {}
+        evidence  = notes.get("resume", "") or ""
+        k_resp    = progress.get("knowledge_responses", {}) or {}
+        checklist = progress.get("checklist", {}) or {}
+        uploads   = progress.get("uploads", {}) or {}
+        industry  = progress.get("industry_context", "")
+        unit_codes = rec.get("unit_codes", [])
+        already    = set((progress.get("mappings", {}) or {}).keys())
+        # If a single-unit assessment already has a (student-generated) mapping, skip.
+        if len(unit_codes) == 1 and progress.get("mapping"):
+            already.add(unit_codes[0])
+
+        made = {}
+        for unit_code in unit_codes:
+            if unit_code in already:
+                continue
+            unit = registry.get(unit_code)
+            if not unit:
+                continue
+            try:
+                report = await orchestrate_rpl_assessment(
+                    client=get_client(), unit=unit, candidate=candidate,
+                    evidence=evidence, knowledge_responses=k_resp,
+                    checklist_results=checklist, uploads=uploads,
+                    candidate_notes=notes, industry_context=industry)
+            except Exception as e:
+                logger.warning(f"submit-mapping {assessment_id} {unit_code}: {e}")
+                continue
+            report["audit"] = {
+                "assessment_id": assessment_id, "unit_code": unit_code,
+                "unit_title": unit.title, "generated_at": datetime.now(timezone.utc).isoformat(),
+                "model": MODEL, "hitl_status": "PENDING_ASSESSOR_REVIEW",
+                "architecture": "hierarchical_multi_agent_v1", "source": "auto_on_submit"}
+            await save_assessment(assessment_id, "mapping_report", report)
+            made[unit_code] = report
+
+        if made:
+            fresh = await get_assessment(assessment_id)
+            prog = (fresh or {}).get("progress", {}) or {}
+            mappings = prog.get("mappings", {}) or {}
+            mappings.update(made)
+            prog["mappings"] = mappings
+            # Primary single-mapping view — set only if the student hasn't already.
+            if not prog.get("mapping"):
+                primary = unit_codes[0] if unit_codes and unit_codes[0] in made else next(iter(made))
+                prog["mapping"] = made[primary]
+            await save_progress(assessment_id, prog)
+        logger.info(f"Submit-mapping complete for {assessment_id}: {len(made)} unit(s) mapped")
+    except Exception as e:
+        logger.error(f"Submit-mapping task failed for {assessment_id}: {e}")
 
 
 async def _notify_trainer_submission(assessment_data: dict):
