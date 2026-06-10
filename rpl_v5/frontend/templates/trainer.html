@@ -776,6 +776,11 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
       <input id="ct-speaker-${assessmentId}" placeholder="Candidate's name in transcript (optional)" style="flex:1;min-width:170px;font-size:11px;padding:6px 8px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box">
       <button class="btn btn-sm" onclick="analyseTranscript('${assessmentId}','${ctUnit}')">Analyse transcript</button>
     </div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;padding-top:8px;border-top:1px dashed var(--border)">
+      <span style="font-size:10px;color:var(--muted)">…or auto-transcribe a recording:</span>
+      <input type="file" id="ct-audio-${assessmentId}" accept="audio/*,video/*,.mp3,.m4a,.wav,.mp4,.mov,.ogg,.webm" style="font-size:10px">
+      <button class="btn btn-sm" onclick="analyseAudio('${assessmentId}','${ctUnit}')">Transcribe &amp; analyse</button>
+    </div>
     <div id="ct-out-${assessmentId}" style="margin-top:10px"></div>
   </div>`;
 
@@ -802,6 +807,28 @@ async function analyseTranscript(id, unitCode){
   try{
     const r=await apiPost(`/trainer/assessments/${id}/competency-transcript`,{unit_code:unitCode,transcript:text,candidate_speaker:speaker});
     if(out) out.innerHTML=renderTranscriptResult(r);
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`; }
+}
+
+async function analyseAudio(id, unitCode){
+  const fileInput=document.getElementById('ct-audio-'+id);
+  const out=document.getElementById('ct-out-'+id);
+  const f=fileInput?.files?.[0];
+  const speaker=(document.getElementById('ct-speaker-'+id)?.value||'').trim();
+  if(!unitCode){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">No unit resolved — run the AI mapping first.</div>'; return; }
+  if(!f){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">Choose an audio or video file first.</div>'; return; }
+  if(out) out.innerHTML='<div style="font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Transcribing the recording (long calls can take a minute or two)…</div>';
+  const form=new FormData();
+  form.append('file',f); form.append('unit_code',unitCode); form.append('candidate_speaker',speaker);
+  try{
+    const r=await fetch(API+`/trainer/assessments/${id}/competency-audio`,{method:'POST',headers:{'Authorization':'Bearer '+getToken()},body:form});
+    if(r.status===401){forceLogin();return;}
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${d.detail||('HTTP '+r.status)}</div>`; return; }
+    let html='';
+    if(d.transcript){ html+=`<div style="font-size:10px;color:var(--muted);margin-bottom:5px">Auto-transcript — review for accuracy before relying on it:</div><div style="white-space:pre-wrap;font-size:10px;background:var(--off);border:1px solid var(--border);border-radius:6px;padding:8px;max-height:150px;overflow:auto;margin-bottom:8px">${(d.transcript||'').replace(/</g,'&lt;')}</div>`; }
+    html+=renderTranscriptResult(d);
+    if(out) out.innerHTML=html;
   }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`; }
 }
 

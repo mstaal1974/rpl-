@@ -2144,22 +2144,18 @@ class TranscriptRequest(BaseModel):
     candidate_speaker: str = ""
 
 
-@app.post("/api/trainer/assessments/{assessment_id}/competency-transcript")
-async def competency_transcript(assessment_id: str, req: TranscriptRequest,
-                                 user: dict = Depends(current_user)):
+async def _ingest_transcript(assessment: dict, assessment_id: str, unit,
+                             transcript_text: str, candidate_speaker: str,
+                             user: dict, source: str = "transcript_upload",
+                             extra: dict = None) -> dict:
     """
-    Ingest a competency-conversation transcript (Teams/Zoom export or in-person
-    notes), parse it into speaker turns, analyse the candidate's spoken evidence
-    against the unit's PCs, and file it as a competency-conversation record so it
-    flows into the final record, the AI-usage report, and the next mapping run.
+    Shared core for competency-conversation ingest (typed/pasted transcript OR a
+    machine transcription of an audio/video recording). Parses speaker turns,
+    analyses the candidate's spoken evidence against the unit's PCs, and files it
+    as a conversation_record so it flows into the final record, the AI-usage
+    report, and the next mapping run.
     """
-    assessment = await get_assessment(assessment_id)
-    _check_record_tenant(assessment, user)
-    unit = registry.get(req.unit_code)
-    if not unit:
-        raise HTTPException(404, f"Unit {req.unit_code} not found")
-
-    turns = _parse_transcript(req.transcript or "")
+    turns = _parse_transcript(transcript_text or "")
     if not turns:
         raise HTTPException(400, "Could not read any text from the transcript.")
 
@@ -2168,7 +2164,7 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
     for t in turns:
         if t["speaker"] and t["speaker"] not in speakers:
             speakers.append(t["speaker"])
-    cand = (req.candidate_speaker or "").strip().lower()
+    cand = (candidate_speaker or "").strip().lower()
 
     def _is_candidate(spk: str) -> bool:
         s = (spk or "").lower()
@@ -2181,10 +2177,8 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
         wc = {}
         for t in turns:
             wc[t["speaker"]] = wc.get(t["speaker"], 0) + len(t["content"].split())
-        top = max(wc, key=wc.get)
-        cand = top.lower()
+        cand = max(wc, key=wc.get).lower()
 
-    # Build dialogue in the conversation_record shape (role: candidate|assessor).
     dialogue = []
     for t in turns:
         is_cand = _is_candidate(t["speaker"]) if (cand or speakers) else True
@@ -2202,8 +2196,7 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
     # Previously-gapped PCs from the existing mapping — focus the analysis there.
     progress = assessment.get("progress", {}) or {}
     gap_pcs = []
-    mp = progress.get("mapping") or {}
-    for el in mp.get("elements", []):
+    for el in (progress.get("mapping") or {}).get("elements", []):
         for pc in el.get("pcs", []):
             if pc.get("verdict") in ("PARTIAL", "GAP") or pc.get("judgement") == "Not Satisfactory":
                 gap_pcs.append(pc.get("id"))
@@ -2211,7 +2204,7 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
     try:
         analysis = await analyse_competency_transcript(
             get_client(), MODEL, unit, assessment.get("candidate", {}),
-            req.transcript, candidate_text, [g for g in gap_pcs if g])
+            transcript_text, candidate_text, [g for g in gap_pcs if g])
     except Exception as e:
         raise HTTPException(500, f"Transcript analysis failed: {e}")
 
@@ -2219,10 +2212,12 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
     primary_pc = findings[0].get("pc") if findings else (gap_pcs[0] if gap_pcs else "")
 
     record = {
-        "unit":             req.unit_code,
+        "unit":             unit.code,
         "pc":               primary_pc or "",
-        "question":         "Competency conversation (uploaded transcript)",
-        "source":           "transcript_upload",
+        "question":         "Competency conversation (recording transcribed)"
+                            if source == "audio_transcription"
+                            else "Competency conversation (uploaded transcript)",
+        "source":           source,
         "dialogue":         dialogue,
         "final_judgement":  analysis.get("overall_judgement", ""),
         "final_confidence": analysis.get("overall_confidence", 0),
@@ -2233,23 +2228,84 @@ async def competency_transcript(assessment_id: str, req: TranscriptRequest,
         "assessed_by":      user.get("email") or user.get("name") or "assessor",
         "timestamp":        datetime.now(timezone.utc).isoformat(),
     }
+    if extra:
+        record.update(extra)
+
     records = progress.get("conversation_records") or []
     records.append(record)
     progress["conversation_records"] = records
     orig_status = assessment.get("status")
     await save_progress(assessment_id, progress)
     # save_progress forces IN_PROGRESS; don't reopen a submitted/complete record
-    # just because an assessor added a competency-conversation transcript.
+    # just because an assessor added a competency-conversation record.
     if orig_status in ("SUBMITTED", "COMPLETE"):
         await set_status(assessment_id, orig_status)
-    # Keep a durable copy as a sub-record too.
     await save_assessment(assessment_id,
-        f"transcript_{req.unit_code}_{len(records)}", record)
+        f"transcript_{unit.code}_{len(records)}", record)
 
     return {"ok": True, "analysis": analysis,
             "turns": len(dialogue),
             "candidate_words": len(candidate_text.split()),
+            "transcript": transcript_text if source == "audio_transcription" else "",
             "record_index": len(records) - 1}
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-transcript")
+async def competency_transcript(assessment_id: str, req: TranscriptRequest,
+                                 user: dict = Depends(current_user)):
+    """
+    Ingest a competency-conversation transcript (Teams/Zoom export or in-person
+    notes) — parse, analyse against the unit's PCs, and file as evidence.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit = registry.get(req.unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {req.unit_code} not found")
+    return await _ingest_transcript(assessment, assessment_id, unit,
+        req.transcript or "", req.candidate_speaker, user,
+        source="transcript_upload")
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-audio")
+async def competency_audio(assessment_id: str,
+                           file: UploadFile = File(...),
+                           unit_code: str = Form(...),
+                           candidate_speaker: str = Form(default=""),
+                           user: dict = Depends(current_user)):
+    """
+    Transcribe an uploaded audio/video recording of a competency conversation via
+    Google Speech-to-Text, then run the same analysis/ingest as a typed transcript.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    content = await file.read()
+    if not content:
+        raise HTTPException(400, "Empty file.")
+    if len(content) > 200 * 1024 * 1024:
+        raise HTTPException(413, "File too large (max 200 MB).")
+
+    from .transcription import transcribe_audio
+    try:
+        tr = await transcribe_audio(content, file.filename or "audio")
+    except RuntimeError as e:
+        # Missing prerequisite (deps/ffmpeg/API/bucket) — actionable 503.
+        raise HTTPException(503, str(e))
+    except Exception as e:
+        raise HTTPException(500, f"Transcription failed: {e}")
+
+    transcript_text = (tr.get("transcript") or "").strip()
+    if len(transcript_text.split()) < 15:
+        raise HTTPException(422, "Transcription produced too little text — check the recording's audio.")
+
+    return await _ingest_transcript(assessment, assessment_id, unit,
+        transcript_text, candidate_speaker, user,
+        source="audio_transcription",
+        extra={"audio_filename": file.filename, "stt_method": tr.get("method")})
 
 
 @app.post("/api/units/{unit_code}/generate-questions")
