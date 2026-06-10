@@ -1333,39 +1333,76 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
     html += `</div>`;
   }
 
-  // ── SECTION 2: SELF-ASSESSMENT CHECKLIST ───────────────────────────────────
+  // ── SECTION 2: SELF-ASSESSMENT CHECKLIST (visual competency heatmap) ───────
   const clEntries = Object.entries(checklist);
   if(clEntries.length){
+    const rmap = {
+      f:{lbl:'Frequently',bg:'var(--mb)',tx:'var(--mt)',ac:'var(--ma)'},
+      s:{lbl:'Sometimes', bg:'var(--pb)',tx:'var(--pt)',ac:'var(--pa)'},
+    };
+    const rOther = {lbl:'Not yet',bg:'var(--off)',tx:'var(--faint)',ac:'var(--border)'};
+    const rOf = v => rmap[v] || rOther;
+
+    // Tally for the legend + proportion bar
+    let nF=0,nS=0,nN=0;
+    clEntries.forEach(([,pcs])=>{ if(typeof pcs==='object')
+      Object.values(pcs).forEach(v=>{ v==='f'?nF++:v==='s'?nS++:nN++; }); });
+    const total = nF+nS+nN || 1;
+
     html += `<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
-      <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">
-        ☑ Self-assessment checklist
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:9px">
+        <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px">☑ Self-assessment checklist</div>
+        <div style="display:flex;gap:11px;font-size:9px;color:var(--muted)">
+          <span><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--ma);margin-right:3px;vertical-align:middle"></span>Frequently ${nF}</span>
+          <span><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--pa);margin-right:3px;vertical-align:middle"></span>Sometimes ${nS}</span>
+          <span><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--border);margin-right:3px;vertical-align:middle"></span>Not yet ${nN}</span>
+        </div>
       </div>
-      <table style="width:100%;border-collapse:collapse;font-size:10px">
-        <thead><tr style="background:var(--off)">
-          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">Unit</th>
-          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">PC</th>
-          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">Self-rating</th>
-          <th style="padding:5px 9px;text-align:left;font-weight:600;color:var(--muted)">AI mapping verdict</th>
-        </tr></thead>
-        <tbody>`;
+      <div style="display:flex;height:8px;border-radius:5px;overflow:hidden;margin-bottom:14px;background:var(--off)">
+        <div style="width:${(nF/total*100).toFixed(1)}%;background:var(--ma)"></div>
+        <div style="width:${(nS/total*100).toFixed(1)}%;background:var(--pa)"></div>
+        <div style="width:${(nN/total*100).toFixed(1)}%;background:var(--border)"></div>
+      </div>`;
 
     clEntries.forEach(([unit, pcs])=>{
       if(typeof pcs!=='object') return;
-      Object.entries(pcs).forEach(([pc, val])=>{
-        const col = val==='f'?'var(--mt)':val==='s'?'var(--pt)':'var(--muted)';
-        const lbl = val==='f'?'Frequently':val==='s'?'Sometimes':'Not yet';
-        const pcMap = pcAnalysis[pc];
-        const mapVerdict = pcMap?.judgement || pcMap?.verdict || '';
-        const mapCol = mapVerdict==='Satisfactory'?'var(--mt)':mapVerdict==='MATCH'?'var(--mt)':mapVerdict?'var(--pt)':'var(--faint)';
-        html += `<tr style="border-bottom:1px solid var(--border)">
-          <td style="padding:5px 9px;font-family:'DM Mono',monospace;font-size:9px;color:var(--muted)">${unit}</td>
-          <td style="padding:5px 9px;font-family:'DM Mono',monospace;font-size:9px;font-weight:600">${pc}</td>
-          <td style="padding:5px 9px"><span style="color:${col};font-weight:500">${lbl}</span></td>
-          <td style="padding:5px 9px"><span style="color:${mapCol};font-size:9px;font-weight:500">${mapVerdict||'—'}</span></td>
-        </tr>`;
+      // Group PCs by element (the digit before the dot, e.g. "4" in "4.3")
+      const byEl = {};
+      Object.entries(pcs).forEach(([pc,val])=>{
+        const el = String(pc).split('.')[0];
+        (byEl[el]=byEl[el]||[]).push([pc,val]);
       });
+      const els = Object.keys(byEl).sort((a,b)=>(+a||0)-(+b||0));
+
+      html += `<div style="margin-bottom:6px">
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--muted);margin-bottom:6px">${unit}</div>`;
+      els.forEach(el=>{
+        const tiles = byEl[el].sort((a,b)=>{
+          const pa=String(a[0]).split('.'),pb=String(b[0]).split('.');
+          return (+pa[0]-+pb[0])||(+pa[1]-+pb[1]);
+        });
+        html += `<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:7px">
+          <div style="flex:0 0 62px;font-size:9px;color:var(--faint);padding-top:15px">Element ${el}</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px">`;
+        tiles.forEach(([pc,val])=>{
+          const r = rOf(val);
+          const pcMap = pcAnalysis[pc];
+          const mapVerdict = pcMap?.judgement || pcMap?.verdict || '';
+          const mapOk = mapVerdict==='Satisfactory' || mapVerdict==='MATCH';
+          const badge = mapVerdict
+            ? `<span style="position:absolute;top:-4px;right:-4px;width:14px;height:14px;border-radius:50%;background:${mapOk?'var(--ma)':'var(--pa)'};color:#fff;font-size:9px;line-height:14px;text-align:center;border:1.5px solid #fff">${mapOk?'✓':'!'}</span>`
+            : '';
+          html += `<div title="PC ${pc} — ${r.lbl}${mapVerdict?' · AI mapping: '+mapVerdict:''}" style="position:relative;width:48px;height:46px;border-radius:8px;background:${r.bg};border:1px solid ${r.ac};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+            ${badge}
+            <span style="font-family:'DM Mono',monospace;font-size:11px;font-weight:700;color:${r.tx}">${pc}</span>
+            <span style="width:6px;height:6px;border-radius:50%;background:${r.ac}"></span>
+          </div>`;
+        });
+        html += `</div></div>`;
+      });
+      html += `</div>`;
     });
-    html += `</tbody></table></div>`;
+    html += `</div>`;
   }
 
   // ── SECTION 3: KNOWLEDGE QUESTIONS + AI ANALYSIS ───────────────────────────
