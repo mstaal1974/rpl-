@@ -13,7 +13,8 @@ from reportlab.lib.units import mm
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table,
-                                TableStyle, PageBreak, HRFlowable)
+                                TableStyle, PageBreak, HRFlowable, Image)
+import base64
 
 NAVY = colors.HexColor("#1F2060")
 GREY = colors.HexColor("#6b7280")
@@ -318,17 +319,49 @@ def _determinations(story, r):
         story.append(Spacer(1, 4))
 
 
+def _signature_flowable(sig):
+    """Render a drawn signature image, or the typed name in a script-like style."""
+    if sig.get("method") == "drawn" and (sig.get("image") or "").startswith("data:image"):
+        try:
+            b64 = sig["image"].split(",", 1)[1]
+            img = Image(BytesIO(base64.b64decode(b64)))
+            # Scale to a sensible signature box, preserving aspect ratio.
+            max_w, max_h = 70 * mm, 22 * mm
+            ratio = min(max_w / img.imageWidth, max_h / img.imageHeight, 1)
+            img.drawWidth = img.imageWidth * ratio
+            img.drawHeight = img.imageHeight * ratio
+            return img
+        except Exception:
+            pass
+    return _para(f"<i>{e(sig.get('name'))}</i>", ParagraphStyle(
+        "Sig", parent=BODY, fontName="Helvetica-Oblique", fontSize=16, leading=18))
+
+
 def _declaration(story, r):
     _section(story, "Human-in-the-loop declaration")
     story.append(_para(e(r.get("hitl_statement")), BODY))
-    story.append(Spacer(1, 14))
+    story.append(Spacer(1, 10))
     ass = (r.get("assessor") or {}).get("name") or "—"
-    sig = Table([[_para(f"Assessor: <b>{e(ass)}</b>", BODY),
-                  _para("Signature: ______________________", BODY),
-                  _para("Date: ____________", BODY)]],
-                colWidths=[60 * mm, 70 * mm, 40 * mm])
-    sig.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP")]))
-    story.append(sig)
+    sig = r.get("signature") or {}
+    if sig.get("name"):
+        when = (sig.get("signed_at") or "")[:19].replace("T", " ")
+        method = "drawn signature" if sig.get("method") == "drawn" else "typed e-signature"
+        tbl = Table([[_para(f"Assessor: <b>{e(ass or sig.get('name'))}</b>", BODY),
+                      _signature_flowable(sig)]],
+                    colWidths=[70 * mm, 90 * mm])
+        tbl.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "BOTTOM")]))
+        story.append(tbl)
+        story.append(Spacer(1, 3))
+        story.append(_para(
+            f"Electronically signed by <b>{e(sig.get('name'))}</b> on {e(when)} UTC "
+            f"({method}). {e(sig.get('statement'))}", SMALL))
+    else:
+        tbl = Table([[_para(f"Assessor: <b>{e(ass)}</b>", BODY),
+                      _para("Signature: ______________________", BODY),
+                      _para("Date: ____________", BODY)]],
+                    colWidths=[60 * mm, 70 * mm, 40 * mm])
+        tbl.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP")]))
+        story.append(tbl)
 
 
 def _footer(canvas, doc):

@@ -564,14 +564,88 @@ async function viewFinalRecord(id){
       <div class="card" style="background:var(--mb);border-color:var(--ma)">
         <div class="ctitle">Human-in-the-loop declaration</div>
         <div style="font-size:11px;line-height:1.7">${fr.hitl_statement||''}</div>
-        <div style="margin-top:12px;display:flex;gap:30px;flex-wrap:wrap;font-size:11px">
-          <div>Assessor: <b>${fr.assessor?.name||'—'}</b></div>
-          <div>Signature: ________________________</div>
-          <div>Date: ______________</div>
-        </div>
+        ${_frSignature(fr, id)}
       </div>
     </div>`;
+    _initSignaturePad(id);
   }catch(e){ root.innerHTML=`<div class="card"><div style="color:var(--rt)">${e.message}</div></div>`; }
+}
+
+// ── Electronic signature on the final record ──────────────────────────────────
+function _frSignature(fr, id){
+  const sig = fr.signature;
+  const assessorName = fr.assessor?.name || '';
+  if(sig && sig.name){
+    const sigVisual = (sig.method==='drawn' && sig.image)
+      ? `<img src="${sig.image}" alt="signature" style="height:60px;max-width:300px;object-fit:contain;display:block">`
+      : `<div style="font-family:'Brush Script MT','Segoe Script',cursive;font-size:30px;color:var(--navy);line-height:1.1">${(sig.name||'').replace(/</g,'&lt;')}</div>`;
+    return `<div style="margin-top:12px;border-top:1px solid var(--ma);padding-top:12px">
+      <div style="font-size:11px"><b>Assessor:</b> ${assessorName||sig.name}</div>
+      <div style="margin-top:6px">${sigVisual}</div>
+      <div style="font-size:10px;color:var(--mt);margin-top:6px">✓ Electronically signed by <b>${(sig.name||'').replace(/</g,'&lt;')}</b> on ${_frDate(sig.signed_at)} (${sig.method==='drawn'?'drawn signature':'typed e-signature'}).</div>
+      <div style="font-size:9px;color:var(--muted);margin-top:2px">${sig.statement||''}</div>
+      <button class="btn btn-sm no-print" style="margin-top:8px" onclick="unsignRecord('${id}')">Revoke &amp; re-sign</button>
+    </div>`;
+  }
+  // Unsigned — capture UI
+  return `<div class="no-print" style="margin-top:12px;border-top:1px dashed var(--ma);padding-top:12px">
+    <div style="font-size:10px;color:var(--muted);margin-bottom:8px">Sign electronically to finalise this record. Draw your signature below, or type your name to sign.</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start">
+      <div>
+        <canvas id="sigpad-${id}" width="320" height="90" style="border:1px solid var(--border);border-radius:8px;background:#fff;touch-action:none;cursor:crosshair;display:block"></canvas>
+        <div style="margin-top:4px"><button class="btn btn-sm" onclick="clearSignaturePad('${id}')">Clear</button> <span style="font-size:9px;color:var(--faint)">draw above</span></div>
+      </div>
+      <div style="flex:1;min-width:200px">
+        <label style="font-size:10px;color:var(--muted)">Signatory name</label>
+        <input id="sig-name-${id}" value="${(assessorName||'').replace(/"/g,'&quot;')}" style="width:100%;font-size:12px;padding:7px 9px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box;margin:3px 0 9px">
+        <label style="display:flex;gap:7px;align-items:flex-start;font-size:10px;color:var(--text);line-height:1.5;cursor:pointer">
+          <input type="checkbox" id="sig-confirm-${id}" style="margin-top:2px">
+          <span>I confirm I have reviewed all evidence and made the final competency determination in accordance with the Standards for RTOs 2015.</span>
+        </label>
+        <button class="btn btn-p btn-sm" style="margin-top:10px" onclick="signRecord('${id}')">✍ Sign electronically</button>
+        <div id="sig-out-${id}" style="margin-top:6px"></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+const _sigState={};
+function _initSignaturePad(id){
+  const cv=document.getElementById('sigpad-'+id); if(!cv) return;
+  const ctx=cv.getContext('2d'); ctx.lineWidth=2; ctx.lineCap='round'; ctx.strokeStyle='#1F2060';
+  let drawing=false, dirty=false;
+  const pos=e=>{const r=cv.getBoundingClientRect();const t=e.touches?e.touches[0]:e;return [t.clientX-r.left,t.clientY-r.top];};
+  const down=e=>{drawing=true;dirty=true;const[x,y]=pos(e);ctx.beginPath();ctx.moveTo(x,y);e.preventDefault();};
+  const move=e=>{if(!drawing)return;const[x,y]=pos(e);ctx.lineTo(x,y);ctx.stroke();e.preventDefault();};
+  const up=()=>{drawing=false;};
+  cv.addEventListener('mousedown',down);cv.addEventListener('mousemove',move);window.addEventListener('mouseup',up);
+  cv.addEventListener('touchstart',down,{passive:false});cv.addEventListener('touchmove',move,{passive:false});cv.addEventListener('touchend',up);
+  _sigState[id]={cv,ctx,isDirty:()=>dirty,clear:()=>{ctx.clearRect(0,0,cv.width,cv.height);dirty=false;}};
+}
+function clearSignaturePad(id){ _sigState[id]?.clear(); }
+
+async function signRecord(id){
+  const out=document.getElementById('sig-out-'+id);
+  const name=(document.getElementById('sig-name-'+id)?.value||'').trim();
+  const confirmed=document.getElementById('sig-confirm-'+id)?.checked;
+  if(!name){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:10px">Enter the signatory name.</div>'; return; }
+  if(!confirmed){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:10px">Tick the confirmation to sign.</div>'; return; }
+  const st=_sigState[id];
+  const drawn = st && st.isDirty();
+  const body = drawn
+    ? {name, method:'drawn', image: st.cv.toDataURL('image/png')}
+    : {name, method:'typed', image:''};
+  if(out) out.innerHTML='<div style="font-size:10px;color:var(--muted)"><span class="spinner spinner-d"></span> Recording signature…</div>';
+  try{
+    await apiPost(`/trainer/assessments/${id}/sign`, body);
+    viewFinalRecord(id);
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:10px">Error: ${e.message}</div>`; }
+}
+
+async function unsignRecord(id){
+  if(!confirm('Revoke the current electronic signature so it can be re-signed?')) return;
+  try{ await apiDelete(`/trainer/assessments/${id}/sign`); viewFinalRecord(id); }
+  catch(e){ alert('Error: '+e.message); }
 }
 
 function renderFullMappingGuide(mapping, assessmentId, assessment){

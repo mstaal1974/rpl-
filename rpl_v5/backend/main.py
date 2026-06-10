@@ -919,6 +919,7 @@ async def _build_final_record(assessment_id: str, user: dict) -> dict:
             "All AI analysis in this record is decision-support only. The qualified "
             "assessor named above has reviewed all evidence and made the final "
             "competency determination in accordance with the Standards for RTOs 2015."),
+        "signature": progress.get("signature"),
     }
     return record
 
@@ -945,6 +946,66 @@ async def trainer_final_record_pdf(assessment_id: str,
     fname = ("RPL_record_" + "".join(ch if ch.isalnum() else "_" for ch in cand))[:60] + ".pdf"
     return Response(content=pdf, media_type="application/pdf",
                     headers={"Content-Disposition": f'attachment; filename="{fname}"'})
+
+
+class SignatureRequest(BaseModel):
+    name: str
+    image: str = ""        # data URL (PNG) of a drawn signature, optional
+    method: str = "typed"  # "drawn" | "typed"
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/sign")
+async def trainer_sign_record(assessment_id: str, req: SignatureRequest,
+                              user: dict = Depends(current_user)):
+    """
+    Record the assessor's electronic signature on the final record. Captures the
+    signer, the typed name and/or drawn signature image, an auditable timestamp,
+    and the attribution statement (intent + identity = a valid e-signature).
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    if not (req.name or "").strip():
+        raise HTTPException(400, "A signatory name is required.")
+    if req.method == "drawn" and not (req.image or "").startswith("data:image"):
+        raise HTTPException(400, "No signature image captured.")
+    if len(req.image or "") > 600_000:
+        raise HTTPException(413, "Signature image too large.")
+
+    signature = {
+        "name":      req.name.strip(),
+        "image":     req.image if req.method == "drawn" else "",
+        "method":    "drawn" if req.method == "drawn" else "typed",
+        "signed_at": datetime.now(timezone.utc).isoformat(),
+        "signed_by": {"user_id": user.get("id"), "name": user.get("name"),
+                      "email": user.get("email"), "role": user.get("role")},
+        "statement": ("I confirm I have reviewed all evidence and made the final "
+                      "competency determination in accordance with the Standards "
+                      "for RTOs 2015."),
+    }
+    fresh = await get_assessment(assessment_id)
+    progress = (fresh or {}).get("progress", {}) or {}
+    progress["signature"] = signature
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+    await save_assessment(assessment_id, "signature", signature)
+    return {"ok": True, "signature": {k: v for k, v in signature.items() if k != "image"}}
+
+
+@app.delete("/api/trainer/assessments/{assessment_id}/sign")
+async def trainer_unsign_record(assessment_id: str,
+                                user: dict = Depends(current_user)):
+    """Remove an electronic signature (e.g. to re-sign after a correction)."""
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    progress = assessment.get("progress", {}) or {}
+    progress.pop("signature", None)
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+    return {"ok": True}
 
 
 @app.post("/api/trainer/assessments/{assessment_id}/complete")
