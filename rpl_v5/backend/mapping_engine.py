@@ -1901,6 +1901,7 @@ async def analyse_assessment_for_ai_usage(client, model: str,
     # Collect all text responses in order for style comparison
     all_text_responses = []
     response_analyses  = []
+    detection_errors   = []   # per-response failures (don't abort the whole report)
 
     unit_qs = unit.knowledge_questions or []
 
@@ -1925,11 +1926,15 @@ async def analyse_assessment_for_ai_usage(client, model: str,
         except (ValueError, IndexError):
             pass
 
-        detection = await detect_ai_usage(
-            client, model, unit,
-            question_obj, answer_str,
-            all_text_responses[:-1],  # prior responses
-            candidate)
+        try:
+            detection = await detect_ai_usage(
+                client, model, unit,
+                question_obj, answer_str,
+                all_text_responses[:-1],  # prior responses
+                candidate)
+        except Exception as e:
+            detection_errors.append(f"Q{q_idx_str}: {str(e)[:160]}")
+            continue
 
         response_analyses.append({
             "source":        "knowledge_question",
@@ -1948,12 +1953,16 @@ async def analyse_assessment_for_ai_usage(client, model: str,
             if len(answer_str.split()) < 5: continue
             all_text_responses.append(answer_str)
 
-            detection = await detect_ai_usage(
-                client, model, unit,
-                {"text": rec.get("question",""), "pc_id": rec.get("pc",""), "knowledge_focus":[]},
-                answer_str,
-                all_text_responses[:-1],
-                candidate)
+            try:
+                detection = await detect_ai_usage(
+                    client, model, unit,
+                    {"text": rec.get("question",""), "pc_id": rec.get("pc",""), "knowledge_focus":[]},
+                    answer_str,
+                    all_text_responses[:-1],
+                    candidate)
+            except Exception as e:
+                detection_errors.append(f"conversation {rec.get('pc','')}: {str(e)[:160]}")
+                continue
 
             response_analyses.append({
                 "source":        "conversation",
@@ -1962,6 +1971,14 @@ async def analyse_assessment_for_ai_usage(client, model: str,
                 "answer_preview": answer_str[:120] + ("..." if len(answer_str) > 120 else ""),
                 "detection":     detection,
             })
+
+    # Every call failed → the AI backend is down (quota/credential). Surface it
+    # clearly instead of returning an empty/misleading report.
+    if not response_analyses and detection_errors:
+        raise RuntimeError(
+            "AI usage detection could not run — every model call failed. "
+            "Check /health → ai_backend (likely Vertex quota 0 or ANTHROPIC_API_KEY "
+            f"not wired into the deployed service). First error: {detection_errors[0]}")
 
     if not response_analyses:
         return {"message": "No responses available for AI detection analysis"}
@@ -1992,6 +2009,8 @@ async def analyse_assessment_for_ai_usage(client, model: str,
         "overall_score":       avg_score,
         "max_individual_score": max_score,
         "responses_analysed":  len(response_analyses),
+        "responses_skipped":   len(detection_errors),
+        "skip_errors":         detection_errors[:5],
         "high_risk_responses": flagged_count,
         "overall_guidance":    overall_guidance,
         "response_analyses":   response_analyses,
