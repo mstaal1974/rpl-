@@ -665,58 +665,49 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
         </div>
       </div>
 
-      <!-- PCs table -->
-      <table style="width:100%;border-collapse:collapse;table-layout:fixed">
-        <thead>
-          <tr style="background:var(--off)">
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:34px">PC</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:28%">Criterion</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:84px">Judgement</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:62px">Score</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Evidence / Gap analysis</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${(el.pcs||[]).map(pc=>{
-            const pct  = Math.round((pc.confidence||0)*100);
-            const isSat = pc.judgement==='Satisfactory';
-            const verdict = pc.verdict||'GAP';
-            const vCol = verdict==='MATCH'?'var(--mt)':verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
-            const vBg  = verdict==='MATCH'?'var(--mb)':verdict==='PARTIAL'?'var(--pb)':'var(--rb)';
-            const hasGap = pc.gap_notes && pc.gap_notes.length>2;
+      <!-- PCs (stacked — criterion + judgement on top, analysis full-width below) -->
+      <div>
+        ${(el.pcs||[]).map(pc=>{
+          const pct  = Math.round((pc.confidence||0)*100);
+          const isSat = pc.judgement==='Satisfactory';
+          const verdict = pc.verdict||'GAP';
+          const vCol = verdict==='MATCH'?'var(--mt)':verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
+          const hasGap = pc.gap_notes && pc.gap_notes.length>2;
+          const hasAnalysis = (pc.evidence_items||[]).length || hasGap || (pc.vacs&&pc.vacs.length>3) || pc.ai_detection || pc.assessor_note;
 
-            return `<tr style="border-bottom:1px solid var(--border);vertical-align:top">
-              <td style="padding:8px 10px;font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)">${pc.id}</td>
-              <td style="padding:8px 10px">
-                <div style="font-size:11px;line-height:1.4;margin-bottom:3px">${pc.criterion||pc.id}</div>
+          return `<div style="border-bottom:1px solid var(--border)">
+            <!-- header row: PC + criterion (left), judgement + score (right) -->
+            <div style="display:flex;align-items:flex-start;gap:10px;padding:9px 12px">
+              <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--muted);flex-shrink:0;padding-top:1px">${pc.id}</span>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:11px;font-weight:500;line-height:1.4;margin-bottom:2px">${pc.criterion||pc.id}</div>
                 ${pc.benchmark_statement?`<div style="font-size:9px;color:var(--muted);font-style:italic;line-height:1.4">Benchmark: ${pc.benchmark_statement.substring(0,160)}${pc.benchmark_statement.length>160?'...':''}</div>`:''}
-              </td>
-              <td style="padding:8px 10px;text-align:center">
-                <span style="padding:2px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
-              </td>
-              <td style="padding:8px 10px">
-                <div style="text-align:center;font-size:11px;font-weight:600;color:${vCol};margin-bottom:3px">${pct}%</div>
-                <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
-                  <div style="width:${pct}%;height:100%;background:${vCol};border-radius:2px"></div>
+              </div>
+              <div style="flex-shrink:0;display:flex;align-items:center;gap:10px">
+                <span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;white-space:nowrap;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
+                <div style="width:58px;text-align:right">
+                  <div style="font-size:11px;font-weight:600;color:${vCol};margin-bottom:3px">${pct}%</div>
+                  <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
+                    <div style="width:${pct}%;height:100%;background:${vCol};border-radius:2px"></div>
+                  </div>
                 </div>
-              </td>
-              <td style="padding:8px 10px">
-                ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,3).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;line-height:1.45;padding:3px 6px;background:var(--mb);border-radius:3px;margin-bottom:3px">"${e.substring(0,240)}${e.length>240?'...':''}"</div>`).join('')}</div>`:''}
-                ${hasGap?`<div style="font-size:9.5px;color:var(--rt);line-height:1.45;padding:4px 7px;background:var(--rb);border-radius:3px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes.substring(0,360)}${pc.gap_notes.length>360?'...':''}</div>`:''}
-                ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9.5px;color:var(--pt);line-height:1.45;margin-top:2px">⚑ ${pc.vacs}</div>`:''}
-                ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
-                ${pc.assessor_note?`<div style="font-size:9.5px;color:var(--it);line-height:1.45;margin-top:3px">👁 ${pc.assessor_note.substring(0,260)}${pc.assessor_note.length>260?'...':''}</div>`:''}
-              </td>
-            </tr>
-            ${pc.followup?`<tr style="border-bottom:1px solid var(--border);background:#EFF6FF">
-              <td colspan="5" style="padding:5px 10px 7px 40px">
-                <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px">🎙 Targeted competency conversation question</div>
-                <div style="font-size:10px;font-style:italic;color:var(--text);line-height:1.5">"${pc.followup}"</div>
-              </td>
-            </tr>`:''}`
-          }).join('')}
-        </tbody>
-      </table>
+              </div>
+            </div>
+            <!-- analysis: full width, indented to align under the criterion -->
+            ${hasAnalysis?`<div style="padding:0 12px 10px 34px">
+              ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,3).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;line-height:1.45;padding:3px 7px;background:var(--mb);border-radius:4px;margin-bottom:3px">"${e.substring(0,300)}${e.length>300?'...':''}"</div>`).join('')}</div>`:''}
+              ${hasGap?`<div style="font-size:9.5px;color:var(--rt);line-height:1.5;padding:4px 8px;background:var(--rb);border-radius:4px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes}</div>`:''}
+              ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9.5px;color:var(--pt);line-height:1.5;padding:4px 8px;background:var(--pb);border-radius:4px;margin-bottom:3px">⚑ ${pc.vacs}</div>`:''}
+              ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
+              ${pc.assessor_note?`<div style="font-size:9.5px;color:var(--it);line-height:1.5;padding:4px 8px;background:var(--ib);border-radius:4px;margin-top:3px">👁 ${pc.assessor_note}</div>`:''}
+            </div>`:''}
+            ${pc.followup?`<div style="padding:7px 12px 8px 34px;background:#EFF6FF;border-top:1px solid var(--border)">
+              <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px">🎙 Targeted competency conversation question</div>
+              <div style="font-size:10px;font-style:italic;color:var(--text);line-height:1.55">"${pc.followup}"</div>
+            </div>`:''}
+          </div>`;
+        }).join('')}
+      </div>
     </div>`;
   });
 
@@ -774,8 +765,104 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
     </div>`;
   }
 
+  // Competency conversation — record & analyse a real transcript
+  const ctUnit = mapping.unit_code || units[0] || '';
+  html += `<div class="card" style="margin-bottom:8px;padding:12px">
+    <div class="ctitle" style="margin-bottom:4px">🎙 Competency conversation — record &amp; analyse a transcript</div>
+    <div class="csub" style="margin-bottom:8px">Hold the conversation over Teams/Zoom or in person, then paste or upload the transcript (.txt or .vtt — exactly what Teams &amp; Zoom export). The AI maps the candidate's spoken evidence to the gapped PCs and files it as competency-conversation evidence.</div>
+    <textarea id="ct-text-${assessmentId}" placeholder="Paste the transcript here…&#10;Assessor: Walk me through a time you…&#10;Candidate: At ABC I was responsible for…" style="width:100%;min-height:110px;font-size:11px;padding:8px;border:1px solid var(--border);border-radius:8px;font-family:inherit;line-height:1.5;resize:vertical;box-sizing:border-box"></textarea>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px">
+      <input type="file" id="ct-file-${assessmentId}" accept=".txt,.vtt,.md,text/plain,text/vtt" onchange="loadTranscriptFile('${assessmentId}')" style="font-size:10px">
+      <input id="ct-speaker-${assessmentId}" placeholder="Candidate's name in transcript (optional)" style="flex:1;min-width:170px;font-size:11px;padding:6px 8px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box">
+      <button class="btn btn-sm" onclick="analyseTranscript('${assessmentId}','${ctUnit}')">Analyse transcript</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;padding-top:8px;border-top:1px dashed var(--border)">
+      <span style="font-size:10px;color:var(--muted)">…or auto-transcribe a recording:</span>
+      <input type="file" id="ct-audio-${assessmentId}" accept="audio/*,video/*,.mp3,.m4a,.wav,.mp4,.mov,.ogg,.webm" style="font-size:10px">
+      <button class="btn btn-sm" onclick="analyseAudio('${assessmentId}','${ctUnit}')">Transcribe &amp; analyse</button>
+    </div>
+    <div id="ct-out-${assessmentId}" style="margin-top:10px"></div>
+  </div>`;
+
   html += `<div id="extra-analysis-${assessmentId}"></div>`;
   return html;
+}
+
+function loadTranscriptFile(id){
+  const f=document.getElementById('ct-file-'+id)?.files?.[0];
+  if(!f) return;
+  const rd=new FileReader();
+  rd.onload=e=>{ const ta=document.getElementById('ct-text-'+id); if(ta) ta.value=e.target.result; };
+  rd.readAsText(f);
+}
+
+async function analyseTranscript(id, unitCode){
+  const ta=document.getElementById('ct-text-'+id);
+  const out=document.getElementById('ct-out-'+id);
+  const speaker=(document.getElementById('ct-speaker-'+id)?.value||'').trim();
+  const text=(ta?.value||'').trim();
+  if(!unitCode){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">No unit resolved for this mapping — run the AI mapping first.</div>'; return; }
+  if(text.split(/\s+/).filter(Boolean).length<20){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">Please paste a longer transcript (at least a few sentences of candidate speech).</div>'; return; }
+  if(out) out.innerHTML='<div style="font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing the conversation against the competency criteria…</div>';
+  try{
+    const r=await apiPost(`/trainer/assessments/${id}/competency-transcript`,{unit_code:unitCode,transcript:text,candidate_speaker:speaker});
+    if(out) out.innerHTML=renderTranscriptResult(r);
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`; }
+}
+
+async function analyseAudio(id, unitCode){
+  const fileInput=document.getElementById('ct-audio-'+id);
+  const out=document.getElementById('ct-out-'+id);
+  const f=fileInput?.files?.[0];
+  const speaker=(document.getElementById('ct-speaker-'+id)?.value||'').trim();
+  if(!unitCode){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">No unit resolved — run the AI mapping first.</div>'; return; }
+  if(!f){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">Choose an audio or video file first.</div>'; return; }
+  if(out) out.innerHTML='<div style="font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Transcribing the recording (long calls can take a minute or two)…</div>';
+  const form=new FormData();
+  form.append('file',f); form.append('unit_code',unitCode); form.append('candidate_speaker',speaker);
+  try{
+    const r=await fetch(API+`/trainer/assessments/${id}/competency-audio`,{method:'POST',headers:{'Authorization':'Bearer '+getToken()},body:form});
+    if(r.status===401){forceLogin();return;}
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${d.detail||('HTTP '+r.status)}</div>`; return; }
+    let html='';
+    if(d.transcript){ html+=`<div style="font-size:10px;color:var(--muted);margin-bottom:5px">Auto-transcript — review for accuracy before relying on it:</div><div style="white-space:pre-wrap;font-size:10px;background:var(--off);border:1px solid var(--border);border-radius:6px;padding:8px;max-height:150px;overflow:auto;margin-bottom:8px">${(d.transcript||'').replace(/</g,'&lt;')}</div>`; }
+    html+=renderTranscriptResult(d);
+    if(out) out.innerHTML=html;
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`; }
+}
+
+function renderTranscriptResult(r){
+  const a=r.analysis||{};
+  const isSat=(a.overall_judgement||'')==='Satisfactory';
+  const conf=Math.round((a.overall_confidence||0)*100);
+  const findings=a.pc_findings||[];
+  const auth=a.authenticity||{};
+  const authCol={LOW:'var(--mt)',MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'}[auth.ai_probability]||'var(--muted)';
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+    <div style="padding:9px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">Transcript analysed — ${a.overall_judgement||'reviewed'} (${conf}%)</span>
+      <span style="margin-left:auto;font-size:9px;color:var(--muted)">${r.turns||0} turns · ${r.candidate_words||0} candidate words · filed as evidence</span>
+    </div>
+    <div style="padding:10px 12px">
+      ${a.summary?`<div style="font-size:11px;line-height:1.6;margin-bottom:8px">${a.summary}</div>`:''}
+      ${findings.map(f=>{
+        const fs=(f.judgement||'')==='Satisfactory';
+        return `<div style="border:1px solid var(--border);border-radius:8px;padding:8px 10px;margin-bottom:6px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${f.pc||''}</span>
+            <span style="padding:1px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${fs?'var(--mb)':'var(--rb)'};color:${fs?'var(--mt)':'var(--rt)'}">${f.judgement||''}</span>
+            ${f.confidence!=null?`<span style="font-size:9px;color:var(--muted)">${Math.round((f.confidence||0)*100)}%</span>`:''}
+          </div>
+          ${(f.evidence_items||[]).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;background:var(--mb);border-radius:4px;padding:3px 7px;margin-bottom:3px">"${e}"</div>`).join('')}
+          ${f.gap_notes?`<div style="font-size:9.5px;color:var(--rt);background:var(--rb);border-radius:4px;padding:3px 7px"><strong>Still missing:</strong> ${f.gap_notes}</div>`:''}
+        </div>`;
+      }).join('')}
+      ${auth.ai_probability?`<div style="font-size:9.5px;color:${authCol};background:var(--off);border:1px solid var(--border);border-radius:4px;padding:5px 8px;margin-top:4px">🔍 Authenticity read: <strong>${auth.ai_probability}</strong>${auth.notes?' — '+auth.notes:''}</div>`:''}
+      ${(a.assessor_actions||[]).length?`<div style="margin-top:6px">${(a.assessor_actions||[]).map(x=>`<div style="font-size:9.5px;color:var(--it);padding:2px 0">👁 ${x}</div>`).join('')}</div>`:''}
+      <div style="font-size:9px;color:var(--muted);margin-top:8px;line-height:1.5">Filed as competency-conversation evidence — it now appears in the final record and the AI-usage report. Re-run the AI mapping to fold it into the PC verdicts. Final determination remains with the assessor.</div>
+    </div>
+  </div>`;
 }
 
 async function runMultiUnitMapping(id,evt){
@@ -1518,7 +1605,7 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
             return `<div style="display:flex;gap:8px;margin-bottom:9px;align-items:flex-start">
               <div style="width:60px;flex-shrink:0;text-align:right;padding-top:6px">
                 <span style="font-size:9px;font-weight:700;color:${isCandidate?'var(--green)':'var(--navy)'}">
-                  ${isCandidate?'Candidate':'AI guide'}
+                  ${isCandidate?'Candidate':(turn.role==='assessor'?'Assessor':'AI guide')}
                 </span>
               </div>
               <div style="flex:1">

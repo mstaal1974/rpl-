@@ -129,6 +129,29 @@ KNOWLEDGE_SCHEMA = """Return ONLY this JSON object with ALL fields populated —
 }"""
 
 
+TRANSCRIPT_SCHEMA = """Respond ONLY with this JSON object — no markdown, no text outside it:
+{
+  "overall_judgement": "Satisfactory"|"Not Satisfactory",
+  "overall_confidence": 0.0-1.0,
+  "summary": "2-3 sentences for the assessor: what the candidate demonstrated across the conversation and the overall standing against this unit.",
+  "pc_findings": [
+    {
+      "pc": "e.g. 5.2",
+      "judgement": "Satisfactory"|"Not Satisfactory",
+      "confidence": 0.0-1.0,
+      "evidence_items": ["specific quote or close paraphrase of what the CANDIDATE said that maps to this PC"],
+      "gap_notes": "what is still missing for this PC after the conversation — empty string if Satisfactory"
+    }
+  ],
+  "authenticity": {
+    "ai_probability": "LOW"|"MEDIUM"|"HIGH"|"VERY_HIGH",
+    "notes": "one sentence on whether the spoken answers appear genuine, specific and internally consistent (verbal answers are normally LOW risk unless recited/evasive)"
+  },
+  "assessor_actions": ["concrete next step for the human assessor, e.g. verify a named document or probe a remaining gap"]
+}
+Only include pc_findings for PCs the conversation actually addresses. Judge strictly against each benchmark_statement."""
+
+
 def _build_mapping_prompt(unit: UnitOfCompetency, candidate: dict,
                            evidence: str, knowledge: dict, checklist: dict) -> str:
     name     = candidate.get("name", "Candidate")
@@ -553,6 +576,46 @@ async def analyse_knowledge_response(client, model: str, unit: UnitOfCompetency,
             "Analysis complete — see the details below.")
 
     return result
+
+
+async def analyse_competency_transcript(client, model: str, unit: UnitOfCompetency,
+                                         candidate: dict, transcript_text: str,
+                                         candidate_text: str, gap_pcs: list = None) -> dict:
+    """
+    Analyse an uploaded competency-conversation transcript (Teams/Zoom/in-person)
+    against the unit's PCs. Assesses only what the CANDIDATE demonstrates and maps
+    their spoken evidence to each PC — with extra focus on previously-gapped PCs.
+    Returns an overall judgement, per-PC findings, and an authenticity read.
+    """
+    pcs = [(pc.id, pc.text, pc.benchmark_statement)
+           for el in unit.elements for pc in el.pcs]
+    pc_lines = "\n".join(f"PC {pid}: {txt} | Benchmark: {bm}" for pid, txt, bm in pcs)
+    gap_line = ("\nPRIORITISE these previously-gapped PCs (the conversation was held to close them): "
+                + ", ".join(gap_pcs)) if gap_pcs else ""
+
+    system = guard(
+        MAPPING_SYSTEM.replace("{currency_years}", str(unit.currency_years))
+        + "\n\n" + TRANSCRIPT_SCHEMA)
+
+    user = f"""Unit {unit.code} — {unit.title}
+Candidate: {candidate.get('name','')} at {candidate.get('employer','')} — {candidate.get('role','')}
+
+Performance criteria:
+{pc_lines}
+{gap_line}
+
+The text below is a verbal COMPETENCY CONVERSATION transcript between an assessor and the candidate. Assess ONLY the evidence the CANDIDATE provides (ignore the assessor's questions as evidence). Map the candidate's spoken evidence to the PCs above, judge each PC the conversation touches, and give an overall judgement plus an authenticity read on whether the spoken answers appear genuine and consistent.
+
+Transcript:
+{wrap_untrusted(transcript_text)}"""
+
+    def _call():
+        return client.messages.create(model=model, max_tokens=4000,
+            system=cached_system(system), messages=[{"role": "user", "content": user}])
+
+    response = await retry.acall(_call, 'mapping')
+    cost.record(model, getattr(response, "usage", None), "transcript_analysis")
+    return extract_json(response.content[0].text)
 
 
 async def run_cross_unit_mapping(client, model: str, units: list,
