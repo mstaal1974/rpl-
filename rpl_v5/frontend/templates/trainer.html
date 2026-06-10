@@ -665,58 +665,49 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
         </div>
       </div>
 
-      <!-- PCs table -->
-      <table style="width:100%;border-collapse:collapse;table-layout:fixed">
-        <thead>
-          <tr style="background:var(--off)">
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:34px">PC</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:28%">Criterion</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:84px">Judgement</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:62px">Score</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Evidence / Gap analysis</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${(el.pcs||[]).map(pc=>{
-            const pct  = Math.round((pc.confidence||0)*100);
-            const isSat = pc.judgement==='Satisfactory';
-            const verdict = pc.verdict||'GAP';
-            const vCol = verdict==='MATCH'?'var(--mt)':verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
-            const vBg  = verdict==='MATCH'?'var(--mb)':verdict==='PARTIAL'?'var(--pb)':'var(--rb)';
-            const hasGap = pc.gap_notes && pc.gap_notes.length>2;
+      <!-- PCs (stacked — criterion + judgement on top, analysis full-width below) -->
+      <div>
+        ${(el.pcs||[]).map(pc=>{
+          const pct  = Math.round((pc.confidence||0)*100);
+          const isSat = pc.judgement==='Satisfactory';
+          const verdict = pc.verdict||'GAP';
+          const vCol = verdict==='MATCH'?'var(--mt)':verdict==='PARTIAL'?'var(--pt)':'var(--rt)';
+          const hasGap = pc.gap_notes && pc.gap_notes.length>2;
+          const hasAnalysis = (pc.evidence_items||[]).length || hasGap || (pc.vacs&&pc.vacs.length>3) || pc.ai_detection || pc.assessor_note;
 
-            return `<tr style="border-bottom:1px solid var(--border);vertical-align:top">
-              <td style="padding:8px 10px;font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)">${pc.id}</td>
-              <td style="padding:8px 10px">
-                <div style="font-size:11px;line-height:1.4;margin-bottom:3px">${pc.criterion||pc.id}</div>
+          return `<div style="border-bottom:1px solid var(--border)">
+            <!-- header row: PC + criterion (left), judgement + score (right) -->
+            <div style="display:flex;align-items:flex-start;gap:10px;padding:9px 12px">
+              <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--muted);flex-shrink:0;padding-top:1px">${pc.id}</span>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:11px;font-weight:500;line-height:1.4;margin-bottom:2px">${pc.criterion||pc.id}</div>
                 ${pc.benchmark_statement?`<div style="font-size:9px;color:var(--muted);font-style:italic;line-height:1.4">Benchmark: ${pc.benchmark_statement.substring(0,160)}${pc.benchmark_statement.length>160?'...':''}</div>`:''}
-              </td>
-              <td style="padding:8px 10px;text-align:center">
-                <span style="padding:2px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
-              </td>
-              <td style="padding:8px 10px">
-                <div style="text-align:center;font-size:11px;font-weight:600;color:${vCol};margin-bottom:3px">${pct}%</div>
-                <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
-                  <div style="width:${pct}%;height:100%;background:${vCol};border-radius:2px"></div>
+              </div>
+              <div style="flex-shrink:0;display:flex;align-items:center;gap:10px">
+                <span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;white-space:nowrap;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
+                <div style="width:58px;text-align:right">
+                  <div style="font-size:11px;font-weight:600;color:${vCol};margin-bottom:3px">${pct}%</div>
+                  <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
+                    <div style="width:${pct}%;height:100%;background:${vCol};border-radius:2px"></div>
+                  </div>
                 </div>
-              </td>
-              <td style="padding:8px 10px">
-                ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,3).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;line-height:1.45;padding:3px 6px;background:var(--mb);border-radius:3px;margin-bottom:3px">"${e.substring(0,240)}${e.length>240?'...':''}"</div>`).join('')}</div>`:''}
-                ${hasGap?`<div style="font-size:9.5px;color:var(--rt);line-height:1.45;padding:4px 7px;background:var(--rb);border-radius:3px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes.substring(0,360)}${pc.gap_notes.length>360?'...':''}</div>`:''}
-                ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9.5px;color:var(--pt);line-height:1.45;margin-top:2px">⚑ ${pc.vacs}</div>`:''}
-                ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
-                ${pc.assessor_note?`<div style="font-size:9.5px;color:var(--it);line-height:1.45;margin-top:3px">👁 ${pc.assessor_note.substring(0,260)}${pc.assessor_note.length>260?'...':''}</div>`:''}
-              </td>
-            </tr>
-            ${pc.followup?`<tr style="border-bottom:1px solid var(--border);background:#EFF6FF">
-              <td colspan="5" style="padding:5px 10px 7px 40px">
-                <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px">🎙 Targeted competency conversation question</div>
-                <div style="font-size:10px;font-style:italic;color:var(--text);line-height:1.5">"${pc.followup}"</div>
-              </td>
-            </tr>`:''}`
-          }).join('')}
-        </tbody>
-      </table>
+              </div>
+            </div>
+            <!-- analysis: full width, indented to align under the criterion -->
+            ${hasAnalysis?`<div style="padding:0 12px 10px 34px">
+              ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,3).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;line-height:1.45;padding:3px 7px;background:var(--mb);border-radius:4px;margin-bottom:3px">"${e.substring(0,300)}${e.length>300?'...':''}"</div>`).join('')}</div>`:''}
+              ${hasGap?`<div style="font-size:9.5px;color:var(--rt);line-height:1.5;padding:4px 8px;background:var(--rb);border-radius:4px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes}</div>`:''}
+              ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9.5px;color:var(--pt);line-height:1.5;padding:4px 8px;background:var(--pb);border-radius:4px;margin-bottom:3px">⚑ ${pc.vacs}</div>`:''}
+              ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
+              ${pc.assessor_note?`<div style="font-size:9.5px;color:var(--it);line-height:1.5;padding:4px 8px;background:var(--ib);border-radius:4px;margin-top:3px">👁 ${pc.assessor_note}</div>`:''}
+            </div>`:''}
+            ${pc.followup?`<div style="padding:7px 12px 8px 34px;background:#EFF6FF;border-top:1px solid var(--border)">
+              <div style="font-size:9px;font-weight:700;color:var(--it);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px">🎙 Targeted competency conversation question</div>
+              <div style="font-size:10px;font-style:italic;color:var(--text);line-height:1.55">"${pc.followup}"</div>
+            </div>`:''}
+          </div>`;
+        }).join('')}
+      </div>
     </div>`;
   });
 
