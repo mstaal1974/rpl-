@@ -2210,15 +2210,65 @@ async def _ingest_transcript(assessment: dict, assessment_id: str, unit,
 
     findings = analysis.get("pc_findings", []) or []
     primary_pc = findings[0].get("pc") if findings else (gap_pcs[0] if gap_pcs else "")
+    pc_text = ""
+    for el in unit.elements:
+        for pc in el.pcs:
+            if pc.id == primary_pc:
+                pc_text = pc.text
+                break
+
+    # Map the model's per-turn analysis onto the candidate dialogue turns and
+    # shape the record like an adaptive_record, so the branch-path diagram
+    # (renderBranchMap) renders this conversation the same way.
+    _AI_SCORE = {"LOW": 10, "MEDIUM": 35, "HIGH": 55, "VERY_HIGH": 75}
+    _VALID_BRANCH = {"DEEPEN", "CHALLENGE", "PIVOT", "ADVANCE", "GAP"}
+    turn_analyses = analysis.get("turns", []) or []
+    cand_indices = [i for i, d in enumerate(dialogue) if d["role"] == "candidate"]
+    branch_trail = []
+    for n, di in enumerate(cand_indices):
+        ta = turn_analyses[n] if n < len(turn_analyses) else {}
+        branch = ta.get("branch", "DEEPEN")
+        if branch not in _VALID_BRANCH:
+            branch = "DEEPEN"
+        ai_prob = ta.get("ai_probability", "LOW")
+        dialogue[di]["analysis"] = {
+            "confidence":      ta.get("confidence"),
+            "judgement":       ta.get("judgement", ""),
+            "demonstrated":    ta.get("demonstrated", []),
+            "missing":         ta.get("missing", []),
+            "evidence_quotes": ta.get("evidence_quotes", []),
+        }
+        dialogue[di]["authenticity"] = {
+            "verdict":  "UNCERTAIN" if ai_prob in ("HIGH", "VERY_HIGH") else "AUTHENTIC",
+            "ai_usage": {"probability": ai_prob, "score": _AI_SCORE.get(ai_prob, 10)},
+        }
+        dialogue[di]["branch"] = branch
+        branch_trail.append({"turn": n + 1, "decision": branch,
+                             "reason": ta.get("branch_reason", "")})
+
+    overall_sat = analysis.get("overall_judgement", "") == "Satisfactory"
+    close_decision = (branch_trail[-1]["decision"] if branch_trail
+                      else ("ADVANCE" if overall_sat else "GAP"))
+    # A satisfied conversation closes on ADVANCE; an unmet one on GAP.
+    if overall_sat and close_decision not in ("ADVANCE",):
+        close_decision = "ADVANCE"
+    elif not overall_sat and close_decision == "ADVANCE":
+        close_decision = "GAP"
+
+    first_assessor = next((d["content"] for d in dialogue if d["role"] == "assessor"), "")
 
     record = {
         "unit":             unit.code,
         "pc":               primary_pc or "",
+        "pc_text":          pc_text,
         "question":         "Competency conversation (recording transcribed)"
                             if source == "audio_transcription"
                             else "Competency conversation (uploaded transcript)",
         "source":           source,
         "dialogue":         dialogue,
+        "scenario":         {"opening_question": first_assessor or pc_text},
+        "branch_trail":     branch_trail,
+        "close_decision":   close_decision,
         "final_judgement":  analysis.get("overall_judgement", ""),
         "final_confidence": analysis.get("overall_confidence", 0),
         "pc_findings":      findings,
@@ -2243,7 +2293,7 @@ async def _ingest_transcript(assessment: dict, assessment_id: str, unit,
     await save_assessment(assessment_id,
         f"transcript_{unit.code}_{len(records)}", record)
 
-    return {"ok": True, "analysis": analysis,
+    return {"ok": True, "analysis": analysis, "record": record,
             "turns": len(dialogue),
             "candidate_words": len(candidate_text.split()),
             "transcript": transcript_text if source == "audio_transcription" else "",

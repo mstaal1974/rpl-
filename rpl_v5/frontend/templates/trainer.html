@@ -839,7 +839,13 @@ function renderTranscriptResult(r){
   const findings=a.pc_findings||[];
   const auth=a.authenticity||{};
   const authCol={LOW:'var(--mt)',MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'}[auth.ai_probability]||'var(--muted)';
-  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+  const rec=r.record;
+  const mapHtml=(rec&&(rec.branch_trail||[]).length&&(rec.dialogue||[]).length)?
+    `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:8px">
+      <div style="padding:7px 12px;background:var(--off);font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.4px">Branch path</div>
+      ${renderBranchMap(rec,'ctlive-'+(r.record_index!=null?r.record_index:0)+'-'+Math.floor(Math.random()*1e6))}
+    </div>`:'';
+  return mapHtml + `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
     <div style="padding:9px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <span style="font-size:11px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">Transcript analysed — ${a.overall_judgement||'reviewed'} (${conf}%)</span>
       <span style="margin-left:auto;font-size:9px;color:var(--muted)">${r.turns||0} turns · ${r.candidate_words||0} candidate words · filed as evidence</span>
@@ -1628,6 +1634,7 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
   }
 
   html += renderAdaptiveInterviews(assessmentId, progress, pcAnalysis);
+  html += renderConversationBranchMaps(assessmentId, progress);
 
   html += '</div></div>';
   return html;
@@ -1774,6 +1781,39 @@ function renderBranchMap(rec, mapId){
     <div style="font-size:8px;color:var(--faint);margin-top:6px">Tip: click any answer circle to see that try in full — question, answer, analysis and what changed.</div>
   </div>
   <div id="amap-detail-${mapId}" style="background:#fdfdff">${panels}</div>`;
+}
+
+// Assessor-led competency conversations (uploaded transcript / recording) shown
+// on the SAME branch-path diagram as the adaptive interview, for visual consistency.
+function renderConversationBranchMaps(assessmentId, progress){
+  const recs=(progress?.conversation_records||[]).filter(r=>
+    (r.source==='transcript_upload'||r.source==='audio_transcription') &&
+    (r.dialogue||[]).length && (r.branch_trail||[]).length);
+  if(!recs.length) return '';
+  let html=`<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+    <div style="font-size:10px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">
+      🎙 Competency conversation — branch view
+    </div>
+    <div style="font-size:9px;color:var(--faint);margin-bottom:10px;line-height:1.6">Assessor-led verbal conversation (uploaded transcript / recording), mapped onto the same path diagram. Branches are inferred retrospectively from how the questioning moved. Click any answer circle for the full turn.</div>`;
+  recs.forEach((rec,i)=>{
+    const mapId='conv-'+assessmentId+'-'+i;
+    const isSat=rec.final_judgement==='Satisfactory';
+    const pct=rec.final_confidence?Math.round(rec.final_confidence*100):null;
+    const srcLbl=rec.source==='audio_transcription'?'🎧 recording':'📄 transcript';
+    html+=`<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px">
+      <div style="padding:8px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${rec.unit||''}${rec.pc?' · '+rec.pc:''}</span>
+        <span class="chip" style="background:var(--off);color:var(--muted)">${srcLbl}</span>
+        <div style="margin-left:auto;display:flex;align-items:center;gap:6px">
+          ${rec.final_judgement?`<span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--ma)':'var(--pa)'};color:#fff">${rec.final_judgement}</span>`:''}
+          ${pct!==null?`<span style="font-size:10px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">${pct}%</span>`:''}
+        </div>
+      </div>
+      ${renderBranchMap(rec, mapId)}
+    </div>`;
+  });
+  html+='</div>';
+  return html;
 }
 
 function renderAdaptiveInterviews(assessmentId, progress, pcAnalysis){
