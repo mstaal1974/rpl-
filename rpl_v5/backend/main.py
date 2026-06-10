@@ -2466,6 +2466,96 @@ async def competency_conversation_response(assessment_id: str,
             "confidence": conf, "analysis": result}
 
 
+def _competency_conversation_evidence(progress: dict, unit_code: str) -> str:
+    """Compile the candidate's spoken competency-conversation + adaptive-interview
+    answers for this unit into an evidence block, so re-running the mapping folds
+    them into the PC verdicts (the intake agent tags these as 'conversation')."""
+    parts = []
+    for rec in (progress.get("conversation_records") or []):
+        if rec.get("unit") != unit_code:
+            continue
+        for d in (rec.get("dialogue") or []):
+            if d.get("role") == "candidate" and d.get("content"):
+                pc = d.get("pc") or rec.get("pc") or ""
+                parts.append(f"[Competency conversation{(' — PC ' + pc) if pc else ''}] {d['content']}")
+    for rec in (progress.get("adaptive_records") or []):
+        if rec.get("unit") != unit_code:
+            continue
+        pc = rec.get("pc", "")
+        for d in (rec.get("dialogue") or []):
+            if d.get("role") == "candidate" and d.get("content"):
+                parts.append(f"[Adaptive interview{(' — PC ' + pc) if pc else ''}] {d['content']}")
+    return "\n".join(parts)
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-conversation/complete")
+async def competency_conversation_complete(assessment_id: str, body: dict,
+                                           user: dict = Depends(current_user)):
+    """
+    Finalise the competency-conversation stage: re-run the AI mapping with the
+    conversation answers folded into the evidence, so the captured responses move
+    the PC verdicts. Marks the stage complete. The determination stays advisory
+    (HITL) — the assessor still confirms.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit_code = (body or {}).get("unit_code", "")
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    progress  = assessment.get("progress", {}) or {}
+    candidate = assessment.get("candidate", {}) or {}
+    notes     = progress.get("candidate_notes", {}) or {}
+    base_evidence = notes.get("resume", "") or ""
+    conv_evidence = _competency_conversation_evidence(progress, unit_code)
+    evidence = base_evidence + (("\n\nCOMPETENCY CONVERSATION EVIDENCE:\n" + conv_evidence)
+                                if conv_evidence else "")
+
+    try:
+        report = await orchestrate_rpl_assessment(
+            client=get_client(), unit=unit, candidate=candidate,
+            evidence=evidence,
+            knowledge_responses=progress.get("knowledge_responses", {}) or {},
+            checklist_results=progress.get("checklist", {}) or {},
+            uploads=progress.get("uploads", {}) or {},
+            candidate_notes=notes,
+            industry_context=progress.get("industry_context", ""))
+    except Exception as e:
+        raise HTTPException(500, f"Re-mapping failed: {e}")
+
+    report["audit"] = {
+        "assessment_id": assessment_id, "unit_code": unit_code,
+        "unit_title": unit.title, "generated_at": datetime.now(timezone.utc).isoformat(),
+        "model": MODEL, "hitl_status": "PENDING_ASSESSOR_REVIEW",
+        "architecture": "hierarchical_multi_agent_v1",
+        "source": "competency_conversation_complete"}
+    await save_assessment(assessment_id, "mapping_report", report)
+
+    fresh = await get_assessment(assessment_id)
+    prog = (fresh or {}).get("progress", {}) or {}
+    mappings = prog.get("mappings", {}) or {}
+    mappings[unit_code] = report
+    prog["mappings"] = mappings
+    unit_codes = assessment.get("unit_codes", [])
+    primary_unit = (prog.get("mapping", {}) or {}).get("audit", {}).get("unit_code")
+    if len(unit_codes) == 1 or primary_unit == unit_code or not prog.get("mapping"):
+        prog["mapping"] = report
+    cc = prog.get("competency_conversation_complete", {}) or {}
+    cc[unit_code] = {"at": datetime.now(timezone.utc).isoformat(),
+                     "by": user.get("email") or user.get("name") or "assessor"}
+    prog["competency_conversation_complete"] = cc
+
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, prog)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+
+    return {"ok": True, "unit_code": unit_code,
+            "overall": report.get("overall", {}),
+            "completed_at": cc[unit_code]["at"]}
+
+
 @app.post("/api/units/{unit_code}/generate-questions")
 async def generate_unit_questions(unit_code: str,
                                    industry_context: str = "",
