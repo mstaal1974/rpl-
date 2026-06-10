@@ -144,8 +144,13 @@ textarea{resize:vertical;line-height:1.6}.fr{margin-bottom:9px}
         <span id="user-name" style="font-weight:500;color:var(--text)"></span>
         <span class="chip" id="user-role-chip"></span>
       </span>
+      <button class="btn btn-sm admin-only" id="viewas-btn" onclick="toggleViewAs(true)" style="margin-left:8px;display:none">👁 View as trainer</button>
       <button class="btn btn-sm" id="logout-btn" style="margin-left:8px">Log out</button>
     </div>
+  </div>
+  <div id="preview-banner" style="display:none;align-items:center;gap:10px;padding:7px 16px;background:#F5F3FF;border-bottom:1px solid #C4B5FD;font-size:11px;color:#5B21B6">
+    <span>👁 <strong>Previewing the trainer view.</strong> Admin tools are hidden so you can see what a trainer sees. You still have full admin access.</span>
+    <button class="btn btn-sm" style="margin-left:auto" onclick="toggleViewAs(false)">Exit trainer preview</button>
   </div>
   <div class="content" id="root"></div>
 </div>
@@ -154,6 +159,11 @@ textarea{resize:vertical;line-height:1.6}.fr{margin-bottom:9px}
 const API='/api';
 var _allUnits=[],_selUnits={},_pkgFilter='',_templates=[];
 var ME=null, ORG=null;
+// Admin "view as trainer" preview — UI-only; does not change actual permissions.
+var _viewAsTrainer = (sessionStorage.getItem('rpl_viewas')==='1');
+function _realRole(){ return ME ? ME.role : ''; }
+function _isAdminUser(){ return _realRole()==='admin' || _realRole()==='superadmin'; }
+function effectiveRole(){ return (_viewAsTrainer && _isAdminUser()) ? 'trainer' : _realRole(); }
 
 // ── Token storage (sessionStorage so it doesn't outlive the browser tab) ──
 function getToken(){ return sessionStorage.getItem('rpl_token') || ''; }
@@ -167,6 +177,8 @@ function clearSession(){
   sessionStorage.removeItem('rpl_token');
   sessionStorage.removeItem('rpl_user');
   sessionStorage.removeItem('rpl_org');
+  sessionStorage.removeItem('rpl_viewas');
+  _viewAsTrainer = false;
   ME = null; ORG = null;
 }
 function restoreSession(){
@@ -3428,15 +3440,30 @@ function applyUserToUI(){
   document.getElementById('sb-mark').textContent =
     (ORG.name||'RPL').split(/\s+/).map(w=>w[0]||'').join('').slice(0,3).toUpperCase();
   document.getElementById('user-name').textContent = ME.name || ME.email;
+  const previewing = _viewAsTrainer && _isAdminUser();
+  const role = effectiveRole();   // 'trainer' while previewing
   const chip = document.getElementById('user-role-chip');
-  const roleLabel = ME.role==='superadmin' ? 'Super Admin'
-                  : ME.role==='admin' ? 'Admin & Compliance' : 'Trainer';
-  chip.textContent = roleLabel;
-  chip.className = 'chip '+(ME.role==='superadmin'?'chip-a':ME.role==='admin'?'chip-n':'chip-b');
-  // Show/hide role-gated items
-  const isAdmin = (ME.role==='admin' || ME.role==='superadmin');
+  chip.textContent = previewing ? 'Trainer (preview)'
+                  : role==='superadmin' ? 'Super Admin'
+                  : role==='admin' ? 'Admin & Compliance' : 'Trainer';
+  chip.className = 'chip '+(previewing?'chip-b':role==='superadmin'?'chip-a':role==='admin'?'chip-n':'chip-b');
+  // Show/hide role-gated items against the EFFECTIVE role so the preview hides admin tools.
+  const isAdmin = (role==='admin' || role==='superadmin');
   document.querySelectorAll('.admin-only').forEach(el=>{ el.style.display = isAdmin ? '' : 'none'; });
-  document.querySelectorAll('.super-only').forEach(el=>{ el.style.display = (ME.role==='superadmin') ? '' : 'none'; });
+  document.querySelectorAll('.super-only').forEach(el=>{ el.style.display = (role==='superadmin') ? '' : 'none'; });
+  // The "View as trainer" button itself is admin-only but must stay hidden while previewing.
+  const vab = document.getElementById('viewas-btn');
+  if(vab) vab.style.display = (_isAdminUser() && !previewing) ? '' : 'none';
+  const banner = document.getElementById('preview-banner');
+  if(banner) banner.style.display = previewing ? 'flex' : 'none';
+}
+
+function toggleViewAs(on){
+  if(on && !_isAdminUser()) return;       // only admins can preview
+  _viewAsTrainer = !!on;
+  sessionStorage.setItem('rpl_viewas', on ? '1' : '0');
+  applyUserToUI();
+  nav('dashboard');                        // land somewhere visible in both roles
 }
 
 async function doLogin(){
@@ -3458,9 +3485,10 @@ async function doLogin(){
     }
     const d = await r.json();
     setSession(d.token, d.user, d.org);
+    _viewAsTrainer = false; sessionStorage.removeItem('rpl_viewas');
     applyUserToUI();
     hideLogin();
-    nav(ME.role==='superadmin' ? 'orgs' : 'dashboard');
+    nav(effectiveRole()==='superadmin' ? 'orgs' : 'dashboard');
   }catch(e){
     err.textContent='Network error: '+e.message;
     err.style.display='block';
@@ -3495,7 +3523,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       sessionStorage.setItem('rpl_user', JSON.stringify(ME));
       sessionStorage.setItem('rpl_org',  JSON.stringify(ORG));
       applyUserToUI();
-      nav(ME.role==='superadmin' ? 'orgs' : 'dashboard');
+      nav(effectiveRole()==='superadmin' ? 'orgs' : 'dashboard');
     }).catch(()=>{ forceLogin(); });
   } else {
     forceLogin();
