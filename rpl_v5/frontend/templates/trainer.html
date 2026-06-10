@@ -402,11 +402,13 @@ async function viewAssessment(id){
     }
 
     if(a.status==='SUBMITTED'||a.status==='COMPLETE'){
+      const signed=!!a.progress?.signature;
       html+=`<div class="card" style="background:var(--mb);border-color:var(--ma);text-align:center;padding:14px">
         <div style="font-size:13px;font-weight:500;color:var(--mt);margin-bottom:7px">
-          ${a.status==='SUBMITTED'?'RPL submitted — ready for your review':'Assessment complete'}
+          ${a.status==='SUBMITTED'?'RPL submitted — review, then sign off to complete':'✓ Assessment complete'+(signed?' — electronically signed':'')}
         </div>
-        ${a.status==='SUBMITTED'?`<button class="btn btn-p btn-sm" onclick="markComplete('${id}')">Mark as complete</button>`:''}
+        <button class="btn btn-p btn-sm" onclick="viewFinalRecord('${id}')">${a.status==='COMPLETE'?'View signed record':'Review &amp; sign off →'}</button>
+        <div style="font-size:9px;color:var(--muted);margin-top:6px">Completion is recorded when the assessor electronically signs the final record.</div>
       </div>`;
     }
 
@@ -582,14 +584,14 @@ function _frSignature(fr, id){
     return `<div style="margin-top:12px;border-top:1px solid var(--ma);padding-top:12px">
       <div style="font-size:11px"><b>Assessor:</b> ${assessorName||sig.name}</div>
       <div style="margin-top:6px">${sigVisual}</div>
-      <div style="font-size:10px;color:var(--mt);margin-top:6px">✓ Electronically signed by <b>${(sig.name||'').replace(/</g,'&lt;')}</b> on ${_frDate(sig.signed_at)} (${sig.method==='drawn'?'drawn signature':'typed e-signature'}).</div>
+      <div style="font-size:10px;color:var(--mt);margin-top:6px">✓ Assessment completed — electronically signed by <b>${(sig.name||'').replace(/</g,'&lt;')}</b> on ${_frDate(sig.signed_at)} (${sig.method==='drawn'?'drawn signature':'typed e-signature'}).</div>
       <div style="font-size:9px;color:var(--muted);margin-top:2px">${sig.statement||''}</div>
-      <button class="btn btn-sm no-print" style="margin-top:8px" onclick="unsignRecord('${id}')">Revoke &amp; re-sign</button>
+      <button class="btn btn-sm no-print" style="margin-top:8px" onclick="unsignRecord('${id}')">Revoke signature &amp; re-open</button>
     </div>`;
   }
   // Unsigned — capture UI
   return `<div class="no-print" style="margin-top:12px;border-top:1px dashed var(--ma);padding-top:12px">
-    <div style="font-size:10px;color:var(--muted);margin-bottom:8px">Sign electronically to finalise this record. Draw your signature below, or type your name to sign.</div>
+    <div style="font-size:10px;color:var(--muted);margin-bottom:8px"><b>Signing completes the assessment.</b> This is your final competency determination — draw your signature below, or type your name to sign.</div>
     <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start">
       <div>
         <canvas id="sigpad-${id}" width="320" height="90" style="border:1px solid var(--border);border-radius:8px;background:#fff;touch-action:none;cursor:crosshair;display:block"></canvas>
@@ -602,7 +604,7 @@ function _frSignature(fr, id){
           <input type="checkbox" id="sig-confirm-${id}" style="margin-top:2px">
           <span>I confirm I have reviewed all evidence and made the final competency determination in accordance with the Standards for RTOs 2015.</span>
         </label>
-        <button class="btn btn-p btn-sm" style="margin-top:10px" onclick="signRecord('${id}')">✍ Sign electronically</button>
+        <button class="btn btn-p btn-sm" style="margin-top:10px" onclick="signRecord('${id}')">✍ Sign &amp; complete assessment</button>
         <div id="sig-out-${id}" style="margin-top:6px"></div>
       </div>
     </div>
@@ -643,7 +645,7 @@ async function signRecord(id){
 }
 
 async function unsignRecord(id){
-  if(!confirm('Revoke the current electronic signature so it can be re-signed?')) return;
+  if(!confirm('Revoke the electronic signature? This re-opens the assessment (back to Submitted) so it can be reviewed and re-signed.')) return;
   try{ await apiDelete(`/trainer/assessments/${id}/sign`); viewFinalRecord(id); }
   catch(e){ alert('Error: '+e.message); }
 }

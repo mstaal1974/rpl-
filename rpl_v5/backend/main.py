@@ -985,26 +985,35 @@ async def trainer_sign_record(assessment_id: str, req: SignatureRequest,
     fresh = await get_assessment(assessment_id)
     progress = (fresh or {}).get("progress", {}) or {}
     progress["signature"] = signature
-    orig_status = assessment.get("status")
     await save_progress(assessment_id, progress)
-    if orig_status in ("SUBMITTED", "COMPLETE"):
-        await set_status(assessment_id, orig_status)
     await save_assessment(assessment_id, "signature", signature)
-    return {"ok": True, "signature": {k: v for k, v in signature.items() if k != "image"}}
+    # Signing the HITL declaration IS the assessor's final determination: record it
+    # and complete the assessment in one step.
+    await save_assessment(assessment_id, "assessor_overall", {
+        "pc_id": "overall", "assessor_verdict": "CONFIRMED",
+        "assessor_notes": "Final determination confirmed by electronic signature.",
+        "decided_at": signature["signed_at"], "decided_by": signature["signed_by"],
+        "source": "HUMAN_ASSESSOR", "hitl_compliant": True,
+        "signed": True})
+    await complete_assessment(assessment_id)
+    return {"ok": True, "status": "COMPLETE",
+            "signature": {k: v for k, v in signature.items() if k != "image"}}
 
 
 @app.delete("/api/trainer/assessments/{assessment_id}/sign")
 async def trainer_unsign_record(assessment_id: str,
                                 user: dict = Depends(current_user)):
-    """Remove an electronic signature (e.g. to re-sign after a correction)."""
+    """Revoke an electronic signature — re-opens a completed record for re-signing."""
     assessment = await get_assessment(assessment_id)
     _check_record_tenant(assessment, user)
     progress = assessment.get("progress", {}) or {}
     progress.pop("signature", None)
-    orig_status = assessment.get("status")
     await save_progress(assessment_id, progress)
-    if orig_status in ("SUBMITTED", "COMPLETE"):
-        await set_status(assessment_id, orig_status)
+    # Revoking the signature reverts a COMPLETE record to SUBMITTED for re-sign.
+    if assessment.get("status") == "COMPLETE":
+        await set_status(assessment_id, "SUBMITTED")
+    elif assessment.get("status") == "SUBMITTED":
+        await set_status(assessment_id, "SUBMITTED")
     return {"ok": True}
 
 
@@ -1014,9 +1023,12 @@ async def trainer_complete_assessment(
     decision: AssessorDecision,
     user: dict = Depends(current_user)
 ):
-    """Trainer marks assessment as complete with final determination."""
+    """Trainer marks assessment as complete with final determination.
+    Requires an electronic signature on the record (HITL sign-off)."""
     rec = await get_assessment(assessment_id)
     _check_record_tenant(rec, user)
+    if not ((rec or {}).get("progress", {}) or {}).get("signature"):
+        raise HTTPException(400, "Electronically sign the final record before completing.")
     await save_assessment(assessment_id, f"assessor_{decision.pc_id}", {
         "pc_id": decision.pc_id,
         "assessor_verdict": decision.assessor_verdict,
