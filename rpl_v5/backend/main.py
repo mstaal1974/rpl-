@@ -919,6 +919,7 @@ async def _build_final_record(assessment_id: str, user: dict) -> dict:
             "All AI analysis in this record is decision-support only. The qualified "
             "assessor named above has reviewed all evidence and made the final "
             "competency determination in accordance with the Standards for RTOs 2015."),
+        "signature": progress.get("signature"),
     }
     return record
 
@@ -945,6 +946,66 @@ async def trainer_final_record_pdf(assessment_id: str,
     fname = ("RPL_record_" + "".join(ch if ch.isalnum() else "_" for ch in cand))[:60] + ".pdf"
     return Response(content=pdf, media_type="application/pdf",
                     headers={"Content-Disposition": f'attachment; filename="{fname}"'})
+
+
+class SignatureRequest(BaseModel):
+    name: str
+    image: str = ""        # data URL (PNG) of a drawn signature, optional
+    method: str = "typed"  # "drawn" | "typed"
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/sign")
+async def trainer_sign_record(assessment_id: str, req: SignatureRequest,
+                              user: dict = Depends(current_user)):
+    """
+    Record the assessor's electronic signature on the final record. Captures the
+    signer, the typed name and/or drawn signature image, an auditable timestamp,
+    and the attribution statement (intent + identity = a valid e-signature).
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    if not (req.name or "").strip():
+        raise HTTPException(400, "A signatory name is required.")
+    if req.method == "drawn" and not (req.image or "").startswith("data:image"):
+        raise HTTPException(400, "No signature image captured.")
+    if len(req.image or "") > 600_000:
+        raise HTTPException(413, "Signature image too large.")
+
+    signature = {
+        "name":      req.name.strip(),
+        "image":     req.image if req.method == "drawn" else "",
+        "method":    "drawn" if req.method == "drawn" else "typed",
+        "signed_at": datetime.now(timezone.utc).isoformat(),
+        "signed_by": {"user_id": user.get("id"), "name": user.get("name"),
+                      "email": user.get("email"), "role": user.get("role")},
+        "statement": ("I confirm I have reviewed all evidence and made the final "
+                      "competency determination in accordance with the Standards "
+                      "for RTOs 2015."),
+    }
+    fresh = await get_assessment(assessment_id)
+    progress = (fresh or {}).get("progress", {}) or {}
+    progress["signature"] = signature
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+    await save_assessment(assessment_id, "signature", signature)
+    return {"ok": True, "signature": {k: v for k, v in signature.items() if k != "image"}}
+
+
+@app.delete("/api/trainer/assessments/{assessment_id}/sign")
+async def trainer_unsign_record(assessment_id: str,
+                                user: dict = Depends(current_user)):
+    """Remove an electronic signature (e.g. to re-sign after a correction)."""
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    progress = assessment.get("progress", {}) or {}
+    progress.pop("signature", None)
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+    return {"ok": True}
 
 
 @app.post("/api/trainer/assessments/{assessment_id}/complete")
@@ -2464,6 +2525,96 @@ async def competency_conversation_response(assessment_id: str,
     return {"ok": True, "pc": req.pc, "qualifying": req.qualifying,
             "judgement": result.get("judgement", ""),
             "confidence": conf, "analysis": result}
+
+
+def _competency_conversation_evidence(progress: dict, unit_code: str) -> str:
+    """Compile the candidate's spoken competency-conversation + adaptive-interview
+    answers for this unit into an evidence block, so re-running the mapping folds
+    them into the PC verdicts (the intake agent tags these as 'conversation')."""
+    parts = []
+    for rec in (progress.get("conversation_records") or []):
+        if rec.get("unit") != unit_code:
+            continue
+        for d in (rec.get("dialogue") or []):
+            if d.get("role") == "candidate" and d.get("content"):
+                pc = d.get("pc") or rec.get("pc") or ""
+                parts.append(f"[Competency conversation{(' — PC ' + pc) if pc else ''}] {d['content']}")
+    for rec in (progress.get("adaptive_records") or []):
+        if rec.get("unit") != unit_code:
+            continue
+        pc = rec.get("pc", "")
+        for d in (rec.get("dialogue") or []):
+            if d.get("role") == "candidate" and d.get("content"):
+                parts.append(f"[Adaptive interview{(' — PC ' + pc) if pc else ''}] {d['content']}")
+    return "\n".join(parts)
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-conversation/complete")
+async def competency_conversation_complete(assessment_id: str, body: dict,
+                                           user: dict = Depends(current_user)):
+    """
+    Finalise the competency-conversation stage: re-run the AI mapping with the
+    conversation answers folded into the evidence, so the captured responses move
+    the PC verdicts. Marks the stage complete. The determination stays advisory
+    (HITL) — the assessor still confirms.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit_code = (body or {}).get("unit_code", "")
+    unit = registry.get(unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {unit_code} not found")
+
+    progress  = assessment.get("progress", {}) or {}
+    candidate = assessment.get("candidate", {}) or {}
+    notes     = progress.get("candidate_notes", {}) or {}
+    base_evidence = notes.get("resume", "") or ""
+    conv_evidence = _competency_conversation_evidence(progress, unit_code)
+    evidence = base_evidence + (("\n\nCOMPETENCY CONVERSATION EVIDENCE:\n" + conv_evidence)
+                                if conv_evidence else "")
+
+    try:
+        report = await orchestrate_rpl_assessment(
+            client=get_client(), unit=unit, candidate=candidate,
+            evidence=evidence,
+            knowledge_responses=progress.get("knowledge_responses", {}) or {},
+            checklist_results=progress.get("checklist", {}) or {},
+            uploads=progress.get("uploads", {}) or {},
+            candidate_notes=notes,
+            industry_context=progress.get("industry_context", ""))
+    except Exception as e:
+        raise HTTPException(500, f"Re-mapping failed: {e}")
+
+    report["audit"] = {
+        "assessment_id": assessment_id, "unit_code": unit_code,
+        "unit_title": unit.title, "generated_at": datetime.now(timezone.utc).isoformat(),
+        "model": MODEL, "hitl_status": "PENDING_ASSESSOR_REVIEW",
+        "architecture": "hierarchical_multi_agent_v1",
+        "source": "competency_conversation_complete"}
+    await save_assessment(assessment_id, "mapping_report", report)
+
+    fresh = await get_assessment(assessment_id)
+    prog = (fresh or {}).get("progress", {}) or {}
+    mappings = prog.get("mappings", {}) or {}
+    mappings[unit_code] = report
+    prog["mappings"] = mappings
+    unit_codes = assessment.get("unit_codes", [])
+    primary_unit = (prog.get("mapping", {}) or {}).get("audit", {}).get("unit_code")
+    if len(unit_codes) == 1 or primary_unit == unit_code or not prog.get("mapping"):
+        prog["mapping"] = report
+    cc = prog.get("competency_conversation_complete", {}) or {}
+    cc[unit_code] = {"at": datetime.now(timezone.utc).isoformat(),
+                     "by": user.get("email") or user.get("name") or "assessor"}
+    prog["competency_conversation_complete"] = cc
+
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, prog)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+
+    return {"ok": True, "unit_code": unit_code,
+            "overall": report.get("overall", {}),
+            "completed_at": cc[unit_code]["at"]}
 
 
 @app.post("/api/units/{unit_code}/generate-questions")
