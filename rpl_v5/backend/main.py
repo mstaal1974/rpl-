@@ -2358,6 +2358,114 @@ async def competency_audio(assessment_id: str,
         extra={"audio_filename": file.filename, "stt_method": tr.get("method")})
 
 
+# ── Stage 2: trainer-led competency conversation (structured Q&A) ──────────────
+class ConvResponseRequest(BaseModel):
+    unit_code: str
+    pc: str = ""
+    question: str
+    response: str
+    qualifying: bool = False
+
+
+def _trainer_conv_record(progress: dict, unit_code: str) -> dict:
+    """The single trainer-led competency-conversation record for a unit (created
+    on first capture). Shaped like the other conversation_records so it flows into
+    the branch view, final record and AI-usage report."""
+    records = progress.setdefault("conversation_records", [])
+    for r in records:
+        if r.get("source") == "trainer_conversation" and r.get("unit") == unit_code:
+            return r
+    rec = {"unit": unit_code, "source": "trainer_conversation",
+           "question": "Trainer competency conversation",
+           "dialogue": [], "branch_trail": [], "pc_findings": [],
+           "final_judgement": "", "final_confidence": 0,
+           "timestamp": datetime.now(timezone.utc).isoformat()}
+    records.append(rec)
+    return rec
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-conversation/response")
+async def competency_conversation_response(assessment_id: str,
+                                           req: ConvResponseRequest,
+                                           user: dict = Depends(current_user)):
+    """
+    Capture and analyse one trainer-asked competency-conversation question +
+    the candidate's verbal response. Analyses it against the PC, files it as a
+    competency-conversation turn (so it feeds the determination), and returns the
+    analysis for the trainer.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit = registry.get(req.unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {req.unit_code} not found")
+    if len((req.response or "").split()) < 4:
+        raise HTTPException(400, "Response is too short to analyse — capture the candidate's full answer.")
+
+    try:
+        result = await analyse_knowledge_response(
+            client=get_client(), model=MODEL, unit=unit,
+            question=req.question, answer=req.response,
+            pc_refs=[req.pc] if req.pc else [], element_ref="",
+            candidate=assessment.get("candidate", {}))
+    except Exception as e:
+        raise HTTPException(500, f"Response analysis failed: {e}")
+
+    sat = result.get("judgement") == "Satisfactory"
+    conf = (result.get("overall_score_percent") or 0) / 100.0
+    branch = "ADVANCE" if sat else "GAP"
+
+    progress = assessment.get("progress", {}) or {}
+    rec = _trainer_conv_record(progress, req.unit_code)
+    rec["dialogue"].append({"role": "assessor", "content": req.question,
+                            "pc": req.pc, "qualifying": req.qualifying})
+    rec["dialogue"].append({
+        "role": "candidate", "content": req.response, "pc": req.pc, "branch": branch,
+        "analysis": {
+            "confidence": conf,
+            "judgement": result.get("judgement", ""),
+            "demonstrated": result.get("what_the_answer_demonstrates", []),
+            "missing": result.get("what_is_missing", []),
+            "evidence_quotes": [],
+        },
+        "authenticity": {"verdict": "AUTHENTIC", "ai_usage": {"probability": "LOW", "score": 8}},
+    })
+
+    # Rebuild branch_trail / pc_findings / overall from the candidate turns.
+    cand_turns = [d for d in rec["dialogue"] if d["role"] == "candidate"]
+    rec["branch_trail"] = [{"turn": i + 1, "decision": d.get("branch", "GAP"), "reason": ""}
+                           for i, d in enumerate(cand_turns)]
+    rec["close_decision"] = rec["branch_trail"][-1]["decision"] if rec["branch_trail"] else "GAP"
+    if req.pc:
+        findings = [f for f in (rec.get("pc_findings") or []) if f.get("pc") != req.pc]
+        findings.append({
+            "pc": req.pc, "judgement": result.get("judgement", ""), "confidence": conf,
+            "evidence_items": (result.get("what_the_answer_demonstrates") or [])[:3],
+            "gap_notes": "; ".join(result.get("what_is_missing") or []),
+        })
+        rec["pc_findings"] = findings
+    pcf = rec.get("pc_findings") or []
+    if pcf:
+        rec["final_confidence"] = round(sum(f.get("confidence", 0) for f in pcf) / len(pcf), 2)
+        rec["final_judgement"] = ("Satisfactory"
+                                  if all(f.get("judgement") == "Satisfactory" for f in pcf)
+                                  else "Not Satisfactory")
+    else:
+        rec["final_confidence"] = round(conf, 2)
+        rec["final_judgement"] = result.get("judgement", "")
+    rec["timestamp"] = datetime.now(timezone.utc).isoformat()
+    rec["assessed_by"] = user.get("email") or user.get("name") or "assessor"
+
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+
+    return {"ok": True, "pc": req.pc, "qualifying": req.qualifying,
+            "judgement": result.get("judgement", ""),
+            "confidence": conf, "analysis": result}
+
+
 @app.post("/api/units/{unit_code}/generate-questions")
 async def generate_unit_questions(unit_code: str,
                                    industry_context: str = "",
