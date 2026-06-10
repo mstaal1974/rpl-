@@ -666,14 +666,14 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
       </div>
 
       <!-- PCs table -->
-      <table style="width:100%;border-collapse:collapse">
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed">
         <thead>
           <tr style="background:var(--off)">
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:40px">PC</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Criterion</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:90px">Judgement</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:70px">Score</th>
-            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:200px">Evidence / Gap</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:34px">PC</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left;width:28%">Criterion</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:84px">Judgement</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:center;width:62px">Score</th>
+            <th style="padding:5px 10px;font-size:9px;font-weight:600;color:var(--muted);text-align:left">Evidence / Gap analysis</th>
           </tr>
         </thead>
         <tbody>
@@ -689,7 +689,7 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
               <td style="padding:8px 10px;font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:var(--muted)">${pc.id}</td>
               <td style="padding:8px 10px">
                 <div style="font-size:11px;line-height:1.4;margin-bottom:3px">${pc.criterion||pc.id}</div>
-                ${pc.benchmark_statement?`<div style="font-size:9px;color:var(--muted);font-style:italic;line-height:1.4">Benchmark: ${pc.benchmark_statement.substring(0,100)}${pc.benchmark_statement.length>100?'...':''}</div>`:''}
+                ${pc.benchmark_statement?`<div style="font-size:9px;color:var(--muted);font-style:italic;line-height:1.4">Benchmark: ${pc.benchmark_statement.substring(0,160)}${pc.benchmark_statement.length>160?'...':''}</div>`:''}
               </td>
               <td style="padding:8px 10px;text-align:center">
                 <span style="padding:2px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${isSat?'var(--mb)':'var(--rb)'};color:${isSat?'var(--mt)':'var(--rt)'}">${pc.judgement||verdict}</span>
@@ -701,11 +701,11 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
                 </div>
               </td>
               <td style="padding:8px 10px">
-                ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,2).map(e=>`<div style="font-size:9px;color:var(--mt);font-style:italic;line-height:1.4;padding:2px 5px;background:var(--mb);border-radius:3px;margin-bottom:2px">"${e.substring(0,80)}${e.length>80?'...':''}"</div>`).join('')}</div>`:''}
-                ${hasGap?`<div style="font-size:9px;color:var(--rt);line-height:1.4;padding:3px 6px;background:var(--rb);border-radius:3px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes.substring(0,100)}${pc.gap_notes.length>100?'...':''}</div>`:''}
-                ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9px;color:var(--pt);margin-top:2px">⚑ ${pc.vacs}</div>`:''}
+                ${(pc.evidence_items||[]).length?`<div style="margin-bottom:4px">${(pc.evidence_items||[]).slice(0,3).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;line-height:1.45;padding:3px 6px;background:var(--mb);border-radius:3px;margin-bottom:3px">"${e.substring(0,240)}${e.length>240?'...':''}"</div>`).join('')}</div>`:''}
+                ${hasGap?`<div style="font-size:9.5px;color:var(--rt);line-height:1.45;padding:4px 7px;background:var(--rb);border-radius:3px;margin-bottom:3px"><strong>Gap:</strong> ${pc.gap_notes.substring(0,360)}${pc.gap_notes.length>360?'...':''}</div>`:''}
+                ${pc.vacs&&pc.vacs.length>3?`<div style="font-size:9.5px;color:var(--pt);line-height:1.45;margin-top:2px">⚑ ${pc.vacs}</div>`:''}
                 ${pc.ai_detection?renderAIFlagInline(pc.ai_detection):''}
-                ${pc.assessor_note?`<div style="font-size:9px;color:var(--it);margin-top:3px">👁 ${pc.assessor_note.substring(0,80)}${pc.assessor_note.length>80?'...':''}</div>`:''}
+                ${pc.assessor_note?`<div style="font-size:9.5px;color:var(--it);line-height:1.45;margin-top:3px">👁 ${pc.assessor_note.substring(0,260)}${pc.assessor_note.length>260?'...':''}</div>`:''}
               </td>
             </tr>
             ${pc.followup?`<tr style="border-bottom:1px solid var(--border);background:#EFF6FF">
