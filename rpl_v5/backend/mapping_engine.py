@@ -134,6 +134,19 @@ TRANSCRIPT_SCHEMA = """Respond ONLY with this JSON object — no markdown, no te
   "overall_judgement": "Satisfactory"|"Not Satisfactory",
   "overall_confidence": 0.0-1.0,
   "summary": "2-3 sentences for the assessor: what the candidate demonstrated across the conversation and the overall standing against this unit.",
+  "turns": [
+    {
+      "answer_excerpt": "first ~12 words of the CANDIDATE answer this entry refers to (used to align with the transcript, in order)",
+      "confidence": 0.0-1.0,
+      "judgement": "Satisfactory"|"Not Satisfactory",
+      "demonstrated": ["specific thing this answer demonstrated"],
+      "missing": ["what this answer still left open — [] if none"],
+      "evidence_quotes": ["short quote from the candidate's answer"],
+      "branch": "DEEPEN"|"CHALLENGE"|"PIVOT"|"ADVANCE"|"GAP",
+      "branch_reason": "ONE short clause on how the conversation moved after this answer: DEEPEN=on track but pressed for more specificity; CHALLENGE=generic/evasive/AI-like/inconsistent so probed for authenticity; PIVOT=re-anchored to the candidate's real experience; ADVANCE=criterion met, moved on; GAP=evidence still insufficient",
+      "ai_probability": "LOW"|"MEDIUM"|"HIGH"|"VERY_HIGH"
+    }
+  ],
   "pc_findings": [
     {
       "pc": "e.g. 5.2",
@@ -149,7 +162,7 @@ TRANSCRIPT_SCHEMA = """Respond ONLY with this JSON object — no markdown, no te
   },
   "assessor_actions": ["concrete next step for the human assessor, e.g. verify a named document or probe a remaining gap"]
 }
-Only include pc_findings for PCs the conversation actually addresses. Judge strictly against each benchmark_statement."""
+"turns" must have ONE entry per substantive CANDIDATE answer, in the order they occur. Only include pc_findings for PCs the conversation actually addresses. Judge strictly against each benchmark_statement."""
 
 
 def _build_mapping_prompt(unit: UnitOfCompetency, candidate: dict,
@@ -610,7 +623,7 @@ Transcript:
 {wrap_untrusted(transcript_text)}"""
 
     def _call():
-        return client.messages.create(model=model, max_tokens=4000,
+        return client.messages.create(model=model, max_tokens=5000,
             system=cached_system(system), messages=[{"role": "user", "content": user}])
 
     response = await retry.acall(_call, 'mapping')
