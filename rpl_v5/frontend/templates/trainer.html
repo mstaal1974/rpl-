@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--navy:#1F2060;--green:#4DB848;--gd:#3A8E35;--off:#F8F9FB;--border:#E4E7EC;--text:#111827;--muted:#6B7280;--faint:#9CA3AF;--mb:#F0FDF4;--mt:#166534;--ma:#22C55E;--pb:#FEFCE8;--pt:#92400E;--pa:#F59E0B;--rb:#FEF2F2;--rt:#991B1B;--ib:#EFF6FF;--it:#1D4ED8;--r8:8px;--r12:12px;--sh:0 1px 3px rgba(0,0,0,.08)}
+:root{--navy:#1F2060;--green:#4DB848;--gd:#3A8E35;--off:#F8F9FB;--border:#E4E7EC;--text:#111827;--muted:#6B7280;--faint:#9CA3AF;--mb:#F0FDF4;--mt:#166534;--ma:#22C55E;--pb:#FEFCE8;--pt:#92400E;--pa:#F59E0B;--rb:#FEF2F2;--rt:#991B1B;--ra:#EF4444;--ib:#EFF6FF;--it:#1D4ED8;--r8:8px;--r12:12px;--sh:0 1px 3px rgba(0,0,0,.08)}
 html{font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:var(--off);-webkit-font-smoothing:antialiased}
 button{font-family:inherit;cursor:pointer}input,textarea,select{font-family:inherit}
 .shell{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
@@ -759,23 +759,9 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
     </div>`;
   }
 
-  // Competency conversation questions panel
-  const convQs = mapping.conversation_questions || [];
-  if(convQs.length){
-    html += `<div class="card" style="margin-bottom:8px;padding:12px">
-      <div class="ctitle" style="margin-bottom:7px">🎙 Competency conversation — targeted questions</div>
-      <div class="csub" style="margin-bottom:8px">These questions are generated from gap_notes for each Not Satisfactory PC. Each targets only the specific missing evidence.</div>
-      ${convQs.map((q,i)=>`<div style="padding:9px 11px;border:1px solid #93C5FD;border-radius:8px;background:#EFF6FF;margin-bottom:6px">
-        <div style="display:flex;align-items:flex-start;gap:8px">
-          <div style="font-family:'DM Mono',monospace;font-size:10px;font-weight:600;color:var(--it);flex-shrink:0;padding-top:1px">${q.pc}</div>
-          <div style="flex:1">
-            ${q.gap_area?`<div style="font-size:9px;color:var(--pt);margin-bottom:3px;font-weight:500">Gap: ${q.gap_area}</div>`:''}
-            <div style="font-size:11px;font-style:italic;line-height:1.6;color:var(--text)">"${q.star_question}"</div>
-          </div>
-        </div>
-      </div>`).join('')}
-    </div>`;
-  }
+  // Competency conversation — defined final stage:
+  // readiness · Stage 1 (AI interview) summary · Stage 2 (trainer follow-up capture)
+  html += renderCompetencyConversationStage(assessmentId, assessment, mapping);
 
   // Competency conversation — record & analyse a real transcript
   const ctUnit = mapping.unit_code || units[0] || '';
@@ -881,6 +867,157 @@ function renderTranscriptResult(r){
       <div style="font-size:9px;color:var(--muted);margin-top:8px;line-height:1.5">Filed as competency-conversation evidence — it now appears in the final record and the AI-usage report. Re-run the AI mapping to fold it into the PC verdicts. Final determination remains with the assessor.</div>
     </div>
   </div>`;
+}
+
+// ── Competency conversation — defined final stage (readiness + Stage 1/2) ──────
+function _ccReadyPill(ok,label){
+  return `<span style="display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:10px;font-size:9px;font-weight:600;background:${ok?'var(--mb)':'var(--off)'};color:${ok?'var(--mt)':'var(--faint)'};border:1px solid ${ok?'var(--ma)':'var(--border)'}">${ok?'✓':'○'} ${label}</span>`;
+}
+function _ccEsc(s){ return (''+(s||'')).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function renderCompetencyConversationStage(assessmentId, assessment, mapping){
+  const progress = assessment?.progress || {};
+  const units = assessment?.unit_codes || [];
+  const ctUnit = (mapping&&mapping.unit_code) || units[0] || '';
+
+  // ── Readiness ──
+  const knowledgeDone = Object.keys(progress.knowledge_analyses||{}).length>0;
+  const mapped = !!(mapping && (mapping.elements||[]).length);
+  const adaptive = (progress.adaptive_records||[]).filter(r=>(r.dialogue||[]).length);
+  const aiDone = adaptive.length>0;
+
+  // ── Gaps after evidence ──
+  const gapPCs=[];
+  (mapping?.elements||[]).forEach(el=>(el.pcs||[]).forEach(pc=>{
+    if(pc.verdict==='PARTIAL'||pc.verdict==='GAP'||pc.judgement==='Not Satisfactory')
+      gapPCs.push({pc:pc.id, text:pc.criterion||pc.id, gap:pc.gap_notes||'', followup:pc.followup||''});
+  }));
+  // PCs the candidate's AI interview already satisfied (Stage 1) → drop from Stage 2
+  const aiSat=new Set();
+  adaptive.forEach(r=>{ if(r.final_judgement==='Satisfactory'||r.close_decision==='ADVANCE') aiSat.add(r.pc); });
+  const convQs=(mapping?.conversation_questions)||[];
+  const qFor = g => g.followup
+    || (convQs.find(q=>q.pc===g.pc)||{}).star_question
+    || ('Describe a specific time at work when you had to '+(g.text||('meet PC '+g.pc)).replace(/\.$/,'')+'. What was the situation, what did you do, and what was the outcome?');
+  const remaining = gapPCs.filter(g=>!aiSat.has(g.pc));
+
+  // ── Already captured trainer responses ──
+  const convRec=(progress.conversation_records||[]).find(r=>r.source==='trainer_conversation' && r.unit===ctUnit);
+  const captured={};
+  (convRec?.dialogue||[]).forEach(d=>{ if(d.role==='candidate'&&d.pc) captured[d.pc]={response:d.content, analysis:d.analysis||{}}; });
+  const answered = remaining.filter(g=>captured[g.pc]).length;
+
+  let html = `<div class="card" style="margin-bottom:8px;padding:0;overflow:hidden;border:1px solid #C4B5FD">
+    <div style="padding:11px 14px;background:linear-gradient(180deg,#F5F3FF,#fbfaff);border-bottom:1px solid #DDD6FE">
+      <div style="font-size:12px;font-weight:700;color:#5B21B6">🎙 Competency conversation — final stage</div>
+      <div style="font-size:10px;color:var(--muted);line-height:1.6;margin-top:3px">Run this <strong>last</strong>, once the other evidence is gathered. It fills the remaining gaps. Stage 1 is the candidate's AI adaptive interview; Stage 2 is your follow-up to close what's left.</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:9px">
+        ${_ccReadyPill(knowledgeDone,'Knowledge analysed')}
+        ${_ccReadyPill(mapped,'Evidence mapped')}
+        ${_ccReadyPill(aiDone,'Stage 1: AI interview')}
+      </div>
+    </div>`;
+
+  // ── Stage 1 summary ──
+  const aiGap = adaptive.filter(r=>r.close_decision==='GAP'||r.final_judgement!=='Satisfactory').length;
+  html += `<div style="padding:9px 14px;border-bottom:1px solid var(--border);font-size:10px;color:var(--muted)">
+    <strong style="color:var(--navy)">Stage 1 — AI adaptive interview:</strong> ${aiDone
+      ? `${adaptive.length-aiGap} of ${adaptive.length} topic(s) satisfied by the candidate's AI conversation${aiGap?` · ${aiGap} still need follow-up`:''}. The branch maps are shown in the adaptive-interview section.`
+      : `not completed by the candidate yet — they can run it from their portal. You can still capture a follow-up below.`}
+  </div>`;
+
+  // ── Stage 2 — trainer follow-up ──
+  html += `<div style="padding:11px 14px">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-bottom:8px">
+      <div style="font-size:11px;font-weight:600;color:var(--navy)">Stage 2 — Trainer follow-up</div>
+      <div id="cc-progress-${assessmentId}" style="font-size:9px;color:var(--muted)">${answered}/${remaining.length} gap question(s) answered</div>
+    </div>`;
+
+  if(!remaining.length){
+    html += `<div style="font-size:10px;color:var(--mt);padding:8px 10px;background:var(--mb);border-radius:6px">✓ No outstanding gaps — the evidence${aiDone?' and AI interview':''} cover all performance criteria. A confirmatory conversation is optional; add a qualifying question below if you want one on record.</div>`;
+  } else {
+    html += `<div style="font-size:9px;color:var(--muted);margin-bottom:8px">Ask each question in the conversation, then type the candidate's verbal response and analyse it. Each answer is filed as competency-conversation evidence.</div>`;
+    remaining.forEach((g,idx)=>{
+      const cap=captured[g.pc];
+      html += `<div id="cc-item-${assessmentId}-${idx}" style="border:1px solid var(--border);border-radius:9px;padding:10px 11px;margin-bottom:8px">
+        <div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:6px">
+          <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700;color:var(--it);flex-shrink:0;padding-top:1px">${g.pc}</span>
+          <div style="flex:1;min-width:0">
+            <div style="font-size:11px;font-style:italic;line-height:1.55;color:var(--text)">"${_ccEsc(qFor(g))}"</div>
+            ${g.gap?`<div style="font-size:9px;color:var(--pt);margin-top:3px">Targets gap: ${_ccEsc(g.gap).slice(0,160)}</div>`:''}
+          </div>
+        </div>
+        <input type="hidden" id="cc-q-${assessmentId}-${idx}" value="${_ccEsc(qFor(g))}">
+        <div id="cc-body-${assessmentId}-${idx}">${cap?_ccCapturedHtml(cap):`
+          <textarea id="cc-resp-${assessmentId}-${idx}" placeholder="Type the candidate's spoken response…" style="width:100%;min-height:64px;font-size:11px;padding:7px;border:1px solid var(--border);border-radius:7px;font-family:inherit;line-height:1.5;resize:vertical;box-sizing:border-box"></textarea>
+          <div style="text-align:right;margin-top:6px"><button class="btn btn-sm" onclick="captureConvResponse('${assessmentId}','${ctUnit}','${g.pc}',${idx},false)">Analyse &amp; save response</button></div>`}</div>
+      </div>`;
+    });
+  }
+
+  // ── Qualifying question (ad-hoc) ──
+  html += `<div style="margin-top:6px;padding:10px 11px;border:1px dashed var(--border);border-radius:9px;background:var(--off)">
+    <div style="font-size:10px;font-weight:600;color:var(--navy);margin-bottom:6px">+ Add a qualifying question</div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">
+      <input id="cc-qpc-${assessmentId}" placeholder="PC (optional, e.g. 5.2)" style="width:140px;font-size:11px;padding:6px 8px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box">
+      <input id="cc-qq-${assessmentId}" placeholder="Your question" style="flex:1;min-width:200px;font-size:11px;padding:6px 8px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box">
+    </div>
+    <textarea id="cc-qr-${assessmentId}" placeholder="Candidate's response…" style="width:100%;min-height:56px;font-size:11px;padding:7px;border:1px solid var(--border);border-radius:7px;font-family:inherit;line-height:1.5;resize:vertical;box-sizing:border-box"></textarea>
+    <div style="text-align:right;margin-top:6px"><button class="btn btn-sm" onclick="captureQualifying('${assessmentId}','${ctUnit}')">Analyse &amp; save</button></div>
+    <div id="cc-qout-${assessmentId}" style="margin-top:8px"></div>
+  </div>
+  </div></div>`;
+  return html;
+}
+
+function _ccCapturedHtml(cap){
+  const a=cap.analysis||{};
+  const sat=a.judgement==='Satisfactory';
+  const conf=a.confidence!=null?Math.round(a.confidence*100):null;
+  const li=arr=>(arr||[]).filter(Boolean).slice(0,4).map(x=>`<li style="margin-bottom:1px">${_ccEsc(x)}</li>`).join('');
+  return `<div style="font-size:10px;line-height:1.6">
+    <div style="padding:6px 8px;background:var(--off);border-radius:6px;white-space:pre-wrap;margin-bottom:6px">${_ccEsc(cap.response)}</div>
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+      <span style="padding:2px 8px;border-radius:10px;font-size:9px;font-weight:600;background:${sat?'var(--mb)':'var(--rb)'};color:${sat?'var(--mt)':'var(--rt)'}">${a.judgement||'analysed'}${conf!=null?' · '+conf+'%':''}</span>
+    </div>
+    ${(a.demonstrated||[]).length?`<div style="color:var(--mt)"><strong>✓ Demonstrated</strong><ul style="margin:2px 0 4px 15px;padding:0">${li(a.demonstrated)}</ul></div>`:''}
+    ${(a.missing||[]).length?`<div style="color:var(--pt)"><strong>Still needed</strong><ul style="margin:2px 0 0 15px;padding:0">${li(a.missing)}</ul></div>`:''}
+  </div>`;
+}
+
+async function captureConvResponse(id, unitCode, pc, idx, qualifying){
+  const ta=document.getElementById('cc-resp-'+id+'-'+idx);
+  const q=(document.getElementById('cc-q-'+id+'-'+idx)||{}).value||'';
+  const body=document.getElementById('cc-body-'+id+'-'+idx);
+  const resp=(ta?.value||'').trim();
+  if(resp.split(/\s+/).filter(Boolean).length<4){ alert('Type the candidate\'s full response first (a few words at least).'); return; }
+  if(body) body.innerHTML='<div style="font-size:10px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing response…</div>';
+  try{
+    const r=await apiPost(`/trainer/assessments/${id}/competency-conversation/response`,{unit_code:unitCode,pc:pc,question:q,response:resp,qualifying:!!qualifying});
+    if(body) body.innerHTML=_ccCapturedHtml({response:resp, analysis:r.analysis?{confidence:r.confidence,judgement:r.judgement,demonstrated:r.analysis.what_the_answer_demonstrates,missing:r.analysis.what_is_missing}:{}});
+    _ccBumpProgress(id);
+  }catch(e){ if(body) body.innerHTML=`<div style="color:var(--rt);font-size:10px">Error: ${e.message}</div>`; }
+}
+
+async function captureQualifying(id, unitCode){
+  const pc=(document.getElementById('cc-qpc-'+id)?.value||'').trim();
+  const q=(document.getElementById('cc-qq-'+id)?.value||'').trim();
+  const resp=(document.getElementById('cc-qr-'+id)?.value||'').trim();
+  const out=document.getElementById('cc-qout-'+id);
+  if(!q){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:10px">Enter your question.</div>'; return; }
+  if(resp.split(/\s+/).filter(Boolean).length<4){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:10px">Enter the candidate\'s response.</div>'; return; }
+  if(out) out.innerHTML='<div style="font-size:10px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing…</div>';
+  try{
+    const r=await apiPost(`/trainer/assessments/${id}/competency-conversation/response`,{unit_code:unitCode,pc:pc,question:q,response:resp,qualifying:true});
+    if(out) out.innerHTML=`<div style="border:1px solid var(--border);border-radius:8px;padding:9px 10px"><div style="font-size:9px;color:var(--muted);margin-bottom:4px">${pc?('PC '+_ccEsc(pc)+' · '):''}qualifying question</div>${_ccCapturedHtml({response:resp, analysis:r.analysis?{confidence:r.confidence,judgement:r.judgement,demonstrated:r.analysis.what_the_answer_demonstrates,missing:r.analysis.what_is_missing}:{}})}</div>`;
+    const qq=document.getElementById('cc-qq-'+id), qr=document.getElementById('cc-qr-'+id); if(qq)qq.value=''; if(qr)qr.value='';
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:10px">Error: ${e.message}</div>`; }
+}
+
+function _ccBumpProgress(id){
+  const el=document.getElementById('cc-progress-'+id); if(!el) return;
+  const m=(el.textContent||'').match(/(\d+)\/(\d+)/); if(!m) return;
+  el.textContent=(Math.min(+m[1]+1,+m[2]))+'/'+m[2]+' gap question(s) answered';
 }
 
 async function runMultiUnitMapping(id,evt){
@@ -1799,7 +1936,7 @@ function renderBranchMap(rec, mapId){
 // on the SAME branch-path diagram as the adaptive interview, for visual consistency.
 function renderConversationBranchMaps(assessmentId, progress){
   const recs=(progress?.conversation_records||[]).filter(r=>
-    (r.source==='transcript_upload'||r.source==='audio_transcription') &&
+    (r.source==='transcript_upload'||r.source==='audio_transcription'||r.source==='trainer_conversation') &&
     (r.dialogue||[]).length && (r.branch_trail||[]).length);
   if(!recs.length) return '';
   let html=`<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
@@ -1811,7 +1948,7 @@ function renderConversationBranchMaps(assessmentId, progress){
     const mapId='conv-'+assessmentId+'-'+i;
     const isSat=rec.final_judgement==='Satisfactory';
     const pct=rec.final_confidence?Math.round(rec.final_confidence*100):null;
-    const srcLbl=rec.source==='audio_transcription'?'🎧 recording':'📄 transcript';
+    const srcLbl=rec.source==='audio_transcription'?'🎧 recording':rec.source==='trainer_conversation'?'🎙 trainer conversation':'📄 transcript';
     html+=`<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px">
       <div style="padding:8px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
         <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${rec.unit||''}${rec.pc?' · '+rec.pc:''}</span>
