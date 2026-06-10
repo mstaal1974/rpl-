@@ -765,8 +765,77 @@ function renderFullMappingGuide(mapping, assessmentId, assessment){
     </div>`;
   }
 
+  // Competency conversation — record & analyse a real transcript
+  const ctUnit = mapping.unit_code || units[0] || '';
+  html += `<div class="card" style="margin-bottom:8px;padding:12px">
+    <div class="ctitle" style="margin-bottom:4px">🎙 Competency conversation — record &amp; analyse a transcript</div>
+    <div class="csub" style="margin-bottom:8px">Hold the conversation over Teams/Zoom or in person, then paste or upload the transcript (.txt or .vtt — exactly what Teams &amp; Zoom export). The AI maps the candidate's spoken evidence to the gapped PCs and files it as competency-conversation evidence.</div>
+    <textarea id="ct-text-${assessmentId}" placeholder="Paste the transcript here…&#10;Assessor: Walk me through a time you…&#10;Candidate: At ABC I was responsible for…" style="width:100%;min-height:110px;font-size:11px;padding:8px;border:1px solid var(--border);border-radius:8px;font-family:inherit;line-height:1.5;resize:vertical;box-sizing:border-box"></textarea>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px">
+      <input type="file" id="ct-file-${assessmentId}" accept=".txt,.vtt,.md,text/plain,text/vtt" onchange="loadTranscriptFile('${assessmentId}')" style="font-size:10px">
+      <input id="ct-speaker-${assessmentId}" placeholder="Candidate's name in transcript (optional)" style="flex:1;min-width:170px;font-size:11px;padding:6px 8px;border:1px solid var(--border);border-radius:7px;box-sizing:border-box">
+      <button class="btn btn-sm" onclick="analyseTranscript('${assessmentId}','${ctUnit}')">Analyse transcript</button>
+    </div>
+    <div id="ct-out-${assessmentId}" style="margin-top:10px"></div>
+  </div>`;
+
   html += `<div id="extra-analysis-${assessmentId}"></div>`;
   return html;
+}
+
+function loadTranscriptFile(id){
+  const f=document.getElementById('ct-file-'+id)?.files?.[0];
+  if(!f) return;
+  const rd=new FileReader();
+  rd.onload=e=>{ const ta=document.getElementById('ct-text-'+id); if(ta) ta.value=e.target.result; };
+  rd.readAsText(f);
+}
+
+async function analyseTranscript(id, unitCode){
+  const ta=document.getElementById('ct-text-'+id);
+  const out=document.getElementById('ct-out-'+id);
+  const speaker=(document.getElementById('ct-speaker-'+id)?.value||'').trim();
+  const text=(ta?.value||'').trim();
+  if(!unitCode){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">No unit resolved for this mapping — run the AI mapping first.</div>'; return; }
+  if(text.split(/\s+/).filter(Boolean).length<20){ if(out) out.innerHTML='<div style="color:var(--rt);font-size:11px">Please paste a longer transcript (at least a few sentences of candidate speech).</div>'; return; }
+  if(out) out.innerHTML='<div style="font-size:11px;color:var(--muted)"><span class="spinner spinner-d"></span> Analysing the conversation against the competency criteria…</div>';
+  try{
+    const r=await apiPost(`/trainer/assessments/${id}/competency-transcript`,{unit_code:unitCode,transcript:text,candidate_speaker:speaker});
+    if(out) out.innerHTML=renderTranscriptResult(r);
+  }catch(e){ if(out) out.innerHTML=`<div style="color:var(--rt);font-size:11px">Error: ${e.message}</div>`; }
+}
+
+function renderTranscriptResult(r){
+  const a=r.analysis||{};
+  const isSat=(a.overall_judgement||'')==='Satisfactory';
+  const conf=Math.round((a.overall_confidence||0)*100);
+  const findings=a.pc_findings||[];
+  const auth=a.authenticity||{};
+  const authCol={LOW:'var(--mt)',MEDIUM:'var(--pt)',HIGH:'#7C3AED',VERY_HIGH:'var(--rt)'}[auth.ai_probability]||'var(--muted)';
+  return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+    <div style="padding:9px 12px;background:${isSat?'var(--mb)':'var(--pb)'};display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:600;color:${isSat?'var(--mt)':'var(--pt)'}">Transcript analysed — ${a.overall_judgement||'reviewed'} (${conf}%)</span>
+      <span style="margin-left:auto;font-size:9px;color:var(--muted)">${r.turns||0} turns · ${r.candidate_words||0} candidate words · filed as evidence</span>
+    </div>
+    <div style="padding:10px 12px">
+      ${a.summary?`<div style="font-size:11px;line-height:1.6;margin-bottom:8px">${a.summary}</div>`:''}
+      ${findings.map(f=>{
+        const fs=(f.judgement||'')==='Satisfactory';
+        return `<div style="border:1px solid var(--border);border-radius:8px;padding:8px 10px;margin-bottom:6px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;font-weight:700">${f.pc||''}</span>
+            <span style="padding:1px 7px;border-radius:10px;font-size:9px;font-weight:600;background:${fs?'var(--mb)':'var(--rb)'};color:${fs?'var(--mt)':'var(--rt)'}">${f.judgement||''}</span>
+            ${f.confidence!=null?`<span style="font-size:9px;color:var(--muted)">${Math.round((f.confidence||0)*100)}%</span>`:''}
+          </div>
+          ${(f.evidence_items||[]).map(e=>`<div style="font-size:9.5px;color:var(--mt);font-style:italic;background:var(--mb);border-radius:4px;padding:3px 7px;margin-bottom:3px">"${e}"</div>`).join('')}
+          ${f.gap_notes?`<div style="font-size:9.5px;color:var(--rt);background:var(--rb);border-radius:4px;padding:3px 7px"><strong>Still missing:</strong> ${f.gap_notes}</div>`:''}
+        </div>`;
+      }).join('')}
+      ${auth.ai_probability?`<div style="font-size:9.5px;color:${authCol};background:var(--off);border:1px solid var(--border);border-radius:4px;padding:5px 8px;margin-top:4px">🔍 Authenticity read: <strong>${auth.ai_probability}</strong>${auth.notes?' — '+auth.notes:''}</div>`:''}
+      ${(a.assessor_actions||[]).length?`<div style="margin-top:6px">${(a.assessor_actions||[]).map(x=>`<div style="font-size:9.5px;color:var(--it);padding:2px 0">👁 ${x}</div>`).join('')}</div>`:''}
+      <div style="font-size:9px;color:var(--muted);margin-top:8px;line-height:1.5">Filed as competency-conversation evidence — it now appears in the final record and the AI-usage report. Re-run the AI mapping to fold it into the PC verdicts. Final determination remains with the assessor.</div>
+    </div>
+  </div>`;
 }
 
 async function runMultiUnitMapping(id,evt){
@@ -1509,7 +1578,7 @@ function renderCandidateResponses(assessmentId, progress, unitCodes){
             return `<div style="display:flex;gap:8px;margin-bottom:9px;align-items:flex-start">
               <div style="width:60px;flex-shrink:0;text-align:right;padding-top:6px">
                 <span style="font-size:9px;font-weight:700;color:${isCandidate?'var(--green)':'var(--navy)'}">
-                  ${isCandidate?'Candidate':'AI guide'}
+                  ${isCandidate?'Candidate':(turn.role==='assessor'?'Assessor':'AI guide')}
                 </span>
               </div>
               <div style="flex:1">

@@ -3,7 +3,7 @@ RPL System v5.0 — Multi-tenant
 Organisation (1) ─< Users (admin = Administration & Compliance, trainer = Trainers)
 Each user has their own login. All data is scoped to org_id.
 """
-import os, json, base64, logging, secrets, asyncio
+import os, json, base64, logging, secrets, asyncio, re
 from datetime import datetime, timezone
 from typing import Optional
 import anthropic
@@ -22,7 +22,8 @@ from .mapping_engine import (run_mapping, run_gap_analysis, analyse_knowledge_re
     generate_determination_worksheet, run_pre_assessment_screen,
     generate_knowledge_questions_for_unit, evaluate_knowledge_answer_detailed)
 from .orchestrator import (orchestrate_rpl_assessment, orchestrate_multi_unit_assessment)
-from .mapping_engine import detect_ai_usage, analyse_assessment_for_ai_usage
+from .mapping_engine import (detect_ai_usage, analyse_assessment_for_ai_usage,
+    analyse_competency_transcript)
 from .adaptive_engine import (profile_candidate_experience, build_adaptive_plan,
     adaptive_scenario_turn, generate_resume_relevance_hints)
 from .prompt_safety import guard, wrap_untrusted, cached_system
@@ -30,7 +31,7 @@ from .llm_json import extract_json
 from . import cost, retry
 from .database import (
     create_assessment, get_by_token, save_progress, load_progress,
-    submit_assessment, complete_assessment,
+    submit_assessment, complete_assessment, set_status,
     save_assessment, get_assessment, list_assessments
 )
 from . import auth as _auth
@@ -2086,6 +2087,169 @@ async def ai_detection_report(req: EvidenceSummaryRequest,
         return report
     except Exception as e:
         raise HTTPException(500, str(e))
+
+
+_VTT_TS = re.compile(r"^\d{2}:\d{2}:\d{2}[.,]\d{3}\s*-->")
+_SPEAKER_LINE = re.compile(r"^\s*([A-Z][\w .'\-]{0,48}?)\s*[:：]\s*(.+)$")
+_VTT_VTAG = re.compile(r"<v\s+([^>]+)>(.*?)</v>", re.IGNORECASE | re.DOTALL)
+
+
+def _parse_transcript(text: str) -> list:
+    """
+    Parse a pasted/uploaded transcript into [{speaker, content}] turns.
+    Handles WebVTT (Teams/Zoom export), '<v Name>...' tags, and plain
+    'Name: text' lines. Falls back to one unlabelled block if no structure.
+    Consecutive turns from the same speaker are merged.
+    """
+    if not text:
+        return []
+    raw = text.replace("\r\n", "\n").replace("\r", "\n")
+
+    # WebVTT <v Speaker>content</v> form
+    vtags = _VTT_VTAG.findall(raw)
+    turns = []
+    if vtags:
+        for spk, content in vtags:
+            c = re.sub(r"\s+", " ", content).strip()
+            if c:
+                turns.append({"speaker": spk.strip(), "content": c})
+    else:
+        for line in raw.split("\n"):
+            line = line.strip()
+            if not line or line.upper() == "WEBVTT":
+                continue
+            if _VTT_TS.match(line) or line.isdigit():
+                continue  # VTT timestamp / cue-number lines
+            m = _SPEAKER_LINE.match(line)
+            if m:
+                turns.append({"speaker": m.group(1).strip(), "content": m.group(2).strip()})
+            elif turns:
+                turns[-1]["content"] += " " + line  # continuation of previous turn
+            else:
+                turns.append({"speaker": "", "content": line})
+
+    # Merge consecutive same-speaker turns
+    merged = []
+    for t in turns:
+        if merged and merged[-1]["speaker"].lower() == t["speaker"].lower():
+            merged[-1]["content"] += " " + t["content"]
+        else:
+            merged.append(dict(t))
+    return merged
+
+
+class TranscriptRequest(BaseModel):
+    unit_code: str
+    transcript: str
+    candidate_speaker: str = ""
+
+
+@app.post("/api/trainer/assessments/{assessment_id}/competency-transcript")
+async def competency_transcript(assessment_id: str, req: TranscriptRequest,
+                                 user: dict = Depends(current_user)):
+    """
+    Ingest a competency-conversation transcript (Teams/Zoom export or in-person
+    notes), parse it into speaker turns, analyse the candidate's spoken evidence
+    against the unit's PCs, and file it as a competency-conversation record so it
+    flows into the final record, the AI-usage report, and the next mapping run.
+    """
+    assessment = await get_assessment(assessment_id)
+    _check_record_tenant(assessment, user)
+    unit = registry.get(req.unit_code)
+    if not unit:
+        raise HTTPException(404, f"Unit {req.unit_code} not found")
+
+    turns = _parse_transcript(req.transcript or "")
+    if not turns:
+        raise HTTPException(400, "Could not read any text from the transcript.")
+
+    # Decide which speaker is the candidate.
+    speakers = []
+    for t in turns:
+        if t["speaker"] and t["speaker"] not in speakers:
+            speakers.append(t["speaker"])
+    cand = (req.candidate_speaker or "").strip().lower()
+
+    def _is_candidate(spk: str) -> bool:
+        s = (spk or "").lower()
+        if cand:
+            return cand in s or s in cand
+        return False
+
+    if not cand and len(speakers) >= 2:
+        # Heuristic: the candidate usually speaks the most words.
+        wc = {}
+        for t in turns:
+            wc[t["speaker"]] = wc.get(t["speaker"], 0) + len(t["content"].split())
+        top = max(wc, key=wc.get)
+        cand = top.lower()
+
+    # Build dialogue in the conversation_record shape (role: candidate|assessor).
+    dialogue = []
+    for t in turns:
+        is_cand = _is_candidate(t["speaker"]) if (cand or speakers) else True
+        dialogue.append({"role": "candidate" if is_cand else "assessor",
+                         "speaker": t["speaker"], "content": t["content"]})
+    candidate_text = " ".join(d["content"] for d in dialogue if d["role"] == "candidate").strip()
+    if len(candidate_text.split()) < 15:
+        # No clear candidate speaker matched — treat the whole transcript as candidate evidence.
+        for d in dialogue:
+            d["role"] = "candidate"
+        candidate_text = " ".join(d["content"] for d in dialogue).strip()
+    if len(candidate_text.split()) < 15:
+        raise HTTPException(400, "Transcript has too little candidate speech to analyse.")
+
+    # Previously-gapped PCs from the existing mapping — focus the analysis there.
+    progress = assessment.get("progress", {}) or {}
+    gap_pcs = []
+    mp = progress.get("mapping") or {}
+    for el in mp.get("elements", []):
+        for pc in el.get("pcs", []):
+            if pc.get("verdict") in ("PARTIAL", "GAP") or pc.get("judgement") == "Not Satisfactory":
+                gap_pcs.append(pc.get("id"))
+
+    try:
+        analysis = await analyse_competency_transcript(
+            get_client(), MODEL, unit, assessment.get("candidate", {}),
+            req.transcript, candidate_text, [g for g in gap_pcs if g])
+    except Exception as e:
+        raise HTTPException(500, f"Transcript analysis failed: {e}")
+
+    findings = analysis.get("pc_findings", []) or []
+    primary_pc = findings[0].get("pc") if findings else (gap_pcs[0] if gap_pcs else "")
+
+    record = {
+        "unit":             req.unit_code,
+        "pc":               primary_pc or "",
+        "question":         "Competency conversation (uploaded transcript)",
+        "source":           "transcript_upload",
+        "dialogue":         dialogue,
+        "final_judgement":  analysis.get("overall_judgement", ""),
+        "final_confidence": analysis.get("overall_confidence", 0),
+        "pc_findings":      findings,
+        "authenticity":     analysis.get("authenticity", {}),
+        "assessor_actions": analysis.get("assessor_actions", []),
+        "summary":          analysis.get("summary", ""),
+        "assessed_by":      user.get("email") or user.get("name") or "assessor",
+        "timestamp":        datetime.now(timezone.utc).isoformat(),
+    }
+    records = progress.get("conversation_records") or []
+    records.append(record)
+    progress["conversation_records"] = records
+    orig_status = assessment.get("status")
+    await save_progress(assessment_id, progress)
+    # save_progress forces IN_PROGRESS; don't reopen a submitted/complete record
+    # just because an assessor added a competency-conversation transcript.
+    if orig_status in ("SUBMITTED", "COMPLETE"):
+        await set_status(assessment_id, orig_status)
+    # Keep a durable copy as a sub-record too.
+    await save_assessment(assessment_id,
+        f"transcript_{req.unit_code}_{len(records)}", record)
+
+    return {"ok": True, "analysis": analysis,
+            "turns": len(dialogue),
+            "candidate_words": len(candidate_text.split()),
+            "record_index": len(records) - 1}
 
 
 @app.post("/api/units/{unit_code}/generate-questions")

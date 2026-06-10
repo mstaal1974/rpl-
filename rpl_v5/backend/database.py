@@ -234,6 +234,22 @@ async def save_progress(assessment_id: str, progress: dict) -> bool:
     return True
 
 
+async def set_status(assessment_id: str, status: str) -> bool:
+    """Set the assessment status directly (used to preserve SUBMITTED/COMPLETE
+    when an assessor edits progress, e.g. adds a competency-conversation record)."""
+    db = _firestore()
+    if db:
+        try:
+            await db.collection("rpl_assessments").document(assessment_id).update(
+                {"status": status})
+            return True
+        except Exception as e:
+            logger.error(f"Status update error: {e}")
+    if assessment_id in _store:
+        _store[assessment_id]["status"] = status
+    return True
+
+
 async def load_progress(assessment_id: str) -> Optional[dict]:
     """Load the latest progress for an assessment."""
     rec = await get_assessment(assessment_id)
