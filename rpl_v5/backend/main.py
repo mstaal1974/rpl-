@@ -452,9 +452,23 @@ async def health():
         "assessments_in_firestore": fs_count,
         "tokens_in_memory":        len(_tidx),
         "auth":                    await auth_stats(),
+        "ai_backend":              _ai_backend_label(),
         "llm_cost":                cost.totals(),
         "timestamp":               datetime.now(timezone.utc).isoformat(),
     }
+
+
+def _ai_backend_label() -> str:
+    """Which AI backend get_client() will use — for diagnosing 'AI not running'
+    without leaking the key. Mirrors get_client()'s selection logic."""
+    if os.getenv("ANTHROPIC_API_KEY"):
+        return "direct_api"   # Anthropic direct API — bypasses Vertex quota
+    project = (os.getenv("GOOGLE_CLOUD_PROJECT") or
+               os.getenv("ANTHROPIC_VERTEX_PROJECT_ID") or
+               os.getenv("GCLOUD_PROJECT"))
+    if project:
+        return f"vertex:{project}/{os.getenv('VERTEX_REGION', 'global')}"
+    return "unconfigured"
 
 
 # ══════════════════════════════════════════════════════════════════════════════

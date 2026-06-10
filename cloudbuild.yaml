@@ -49,6 +49,22 @@ steps:
 
   # 3) Deploy. Using --image (not --source) preserves the service's existing
   #    env vars (AUTH_SECRET, BASE_URL, etc.) and settings.
+  #
+  #    --update-secrets wires the ANTHROPIC_API_KEY secret from Secret Manager
+  #    onto the service as an env var, so get_client() takes the direct-API path
+  #    (bypassing the Vertex Claude quota). Creating the secret is NOT enough —
+  #    it must be referenced here or the container never sees it.
+  #    Prereqs (one-time):
+  #      * Secret exists: gcloud secrets create ANTHROPIC_API_KEY (done)
+  #      * The Cloud Run runtime service account can read it:
+  #          gcloud secrets add-iam-policy-binding ANTHROPIC_API_KEY \
+  #            --member="serviceAccount:<RUNTIME_SA>" \
+  #            --role="roles/secretmanager.secretAccessor"
+  #        (<RUNTIME_SA> defaults to <PROJECT_NUMBER>-compute@developer.gserviceaccount.com)
+  #
+  #    --cpu-always-allocated + --min-instances=1 keep CPU on after the HTTP
+  #    response returns, so the background auto-analysis task actually completes
+  #    instead of being throttled when the instance would otherwise scale down.
   - id: Deploy
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
     entrypoint: gcloud
@@ -59,4 +75,7 @@ steps:
       - '--image=${_AR_HOST}/$PROJECT_ID/${_AR_REPO}/${_SERVICE}:$COMMIT_SHA'
       - '--region=${_REGION}'
       - '--platform=managed'
+      - '--update-secrets=ANTHROPIC_API_KEY=ANTHROPIC_API_KEY:latest'
+      - '--no-cpu-throttling'
+      - '--min-instances=1'
       - '--quiet'
